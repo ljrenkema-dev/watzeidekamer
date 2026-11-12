@@ -169,5 +169,93 @@
       }
     ]
   },
-  "onafhankelijk": false
+  "onafhankelijk": false,
+  "onafhankelijke_eerste_lezing": {
+    "datum": "2026-11-12",
+    "oordeel": "aangepast",
+    "opmerking": "Onafhankelijke eerste lezing; het bestaande redactieverslag is niet vooraf gelezen. Geen grote of middelgrote fouten gevonden: citaten, getallen, data, sprekers, neutraliteit (genocide steeds als 'wat zij de genocide noemt', BDS-bewering als 'volgens hem') en evenwicht kloppen. check.py: OK.",
+    "bevindingen": [
+      {
+        "waar": "vak 4 normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "Verzoeningsprojecten tussen Israëli's en Palestijnen zijn een pad naar vrede.",
+        "nieuw": "Verzoeningsprojecten tussen Israëli's en Palestijnen zijn een pad naar een duurzame, vreedzame oplossing.",
+        "waarom": "Het citaat zegt 'een pad richting een duurzame en vreedzame oplossing', niet 'vrede' zonder meer."
+      },
+      {
+        "waar": "vak 4 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Ik vraag daar meer inzet voor.",
+        "nieuw": "Mijn amendement vraagt meer inzet.",
+        "waarom": "Het 'amendement' stond in de normale versie en het citaat, maar viel weg in makkelijk."
+      },
+      {
+        "waar": "vak 6 normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "Oekraïne krijgt 1,2 miljard voor de winter.",
+        "nieuw": "Oekraïne krijgt 1,2 miljard niet-militaire wintersteun toegezegd.",
+        "waarom": "Het citaat zegt 'zegt 1,2 miljard euro niet-militaire steun toe'; 'niet-militaire' en 'toezeggen' vielen weg."
+      },
+      {
+        "waar": "vak 3 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "Nederland kan en moet veel meer doen tegen genocide. Wij kunnen alle wapenhandel met Israël stoppen.",
+        "nieuw": "Nederland kan en moet veel meer doen tegen de genocide. Zoals: alle wapenhandel met Israël stoppen.",
+        "waarom": "Teunissen spreekt over 'een einde te maken aan de genocide' (in Gaza), niet over genocide in het algemeen; tekst ingekort tot binnen 16 woorden."
+      },
+      {
+        "waar": "vak 5 makkelijk, standpunt Dobbe makkelijk, kernpunt 5 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "Wil het kabinet daarmee in Europa beginnen? / … vredesgesprekken over Oekraïne begint.",
+        "nieuw": "Wil het kabinet in Europa vredesgesprekken voorstellen? / … het initiatief neemt voor vredesgesprekken over Oekraïne.",
+        "waarom": "Dobbe vraagt of het kabinet 'in Europa het initiatief' wil nemen voor onderhandelingen tussen Oekraïne en Rusland; het kabinet onderhandelt niet zelf."
+      },
+      {
+        "waar": "standpunt Klos makkelijk, kernpunt 2 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "het (Europese) verbod op Russisch gas",
+        "nieuw": "het Europese verbod op Russisch lng (vloeibaar gas)",
+        "waarom": "Het verbod waar Klos over spreekt gaat over 'lng', niet over al het Russische gas."
+      },
+      {
+        "waar": "standpunt Teunissen normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "Ze wil dat Nederland Oekraïne blijft steunen …",
+        "nieuw": "Ze wil dat Nederland Oekraïne militair en humanitair blijft steunen en ook inzet op de-escalatie en diplomatie. …",
+        "waarom": "Teunissen noemt beide kanten: steun 'militair en humanitair' én 'inzet op de-escalatie en diplomatie'."
+      },
+      {
+        "waar": "standpunt Teunissen makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Zij wil de Palestijnse Staat erkennen en de wapenhandel met Israël stoppen.",
+        "nieuw": "Zij wil dat Nederland de Palestijnse Staat erkent en alle wapenhandel met Israël stopt.",
+        "waarom": "Niet Teunissen maar 'Nederland' kan erkennen; en het gaat om 'alle directe en indirecte wapenhandel'."
+      },
+      {
+        "waar": "standpunt Van der Plas makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "Ze is ook kritisch over 1,2 miljard euro voor Oekraïne.",
+        "nieuw": "Ze is ook heel kritisch over 1,2 miljard euro voor Oekraïne.",
+        "waarom": "Zij zegt 'heel kritisch', zoals ook in de normale versie staat."
+      }
+    ]
+  }
 }
