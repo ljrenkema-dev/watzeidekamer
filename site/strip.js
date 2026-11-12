@@ -73,7 +73,7 @@ function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&l
 function wrapText(t,max){
   const words=String(t).split(/\s+/);const lines=[];let cur="";
   for(const w of words){ if((cur+" "+w).trim().length>max && cur){lines.push(cur);cur=w;} else cur=(cur+" "+w).trim(); }
-  if(cur)lines.push(cur);return lines.slice(0,6);
+  if(cur)lines.push(cur);return lines;
 }
 const BG = {
   blij:(id)=>`<g stroke="#1d1b2e" stroke-width="1" opacity=".18">${Array.from({length:18},(_,i)=>{const a=i/18*Math.PI*2;return `<line x1="${200+Math.cos(a)*60}" y1="${190+Math.sin(a)*60}" x2="${200+Math.cos(a)*260}" y2="${190+Math.sin(a)*260}"/>`}).join("")}</g>`,
@@ -89,25 +89,30 @@ function panelSVG(p,i,lookOf){
   const narr=/verteller|voorzitter/i.test(p.spreker||"");
   const L=lookOf(p.spreker);
   const flip=i%2===1;
-  const lines=wrapText(p.tekst,19);
-  const bh=26+lines.length*21, bw=222;
-  const bx=flip?16:162, by=16;
-  const text=lines.map((l,k)=>`<tspan x="${bx+bw/2}" dy="${k?21:0}">${esc(l)}</tspan>`).join("");
-  const tailX=flip?bx+bw-40:bx+40;
-  const charX=flip?250:40;
+  /* Tekst altijd volledig in de ballon: kies de grootste letter waarbij het past.
+     Tekens per regel zijn ruim geschat (0,62 x lettergrootte), zodat ook een andere
+     lettersoort (als de webfont niet laadt) binnen de rand blijft. */
+  const fit=(inner,sizes,maxLines)=>{for(const fs of sizes){const ls=wrapText(p.tekst,Math.floor(inner/(fs*0.62)));
+      if(ls.length<=maxLines||fs===sizes[sizes.length-1])return {fs,lh:Math.round(fs*1.3),lines:ls};}};
+  const bw=250, bx=flip?12:138, by=14;
+  const B=narr?fit(336,[18,16,14,13],4):fit(bw-26,[16,15,14,13],4);
+  const lines=B.lines, bh=24+lines.length*B.lh;
+  const text=lines.map((l,k)=>`<tspan x="${bx+bw/2}" dy="${k?B.lh:0}">${esc(l)}</tspan>`).join("");
+  const tailX=flip?bx+bw-44:bx+44;
+  const charX=flip?250:40, charY=Math.max(110,Math.min(168,by+bh+40));
   let fig="";
   if(narr){
-    fig=`<g transform="translate(140 150) scale(1.1)"><rect x="0" y="40" width="110" height="60" fill="#c9b48a" stroke="#1d1b2e" stroke-width="2"/><rect x="10" y="20" width="90" height="24" fill="#e7d9b8" stroke="#1d1b2e" stroke-width="2"/><circle cx="55" cy="10" r="10" fill="#e7c34a" stroke="#1d1b2e" stroke-width="2"/></g>`;
+    fig=`<g transform="translate(140 ${Math.max(150,16+bh+14)}) scale(1.1)"><rect x="0" y="40" width="110" height="60" fill="#c9b48a" stroke="#1d1b2e" stroke-width="2"/><rect x="10" y="20" width="90" height="24" fill="#e7d9b8" stroke="#1d1b2e" stroke-width="2"/><circle cx="55" cy="10" r="10" fill="#e7c34a" stroke="#1d1b2e" stroke-width="2"/></g>`;
   } else {
-    fig=`<g transform="translate(${charX} 110) scale(1.55)${flip?" translate(100 0) scale(-1 1)":""}">${character(L,emo)}</g>`;
+    fig=`<g transform="translate(${charX} ${charY}) scale(1.55)${flip?" translate(100 0) scale(-1 1)":""}">${character(L,emo)}</g>`;
   }
   const bubble = narr
     ? `<rect x="20" y="16" width="360" height="${bh}" fill="#fff8d6" stroke="#1d1b2e" stroke-width="2.5"/>
-       <text x="200" y="${16+28}" text-anchor="middle" font-family="Atkinson Hyperlegible,system-ui,sans-serif" font-size="18" font-weight="700" fill="#1d1b2e">${lines.map((l,k)=>`<tspan x="200" dy="${k?22:0}">${esc(l)}</tspan>`).join("")}</text>`
-    : `<rect x="${bx}" y="${by}" width="${bw}" height="${bh}" rx="${Math.min(40,bh/2)}" fill="#fff" stroke="#1d1b2e" stroke-width="2.5"/>
-       <path d="M${tailX-10} ${by+bh-2} L${flip?tailX+30:tailX-30} ${by+bh+34} L${tailX+12} ${by+bh-2}" fill="#fff" stroke="#1d1b2e" stroke-width="2.5" stroke-linejoin="round"/>
+       <text x="200" y="${16+12+B.fs}" text-anchor="middle" font-family="Atkinson Hyperlegible,system-ui,sans-serif" font-size="${B.fs}" font-weight="700" fill="#1d1b2e">${lines.map((l,k)=>`<tspan x="200" dy="${k?B.lh:0}">${esc(l)}</tspan>`).join("")}</text>`
+    : `<rect x="${bx}" y="${by}" width="${bw}" height="${bh}" rx="${Math.min(36,bh/2)}" fill="#fff" stroke="#1d1b2e" stroke-width="2.5"/>
+       <path d="M${tailX-10} ${by+bh-2} L${flip?tailX+28:tailX-28} ${by+bh+30} L${tailX+12} ${by+bh-2}" fill="#fff" stroke="#1d1b2e" stroke-width="2.5" stroke-linejoin="round"/>
        <path d="M${tailX-8} ${by+bh-2} L${tailX+10} ${by+bh-2}" stroke="#fff" stroke-width="4"/>
-       <text x="${bx+bw/2}" y="${by+30}" text-anchor="middle" font-family="Atkinson Hyperlegible,system-ui,sans-serif" font-size="16" font-weight="700" fill="#1d1b2e">${text}</text>`;
+       <text x="${bx+bw/2}" y="${by+10+B.fs}" text-anchor="middle" font-family="Atkinson Hyperlegible,system-ui,sans-serif" font-size="${B.fs}" font-weight="700" fill="#1d1b2e">${text}</text>`;
   const name = narr?"":`<g><rect x="${flip?240:10}" y="266" width="150" height="24" fill="#1d1b2e"/><text x="${flip?315:85}" y="283" text-anchor="middle" font-family="Zen Maru Gothic,system-ui,sans-serif" font-size="14" font-weight="900" fill="#fff">${esc(p.spreker).slice(0,20)}</text></g>`;
   return `<svg viewBox="0 0 400 300" role="img" aria-label="${esc((p.spreker||"")+": "+p.tekst)}">
     <defs><pattern id="tone${i}" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.4" fill="#1d1b2e" opacity=".25"/></pattern>

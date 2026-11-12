@@ -84,3 +84,18 @@ html[data-taal="makkelijk"] .lv-n{display:none}
 .taalknop{font:inherit;font-size:14px;font-weight:700;border:2px solid var(--ink);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer}
 .taalknop[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
 .taalknop:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+/* politici */
+.topnav{display:flex;gap:12px;align-items:center}
+.topnav a{font-weight:700}
+.person{display:flex;gap:16px;align-items:center}
+.person svg{width:96px;height:120px;flex:0 0 96px;background:#fff;border-radius:12px;border:2px solid var(--line)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.stats div{border:2px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--panel);display:flex;flex-direction:column}
+.stats b{font-family:var(--display);font-size:1.5rem;font-variant-numeric:tabular-nums}
+.stats span{color:var(--muted);font-size:14px}
+@media (max-width:520px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.quote{margin:8px 0 0;padding:6px 12px;border-left:4px solid var(--marker);color:var(--muted);font-size:15px}
+.names{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:6px 16px}
+.names .note{font-size:13px}
+.sp h3 a{color:var(--ink)}

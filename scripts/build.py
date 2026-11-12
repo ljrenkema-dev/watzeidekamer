@@ -36,6 +36,73 @@ def twee(x, tag="span", cls=""):
     return f'<{tag} class="lv-n {cls}">{a}</{tag}><{tag} class="lv-m {cls}">{b}</{tag}>'
 
 
+def slug(naam):
+    import re, unicodedata
+    t = unicodedata.normalize("NFKD", naam).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def politici(strips, uiterlijk, koppeling):
+    """Pagina per politicus met activiteit uit alle verwerkte agendapunten."""
+    mensen = {}
+    for f in sorted((ROOT / "data" / "agendapunten").glob("*.json")):
+        punt = json.loads(f.read_text())
+        strip = strips.get(punt["id"])
+        for b in punt["beurten"]:
+            if b["voorzitter"]:
+                continue
+            sp = b["spreker"]
+            m = mensen.setdefault(sp["naam"], {"spreker": sp, "ids": set(), "debatten": {}})
+            m["ids"].add(sp["id"]); m["spreker"] = sp
+            d = m["debatten"].setdefault(punt["id"], {"punt": punt, "strip": strip, "beurten": 0, "interrupties": 0, "woorden": 0})
+            d["beurten"] += 1; d["interrupties"] += b["rol"] == "interrumpant"; d["woorden"] += len(b["tekst"].split())
+    out = ROOT / "public" / "p"; out.mkdir(parents=True, exist_ok=True)
+    per_partij = {}
+    for naam, m in mensen.items():
+        sp = m["spreker"]
+        u = next((uiterlijk.get(koppeling.get(i, "")) for i in m["ids"] if koppeling.get(i)), None)
+        kenm = {k: u.get(k) for k in ("gezicht", "haarkleur", "kapsel", "bril", "baard", "huid", "leeftijd", "spiegel")} if u else None
+        ds = sorted(m["debatten"].values(), key=lambda d: d["punt"]["begin"], reverse=True)
+        tot = {k: sum(d[k] for d in ds) for k in ("beurten", "interrupties", "woorden")}
+        items = []
+        for d in ds:
+            punt, strip = d["punt"], d["strip"]
+            v = punt["vergadering"]
+            kop = (f'<a href="../d/{punt["id"]}.html">{twee(strip["titel"])}</a>' if strip else e(punt["titel"]))
+            standpunt = next((x["standpunt"] for x in (strip or {}).get("sprekers", []) if x["id"] in m["ids"]), None)
+            citaten = [x["citaat"] for x in (strip or {}).get("strip", []) if x["spreker_id"] in m["ids"]]
+            items.append(f"""<li class="item"><div class="meta"><span>{datum(v['datum'])}</span><span class="tag">{e(v['soort'])}</span>
+<span>{d['beurten']} keer gesproken{f", {d['interrupties']} interrupties" if d['interrupties'] else ""}</span></div>
+<h3>{kop}</h3>{('<p class="note">Agendapunt: ' + e(punt['titel']) + '</p>') if strip else '<p class="note">Nog geen samenvatting voor dit debat.</p>'}
+{twee(standpunt, "p") if standpunt else ""}{"".join(f'<blockquote class="quote">“{e(c)}”</blockquote>' for c in citaten)}</li>""")
+        wat = sp["fractie"] or sp["functie"]
+        body = f"""<main style="display:flex;flex-direction:column;gap:20px">
+<div class="person"><svg id="av" viewBox="10 10 80 100" aria-hidden="true"></svg><div style="min-width:0"><h1>{e(naam)}</h1>
+<p class="note">{e(sp['functie'])}{(' · ' + e(sp['fractie'])) if sp['fractie'] else ''}</p></div></div>
+<div class="stats"><div><b>{len(ds)}</b><span>debatten</span></div><div><b>{tot['beurten']}</b><span>spreekbeurten</span></div>
+<div><b>{tot['interrupties']}</b><span>interrupties</span></div><div><b>{f"{tot['woorden']:,}".replace(",", ".")}</b><span>woorden</span></div></div>
+<p class="note">Geteld over de verslagen die deze site heeft verwerkt, niet over de hele zittingsperiode.</p>
+<h2>Activiteit</h2><ul class="list">{''.join(items)}</ul></main>"""
+        data = json.dumps({"id": sorted(m["ids"])[0], "fractie": sp["fractie"], "u": kenm}, ensure_ascii=False)
+        js = f'<script src="../strip.js"></script><script>const P={data};document.getElementById("av").innerHTML=character(makeLook(P.id,P.fractie,P.u),"neutraal");</script>'
+        (out / f"{slug(naam)}.html").write_text(page(f"{naam} – Wat zei de Kamer?", body, js, root="../"))
+        per_partij.setdefault(sp["fractie"] or "Kabinet", []).append((naam, len(ds), tot["beurten"]))
+    blokken = "".join(
+        f'<section><h2>{e(partij)}</h2><ul class="names">' +
+        "".join(f'<li><a href="{slug(n)}.html">{e(n)}</a> <span class="note">{d} debat{"ten" if d != 1 else ""}, {b} spreekbeurten</span></li>'
+                for n, d, b in sorted(leden, key=lambda x: -x[2])) + "</ul></section>"
+        for partij, leden in sorted(per_partij.items(), key=lambda x: (x[0] == "Kabinet", x[0].lower())))
+    body = f"""<main style="display:flex;flex-direction:column;gap:20px"><h1>Politici</h1>
+<p class="lede">Iedereen die sprak in de debatten op deze site, per partij. Klik op een naam voor het overzicht van zijn of haar activiteit.</p>
+<div class="filters"><label for="pq" style="position:absolute;left:-9999px">Zoek een naam</label><input id="pq" type="search" placeholder="Zoek een naam"></div>
+<div class="partijen">{blokken}</div></main>"""
+    js = """<script>const q=document.getElementById('pq');q.addEventListener('input',()=>{const t=q.value.trim().toLowerCase();
+document.querySelectorAll('.names li').forEach(li=>li.hidden=t&&!li.textContent.toLowerCase().includes(t));
+document.querySelectorAll('.partijen section').forEach(s=>s.hidden=![...s.querySelectorAll('li')].some(li=>!li.hidden));});</script>"""
+    (out / "index.html").write_text(page("Politici – Wat zei de Kamer?", body, js, root="../"))
+    return len(mensen)
+
+
 def datum(iso):
     j, m, d = iso[:10].split("-")
     return f"{int(d)} {MAANDEN[int(m) - 1]} {j}"
@@ -51,7 +118,7 @@ def page(title, body, scripts="", root=""):
 <link rel="stylesheet" href="{root}style.css">
 <script>try{{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}}catch(e){{document.documentElement.dataset.taal="normaal"}}</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></header>
+<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><a href="{root}p/index.html">Politici</a><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
 {body}
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer.</footer>
 </div>{scripts}<script>
@@ -96,7 +163,7 @@ def debat(punt, strip):
     bron = f"https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Verslag({v['verslag_id']})/resource"
     kaarten = "".join(
         f'<div class="sp"><svg data-avatar="{e(s["id"])}" data-fractie="{e(s["fractie"])}" viewBox="10 10 80 90" aria-hidden="true"></svg>'
-        f'<div style="min-width:0"><h3>{e(s["naam"])}</h3><div class="party">{e(s["fractie"] or s["functie"])}</div>{twee(s["standpunt"], "p")}</div></div>'
+        f'<div style="min-width:0"><h3><a href="../p/{slug(s["naam"])}.html">{e(s["naam"])}</a></h3><div class="party">{e(s["fractie"] or s["functie"])}</div>{twee(s["standpunt"], "p")}</div></div>'
         for s in sprekers if not s.get("alleen_strip"))
     kp = strip["kernpunten"]
     kp = kp if isinstance(kp, dict) else {"normaal": kp, "makkelijk": kp}
@@ -177,6 +244,12 @@ def main():
                               *[s["naam"] + " " + s["fractie"] for s in sprekers]]),
         })
     items.sort(key=lambda x: x["begin"], reverse=True)
+    goed = {i["id"]: json.loads((ROOT / "data" / "strips" / f"{i['id']}.json").read_text()) for i in items}
+    def lees(naam):
+        f = ROOT / "data" / naam
+        return json.loads(f.read_text()) if f.exists() else {}
+    n = politici(goed, lees("uiterlijk.json"), lees("sprekers.json"))
+    print(f"{n} politicuspagina's")
     (OUT / "index.html").write_text(index(items))
     print(f"{len(items)} debatten gepubliceerd in public/")
 
