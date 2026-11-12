@@ -22,16 +22,16 @@ def datum(iso):
     return f"{int(d)} {MAANDEN[int(m) - 1]} {j}"
 
 
-def page(title, body, scripts=""):
+def page(title, body, scripts="", root=""):
     return f"""<!doctype html>
 <html lang="nl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{e(title)}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="{root}style.css">
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="/">Wat zei de <mark>Kamer?</mark></a><span class="note">Tweede Kamer in makkelijke taal</span></header>
+<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><span class="note">Tweede Kamer in makkelijke taal</span></header>
 {body}
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in makkelijke taal gezet. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer.</footer>
 </div>{scripts}</body></html>"""
@@ -85,8 +85,8 @@ def debat(punt, strip):
 <p class="note">De strip laat alleen zien wat in het verslag staat. <a href="{e(bron)}">Bekijk het verslag van de Tweede Kamer (XML)</a>.</p>
 </main>"""
     data = json.dumps({"sprekers": sprekers, "strip": vakken}, ensure_ascii=False).replace("</", "<\\/")
-    scripts = f'<script src="/strip.js"></script><script>renderStrip({data});</script>'
-    return page(f"{strip['titel']} – Wat zei de Kamer?", body, scripts), sprekers
+    scripts = f'<script src="../strip.js"></script><script>renderStrip({data});</script>'
+    return page(f"{strip['titel']} – Wat zei de Kamer?", body, scripts, root="../"), sprekers
 
 
 def index(items):
@@ -95,7 +95,7 @@ def index(items):
         f'<li class="item" data-zoek="{e(it["zoek"].lower())}" data-fracties="{e("|".join(it["fracties"]))}">'
         f'<div class="meta"><span>{datum(it["datum"])}</span><span class="tag">{e(it["soort"])}</span>'
         f'{"<span class=\"tag warn\">Voorlopig</span>" if it["voorlopig"] else ""}</div>'
-        f'<h3><a href="/d/{it["id"]}.html">{e(it["titel"])}</a></h3><p>{e(it["lead"])}</p>'
+        f'<h3><a href="d/{it["id"]}.html">{e(it["titel"])}</a></h3><p>{e(it["lead"])}</p>'
         f'<div class="chips">{"".join(f"<span class=chip>{e(f)}</span>" for f in it["fracties"])}</div></li>'
         for it in items)
     opties = "".join(f'<option value="{e(p)}">{e(p)}</option>' for p in partijen)
