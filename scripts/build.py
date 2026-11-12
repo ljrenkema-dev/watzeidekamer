@@ -228,18 +228,28 @@ def debat(punt, strip):
         if sid not in gekozen and (len(gekozen) < 6 or (sid in in_strip or sid in kabinet) and len(gekozen) < 9):
             gekozen.append(sid)
     per_id = {s["id"]: s for s in sprekers}
+    eerste_vak = {}
+    for p_ in strip["strip"]:
+        if p_["spreker_id"] and p_["spreker_id"] not in eerste_vak:
+            eerste_vak[p_["spreker_id"]] = p_
     def kaart(sid):
         sp = per_id.get(sid) or {**bekend[sid], "id": sid}
         n = beurten_per.get(sid, 0)
-        rol = "in de strip" if sid in in_strip else ""
-        return (f'<div class="sp"><svg data-avatar="{e(sid)}" data-fractie="{e(sp["fractie"])}" viewBox="10 10 80 90" aria-hidden="true"></svg>'
+        vak = eerste_vak.get(sid)
+        emo = vak["emotie"] if vak else "neutraal"
+        ballon = (f'<div class="ballon">{twee(vak["tekst"])}</div>' if vak else "")
+        standpunt = twee(sp["standpunt"], "p", "standpunt") if sp.get("standpunt") else ""
+        return (f'<div class="sp kaart" data-kaart="{e(sid)}">{ballon}'
+                f'<div class="kaart-body"><svg data-avatar="{e(sid)}" data-fractie="{e(sp["fractie"])}" data-emo="{e(emo)}" viewBox="10 10 80 90" aria-hidden="true"></svg>'
                 f'<div style="min-width:0"><h3><a href="../p/{slug(sp["naam"])}.html">{e(sp["naam"])}</a></h3>'
-                f'<div class="party">{e(sp["fractie"] or sp["functie"])}</div>'
-                f'<p class="note">{n} keer gesproken{" · " + rol if rol else ""}</p></div></div>')
+                f'<div class="party">{e(sp["fractie"] or sp["functie"])}</div>{standpunt}'
+                f'<p class="note">{n} keer gesproken</p></div></div></div>')
     kaarten = "".join(kaart(sid) for sid in gekozen)
+    aantal_partijen = len({x["fractie"] for x in sprekers if x["fractie"] and not x.get("alleen_strip")})
+    heeft_kabinet = any(not x["fractie"] and not x.get("alleen_strip") for x in sprekers)
     meer = len(woorden_per) - len(gekozen)
     kaarten_noot = (f'<p class="note">Nog {meer} andere spreker{"s" if meer != 1 else ""} in dit debat; '
-                    f'hun partij staat in het overzicht hierboven.</p>' if meer > 0 else "")
+                    f'hun partij staat bij “Alle standpunten”.</p>' if meer > 0 else "")
     # figuren voor kaartjes van sprekers die niet in 'sprekers' stonden
     for sid in gekozen:
         if sid not in per_id:
@@ -256,9 +266,9 @@ def debat(punt, strip):
 <h1>{twee(strip['titel'])}</h1>
 <p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
 {twee(strip['samenvatting'], "p", "summary")}
-<h2>Wie vindt wat?</h2>
-<div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{standpunten}</tbody></table></div>
-<h3 class="kop-klein">Wie zie je in de strip?</h3><div class="speakers">{kaarten}</div>{kaarten_noot}
+<h2>Wie vindt wat?</h2><div class="speakers">{kaarten}</div>{kaarten_noot}
+<details class="alle-standpunten"><summary>Alle standpunten ({aantal_partijen} {"partij" if aantal_partijen == 1 else "partijen"}{" en kabinet" if heeft_kabinet else ""})</summary>
+<div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{standpunten}</tbody></table></div></details>
 <h2>Belangrijk om te weten</h2>{kern}
 {'<h2>Moeilijke woorden</h2><div class="words">' + woorden + '</div>' if woorden else ''}
 <h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>
