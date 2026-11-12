@@ -17,6 +17,21 @@ VOORLOPIG = {"Casco", "Ongecorrigeerd"}
 e = html.escape
 
 
+def niv(x, n):
+    """Tekst voor taalniveau n ('normaal' of 'makkelijk'); oude strips hebben één string."""
+    if isinstance(x, dict):
+        return x.get(n) or x.get("normaal") or x.get("makkelijk") or ""
+    return x
+
+
+def twee(x, tag="span", cls=""):
+    """Beide taalniveaus als twee elementen; CSS toont er één."""
+    a, b = e(niv(x, "normaal")), e(niv(x, "makkelijk"))
+    if a == b:
+        return f'<{tag} class="{cls}">{a}</{tag}>'
+    return f'<{tag} class="lv-n {cls}">{a}</{tag}><{tag} class="lv-m {cls}">{b}</{tag}>'
+
+
 def datum(iso):
     j, m, d = iso[:10].split("-")
     return f"{int(d)} {MAANDEN[int(m) - 1]} {j}"
@@ -30,11 +45,17 @@ def page(title, body, scripts="", root=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="{root}style.css">
+<script>try{{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}}catch(e){{document.documentElement.dataset.taal="normaal"}}</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><span class="note">Tweede Kamer in normale taal</span></header>
+<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></header>
 {body}
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer.</footer>
-</div>{scripts}</body></html>"""
+</div>{scripts}<script>
+(function(){{const k=document.getElementById("taalknop");
+function zet(t){{document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
+try{{localStorage.setItem("taal",t)}}catch(e){{}};if(window.renderStrip&&window.STRIP)renderStrip(window.STRIP);}}
+k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makkelijk"?"normaal":"makkelijk"));zet(document.documentElement.dataset.taal);}})();
+</script></body></html>"""
 
 
 def wie(sp):
@@ -64,29 +85,35 @@ def debat(punt, strip):
     for p in strip["strip"]:
         sp = bekend.get(p["spreker_id"]) if p["spreker_id"] else None
         vakken.append({"spreker": sp["verslagnaam"] if sp else "Verteller", "wie": wie(sp) if sp else "",
-                       "emotie": p["emotie"], "tekst": p["tekst"], "citaat": p["citaat"]})
+                       "emotie": p["emotie"], "citaat": p["citaat"],
+                       "tekst": {"normaal": niv(p["tekst"], "normaal"), "makkelijk": niv(p["tekst"], "makkelijk")}})
     status = (f'<span class="tag warn">Voorlopig verslag</span>' if v["status"] in VOORLOPIG
               else '<span class="tag">Gecorrigeerd verslag</span>')
     bron = f"https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Verslag({v['verslag_id']})/resource"
     kaarten = "".join(
         f'<div class="sp"><svg data-avatar="{e(s["id"])}" data-fractie="{e(s["fractie"])}" viewBox="10 10 80 90" aria-hidden="true"></svg>'
-        f'<div style="min-width:0"><h3>{e(s["naam"])}</h3><div class="party">{e(s["fractie"] or s["functie"])}</div><p>{e(s["standpunt"])}</p></div></div>'
+        f'<div style="min-width:0"><h3>{e(s["naam"])}</h3><div class="party">{e(s["fractie"] or s["functie"])}</div>{twee(s["standpunt"], "p")}</div></div>'
         for s in sprekers if not s.get("alleen_strip"))
+    kp = strip["kernpunten"]
+    kp = kp if isinstance(kp, dict) else {"normaal": kp, "makkelijk": kp}
+    lijst = lambda xs: "".join(f"<li>{e(k)}</li>" for k in xs)
+    kern = (f'<ul class="points">{lijst(kp["normaal"])}</ul>' if kp["normaal"] == kp["makkelijk"] else
+            f'<ul class="points lv-n">{lijst(kp["normaal"])}</ul><ul class="points lv-m">{lijst(kp["makkelijk"])}</ul>')
     woorden = "".join(f'<div class="word"><b>{e(w["woord"])}</b>{e(w["uitleg"])}</div>' for w in strip.get("woorden", []))
     body = f"""<main class="out" style="display:flex;flex-direction:column;gap:20px">
 <div class="meta"><span>{datum(v['datum'])}</span><span class="tag">{e(v['soort'])}</span>{status}</div>
-<h1>{e(strip['titel'])}</h1>
+<h1>{twee(strip['titel'])}</h1>
 <p class="note">Agendapunt: {e(punt['titel'])}</p>
-<p class="summary">{e(strip['samenvatting'])}</p>
+{twee(strip['samenvatting'], "p", "summary")}
 <h2>Wie vindt wat?</h2><div class="speakers">{kaarten}</div>
-<h2>Belangrijk om te weten</h2><ul class="points">{''.join(f'<li>{e(k)}</li>' for k in strip['kernpunten'])}</ul>
+<h2>Belangrijk om te weten</h2>{kern}
 {'<h2>Moeilijke woorden</h2><div class="words">' + woorden + '</div>' if woorden else ''}
 <h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>
 <p class="note">De strip laat alleen zien wat in het verslag staat. <a href="{e(bron)}">Bekijk het verslag van de Tweede Kamer (XML)</a>.</p>
 </main>"""
     data = json.dumps({"sprekers": sprekers, "strip": vakken}, ensure_ascii=False).replace("</", "<\\/")
-    scripts = f'<script src="../strip.js"></script><script>renderStrip({data});</script>'
-    return page(f"{strip['titel']} – Wat zei de Kamer?", body, scripts, root="../"), sprekers
+    scripts = f'<script src="../strip.js"></script><script>window.STRIP={data};renderStrip(window.STRIP);</script>'
+    return page(f"{niv(strip['titel'], 'normaal')} – Wat zei de Kamer?", body, scripts, root="../"), sprekers
 
 
 def index(items):
@@ -95,7 +122,7 @@ def index(items):
         f'<li class="item" data-zoek="{e(it["zoek"].lower())}" data-fracties="{e("|".join(it["fracties"]))}">'
         f'<div class="meta"><span>{datum(it["datum"])}</span><span class="tag">{e(it["soort"])}</span>'
         f'{"<span class=\"tag warn\">Voorlopig</span>" if it["voorlopig"] else ""}</div>'
-        f'<h3><a href="d/{it["id"]}.html">{e(it["titel"])}</a></h3><p>{e(it["lead"])}</p>'
+        f'<h3><a href="d/{it["id"]}.html">{twee(it["titel"])}</a></h3>{twee(it["lead"], "p")}'
         f'<div class="chips">{"".join(f"<span class=chip>{e(f)}</span>" for f in it["fracties"])}</div></li>'
         for it in items)
     opties = "".join(f'<option value="{e(p)}">{e(p)}</option>' for p in partijen)
@@ -137,10 +164,12 @@ def main():
         (OUT / "d" / f"{pid}.html").write_text(html_)
         v = punt["vergadering"]
         items.append({
-            "id": pid, "titel": strip["titel"], "datum": v["datum"], "soort": v["soort"], "begin": punt["begin"],
-            "voorlopig": v["status"] in VOORLOPIG, "lead": strip["samenvatting"].split(". ")[0].rstrip(".") + ".",
+            "id": pid, "titel": strip["titel"] if isinstance(strip["titel"], dict) else {"normaal": strip["titel"]}, "datum": v["datum"], "soort": v["soort"], "begin": punt["begin"],
+            "voorlopig": v["status"] in VOORLOPIG, "lead": {n: niv(strip["samenvatting"], n).split(". ")[0].rstrip(".") + "." for n in ("normaal", "makkelijk")},
             "fracties": sorted({s["fractie"] for s in sprekers if s["fractie"]}),
-            "zoek": " ".join([strip["titel"], punt["titel"], strip["samenvatting"], *strip["kernpunten"],
+            "zoek": " ".join([niv(strip["titel"], "normaal"), niv(strip["titel"], "makkelijk"), punt["titel"],
+                              niv(strip["samenvatting"], "normaal"), niv(strip["samenvatting"], "makkelijk"),
+                              *[k for v in (strip["kernpunten"].values() if isinstance(strip["kernpunten"], dict) else [strip["kernpunten"]]) for k in v],
                               *[s["naam"] + " " + s["fractie"] for s in sprekers]]),
         })
     items.sort(key=lambda x: x["begin"], reverse=True)

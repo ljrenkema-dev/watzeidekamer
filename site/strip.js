@@ -127,7 +127,8 @@ function renderStrip(d){
   const looks={};for(const s of d.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
   const lookOf=n=>looks[n]||LOOKS[0];
   document.querySelectorAll("[data-avatar]").forEach(el=>{const s=d.sprekers.find(x=>x.id===el.dataset.avatar);el.innerHTML=avatar(makeLook(el.dataset.avatar,el.dataset.fractie,s&&s.uiterlijk));});
-  document.getElementById("strip").innerHTML=d.strip.map((p,i)=>`<figure class="panel" style="margin:0">${panelSVG(p,i,lookOf)}<figcaption class="src"><b>Echt gezegd${p.spreker==="Verteller"?"":" door "+esc(p.wie)}:</b> “${esc(p.citaat)}”</figcaption></figure>`).join("");
+  const taal=document.documentElement.dataset.taal==="makkelijk"?"makkelijk":"normaal";
+  document.getElementById("strip").innerHTML=d.strip.map(p0=>({...p0,tekst:typeof p0.tekst==="object"?(p0.tekst[taal]||p0.tekst.normaal||p0.tekst.makkelijk):p0.tekst})).map((p,i)=>`<figure class="panel" style="margin:0">${panelSVG(p,i,lookOf)}<figcaption class="src"><b>Echt gezegd${p.spreker==="Verteller"?"":" door "+esc(p.wie)}:</b> “${esc(p.citaat)}”</figcaption></figure>`).join("");
 }
 
 /* Figuur getekend naar kenmerken uit het officiële portret (data/uiterlijk.json).

@@ -1,49 +1,181 @@
 {
   "agendapunt": "37fd2153-4967-4c37-b0bd-50c7266f8d77",
   "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
-  "niveau": "B1",
-  "titel": "Hoe voert de minister moties over Israël en Sudan uit?",
-  "samenvatting": "De Kamer sprak kort over de Europese ministers van Buitenlandse Zaken. Die vergaderen op 16 november 2026. De SP vroeg naar EU-maatregelen tegen het E1-project van Israël. DENK vroeg naar sancties tegen leiders van de RSF in Sudan. De minister blijft druk zetten, maar noemt geen losse maatregelen. Hij gaf ook zijn oordeel over zeven moties.",
+  "titel": {
+    "normaal": "",
+    "makkelijk": "Hoe voert de minister moties over Israël en Sudan uit?"
+  },
+  "samenvatting": {
+    "normaal": "",
+    "makkelijk": "De Kamer sprak kort over de Europese ministers van Buitenlandse Zaken. Die vergaderen op 16 november 2026. De SP vroeg naar EU-maatregelen tegen het E1-project van Israël. DENK vroeg naar sancties tegen leiders van de RSF in Sudan. De minister blijft druk zetten, maar noemt geen losse maatregelen. Hij gaf ook zijn oordeel over zeven moties."
+  },
   "sprekers": [
-    {"id": "b5363002-d06e-4813-9c05-86fe74185a56", "standpunt": "De bouw van het E1-project gaat volgens de SP nu beginnen. Zij wil weten welke EU-maatregelen de minister voorstelt."},
-    {"id": "ed1edc27-18bb-47cd-a617-01bcbec765a2", "standpunt": "DENK wil dat de minister serieus werkt aan sancties tegen de RSF. DENK wil ook meer druk op de Verenigde Arabische Emiraten."},
-    {"id": "3e045e18-daa2-48d2-8310-2999e2a47020", "standpunt": "De SGP wil de oorlogseconomie in Sudan tegengaan. Over druk op de Emiraten laat de SGP veel aan de minister over."},
-    {"id": "6f866b57-0e0a-4849-8d53-445efe2dfeba", "standpunt": "De minister blijft in de EU vragen om druk op Israël. Over sancties tegen personen zegt hij weinig. Die moeten een verrassing zijn."}
+    {
+      "id": "b5363002-d06e-4813-9c05-86fe74185a56",
+      "standpunt": {
+        "normaal": "",
+        "makkelijk": "De bouw van het E1-project gaat volgens de SP nu beginnen. Zij wil weten welke EU-maatregelen de minister voorstelt."
+      }
+    },
+    {
+      "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "standpunt": {
+        "normaal": "",
+        "makkelijk": "DENK wil dat de minister serieus werkt aan sancties tegen de RSF. DENK wil ook meer druk op de Verenigde Arabische Emiraten."
+      }
+    },
+    {
+      "id": "3e045e18-daa2-48d2-8310-2999e2a47020",
+      "standpunt": {
+        "normaal": "",
+        "makkelijk": "De SGP wil de oorlogseconomie in Sudan tegengaan. Over druk op de Emiraten laat de SGP veel aan de minister over."
+      }
+    },
+    {
+      "id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+      "standpunt": {
+        "normaal": "",
+        "makkelijk": "De minister blijft in de EU vragen om druk op Israël. Over sancties tegen personen zegt hij weinig. Die moeten een verrassing zijn."
+      }
+    }
   ],
-  "kernpunten": [
-    "Volgens de SP is de aanbesteding van het E1-project afgelopen.",
-    "De minister vraagt in de Raad opnieuw om druk op Israël.",
-    "Hij verwijst naar een breed pakket aan maatregelen.",
-    "De minister voert de motie over sancties tegen de RSF uit.",
-    "Hij zegt niet hoe, want sancties moeten een verrassing zijn.",
-    "DENK vroeg de SGP om meer druk op de Emiraten te steunen.",
-    "Een motie over de EU-terrorismelijst ontraadt de minister.",
-    "Hij zegt: er is geen juridische basis en geen unanimiteit.",
-    "De minister ontraadt de moties 3499, 3500, 3501 en 3504.",
-    "De moties 3502, 3503 en 3505 krijgen oordeel Kamer."
-  ],
+  "kernpunten": {
+    "normaal": [],
+    "makkelijk": [
+      "Volgens de SP is de aanbesteding van het E1-project afgelopen.",
+      "De minister vraagt in de Raad opnieuw om druk op Israël.",
+      "Hij verwijst naar een breed pakket aan maatregelen.",
+      "De minister voert de motie over sancties tegen de RSF uit.",
+      "Hij zegt niet hoe, want sancties moeten een verrassing zijn.",
+      "DENK vroeg de SGP om meer druk op de Emiraten te steunen.",
+      "Een motie over de EU-terrorismelijst ontraadt de minister.",
+      "Hij zegt: er is geen juridische basis en geen unanimiteit.",
+      "De minister ontraadt de moties 3499, 3500, 3501 en 3504.",
+      "De moties 3502, 3503 en 3505 krijgen oordeel Kamer."
+    ]
+  },
   "woorden": [
-    {"woord": "tweeminutendebat", "uitleg": "Een kort debat. Kamerleden kunnen dan moties indienen."},
-    {"woord": "Raad Buitenlandse Zaken (RBZ)", "uitleg": "Vergadering van de ministers van Buitenlandse Zaken van de EU-landen."},
-    {"woord": "motie", "uitleg": "Een verzoek van de Kamer aan de regering."},
-    {"woord": "aangenomen motie", "uitleg": "Een motie waar een meerderheid van de Kamer voor stemde."},
-    {"woord": "E1-project", "uitleg": "Een bouwplan voor een nederzetting op de Westelijke Jordaanoever."},
-    {"woord": "nederzetting", "uitleg": "Een woonwijk van Israëliërs in bezet Palestijns gebied."},
-    {"woord": "RSF", "uitleg": "Een gewapende groep die vecht in de oorlog in Sudan."},
-    {"woord": "sanctielijst", "uitleg": "Een lijst van mensen of groepen die de EU straft. Bijvoorbeeld door hun geld te bevriezen."},
-    {"woord": "VAE", "uitleg": "De Verenigde Arabische Emiraten, een land in het Midden-Oosten."},
-    {"woord": "ontraden", "uitleg": "De minister vindt dat de Kamer tegen de motie moet stemmen."},
-    {"woord": "oordeel Kamer", "uitleg": "De minister laat de keuze over de motie aan de Kamer."},
-    {"woord": "unanimiteit", "uitleg": "Alle EU-landen moeten het ermee eens zijn."}
+    {
+      "woord": "tweeminutendebat",
+      "uitleg": "Een kort debat. Kamerleden kunnen dan moties indienen."
+    },
+    {
+      "woord": "Raad Buitenlandse Zaken (RBZ)",
+      "uitleg": "Vergadering van de ministers van Buitenlandse Zaken van de EU-landen."
+    },
+    {
+      "woord": "motie",
+      "uitleg": "Een verzoek van de Kamer aan de regering."
+    },
+    {
+      "woord": "aangenomen motie",
+      "uitleg": "Een motie waar een meerderheid van de Kamer voor stemde."
+    },
+    {
+      "woord": "E1-project",
+      "uitleg": "Een bouwplan voor een nederzetting op de Westelijke Jordaanoever."
+    },
+    {
+      "woord": "nederzetting",
+      "uitleg": "Een woonwijk van Israëliërs in bezet Palestijns gebied."
+    },
+    {
+      "woord": "RSF",
+      "uitleg": "Een gewapende groep die vecht in de oorlog in Sudan."
+    },
+    {
+      "woord": "sanctielijst",
+      "uitleg": "Een lijst van mensen of groepen die de EU straft. Bijvoorbeeld door hun geld te bevriezen."
+    },
+    {
+      "woord": "VAE",
+      "uitleg": "De Verenigde Arabische Emiraten, een land in het Midden-Oosten."
+    },
+    {
+      "woord": "ontraden",
+      "uitleg": "De minister vindt dat de Kamer tegen de motie moet stemmen."
+    },
+    {
+      "woord": "oordeel Kamer",
+      "uitleg": "De minister laat de keuze over de motie aan de Kamer."
+    },
+    {
+      "woord": "unanimiteit",
+      "uitleg": "Alle EU-landen moeten het ermee eens zijn."
+    }
   ],
   "strip": [
-    {"spreker_id": "b5363002-d06e-4813-9c05-86fe74185a56", "emotie": "bezorgd", "tekst": "De bouw van E1 gaat beginnen. Gaat u in de EU om maatregelen vragen?", "citaat": "De aanbesteding van dat project is, voor zover wij weten, twee weken geleden afgelopen, dus de bouw gaat nu beginnen. … Die motie vraagt de minister om aan te dringen op maatregelen van de EU als het E1-project doorgaat. Gaat de minister dat doen in de Raad?"},
-    {"spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2", "emotie": "denkend", "tekst": "Hoe zorgt u dat leiders van de RSF op de EU-sanctielijst komen?", "citaat": "hoe hij uitvoering geeft aan de motie die hem vraagt te bepleiten om de leden van de schaduwregering van de RSF op de Europese sanctielijst te zetten."},
-    {"spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2", "emotie": "vastberaden", "tekst": "Jammer: de SGP steunde onze motie niet. Steunt u meer druk op de VAE?", "citaat": "Tot mijn spijt stemde de SGP daar niet voor. … Kan ik de fractie van de SGP uitnodigen om het pleidooi om meer druk te zetten op de VAE, middels die onderhandelingen over een handelsakkoord, nu ook te steunen?"},
-    {"spreker_id": "3e045e18-daa2-48d2-8310-2999e2a47020", "emotie": "denkend", "tekst": "Wij willen de oorlogseconomie in Sudan tegengaan. Over de VAE vertrouwen we de minister.", "citaat": "Wij willen alles uit de kast halen om die bijdrage aan de oorlogseconomie in Sudan tegen te gaan. … We geven dus enig vertrouwen aan de minister om hier op een wijze manier mee om te gaan."},
-    {"spreker_id": "6f866b57-0e0a-4849-8d53-445efe2dfeba", "emotie": "vastberaden", "tekst": "In de Raad vraag ik opnieuw om druk op Israël om E1 te stoppen.", "citaat": "ik zeg toe dat ik in de komende RBZ wederom aandacht zal vragen voor druk op Israël om dit project te stoppen."},
-    {"spreker_id": "b5363002-d06e-4813-9c05-86fe74185a56", "emotie": "vastberaden", "tekst": "De motie was heel precies. Welke maatregelen gaat u voorstellen?", "citaat": "De motie was echter heel specifiek. … Voor welke maatregelen gaat deze minister pleiten?"},
-    {"spreker_id": "6f866b57-0e0a-4849-8d53-445efe2dfeba", "emotie": "neutraal", "tekst": "Sancties tegen personen moeten een verrassing zijn. Wij voeren de motie uit.", "citaat": "Het probleem van sancties tegen individuele personen is dat ze een verrassing moeten zijn. … Wij voeren deze motie uit."},
-    {"spreker_id": "6f866b57-0e0a-4849-8d53-445efe2dfeba", "emotie": "neutraal", "tekst": "Volgens mijn juridisch advies kan de terrorismelijst niet. Er is ook geen unanimiteit.", "citaat": "Op basis van het juridisch advies dat ik gekregen heb, ontbreekt de juridische basis om dit te doen. … Op dit punt zie ik geen unanimiteit."}
+    {
+      "spreker_id": "b5363002-d06e-4813-9c05-86fe74185a56",
+      "emotie": "bezorgd",
+      "tekst": {
+        "normaal": "",
+        "makkelijk": "De bouw van E1 gaat beginnen. Gaat u in de EU om maatregelen vragen?"
+      },
+      "citaat": "De aanbesteding van dat project is, voor zover wij weten, twee weken geleden afgelopen, dus de bouw gaat nu beginnen. … Die motie vraagt de minister om aan te dringen op maatregelen van de EU als het E1-project doorgaat. Gaat de minister dat doen in de Raad?"
+    },
+    {
+      "spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "emotie": "denkend",
+      "tekst": {
+        "normaal": "",
+        "makkelijk": "Hoe zorgt u dat leiders van de RSF op de EU-sanctielijst komen?"
+      },
+      "citaat": "hoe hij uitvoering geeft aan de motie die hem vraagt te bepleiten om de leden van de schaduwregering van de RSF op de Europese sanctielijst te zetten."
+    },
+    {
+      "spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "emotie": "vastberaden",
+      "tekst": {
+        "normaal": "",
+        "makkelijk": "Jammer: de SGP steunde onze motie niet. Steunt u meer druk op de VAE?"
+      },
+      "citaat": "Tot mijn spijt stemde de SGP daar niet voor. … Kan ik de fractie van de SGP uitnodigen om het pleidooi om meer druk te zetten op de VAE, middels die onderhandelingen over een handelsakkoord, nu ook te steunen?"
+    },
+    {
+      "spreker_id": "3e045e18-daa2-48d2-8310-2999e2a47020",
+      "emotie": "denkend",
+      "tekst": {
+        "normaal": "",
+        "makkelijk": "Wij willen de oorlogseconomie in Sudan tegengaan. Over de VAE vertrouwen we de minister."
+      },
+      "citaat": "Wij willen alles uit de kast halen om die bijdrage aan de oorlogseconomie in Sudan tegen te gaan. … We geven dus enig vertrouwen aan de minister om hier op een wijze manier mee om te gaan."
+    },
+    {
+      "spreker_id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+      "emotie": "vastberaden",
+      "tekst": {
+        "normaal": "",
+        "makkelijk": "In de Raad vraag ik opnieuw om druk op Israël om E1 te stoppen."
+      },
+      "citaat": "ik zeg toe dat ik in de komende RBZ wederom aandacht zal vragen voor druk op Israël om dit project te stoppen."
+    },
+    {
+      "spreker_id": "b5363002-d06e-4813-9c05-86fe74185a56",
+      "emotie": "vastberaden",
+      "tekst": {
+        "normaal": "",
+        "makkelijk": "De motie was heel precies. Welke maatregelen gaat u voorstellen?"
+      },
+      "citaat": "De motie was echter heel specifiek. … Voor welke maatregelen gaat deze minister pleiten?"
+    },
+    {
+      "spreker_id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+      "emotie": "neutraal",
+      "tekst": {
+        "normaal": "",
+        "makkelijk": "Sancties tegen personen moeten een verrassing zijn. Wij voeren de motie uit."
+      },
+      "citaat": "Het probleem van sancties tegen individuele personen is dat ze een verrassing moeten zijn. … Wij voeren deze motie uit."
+    },
+    {
+      "spreker_id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+      "emotie": "neutraal",
+      "tekst": {
+        "normaal": "",
+        "makkelijk": "Volgens mijn juridisch advies kan de terrorismelijst niet. Er is ook geen unanimiteit."
+      },
+      "citaat": "Op basis van het juridisch advies dat ik gekregen heb, ontbreekt de juridische basis om dit te doen. … Op dit punt zie ik geen unanimiteit."
+    }
   ]
 }

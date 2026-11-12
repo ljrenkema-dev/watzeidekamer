@@ -48,11 +48,22 @@ def check(pid):
             elif not any(stuk in t for t in bron):
                 wie = "de tekst" if sid is None else bekend[sid]["naam"]
                 fouten.append(f"vak {i}: niet letterlijk gevonden bij {wie}: '{stuk[:80]}'")
-        if len(v.get("tekst", "").split()) > 16:
-            waarsch.append(f"vak {i}: tekst is lang ({len(v['tekst'].split())} woorden)")
+        for niv, maxw in (("normaal", 20), ("makkelijk", 16)):
+            t = (v.get("tekst") or {}).get(niv, "") if isinstance(v.get("tekst"), dict) else ""
+            if not t.strip():
+                fouten.append(f"vak {i}: tekst '{niv}' ontbreekt")
+            elif len(t.split()) > maxw:
+                waarsch.append(f"vak {i}: tekst '{niv}' is lang ({len(t.split())} woorden)")
+    for veld in ("titel", "samenvatting", "kernpunten"):
+        for niv in ("normaal", "makkelijk"):
+            if not (strip.get(veld) or {}).get(niv) if isinstance(strip.get(veld), dict) else True:
+                fouten.append(f"{veld}: versie '{niv}' ontbreekt")
     for s in strip.get("sprekers", []):
         if s.get("id") not in bekend:
             fouten.append(f"sprekers: onbekende id {s.get('id')}")
+        st = s.get("standpunt")
+        if not isinstance(st, dict) or not st.get("normaal") or not st.get("makkelijk"):
+            fouten.append(f"sprekers: standpunt van {s.get('id')} mist een taalniveau")
     genoemd = {bekend[s["id"]]["fractie"] for s in strip.get("sprekers", []) if s.get("id") in bekend}
     sprak = {b["spreker"]["fractie"] for b in punt["beurten"] if not b["voorzitter"] and b["spreker"]["fractie"]}
     for f in sorted(sprak - genoemd):
