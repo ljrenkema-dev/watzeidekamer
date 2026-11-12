@@ -244,5 +244,195 @@
       "les": "L1",
       "les_achteraf": true
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-12",
+    "bevindingen": [
+      {
+        "waar": "sprekers SP (Jimmy Dijk) normaal",
+        "soort": "juistheid",
+        "ernst": "groot",
+        "les": "nieuw",
+        "oud": "De SP wil dat de minister met de vakbonden afspreekt dat er een hulp-, meld- en steunpunt komt voor uitzendkrachten die vroeger te weinig betaald kregen. Bij de jeugdzorg wil de SP dat de bezuiniging van 1 miljard van tafel gaat en de specialistische jeugdzorg terug naar het Rijk gaat.",
+        "nieuw": "De SP wil dat de minister met de vakbonden afspreekt dat er een hulp-, meld- en steunpunt komt voor uitzendkrachten die vroeger te weinig betaald kregen.",
+        "waarom": "'Die bezuiniging van 1 miljard ... moet van tafel' zei Dobbe (beurt 64), niet Dijk; build.py toont het standpunt onder Dijks naam en op zijn persoonspagina."
+      },
+      {
+        "waar": "sprekers SP (Jimmy Dijk) makkelijk",
+        "soort": "juistheid",
+        "ernst": "groot",
+        "les": "nieuw",
+        "oud": "De SP wil een hulp-, meld- en steunpunt voor uitzendkrachten die te weinig loon kregen. De SP wil ook dat zware jeugdzorg terug naar het Rijk gaat, zonder bezuiniging van 1 miljard.",
+        "nieuw": "De SP wil een hulp-, meld- en steunpunt voor uitzendkrachten die te weinig loon kregen.",
+        "waarom": "Zelfde punt: het jeugdzorgstandpunt is van Dobbe, niet van Dijk."
+      },
+      {
+        "waar": "vak 5 normaal",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "In twee derde van de gevallen niet. De test wordt vergoed, dus geld kan geen barrière zijn.",
+        "nieuw": "Twee derde van de gevallen niet. Hij wordt vergoed: geld kan geen barrière zijn. Dat wordt wel onderzocht.",
+        "waarom": "Het citaat eindigt op 'Althans, dat kan geen barrière zijn, maar dat wordt nu wel onderzocht'; de nuancering na 'maar' viel weg."
+      },
+      {
+        "waar": "vak 5 makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "Twee derde krijgt de test niet. Hij wordt vergoed. Geld kan geen reden zijn.",
+        "nieuw": "Twee derde niet. Hij wordt vergoed: geld kan geen reden zijn. Dat wordt onderzocht.",
+        "waarom": "Zelfde nuancering 'maar dat wordt nu wel onderzocht'; 'Geld zou geen reden moeten zijn' uit het voorstel is niet overgenomen, want dat maakt van 'kan geen barrière zijn' een wens."
+      },
+      {
+        "waar": "sprekers Hermans normaal",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "De minister vindt het niet goed dat de test in twee derde van de gevallen niet wordt gebruikt. Geld kan geen reden zijn, want de test wordt vergoed; onderzoek moet eind volgend jaar de oorzaken laten zien.",
+        "nieuw": "De minister vindt het niet goed dat de test in twee derde van de gevallen niet wordt gebruikt. Omdat de test wordt vergoed, kan geld volgens haar geen barrière zijn, maar dat wordt wel onderzocht; het onderzoek naar de oorzaken is eind 2027 klaar.",
+        "waarom": "'maar dat wordt nu wel onderzocht' ontbrak; tegelijk 'volgend jaar' vervangen door 2027 (L7), want zij zegt 'resultaten verwachten we volgend jaar, wel pas aan het einde van het jaar' op 10 november 2026."
+      },
+      {
+        "waar": "sprekers Hermans makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "De minister vindt het niet goed dat de test te weinig wordt gebruikt. Geld kan geen reden zijn, want de test wordt vergoed. Onderzoek moet de oorzaken laten zien.",
+        "nieuw": "De minister vindt het niet goed dat de test te weinig wordt gebruikt. Geld kan geen reden zijn, want de test wordt vergoed, maar dat wordt wel onderzocht.",
+        "waarom": "Zelfde nuancering 'maar dat wordt nu wel onderzocht'."
+      },
+      {
+        "waar": "kernpunt 5 normaal",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "Minister Hermans zegt dat de test sinds 2023 wordt vergoed, dus geld kan geen reden zijn. Onderzoek naar de oorzaken is pas eind volgend jaar klaar; de beroepsgroep vraagt er intussen al aandacht voor.",
+        "nieuw": "Minister Hermans zegt dat de test sinds 2023 wordt vergoed, dus geld kan volgens haar geen barrière zijn, maar dat wordt wel onderzocht. Het onderzoek naar de oorzaken is pas eind 2027 klaar; de beroepsgroep vraagt er intussen al aandacht voor.",
+        "waarom": "Zelfde nuancering 'maar dat wordt nu wel onderzocht'; 'volgend jaar' werd 2027 (L7)."
+      },
+      {
+        "waar": "kernpunt 5 makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "Volgens de minister van VWS wordt de test vergoed, dus kan geld geen reden zijn. Onderzoek naar de oorzaken is pas eind volgend jaar klaar.",
+        "nieuw": "Volgens de minister van VWS wordt de test vergoed, dus kan geld geen reden zijn. Maar dat wordt wel onderzocht. Het onderzoek is pas eind 2027 klaar.",
+        "waarom": "Zelfde nuancering; 'volgend jaar' werd 2027 (L7)."
+      },
+      {
+        "waar": "kernpunt 1 makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L6",
+        "oud": "Uitzendkrachten kregen jarenlang minder loon dan hun collega's. Volgens PRO zorgde de minister in 2011 daar bewust voor, samen met de uitzendsector.",
+        "nieuw": "Uitzendkrachten kregen jarenlang minder loon dan hun collega's. Volgens PRO zorgde de minister van toen, Kamp, er in 2011 bewust voor dat gelijk loon niet in de wet kwam. Hij deed dat samen met de uitzendsector.",
+        "waarom": "'de minister' leest als minister Vijlbrief, en 'daar bewust voor' maakt van Patijns 'met als gevolg dat gelijk loon ... niet in de Nederlandse wetgeving geregeld werd' een bewust lager loon."
+      },
+      {
+        "waar": "vak 3 citaat",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1",
+        "oud": "is er niets gebeurd wat juridisch niet door de beugel kon. … Ik zal snel, wanneer ik met de vakbeweging praat, aan de orde stellen hoe we kunnen bereiken dat zo veel mogelijk mensen weten dat ze hun recht kunnen halen op dit punt",
+        "nieuw": "Naar mijn mening, als ik er goed naar kijk, is er niets gebeurd wat juridisch niet door de beugel kon. … Ik zal snel, wanneer ik met de vakbeweging praat, aan de orde stellen hoe we kunnen bereiken dat zo veel mogelijk mensen weten dat ze hun recht kunnen halen op dit punt",
+        "waarom": "Het citaat begon na het voorbehoud 'Naar mijn mening, als ik er goed naar kijk'; het letterlijke begin van de zin is teruggezet, zodat de tekst het voorbehoud mag noemen."
+      },
+      {
+        "waar": "vak 3 normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1",
+        "oud": "Juridisch kon het. Met de vakbonden bespreek ik hoe mensen weten dat ze hun recht kunnen halen.",
+        "nieuw": "Volgens mij kon het juridisch. Met vakbonden bespreek ik hoe mensen weten dat ze hun recht kunnen halen.",
+        "waarom": "De minister brengt het als eigen oordeel: 'Naar mijn mening' en 'er is volgens mij niets gebeurd'."
+      },
+      {
+        "waar": "vak 3 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1",
+        "oud": "Het kon juridisch. Met de bonden bespreek ik hoe mensen hun recht leren kennen.",
+        "nieuw": "Volgens mij mocht het. Met bonden bespreek ik hoe mensen weten van hun recht.",
+        "waarom": "Voorbehoud 'Naar mijn mening' ontbrak, en het gaat om 'weten dat ze hun recht kunnen halen', niet om rechten leren kennen (L10); korter dan het voorstel om binnen 14 woorden te blijven."
+      },
+      {
+        "waar": "sprekers Vijlbrief normaal",
+        "soort": "neutraliteit",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "De minister vindt dat er in 2011 niets gebeurde wat juridisch niet kon, al was meer openheid naar de Kamer beter geweest. Hij bespreekt met de vakbonden hoe mensen weten dat ze hun recht kunnen halen, en wil met hen bijhouden of 'gelijkwaardig' loon tot onderbetaling leidt.",
+        "nieuw": "De minister vindt dat er in 2011 niets gebeurde wat juridisch niet kon: het was een interpretatie van de richtlijn, waarmee de Kamer en de Raad van State instemden, al was meer openheid naar de Kamer beter geweest. Hij bespreekt met de vakbonden hoe mensen weten dat ze hun recht kunnen halen, en wil met hen bijhouden of 'gelijkwaardig' loon tot onderbetaling leidt.",
+        "waarom": "Tegenover PRO's 'willens en wetens' ontbrak zijn sterkste argument: 'Het was een interpretatie van een richtlijn' en 'zowel de Raad van State als de Kamer met algemene stemmen uiteindelijk hebben ingestemd'."
+      },
+      {
+        "waar": "sprekers Vijlbrief makkelijk",
+        "soort": "neutraliteit",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "De minister vindt dat de keuze uit 2011 juridisch mocht. Hij gaat met de vakbonden praten over hoe mensen te weten komen dat ze hun recht kunnen halen.",
+        "nieuw": "De minister vindt dat de keuze uit 2011 juridisch mocht: de Kamer en de Raad van State stemden ermee in. Hij gaat met de vakbonden praten over hoe mensen te weten komen dat ze hun recht kunnen halen.",
+        "waarom": "Zelfde argument ('met algemene stemmen ... ingestemd'), zodat beide versies hetzelfde zeggen."
+      },
+      {
+        "waar": "kernpunt 7 normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "… Hij belooft de Kamer een brief over perspectief en onderwijs voor deze jongeren.",
+        "nieuw": "… Op een vraag van PRO belooft hij de Kamer een brief over perspectief en onderwijs voor deze jongeren.",
+        "waarom": "De brief is een antwoord op Westervelds (PRO) vraag 'dat er perspectief is voor deze jongeren en dat ook het onderwijs ... goed geregeld wordt'; alleen dit deel van bevinding 7 is overgenomen."
+      },
+      {
+        "waar": "sprekers Keijzer makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L5",
+        "oud": "Mevrouw Keijzer vraagt of er keuzes nodig zijn in de jeugdzorg. Dan blijft er genoeg geld en mensen over voor de zwaarste zorg.",
+        "nieuw": "Mevrouw Keijzer vraagt of er keuzes nodig zijn in de jeugdzorg, zodat er genoeg geld en mensen overblijven voor de zwaarste zorg.",
+        "waarom": "De tweede zin stond los als bewering, terwijl het het doel van haar vraag is ('zodat er voldoende geld en ondersteuning ... overblijven')."
+      },
+      {
+        "waar": "sprekers Keijzer normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "Mevrouw Keijzer vraagt of er in de jeugdzorg ook gekozen moet worden, zodat er genoeg geld en mensen overblijven voor de hele zware zorg. De staatssecretaris is het daar volledig mee eens.",
+        "nieuw": "Mevrouw Keijzer vraagt of er in de jeugdzorg ook gekozen moet worden, zodat er genoeg geld en mensen overblijven voor de hele zware zorg.",
+        "waarom": "'Daar ben ik het volledig mee eens' zei de staatssecretaris; een standpunt bevat alleen wat de spreker zelf zei, dus de instemming staat nu bij de staatssecretaris (in plaats van ook in de makkelijke versie van Keijzer, zoals voorgesteld)."
+      },
+      {
+        "waar": "sprekers staatssecretaris normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "De staatssecretaris erkent dat vooral kleine gemeenten de kosten van de zwaarste jeugdzorg niet kunnen dragen en dat er een oplossing moet komen. Het kabinet laat het advies van de commissie-Van Ark in januari zwaar wegen.",
+        "nieuw": "De staatssecretaris erkent dat vooral kleine gemeenten de kosten van de zwaarste jeugdzorg niet kunnen dragen en dat er een oplossing moet komen; hij is het volledig met mevrouw Keijzer eens dat er gekozen moet worden, zodat er genoeg overblijft voor die hele zware zorg. Het kabinet laat het advies van de commissie-Van Ark in januari zwaar wegen.",
+        "waarom": "Zijn 'Daar ben ik het volledig mee eens' op Keijzers vraag hoort onder zijn eigen naam."
+      },
+      {
+        "waar": "sprekers staatssecretaris makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "De staatssecretaris vindt dat er een oplossing moet komen voor de dure, zware jeugdzorg. Het advies van de commissie-Van Ark in januari telt voor het kabinet zwaar mee.",
+        "nieuw": "De staatssecretaris vindt dat er een oplossing moet komen voor de dure, zware jeugdzorg. Hij is het met mevrouw Keijzer eens dat er genoeg geld en mensen voor die zorg moeten overblijven, en het advies van de commissie-Van Ark in januari telt zwaar mee.",
+        "waarom": "Zelfde verplaatsing van 'Daar ben ik het volledig mee eens', zodat normaal en makkelijk gelijk zijn."
+      }
+    ],
+    "afgewezen": [
+      {
+        "waar": "bevinding 7: sprekers PRO, 50PLUS, CDA, D66 per fractie aanvullen (Westerveld, Vliegenthart, Van Brenk, Neijenhuis, Boelsma-Hoekstra)",
+        "waarom": "Een standpunt onder een spreker mag alleen bevatten wat die persoon zei, en strip.md kiest per fractie één hoofdspreker; daarom is de strikte lijn gekozen (zoals bij de SP) en zijn partijgenoten niet aan andermans standpunt toegevoegd. Alleen de toeschrijving van de brief in kernpunt 7 is overgenomen."
+      },
+      {
+        "waar": "bevinding 8: 'De staatssecretaris is het met haar eens' toevoegen aan Keijzer makkelijk",
+        "waarom": "Dat zei de staatssecretaris, niet Keijzer; de instemming is in beide versies naar zijn eigen standpunt verplaatst en ook uit Keijzer normaal gehaald."
+      },
+      {
+        "waar": "bevinding 2: makkelijk 'Geld zou geen reden moeten zijn'",
+        "waarom": "'kan geen barrière zijn' is een vaststelling met voorbehoud, geen wens; 'zou ... moeten' verandert dat (L5). Wel de nuancering 'dat wordt onderzocht' overgenomen."
+      }
+    ]
+  }
 }
