@@ -1,0 +1,1108 @@
+{
+  "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+  "datum": "2026-11-10",
+  "verzoeken": [
+    {
+      "verzoeker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "soort": "debat",
+      "onderwerp": "Debat over de oproepen tijdens de Rode Lijndemonstratie over het Israëlbeleid",
+      "bewindspersoon": "minister-president",
+      "citaat": "Daarom wil ik graag zo snel mogelijk een debat met de minister president over de heldere oproep",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+          "oordeel": "steun",
+          "citaat": "er is van harte steun van Partij voor de Dieren voor dit debat"
+        },
+        {
+          "spreker_id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1",
+          "oordeel": "steun",
+          "citaat": "Ook namens mijn fractie is er van harte steun.",
+          "brief": true
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun. En alsjeblieft ook geen brief."
+        },
+        {
+          "spreker_id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+          "oordeel": "geen_steun",
+          "citaat": "Van genocide is geen sprake, dus zeker geen steun."
+        },
+        {
+          "spreker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun, voorzitter."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "geen_steun",
+          "citaat": "Die ga ik wel steunen en deze niet."
+        },
+        {
+          "spreker_id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+          "oordeel": "geen_steun",
+          "citaat": "maar niet op deze manier, dus geen steun."
+        },
+        {
+          "spreker_id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+          "oordeel": "onduidelijk",
+          "citaat": "De begroting Buitenlandse Zaken staat ons morgen te wachten, dus ik denk dat we het er dan over kunnen hebben."
+        },
+        {
+          "spreker_id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun."
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun voor dit verzoek, straks wel."
+        },
+        {
+          "spreker_id": "e1faad36-a61e-46af-b8ed-42fb086749af",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun. Morgen en overmorgen hebben we de begroting Buitenlandse Zaken."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "U heeft geen meerderheid."
+    },
+    {
+      "verzoeker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "soort": "brief",
+      "onderwerp": "Brief van het kabinet over de Rode Lijndemonstratie vóór de begroting Buitenlandse Zaken",
+      "bewindspersoon": null,
+      "citaat": "graag willen verzoeken om in ieder geval voor de begroting Buitenlandse Zaken een brief te ontvangen van het kabinet",
+      "brief_gevraagd": true,
+      "reacties": [],
+      "uitkomst": "anders",
+      "uitkomst_citaat": "Dat geleid ik door naar het kabinet."
+    },
+    {
+      "verzoeker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+      "soort": "debat",
+      "onderwerp": "Debat over Europese plannen om natuurregels zoals Natura 2000 te herzien",
+      "bewindspersoon": "minister van LVVN en de minister-president",
+      "citaat": "een debat met de minister van LVVN en de minister-president over aan te vragen",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "a33f6a7f-db72-4090-b68d-7c9bb1e45ba8",
+          "oordeel": "geen_steun",
+          "citaat": "dus het lijkt me prematuur. Geen steun."
+        },
+        {
+          "spreker_id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+          "oordeel": "steun",
+          "citaat": "Steun voor dit debat."
+        },
+        {
+          "spreker_id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun. Volgens mij moeten we dit belangrijke rapport bespreken bij de begroting"
+        },
+        {
+          "spreker_id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "6248d84b-04f8-4389-b510-63e653f61cea",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun. Eerst moet het debat in Europa plaatsvinden."
+        },
+        {
+          "spreker_id": "5d09a944-d2e0-4792-a8ae-8b2ac325e23a",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "steun",
+          "citaat": "Steun voor dit verzoek."
+        },
+        {
+          "spreker_id": "d8e7ee39-89a3-445d-a86c-1c630b1fb17d",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "bab21bc5-8703-4fe7-96f4-c0364573adfc",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun."
+        }
+      ],
+      "uitkomst": "dertigledendebat",
+      "uitkomst_citaat": "Ja. We zetten het op de lijst."
+    },
+    {
+      "verzoeker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+      "soort": "debat",
+      "onderwerp": "Dertigledendebat over het Ombudsman-rapport over de overheid en boeren omzetten in meerderheidsdebat",
+      "bewindspersoon": null,
+      "citaat": "Wij willen graag het dertigledendebat omzetten in een plenair debat, een meerderheidsdebat.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "a33f6a7f-db72-4090-b68d-7c9bb1e45ba8",
+          "oordeel": "onduidelijk",
+          "citaat": "Op zich is het een goed onderwerp, maar ik denk dat het bij de begroting het snelst plaats kan vinden."
+        },
+        {
+          "spreker_id": "337901dc-6804-4399-a2ab-18f8af5042e4",
+          "oordeel": "onduidelijk",
+          "citaat": "Daar ben ik het mee eens, voorzitter."
+        },
+        {
+          "spreker_id": "d8e7ee39-89a3-445d-a86c-1c630b1fb17d",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "6248d84b-04f8-4389-b510-63e653f61cea",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun, maar wel een enorm belangrijk rapport en onderwerp."
+        },
+        {
+          "spreker_id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+          "oordeel": "steun",
+          "citaat": "Een apart debat lijkt me dus gerechtvaardigd, mede namens de ChristenUnie."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "94487bf2-db65-4c2b-bcac-eac80408e642",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "d66383ca-deef-4470-8807-924313ae15e6",
+          "oordeel": "onduidelijk",
+          "citaat": "Het lijkt me goed dat er een reactie komt van het kabinet en dat we er daarna een debat over hebben.",
+          "brief": true
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "steun",
+          "citaat": "Steun voor dit verzoek."
+        },
+        {
+          "spreker_id": "bab21bc5-8703-4fe7-96f4-c0364573adfc",
+          "oordeel": "geen_steun",
+          "citaat": "Het lijkt me goed om er aandacht aan te besteden tijdens de begroting, maar geen apart debat."
+        },
+        {
+          "spreker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+          "oordeel": "steun",
+          "citaat": "Ik wil dit steunen, maar ik was niet snel genoeg."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "U heeft geen meerderheid, dus het blijft staan."
+    },
+    {
+      "verzoeker_id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+      "soort": "debat",
+      "onderwerp": "Debat over discriminatie van mensen met een migratieachtergrond op de woningmarkt",
+      "bewindspersoon": "minister van Volkshuisvesting",
+      "citaat": "We moeten dat zo snel mogelijk bespreken met de minister van Volkshuisvesting. Daarom vraag ik graag een debat aan.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+          "oordeel": "geen_steun",
+          "citaat": "Voor dit debat geen steun."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun dus voor een apart debat."
+        },
+        {
+          "spreker_id": "d0cdfb97-8bc1-4ad6-b14e-a77809c90012",
+          "oordeel": "steun",
+          "citaat": "dus van harte steun."
+        },
+        {
+          "spreker_id": "5d09a944-d2e0-4792-a8ae-8b2ac325e23a",
+          "oordeel": "geen_steun",
+          "citaat": "dus geen steun voor het debat."
+        },
+        {
+          "spreker_id": "d24b17b4-8e3a-4bed-818e-5d61dcc9f534",
+          "oordeel": "onduidelijk",
+          "citaat": "Het kan bij het debat Staat van de Volkshuisvesting."
+        },
+        {
+          "spreker_id": "2bddf0e3-4312-4d39-ab17-a6837e24b5d8",
+          "oordeel": "onduidelijk",
+          "citaat": "Belangrijk onderwerp. Volgende week debat. Meneer Ergin is zeer welkom."
+        },
+        {
+          "spreker_id": "d66383ca-deef-4470-8807-924313ae15e6",
+          "oordeel": "steun",
+          "citaat": "dus van harte steun voor dit debat."
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "geen_steun",
+          "citaat": "dit is een zeer beperkt probleem. Geen steun."
+        },
+        {
+          "spreker_id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+          "oordeel": "geen_steun",
+          "citaat": "Toch geen steun, want wij willen dit zo snel mogelijk, bij de Staat van de Volkshuisvesting, bespreken."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "U heeft geen meerderheid."
+    },
+    {
+      "verzoeker_id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+      "soort": "debat",
+      "onderwerp": "Debat over antisemitisme op universiteiten",
+      "bewindspersoon": null,
+      "citaat": "Het verzoek is om een debat te houden over het antisemitisme, dat als een tumor doorgroeit in onze universiteiten.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "steun",
+          "citaat": "Dus ik steun dit verzoek voor een debat."
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "steun",
+          "citaat": "Het is heel belangrijk om hierover te spreken. Steun."
+        },
+        {
+          "spreker_id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+          "oordeel": "geen_steun",
+          "citaat": "Dus geen steun."
+        },
+        {
+          "spreker_id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+          "oordeel": "steun",
+          "citaat": "dus wij steunen dit verzoek."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "15342ca7-bffc-4d20-bcc1-be5ab9d6530c",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+          "oordeel": "geen_steun",
+          "citaat": "Dus voor nu geen steun."
+        },
+        {
+          "spreker_id": "1d261520-aa04-4f6e-9dae-6ccb54a13472",
+          "oordeel": "geen_steun",
+          "citaat": "Dus geen steun voor dit verzoek."
+        },
+        {
+          "spreker_id": "9eba48a5-acfb-4efc-93c2-e895a075e7d6",
+          "oordeel": "geen_steun",
+          "citaat": "Dan steun ik het niet, omdat dit uitgebreid besproken is."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "U heeft geen meerderheid, meneer Claassen."
+    },
+    {
+      "verzoeker_id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+      "soort": "debat",
+      "onderwerp": "Plenair debat over het geneesmiddelenbeleid in Nederland",
+      "bewindspersoon": null,
+      "citaat": "Ik hoop dat de andere mensen die een debat wilden voeren over het geneesmiddelenbeleid in Nederland dit verzoek steunen",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "f9b55c38-c420-4b6a-96a7-ae00f4ec3918",
+          "oordeel": "geen_steun",
+          "citaat": "Om die reden steun ik dit verzoek niet."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "steun",
+          "citaat": "Dus steun."
+        },
+        {
+          "spreker_id": "75e07581-7770-48b1-926c-a1cc5c008774",
+          "oordeel": "steun",
+          "citaat": "Wat mij betreft zouden we hier zeker over moeten debatteren. Steun."
+        },
+        {
+          "spreker_id": "6ee6a4b6-3523-4806-b784-a669f6fa8c10",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun, onder verwijzing naar wat mevrouw Wendel zei."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "5d09a944-d2e0-4792-a8ae-8b2ac325e23a",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+          "oordeel": "geen_steun",
+          "citaat": "Dus geen steun voor een apart, ongericht plenair debat."
+        },
+        {
+          "spreker_id": "e5f249c3-2506-4eb8-84af-ffe0ae152bf4",
+          "oordeel": "geen_steun",
+          "citaat": "Op dit moment geen steun voor een plenair debat."
+        },
+        {
+          "spreker_id": "43f571a7-1136-42f0-9a88-7b404b8e43b9",
+          "oordeel": "geen_steun",
+          "citaat": "Dus geen steun."
+        },
+        {
+          "spreker_id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun. Er is binnenkort ook een commissiedebat over publieke gezondheidszorg."
+        },
+        {
+          "spreker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "U heeft geen meerderheid."
+    },
+    {
+      "verzoeker_id": "2b52579f-6343-4936-afac-9582ece0b33e",
+      "soort": "debat",
+      "onderwerp": "Debat over de import van Arabische gom en de oorlogseconomie in Sudan",
+      "bewindspersoon": "minister van Buitenlandse Handel en Ontwikkelingssamenwerking",
+      "citaat": "Zodra dat onderzoek is afgerond, zou ik hier graag een debat over willen met de minister van Buitenlandse Handel en Ontwikkelingssamenwerking.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "75e07581-7770-48b1-926c-a1cc5c008774",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun voor een apart debat."
+        },
+        {
+          "spreker_id": "8facda55-b928-4086-87a2-5105b6aeb6e1",
+          "oordeel": "geen_steun",
+          "citaat": "Ik denk niet dat we hier de plenaire agenda mee moeten vullen."
+        },
+        {
+          "spreker_id": "8eaa8995-7e34-47e6-bd85-250e60452b3f",
+          "oordeel": "steun",
+          "citaat": "Maar volop steun."
+        },
+        {
+          "spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+          "oordeel": "steun",
+          "citaat": "Voorzitter, vanzelfsprekend steun.",
+          "brief": true
+        },
+        {
+          "spreker_id": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
+          "oordeel": "geen_steun",
+          "citaat": "Dat lijkt ons voldoende. Geen steun."
+        },
+        {
+          "spreker_id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+          "oordeel": "steun",
+          "citaat": "Ik sluit me aan bij de woorden van mevrouw Kröger. Steun."
+        },
+        {
+          "spreker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "2b8b0528-e4cf-4b03-8db6-202b9dde1655",
+          "oordeel": "steun",
+          "citaat": "Ook steun voor dit debat."
+        },
+        {
+          "spreker_id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+          "oordeel": "geen_steun",
+          "citaat": "Dit kan binnenkort bij het WGO. Geen steun."
+        },
+        {
+          "spreker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        }
+      ],
+      "uitkomst": "meerderheid",
+      "uitkomst_citaat": "U heeft een meerderheid."
+    },
+    {
+      "verzoeker_id": "43f571a7-1136-42f0-9a88-7b404b8e43b9",
+      "soort": "debat",
+      "onderwerp": "Breed debat over de toegang tot geneesmiddelen",
+      "bewindspersoon": null,
+      "citaat": "doe ik hier vandaag opnieuw het verzoek voor een breed debat over de toegang tot geneesmiddelen.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "steun",
+          "citaat": "Steun voor dit debat."
+        },
+        {
+          "spreker_id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+          "oordeel": "geen_steun",
+          "citaat": "dus ik ga niet een specifiek debat steunen over alleen de toegang."
+        },
+        {
+          "spreker_id": "f9b55c38-c420-4b6a-96a7-ae00f4ec3918",
+          "oordeel": "geen_steun",
+          "citaat": "Ik steun beide debatten niet."
+        },
+        {
+          "spreker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+          "oordeel": "steun",
+          "citaat": "Ik steun het wel."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "75e07581-7770-48b1-926c-a1cc5c008774",
+          "oordeel": "steun",
+          "citaat": "Ik steun beide debatten."
+        },
+        {
+          "spreker_id": "94487bf2-db65-4c2b-bcac-eac80408e642",
+          "oordeel": "steun",
+          "citaat": "Steun voor beide."
+        },
+        {
+          "spreker_id": "646190dd-ab3c-4477-9b6c-b9098618ad1b",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun voor dit debat."
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "steun",
+          "citaat": "Steun. Ik zal het breder trekken dan alleen dit onderwerp."
+        },
+        {
+          "spreker_id": "e5f249c3-2506-4eb8-84af-ffe0ae152bf4",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        }
+      ],
+      "uitkomst": "dertigledendebat",
+      "uitkomst_citaat": "We zetten 'm op de lijst voor een dertigledendebat."
+    },
+    {
+      "verzoeker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+      "soort": "agenda",
+      "onderwerp": "Tweeminutendebat Kernenergie met stemmingen vóór december inplannen (namens Vermeer)",
+      "bewindspersoon": null,
+      "citaat": "Namens de heer Vermeer verzoek ik het tweeminutendebat Kernenergie naar aanleiding van het commissiedebat op 2 juli vóór december in te plannen, inclusief stemmingen.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "646190dd-ab3c-4477-9b6c-b9098618ad1b",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "432729d4-fd5e-4e53-aba8-9bc981949713",
+          "oordeel": "steun",
+          "citaat": "Ook steun."
+        },
+        {
+          "spreker_id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+          "oordeel": "steun",
+          "citaat": "maar wel steun."
+        },
+        {
+          "spreker_id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+          "oordeel": "steun",
+          "citaat": "Mede namens de SGP steun."
+        },
+        {
+          "spreker_id": "c9327241-92ea-43c7-9195-f658880d1d42",
+          "oordeel": "steun",
+          "citaat": "Steun, maar het hoeft niet per se vóór december."
+        },
+        {
+          "spreker_id": "73822989-cf80-4cc9-a76f-a76549e2dd24",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "e3a027eb-acac-4242-8b8d-533365ce3366",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        }
+      ],
+      "uitkomst": "meerderheid",
+      "uitkomst_citaat": "U heeft een meerderheid."
+    },
+    {
+      "verzoeker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+      "soort": "debat",
+      "onderwerp": "Debat over energiearmoede: gezinnen die hun huis niet kunnen verwarmen",
+      "bewindspersoon": "ministers van KGG en SZW",
+      "citaat": "Het lijkt me goed om in debat te gaan met de ministers van KGG en SZW.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "73822989-cf80-4cc9-a76f-a76549e2dd24",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "steun",
+          "citaat": "dus ik steun dit debat."
+        },
+        {
+          "spreker_id": "432729d4-fd5e-4e53-aba8-9bc981949713",
+          "oordeel": "steun",
+          "citaat": "Van harte steun."
+        },
+        {
+          "spreker_id": "94487bf2-db65-4c2b-bcac-eac80408e642",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+          "oordeel": "steun",
+          "citaat": "Misschien is het ook goed als de regering met een brief komt … Dus steun.",
+          "brief": true
+        },
+        {
+          "spreker_id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+          "oordeel": "steun",
+          "citaat": "Mede namens de SGP steun."
+        },
+        {
+          "spreker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+          "oordeel": "steun",
+          "citaat": "Steun, ook voor de brief.",
+          "brief": true
+        },
+        {
+          "spreker_id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+          "oordeel": "steun",
+          "citaat": "Alleen daarom steun."
+        },
+        {
+          "spreker_id": "c9327241-92ea-43c7-9195-f658880d1d42",
+          "oordeel": "geen_steun",
+          "citaat": "Voorzitter. Geen steun. We hebben vorige week de begrotingsbehandeling van KGG gehad."
+        },
+        {
+          "spreker_id": "75e07581-7770-48b1-926c-a1cc5c008774",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "e3a027eb-acac-4242-8b8d-533365ce3366",
+          "oordeel": "onduidelijk",
+          "citaat": "Ik sluit me aan bij de woorden van de heer Jumelet."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun. Dit kan bij de begroting van SZW."
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "steun",
+          "citaat": "Steun voor dit debat."
+        }
+      ],
+      "uitkomst": "meerderheid",
+      "uitkomst_citaat": "U heeft een meerderheid."
+    },
+    {
+      "verzoeker_id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+      "soort": "debat",
+      "onderwerp": "Debat over borden voor Hamas en tegen Joden bij de recente demonstratie",
+      "bewindspersoon": "minister van Justitie en Veiligheid",
+      "citaat": "Daar wil ik graag een debat over voeren met de minister van Justitie en Veiligheid.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "steun",
+          "citaat": "Ik steun dit debat van harte."
+        },
+        {
+          "spreker_id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+          "oordeel": "steun",
+          "citaat": "dus het is goed dat we hier een debat over gaan voeren."
+        },
+        {
+          "spreker_id": "646190dd-ab3c-4477-9b6c-b9098618ad1b",
+          "oordeel": "geen_steun",
+          "citaat": "Volgende week is de JenV-begroting en daar kan dit best bij betrokken worden, dus geen steun."
+        },
+        {
+          "spreker_id": "5855593f-f06c-42e5-950c-02762b7941bc",
+          "oordeel": "geen_steun",
+          "citaat": "Voorzitter. Geen steun."
+        },
+        {
+          "spreker_id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+          "oordeel": "steun",
+          "citaat": "Van harte steun voor het verzoek."
+        },
+        {
+          "spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+          "oordeel": "geen_steun",
+          "citaat": "Dit is zwartmakerij van de ergste soort. Geen steun."
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "steun",
+          "citaat": "Dus steun voor dit verzoek."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "5f3700f2-4268-4378-bb91-2d5908a8da43",
+          "oordeel": "geen_steun",
+          "citaat": "Voor nu geen steun voor het debat."
+        },
+        {
+          "spreker_id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun. Ik sluit me aan bij de woorden van mevrouw Straatman."
+        }
+      ],
+      "uitkomst": "dertigledendebat",
+      "uitkomst_citaat": "Zeker. We zetten 'm erbij."
+    },
+    {
+      "verzoeker_id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+      "soort": "brief",
+      "onderwerp": "Brief over de besteding van €820.000 voor vliegende teams bij asielonrust",
+      "bewindspersoon": "minister van Asiel en Migratie",
+      "citaat": "we willen graag een brief met de detailinformatie hebben van de minister van Asiel en Migratie voor de behandeling van het begrotingsdebat.",
+      "brief_gevraagd": true,
+      "reacties": [],
+      "uitkomst": "anders",
+      "uitkomst_citaat": "Dat is een informatieverzoek, dus dat geleiden wij door naar het kabinet."
+    },
+    {
+      "verzoeker_id": "94b57459-7e34-46f8-834a-da04c53a02d6",
+      "soort": "debat",
+      "onderwerp": "Debat over groeiende uitval van jonge werknemers door stress en psychische klachten",
+      "bewindspersoon": null,
+      "citaat": "Daarom graag snel een plenair debat.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "17d59922-1009-4a0c-a6c4-e51e76d510ea",
+          "oordeel": "onduidelijk",
+          "citaat": "19 november is er een commissiedebat Arbeidsmarktbeleid. Daar staat het in feite gewoon op de agenda, dus het kan daar geweldig bij."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "geen_steun",
+          "citaat": "maar om de eerdere redenen geen steun voor een plenair debat."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "onduidelijk",
+          "citaat": "Daar kan het prima bij."
+        },
+        {
+          "spreker_id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun."
+        },
+        {
+          "spreker_id": "75e07581-7770-48b1-926c-a1cc5c008774",
+          "oordeel": "steun",
+          "citaat": "Ik heb wel steun voor dit debat.",
+          "brief": true
+        },
+        {
+          "spreker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+          "oordeel": "steun",
+          "citaat": "Ik steun het dan ook."
+        },
+        {
+          "spreker_id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
+          "oordeel": "geen_steun",
+          "citaat": "wat ons betreft moeten we eerst het onderzoek afwachten dat hier nog over komt en gaan we het daarna bespreken in een commissiedebat."
+        },
+        {
+          "spreker_id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+          "oordeel": "steun",
+          "citaat": "dus ik steun het debat, maar ik zou wel graag het onderzoek even af willen wachten"
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "onduidelijk",
+          "citaat": "Belangrijk onderwerp, maar ik sluit me aan bij mevrouw Van Ark."
+        },
+        {
+          "spreker_id": "c73e6f8a-05c9-4d13-945f-71dfb9c730f0",
+          "oordeel": "geen_steun",
+          "citaat": "Ik steun dit verzoek niet."
+        },
+        {
+          "spreker_id": "d66383ca-deef-4470-8807-924313ae15e6",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "U heeft geen meerderheid."
+    },
+    {
+      "verzoeker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+      "soort": "agenda",
+      "onderwerp": "Tweeminutendebat over de Groningse schaderegeling met stemmingen vóór 30 november inplannen",
+      "bewindspersoon": null,
+      "citaat": "als we niet het tweeminutendebat inclusief stemmingen voor 30 november inplannen, dus dat is het verzoek.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "e5f249c3-2506-4eb8-84af-ffe0ae152bf4",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "d66383ca-deef-4470-8807-924313ae15e6",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "steun",
+          "citaat": "Ja, een logisch verzoek. Steun."
+        },
+        {
+          "spreker_id": "73822989-cf80-4cc9-a76f-a76549e2dd24",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun. De moties kunnen ook worden meegenomen bij de begroting."
+        },
+        {
+          "spreker_id": "1d261520-aa04-4f6e-9dae-6ccb54a13472",
+          "oordeel": "onduidelijk",
+          "citaat": "Ik zie geen problemen om het eerder in te plannen als dat gewoon past."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "Eenmaal, andermaal … U heeft geen meerderheid."
+    },
+    {
+      "verzoeker_id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+      "soort": "debat",
+      "onderwerp": "Debat over een rapport over dierenwelzijn in de vleessector en het toezicht",
+      "bewindspersoon": "minister van LVVN",
+      "citaat": "Het leek ons goed om hier ook een debat over in te plannen, met uiteraard de minister van LVVN.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "0eeb4f4a-771a-49d2-979d-68c2b4895f0e",
+          "oordeel": "onduidelijk",
+          "citaat": "Ik stel dus voor dat we dit rapport daarbij betrekken en bij de begroting"
+        },
+        {
+          "spreker_id": "a33f6a7f-db72-4090-b68d-7c9bb1e45ba8",
+          "oordeel": "onduidelijk",
+          "citaat": "Steun voor het onderwerp, maar dan het liefst bij de initiatiefwet van de Partij voor de Dieren."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "geen_steun",
+          "citaat": "dus geen steun voor een apart debat."
+        },
+        {
+          "spreker_id": "8e1a5f2e-cc83-4a85-a90b-c6989f01b02b",
+          "oordeel": "steun",
+          "citaat": "Van harte steun."
+        },
+        {
+          "spreker_id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+          "oordeel": "geen_steun",
+          "citaat": "dus geen steun voor dit initiatief."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "f9b55c38-c420-4b6a-96a7-ae00f4ec3918",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "U heeft geen meerderheid."
+    },
+    {
+      "verzoeker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+      "soort": "debat",
+      "onderwerp": "Debat over winsten van raffinaderijen en mogelijke subsidie voor deze bedrijven",
+      "bewindspersoon": "minister van Financiën",
+      "citaat": "De Nederlandse raffinaderijen boeken enorme oorlogswinsten",
+      "brief_gevraagd": true,
+      "reacties": [
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "geen_steun",
+          "citaat": "Volgens mij moeten we zuinig zijn op onze ondernemers. Geen steun."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun voor dit aparte verzoek."
+        },
+        {
+          "spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+          "oordeel": "steun",
+          "citaat": "Steun voor het verzoek."
+        },
+        {
+          "spreker_id": "5855593f-f06c-42e5-950c-02762b7941bc",
+          "oordeel": "steun",
+          "citaat": "Van harte steun dus."
+        },
+        {
+          "spreker_id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun."
+        },
+        {
+          "spreker_id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun."
+        },
+        {
+          "spreker_id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun."
+        },
+        {
+          "spreker_id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+          "oordeel": "onduidelijk",
+          "citaat": "Vanavond hebben we een debat over het Belastingplan. Daar kan het prima bij."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "U heeft geen meerderheid. Ook een dertigledendebat kan niet."
+    },
+    {
+      "verzoeker_id": "d66383ca-deef-4470-8807-924313ae15e6",
+      "soort": "agenda",
+      "onderwerp": "Tweeminutendebat over het ontwerp-Luchthavenbesluit Rotterdam met stemmingen deze maand inplannen",
+      "bewindspersoon": null,
+      "citaat": "dat we het tweeminutendebat, inclusief stemmingen, ergens deze maand organiseren. Daarvoor vraag ik steun van de Kamer.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "75e07581-7770-48b1-926c-a1cc5c008774",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+          "oordeel": "steun",
+          "citaat": "Toch steun, voorzitter."
+        },
+        {
+          "spreker_id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+          "oordeel": "steun",
+          "citaat": "Steun, voorzitter."
+        },
+        {
+          "spreker_id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+          "oordeel": "steun",
+          "citaat": "Hoe meer vliegen, hoe beter. Steun."
+        },
+        {
+          "spreker_id": "8eaa8995-7e34-47e6-bd85-250e60452b3f",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "geen_steun",
+          "citaat": "Ik zie de urgentie niet, dus geen steun."
+        },
+        {
+          "spreker_id": "1e232189-83d7-42d4-a048-c0c437b8b84f",
+          "oordeel": "onduidelijk",
+          "citaat": "Wat mevrouw Van der Plas zegt."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "steun",
+          "citaat": "Steun."
+        }
+      ],
+      "uitkomst": "meerderheid",
+      "uitkomst_citaat": "Maar u heeft wel een meerderheid."
+    },
+    {
+      "verzoeker_id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+      "soort": "debat",
+      "onderwerp": "Interpellatiedebat vandaag om een motie van wantrouwen tegen het kabinet in te dienen",
+      "bewindspersoon": null,
+      "citaat": "Daarom verzoeken wij nog vandaag, direct aansluitend op de regeling van werkzaamheden, een interpellatiedebat om een motie van wantrouwen in te dienen.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {
+          "spreker_id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun voor een interpellatiedebat."
+        },
+        {
+          "spreker_id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+          "oordeel": "geen_steun",
+          "citaat": "Vandaar dus geen steun."
+        },
+        {
+          "spreker_id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+          "oordeel": "onduidelijk",
+          "citaat": "Ik vind dit gewoon een heel raar verzoek."
+        },
+        {
+          "spreker_id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+          "oordeel": "steun",
+          "citaat": "Van harte steun voor de interpellatie en ook van harte steun om dat nu te doen."
+        },
+        {
+          "spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+          "oordeel": "geen_steun",
+          "citaat": "Ik hoor hier alleen maar populistische prietpraat. Geen steun."
+        },
+        {
+          "spreker_id": "75e07581-7770-48b1-926c-a1cc5c008774",
+          "oordeel": "geen_steun",
+          "citaat": "Een bizar verzoek, dus geen steun."
+        },
+        {
+          "spreker_id": "247cd142-7220-4f25-aa32-8e1801169e9f",
+          "oordeel": "onduidelijk",
+          "citaat": "Ik sluit me aan bij de woorden van mevrouw Van der Plas."
+        },
+        {
+          "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+          "oordeel": "onduidelijk",
+          "citaat": "Ik ben het spoor ook een beetje bijster, voorzitter."
+        },
+        {
+          "spreker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+          "oordeel": "geen_steun",
+          "citaat": "dus absoluut geen steun."
+        },
+        {
+          "spreker_id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+          "oordeel": "geen_steun",
+          "citaat": "Daarom geen steun."
+        },
+        {
+          "spreker_id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun."
+        },
+        {
+          "spreker_id": "c73e6f8a-05c9-4d13-945f-71dfb9c730f0",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun, voorzitter."
+        },
+        {
+          "spreker_id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+          "oordeel": "geen_steun",
+          "citaat": "Geen steun."
+        }
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "Geen 30 leden."
+    }
+  ]
+}
