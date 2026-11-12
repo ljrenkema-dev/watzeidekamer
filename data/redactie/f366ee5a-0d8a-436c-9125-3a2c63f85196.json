@@ -1,0 +1,72 @@
+{
+  "agendapunt": "f366ee5a-0d8a-436c-9125-3a2c63f85196",
+  "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
+  "datum": "2026-11-12",
+  "oordeel": "aangepast",
+  "bevindingen": [
+    {
+      "waar": "titel normaal",
+      "soort": "neutraliteit",
+      "ernst": "middel",
+      "oud": "Kamer botst over volgorde van debatten over Belastingplan en box 3",
+      "nieuw": "Kamer laat minister eerst over box 3 antwoorden, daarna Belastingplan",
+      "waarom": "'botst' maakt een ordedebat dat eindigde in brede steun ('steun voor het voorstel van de heer Grinwis') tot een conflict; nu een feitelijke zin."
+    },
+    {
+      "waar": "samenvatting normaal en makkelijk, kernpunten 1-2 (beide niveaus)",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "oud": "Gisteren was ... afgesproken ... is dat vandaag teruggedraaid",
+      "nieuw": "Volgens (meerdere) sprekers was een dag eerder ... afgesproken ... op de dag van dit debat / een dag later teruggedraaid",
+      "waarom": "'gisteren' en 'vandaag' slaan op 10 november, niet op de dag dat de lezer leest; en de afspraak in het WGO is een bewering van sprekers (PRO, FVD, BBB), de voorzitter bevestigt alleen dat 'er een e-mailprocedure heeft plaatsgevonden waarin anders is besloten'."
+    },
+    {
+      "waar": "samenvatting normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "wat veel partijen oncollegiaal of niet netjes vinden",
+      "nieuw": "wat veel partijen afkeuren",
+      "waarom": "'niet netjes' staat nergens in de bron; de partijen gebruikten verschillende woorden (oncollegiaal, onacceptabel, niet sportief, onhygiënisch)."
+    },
+    {
+      "waar": "standpunt ChristenUnie normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "oud": "De minister van Financiën moet eerst de vragen beantwoorden die gisteren over box 3 aan hem zijn gesteld. / De minister moet eerst de vragen over box 3 beantwoorden.",
+      "nieuw": "Net als DENK wil de partij de minister eerst de vragen van de dag ervoor laten beantwoorden. / Net als DENK wil ChristenUnie dat de minister eerst de vragen beantwoordt.",
+      "waarom": "Grinwis zegt 'ik zou hem dus inderdaad alle kans willen geven', niet 'moet', en hij bouwt uitdrukkelijk voort op 'het voorstel van collega Ergin'."
+    },
+    {
+      "waar": "standpunt DENK normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "Omdat er een nieuwe politieke situatie is, moet de minister van Financiën volgens DENK eerst spreken. / DENK vindt de procedure onacceptabel.",
+      "nieuw": "Volgens DENK is een nieuwe politieke situatie ontstaan, waar de minister van Financiën eerst op moet ingaan. / DENK vindt de procedurele spelletjes onacceptabel. ... De minister van Financiën moet daar eerst op ingaan.",
+      "waarom": "Ergin wil dat de minister 'eerst ingaat op die ontstane politieke situatie' en noemt 'procedurele spelletjes' onacceptabel, niet de procedure als geheel."
+    },
+    {
+      "waar": "standpunt PRO normaal en makkelijk",
+      "soort": "evenwicht",
+      "ernst": "klein",
+      "oud": "(geen steun genoemd)",
+      "nieuw": "De partij steunt het voorstel van ChristenUnie ... / PRO steunt ChristenUnie ...",
+      "waarom": "Stultiens zegt 'ik ben het eens met de heer Grinwis'; zonder dat lijkt PRO alleen te klagen. Ook 'besluit van gisteren' → 'van de dag ervoor'."
+    },
+    {
+      "waar": "vak 2 normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "Dat is via e-mail teruggedraaid.",
+      "nieuw": "Dat is helaas via een e-mailprocedure teruggedraaid. / Dat is helaas via e-mail teruggedraaid.",
+      "waarom": "Het citaat zegt 'helaas alsnog teruggedraaid via een e-mailprocedure'; 'helaas' verklaart de emotie en 'e-mailprocedure' is preciezer."
+    },
+    {
+      "waar": "vak 6 normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "Laat de minister eerst de vragen beantwoorden. / Laat de minister eerst antwoorden.",
+      "nieuw": "Ik wil de minister eerst laten antwoorden.",
+      "waarom": "Het citaat is een wens ('Ik zou hem dus inderdaad alle kans willen geven'), geen opdracht."
+    }
+  ]
+}

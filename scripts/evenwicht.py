@@ -28,10 +28,15 @@ def evenwicht(pid):
         if not b["voorzitter"]:
             woorden[groep(b["spreker"])] += len(b["tekst"].split())
     totaal = sum(woorden.values()) or 1
-    vakken = Counter(groep(bekend[v["spreker_id"]]) for v in strip["strip"] if v["spreker_id"])
+    # wie in dit agendapunt alleen als voorzitter sprak, telt niet mee voor zijn partij
+    voorzitter = {i for i in bekend if all(b["voorzitter"] for b in punt["beurten"] if b["spreker"]["id"] == i)}
+    vakken = Counter("voorzitter" if v["spreker_id"] in voorzitter else groep(bekend[v["spreker_id"]])
+                     for v in strip["strip"] if v["spreker_id"])
     genoemd = {groep(bekend[s["id"]]) for s in strip["sprekers"] if s["id"] in bekend}
     n_vak = sum(vakken.values()) or 1
     rijen, signalen = [], []
+    if vakken.get("voorzitter"):
+        rijen.append(("voorzitter", 0.0, vakken["voorzitter"], True))
     for g, w in woorden.most_common():
         aandeel = w / totaal
         rijen.append((g, aandeel, vakken.get(g, 0), g in genoemd))
