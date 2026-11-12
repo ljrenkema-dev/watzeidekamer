@@ -13,6 +13,11 @@ Doel: per politicus één vaste set manga-figuren, één per emotie, die de stri
 ## Stijl (vast, voor elk beeld gelijk)
 Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, subtle hatching, no colour except a single small accent colour on the tie or scarf. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature. No text, no letters, no logos, no flags, no symbols.
 
+## Stijl: gekleurd (alternatief)
+Full-colour manga illustration in the style of a colour manga cover, clean confident ink lines, soft cel shading with a few gradients, natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Verder dezelfde opbouw en dezelfde verboden als hierboven.
+
+De pilot maakt eerst van elke politicus alleen het neutrale figuur in beide stijlen; de eigenaar kiest de stijl, daarna volgen de andere emoties in die stijl.
+
 ## Beschrijving (uit de kenmerken)
 `scripts/manga.py` maakt per persoon een Engelse beschrijving uit `data/uiterlijk.json`, bijvoorbeeld:
 "A fictional Dutch politician in their fifties, a man, short platinum-blond hair combed back in a quiff, no glasses, clean-shaven, light skin, wearing a dark suit with a <accent> tie."

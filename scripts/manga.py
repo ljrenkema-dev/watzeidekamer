@@ -1,11 +1,13 @@
 """Pilot: manga-figuren per politicus met Gemini. Gebruik:
   python3 scripts/manga.py                         # de 5 pilotpolitici, alle emoties
   python3 scripts/manga.py --namen "Geert Wilders" --emoties neutraal,boos
+  python3 scripts/manga.py --emoties neutraal --stijl zw,kleur      # stap 1 van de pilot: stijlen vergelijken
+Stijlen: zw (zwart-wit met partijkleur als accent) en kleur (gekleurde manga). Uitvoer per stijl in data/manga/<stijl>/.
 
 Werkt via het OpenAI-compatibele adres van Gemini; de API-sleutel zet de netwerkproxy erbij
 (Authorization: Bearer). Er gaat GEEN portretfoto mee: de beschrijving komt uit data/uiterlijk.json.
 Het neutrale beeld wordt daarna als voorbeeld meegestuurd voor de andere emoties.
-Uitvoer: data/manga/<sleutel>/<emotie>.png en een logboek met de gebruikte prompts.
+Uitvoer: data/manga/<stijl>/<sleutel>/<emotie>.png en een logboek met de gebruikte prompts.
 """
 import base64, json, re, sys, time, urllib.request
 from pathlib import Path
@@ -23,11 +25,19 @@ EMOTIES = {
     "denkend": "looking slightly up and to the side, one hand near the chin, thinking",
     "vastberaden": "a determined look, set jaw, steady eyes",
 }
-STIJL = ("Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, "
+STIJLEN = {}
+STIJLEN["zw"] = ("Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, "
          "subtle hatching, no colour except a single small accent colour on the tie or scarf. Expressive but restrained eyes. "
          "Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills "
          "about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. "
          "No text, no letters, no logos, no flags, no symbols.")
+STIJLEN["kleur"] = ("Full-colour manga illustration in the style of a colour manga cover, clean confident ink lines, "
+                    "soft cel shading with a few gradients, natural skin and hair colours, muted dark clothing with the tie or "
+                    "scarf in the accent colour. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly "
+                    "to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial "
+                    "newspaper-comic feel, respectful, not a caricature: no exaggerated features. "
+                    "No text, no letters, no logos, no flags, no symbols.")
+STIJL = STIJLEN["zw"]
 HAAR = {"zwart": "black", "donkerbruin": "dark brown", "bruin": "brown", "lichtbruin": "light brown", "blond": "blond",
         "platinablond": "platinum-blond", "rood": "red", "grijs": "grey", "wit": "white"}
 KAPSEL = {"kort": "short", "kort-scheiding": "short with a side parting", "kort-kuif": "short with a combed-back quiff",
@@ -80,10 +90,10 @@ def zoek_beeld(obj):
     return base64.b64decode(m.group(1)) if m else None
 
 
-def maak(sleutel, u, emoties, log):
-    map_ = ROOT / "data" / "manga" / sleutel.replace(":", "-")
+def maak(sleutel, u, emoties, log, stijl="zw"):
+    map_ = ROOT / "data" / "manga" / stijl / sleutel.replace(":", "-")
     map_.mkdir(parents=True, exist_ok=True)
-    basis = f"{STIJL}\n\nCharacter: {beschrijving(u)}"
+    basis = f"{STIJLEN[stijl]}\n\nCharacter: {beschrijving(u)}"
     neutraal = map_ / "neutraal.png"
     for emo in ["neutraal"] + [e for e in emoties if e != "neutraal"]:
         if emo not in emoties and neutraal.exists():
@@ -113,12 +123,12 @@ def maak(sleutel, u, emoties, log):
             print(f"  {u['naam']} {emo}: geen afbeelding (antwoord bewaard)")
             continue
         uit.write_bytes(beeld)
-        log.append({"wie": u["naam"], "emotie": emo, "prompt": tekst, "model": MODEL})
+        log.append({"wie": u["naam"], "emotie": emo, "stijl": stijl, "prompt": tekst, "model": MODEL})
         print(f"  {u['naam']} {emo}: {len(beeld) // 1024} kB")
         time.sleep(2)
 
 
-def main(namen, emoties):
+def main(namen, emoties, stijlen):
     uiterlijk = json.loads((ROOT / "data" / "uiterlijk.json").read_text())
     log = []
     for naam in namen:
@@ -126,7 +136,8 @@ def main(namen, emoties):
         if not u:
             print(f"onbekend: {naam}"); continue
         print(naam, "→", beschrijving(u))
-        maak(sleutel, u, emoties, log)
+        for stijl in stijlen:
+            maak(sleutel, u, emoties, log, stijl)
     logpad = ROOT / "data" / "manga" / "log.json"
     oud = json.loads(logpad.read_text()) if logpad.exists() else []
     logpad.write_text(json.dumps(oud + log, ensure_ascii=False, indent=1))
@@ -136,4 +147,5 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     namen = a[a.index("--namen") + 1].split(",") if "--namen" in a else PILOT
     emoties = a[a.index("--emoties") + 1].split(",") if "--emoties" in a else list(EMOTIES)
-    main(namen, emoties)
+    stijlen = a[a.index("--stijl") + 1].split(",") if "--stijl" in a else ["zw"]
+    main(namen, emoties, stijlen)
