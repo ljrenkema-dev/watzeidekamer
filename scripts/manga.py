@@ -43,7 +43,16 @@ STIJLEN["kleur"] = ("Full-colour manga illustration in the style of a colour man
                     "to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial "
                     "newspaper-comic feel, respectful, not a caricature: no exaggerated features. "
                     "No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.")
+STIJLEN["manga"] = ("Full-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with "
+                    "soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair "
+                    "with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, "
+                    "hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark "
+                    "clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, "
+                    "pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, "
+                    "not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. "
+                    "No border, no frame, no panel outline: the white background runs to the edges.")
 STIJL = STIJLEN["zw"]
+BESCHRIJVINGEN = ROOT / "data" / "manga" / "beschrijvingen.json"
 HAAR = {"zwart": "black", "donkerbruin": "dark brown", "bruin": "brown", "lichtbruin": "light brown", "blond": "blond",
         "platinablond": "platinum-blond", "rood": "red", "grijs": "grey", "wit": "white"}
 KAPSEL = {"kort": "short", "kort-scheiding": "short with a side parting", "kort-kuif": "short with a combed-back quiff",
@@ -63,7 +72,17 @@ ACCENT = {"PVV": "dark blue", "PRO": "red", "Lid Keijzer": "teal", "BBB": "green
           "Groep Markuszower": "dark grey"}
 
 
-def beschrijving(u):
+def beschrijving(u, sleutel=None):
+    """Eigen beschrijving naar het portret (data/manga/beschrijvingen.json) als die er is, anders uit de kenmerken."""
+    if sleutel and BESCHRIJVINGEN.exists():
+        eigen = json.loads(BESCHRIJVINGEN.read_text()).get(sleutel)
+        if eigen:
+            kleur = ACCENT.get(u.get("fractie") or "", "dark grey")
+            return "A fictional Dutch politician. " + eigen["beschrijving"].replace("the accent colour", f"{kleur}")
+    return beschrijving_kenmerken(u)
+
+
+def beschrijving_kenmerken(u):
     wie = "a man" if u.get("gezicht") == "m" else "a woman"
     haar = ("bald head" if u.get("kapsel") == "kaal"
             else f"{HAAR.get(u.get('haarkleur'), 'brown')} hair, {KAPSEL.get(u.get('kapsel'), 'short')}")
@@ -81,7 +100,8 @@ def beschrijving(u):
 def vraag(delen):
     """Gewone Gemini-API (generateContent). De sleutel zet de netwerkproxy in de header x-goog-api-key."""
     body = json.dumps({"contents": [{"role": "user", "parts": delen}],
-                       "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}}).encode()
+                       "generationConfig": {"responseModalities": ["IMAGE", "TEXT"],
+                                            "imageConfig": {"aspectRatio": "3:4"}}}).encode()
     req = urllib.request.Request(URL.format(model=MODEL), data=body,
                                  headers={"x-goog-api-key": "proxy-injected", "Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=240) as r:
@@ -106,7 +126,7 @@ def bestaand(map_, emo):
 def maak(sleutel, u, emoties, log, stijl="zw"):
     map_ = ROOT / "data" / "manga" / stijl / sleutel.replace(":", "-")
     map_.mkdir(parents=True, exist_ok=True)
-    basis = f"{STIJLEN[stijl]}\n\nCharacter: {beschrijving(u)}"
+    basis = f"{STIJLEN[stijl]}\n\nCharacter: {beschrijving(u, sleutel)}"
     for emo in ["neutraal"] + [e for e in emoties if e != "neutraal"]:
         if emo not in emoties and bestaand(map_, "neutraal"):
             continue
@@ -152,7 +172,7 @@ def main(namen, emoties, stijlen):
         sleutel, u = next(((k, v) for k, v in uiterlijk.items() if v["naam"] == naam), (None, None))
         if not u:
             print(f"onbekend: {naam}"); continue
-        print(naam, "→", beschrijving(u))
+        print(naam, "→", beschrijving(u, sleutel)[:140])
         for stijl in stijlen:
             maak(sleutel, u, emoties, log, stijl)
     logpad = ROOT / "data" / "manga" / "log.json"
