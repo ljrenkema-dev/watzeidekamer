@@ -134,7 +134,10 @@ def redactie_regel(punt, strip):
         return '<p class="note">Nog niet onafhankelijk nagelezen door de redactie.</p>'
     if r.get("verslag_id") != strip.get("verslag_id"):
         return '<p class="note">Het verslag is bijgewerkt; de redactie leest deze strip opnieuw na.</p>'
-    n = len(r.get("bevindingen", []))
+    if "onafhankelijke_eerste_lezing" in r:  # de eigen controle van de schrijver telt niet mee
+        n = sum(len((r.get(k) or {}).get("bevindingen", [])) for k in ("onafhankelijke_eerste_lezing", "onafhankelijke_tweede_lezing"))
+    else:
+        n = len(r.get("bevindingen", [])) + len((r.get("tweede_lezing") or {}).get("bevindingen", []))
     return f'<p class="note">Nagelezen door de redactie op {datum(r["datum"])}' + (f", {n} correctie{'s' if n != 1 else ''}" if n else "") + '.</p>'
 
 
