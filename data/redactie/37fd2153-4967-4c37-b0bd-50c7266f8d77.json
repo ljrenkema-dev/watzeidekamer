@@ -174,5 +174,96 @@
       "les": "L12",
       "les_achteraf": true
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-12",
+    "bevindingen": [
+      {
+        "waar": "samenvatting makkelijk, kernpunten makkelijk 5, sprekers Van Baarle (DENK) makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L6",
+        "oud": "Hij voert de motie over sancties tegen de RSF uit. / De minister voert de motie over sancties tegen de RSF uit. / DENK vraagt of de minister de motie over RSF-sancties nu echt uitvoert.",
+        "nieuw": "Hij voert de motie uit over sancties tegen leden van de RSF-schaduwregering. (samenvatting en kernpunt) / DENK vraagt of de minister de motie over de RSF-schaduwregering echt uitvoert.",
+        "waarom": "De motie gaat over 'de leden van de schaduwregering van de RSF' (beurt 5, 24), niet over de hele RSF; het voorgestelde 'RSF-leiders' is zelf een L6-fout ('leden' is niet 'leiders') en is daarom niet overgenomen."
+      },
+      {
+        "waar": "kernpunten normaal 5, sprekers Van Baarle (DENK) normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "... EU-sancties tegen de schaduwregering van de RSF ...",
+        "nieuw": "... EU-sancties tegen leden van de schaduwregering van de RSF ...",
+        "waarom": "Het citaat spreekt van 'de leden van de schaduwregering'; vak 2 en de normale samenvatting zeiden dat al."
+      },
+      {
+        "waar": "kernpunten normaal 8",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L4",
+        "oud": "De motie vraagt om plaatsing te verkennen.",
+        "nieuw": "Volgens DENK vraagt de motie om plaatsing te verkennen.",
+        "waarom": "De motietekst staat niet in de bron; 'In de motie wordt gevraagd om de plaatsing op de terrorismelijst te verkennen' is een bewering van Van Baarle (beurt 36). Het voorgestelde 'alleen' is niet overgenomen: dat woord staat niet in de bron (L3)."
+      },
+      {
+        "waar": "kernpunten makkelijk (na 'DENK zegt: het Europees Parlement wil dit wel.')",
+        "soort": "neutraliteit",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "(ontbrak)",
+        "nieuw": "Volgens DENK ziet het Europees Parlement er wel een juridische basis voor.",
+        "waarom": "Het sterkste argument van DENK, 'zegt dat de juridische grondslag er wél zou zijn', stond alleen in de normale versie; toegevoegd in plaats van de bestaande zin te vervangen, omdat 'wil men het ... wél doen' ook in de bron staat (beurt 38)."
+      },
+      {
+        "waar": "kernpunten makkelijk (na 'DENK vroeg de SGP ...')",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "(ontbrak)",
+        "nieuw": "De SGP zegt: wij denken altijd goed na over moties.",
+        "waarom": "Het antwoord van de SGP ('Wij beraden ons altijd heel zorgvuldig op moties', beurt 13) stond alleen in de normale kernpunten."
+      },
+      {
+        "waar": "titel normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "Kamer vraagt minister hoe hij moties over Israël en Sudan uitvoert",
+        "nieuw": "SP en DENK vragen hoe minister moties over Israël en Sudan uitvoert",
+        "waarom": "Alleen SP en DENK stelden deze vragen; de andere aanwezigen hadden 'een inbreng van nul minuten' (beurt 14). 'hij' is geschrapt om onder 12 woorden te blijven."
+      },
+      {
+        "waar": "vak 4 normaal en makkelijk, sprekers Van Dijk (SGP) normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "Meer druk op de VAE sluiten wij niet uit. Maar dat laten we enigszins aan de minister over. / We sluiten druk op de VAE niet uit. De minister beslist dat deels. / Meer druk op de Emiraten sluit zij niet uit",
+        "nieuw": "Meer druk op de VAE sluiten wij zeker niet uit. Maar we laten het enigszins aan de minister. / Meer druk op de VAE sluiten we zeker niet uit. De minister beslist deels. / Meer druk op de Emiraten sluit zij zeker niet uit",
+        "waarom": "Het citaat zegt 'dus zeker niet uit'; zonder 'zeker' klinkt de SGP terughoudender. Ook in makkelijk en het standpunt aangepast (L10); 'verder onder druk zetten' is 'meer druk'."
+      },
+      {
+        "waar": "woorden ontraden",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "De minister vindt dat de Kamer tegen de motie moet stemmen.",
+        "nieuw": "De minister raadt de Kamer aan de motie niet aan te nemen.",
+        "waarom": "Ontraden is een advies ('ontraad ik'), geen 'moet'; de uitleg maakte het sterker."
+      }
+    ],
+    "afgewezen": [
+      {
+        "waar": "voorstel 'RSF-leiders' (bevinding 1)",
+        "waarom": "De bron zegt 'leden van de schaduwregering'; 'leiders' maakt het opnieuw onjuist (L6). De bevinding zelf is wel verwerkt, met 'leden van de RSF-schaduwregering'."
+      },
+      {
+        "waar": "voorstel 'Volgens DENK vraagt de motie alleen ...' (bevinding 3)",
+        "waarom": "'alleen' staat niet in de bron en zwakt de motie af (L3); alleen 'Volgens DENK' is overgenomen."
+      },
+      {
+        "waar": "voorstel kernpunt makkelijk 9 vervangen (bevinding 4)",
+        "waarom": "'Het Europees Parlement wil dit wel' staat ook in de bron ('wil men het in het Europees Parlement wél doen'); de juridische grondslag is als extra punt toegevoegd in plaats van de zin te vervangen."
+      }
+    ]
+  }
 }

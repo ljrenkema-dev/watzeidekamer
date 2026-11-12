@@ -13,7 +13,7 @@
     {
       "id": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
       "standpunt": {
-        "normaal": "De heer De Roon (PVV) wacht op de toelichting die de minister zes weken geleden toezegde over desinformatie vanuit de Sahel richting Europa. Hij dient twee moties in.",
+        "normaal": "De heer De Roon (PVV) wacht op de toelichting die de minister in het commissiedebat van 1 oktober toezegde over desinformatie vanuit de Sahel richting Europa. Hij dient twee moties in.",
         "makkelijk": "De minister beloofde uitleg over desinformatie uit de Sahel richting Europa. De heer De Roon wacht op die uitleg en dient twee moties in."
       }
     },
@@ -21,7 +21,7 @@
       "id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
       "standpunt": {
         "normaal": "Mevrouw Van Ark (CDA) vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen, omdat religie vertrouwen geeft maar ook een bron van desinformatie kan zijn. Zij roept de minister op opnieuw met aanbevelingen te komen.",
-        "makkelijk": "Religie kan vertrouwen geven, maar ook desinformatie verspreiden. Mevrouw Van Ark vraagt de minister om opnieuw met aanbevelingen te komen."
+        "makkelijk": "Mevrouw Van Ark zegt: religie kan vertrouwen geven, maar ook desinformatie verspreiden. Zij vraagt de minister om nieuwe aanbevelingen."
       }
     },
     {
@@ -34,8 +34,8 @@
     {
       "id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
       "standpunt": {
-        "normaal": "Minister Berendsen zegt dat de diensten aanwijzingen zien voor een Russische desinformatiecampagne via de Sahel. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en zegt dat Nederland gelooft dat engagement de Nederlandse belangen het best dient.",
-        "makkelijk": "De diensten zien aanwijzingen voor een Russische desinformatiecampagne via de Sahel. De minister vindt contact houden met de regio het beste voor Nederland."
+        "normaal": "Minister Berendsen zegt dat de diensten aanwijzingen zien dat desinformatie in de Sahel deel is van een bredere Russische campagne. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en ontraadt motie 274, omdat Nederland gelooft dat engagement de Nederlandse belangen het best dient.",
+        "makkelijk": "De minister zegt: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. Hij ontraadt motie 274. Hij vindt contact houden met de regio het beste voor Nederland."
       }
     }
   ],
@@ -43,17 +43,17 @@
     "normaal": [
       "Volgens de minister zien de diensten aanwijzingen dat desinformatie in de Sahel deel is van een bredere Russische campagne.",
       "Volgens de minister is die campagne erop gericht de regio te beïnvloeden en ook de zuidflank van Europa te destabiliseren, onder meer met antiwesterse verhalen.",
-      "Het kabinet startte vorige maand een regionaal programma van 40 miljoen om lokale onafhankelijke journalistiek te versterken.",
+      "Volgens de minister startte het kabinet in oktober 2026 een regionaal programma van 40 miljoen, gericht op het versterken van lokale onafhankelijke journalistiek.",
       "Het CDA wijst op een brief uit 2018 over religieuze geletterdheid en vraagt de minister opnieuw met aanbevelingen te komen.",
-      "Nederland gaat nationaal iets minder doen in de Sahel; de minister vindt het goed dat de EU er aanwezig blijft.",
+      "Volgens de minister gaat Nederland nationaal iets minder doen; daarom vindt hij het goed dat de EU daar aanwezig is. Dat zei hij bij het ontraden van motie 275.",
       "De minister ontraadt de moties 274 en 275 en geeft de moties 276 en 277 oordeel Kamer."
     ],
     "makkelijk": [
       "De minister: diensten zien aanwijzingen voor Russische desinformatie in de Sahel.",
       "Volgens de minister wil die campagne ook de zuidkant van Europa ontwrichten.",
-      "Het kabinet startte vorige maand een programma van 40 miljoen voor lokale onafhankelijke journalistiek.",
+      "Volgens de minister startte het kabinet in oktober een programma van 40 miljoen. Dat moet lokale onafhankelijke journalistiek sterker maken.",
       "Het CDA wil dat de minister opnieuw met aanbevelingen komt over de rol van religie.",
-      "Nederland gaat zelf iets minder doen. De minister vindt het goed dat de EU er aanwezig is.",
+      "Volgens de minister gaat Nederland zelf iets minder doen. Daarom vindt hij het goed dat de EU er is. Dat zei hij bij motie 275.",
       "De minister ontraadt de moties 274 en 275. Bij de moties 276 en 277 zegt hij: oordeel Kamer."
     ]
   },
@@ -118,10 +118,10 @@
       "spreker_id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
       "emotie": "denkend",
       "tekst": {
-        "normaal": "Wie de Sahel wil begrijpen, moet weten waar mensen vertrouwen vinden. Religieuze leiders zijn een soort influencers.",
-        "makkelijk": "Wil je de Sahel begrijpen? Kijk waar mensen hun vertrouwen vandaan halen."
+        "normaal": "Religieuze leiders zijn een soort influencers, maar religie kan ook bron van desinformatie zijn en geweld legitimeren.",
+        "makkelijk": "Religieuze leiders zijn een soort influencers. Religie kan ook desinformatie brengen of geweld goedpraten."
       },
-      "citaat": "wie de Sahel wil begrijpen, moet ook begrijpen waar mensen hun vertrouwen vandaan halen. … Religieuze leiders zijn eigenlijk een soort influencers, maar dan zonder TikTokaccount"
+      "citaat": "Religieuze leiders zijn eigenlijk een soort influencers, maar dan zonder TikTokaccount, maar religie kan ook een bron zijn van desinformatie en worden gebruikt om geweld te legitimeren."
     },
     {
       "spreker_id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
@@ -154,17 +154,17 @@
       "spreker_id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
       "emotie": "vastberaden",
       "tekst": {
-        "normaal": "Een programma van 40 miljoen versterkt lokale onafhankelijke journalistiek. Wij geloven: engagement dient onze belangen het best.",
-        "makkelijk": "We steunen lokale journalistiek met 40 miljoen. Contact houden is volgens ons het beste."
+        "normaal": "Motie 274 ontraad ik, met verwijzing naar het debat. Nederland gelooft dat engagement onze belangen het beste dient.",
+        "makkelijk": "Ik ontraad motie 274. Wij geloven: contact houden dient onze belangen het best."
       },
-      "citaat": "een regionaal programma gestart ter waarde van 40 miljoen, gericht op het versterken van lokale onafhankelijke journalistiek. … Nederland gelooft dat engagement het beste onze belangen dient"
+      "citaat": "De eerste motie, die op stuk nr. 274, ontraad ik, met verwijzing naar het debat. Nederland gelooft dat engagement het beste onze belangen dient"
     },
     {
       "spreker_id": null,
       "emotie": "neutraal",
       "tekst": {
         "normaal": "De moties 274 en 275 zijn ontraden. De moties 276 en 277 krijgen oordeel Kamer.",
-        "makkelijk": "Moties 274 en 275 zijn ontraden. Bij 276 en 277: oordeel Kamer."
+        "makkelijk": "De minister ontraadt motie 274 en 275. Over 276 en 277 kiest de Kamer."
       },
       "citaat": "De motie op stuk nr. 274: ontraden. … De motie op stuk nr. 275: ontraden. … De motie op stuk nr. 276: oordeel Kamer. De motie op stuk nr. 277: ook oordeel Kamer."
     }

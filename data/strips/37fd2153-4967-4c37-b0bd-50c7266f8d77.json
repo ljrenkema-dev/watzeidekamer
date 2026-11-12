@@ -2,12 +2,12 @@
   "agendapunt": "37fd2153-4967-4c37-b0bd-50c7266f8d77",
   "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
   "titel": {
-    "normaal": "Kamer vraagt minister hoe hij moties over Israël en Sudan uitvoert",
+    "normaal": "SP en DENK vragen hoe minister moties over Israël en Sudan uitvoert",
     "makkelijk": "Hoe voert de minister moties over Israël en Sudan uit?"
   },
   "samenvatting": {
     "normaal": "In een tweeminutendebat over de Raad Buitenlandse Zaken van 16 november 2026 vroegen SP en DENK hoe de minister aangenomen moties uitvoert. De SP wil weten voor welke EU-maatregelen hij pleit nu het E1-project van Israël volgens haar lijkt door te gaan. De minister zegt toe in de Raad opnieuw aandacht te vragen voor druk op Israël, maar noemt geen afzonderlijke maatregelen. De motie over EU-sancties tegen leden van de schaduwregering van de RSF in Sudan zegt hij uit te voeren, als deel van een bredere inzet; details geeft hij niet, omdat zulke sancties een verrassing moeten zijn. Van de zeven ingediende moties ontraadt hij er vier, waaronder die over de EU-terrorismelijst; drie laat hij aan het oordeel van de Kamer.",
-    "makkelijk": "De Kamer sprak over een EU-vergadering op 16 november 2026. SP en DENK vroegen hoe de minister twee moties uitvoert. Over Israël blijft hij in de EU aandacht vragen voor druk. Hij voert de motie over sancties tegen de RSF uit. Van de zeven moties ontraadt hij er vier."
+    "makkelijk": "De Kamer sprak over een EU-vergadering op 16 november 2026. SP en DENK vroegen hoe de minister twee moties uitvoert. Over Israël blijft hij in de EU aandacht vragen voor druk. Hij voert de motie uit over sancties tegen leden van de RSF-schaduwregering. Van de zeven moties ontraadt hij er vier."
   },
   "sprekers": [
     {
@@ -20,14 +20,14 @@
     {
       "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
       "standpunt": {
-        "normaal": "DENK wil weten of de motie over EU-sancties tegen de schaduwregering van de RSF nu specifiek wordt uitgevoerd. DENK vraagt de SGP om pleidooien voor meer druk op de Verenigde Arabische Emiraten te steunen.",
-        "makkelijk": "DENK vraagt of de minister de motie over RSF-sancties nu echt uitvoert. DENK vraagt de SGP om meer druk op de Emiraten te steunen."
+        "normaal": "DENK wil weten of de motie over EU-sancties tegen leden van de schaduwregering van de RSF nu specifiek wordt uitgevoerd. DENK vraagt de SGP om pleidooien voor meer druk op de Verenigde Arabische Emiraten te steunen.",
+        "makkelijk": "DENK vraagt of de minister de motie over de RSF-schaduwregering echt uitvoert. DENK vraagt de SGP om meer druk op de Emiraten te steunen."
       }
     },
     {
       "id": "3e045e18-daa2-48d2-8310-2999e2a47020",
       "standpunt": {
-        "normaal": "De SGP wil alles uit de kast halen tegen de bijdrage aan de oorlogseconomie in Sudan. Meer druk op de Emiraten sluit zij niet uit, maar zij laat dat enigszins over aan de wijsheid van de minister.",
+        "normaal": "De SGP wil alles uit de kast halen tegen de bijdrage aan de oorlogseconomie in Sudan. Meer druk op de Emiraten sluit zij zeker niet uit, maar zij laat dat enigszins over aan de wijsheid van de minister.",
         "makkelijk": "De SGP wil alles doen tegen de oorlogseconomie in Sudan. Meer druk op de Emiraten kan, maar dat laat zij deels aan de minister."
       }
     },
@@ -45,10 +45,10 @@
       "De minister zegt toe in de komende Raad opnieuw aandacht te vragen voor druk op Israël om E1 te stoppen.",
       "Op de vraag welke maatregelen hij voorstelt, verwijst hij naar een breed pakket en een gezamenlijk statement met een aantal grote landen.",
       "Veel landen willen volgens de minister afwachten met welke nieuwe plannen de Israëlische regering na de verkiezingen komt.",
-      "De motie over EU-sancties tegen de schaduwregering van de RSF voert de minister uit. Details geeft hij niet: zulke sancties moeten een verrassing zijn.",
+      "De motie over EU-sancties tegen leden van de schaduwregering van de RSF voert de minister uit. Details geeft hij niet: zulke sancties moeten een verrassing zijn.",
       "DENK vroeg de SGP om meer druk op de Verenigde Arabische Emiraten te steunen. De SGP zegt zich altijd zorgvuldig te beraden op moties.",
       "De motie over plaatsing op de EU-terrorismelijst ontraadt de minister.",
-      "DENK wijst erop dat het Europees Parlement daar wel toe oproept en wel een juridische grondslag ziet. De motie vraagt om plaatsing te verkennen.",
+      "DENK wijst erop dat het Europees Parlement daar wel toe oproept en wel een juridische grondslag ziet. Volgens DENK vraagt de motie om plaatsing te verkennen.",
       "De minister: volgens zijn juridisch advies ontbreekt de juridische basis, en hij ziet geen unanimiteit.",
       "De moties op stuk nr. 3499, 3500, 3501 en 3504 worden ontraden; 3502, 3503 en 3505 krijgen oordeel Kamer."
     ],
@@ -57,11 +57,13 @@
       "De minister vraagt in de Raad opnieuw aandacht voor druk op Israël.",
       "Hij verwijst naar een breed pakket aan maatregelen.",
       "Veel landen wachten eerst de nieuwe plannen van Israël af, zegt hij.",
-      "De minister voert de motie over sancties tegen de RSF uit.",
+      "Hij voert de motie uit over sancties tegen leden van de RSF-schaduwregering.",
       "Details geeft hij niet, want sancties moeten een verrassing zijn.",
       "DENK vroeg de SGP om meer druk op de Emiraten te steunen.",
+      "De SGP zegt: wij denken altijd goed na over moties.",
       "Een motie over de EU-terrorismelijst ontraadt de minister.",
       "DENK zegt: het Europees Parlement wil dit wel.",
+      "Volgens DENK ziet het Europees Parlement er wel een juridische basis voor.",
       "Volgens zijn juridisch advies kan het niet. Hij ziet ook geen unanimiteit.",
       "De minister ontraadt de moties 3499, 3500, 3501 en 3504.",
       "De moties 3502, 3503 en 3505 krijgen oordeel Kamer."
@@ -106,7 +108,7 @@
     },
     {
       "woord": "ontraden",
-      "uitleg": "De minister vindt dat de Kamer tegen de motie moet stemmen."
+      "uitleg": "De minister raadt de Kamer aan de motie niet aan te nemen."
     },
     {
       "woord": "oordeel Kamer",
@@ -149,8 +151,8 @@
       "spreker_id": "3e045e18-daa2-48d2-8310-2999e2a47020",
       "emotie": "denkend",
       "tekst": {
-        "normaal": "Meer druk op de VAE sluiten wij niet uit. Maar dat laten we enigszins aan de minister over.",
-        "makkelijk": "We sluiten druk op de VAE niet uit. De minister beslist dat deels."
+        "normaal": "Meer druk op de VAE sluiten wij zeker niet uit. Maar we laten het enigszins aan de minister.",
+        "makkelijk": "Meer druk op de VAE sluiten we zeker niet uit. De minister beslist deels."
       },
       "citaat": "Wij sluiten het verder onder druk zetten van dit land dus zeker niet uit, om hierin een goede rol te spelen, maar we laten het ook wel enigszins over aan de wijsheid van de minister."
     },

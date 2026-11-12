@@ -40,6 +40,7 @@ Geen "gisteren", "vandaag", "morgen", "vorige week". Schrijf de datum of "een da
 **L8. Titels zijn neutraal.**
 Een feitelijke zin of een open vraag. Geen conflictwoorden ("botst", "ruzie", "ophef") tenzij sprekers het zelf zo noemen.
 - Fout: "Kamer botst over volgorde van debatten" → Goed: "Kamer laat minister eerst over box 3 antwoorden, daarna Belastingplan"
+- Noem wie het deed: "SP en DENK vragen …", niet "Kamer vraagt …", tenzij de Kamer als geheel iets deed (een stemming, een besluit).
 
 **L9. Beide kanten, en het antwoord op de hoofdvraag.**
 - Bij elke hoofdvraag staat het antwoord van de bewindspersoon in de strip.
@@ -48,7 +49,7 @@ Een feitelijke zin of een open vraag. Geen conflictwoorden ("botst", "ruzie", "o
 - Steunt een partij het voorstel van een andere partij, zeg dat ("PRO steunt het voorstel van de ChristenUnie").
 
 **L10. Normaal en makkelijk zeggen hetzelfde.**
-Dezelfde punten, dezelfde voorbehouden, hetzelfde onderwerp in de titel. Makkelijk is korter, niet anders.
+Dezelfde punten, dezelfde voorbehouden, hetzelfde onderwerp in de titel. Makkelijk is korter, niet anders. In makkelijk: actieve vorm en zeg wie het doet ("De minister ontraadt motie 274", niet "Motie 274 is ontraden"), en geen jargon zoals "oordeel Kamer" (schrijf "de minister laat de keuze aan de Kamer").
 
 **L11. De emotie past bij het citaat.**
 Een feitelijke vraag is `neutraal` of `bezorgd`, niet `boos`. Maak niemand agressiever of belachelijker dan het citaat.
@@ -63,7 +64,7 @@ Onder een spreker staat alleen wat díe persoon zei. Spraken twee mensen van dez
 - Fout: onder Jimmy Dijk (SP) het jeugdzorgpunt van Sarah Dobbe (SP).
 
 **L14. Koppel partijen niet aan elkaar zonder bron.**
-Schrijf alleen "net als X" of "steunt het voorstel van X" als de spreker dat zelf zegt, en geef het voorstel van elke partij apart weer als ze verschillen.
+Schrijf alleen "net als X" of "steunt het voorstel van X" als de spreker dat zelf zegt, en geef het voorstel van elke partij apart weer als ze verschillen. Schrijf alleen dat partijen het eens zijn als hun voorstellen echt gelijk zijn.
 - Fout: "Net als DENK wil de ChristenUnie de minister eerst laten antwoorden." DENK wilde dat de minister eerst op de politieke situatie inging en het wetgevingsoverleg in een apart debat.
 
 **L15. De Verteller opent of sluit, meer niet.**

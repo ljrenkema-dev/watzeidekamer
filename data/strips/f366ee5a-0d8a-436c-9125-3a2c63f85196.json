@@ -13,29 +13,29 @@
     {
       "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
       "standpunt": {
-        "normaal": "PRO vindt het oncollegiaal dat het besluit van de dag ervoor via een e-mailprocedure is teruggedraaid. De partij steunt het voorstel van ChristenUnie en wil genoeg tijd voor box 3 en het budgettaire gat van 7,5 miljard.",
-        "makkelijk": "PRO vindt het oncollegiaal dat de afspraak is teruggedraaid. PRO steunt ChristenUnie en wil genoeg tijd voor het budgettaire gat van 7,5 miljard."
+        "normaal": "PRO vindt het vrij oncollegiaal dat het besluit van de dag ervoor via een e-mailprocedure is teruggedraaid. De partij steunt het voorstel van ChristenUnie en wil genoeg tijd voor box 3 en het budgettaire gat van 7,5 miljard.",
+        "makkelijk": "PRO vindt het vrij oncollegiaal dat de afspraak is teruggedraaid. PRO steunt ChristenUnie en wil genoeg tijd voor het budgettaire gat van 7,5 miljard."
       }
     },
     {
       "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
       "standpunt": {
-        "normaal": "FVD noemt de gang van zaken volstrekt ontoelaatbaar en bijzonder oncollegiaal. Volgens FVD is het een schoffering van een heel groot deel van de Kamer.",
-        "makkelijk": "FVD noemt de gang van zaken volstrekt ontoelaatbaar en een schoffering van een groot deel van de Kamer."
+        "normaal": "FVD noemt de gang van zaken volstrekt ontoelaatbaar en bijzonder oncollegiaal. Volgens FVD was dit een verzoek van de VVD en is het een schoffering van een heel groot deel van de Kamer.",
+        "makkelijk": "FVD noemt de gang van zaken volstrekt ontoelaatbaar en een schoffering van een groot deel van de Kamer. Volgens FVD was het een verzoek van de VVD."
       }
     },
     {
       "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
       "standpunt": {
-        "normaal": "DENK vindt het onacceptabel dat debatten met procedurele spelletjes op één hoop worden gegooid. Volgens DENK is een nieuwe politieke situatie ontstaan, waar de minister van Financiën eerst op moet ingaan.",
-        "makkelijk": "DENK vindt de procedurele spelletjes onacceptabel. Volgens DENK is er een nieuwe politieke situatie. De minister van Financiën moet daar eerst op ingaan."
+        "normaal": "DENK vindt het onacceptabel dat debatten met procedurele spelletjes op één hoop worden gegooid. Volgens DENK is er een nieuwe politieke situatie. DENK wil dat de minister daar eerst op ingaat, en wil het WGO in een apart debat afhandelen.",
+        "makkelijk": "DENK vindt de procedurele spelletjes onacceptabel. Volgens DENK is er een nieuwe politieke situatie. DENK wil dat de minister daar eerst op ingaat. Het WGO wil DENK in een apart debat."
       }
     },
     {
       "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
       "standpunt": {
-        "normaal": "ChristenUnie zegt dat de procedure volgens de regels kan zijn gegaan, maar dat het niet klopt. Net als DENK wil de partij de minister eerst de vragen van de dag ervoor laten beantwoorden.",
-        "makkelijk": "ChristenUnie zegt: de procedure kan volgens de regels zijn, maar klopt niet. Net als DENK wil ChristenUnie dat de minister eerst de vragen beantwoordt."
+        "normaal": "ChristenUnie zegt dat de procedure volgens de regels kan zijn gegaan, maar niet klopt, en noemt het heel onhygiënisch. De partij wil de minister alle kans geven om eerst de vragen uit het WGO te beantwoorden.",
+        "makkelijk": "ChristenUnie vindt het heel onhygiënisch, ook al kan het volgens de regels. ChristenUnie wil dat de minister eerst de vragen uit het WGO beantwoordt."
       }
     },
     {
@@ -49,7 +49,7 @@
       "id": "75e07581-7770-48b1-926c-a1cc5c008774",
       "standpunt": {
         "normaal": "50PLUS steunt het voorstel van ChristenUnie. De partij vindt dat een minderheidskabinet rekening moet houden met anderen, en dat de oppositie opnieuw wordt weggezet.",
-        "makkelijk": "50PLUS steunt het voorstel van ChristenUnie. 50PLUS vindt dat een minderheidskabinet rekening moet houden met de oppositie."
+        "makkelijk": "50PLUS steunt het voorstel van ChristenUnie. 50PLUS vindt dat een minderheidskabinet rekening moet houden met anderen. Volgens 50PLUS wordt de oppositie opnieuw weggezet."
       }
     },
     {
@@ -180,8 +180,8 @@
       "spreker_id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
       "emotie": "boos",
       "tekst": {
-        "normaal": "We besloten gisteren tot een apart box 3-debat met de minister. Dat is helaas via een e-mailprocedure teruggedraaid.",
-        "makkelijk": "Gisteren spraken we een apart debat af. Dat is helaas via e-mail teruggedraaid."
+        "normaal": "We besloten een dag eerder tot een apart box 3-debat met de minister. Dat is helaas via een e-mailprocedure teruggedraaid.",
+        "makkelijk": "Een dag eerder spraken we een apart debat af. Dat is helaas via e-mail teruggedraaid."
       },
       "citaat": "We hadden gisteren inderdaad besloten: we doen een los debat over de box 3-novelle met de minister. Dat is vandaag helaas alsnog teruggedraaid via een e-mailprocedure."
     },
@@ -198,17 +198,17 @@
       "spreker_id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
       "emotie": "vastberaden",
       "tekst": {
-        "normaal": "Er is een nieuwe politieke situatie ontstaan. Daarom stel ik voor dat de minister van Financiën eerst spreekt.",
-        "makkelijk": "Er is een nieuwe politieke situatie. Laat de minister eerst spreken."
+        "normaal": "Er is een nieuwe politieke situatie. Ik stel voor: eerst de minister. Het WGO in een apart debat.",
+        "makkelijk": "Er is een nieuwe politieke situatie. Eerst de minister, het WGO apart."
       },
-      "citaat": "er voor de stemmingen een nieuwe politieke situatie is ontstaan … Dit is dus een ordevoorstel om eerst de minister van Financiën het woord te geven."
+      "citaat": "er voor de stemmingen een nieuwe politieke situatie is ontstaan … ik ben er geen voorstander van dat we dat in dit debat doen; dat moet in een apart debat … Dit is dus een ordevoorstel om eerst de minister van Financiën het woord te geven."
     },
     {
       "spreker_id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
       "emotie": "denkend",
       "tekst": {
         "normaal": "Ik begrijp uw gevoelens. Maar ik moet uitgaan van de uitkomst van de procedurevergadering: een meerderheid.",
-        "makkelijk": "Ik begrijp uw gevoel. Maar ik moet uitgaan van de meerderheid."
+        "makkelijk": "Ik begrijp uw gevoel. Maar ik moet uitgaan van de uitkomst van de procedurevergadering."
       },
       "citaat": "Ik kan me heel goed voorstellen dat u daar gevoelens bij heeft. Alleen, ik heb me nu te verhouden tot de uitkomst van de procedurevergadering, die heeft geleid tot een meerderheid."
     },
@@ -225,10 +225,10 @@
       "spreker_id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
       "emotie": "neutraal",
       "tekst": {
-        "normaal": "Beide onderwerpen verdienen een volwaardig debat. Wij steunen waar de meerderheid voor kiest.",
-        "makkelijk": "Beide onderwerpen verdienen een goed debat. Wij steunen wat de meerderheid wil."
+        "normaal": "Beide onderwerpen verdienen een volwaardig debat. Wij steunen waar de meerderheid voor kiest. Het maakt ons niet uit.",
+        "makkelijk": "Beide verdienen een goed debat. Wij steunen de meerderheid. Het maakt ons niet uit."
       },
-      "citaat": "Beide onderwerpen verdienen een volwaardig debat, dus steun voor waar de meerderheid zich voor uitspreekt."
+      "citaat": "Beide onderwerpen verdienen een volwaardig debat, dus steun voor waar de meerderheid zich voor uitspreekt. Het maakt ons niet uit."
     },
     {
       "spreker_id": null,

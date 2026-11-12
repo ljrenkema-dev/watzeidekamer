@@ -84,5 +84,65 @@
       "les": "L5",
       "les_achteraf": true
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-12",
+    "bevindingen": [
+      {
+        "waar": "standpunt ChristenUnie normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "groot",
+        "les": "L9",
+        "oud": "ChristenUnie zegt dat de procedure volgens de regels kan zijn gegaan, maar dat het niet klopt. Net als DENK wil de partij de minister eerst de vragen van de dag ervoor laten beantwoorden. / ChristenUnie zegt: de procedure kan volgens de regels zijn, maar klopt niet. Net als DENK wil ChristenUnie dat de minister eerst de vragen beantwoordt.",
+        "nieuw": "ChristenUnie zegt dat de procedure volgens de regels kan zijn gegaan, maar niet klopt, en noemt het heel onhygiënisch. De partij wil de minister alle kans geven om eerst de vragen uit het WGO te beantwoorden. / ChristenUnie vindt het heel onhygiënisch, ook al kan het volgens de regels. ChristenUnie wil dat de minister eerst de vragen uit het WGO beantwoordt.",
+        "waarom": "'Net als DENK' klopt niet: DENK wilde de minister eerst laten 'ingaan op die ontstane politieke situatie' en de WGO-afhandeling 'in een apart debat', terwijl Grinwis de minister de 'vragen die aan zijn adres zijn gesteld' in het WGO wil laten beantwoorden en het 'heel onhygiënisch' noemt."
+      },
+      {
+        "waar": "standpunt DENK normaal en makkelijk, vak 4 normaal en makkelijk (citaat verlengd)",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "DENK vindt het onacceptabel dat debatten met procedurele spelletjes op één hoop worden gegooid. Volgens DENK is een nieuwe politieke situatie ontstaan, waar de minister van Financiën eerst op moet ingaan. / DENK vindt de procedurele spelletjes onacceptabel. Volgens DENK is er een nieuwe politieke situatie. De minister van Financiën moet daar eerst op ingaan. | vak 4: Er is een nieuwe politieke situatie ontstaan. Daarom stel ik voor dat de minister van Financiën eerst spreekt. / Er is een nieuwe politieke situatie. Laat de minister eerst spreken.",
+        "nieuw": "DENK vindt het onacceptabel dat debatten met procedurele spelletjes op één hoop worden gegooid. Volgens DENK is er een nieuwe politieke situatie. DENK wil dat de minister daar eerst op ingaat, en wil het WGO in een apart debat afhandelen. / DENK vindt de procedurele spelletjes onacceptabel. Volgens DENK is er een nieuwe politieke situatie. DENK wil dat de minister daar eerst op ingaat. Het WGO wil DENK in een apart debat. | vak 4: Er is een nieuwe politieke situatie. Ik stel voor: eerst de minister. Het WGO in een apart debat. / Er is een nieuwe politieke situatie. Eerst de minister, het WGO apart.",
+        "waarom": "De directe nuancering 'dat moet in een apart debat' viel weg, waardoor het DENK-voorstel gelijk leek aan dat van ChristenUnie; ook 'moet ingaan' → 'wil dat … ingaat' omdat Ergin zei 'Ik zou het daarom juist belangrijk vinden'."
+      },
+      {
+        "waar": "standpunt PRO normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L1",
+        "oud": "PRO vindt het oncollegiaal …",
+        "nieuw": "PRO vindt het vrij oncollegiaal …",
+        "waarom": "Stultiens zei 'Dat vind ik vrij oncollegiaal'; het voorbehoud 'vrij' was weggevallen."
+      },
+      {
+        "waar": "standpunt FVD normaal en makkelijk, vak 7 (VVD) normaal en makkelijk (citaat verlengd)",
+        "soort": "evenwicht",
+        "ernst": "middel",
+        "les": "L9",
+        "oud": "FVD noemt de gang van zaken volstrekt ontoelaatbaar en bijzonder oncollegiaal. Volgens FVD is het een schoffering van een heel groot deel van de Kamer. / FVD noemt de gang van zaken volstrekt ontoelaatbaar en een schoffering van een groot deel van de Kamer. | vak 7: Beide onderwerpen verdienen een volwaardig debat. Wij steunen waar de meerderheid voor kiest. / Beide onderwerpen verdienen een goed debat. Wij steunen wat de meerderheid wil.",
+        "nieuw": "FVD noemt de gang van zaken volstrekt ontoelaatbaar en bijzonder oncollegiaal. Volgens FVD was dit een verzoek van de VVD en is het een schoffering van een heel groot deel van de Kamer. / FVD noemt de gang van zaken volstrekt ontoelaatbaar en een schoffering van een groot deel van de Kamer. Volgens FVD was het een verzoek van de VVD. | vak 7: Beide onderwerpen verdienen een volwaardig debat. Wij steunen waar de meerderheid voor kiest. Het maakt ons niet uit. / Beide verdienen een goed debat. Wij steunen de meerderheid. Het maakt ons niet uit.",
+        "waarom": "FVD's tegenwerping op de VVD ('Dit was een verzoek van de VVD') ontbrak en het VVD-vak liet de direct volgende zin 'Het maakt ons niet uit' weg, waarop FVD reageerde; de bewering staat nu als 'volgens FVD'."
+      },
+      {
+        "waar": "vak 5 (voorzitter) makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "Ik begrijp uw gevoel. Maar ik moet uitgaan van de meerderheid.",
+        "nieuw": "Ik begrijp uw gevoel. Maar ik moet uitgaan van de uitkomst van de procedurevergadering.",
+        "waarom": "Het citaat zegt 'de uitkomst van de procedurevergadering, die heeft geleid tot een meerderheid'; 'de meerderheid' alleen leek op de meerderheid in de zaal te slaan."
+      },
+      {
+        "waar": "standpunt 50PLUS makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "50PLUS steunt het voorstel van ChristenUnie. 50PLUS vindt dat een minderheidskabinet rekening moet houden met de oppositie.",
+        "nieuw": "50PLUS steunt het voorstel van ChristenUnie. 50PLUS vindt dat een minderheidskabinet rekening moet houden met anderen. Volgens 50PLUS wordt de oppositie opnieuw weggezet.",
+        "waarom": "Van Brenk zei 'rekening moet houden met anderen' en apart dat 'de oppositie gewoon echt wordt weggezet'; de makkelijke versie voegde dat samen en week af van de normale."
+      }
+    ],
+    "afgewezen": []
+  }
 }
