@@ -3,11 +3,11 @@
   "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
   "titel": {
     "normaal": "Desinformatie, religie en moties in kort debat over de Sahel",
-    "makkelijk": "Wat doet Nederland in de Sahel?"
+    "makkelijk": "Kort debat over de Sahel: desinformatie en religie"
   },
   "samenvatting": {
     "normaal": "In een tweeminutendebat over de Sahelregio dienden de PVV, het CDA en de SGP in totaal vier moties in. De PVV wachtte nog op een toegezegde toelichting over desinformatie vanuit de Sahel richting Europa. Het CDA vindt kennis van religie nodig voor goed buitenlands beleid en vraagt de minister opnieuw met aanbevelingen te komen. Minister Berendsen zei dat de diensten aanwijzingen zien dat desinformatie in de Sahel deel is van een bredere Russische campagne. Hij ontraadde de moties 274 en 275 en liet het oordeel over de moties 276 en 277 aan de Kamer.",
-    "makkelijk": "De Kamer had een kort debat over de Sahelregio. De PVV wacht op uitleg over desinformatie uit de Sahel. Het CDA vindt kennis over religie belangrijk voor buitenlands beleid. De minister ziet aanwijzingen voor een Russische desinformatiecampagne. Hij ontraadt twee moties en laat twee moties over aan de Kamer."
+    "makkelijk": "De Kamer had een kort debat over de Sahelregio. De PVV wacht op uitleg over desinformatie uit de Sahel. Het CDA vindt kennis over religie belangrijk voor buitenlands beleid. De minister zegt: de diensten zien aanwijzingen voor Russische desinformatie. Hij ontraadt twee moties en laat twee moties over aan de Kamer."
   },
   "sprekers": [
     {
@@ -20,8 +20,8 @@
     {
       "id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
       "standpunt": {
-        "normaal": "Mevrouw Van Ark (CDA) vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen. Zij roept de minister op opnieuw met aanbevelingen te komen over religieuze geletterdheid.",
-        "makkelijk": "Wie de Sahel wil begrijpen, moet de rol van religie begrijpen. Mevrouw Van Ark vraagt de minister om opnieuw met aanbevelingen te komen."
+        "normaal": "Mevrouw Van Ark (CDA) vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen, omdat religie vertrouwen geeft maar ook een bron van desinformatie kan zijn. Zij roept de minister op opnieuw met aanbevelingen te komen.",
+        "makkelijk": "Religie kan vertrouwen geven, maar ook desinformatie verspreiden. Mevrouw Van Ark vraagt de minister om opnieuw met aanbevelingen te komen."
       }
     },
     {
@@ -34,7 +34,7 @@
     {
       "id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
       "standpunt": {
-        "normaal": "Minister Berendsen ziet aanwijzingen voor een Russische desinformatiecampagne via de Sahel en wijst op een programma van 40 miljoen voor lokale journalistiek. Volgens hem dient engagement met de regio de Nederlandse belangen het best.",
+        "normaal": "Minister Berendsen zegt dat de diensten aanwijzingen zien voor een Russische desinformatiecampagne via de Sahel. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en zegt dat Nederland gelooft dat engagement de Nederlandse belangen het best dient.",
         "makkelijk": "De diensten zien aanwijzingen voor een Russische desinformatiecampagne via de Sahel. De minister vindt contact houden met de regio het beste voor Nederland."
       }
     }
@@ -42,15 +42,15 @@
   "kernpunten": {
     "normaal": [
       "Volgens de minister zien de diensten aanwijzingen dat desinformatie in de Sahel deel is van een bredere Russische campagne.",
-      "Die campagne is erop gericht de regio te beïnvloeden en ook de zuidflank van Europa te destabiliseren, onder meer met antiwesterse verhalen.",
+      "Volgens de minister is die campagne erop gericht de regio te beïnvloeden en ook de zuidflank van Europa te destabiliseren, onder meer met antiwesterse verhalen.",
       "Het kabinet startte vorige maand een regionaal programma van 40 miljoen om lokale onafhankelijke journalistiek te versterken.",
       "Het CDA wijst op een brief uit 2018 over religieuze geletterdheid en vraagt de minister opnieuw met aanbevelingen te komen.",
       "Nederland gaat nationaal iets minder doen in de Sahel; de minister vindt het goed dat de EU er aanwezig blijft.",
       "De minister ontraadt de moties 274 en 275 en geeft de moties 276 en 277 oordeel Kamer."
     ],
     "makkelijk": [
-      "De minister: er zijn aanwijzingen dat desinformatie in de Sahel deel is van een Russische campagne.",
-      "Die campagne wil ook de zuidkant van Europa ontwrichten.",
+      "De minister: diensten zien aanwijzingen voor Russische desinformatie in de Sahel.",
+      "Volgens de minister wil die campagne ook de zuidkant van Europa ontwrichten.",
       "Het kabinet startte vorige maand een programma van 40 miljoen voor lokale onafhankelijke journalistiek.",
       "Het CDA wil dat de minister opnieuw met aanbevelingen komt over de rol van religie.",
       "Nederland gaat zelf iets minder doen. De minister vindt het goed dat de EU er aanwezig is.",
@@ -118,8 +118,8 @@
       "spreker_id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
       "emotie": "denkend",
       "tekst": {
-        "normaal": "Wie de Sahel wil begrijpen, moet weten waar mensen hun vertrouwen vandaan halen. Religieuze leiders zijn een soort influencers.",
-        "makkelijk": "Begrijp waar mensen in de Sahel vertrouwen vinden. Religieuze leiders zijn een soort influencers."
+        "normaal": "Wie de Sahel wil begrijpen, moet weten waar mensen vertrouwen vinden. Religieuze leiders zijn een soort influencers.",
+        "makkelijk": "Wil je de Sahel begrijpen? Kijk waar mensen hun vertrouwen vandaan halen."
       },
       "citaat": "wie de Sahel wil begrijpen, moet ook begrijpen waar mensen hun vertrouwen vandaan halen. … Religieuze leiders zijn eigenlijk een soort influencers, maar dan zonder TikTokaccount"
     },
@@ -127,8 +127,8 @@
       "spreker_id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
       "emotie": "vastberaden",
       "tekst": {
-        "normaal": "Bij toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister op opnieuw met aanbevelingen te komen.",
-        "makkelijk": "De rol van religie verandert. Minister, kom opnieuw met aanbevelingen."
+        "normaal": "Bij toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister op tot nieuwe aanbevelingen.",
+        "makkelijk": "Bij meer conflicten verandert de rol van religie. Wij vragen nieuwe aanbevelingen."
       },
       "citaat": "In tijden van toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister daarom op om opnieuw met aanbevelingen te komen."
     },
@@ -145,8 +145,8 @@
       "spreker_id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
       "emotie": "bezorgd",
       "tekst": {
-        "normaal": "De diensten zien aanwijzingen dat desinformatie in de Sahel deel is van een Russische campagne, ook tegen Zuid-Europa.",
-        "makkelijk": "De diensten zien aanwijzingen voor een Russische campagne. Die wil ook Zuid-Europa ontwrichten."
+        "normaal": "Diensten zien aanwijzingen: desinformatie in de Sahel hoort bij een Russische campagne, ook om Europa's zuidflank te destabiliseren.",
+        "makkelijk": "De diensten zien aanwijzingen voor een Russische desinformatiecampagne. Die wil ook Europa's zuidkant ontwrichten."
       },
       "citaat": "zijn er aanwijzingen bij de diensten dat desinformatie-inzet in de Sahel onderdeel is van een bredere Russische campagne om de regio te beïnvloeden en ook de zuidflank van Europa te destabiliseren."
     },
@@ -154,8 +154,8 @@
       "spreker_id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
       "emotie": "vastberaden",
       "tekst": {
-        "normaal": "We startten een programma van 40 miljoen voor lokale onafhankelijke journalistiek. Engagement dient onze belangen het best.",
-        "makkelijk": "We steunen lokale journalistiek met 40 miljoen. Contact houden dient onze belangen het best."
+        "normaal": "Een programma van 40 miljoen versterkt lokale onafhankelijke journalistiek. Wij geloven: engagement dient onze belangen het best.",
+        "makkelijk": "We steunen lokale journalistiek met 40 miljoen. Contact houden is volgens ons het beste."
       },
       "citaat": "een regionaal programma gestart ter waarde van 40 miljoen, gericht op het versterken van lokale onafhankelijke journalistiek. … Nederland gelooft dat engagement het beste onze belangen dient"
     },

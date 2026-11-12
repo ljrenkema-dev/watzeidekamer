@@ -2,19 +2,19 @@
   "agendapunt": "f366ee5a-0d8a-436c-9125-3a2c63f85196",
   "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
   "titel": {
-    "normaal": "Kamer botst over volgorde van debatten over Belastingplan en box 3",
+    "normaal": "Kamer laat minister eerst over box 3 antwoorden, daarna Belastingplan",
     "makkelijk": "In welke volgorde praat de Kamer over belastingen?"
   },
   "samenvatting": {
-    "normaal": "Dit ordedebat ging over de volgorde van de debatten, niet over de inhoud van de belastingplannen. Gisteren was in het wetgevingsoverleg afgesproken om apart met de minister over de box 3-novelle te debatteren. Via een e-mailprocedure van de commissie voor Financiën is dat vandaag teruggedraaid, wat veel partijen oncollegiaal of niet netjes vinden. Een meerderheid steunt het voorstel van ChristenUnie: eerst spreekt de minister van Financiën in tweede termijn over box 3. Daarna gaat de behandeling van het Belastingplan 2027 verder.",
-    "makkelijk": "Dit debat gaat over de volgorde, niet over de belastingen zelf. Gisteren was een apart debat over box 3 afgesproken. Via een e-mailprocedure is dat vandaag anders besloten. Veel partijen vinden dat niet netjes. Een meerderheid wil dat eerst de minister over box 3 antwoordt."
+    "normaal": "Dit ordedebat ging over de volgorde van de debatten, niet over de inhoud van de belastingplannen. Volgens meerdere sprekers was een dag eerder in het wetgevingsoverleg een apart box 3-debat met de minister afgesproken. Via een e-mailprocedure van de commissie voor Financiën is dat op de dag van dit debat teruggedraaid, wat veel partijen afkeuren. Een meerderheid steunt het voorstel van ChristenUnie: eerst spreekt de minister van Financiën in tweede termijn over box 3. Daarna gaat de behandeling van het Belastingplan 2027 verder.",
+    "makkelijk": "Dit debat gaat over de volgorde, niet over de belastingen zelf. Volgens sprekers was een dag eerder een apart box 3-debat afgesproken. Via een e-mailprocedure is dat teruggedraaid. Veel partijen vinden dat niet netjes. Een meerderheid wil dat eerst de minister over box 3 antwoordt."
   },
   "sprekers": [
     {
       "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
       "standpunt": {
-        "normaal": "PRO vindt het oncollegiaal dat het besluit van gisteren via een e-mailprocedure is teruggedraaid. De partij wil genoeg tijd voor box 3 en het budgettaire gat van 7,5 miljard.",
-        "makkelijk": "PRO vindt het oncollegiaal dat de afspraak is teruggedraaid. PRO wil genoeg tijd voor het budgettaire gat van 7,5 miljard."
+        "normaal": "PRO vindt het oncollegiaal dat het besluit van de dag ervoor via een e-mailprocedure is teruggedraaid. De partij steunt het voorstel van ChristenUnie en wil genoeg tijd voor box 3 en het budgettaire gat van 7,5 miljard.",
+        "makkelijk": "PRO vindt het oncollegiaal dat de afspraak is teruggedraaid. PRO steunt ChristenUnie en wil genoeg tijd voor het budgettaire gat van 7,5 miljard."
       }
     },
     {
@@ -27,15 +27,15 @@
     {
       "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
       "standpunt": {
-        "normaal": "DENK vindt het onacceptabel dat debatten met procedurele spelletjes op één hoop worden gegooid. Omdat er een nieuwe politieke situatie is, moet de minister van Financiën volgens DENK eerst spreken.",
-        "makkelijk": "DENK vindt de procedure onacceptabel. DENK ziet een nieuwe politieke situatie. De minister van Financiën moet eerst spreken."
+        "normaal": "DENK vindt het onacceptabel dat debatten met procedurele spelletjes op één hoop worden gegooid. Volgens DENK heeft een fractie met afspraken met het kabinet het vertrouwen opgezegd; de minister van Financiën moet eerst op die nieuwe politieke situatie ingaan.",
+        "makkelijk": "DENK vindt de procedurele spelletjes onacceptabel. Volgens DENK is er een nieuwe politieke situatie. De minister van Financiën moet daar eerst op ingaan."
       }
     },
     {
       "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
       "standpunt": {
-        "normaal": "ChristenUnie zegt dat de procedure volgens de regels kan zijn gegaan, maar dat het niet klopt. De minister van Financiën moet eerst de vragen beantwoorden die gisteren over box 3 aan hem zijn gesteld.",
-        "makkelijk": "ChristenUnie zegt: de procedure kan volgens de regels zijn, maar klopt niet. De minister moet eerst de vragen over box 3 beantwoorden."
+        "normaal": "ChristenUnie zegt dat de procedure volgens de regels kan zijn gegaan, maar dat het niet klopt. Aansluitend bij het voorstel van DENK wil de partij de minister van Financiën eerst de kans geven om de vragen te beantwoorden die een dag eerder aan hem zijn gesteld.",
+        "makkelijk": "ChristenUnie zegt: de procedure kan volgens de regels zijn, maar klopt niet. Net als DENK wil ChristenUnie dat de minister eerst de vragen beantwoordt."
       }
     },
     {
@@ -118,15 +118,15 @@
   ],
   "kernpunten": {
     "normaal": [
-      "Gisteren was in het wetgevingsoverleg een apart debat over de box 3-novelle met de minister afgesproken.",
-      "Via een e-mailprocedure van de commissie voor Financiën is dat vandaag teruggedraaid.",
+      "Volgens meerdere sprekers was een dag eerder in het wetgevingsoverleg een apart debat over de box 3-novelle met de minister afgesproken.",
+      "Via een e-mailprocedure van de commissie voor Financiën is dat op de dag van dit debat teruggedraaid.",
       "Veel partijen keuren die gang van zaken af en noemen die onder meer oncollegiaal, onacceptabel en niet sportief.",
       "Een meerderheid steunt het voorstel van ChristenUnie om eerst de minister te laten antwoorden over box 3.",
       "Daarna gaat het Belastingplan 2027 verder: eerst de staatssecretaris, dan de minister, daarna de tweede termijn van de Kamer."
     ],
     "makkelijk": [
-      "Gisteren was een apart debat over box 3 afgesproken.",
-      "Via een e-mailprocedure is dat vandaag anders besloten.",
+      "Volgens sprekers was een dag eerder een apart debat over box 3 afgesproken.",
+      "Via een e-mailprocedure is dat een dag later teruggedraaid.",
       "Veel partijen vinden die gang van zaken niet netjes.",
       "Een meerderheid steunt het voorstel van ChristenUnie.",
       "Eerst antwoordt de minister over box 3, daarna gaat het Belastingplan verder."
@@ -180,8 +180,8 @@
       "spreker_id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
       "emotie": "boos",
       "tekst": {
-        "normaal": "We besloten gisteren tot een apart box 3-debat met de minister. Dat is via e-mail teruggedraaid.",
-        "makkelijk": "Gisteren spraken we een apart debat af. Dat is via e-mail teruggedraaid."
+        "normaal": "We besloten gisteren tot een apart box 3-debat met de minister. Dat is helaas via een e-mailprocedure teruggedraaid.",
+        "makkelijk": "Gisteren spraken we een apart debat af. Dat is helaas via e-mail teruggedraaid."
       },
       "citaat": "We hadden gisteren inderdaad besloten: we doen een los debat over de box 3-novelle met de minister. Dat is vandaag helaas alsnog teruggedraaid via een e-mailprocedure."
     },
@@ -216,8 +216,8 @@
       "spreker_id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
       "emotie": "denkend",
       "tekst": {
-        "normaal": "Dit kan volgens de regels zijn gegaan, maar het klopt niet. Laat de minister eerst de vragen beantwoorden.",
-        "makkelijk": "Misschien volgens de regels, maar het klopt niet. Laat de minister eerst antwoorden."
+        "normaal": "Dit kan volgens de regels zijn gegaan, maar het klopt niet. Ik wil de minister eerst laten antwoorden.",
+        "makkelijk": "Misschien volgens de regels, maar het klopt niet. Ik wil de minister eerst laten antwoorden."
       },
       "citaat": "Deze procedure kan volgens de regels zijn gegaan, maar het klopt natuurlijk niet. … Ik zou hem dus inderdaad alle kans willen geven om de vragen die aan zijn adres zijn gesteld, eerst te beantwoorden."
     },

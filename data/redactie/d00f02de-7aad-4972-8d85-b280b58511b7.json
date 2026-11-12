@@ -1,0 +1,112 @@
+{
+  "agendapunt": "d00f02de-7aad-4972-8d85-b280b58511b7",
+  "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
+  "datum": "2026-11-12",
+  "oordeel": "aangepast",
+  "bevindingen": [
+    {
+      "waar": "vak 6 normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "oud": "De diensten zien aanwijzingen dat desinformatie in de Sahel deel is van een Russische campagne, ook tegen Zuid-Europa.",
+      "nieuw": "Diensten zien aanwijzingen: desinformatie in de Sahel hoort bij een Russische campagne, ook om Europa's zuidflank te destabiliseren.",
+      "waarom": "Het citaat zegt 'de zuidflank van Europa te destabiliseren', niet 'Zuid-Europa', en 'tegen' maakt het doel vager."
+    },
+    {
+      "waar": "vak 6 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "oud": "De diensten zien aanwijzingen voor een Russische campagne. Die wil ook Zuid-Europa ontwrichten.",
+      "nieuw": "De diensten zien aanwijzingen voor een Russische desinformatiecampagne. Die wil ook Europa's zuidkant ontwrichten.",
+      "waarom": "'zuidflank van Europa' is geen 'Zuid-Europa', en het woord 'desinformatie' uit het citaat ontbrak."
+    },
+    {
+      "waar": "vak 7 normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "We startten een programma van 40 miljoen voor lokale onafhankelijke journalistiek. Engagement dient onze belangen het best.",
+      "nieuw": "Een programma van 40 miljoen versterkt lokale onafhankelijke journalistiek. Wij geloven: engagement dient onze belangen het best.",
+      "waarom": "De minister zegt 'Nederland gelooft dat engagement het beste onze belangen dient'; het voorbehoud 'gelooft' viel weg."
+    },
+    {
+      "waar": "vak 7 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "We steunen lokale journalistiek met 40 miljoen. Contact houden dient onze belangen het best.",
+      "nieuw": "We steunen lokale journalistiek met 40 miljoen. Contact houden is volgens ons het beste.",
+      "waarom": "Ook hier het voorbehoud 'gelooft' terug, als 'volgens ons'."
+    },
+    {
+      "waar": "vak 3 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "Begrijp waar mensen in de Sahel vertrouwen vinden. Religieuze leiders zijn een soort influencers.",
+      "nieuw": "Wil je de Sahel begrijpen? Kijk waar mensen hun vertrouwen vandaan halen.",
+      "waarom": "'wie de Sahel wil begrijpen, moet ook begrijpen' is een voorwaarde, geen bevel."
+    },
+    {
+      "waar": "vak 3 normaal",
+      "soort": "taal",
+      "ernst": "klein",
+      "oud": "Wie de Sahel wil begrijpen, moet weten waar mensen hun vertrouwen vandaan halen. Religieuze leiders zijn een soort influencers.",
+      "nieuw": "Wie de Sahel wil begrijpen, moet weten waar mensen vertrouwen vinden. Religieuze leiders zijn een soort influencers.",
+      "waarom": "19 woorden, de regel is hooguit 18."
+    },
+    {
+      "waar": "vak 4 normaal",
+      "soort": "taal",
+      "ernst": "klein",
+      "oud": "Bij toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister op opnieuw met aanbevelingen te komen.",
+      "nieuw": "Bij toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister op tot nieuwe aanbevelingen.",
+      "waarom": "19 woorden, de regel is hooguit 18; 'roept ... op' blijft staan."
+    },
+    {
+      "waar": "vak 4 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "De rol van religie verandert. Minister, kom opnieuw met aanbevelingen.",
+      "nieuw": "Bij meer conflicten verandert de rol van religie. Wij vragen nieuwe aanbevelingen.",
+      "waarom": "'In tijden van toenemende conflicten' viel weg, en 'Mijn fractie roept de minister op' werd een bevel."
+    },
+    {
+      "waar": "samenvatting makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "De minister ziet aanwijzingen voor een Russische desinformatiecampagne.",
+      "nieuw": "De minister zegt: de diensten zien aanwijzingen voor Russische desinformatie.",
+      "waarom": "Volgens het citaat zijn er 'aanwijzingen bij de diensten', niet bij de minister zelf; zo stond het ook al in de normale versie."
+    },
+    {
+      "waar": "sprekers Berendsen normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "Minister Berendsen ziet aanwijzingen voor een Russische desinformatiecampagne via de Sahel ... Volgens hem dient engagement met de regio de Nederlandse belangen het best.",
+      "nieuw": "Minister Berendsen zegt dat de diensten aanwijzingen zien voor een Russische desinformatiecampagne via de Sahel. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en zegt dat Nederland gelooft dat engagement de Nederlandse belangen het best dient.",
+      "waarom": "Het zijn 'aanwijzingen bij de diensten', en 'Nederland gelooft dat engagement' is een overtuiging."
+    },
+    {
+      "waar": "sprekers Van Ark",
+      "soort": "evenwicht",
+      "ernst": "klein",
+      "oud": "... vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen. Zij roept de minister op opnieuw met aanbevelingen te komen over religieuze geletterdheid.",
+      "nieuw": "Mevrouw Van Ark (CDA) vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen, omdat religie vertrouwen geeft maar ook een bron van desinformatie kan zijn. Zij roept de minister op opnieuw met aanbevelingen te komen.",
+      "waarom": "Haar argument heeft twee kanten: religieuze leiders als 'influencers', maar 'religie kan ook een bron zijn van desinformatie'; die tweede kant ontbrak in beide versies."
+    },
+    {
+      "waar": "kernpunten normaal 2 en makkelijk 1-2",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "Die campagne is erop gericht ... / De minister: er zijn aanwijzingen ... / Die campagne wil ook de zuidkant van Europa ontwrichten.",
+      "nieuw": "Volgens de minister is die campagne erop gericht ... / De minister: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. / Volgens de minister wil die campagne ook de zuidkant van Europa ontwrichten.",
+      "waarom": "Een bewering van de minister ('aanwijzingen bij de diensten') stond als vaststaand feit."
+    },
+    {
+      "waar": "titel makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "oud": "Wat doet Nederland in de Sahel?",
+      "nieuw": "Kort debat over de Sahel: desinformatie en religie",
+      "waarom": "De makkelijke titel ging over iets anders dan de normale titel ('Desinformatie, religie en moties')."
+    }
+  ]
+}
