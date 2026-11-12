@@ -2,111 +2,119 @@
   "agendapunt": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
   "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
   "titel": {
-    "normaal": "",
+    "normaal": "Vragenuur over loon van uitzendkrachten, gentest bij borstkanker en dure jeugdzorg",
     "makkelijk": "Wat vroeg de Kamer over loon, borstkanker en jeugdzorg?"
   },
   "samenvatting": {
-    "normaal": "",
+    "normaal": "Tijdens het vragenuur van 10 november 2026 kwamen drie onderwerpen aan bod. PRO vroeg naar uitzendkrachten die jarenlang minder betaald kregen dan hun collega's, door de manier waarop een Europese richtlijn in 2011 in de wet kwam. JA21 vroeg waarom een gentest die onnodige chemotherapie bij borstkanker kan voorkomen, in twee derde van de gevallen niet wordt gebruikt. 50PLUS vroeg wat het kabinet doet aan de hoge kosten die gemeenten maken voor intensieve, complexe jeugdzorg.",
     "makkelijk": "Op 10 november 2026 was het vragenuur. Er kwamen drie onderwerpen aan bod. Eerst ging het over uitzendkrachten die jaren minder loon kregen dan hun collega's. Daarna ging het over een gentest bij borstkanker die te weinig wordt gebruikt. Als laatste ging het over de hoge kosten van zware jeugdzorg voor gemeenten."
   },
   "sprekers": [
     {
       "id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
       "standpunt": {
-        "normaal": "",
+        "normaal": "PRO vindt dat uitzendkrachten sinds 2011 bewust te weinig betaald kregen, omdat gelijk loon niet in de wet kwam. Ze wil dat het ministerie uitzendkrachten actief informeert en dat 'gelijk' loon in plaats van 'gelijkwaardig' loon in de wet komt.",
         "makkelijk": "PRO vindt dat uitzendkrachten sinds 2011 te weinig loon kregen. Zij wil 'gelijk' loon in de wet in plaats van 'gelijkwaardig'."
       }
     },
     {
       "id": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
       "standpunt": {
-        "normaal": "",
-        "makkelijk": "De minister vindt dat de keuze uit 2011 juridisch mocht. Hij gaat met de vakbonden praten over hoe mensen hun recht kunnen halen."
+        "normaal": "De minister vindt dat er in 2011 niets gebeurde wat juridisch niet kon, al was meer openheid naar de Kamer beter geweest. Hij bespreekt met de vakbonden hoe mensen weten dat ze hun recht kunnen halen, en wil met hen bijhouden of 'gelijkwaardig' loon tot onderbetaling leidt.",
+        "makkelijk": "De minister vindt dat de keuze uit 2011 juridisch mocht. Hij gaat met de vakbonden praten over hoe mensen te weten komen dat ze hun recht kunnen halen."
       }
     },
     {
       "id": "80a5d70b-e932-493d-90b4-d45fe2be522f",
       "standpunt": {
-        "normaal": "",
+        "normaal": "D66 wil niet alleen een ledenvergadering van de beroepsgroep afwachten. De minister moet artsen wijzen op hun wettelijke plicht om samen met de patiënt te beslissen.",
         "makkelijk": "D66 wil dat de minister artsen wijst op de wet over samen beslissen met de patiënt."
       }
     },
     {
       "id": "00d76c77-5747-4519-a846-5fc28b793dc7",
       "standpunt": {
-        "normaal": "",
+        "normaal": "FVD vindt het vreemd dat bij de omzetting van de richtlijn in 2011 een risico is genomen, terwijl het kabinet bij de kinderopvang volgens FVD geen enkel risico met de Europese Unie wil nemen.",
         "makkelijk": "FVD vindt het vreemd dat het ministerie bij uitzendkrachten wel een risico nam. Bij de kinderopvang wil het kabinet volgens FVD geen enkel risico met Europa."
       }
     },
     {
       "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
       "standpunt": {
-        "normaal": "",
+        "normaal": "De SP wil dat de minister met de vakbonden afspreekt dat er een hulp-, meld- en steunpunt komt voor uitzendkrachten die vroeger te weinig betaald kregen.",
         "makkelijk": "De SP wil een hulp-, meld- en steunpunt voor uitzendkrachten die te weinig loon kregen."
       }
     },
     {
       "id": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
       "standpunt": {
-        "normaal": "",
+        "normaal": "JA21 vindt het onbegrijpelijk dat vrouwen mogelijk onnodig chemotherapie kregen, terwijl een gentest dat kan voorkomen. Ze wil weten of financiële prikkels meespelen en vraagt meer aandacht voor diagnostiek bij het ministerie.",
         "makkelijk": "JA21 vindt het onbegrijpelijk dat vrouwen mogelijk onnodig chemotherapie kregen. Zij wil weten of geld een rol speelt en wil meer aandacht voor diagnostiek."
       }
     },
     {
       "id": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
       "standpunt": {
-        "normaal": "",
+        "normaal": "De minister vindt het niet goed dat de test in twee derde van de gevallen niet wordt gebruikt. Geld kan geen reden zijn, want de test wordt vergoed; onderzoek moet eind volgend jaar de oorzaken laten zien.",
         "makkelijk": "De minister vindt het niet goed dat de test te weinig wordt gebruikt. Geld kan geen reden zijn, want de test wordt vergoed. Onderzoek moet de oorzaken laten zien."
       }
     },
     {
       "id": "6ee6a4b6-3523-4806-b784-a669f6fa8c10",
       "standpunt": {
-        "normaal": "",
+        "normaal": "Het CDA wil weten welke drempels rond het aanbieden van de genprofieltest kunnen worden weggenomen, zodat de zorg voor deze vrouwen echt passend is.",
         "makkelijk": "Het CDA wil weten welke drempels weg kunnen, zodat vrouwen de gentest krijgen."
       }
     },
     {
       "id": "43f571a7-1136-42f0-9a88-7b404b8e43b9",
       "standpunt": {
-        "normaal": "",
+        "normaal": "De PVV wijst erop dat in 2025 naar schatting 30% van de vrouwen die in aanmerking komen, werd getest. Zij vraagt of al die vrouwen wisten dat de test bestaat.",
         "makkelijk": "De PVV wil weten of alle vrouwen die in aanmerking komen, wisten dat de test bestaat."
       }
     },
     {
       "id": "78bfadde-92e9-4200-9324-ec3ff790a712",
       "standpunt": {
-        "normaal": "",
+        "normaal": "50PLUS vindt dat het Rijk gemeenten genoeg geld moet geven voor de intensieve, complexe jeugdzorg. Deze jongeren horen niet in een politiecel, maar verdienen zorg.",
         "makkelijk": "50PLUS vindt dat het Rijk gemeenten genoeg geld moet geven voor zware jeugdzorg. Jongeren horen niet in een politiecel, maar verdienen zorg."
       }
     },
     {
       "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
       "standpunt": {
-        "normaal": "",
+        "normaal": "De staatssecretaris erkent dat vooral kleine gemeenten de kosten van de zwaarste jeugdzorg niet kunnen dragen en dat er een oplossing moet komen. Het kabinet laat het advies van de commissie-Van Ark in januari zwaar wegen.",
         "makkelijk": "De staatssecretaris vindt dat er een oplossing moet komen voor de dure, zware jeugdzorg. Het kabinet wacht op het advies van de commissie-Van Ark in januari."
       }
     },
     {
       "id": "ad2d74ac-2b93-494b-8587-ec1084c9eaa0",
       "standpunt": {
-        "normaal": "",
+        "normaal": "De VVD vraagt welke voordelen het heeft om de zorg voor de zwaarste 2% centraler in te kopen, en hoe de verantwoordelijkheden van BZK en VWS verdeeld zijn.",
         "makkelijk": "De VVD vraagt hoe de taken van BZK en VWS bij de jeugdzorg verdeeld zijn."
       }
     },
     {
       "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
       "standpunt": {
-        "normaal": "",
+        "normaal": "Mevrouw Keijzer vindt dat er in de jeugdzorg keuzes nodig zijn, zodat er genoeg geld en mensen overblijven voor de hele zware zorg.",
         "makkelijk": "Mevrouw Keijzer vindt dat er keuzes nodig zijn, zodat er genoeg geld en mensen overblijven voor de zwaarste jeugdzorg."
       }
     }
   ],
   "kernpunten": {
-    "normaal": [],
+    "normaal": [
+      "Uitzendkrachten kregen jarenlang minder betaald dan hun collega's. Volgens PRO zorgde minister Kamp in 2011, samen met de uitzendsector, er bewust voor dat gelijk loon niet in de wet kwam.",
+      "Minister Vijlbrief vindt dat er juridisch niets gebeurde wat niet kon. Hij gaat met de vakbonden bespreken hoe zo veel mogelijk mensen weten dat ze hun recht kunnen halen.",
+      "PRO vreest dat 'gelijkwaardig' loon in de nieuwe Wet meer zekerheid flexwerkers opnieuw tot onderbetaling leidt. De minister wil dat met de bonden bijhouden; blijkt de onderbetaling structureel, dan kan hij via een AMvB 'gelijk' loon voorschrijven.",
+      "Een genprofieltest kan laten zien of chemotherapie bij borstkanker nodig is. Uit onderzoek van IKNL blijkt dat de test in twee derde van de gevallen niet wordt ingezet.",
+      "Minister Hermans zegt dat de test sinds 2023 wordt vergoed, dus geld kan geen reden zijn. Onderzoek naar de oorzaken is pas eind volgend jaar klaar; de beroepsgroep vraagt er intussen al aandacht voor.",
+      "Intensieve, complexe jeugdzorg kost gemeenten veel geld; Assen is voor één casus een miljoen euro kwijt. 50PLUS vindt dat het Rijk gemeenten genoeg geld moet geven.",
+      "Staatssecretaris Van der Burg zegt dat er een oplossing moet komen en dat het kabinet het advies van de commissie-Van Ark in januari zwaar laat wegen. Hij belooft de Kamer een brief over perspectief en onderwijs voor deze jongeren."
+    ],
     "makkelijk": [
       "Uitzendkrachten kregen van 2011 tot 2022 vaak minder loon dan hun collega's. Dat kwam door de manier waarop een Europese regel in de wet kwam.",
-      "De minister van Sociale Zaken vindt dat dit juridisch mocht. Hij gaat met de vakbonden bespreken hoe mensen hun recht kunnen halen.",
+      "De minister van Sociale Zaken vindt dat dit juridisch mocht. Hij gaat met de vakbonden bespreken hoe mensen te weten komen dat ze hun recht kunnen halen.",
       "PRO vindt dat 'gelijkwaardig' loon in de nieuwe wet weer tot te weinig loon leidt. De minister wil met de bonden bijhouden hoe vaak dat gebeurt.",
       "Een gentest kan laten zien of chemotherapie bij borstkanker nodig is. Maar in twee derde van de gevallen wordt de test niet gebruikt.",
       "Volgens de minister van VWS wordt de test vergoed, dus kan geld geen reden zijn. Onderzoek naar de oorzaken is pas eind volgend jaar klaar.",
@@ -173,8 +181,8 @@
       "spreker_id": null,
       "emotie": "neutraal",
       "tekst": {
-        "normaal": "",
-        "makkelijk": "Het is vragenuur. Kamerleden stellen vragen aan ministers over het nieuws."
+        "normaal": "Nu is het mondelinge vragenuur aan de orde.",
+        "makkelijk": "Nu is het mondelinge vragenuur."
       },
       "citaat": "Aan de orde is het mondelinge vragenuur."
     },
@@ -182,7 +190,7 @@
       "spreker_id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
       "emotie": "bezorgd",
       "tekst": {
-        "normaal": "",
+        "normaal": "Uitzendkrachten kregen jaren minder betaald dan collega's, ondanks een Europese richtlijn. Acht de minister het ministerie aansprakelijk?",
         "makkelijk": "Uitzendkrachten kregen jaren minder loon dan collega's. Is het ministerie aansprakelijk?"
       },
       "citaat": "Uitzendkrachten kregen jaren minder betaald dan hun collega's, ondanks een Europese richtlijn die gelijk loon voor gelijk werk regelt. … acht hij het ministerie aansprakelijk?"
@@ -191,8 +199,8 @@
       "spreker_id": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
       "emotie": "denkend",
       "tekst": {
-        "normaal": "",
-        "makkelijk": "Volgens mij mocht het. Ik bespreek met bonden hoe mensen hun recht halen."
+        "normaal": "Juridisch kon het. Met de vakbonden bespreek ik hoe mensen weten dat ze hun recht kunnen halen.",
+        "makkelijk": "Het kon juridisch. Met de bonden bespreek ik hoe mensen hun recht leren kennen."
       },
       "citaat": "is er niets gebeurd wat juridisch niet door de beugel kon. … Ik zal snel, wanneer ik met de vakbeweging praat, aan de orde stellen hoe we kunnen bereiken dat zo veel mogelijk mensen weten dat ze hun recht kunnen halen op dit punt"
     },
@@ -200,7 +208,7 @@
       "spreker_id": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
       "emotie": "boos",
       "tekst": {
-        "normaal": "",
+        "normaal": "Een simpele gentest toont of chemotherapie nodig is, maar wordt te weinig ingezet. Is dit een geldkwestie?",
         "makkelijk": "Een gentest toont of chemo nodig is. Die wordt te weinig gebruikt. Door geld?"
       },
       "citaat": "Met een simpele gentest kan worden bepaald of vrouwen met borstkanker chemotherapie nodig hebben, maar het blijkt dat die testen te weinig worden ingezet … Is hier sprake van een geldkwestie, vraag ik aan de minister."
@@ -209,7 +217,7 @@
       "spreker_id": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
       "emotie": "denkend",
       "tekst": {
-        "normaal": "",
+        "normaal": "In twee derde van de gevallen wordt de test niet ingezet. Hij wordt vergoed: geen geldkwestie.",
         "makkelijk": "Twee derde krijgt de test niet. Hij wordt vergoed, dus geld is geen reden."
       },
       "citaat": "in twee derde van de gevallen niet. … Deze test wordt immers vergoed voor deze specifieke groep vrouwen. Er is dus geen sprake van een geldkwestie."
@@ -218,8 +226,8 @@
       "spreker_id": "78bfadde-92e9-4200-9324-ec3ff790a712",
       "emotie": "bezorgd",
       "tekst": {
-        "normaal": "",
-        "makkelijk": "Zware jeugdzorg kost gemeenten veel. Het Rijk moet hen genoeg geld geven."
+        "normaal": "Assen is een miljoen euro kwijt aan één casus. Het Rijk is wettelijk verplicht gemeenten genoeg geld te geven.",
+        "makkelijk": "Assen: één geval kost een miljoen. Het Rijk moet gemeenten genoeg geld geven."
       },
       "citaat": "Denk aan de gemeente Assen, die aangaf voor één casus een miljoen euro kwijt te zijn. … Het Rijk heeft immers een wettelijke verplichting om gemeenten van voldoende financiële middelen te voorzien"
     },
@@ -227,7 +235,7 @@
       "spreker_id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
       "emotie": "denkend",
       "tekst": {
-        "normaal": "",
+        "normaal": "Als er een taak overgaat, moet er ook geld mee. In januari komt een nieuw advies.",
         "makkelijk": "Wie een taak krijgt, moet ook geld krijgen. In januari komt nieuw advies."
       },
       "citaat": "als er een taak overgaat, moet er ook een knaak overgaan. … komt inderdaad in januari met een nieuw advies."
@@ -236,7 +244,7 @@
       "spreker_id": null,
       "emotie": "neutraal",
       "tekst": {
-        "normaal": "",
+        "normaal": "Het vragenuur is afgelopen. Om 15.00 uur gaat de Kamer stemmen.",
         "makkelijk": "Het vragenuur is voorbij. Daarna gaat de Kamer stemmen."
       },
       "citaat": "We zijn aan het einde gekomen van dit mondelinge vragenuur. Ik schors tot 15.00 uur en dan gaan we stemmen."
