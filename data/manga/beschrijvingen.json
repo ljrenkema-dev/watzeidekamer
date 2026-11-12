@@ -7,9 +7,10 @@
  },
  "0d036fcf-a456-4798-9b76-3f44eb74a451": {
   "naam": "Jesse Klaver",
-  "beschrijving": "A slim man around forty with a narrow, youthful face and dark eyebrows. Thick dark-brown hair, tousled and curly, fuller and higher on top, a few curls falling onto the forehead. Light skin, a wide open smile, lively dark eyes. Dark navy suit, light blue shirt, slim tie in the accent colour. No glasses.",
+  "beschrijving": "A man around forty with a slightly long, slim face, prominent dark eyebrows and lively dark-brown eyes. Thick dark-brown hair, messy and curly, standing up high on top and swept up and to the side, curls sticking out at the sides. Light skin, a very wide, open, beaming smile showing his upper teeth, dimples in the cheeks. Dark navy suit, light blue shirt, slim dark tie in the accent colour. No glasses.",
   "bron": "zelf beschreven naar het officiële portret; geen foto naar de beeldgenerator",
-  "goedgekeurd": false
+  "goedgekeurd": false,
+  "versie": 2
  },
  "8c5a8186-8f46-4bca-956d-06d4fa521635": {
   "naam": "Mona Keijzer",
@@ -19,9 +20,10 @@
  },
  "b41b2403-9f06-4d55-adc5-b0777373ca7e": {
   "naam": "Caroline van der Plas",
-  "beschrijving": "A woman around sixty with a round, friendly face and full cheeks. Shoulder-length, very full and curly dark-brown hair with loose, voluminous curls framing the face. Light skin, dark eyebrows, a warm closed-mouth smile, small earrings. Plum-coloured blazer over a dark top, small scarf in the accent colour. No glasses.",
+  "beschrijving": "A woman of about sixty, clearly middle-aged, not young: a round, full face with full cheeks and a soft jawline, visible smile lines around the eyes and mouth. Shoulder-length, dense dark-brown hair in loose, slightly unruly curls, voluminous at the sides and on top, a few curls falling onto the forehead. Light skin, dark eyebrows, friendly eyes that narrow a little when she smiles, a warm, broad closed-mouth smile. Plum-coloured blazer over a dark top, small scarf in the accent colour. No glasses.",
   "bron": "zelf beschreven naar het officiële portret; geen foto naar de beeldgenerator",
-  "goedgekeurd": false
+  "goedgekeurd": false,
+  "versie": 2
  },
  "7cbb2d95-46b2-4fcb-b129-9505f56e7f07": {
   "naam": "Don Ceder",
