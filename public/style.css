@@ -77,3 +77,10 @@ a{color:var(--accent)}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .chip{font-size:13px;font-weight:700;border:1.5px solid var(--line);border-radius:999px;padding:1px 10px;color:var(--muted)}
 footer{color:var(--muted);font-size:14px;border-top:2px solid var(--line);padding-top:16px}
+
+/* taalniveau: normaal is standaard, makkelijk via de knop */
+html:not([data-taal="makkelijk"]) .lv-m{display:none}
+html[data-taal="makkelijk"] .lv-n{display:none}
+.taalknop{font:inherit;font-size:14px;font-weight:700;border:2px solid var(--ink);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer}
+.taalknop[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.taalknop:focus-visible{outline:3px solid var(--accent);outline-offset:2px}

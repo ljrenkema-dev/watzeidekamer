@@ -54,6 +54,16 @@ def check(pid):
                 fouten.append(f"vak {i}: tekst '{niv}' ontbreekt")
             elif len(t.split()) > maxw:
                 waarsch.append(f"vak {i}: tekst '{niv}' is lang ({len(t.split())} woorden)")
+    # vakken in de volgorde van het debat: positie van het eerste citaatstuk in de spreekbeurten
+    posities = []
+    for v in vakken:
+        stuk = re.split(r"\s*(?:…|\.\.\.)\s*", norm(v.get("citaat", "")))[0]
+        sid = v.get("spreker_id")
+        posities.append(next((i for i, b in enumerate(punt["beurten"]) if stuk and stuk in norm(b["tekst"])
+                              and (sid is None or b["spreker"]["id"] == sid)), None))
+    bekende = [x for x in posities if x is not None]
+    if bekende != sorted(bekende):
+        fouten.append(f"vakken staan niet in de volgorde van het debat (spreekbeurten {posities})")
     for veld in ("titel", "samenvatting", "kernpunten"):
         for niv in ("normaal", "makkelijk"):
             if not (strip.get(veld) or {}).get(niv) if isinstance(strip.get(veld), dict) else True:

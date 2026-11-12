@@ -175,6 +175,15 @@
       "citaat": "Ik kijk dus graag vooruit. … Even duidelijk: JA21 was, is en blijft tegen vermogensaanwasbelasting."
     },
     {
+      "spreker_id": null,
+      "emotie": "neutraal",
+      "tekst": {
+        "normaal": "De minister zegt: laten we in ieder geval koersen op 2029.",
+        "makkelijk": "De minister zegt: we mikken in ieder geval op 2029."
+      },
+      "citaat": "Daarom hebben we gezegd: laten we in ieder geval koersen op 2029."
+    },
+    {
       "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
       "emotie": "denkend",
       "tekst": {
@@ -209,15 +218,6 @@
         "makkelijk": "Dit is een cadeau voor box 2. Toekomstige generaties betalen de rekening."
       },
       "citaat": "Dat betekent dus dat toekomstige generaties dit moeten dekken. … uiteindelijk is dit toch een cadeau voor de mensen in box 2, voor de mensen die het het makkelijkste kunnen dragen, ten koste van toekomstige generaties."
-    },
-    {
-      "spreker_id": null,
-      "emotie": "neutraal",
-      "tekst": {
-        "normaal": "De minister zegt: laten we in ieder geval koersen op 2029.",
-        "makkelijk": "De minister zegt: we mikken in ieder geval op 2029."
-      },
-      "citaat": "Daarom hebben we gezegd: laten we in ieder geval koersen op 2029."
     }
   ]
 }
