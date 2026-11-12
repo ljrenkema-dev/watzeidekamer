@@ -10,7 +10,8 @@ Site: watzeidekamer.nl. Debatten uit de Tweede Kamer in normale taal (standaard)
 2. `python3 scripts/koppel.py` — koppelt sprekers aan figuren. Sprekers zonder figuur krijgen een neutraal figuur; noem ze in het verslag van de run (een figuur maken gebeurt apart, met keuring door de eigenaar).
 3. `python3 scripts/todo.py 10` — de agendapunten voor deze nacht (plenair eerst, nieuwste eerst; hooguit 10). Punten boven 25.000 woorden slaat het over: die moeten eerst opgeknipt worden.
 4. Maak per agendapunt een strip volgens `prompts/strip.md` (beide taalniveaus). Gebruik per agendapunt een eigen subagent, hooguit 5 tegelijk.
-5. **Redactieronde**: laat per strip een tweede, aparte subagent nalezen tegen het agendapunt: zegt elke tekstballon (normaal en makkelijk) alleen wat in het citaat van dat vak staat; zijn samenvatting, standpunten en kernpunten juist en neutraal; krijgt geen partij onevenredig veel ruimte. Hij verbetert alleen teksten, nooit citaten om ze kloppend te maken.
+5. **Redactieronde**: laat per strip een tweede, aparte subagent werken volgens `prompts/redacteur.md`. Die leest na tegen het agendapunt (ballon tegen citaat, samenvatting en standpunten, neutraliteit, ruimte per partij met `scripts/evenwicht.py`), verbetert teksten en schrijft `data/redactie/<id>.json`.
+   Op **zondag** doet de redacteur ook de wekelijkse controle van de hele site (zie het einde van `prompts/redacteur.md`).
 6. `python3 scripts/check.py <id>` tot 0 fouten. Lukt dat niet, verwijder de strip en noem het in het verslag.
 7. `python3 scripts/build.py`, commit `data/` (zonder `data/raw/` en `data/portret/`, die staan in .gitignore) en `public/`, en push naar `claude/fase-1-proef`.
 8. Eindig met een kort verslag: hoeveel strips gemaakt of vernieuwd, welke overgeslagen en waarom, sprekers zonder figuur, en wat er misging.

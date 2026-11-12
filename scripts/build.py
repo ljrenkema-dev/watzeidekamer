@@ -103,6 +103,17 @@ document.querySelectorAll('.partijen section').forEach(s=>s.hidden=![...s.queryS
     return len(mensen)
 
 
+def redactie_regel(punt, strip):
+    f = ROOT / "data" / "redactie" / f"{punt['id']}.json"
+    if not f.exists():
+        return '<p class="note">Nog niet nagelezen door de redactie.</p>'
+    r = json.loads(f.read_text())
+    if r.get("verslag_id") != strip.get("verslag_id"):
+        return '<p class="note">Het verslag is bijgewerkt; de redactie leest deze strip opnieuw na.</p>'
+    n = len(r.get("bevindingen", []))
+    return f'<p class="note">Nagelezen door de redactie op {datum(r["datum"])}' + (f", {n} correctie{'s' if n != 1 else ''}" if n else "") + '.</p>'
+
+
 def datum(iso):
     j, m, d = iso[:10].split("-")
     return f"{int(d)} {MAANDEN[int(m) - 1]} {j}"
@@ -180,7 +191,7 @@ def debat(punt, strip):
 <h2>Belangrijk om te weten</h2>{kern}
 {'<h2>Moeilijke woorden</h2><div class="words">' + woorden + '</div>' if woorden else ''}
 <h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>
-<p class="note">De strip laat alleen zien wat in het verslag staat. <a href="{e(bron)}">Bekijk het verslag van de Tweede Kamer (XML)</a>.</p>
+{redactie_regel(punt, strip)}<p class="note">De strip laat alleen zien wat in het verslag staat. <a href="{e(bron)}">Bekijk het verslag van de Tweede Kamer (XML)</a>.</p>
 </main>"""
     data = json.dumps({"sprekers": sprekers, "strip": vakken}, ensure_ascii=False).replace("</", "<\\/")
     scripts = f'<script src="../strip.js"></script><script>window.STRIP={data};renderStrip(window.STRIP);</script>'
@@ -225,6 +236,9 @@ def main():
     items = []
     for sf in sorted((ROOT / "data" / "strips").glob("*.json")):
         pid = sf.stem
+        if json.loads(sf.read_text()).get("ingetrokken"):
+            print(f"ingetrokken {pid}: {json.loads(sf.read_text()).get('reden', '')}")
+            continue
         fouten, _ = check(pid)
         if fouten:
             print(f"overgeslagen {pid}: {len(fouten)} fout(en)")
