@@ -206,10 +206,45 @@ def debat(punt, strip):
     status = (f'<span class="tag warn">Voorlopig verslag</span>' if v["status"] in VOORLOPIG
               else '<span class="tag">Gecorrigeerd verslag</span>')
     bron = f"https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Verslag({v['verslag_id']})/resource"
-    kaarten = "".join(
-        f'<div class="sp"><svg data-avatar="{e(s["id"])}" data-fractie="{e(s["fractie"])}" viewBox="10 10 80 90" aria-hidden="true"></svg>'
-        f'<div style="min-width:0"><h3><a href="../p/{slug(s["naam"])}.html">{e(s["naam"])}</a></h3><div class="party">{e(s["fractie"] or s["functie"])}</div>{twee(s["standpunt"], "p")}</div></div>'
-        for s in sprekers if not s.get("alleen_strip"))
+    # Standpunten per partij: iedereen uit "sprekers" (één per fractie, plus bewindspersonen)
+    standpunten = "".join(
+        f'<tr><th scope="row">{e(s["fractie"] or "Kabinet")}</th>'
+        f'<td><a href="../p/{slug(s["naam"])}.html">{e(s["naam"])}</a>{"" if s["fractie"] else ", " + e(s["functie"])}</td>'
+        f'<td>{twee(s["standpunt"])}</td></tr>'
+        for s in sorted((x for x in sprekers if not x.get("alleen_strip")), key=lambda x: (not x["fractie"], x["fractie"].lower())))
+    # Kaartjes: de belangrijkste sprekers, standaard 6 en hooguit 9.
+    # Eerst wie in de strip staat (in volgorde van het debat), dan wie het meest sprak; bewindspersonen altijd.
+    woorden_per = {}
+    beurten_per = {}
+    for b in punt["beurten"]:
+        if not b["voorzitter"]:
+            woorden_per[b["spreker"]["id"]] = woorden_per.get(b["spreker"]["id"], 0) + len(b["tekst"].split())
+            beurten_per[b["spreker"]["id"]] = beurten_per.get(b["spreker"]["id"], 0) + 1
+    in_strip = list(dict.fromkeys(p["spreker_id"] for p in strip["strip"] if p["spreker_id"] and p["spreker_id"] in woorden_per))
+    kabinet = [sid for sid in woorden_per if not bekend[sid]["fractie"]]
+    rest = sorted(woorden_per, key=lambda sid: -woorden_per[sid])
+    gekozen = []
+    for sid in in_strip + kabinet + rest:
+        if sid not in gekozen and (len(gekozen) < 6 or (sid in in_strip or sid in kabinet) and len(gekozen) < 9):
+            gekozen.append(sid)
+    per_id = {s["id"]: s for s in sprekers}
+    def kaart(sid):
+        sp = per_id.get(sid) or {**bekend[sid], "id": sid}
+        n = beurten_per.get(sid, 0)
+        rol = "in de strip" if sid in in_strip else ""
+        return (f'<div class="sp"><svg data-avatar="{e(sid)}" data-fractie="{e(sp["fractie"])}" viewBox="10 10 80 90" aria-hidden="true"></svg>'
+                f'<div style="min-width:0"><h3><a href="../p/{slug(sp["naam"])}.html">{e(sp["naam"])}</a></h3>'
+                f'<div class="party">{e(sp["fractie"] or sp["functie"])}</div>'
+                f'<p class="note">{n} keer gesproken{" · " + rol if rol else ""}</p></div></div>')
+    kaarten = "".join(kaart(sid) for sid in gekozen)
+    meer = len(woorden_per) - len(gekozen)
+    kaarten_noot = (f'<p class="note">Nog {meer} andere spreker{"s" if meer != 1 else ""} in dit debat; '
+                    f'hun partij staat in het overzicht hierboven.</p>' if meer > 0 else "")
+    # figuren voor kaartjes van sprekers die niet in 'sprekers' stonden
+    for sid in gekozen:
+        if sid not in per_id:
+            sprekers.append({"id": sid, **bekend[sid], "standpunt": "", "label": bekend[sid]["verslagnaam"],
+                             "uiterlijk": kenmerken(sid), "alleen_strip": True})
     kp = strip["kernpunten"]
     kp = kp if isinstance(kp, dict) else {"normaal": kp, "makkelijk": kp}
     lijst = lambda xs: "".join(f"<li>{e(k)}</li>" for k in xs)
@@ -221,7 +256,9 @@ def debat(punt, strip):
 <h1>{twee(strip['titel'])}</h1>
 <p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
 {twee(strip['samenvatting'], "p", "summary")}
-<h2>Wie vindt wat?</h2><div class="speakers">{kaarten}</div>
+<h2>Wie vindt wat?</h2>
+<div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{standpunten}</tbody></table></div>
+<h3 class="kop-klein">Wie zie je in de strip?</h3><div class="speakers">{kaarten}</div>{kaarten_noot}
 <h2>Belangrijk om te weten</h2>{kern}
 {'<h2>Moeilijke woorden</h2><div class="words">' + woorden + '</div>' if woorden else ''}
 <h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>

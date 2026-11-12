@@ -104,3 +104,14 @@ html[data-taal="makkelijk"] .lv-n{display:none}
 .delen{border:2px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--panel)}
 .delen p{margin:0 0 6px}
 .delen ol,.delenlijst{margin:6px 0 0;padding-left:1.4em;display:flex;flex-direction:column;gap:3px;font-size:15px}
+
+/* standpunten per partij */
+.tabelwrap{overflow-x:auto}
+.standpunten{width:100%;border-collapse:collapse;font-size:15px}
+.standpunten th,.standpunten td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+.standpunten thead th{font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.standpunten tbody th{white-space:nowrap;font-weight:700}
+.standpunten td:nth-child(2){white-space:nowrap}
+.kop-klein{font-family:var(--display);font-size:1.15rem;margin-top:4px}
+@media (max-width:560px){.standpunten thead{display:none}.standpunten tr{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;padding:8px 0;border-bottom:1px solid var(--line)}
+.standpunten th,.standpunten td{border:0;padding:0}.standpunten td:nth-child(3){grid-column:1/-1}}
