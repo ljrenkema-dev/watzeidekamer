@@ -8,8 +8,9 @@ Wordt elke run helemaal opnieuw opgebouwd, zodat een nieuwere versie van een ver
 de naam, fractie(s), functie(s), aantal spreekbeurten en woorden, en eerste/laatste datum.
 
 Velden per regel: datum, tijd, vergadering, soort (Plenair/Commissie), agendapunt, agendapunt_titel,
-deel, rol (woordvoerder/interrumpant), voorzitter, fractie, functie, verslag_status, woorden, tekst.
-Niet opgenomen: opening, mededelingen en regeling van werkzaamheden (die slaat parse.py over).
+onderdeel (debat, Opening, Mededelingen, Regeling van werkzaamheden, Sluiting), deel, rol (woordvoerder/interrumpant), voorzitter, fractie, functie, verslag_status, woorden, tekst.
+Ook opgenomen: wat er gezegd is bij opening, mededelingen en regeling van werkzaamheden (data/procedure/).
+Presentielijsten en afmeldingen staan in data/procedure/*.json (velden aanwezig, kamerleden_aanwezig, afgemeld).
 """
 import gzip, json, re, unicodedata
 from collections import defaultdict
@@ -26,7 +27,9 @@ def slug(naam):
 
 def main():
     regels, meta = defaultdict(list), {}
-    for f in sorted((ROOT / "data" / "agendapunten").glob("*.json")):
+    bestanden = [(f, "debat") for f in sorted((ROOT / "data" / "agendapunten").glob("*.json"))]
+    bestanden += [(f, "procedure") for f in sorted((ROOT / "data" / "procedure").glob("*.json"))]
+    for f, soort in bestanden:
         p = json.loads(f.read_text())
         v = p["vergadering"]
         for b in p["beurten"]:
@@ -34,6 +37,7 @@ def main():
             regels[sp["id"]].append({
                 "datum": v["datum"], "tijd": b["begin"], "vergadering": v["titel"], "soort": v["soort"],
                 "agendapunt": p["id"], "agendapunt_titel": p["titel"],
+                "onderdeel": p["soort"] if soort == "procedure" else "debat",
                 "deel": (p.get("deel") or {}).get("fase"),
                 "rol": b["rol"], "voorzitter": b["voorzitter"],
                 "fractie": sp["fractie"], "functie": sp["functie"], "verslag_status": v["status"],

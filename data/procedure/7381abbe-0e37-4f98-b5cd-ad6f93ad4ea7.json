@@ -1,0 +1,56 @@
+{
+ "id": "7381abbe-0e37-4f98-b5cd-ad6f93ad4ea7",
+ "soort": "Regeling van werkzaamheden",
+ "titel": "Regeling van werkzaamheden",
+ "begin": "2026-11-11T13:30:24",
+ "vergadering": {
+  "id": "bd68a531-0c2f-43bc-9073-3c0cf1f56d3b",
+  "datum": "2026-11-11",
+  "gewijzigd": "2026-11-11T22:13:55.6378841+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "23e vergadering, woensdag 11 november 2026",
+  "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-11T13:30:28",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Aan de orde is een regeling van werkzaamheden.\nIk stel voor dinsdag 17 november 2026 ook te stemmen over de ingediende moties bij de wetgevingsoverleggen over het begrotingsonderdeel Cultuur, het begrotingsonderdeel Artikel 31 Politie en over de begrotingsonderdelen die zien op digitalisering.",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-11T13:30:32",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik deel aan de Kamer mee dat de fractie van de VVD bij de stemmingen op dinsdag 10 november jongstleden geacht wenst te worden tegen de motie-Kostić c.s. (37020-XXIII, nr. 37) te hebben gestemd.",
+   "deel": 1
+  }
+ ],
+ "fragmenten": [
+  {
+   "soort": "Mededeling algemeen",
+   "tekst": "Daartoe wordt besloten.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

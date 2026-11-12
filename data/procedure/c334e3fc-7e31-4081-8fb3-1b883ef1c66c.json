@@ -1,0 +1,35 @@
+{
+ "id": "c334e3fc-7e31-4081-8fb3-1b883ef1c66c",
+ "soort": "Mededelingen",
+ "titel": "Mededelingen",
+ "begin": "2026-11-10T15:42:49",
+ "vergadering": {
+  "id": "59ca5b00-fce9-4aba-99a3-a9bb09000997",
+  "datum": "2026-11-10",
+  "gewijzigd": "2026-11-12T13:48:11.5172223+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "22e vergadering, dinsdag 10 november 2026",
+  "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:42:52",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heropen de vergadering. Op de tafel van de Griffier ligt een lijst van ingekomen stukken. Op die lijst staan voorstellen voor de behandeling van deze stukken en als voor het einde van de vergadering daartegen geen bezwaar is gemaakt, neem ik aan dat daarmee wordt ingestemd.",
+   "deel": 0
+  }
+ ],
+ "fragmenten": [],
+ "afgemeld": []
+}

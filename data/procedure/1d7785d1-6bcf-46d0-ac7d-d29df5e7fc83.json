@@ -1,0 +1,25 @@
+{
+ "id": "1d7785d1-6bcf-46d0-ac7d-d29df5e7fc83",
+ "soort": "Sluiting",
+ "titel": "Sluiting",
+ "begin": "2026-11-11T20:23:00",
+ "vergadering": {
+  "id": "bd68a531-0c2f-43bc-9073-3c0cf1f56d3b",
+  "datum": "2026-11-11",
+  "gewijzigd": "2026-11-11T22:13:55.6378841+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "23e vergadering, woensdag 11 november 2026",
+  "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "fragmenten": [
+  {
+   "soort": "Tekst",
+   "tekst": "Sluiting 20.22 uur.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

@@ -1,0 +1,200 @@
+{
+ "id": "8c9f29b5-164e-4359-87df-6fc30b188841",
+ "soort": "Opening",
+ "titel": "Opening",
+ "begin": "2026-11-09T10:00:06",
+ "vergadering": {
+  "id": "e5f22727-2b66-438c-960f-5c3bb0447f30",
+  "datum": "2026-11-09",
+  "gewijzigd": "2026-11-09T17:46:11.6623998+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Wetgevingsoverleg OCW-begroting, onderdeel Cultuur",
+  "verslag_id": "c5364452-8408-4232-b3ae-24553275992e",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "aanwezig": [
+  {
+   "id": "8d044503-5b3b-45bc-9067-ffdfcf626464",
+   "naam": "Martin Martin Bosma",
+   "verslagnaam": "Martin Bosma",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "43b8197c-02bf-4a65-87cf-75ebd26aef1d",
+   "naam": "Heera Heera Dijk",
+   "verslagnaam": "Heera Dijk",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+   "naam": "Sarath Hamstra",
+   "verslagnaam": "Hamstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8ed8b027-e75a-4642-a522-4d529328888a",
+   "naam": "Rianne Letschert",
+   "verslagnaam": "Letschert",
+   "fractie": "",
+   "functie": "minister van Onderwijs, Cultuur en Wetenschap"
+  },
+  {
+   "id": "18eee6c6-6cc3-4977-80be-5d75eff9af5f",
+   "naam": "Erik Van der Maas",
+   "verslagnaam": "Van der Maas",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b64bfe4-94b9-418c-b457-bbfbf9becced",
+   "naam": "Mohammed Mohandis",
+   "verslagnaam": "Mohandis",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b030e5ad-e650-476b-bdc4-94d53c281040",
+   "naam": "Annabel Nanninga",
+   "verslagnaam": "Nanninga",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+   "naam": "Caroline Van der Plas",
+   "verslagnaam": "Van der Plas",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7fb75c9e-97b7-40ce-99e2-4f37fcde70f4",
+   "naam": "Eveline Tijmstra",
+   "verslagnaam": "Tijmstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+   "naam": "Sarath Hamstra",
+   "verslagnaam": "Hamstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+   "naam": "Sarath Hamstra",
+   "verslagnaam": "Hamstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "aantal_aanwezig_volgens_verslag": null,
+ "kamerleden_aanwezig": [
+  {
+   "id": "8d044503-5b3b-45bc-9067-ffdfcf626464",
+   "naam": "Martin Martin Bosma",
+   "verslagnaam": "Martin Bosma",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "43b8197c-02bf-4a65-87cf-75ebd26aef1d",
+   "naam": "Heera Heera Dijk",
+   "verslagnaam": "Heera Dijk",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+   "naam": "Sarath Hamstra",
+   "verslagnaam": "Hamstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "18eee6c6-6cc3-4977-80be-5d75eff9af5f",
+   "naam": "Erik Van der Maas",
+   "verslagnaam": "Van der Maas",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b64bfe4-94b9-418c-b457-bbfbf9becced",
+   "naam": "Mohammed Mohandis",
+   "verslagnaam": "Mohandis",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b030e5ad-e650-476b-bdc4-94d53c281040",
+   "naam": "Annabel Nanninga",
+   "verslagnaam": "Nanninga",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+   "naam": "Caroline Van der Plas",
+   "verslagnaam": "Van der Plas",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7fb75c9e-97b7-40ce-99e2-4f37fcde70f4",
+   "naam": "Eveline Tijmstra",
+   "verslagnaam": "Tijmstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+   "naam": "Sarath Hamstra",
+   "verslagnaam": "Hamstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+   "naam": "Sarath Hamstra",
+   "verslagnaam": "Hamstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "voorzitter": "Hamstra",
+ "griffier": "Bosnjakovic",
+ "fragmenten": [
+  {
+   "soort": "Voorzitter selectie",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+     "naam": "Sarath Hamstra",
+     "verslagnaam": "Hamstra",
+     "fractie": "CDA",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  },
+  {
+   "soort": "Wisseling voorzitter",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+     "naam": "Sarath Hamstra",
+     "verslagnaam": "Hamstra",
+     "fractie": "CDA",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  }
+ ],
+ "afgemeld": []
+}

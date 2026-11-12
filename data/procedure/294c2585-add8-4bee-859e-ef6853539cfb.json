@@ -1,12 +1,8 @@
 {
  "id": "294c2585-add8-4bee-859e-ef6853539cfb",
+ "soort": "Regeling van werkzaamheden",
  "titel": "Extra regeling van werkzaamheden",
- "onderwerp": "Extra regeling van werkzaamheden",
- "parlisid": "",
- "voortzetting": false,
- "soort_activiteit": "Regeling van werkzaamheden",
  "begin": "2026-11-11T14:31:00",
- "eind": "2026-11-11T14:44:34",
  "vergadering": {
   "id": "bd68a531-0c2f-43bc-9073-3c0cf1f56d3b",
   "datum": "2026-11-11",
@@ -17,7 +13,6 @@
   "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
   "verslag_soort": "Tussenpublicatie"
  },
- "woorden": 2214,
  "beurten": [
   {
    "rol": "woordvoerder",
@@ -1309,5 +1304,18 @@
    "tekst": "Ik concludeer dat er een meerderheid is voor een derde termijn morgenochtend met de minister-president, zodat er morgen aan het einde van de middag gestemd kan worden conform het voorstel van mevrouw Piri. Dat is de conclusie en daar gaan we niet meer over in discussie. Ik schors de vergadering voor een enkel ogenblik.",
    "deel": 85
   }
- ]
+ ],
+ "fragmenten": [
+  {
+   "soort": "Nonverbale uitingsvormen",
+   "tekst": "(Hilariteit)",
+   "personen": []
+  },
+  {
+   "soort": "Schorsing",
+   "tekst": "De vergadering wordt enkele ogenblikken geschorst.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
 }

@@ -1,0 +1,25 @@
+{
+ "id": "889d87a9-9930-43d6-9a31-6ebe7829c3a7",
+ "soort": "Sluiting",
+ "titel": "Sluiting",
+ "begin": "2026-11-12T13:42:32",
+ "vergadering": {
+  "id": "8708387e-59b6-49d2-b4f4-99e12f4e1cb7",
+  "datum": "2026-11-12",
+  "gewijzigd": "2026-11-12T13:51:30.9136455+01:00",
+  "soort": "Commissie",
+  "status": "Casco",
+  "titel": "Procedurevergadering commissie voor Buitenlandse Handel en Ontwikkelingssamenwerking",
+  "verslag_id": "f1b3d114-638d-49a4-99ab-20fd9c4f13b4",
+  "verslag_soort": "Voorpublicatie"
+ },
+ "beurten": [],
+ "fragmenten": [
+  {
+   "soort": "Tekst",
+   "tekst": "",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

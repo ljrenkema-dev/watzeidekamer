@@ -1,0 +1,25 @@
+{
+ "id": "41a21d22-ff53-43d1-a087-4372689166b8",
+ "soort": "Sluiting",
+ "titel": "Sluiting",
+ "begin": "2026-11-10T22:44:46",
+ "vergadering": {
+  "id": "59ca5b00-fce9-4aba-99a3-a9bb09000997",
+  "datum": "2026-11-10",
+  "gewijzigd": "2026-11-12T13:48:11.5172223+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "22e vergadering, dinsdag 10 november 2026",
+  "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "fragmenten": [
+  {
+   "soort": "Tekst",
+   "tekst": "Sluiting 22.44 uur.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

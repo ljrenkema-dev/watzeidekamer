@@ -1,0 +1,46 @@
+{
+ "id": "a7344f41-e11a-48fc-9261-9d0bb1c83fbb",
+ "soort": "Mededelingen",
+ "titel": "Mededelingen",
+ "begin": "2026-11-11T13:30:13",
+ "vergadering": {
+  "id": "bd68a531-0c2f-43bc-9073-3c0cf1f56d3b",
+  "datum": "2026-11-11",
+  "gewijzigd": "2026-11-11T22:13:55.6378841+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "23e vergadering, woensdag 11 november 2026",
+  "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-11T13:30:14",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heropen de vergadering.",
+   "deel": 0
+  }
+ ],
+ "fragmenten": [
+  {
+   "soort": "Ingekomen stukken",
+   "tekst": "Op de tafel van de Griffier ligt een lijst van ingekomen stukken. Op die lijst staan voorstellen voor de behandeling van deze stukken. Als voor het einde van de vergadering daartegen geen bezwaar is gemaakt, neem ik aan dat daarmee wordt ingestemd.",
+   "personen": []
+  },
+  {
+   "soort": "Bericht verhindering",
+   "tekst": "Ik deel aan de Kamer mee dat er geen afmeldingen zijn. Deze mededeling wordt voor kennisgeving aangenomen.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

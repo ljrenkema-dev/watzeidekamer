@@ -1,0 +1,242 @@
+{
+ "id": "8b88f55b-a7dd-4094-a757-3231a795a85f",
+ "soort": "Opening",
+ "titel": "Opening",
+ "begin": "2026-11-10T18:30:03",
+ "vergadering": {
+  "id": "54494029-a2ab-47b4-a316-984222daf028",
+  "datum": "2026-11-10",
+  "gewijzigd": "2026-11-11T01:53:28.3310137+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Voortzetting wetgevingsoverleg begrotingsonderdeel politie (artikel 31)",
+  "verslag_id": "3e57c1f5-4a23-4cfb-8d5e-9aeefadc4df7",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "aanwezig": [
+  {
+   "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+   "naam": "Mirjam Bikker",
+   "verslagnaam": "Bikker",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "naam": "Ingrid Coenradie",
+   "verslagnaam": "Coenradie",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+   "naam": "Marjolein Faber",
+   "verslagnaam": "Faber",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "3876b571-4ee2-4bb4-ab7e-901e00243ef4",
+   "naam": "Annelotte Lammers",
+   "verslagnaam": "Lammers",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b0beef17-ef06-4cb0-8967-8f623f098b29",
+   "naam": "Claire Martens-America",
+   "verslagnaam": "Martens-America",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d69850d9-031a-4916-a596-19b7bf456fc0",
+   "naam": "Mahjoub Mathlouti",
+   "verslagnaam": "Mathlouti",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8ef2beca-4c5f-4706-92c8-1dcdd8683d62",
+   "naam": "Songül Mutluer",
+   "verslagnaam": "Mutluer",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+   "naam": "Caroline Van der Plas",
+   "verslagnaam": "Van der Plas",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5f3700f2-4268-4378-bb91-2d5908a8da43",
+   "naam": "Jeltje Straatman",
+   "verslagnaam": "Straatman",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "78bfadde-92e9-4200-9324-ec3ff790a712",
+   "naam": "Jan Struijs",
+   "verslagnaam": "Struijs",
+   "fractie": "50PLUS",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "56a43503-f031-4cec-bced-29ef74caa676",
+   "naam": "Joost Eerdmans",
+   "verslagnaam": "Eerdmans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+   "naam": "David Van Weel",
+   "verslagnaam": "Van Weel",
+   "fractie": "",
+   "functie": "minister van Justitie en Veiligheid"
+  },
+  {
+   "id": "56a43503-f031-4cec-bced-29ef74caa676",
+   "naam": "Joost Eerdmans",
+   "verslagnaam": "Eerdmans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "56a43503-f031-4cec-bced-29ef74caa676",
+   "naam": "Joost Eerdmans",
+   "verslagnaam": "Eerdmans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "aantal_aanwezig_volgens_verslag": null,
+ "kamerleden_aanwezig": [
+  {
+   "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+   "naam": "Mirjam Bikker",
+   "verslagnaam": "Bikker",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "naam": "Ingrid Coenradie",
+   "verslagnaam": "Coenradie",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+   "naam": "Marjolein Faber",
+   "verslagnaam": "Faber",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "3876b571-4ee2-4bb4-ab7e-901e00243ef4",
+   "naam": "Annelotte Lammers",
+   "verslagnaam": "Lammers",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b0beef17-ef06-4cb0-8967-8f623f098b29",
+   "naam": "Claire Martens-America",
+   "verslagnaam": "Martens-America",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d69850d9-031a-4916-a596-19b7bf456fc0",
+   "naam": "Mahjoub Mathlouti",
+   "verslagnaam": "Mathlouti",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8ef2beca-4c5f-4706-92c8-1dcdd8683d62",
+   "naam": "Songül Mutluer",
+   "verslagnaam": "Mutluer",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+   "naam": "Caroline Van der Plas",
+   "verslagnaam": "Van der Plas",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5f3700f2-4268-4378-bb91-2d5908a8da43",
+   "naam": "Jeltje Straatman",
+   "verslagnaam": "Straatman",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "78bfadde-92e9-4200-9324-ec3ff790a712",
+   "naam": "Jan Struijs",
+   "verslagnaam": "Struijs",
+   "fractie": "50PLUS",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "56a43503-f031-4cec-bced-29ef74caa676",
+   "naam": "Joost Eerdmans",
+   "verslagnaam": "Eerdmans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "56a43503-f031-4cec-bced-29ef74caa676",
+   "naam": "Joost Eerdmans",
+   "verslagnaam": "Eerdmans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "56a43503-f031-4cec-bced-29ef74caa676",
+   "naam": "Joost Eerdmans",
+   "verslagnaam": "Eerdmans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "voorzitter": "Eerdmans",
+ "griffier": "Van Tilburg",
+ "fragmenten": [
+  {
+   "soort": "Wisseling voorzitter",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "56a43503-f031-4cec-bced-29ef74caa676",
+     "naam": "Joost Eerdmans",
+     "verslagnaam": "Eerdmans",
+     "fractie": "JA21",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  },
+  {
+   "soort": "Voorzitter selectie",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "56a43503-f031-4cec-bced-29ef74caa676",
+     "naam": "Joost Eerdmans",
+     "verslagnaam": "Eerdmans",
+     "fractie": "JA21",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  }
+ ],
+ "afgemeld": []
+}

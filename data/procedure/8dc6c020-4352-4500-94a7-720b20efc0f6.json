@@ -1,0 +1,25 @@
+{
+ "id": "8dc6c020-4352-4500-94a7-720b20efc0f6",
+ "soort": "Sluiting",
+ "titel": "Sluiting",
+ "begin": "2026-11-09T23:01:05",
+ "vergadering": {
+  "id": "fbcbf9a5-da60-4eaa-9622-77fd946e3ac4",
+  "datum": "2026-11-09",
+  "gewijzigd": "2026-11-10T00:12:17.1157242+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Novelle uitbreiding vermogenswinstbelasting box 3",
+  "verslag_id": "9209ff16-6d01-46a2-a72f-0e3fd68b9cf0",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "fragmenten": [
+  {
+   "soort": "Tekst",
+   "tekst": "Sluiting 23.01 uur.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

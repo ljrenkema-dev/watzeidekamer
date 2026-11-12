@@ -1,0 +1,270 @@
+{
+ "id": "12997c12-4ac7-47a6-8db4-5637c8aca84b",
+ "soort": "Opening",
+ "titel": "Opening",
+ "begin": "2026-11-09T16:01:43",
+ "vergadering": {
+  "id": "fbcbf9a5-da60-4eaa-9622-77fd946e3ac4",
+  "datum": "2026-11-09",
+  "gewijzigd": "2026-11-10T00:12:17.1157242+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Novelle uitbreiding vermogenswinstbelasting box 3",
+  "verslag_id": "9209ff16-6d01-46a2-a72f-0e3fd68b9cf0",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "aanwezig": [
+  {
+   "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+   "naam": "Corrie Van Brenk",
+   "verslagnaam": "Van Brenk",
+   "fractie": "50PLUS",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+   "naam": "Jimmy Jimmy Dijk",
+   "verslagnaam": "Jimmy Dijk",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+   "naam": "Inge Inge van Dijk",
+   "verslagnaam": "Inge van Dijk",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+   "naam": "Eelco Eerenberg",
+   "verslagnaam": "Eerenberg",
+   "fractie": "",
+   "functie": "staatssecretaris van Financiën"
+  },
+  {
+   "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+   "naam": "Wendy Van Eijk",
+   "verslagnaam": "Van Eijk",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+   "naam": "Pieter Grinwis",
+   "verslagnaam": "Grinwis",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+   "naam": "Michiel Hoogeveen",
+   "verslagnaam": "Hoogeveen",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+   "naam": "Chris Chris Jansen",
+   "verslagnaam": "Chris Jansen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+   "naam": "Henk-Jan Oosterhuis",
+   "verslagnaam": "Oosterhuis",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+   "naam": "Milan Schenk",
+   "verslagnaam": "Schenk",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+   "naam": "Chris Stoffer",
+   "verslagnaam": "Stoffer",
+   "fractie": "SGP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+   "naam": "Luc Stultiens",
+   "verslagnaam": "Stultiens",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+   "naam": "Henk Vermeer",
+   "verslagnaam": "Vermeer",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "247cd142-7220-4f25-aa32-8e1801169e9f",
+   "naam": "Elmar Vlottes",
+   "verslagnaam": "Vlottes",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+   "naam": "Chris Chris Jansen",
+   "verslagnaam": "Chris Jansen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+   "naam": "Chris Chris Jansen",
+   "verslagnaam": "Chris Jansen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "aantal_aanwezig_volgens_verslag": null,
+ "kamerleden_aanwezig": [
+  {
+   "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+   "naam": "Corrie Van Brenk",
+   "verslagnaam": "Van Brenk",
+   "fractie": "50PLUS",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+   "naam": "Jimmy Jimmy Dijk",
+   "verslagnaam": "Jimmy Dijk",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+   "naam": "Inge Inge van Dijk",
+   "verslagnaam": "Inge van Dijk",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+   "naam": "Wendy Van Eijk",
+   "verslagnaam": "Van Eijk",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+   "naam": "Pieter Grinwis",
+   "verslagnaam": "Grinwis",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+   "naam": "Michiel Hoogeveen",
+   "verslagnaam": "Hoogeveen",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+   "naam": "Chris Chris Jansen",
+   "verslagnaam": "Chris Jansen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+   "naam": "Henk-Jan Oosterhuis",
+   "verslagnaam": "Oosterhuis",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+   "naam": "Milan Schenk",
+   "verslagnaam": "Schenk",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+   "naam": "Chris Stoffer",
+   "verslagnaam": "Stoffer",
+   "fractie": "SGP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+   "naam": "Luc Stultiens",
+   "verslagnaam": "Stultiens",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+   "naam": "Henk Vermeer",
+   "verslagnaam": "Vermeer",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "247cd142-7220-4f25-aa32-8e1801169e9f",
+   "naam": "Elmar Vlottes",
+   "verslagnaam": "Vlottes",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+   "naam": "Chris Chris Jansen",
+   "verslagnaam": "Chris Jansen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+   "naam": "Chris Chris Jansen",
+   "verslagnaam": "Chris Jansen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "voorzitter": "Chris Jansen",
+ "griffier": "Lips",
+ "fragmenten": [
+  {
+   "soort": "Wisseling voorzitter",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+     "naam": "Chris Chris Jansen",
+     "verslagnaam": "Chris Jansen",
+     "fractie": "PVV",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  },
+  {
+   "soort": "Voorzitter selectie",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+     "naam": "Chris Chris Jansen",
+     "verslagnaam": "Chris Jansen",
+     "fractie": "PVV",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  }
+ ],
+ "afgemeld": []
+}

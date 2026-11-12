@@ -1,0 +1,25 @@
+{
+ "id": "e5cab230-5515-42c6-aa3d-9c2edddebff7",
+ "soort": "Sluiting",
+ "titel": "Sluiting",
+ "begin": "2026-11-10T21:01:30",
+ "vergadering": {
+  "id": "54494029-a2ab-47b4-a316-984222daf028",
+  "datum": "2026-11-10",
+  "gewijzigd": "2026-11-11T01:53:28.3310137+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Voortzetting wetgevingsoverleg begrotingsonderdeel politie (artikel 31)",
+  "verslag_id": "3e57c1f5-4a23-4cfb-8d5e-9aeefadc4df7",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "fragmenten": [
+  {
+   "soort": "Tekst",
+   "tekst": "Sluiting 21.01 uur.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

@@ -1,0 +1,54 @@
+{
+ "id": "915f2e0c-b19c-4c3f-a0bf-40ea15975c30",
+ "soort": "Opening",
+ "titel": "Opening",
+ "begin": "2026-11-12T13:30:32",
+ "vergadering": {
+  "id": "8708387e-59b6-49d2-b4f4-99e12f4e1cb7",
+  "datum": "2026-11-12",
+  "gewijzigd": "2026-11-12T13:51:30.9136455+01:00",
+  "soort": "Commissie",
+  "status": "Casco",
+  "titel": "Procedurevergadering commissie voor Buitenlandse Handel en Ontwikkelingssamenwerking",
+  "verslag_id": "f1b3d114-638d-49a4-99ab-20fd9c4f13b4",
+  "verslag_soort": "Voorpublicatie"
+ },
+ "beurten": [],
+ "aanwezig": [
+  {
+   "id": "bab21bc5-8703-4fe7-96f4-c0364573adfc",
+   "naam": "Renate Den Hollander",
+   "verslagnaam": "Den Hollander",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "aantal_aanwezig_volgens_verslag": null,
+ "kamerleden_aanwezig": [
+  {
+   "id": "bab21bc5-8703-4fe7-96f4-c0364573adfc",
+   "naam": "Renate Den Hollander",
+   "verslagnaam": "Den Hollander",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "voorzitter": null,
+ "griffier": null,
+ "fragmenten": [
+  {
+   "soort": "Voorzitter selectie",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "bab21bc5-8703-4fe7-96f4-c0364573adfc",
+     "naam": "Renate Den Hollander",
+     "verslagnaam": "Den Hollander",
+     "fractie": "VVD",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  }
+ ],
+ "afgemeld": []
+}

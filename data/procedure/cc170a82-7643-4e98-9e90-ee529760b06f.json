@@ -1,0 +1,4231 @@
+{
+ "id": "cc170a82-7643-4e98-9e90-ee529760b06f",
+ "soort": "Regeling van werkzaamheden",
+ "titel": "Regeling van werkzaamheden",
+ "begin": "2026-11-10T15:44:00",
+ "vergadering": {
+  "id": "59ca5b00-fce9-4aba-99a3-a9bb09000997",
+  "datum": "2026-11-10",
+  "gewijzigd": "2026-11-12T13:48:11.5172223+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "22e vergadering, dinsdag 10 november 2026",
+  "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:44:01",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Aan de orde is de regeling van werkzaamheden.\nIk stel voor toe te voegen aan de agenda van de Kamer:\nhet wetsvoorstel Wijziging van de Vreemdelingenwet 2000 en de Wet arbeid vreemdelingen in verband met de implementatie van Richtlijn (EU) 2024/1233 van het Europees Parlement en de Raad van 24 april 2024 betreffende één enkele aanvraagprocedure voor een gecombineerde vergunning voor onderdanen van derde landen om te verblijven en te werken op het grondgebied van een lidstaat, alsmede inzake een gemeenschappelijk pakket rechten voor werknemers uit derde landen die legaal in een lidstaat verblijven (Implementatiewet GVVA-richtlijn 2024) (36958); het wetsvoorstel Wijziging van het voorstel van wet tot Wijziging van de Vreemdelingenwet 2000 in verband met de implementatie van richtlijn (EU) 2021/1883 van het Europees Parlement en de Raad van 20 oktober 2021 betreffende de voorwaarden voor toegang en verblijf van onderdanen van derde landen met het oog op een hooggekwalificeerde baan, en tot intrekking van Richtlijn 2009/50/EG van de Raad (PbEU 2021, L 382/1) (novelle schrappen arbeidsmarkttoets voor de Europese blauwe kaart) (36972).\nIk deel aan de Kamer mee dat het lid Schoonis zijn motie op stuk nr. 23 (36924) intrekt.\nIk stel voor toe te voegen aan de agenda:\nhet tweeminutendebat Tuinbouw en biotechnologie (CD d.d. 05/11), met als eerste spreker het lid Flach van de SGP; het tweeminutendebat Onderzoeks- en Wetenschapsbeleid (CD d.d. 05/11), met als eerste spreker het lid Rooderkerk van D66; het tweeminutendebat Mondiale gezondheid (CD d.d. 05/11), met als eerste spreker het lid Kröger van PRO; het tweeminutendebat EU-strategie voor de veehouderij (22112, nr. 4440), met als eerste spreker het lid Van der Plas van de BBB; het tweeminutendebat Toekomstbestendig Stelsel Geneesmiddelen (29477, nr. 974), met als eerste spreker het lid Wiersma van de BBB.",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:44:07",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mag ik u verzoeken om wat rust in de plenaire zaal? Dan kan ik de heer Van Baarle het woord geven voor zijn eerste verzoek. Dat doet hij namens de fractie van DENK.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:44:08",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Meer dan 200.000 mensen hadden een duidelijke boodschap bij het Rode Lijnprotest. Dit kabinet doet volstrekt onvoldoende om de misdaden tegen de Palestijnen te stoppen. Het doet volstrekt onvoldoende om druk te zetten op de Israëlische regering. Dit kabinet moet stoppen met beleid dat ervoor zorgt dat de Israëlische regering beter wordt, zoals het kopen van wapens. Ze hadden ook een duidelijke oproep aan de minister-president, namelijk dat hij zijn verantwoordelijkheid moet nemen. Daarom wil ik graag zo snel mogelijk een debat met de minister president over de heldere oproep die heel veel mensen hebben gedaan tijdens de Rode Lijndemonstratie.",
+   "deel": 2
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:44:36",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ga kijken of u een meerderheid heeft.",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:44:37",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. 200.000 mensen hebben laten zien hoe hard het nodig is dat Nederland de druk op Israël gaat opvoeren om een einde te maken aan genocide en illegale bezetting. Dat is heel hard nodig, dus er is van harte steun van Partij voor de Dieren voor dit debat.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:44:48",
+   "spreker": {
+    "id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1",
+    "soort": "Tweede Kamerlid",
+    "naam": "Kati Piri",
+    "verslagnaam": "Piri",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ook namens mijn fractie is er van harte steun. Ik zou in aanvulling op het verzoek van de heer Van Baarle ook om een brief willen vragen van het kabinet in reactie op de eisen van de organisatie.",
+   "deel": 5
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:45:00",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat verzoek geleiden we door naar het kabinet.",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:45:02",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun. En alsjeblieft ook geen brief.",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:45:04",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "18 miljoen mensen of zo hebben niet gedemonstreerd zondag. Van genocide is geen sprake, dus zeker geen steun.",
+   "deel": 8
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:45:17",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 9
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:45:25",
+   "spreker": {
+    "id": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ingrid Coenradie",
+    "verslagnaam": "Coenradie",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun, voorzitter. Morgen en overmorgen hebben we het debat Buitenlandse Zaken.",
+   "deel": 10
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:45:29",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er staan gewoon mensen met \"We support Hamas\"-vlaggen. Er staat een man met \"Geen Joden in Nederland\". Dat is onversneden antisemitisme, dus je zou de neiging hebben om dit debat wel te steunen, om het daarover te hebben. Er staat ook nog een aanvraag van mevrouw Vondeling. Die ga ik wel steunen en deze niet.",
+   "deel": 11
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:45:39",
+   "spreker": {
+    "id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+    "soort": "Tweede Kamerlid",
+    "naam": "André Flach",
+    "verslagnaam": "Flach",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Wat mevrouw Van der Plas zegt. Je zou dit debat bijna beter met de minister van Justitie en Veiligheid kunnen voeren, maar niet op deze manier, dus geen steun.",
+   "deel": 12
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:45:49",
+   "spreker": {
+    "id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+    "soort": "Tweede Kamerlid",
+    "naam": "Robert Van Asten",
+    "verslagnaam": "Van Asten",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. De begroting Buitenlandse Zaken staat ons morgen te wachten, dus ik denk dat we het er dan over kunnen hebben.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:45:54",
+   "spreker": {
+    "id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+    "soort": "Tweede Kamerlid",
+    "naam": "Marjolein Faber",
+    "verslagnaam": "Faber",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 14
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:45:57",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zou graag in die brief opgenomen hebben hoe je tegen de Joden kunt zeggen \"vlucht niet naar Israël\" zonder te reflecteren op je eigen communicatie in het afgelopen jaar over het conflict aldaar. Geen steun voor dit verzoek, straks wel.",
+   "deel": 15
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:46:12",
+   "spreker": {
+    "id": "e1faad36-a61e-46af-b8ed-42fb086749af",
+    "soort": "Tweede Kamerlid",
+    "naam": "Maes Van Lanschot",
+    "verslagnaam": "Van Lanschot",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun. Morgen en overmorgen hebben we de begroting Buitenlandse Zaken.",
+   "deel": 16
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:46:13",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid. Geen toegift, meneer Van Baarle.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:46:22",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, het is geen toegift. Ik heb twee vragen. Een. Ik zou hem toch op de lijst van dertigledendebatten willen zetten.",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:46:28",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar er zijn geen 30 leden.",
+   "deel": 19
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:46:29",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er zijn geen 30 leden? Helaas. Aangezien dit verzoek geen steun heeft, zou ik in dat geval graag willen verzoeken om in ieder geval voor de begroting Buitenlandse Zaken een brief te ontvangen van het kabinet.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:46:36",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat geleid ik door naar het kabinet.\nHet woord is aan mevrouw Van der Plas voor haar verzoek namens de BBB. Gaat uw gang.",
+   "deel": 21
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:46:55",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. De Europese Commissie koerst op het openbreken van verstikkende natuurregelgeving aan, zoals het tegen het licht houden van de Vogel- en Habitatrichtlijn en regels voor de Natura 2000-gebieden. Dat lijkt mij een gouden kans en een mooi moment om daar een debat met de minister van LVVN en de minister-president over aan te vragen.",
+   "deel": 22
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:47:21",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of er een meerderheid is.",
+   "deel": 23
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:47:31",
+   "spreker": {
+    "id": "a33f6a7f-db72-4090-b68d-7c9bb1e45ba8",
+    "soort": "Tweede Kamerlid",
+    "naam": "Laura Bromet",
+    "verslagnaam": "Bromet",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Dat is op zich zorgelijk, maar we hebben nog geen idee waaraan gedacht wordt, dus het lijkt me prematuur. Geen steun.",
+   "deel": 24
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:47:35",
+   "spreker": {
+    "id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+    "soort": "Tweede Kamerlid",
+    "naam": "André Flach",
+    "verslagnaam": "Flach",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat de redding nou uit Europa moet komen! Steun voor dit debat.",
+   "deel": 25
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:47:38",
+   "spreker": {
+    "id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+    "soort": "Tweede Kamerlid",
+    "naam": "Robert Van Asten",
+    "verslagnaam": "Van Asten",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun. Volgens mij moeten we dit belangrijke rapport bespreken bij de begroting dan wel bij de stikstofwet zelf.",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:47:44",
+   "spreker": {
+    "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Jansen",
+    "verslagnaam": "Chris Jansen",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 27
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:47:47",
+   "spreker": {
+    "id": "6248d84b-04f8-4389-b510-63e653f61cea",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jan Arie Koorevaar",
+    "verslagnaam": "Koorevaar",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun. Eerst moet het debat in Europa plaatsvinden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:47:52",
+   "spreker": {
+    "id": "5d09a944-d2e0-4792-a8ae-8b2ac325e23a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Tom Russcher",
+    "verslagnaam": "Russcher",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 29
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:47:53",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 30
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:47:56",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Wij moeten hier een opdracht formuleren om mee te geven aan het kabinet, omdat er anders weet ik wat al gebeurd. Dan wordt er nog eens uitgelegd hoe al die regelgeving in elkaar zit. Dat weten wij. Daarom zit Nederland vast. Steun voor dit verzoek.",
+   "deel": 31
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:48:06",
+   "spreker": {
+    "id": "d8e7ee39-89a3-445d-a86c-1c630b1fb17d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Tamara Ten Hove",
+    "verslagnaam": "Ten Hove",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 32
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:48:11",
+   "spreker": {
+    "id": "bab21bc5-8703-4fe7-96f4-c0364573adfc",
+    "soort": "Tweede Kamerlid",
+    "naam": "Renate Den Hollander",
+    "verslagnaam": "Den Hollander",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 33
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:48:12",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid, mevrouw Van der Plas.",
+   "deel": 34
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:48:15",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wel 30 leden?",
+   "deel": 35
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:48:16",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja. We zetten het op de lijst.",
+   "deel": 36
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:48:17",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wel 30 leden. Dat is mooi. Dan laten we hem toevoegen aan die lijst.",
+   "deel": 37
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:48:20",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Bij dezen.\nUw volgende verzoek.",
+   "deel": 38
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:48:23",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u zeer. Daar staat ook een door ons aangevraagd dertigledendebat op over het rapport van de Nationale ombudsman over de betrouwbaarheid van de overheid richting boeren. De Ombudsman heeft vorige week dat rapport uitgebracht, waarin hij heeft gezegd dat boeren groot leed is aangedaan. Wij willen graag het dertigledendebat omzetten in een plenair debat, een meerderheidsdebat.",
+   "deel": 39
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:48:43",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of daar een meerderheid voor is.",
+   "deel": 40
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:48:44",
+   "spreker": {
+    "id": "a33f6a7f-db72-4090-b68d-7c9bb1e45ba8",
+    "soort": "Tweede Kamerlid",
+    "naam": "Laura Bromet",
+    "verslagnaam": "Bromet",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Op zich is het een goed onderwerp, maar ik denk dat het bij de begroting het snelst plaats kan vinden.",
+   "deel": 41
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:48:54",
+   "spreker": {
+    "id": "337901dc-6804-4399-a2ab-18f8af5042e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Anne-Marijke Podt",
+    "verslagnaam": "Podt",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Daar ben ik het mee eens, voorzitter.",
+   "deel": 42
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:48:59",
+   "spreker": {
+    "id": "d8e7ee39-89a3-445d-a86c-1c630b1fb17d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Tamara Ten Hove",
+    "verslagnaam": "Ten Hove",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 43
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:00",
+   "spreker": {
+    "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Jansen",
+    "verslagnaam": "Chris Jansen",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 44
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:02",
+   "spreker": {
+    "id": "6248d84b-04f8-4389-b510-63e653f61cea",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jan Arie Koorevaar",
+    "verslagnaam": "Koorevaar",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun, maar wel een enorm belangrijk rapport en onderwerp.",
+   "deel": 45
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:05",
+   "spreker": {
+    "id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+    "soort": "Tweede Kamerlid",
+    "naam": "André Flach",
+    "verslagnaam": "Flach",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het kan ook zeker bij de begroting aan de orde komen, maar dit gaat over iets heel fundamenteels, namelijk vertrouwen in de overheid. Een apart debat lijkt me dus gerechtvaardigd, mede namens de ChristenUnie.",
+   "deel": 46
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:13",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 47
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:14",
+   "spreker": {
+    "id": "94487bf2-db65-4c2b-bcac-eac80408e642",
+    "soort": "Tweede Kamerlid",
+    "naam": "Iem Al Biyati",
+    "verslagnaam": "Al Biyati",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 48
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:18",
+   "spreker": {
+    "id": "d66383ca-deef-4470-8807-924313ae15e6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ines Kostić",
+    "verslagnaam": "Kostić",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het lijkt me goed dat er een reactie komt van het kabinet en dat we er daarna een debat over hebben.",
+   "deel": 49
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:49:19",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat verzoek geleiden we door naar het kabinet.",
+   "deel": 50
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:22",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Remkes noemde dat \"de wanhoop in de ogen van redelijke mensen\". Als je dan dit rapport erachteraan leest, dan kan het niet anders dan dat wij hier aandacht aan besteden in de plenaire zaal. Steun voor dit verzoek.",
+   "deel": 51
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:31",
+   "spreker": {
+    "id": "bab21bc5-8703-4fe7-96f4-c0364573adfc",
+    "soort": "Tweede Kamerlid",
+    "naam": "Renate Den Hollander",
+    "verslagnaam": "Den Hollander",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het lijkt me goed om er aandacht aan te besteden tijdens de begroting, maar geen apart debat.",
+   "deel": 52
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:49:37",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid, dus het blijft staan. Mevrouw Beckerman, wenst u zich nog uit te spreken?",
+   "deel": 53
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:39",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil dit steunen, maar ik was niet snel genoeg.",
+   "deel": 54
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:49:44",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat leidt nog steeds niet tot een meerderheid. Het blijft staan als dertigledendebat.\nHet woord is aan de heer Ergin voor zijn verzoek namens DENK.",
+   "deel": 55
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:49:52",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Weer blijkt uit onderzoek dat mensen met een migratieachtergrond, en in het bijzonder Nederlanders met een Marokkaanse achtergrond, moeilijker aan een woning komen. Je zou iedereen een dak boven het hoofd gunnen, maar wat blijkt uit onderzoek? Dat 80% van de bemiddelaars bereid is om Nederlanders met een Marokkaanse achtergrond te discrimineren of dat te faciliteren. Dat is echt volstrekt onacceptabel. Het gaat echt heel slecht. We moeten dat zo snel mogelijk bespreken met de minister van Volkshuisvesting. Daarom vraag ik graag een debat aan.",
+   "deel": 56
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:50:37",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of u een meerderheid heeft.",
+   "deel": 57
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:50:39",
+   "spreker": {
+    "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+    "soort": "Tweede Kamerlid",
+    "naam": "René Claassen",
+    "verslagnaam": "Claassen",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De grootste bemiddelaar is dit kabinet, dat ervoor zorgt dat statushouders voorrang hebben. Laten we daar maar eens aan gaan werken. Voor dit debat geen steun.",
+   "deel": 58
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:50:42",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "19 november is er een commissiedebat Staat van de Volkshuisvesting. We krijgen nog een begroting Volkshuisvesting en Ruimtelijke Ordening. Geen steun dus voor een apart debat.",
+   "deel": 59
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:50:54",
+   "spreker": {
+    "id": "d0cdfb97-8bc1-4ad6-b14e-a77809c90012",
+    "soort": "Tweede Kamerlid",
+    "naam": "Habtamu De Hoop",
+    "verslagnaam": "De Hoop",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het is natuurlijk schandalig dat vier van de vijf makelaars meegaan in discriminerende verzoeken van verhuurders. Daarom vind ik het echt belangrijk dat we nu een apart debat hebben over discriminatie op de woningmarkt, dus van harte steun.",
+   "deel": 60
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:51:08",
+   "spreker": {
+    "id": "5d09a944-d2e0-4792-a8ae-8b2ac325e23a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Tom Russcher",
+    "verslagnaam": "Russcher",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Al decennialang zijn het juist de migranten die voorrang krijgen boven Nederlanders, dus geen steun voor het debat.",
+   "deel": 61
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:51:17",
+   "spreker": {
+    "id": "d24b17b4-8e3a-4bed-818e-5d61dcc9f534",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jurgen Nobel",
+    "verslagnaam": "Nobel",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het kan bij het debat Staat van de Volkshuisvesting.",
+   "deel": 62
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:51:20",
+   "spreker": {
+    "id": "2bddf0e3-4312-4d39-ab17-a6837e24b5d8",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hanneke Steen",
+    "verslagnaam": "Steen",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Belangrijk onderwerp. Volgende week debat. Meneer Ergin is zeer welkom. Dit staat overigens ook op de agenda van het antidiscriminatiedebat.",
+   "deel": 63
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:51:26",
+   "spreker": {
+    "id": "d66383ca-deef-4470-8807-924313ae15e6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ines Kostić",
+    "verslagnaam": "Kostić",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, dat in 2026 discriminatie zo veel ruimte krijgt in Nederland is echt onacceptabel, dus van harte steun voor dit debat.",
+   "deel": 64
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:51:34",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Samen met de heer Clemminck en de heer Claassen ben ik bezig met het wetsvoorstel om de voorrang van statushouders op sociale huurwoningen af te schaffen. Dat is pas eens discriminatie. Daar wil ik het wel over hebben, maar dit is een zeer beperkt probleem. Geen steun.",
+   "deel": 65
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:51:49",
+   "spreker": {
+    "id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+    "soort": "Tweede Kamerlid",
+    "naam": "Robert Van Asten",
+    "verslagnaam": "Van Asten",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. We hadden hier ook mondelinge vragen over gesteld, dus zeer belangrijk. Toch geen steun, want wij willen dit zo snel mogelijk, bij de Staat van de Volkshuisvesting, bespreken. Daarbij lijkt het me een belangrijk agendaonderwerp.",
+   "deel": 66
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:52:00",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid.\nHet woord is aan meneer Claassen voor zijn verzoek namens de Groep Markuszower.",
+   "deel": 67
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:52:17",
+   "spreker": {
+    "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+    "soort": "Tweede Kamerlid",
+    "naam": "René Claassen",
+    "verslagnaam": "Claassen",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Volgens mij is het sinds de Tweede Wereldoorlog nog nooit zo onveilig geweest voor Joden in Nederland als het nu is. Als Jood kun je geen davidster dragen. Je moet een nepidentiteit bedenken, vooral om te verloochenen dat je uit Israël komt of er iets mee te maken hebt. Als je een lezing wilt organiseren: het kan voor iedereen, behalve voor een groep Joodse studenten of mensen die dat aanhangen. Dat zagen we afgelopen week ook in Maastricht. Dan word je gewoon gecanceld, onder allerlei voorwendselen waarom het niet kan.",
+   "deel": 68
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:52:47",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Uw verzoek.",
+   "deel": 69
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:52:50",
+   "spreker": {
+    "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+    "soort": "Tweede Kamerlid",
+    "naam": "René Claassen",
+    "verslagnaam": "Claassen",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het verzoek is om een debat te houden over het antisemitisme, dat als een tumor doorgroeit in onze universiteiten. Ik denk dat het goed is als we daar een keer uitgebreid stil bij gaan staan.",
+   "deel": 70
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:52:57",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of u een meerderheid heeft.",
+   "deel": 71
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:53:00",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Gisteren was de herdenking van de Kristallnacht. Daar ben ik bij geweest, samen met een aantal andere Kamerleden. De heer Hertzberger, de voorzitter van het Centraal Joods Overleg, heeft daar een hele goede, scherpe toespraak neergezet, die een beeld gaf van hoe erg het antisemitisme op dit moment is. Dus ik steun dit verzoek voor een debat. Ik zou ook willen vragen om er t.z.t. een antisemitismedebat van te maken.",
+   "deel": 72
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:53:28",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. De minister-president zegt tegen de Joden \"vlucht niet naar Israël\", maar doet vervolgens niets aan wat de Joodse gemeenschap op dit moment in Nederland meemaakt. Het is heel belangrijk om hierover te spreken. Steun.",
+   "deel": 73
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:53:45",
+   "spreker": {
+    "id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+    "soort": "Tweede Kamerlid",
+    "naam": "Anouschka Biekman",
+    "verslagnaam": "Biekman",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het is een belangrijk onderwerp, maar we hebben het hier al uitgebreid over gehad tijdens het commissiedebat over hoger onderwijs en wetenschap. Dus geen steun.",
+   "deel": 74
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:53:54",
+   "spreker": {
+    "id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+    "soort": "Tweede Kamerlid",
+    "naam": "André Flach",
+    "verslagnaam": "Flach",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We hebben deze week weer kunnen zien hoe belangrijk het is om dit debat te hebben, dus wij steunen dit verzoek.",
+   "deel": 75
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:54:01",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 76
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:54:05",
+   "spreker": {
+    "id": "15342ca7-bffc-4d20-bcc1-be5ab9d6530c",
+    "soort": "Tweede Kamerlid",
+    "naam": "Annette Raijer",
+    "verslagnaam": "Raijer",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 77
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:54:09",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het is een belangrijk punt, maar we hebben het er uitgebreid bij de begroting over gehad. Dus voor nu geen steun.",
+   "deel": 78
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:54:13",
+   "spreker": {
+    "id": "1d261520-aa04-4f6e-9dae-6ccb54a13472",
+    "soort": "Tweede Kamerlid",
+    "naam": "Etkin Armut",
+    "verslagnaam": "Armut",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Dit is inderdaad ook ter sprake gekomen bij het commissiedebat Onderzoeks- en wetenschapsbeleid. Daar heb ik dit punt gemaakt, maar verschillende andere Kamerleden ook. Dus geen steun voor dit verzoek.",
+   "deel": 79
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:54:23",
+   "spreker": {
+    "id": "9eba48a5-acfb-4efc-93c2-e895a075e7d6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ulysse Ellian",
+    "verslagnaam": "Ellian",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, vergeeft u mij mijn verwarring. Het verzoek in de regeling van werkzaamheden gaat over een casus, maar in de toelichting gaat het over antisemitisme. Ik hoor mevrouw Van der Plas ook zeggen: ik wil een antisemitismedebat. Kunt u mij helpen? Op welk verzoek moet ik nu ja of nee zeggen?",
+   "deel": 80
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:54:41",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We spreken over verzoeken zoals ze op de lijst staan geformuleerd.",
+   "deel": 81
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:54:44",
+   "spreker": {
+    "id": "9eba48a5-acfb-4efc-93c2-e895a075e7d6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ulysse Ellian",
+    "verslagnaam": "Ellian",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan steun ik het niet, omdat dit uitgebreid besproken is. Een debat over antisemitisme zou ik gesteund hebben.",
+   "deel": 82
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:54:50",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid, meneer Claassen.",
+   "deel": 83
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:54:52",
+   "spreker": {
+    "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+    "soort": "Tweede Kamerlid",
+    "naam": "René Claassen",
+    "verslagnaam": "Claassen",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké. Ik heb er nog eentje in de aanbieding.",
+   "deel": 84
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:54:54",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja.",
+   "deel": 85
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:54:56",
+   "spreker": {
+    "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+    "soort": "Tweede Kamerlid",
+    "naam": "René Claassen",
+    "verslagnaam": "Claassen",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik had aanvankelijk een andere vraag voor de regeling staan, die ging over iets specifieks met geneesmiddelen. Ik zag op de lijst ook debatverzoeken van andere collega's over andere onderwerpen die met geneesmiddelen te maken hebben. Ik denk dat we het plenair al heel lang niet meer over het geneesmiddelenbeleid in Nederland hebben gehad. Daarom heb ik mijn verzoek gewijzigd. Ik hoop dat de andere mensen die een debat wilden voeren over het geneesmiddelenbeleid in Nederland dit verzoek steunen, zodat we eindelijk weer een keer alleen over geneesmiddelenbeleid gaan spreken in deze plenaire zaal.",
+   "deel": 86
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:55:35",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of u een meerderheid heeft.",
+   "deel": 87
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:55:39",
+   "spreker": {
+    "id": "f9b55c38-c420-4b6a-96a7-ae00f4ec3918",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hilde Wendel",
+    "verslagnaam": "Wendel",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het onderwerp geneesmiddelenbeleid is natuurlijk belangrijk. Tegelijkertijd constateer ik dat we nog allerlei wetgeving van VWS in de wachtrij hebben staan omdat we steeds andere debatten voorrang geven. Om die reden steun ik dit verzoek niet.",
+   "deel": 88
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:55:45",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat vind ik een hele rare vorm, want juist daarom zou je dit verzoek steunen om ervoor te zorgen dat dit debat gehouden kan worden. Er staan ook geen commissiedebatten over geneesmiddelenbeleid gepland en de begroting van VWS is al geweest. Het lijkt mij dus een heel goed moment om zo snel mogelijk een debat te houden over geneesmiddelenbeleid. Dus steun.",
+   "deel": 89
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:56:07",
+   "spreker": {
+    "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+    "soort": "Tweede Kamerlid",
+    "naam": "Corrie Van Brenk",
+    "verslagnaam": "Van Brenk",
+    "fractie": "50PLUS",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Verderop komt ook mevrouw Maeijer met iets over geneesmiddelen. Wat mij betreft zouden we hier zeker over moeten debatteren. Steun.",
+   "deel": 90
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:56:16",
+   "spreker": {
+    "id": "6ee6a4b6-3523-4806-b784-a669f6fa8c10",
+    "soort": "Tweede Kamerlid",
+    "naam": "André Poortman",
+    "verslagnaam": "Poortman",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun, onder verwijzing naar wat mevrouw Wendel zei.",
+   "deel": 91
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:56:19",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 92
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:56:21",
+   "spreker": {
+    "id": "5d09a944-d2e0-4792-a8ae-8b2ac325e23a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Tom Russcher",
+    "verslagnaam": "Russcher",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 93
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:56:23",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik kan mij herinneren dat er vroeger in de commissie voor VWS altijd regulier een commissiedebat over geneesmiddelenbeleid was. Het lijkt me zinvol om dat dan gewoon weer in te plannen. Dus geen steun voor een apart, ongericht plenair debat.",
+   "deel": 94
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:56:43",
+   "spreker": {
+    "id": "e5f249c3-2506-4eb8-84af-ffe0ae152bf4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Julian Bushoff",
+    "verslagnaam": "Bushoff",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Op dit moment geen steun voor een plenair debat. Het is volgens mij wel goed om op korte termijn te kijken naar de commissieagenda en dat geneesmiddelendebat dan weer in te plannen.",
+   "deel": 95
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:56:48",
+   "spreker": {
+    "id": "43f571a7-1136-42f0-9a88-7b404b8e43b9",
+    "soort": "Tweede Kamerlid",
+    "naam": "Vicky Maeijer",
+    "verslagnaam": "Maeijer",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik had dit verzoek al letterlijk zo op de lijst staan, dus ik vind dit wel een beetje een vreemde stijlfiguur. Ik zou de heer Claassen eigenlijk willen vragen om mijn verzoek zo dadelijk gewoon te steunen. Dus geen steun.",
+   "deel": 96
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:57:01",
+   "spreker": {
+    "id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+    "soort": "Tweede Kamerlid",
+    "naam": "Anouschka Biekman",
+    "verslagnaam": "Biekman",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Geen steun. Er is binnenkort ook een commissiedebat over publieke gezondheidszorg.",
+   "deel": 97
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:57:05",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 98
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:57:09",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid.",
+   "deel": 99
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:57:12",
+   "spreker": {
+    "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+    "soort": "Tweede Kamerlid",
+    "naam": "René Claassen",
+    "verslagnaam": "Claassen",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil een persoonlijke opmerking maken.",
+   "deel": 100
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:57:13",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Heel kort dan, meneer Claassen.",
+   "deel": 101
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:57:15",
+   "spreker": {
+    "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+    "soort": "Tweede Kamerlid",
+    "naam": "René Claassen",
+    "verslagnaam": "Claassen",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er werd net door mevrouw Maeijer gezegd dat ik haar verzoek overneem. Dat is natuurlijk helemaal niet waar, want dat van mevrouw Maeijer gaat over de toegang tot geneesmiddelen.",
+   "deel": 102
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:57:20",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké, dank u wel.",
+   "deel": 103
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:57:26",
+   "spreker": {
+    "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+    "soort": "Tweede Kamerlid",
+    "naam": "René Claassen",
+    "verslagnaam": "Claassen",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is echt totaal wat anders.",
+   "deel": 104
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:57:29",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We gaan naar meneer Bamenga voor zijn verzoek namens D66.",
+   "deel": 105
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:57:44",
+   "spreker": {
+    "id": "2b52579f-6343-4936-afac-9582ece0b33e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mpanzu Bamenga",
+    "verslagnaam": "Bamenga",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Afgelopen donderdag heeft Zembla in een documentaire een belangrijk onderzoek gepubliceerd naar de wijze waarop de import van Arabische gom bijdraagt aan de oorlogseconomie in Sudan. Eerder hebben we als Kamer een motie aangenomen om daar verder onderzoek naar te doen. Zodra dat onderzoek is afgerond, zou ik hier graag een debat over willen met de minister van Buitenlandse Handel en Ontwikkelingssamenwerking.",
+   "deel": 106
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:58:01",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of u een meerderheid heeft.",
+   "deel": 107
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:58:04",
+   "spreker": {
+    "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+    "soort": "Tweede Kamerlid",
+    "naam": "Corrie Van Brenk",
+    "verslagnaam": "Van Brenk",
+    "fractie": "50PLUS",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 108
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:58:06",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. We hebben de begroting Buitenlandse Handel en Ontwikkelingssamenwerking over twee weken, meen ik. Daarbij zou ik het willen betrekken. Geen steun voor een apart debat.",
+   "deel": 109
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:58:19",
+   "spreker": {
+    "id": "8facda55-b928-4086-87a2-5105b6aeb6e1",
+    "soort": "Tweede Kamerlid",
+    "naam": "Nicole Maes",
+    "verslagnaam": "Maes",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wat mij betreft is het een belangrijk onderwerp. Ik heb niet voor niks de schriftelijke vragen van de heer Bamenga ondersteund. Maar ik sluit mij aan bij mevrouw Van der Plas: over twee weken is de begrotingsbehandeling. Ik denk niet dat we hier de plenaire agenda mee moeten vullen.",
+   "deel": 110
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:58:33",
+   "spreker": {
+    "id": "8eaa8995-7e34-47e6-bd85-250e60452b3f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Suzanne Kröger",
+    "verslagnaam": "Kröger",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het conflict in Sudan is een van de minst belichte conflicten, maar het is zo ongelofelijk groot en gruwelijk. Het is daarom belangrijk om het debat te voeren. Ik zou het alleen wel iets breder willen hebben dan alleen deze handelsstroom, want er speelt genoeg. Maar volop steun.",
+   "deel": 111
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:58:46",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, vanzelfsprekend steun. Het is de grootste humanitaire crisis op de wereld volgens de experts. Ik denk dat het goed is als de regering voorafgaand aan het debat met een brief komt waarin zij laat zien wat de inzet geweest is op alle aangenomen Kamermoties, zodat we het debat gericht met elkaar kunnen voeren.",
+   "deel": 112
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:59:08",
+   "spreker": {
+    "id": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
+    "soort": "Tweede Kamerlid",
+    "naam": "Raymond De Roon",
+    "verslagnaam": "De Roon",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Vorige week is dit onderwerp al aan de orde geweest in het commissiedebat Raad Buitenlandse Zaken. Dat lijkt ons voldoende. Geen steun.",
+   "deel": 113
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:59:15",
+   "spreker": {
+    "id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+    "soort": "Tweede Kamerlid",
+    "naam": "André Flach",
+    "verslagnaam": "Flach",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik sluit me aan bij de woorden van mevrouw Kröger. Steun.",
+   "deel": 114
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:59:19",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 115
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:59:24",
+   "spreker": {
+    "id": "2b8b0528-e4cf-4b03-8db6-202b9dde1655",
+    "soort": "Tweede Kamerlid",
+    "naam": "Joris Lohman",
+    "verslagnaam": "Lohman",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zou me ook willen aansluiten bij de woorden van mevrouw Kröger. Ook steun voor dit debat.",
+   "deel": 116
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:59:29",
+   "spreker": {
+    "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hidde Heutink",
+    "verslagnaam": "Heutink",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dit kan binnenkort bij het WGO. Geen steun.",
+   "deel": 117
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:59:30",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 118
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:59:32",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft een meerderheid. Ik begrijp dat het verzoek ook namens Volt was. Dat is bij dezen genoteerd.\nHet woord is aan mevrouw Maeijer voor haar verzoek namens de PVV. Gaat uw gang.",
+   "deel": 119
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:59:45",
+   "spreker": {
+    "id": "43f571a7-1136-42f0-9a88-7b404b8e43b9",
+    "soort": "Tweede Kamerlid",
+    "naam": "Vicky Maeijer",
+    "verslagnaam": "Maeijer",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u, voorzitter. Op 3 november berichtte EenVandaag dat Nederlandse vrouwen als enige in Europa een levensverlengend borstkankermedicijn, het middel Enhertu, niet vergoed krijgen. Vandaag benoem ik dit medicijn, maar begin van het jaar vroeg ik ditzelfde debat aan naar aanleiding van de berichtgeving over Voxzogo, een middel tegen dwerggroei. Dat is ook niet beschikbaar voor Nederlandse patiënten. Het probleem is dus groter dan deze twee geneesmiddelen. Omdat het eerder aangevraagde en toen toegekende meerderheidsdebat over een breed debat over de toegang tot geneesmiddelen is verlopen, doe ik hier vandaag opnieuw het verzoek voor een breed debat over de toegang tot geneesmiddelen.",
+   "deel": 120
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:59:46",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of u een meerderheid heeft.",
+   "deel": 121
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:00:20",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Met dezelfde argumentatie als bij de heer Claassen: er staan geen commissiedebatten en de begroting VWS is al geweest. Steun voor dit debat.",
+   "deel": 122
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:00:26",
+   "spreker": {
+    "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+    "soort": "Tweede Kamerlid",
+    "naam": "René Claassen",
+    "verslagnaam": "Claassen",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dit debatverzoek gaat over de toegang van geneesmiddelen. Ik wil het wat breder trekken dan alleen toegang. Dat wilde mevrouw Maeijer niet, dus ik ga niet een specifiek debat steunen over alleen de toegang.",
+   "deel": 123
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:00:40",
+   "spreker": {
+    "id": "f9b55c38-c420-4b6a-96a7-ae00f4ec3918",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hilde Wendel",
+    "verslagnaam": "Wendel",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik steun beide debatten niet.",
+   "deel": 124
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:00:43",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Sorry, ik was nog niet over deze kinderachtigheid heen. Ik steun het wel.",
+   "deel": 125
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:00:50",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 126
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:00:51",
+   "spreker": {
+    "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+    "soort": "Tweede Kamerlid",
+    "naam": "Corrie Van Brenk",
+    "verslagnaam": "Van Brenk",
+    "fractie": "50PLUS",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik steun beide debatten.",
+   "deel": 127
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:00:52",
+   "spreker": {
+    "id": "94487bf2-db65-4c2b-bcac-eac80408e642",
+    "soort": "Tweede Kamerlid",
+    "naam": "Iem Al Biyati",
+    "verslagnaam": "Al Biyati",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun voor beide.",
+   "deel": 128
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:00:59",
+   "spreker": {
+    "id": "646190dd-ab3c-4477-9b6c-b9098618ad1b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Renilde Huizenga",
+    "verslagnaam": "Huizenga",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun voor dit debat.",
+   "deel": 129
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:01:07",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun. Ik zal het breder trekken dan alleen dit onderwerp.",
+   "deel": 130
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:01:08",
+   "spreker": {
+    "id": "e5f249c3-2506-4eb8-84af-ffe0ae152bf4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Julian Bushoff",
+    "verslagnaam": "Bushoff",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 131
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:01:12",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 132
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:01:13",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid. We zetten 'm op de lijst voor een dertigledendebat.\nHet woord is aan de heer Vermeer voor zijn verzoek namens de BBB, in de persoon van mevrouw Van der Plas.",
+   "deel": 133
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:01:29",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Namens de heer Vermeer verzoek ik het tweeminutendebat Kernenergie naar aanleiding van het commissiedebat op 2 juli vóór december in te plannen, inclusief stemmingen.",
+   "deel": 134
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:01:41",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of daar een meerderheid voor is.",
+   "deel": 135
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:01:48",
+   "spreker": {
+    "id": "646190dd-ab3c-4477-9b6c-b9098618ad1b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Renilde Huizenga",
+    "verslagnaam": "Huizenga",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 136
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:01:49",
+   "spreker": {
+    "id": "432729d4-fd5e-4e53-aba8-9bc981949713",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sjoukje Van Oosterhout",
+    "verslagnaam": "Van Oosterhout",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ook steun.",
+   "deel": 137
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:01:55",
+   "spreker": {
+    "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hidde Heutink",
+    "verslagnaam": "Heutink",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Misschien kunnen we ondertussen vast gaan bouwen aan zo'n kerncentrale, maar wel steun.",
+   "deel": 138
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:01:59",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mede namens de SGP steun.",
+   "deel": 139
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:02:02",
+   "spreker": {
+    "id": "c9327241-92ea-43c7-9195-f658880d1d42",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Jumelet",
+    "verslagnaam": "Jumelet",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun, maar het hoeft niet per se vóór december.",
+   "deel": 140
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:02:05",
+   "spreker": {
+    "id": "73822989-cf80-4cc9-a76f-a76549e2dd24",
+    "soort": "Tweede Kamerlid",
+    "naam": "Alexander Kops",
+    "verslagnaam": "Kops",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 141
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:02:06",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 142
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:02:08",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 143
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:02:22",
+   "spreker": {
+    "id": "e3a027eb-acac-4242-8b8d-533365ce3366",
+    "soort": "Tweede Kamerlid",
+    "naam": "Alisha Müller",
+    "verslagnaam": "Müller",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 144
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:02:23",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft een meerderheid.\nHet woord is aan mevrouw Beckerman voor haar verzoek namens de SP. Gaat uw gang.",
+   "deel": 145
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:02:30",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Koud, klam en onzichtbaar: de verwarming staat bij veel gezinnen niet langer laag, maar allang uit. Het is 2026 en mensen, onder wie kinderen, wonen in een steenkoud huis. Er is nog meer warmte tussen de coalitiepartijen dan bij mensen thuis. Het lijkt me goed om in debat te gaan met de ministers van KGG en SZW.",
+   "deel": 146
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:02:58",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of u een meerderheid heeft.",
+   "deel": 147
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:03:05",
+   "spreker": {
+    "id": "73822989-cf80-4cc9-a76f-a76549e2dd24",
+    "soort": "Tweede Kamerlid",
+    "naam": "Alexander Kops",
+    "verslagnaam": "Kops",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 148
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:03:09",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Goed om het over energiearmoede te hebben. Het is niet alleen armoede, dit leidt ook tot hele ongezonde situaties voor mensen in huizen, dus ik steun dit debat.",
+   "deel": 149
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:03:10",
+   "spreker": {
+    "id": "432729d4-fd5e-4e53-aba8-9bc981949713",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sjoukje Van Oosterhout",
+    "verslagnaam": "Van Oosterhout",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Van harte steun.",
+   "deel": 150
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:03:21",
+   "spreker": {
+    "id": "94487bf2-db65-4c2b-bcac-eac80408e642",
+    "soort": "Tweede Kamerlid",
+    "naam": "Iem Al Biyati",
+    "verslagnaam": "Al Biyati",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 151
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:03:23",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het lijkt me dan ook zinvol om dit debat heel erg snel te voeren met elkaar, aangezien het al koud is. Misschien is het ook goed als de regering met een brief komt, waarin ze eens even heel netjes achter elkaar zet wat ze voor de mensen wil gaan doen deze winter. Dus steun.",
+   "deel": 152
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:03:37",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Mede namens de SGP steun. Ik kan me voorstellen dat die brief die is gevraagd, wordt aangevuld met de laatste stand van zaken over het openstellen van het energienoodfonds.",
+   "deel": 153
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:03:47",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun, ook voor de brief.",
+   "deel": 154
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:03:49",
+   "spreker": {
+    "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hidde Heutink",
+    "verslagnaam": "Heutink",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het is echt de wereld op zijn kop: er worden miljarden uitgegeven aan het buitenland en dan moeten we hier nu een debat over voeren? Het is echt pure armoede. Alleen daarom steun.",
+   "deel": 155
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:03:58",
+   "spreker": {
+    "id": "c9327241-92ea-43c7-9195-f658880d1d42",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Jumelet",
+    "verslagnaam": "Jumelet",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Geen steun. We hebben vorige week de begrotingsbehandeling van KGG gehad. De begrotingsbehandeling van SZW komt nog. Daarbij kan het heel goed besproken worden.",
+   "deel": 156
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:04:08",
+   "spreker": {
+    "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+    "soort": "Tweede Kamerlid",
+    "naam": "Corrie Van Brenk",
+    "verslagnaam": "Van Brenk",
+    "fractie": "50PLUS",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 157
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:04:12",
+   "spreker": {
+    "id": "e3a027eb-acac-4242-8b8d-533365ce3366",
+    "soort": "Tweede Kamerlid",
+    "naam": "Alisha Müller",
+    "verslagnaam": "Müller",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik sluit me aan bij de woorden van de heer Jumelet.",
+   "deel": 158
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:04:14",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 159
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:04:15",
+   "spreker": {
+    "id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+    "soort": "Tweede Kamerlid",
+    "naam": "Robert Van Asten",
+    "verslagnaam": "Van Asten",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun. Dit kan bij de begroting van SZW.",
+   "deel": 160
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:04:17",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We geven ons geld aan de verkeerde dingen uit en de belastingen zijn te hoog, voorzitter. Steun voor dit debat.",
+   "deel": 161
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:04:21",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft een meerderheid.\nHet woord is aan mevrouw Faber voor haar verzoek namens de PVV. Gaat uw gang.",
+   "deel": 162
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:04:37",
+   "spreker": {
+    "id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+    "soort": "Tweede Kamerlid",
+    "naam": "Marjolein Faber",
+    "verslagnaam": "Faber",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Je vraagt je af: wat is er met Nederland gebeurd? Er zijn 150 organisaties die hun achterban opriepen tot een antisemitische demonstratie. Organisaties liepen daar zij aan zij met partijen zoals Hamas en met lijnen naar Hamas. Men liep daar met borden met \"Hup Hamas\". Dat is een terroristische organisatie. Dan was er nog een dwaas met een bord \"Stop semitisme, geen Joden in Nederland\". Het is je reinste discriminatie. Hoe stuitend wil je het nog hebben? Dit moet stoppen. Genoeg is genoeg. Daar wil ik graag een debat over voeren met de minister van Justitie en Veiligheid.",
+   "deel": 163
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:05:13",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of u daar een meerderheid voor heeft.",
+   "deel": 164
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:05:14",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. De mensen zijn de schaamte gewoon voorbij. Die meneer met dat bord \"Geen Joden in Nederland\" … Het zal je vader of je opa zijn die daar staat! Echt bizar. Ik steun dit debat van harte.",
+   "deel": 165
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:05:27",
+   "spreker": {
+    "id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+    "soort": "Tweede Kamerlid",
+    "naam": "André Flach",
+    "verslagnaam": "Flach",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Dit soort fascisme wordt steeds meer genormaliseerd, dus het is goed dat we hier een debat over gaan voeren.",
+   "deel": 166
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:05:36",
+   "spreker": {
+    "id": "646190dd-ab3c-4477-9b6c-b9098618ad1b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Renilde Huizenga",
+    "verslagnaam": "Huizenga",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Volgende week is de JenV-begroting en daar kan dit best bij betrokken worden, dus geen steun.",
+   "deel": 167
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:05:41",
+   "spreker": {
+    "id": "5855593f-f06c-42e5-950c-02762b7941bc",
+    "soort": "Tweede Kamerlid",
+    "naam": "Fatihya Abdi",
+    "verslagnaam": "Abdi",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Geen steun. Er waren 200.000 mensen vreedzaam aan het demonstreren voor vrede in het Midden-Oosten. En er was een handvol gekken met een verachtelijke poster voor Hamas. Dat moeten we ten strengste veroordelen. Maar om nu al die demonstranten die vreedzaam demonstreerden weg te zetten als antisemieten vind ik beneden alle peil. Dus geen steun.",
+   "deel": 168
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:06:03",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik vind dat het juiste peil. Van harte steun voor het verzoek.",
+   "deel": 169
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:06:07",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Je kan niet 200.000 mensen wegzetten als antisemieten, als terreuraanhangers, als fascisten. Dit is zwartmakerij van de ergste soort. Geen steun.",
+   "deel": 170
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:06:17",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. We hebben wél een probleem in Nederland. Als de minister-president tegen Joden zegt \"vlucht niet naar het buitenland\", dan moet je ook iets doen aan het klimaat en aan wat Joden inmiddels allemaal toegebeten wordt. Dus steun voor dit verzoek.",
+   "deel": 171
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:06:33",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 172
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:06:37",
+   "spreker": {
+    "id": "5f3700f2-4268-4378-bb91-2d5908a8da43",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jeltje Straatman",
+    "verslagnaam": "Straatman",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik begrijp de frustratie van mevrouw Faber heel goed, maar ik denk dat we vooral zo snel mogelijk aan de slag moeten met het wetsvoorstel Strafbaarstelling verheerlijken terrorisme. Dat is de makkelijkste weg. Voor nu geen steun voor het debat.",
+   "deel": 173
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:06:50",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun. Ik sluit me aan bij de woorden van mevrouw Straatman.",
+   "deel": 174
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:06:51",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid, mevrouw Faber.",
+   "deel": 175
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:06:54",
+   "spreker": {
+    "id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+    "soort": "Tweede Kamerlid",
+    "naam": "Marjolein Faber",
+    "verslagnaam": "Faber",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Zijn er 30 leden?",
+   "deel": 176
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:06:55",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Zeker. We zetten 'm erbij.\nUw volgende verzoek.",
+   "deel": 177
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:06:57",
+   "spreker": {
+    "id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+    "soort": "Tweede Kamerlid",
+    "naam": "Marjolein Faber",
+    "verslagnaam": "Faber",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Mensen zijn het spuugzat. In plaats van de grenzen te sluiten, zijn er nu 72 gemeentes die aan de slag gaan met vliegende teams in verband met asielonrust. Kosten: €820.000. Er zijn allerlei experts die er een goede boterham aan verdienen. Wij willen graag inzicht hebben in hoe die €820.000 wordt besteed, dus we willen graag een brief met de detailinformatie hebben van de minister van Asiel en Migratie voor de behandeling van het begrotingsdebat.",
+   "deel": 178
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:07:26",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is een informatieverzoek, dus dat geleiden wij door naar het kabinet.\nHet woord is aan de heer Neijenhuis namens D66 voor zijn verzoek.",
+   "deel": 179
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:07:39",
+   "spreker": {
+    "id": "94b57459-7e34-46f8-834a-da04c53a02d6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Neijenhuis",
+    "verslagnaam": "Neijenhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, dank. Bij veel dingen uit de waan van de dag vallen we over elkaar heen met allemaal debataanvragen, maar niet elke crisis maakt lawaai. Ik maak me zorgen om een veel stillere ontwikkeling: de uitval van duizenden jonge medewerkers op onze arbeidsmarkt. NOS, 24 september: werkgevers worstelen met groeiend verzuim door stress. ESB, 3 november: WIA-instroom van moeders piekt twee jaar na geboorte. De Volkskrant, 9 november: psychische vermoeidheid onder werknemers groeit steeds verder. Als we niets doen, is straks een grote groep Nederlanders voor de rest van hun leven afgeschreven op de arbeidsmarkt. Dat lossen we niet alleen op met extra onderzoeken; dat vraagt om politieke daadkracht met actie. Daarom graag snel een plenair debat.",
+   "deel": 180
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:08:19",
+   "spreker": {
+    "id": "17d59922-1009-4a0c-a6c4-e51e76d510ea",
+    "soort": "Tweede Kamerlid",
+    "naam": "Edgar Mulder",
+    "verslagnaam": "Edgar Mulder",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, heel snel. 19 november is er een commissiedebat Arbeidsmarktbeleid. Daar staat het in feite gewoon op de agenda, dus het kan daar geweldig bij.",
+   "deel": 181
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:08:29",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Vorige week is een debat van de commissieagenda van de commissie SZW af gehaald, waar dit ook aan de orde had kunnen komen. Het kan ook nog bij de begroting besproken worden. Het is een belangrijk onderwerp, maar om de eerdere redenen geen steun voor een plenair debat.",
+   "deel": 182
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:08:38",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Er is inderdaad een commissiedebat Arbeidsmarktbeleid - Duurzame inzetbaarheid en een begrotingsbehandeling SZW. Daar kan het prima bij.",
+   "deel": 183
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:08:49",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 184
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:08:52",
+   "spreker": {
+    "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hidde Heutink",
+    "verslagnaam": "Heutink",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Nederland is vooral psychisch vermoeid van D66. Geen steun.",
+   "deel": 185
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:08:56",
+   "spreker": {
+    "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+    "soort": "Tweede Kamerlid",
+    "naam": "Corrie Van Brenk",
+    "verslagnaam": "Van Brenk",
+    "fractie": "50PLUS",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik zou graag een brief willen hebben. Misschien kan dan ook gekeken worden of daar misschien een combinatie te maken is met mantelzorgtaken, die steeds meer bij mensen neergelegd worden, ook bij vrouwen en jongeren. Ik heb wel steun voor dit debat.",
+   "deel": 186
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:09:12",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het informatieverzoek geleiden we door naar het kabinet.",
+   "deel": 187
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:09:14",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Goed verwoord verzoek. Ik steun het dan ook.",
+   "deel": 188
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:09:17",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 189
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:09:22",
+   "spreker": {
+    "id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
+    "soort": "Tweede Kamerlid",
+    "naam": "Elles Van Ark",
+    "verslagnaam": "Van Ark",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Goed onderwerp van de heer Neijenhuis. Wij steunen het onderwerp. Het is belangrijk dat hier aandacht voor is, maar wat ons betreft moeten we eerst het onderzoek afwachten dat hier nog over komt en gaan we het daarna bespreken in een commissiedebat.",
+   "deel": 190
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:09:31",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We noteren \"geen steun\".",
+   "deel": 191
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:09:35",
+   "spreker": {
+    "id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mariëtte Patijn",
+    "verslagnaam": "Patijn",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zou graag dit debat wel hebben, dus ik steun het debat, maar ik zou wel graag het onderzoek even af willen wachten, dus het debat na het onderzoek.",
+   "deel": 192
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:09:40",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Belangrijk onderwerp, maar ik sluit me aan bij mevrouw Van Ark.",
+   "deel": 193
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:09:44",
+   "spreker": {
+    "id": "c73e6f8a-05c9-4d13-945f-71dfb9c730f0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ingrid Michon-Derkzen",
+    "verslagnaam": "Michon-Derkzen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Belangrijk onderwerp. Ik steun dit verzoek niet. Ik zal het in de begroting wel zelf ter sprake brengen.",
+   "deel": 194
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:09:54",
+   "spreker": {
+    "id": "d66383ca-deef-4470-8807-924313ae15e6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ines Kostić",
+    "verslagnaam": "Kostić",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 195
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:09:55",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid.\nHet woord is aan mevrouw Beckerman voor haar verzoek namens de SP.",
+   "deel": 196
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:10:05",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Goedemiddag. Het kabinet wil de schaderegeling voor gedupeerden van de gaswinning in Groningen versoberen. Tijdens het commissiedebat bleek dat het kabinet dat al op 30 november wil laten ingaan. De Kamer kan daar helemaal niks meer aan doen als we niet het tweeminutendebat inclusief stemmingen voor 30 november inplannen, dus dat is het verzoek. En we wachten nog steeds op een brief van het kabinet hierover. Het verzoek aan de collega's is dus om dit spoedig in te plannen.",
+   "deel": 197
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:10:39",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ga kijken of daar een meerderheid voor is.",
+   "deel": 198
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:10:43",
+   "spreker": {
+    "id": "e5f249c3-2506-4eb8-84af-ffe0ae152bf4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Julian Bushoff",
+    "verslagnaam": "Bushoff",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 199
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:10:45",
+   "spreker": {
+    "id": "d66383ca-deef-4470-8807-924313ae15e6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ines Kostić",
+    "verslagnaam": "Kostić",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 200
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:10:48",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, een logisch verzoek. Steun.",
+   "deel": 201
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:10:51",
+   "spreker": {
+    "id": "73822989-cf80-4cc9-a76f-a76549e2dd24",
+    "soort": "Tweede Kamerlid",
+    "naam": "Alexander Kops",
+    "verslagnaam": "Kops",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 202
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:10:52",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 203
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:10:54",
+   "spreker": {
+    "id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+    "soort": "Tweede Kamerlid",
+    "naam": "Anouschka Biekman",
+    "verslagnaam": "Biekman",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun. De moties kunnen ook worden meegenomen bij de begroting.",
+   "deel": 204
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:10:57",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar dan is het 30 november geweest.",
+   "deel": 205
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:10:58",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid, maar nog wel een volgend verzoek.",
+   "deel": 206
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:00",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, maar voorzitter …",
+   "deel": 207
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:04",
+   "spreker": {
+    "id": "e5f249c3-2506-4eb8-84af-ffe0ae152bf4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Julian Bushoff",
+    "verslagnaam": "Bushoff",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tijdens het commissiedebat hebben we het hier uitvoerig over gehad met de collega's. Toen hebben we afgesproken om het tweeminutendebat voor 30 november in te plannen. De minister heeft ook toegezegd dat er tijdig een brief komt. Dan moet je er nu opnieuw om vragen en zou er geen steun zijn? Dat is toch heel raar? Ik kijk ook even naar de collega's. Dit hebben we met z'n allen tijdens dat commissiedebat gewoon besproken. Mevrouw Armut …",
+   "deel": 208
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:05",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "En de begroting is dan …",
+   "deel": 209
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:11:21",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ga eerst mevrouw Armut het woord geven.",
+   "deel": 210
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:27",
+   "spreker": {
+    "id": "1d261520-aa04-4f6e-9dae-6ccb54a13472",
+    "soort": "Tweede Kamerlid",
+    "naam": "Etkin Armut",
+    "verslagnaam": "Armut",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik zie geen problemen om het eerder in te plannen als dat gewoon past.",
+   "deel": 211
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:28",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ah, dank je wel!",
+   "deel": 212
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:11:34",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft een meerderheid. Nee, u heeft nog steeds geen meerderheid!",
+   "deel": 213
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:37",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Aaah! Iemand, help ons!",
+   "deel": 214
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:11:38",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk nog een keer rond.",
+   "deel": 215
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:39",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nog één keer!",
+   "deel": 216
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:11:41",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Eenmaal, andermaal … U heeft geen meerderheid.",
+   "deel": 217
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:47",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ach!",
+   "deel": 218
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:11:48",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wellicht bij uw volgende verzoek. Gaat uw gang.",
+   "deel": 219
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:52",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Aagh. Maar in ieder geval dank aan mevrouw Armut. Dat was heel prettig.",
+   "deel": 220
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:11:53",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Meneer Bushoff hielp u ook, hoor.",
+   "deel": 221
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:54",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "O, zeker.",
+   "deel": 222
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:11:55",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Gaat uw gang. Uw volgende verzoek.",
+   "deel": 223
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:11:56",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Weer een snoeihard rapport: de vleessector en het toezicht van het ministerie falen bij de bescherming van dierenwelzijn. 3 miljoen kippen komen met letsel bij het slachthuis. Kuikens zitten dagen zonder water en eten. Varkens zitten zonder water. We moeten nu kiezen. Op 2 december is eindelijk het debat over de wet van de Partij voor de Dieren. Het leek ons goed om hier ook een debat over in te plannen, met uiteraard de minister van LVVN. Winst wordt gewoon boven het welzijn van dieren gesteld.",
+   "deel": 224
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:11:57",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ga kijken of u een meerderheid heeft.",
+   "deel": 225
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:12:30",
+   "spreker": {
+    "id": "0eeb4f4a-771a-49d2-979d-68c2b4895f0e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Esther Ouwehand",
+    "verslagnaam": "Ouwehand",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Dit is het zoveelste rapport waaruit blijkt dat de overheid faalt om dieren de bescherming te geven die ze verdienen in de veehouderij. De Kamer moet binnenkort een keuze maken. Ik stel dus voor dat we dit rapport daarbij betrekken en bij de begroting, zodat we ook de minister van Landbouw hierover kunnen bevragen. Ik zou zeggen: laten we het betrekken bij het besluit dat de Kamer moet nemen. Gaan we zorgen voor dierenwelzijn in de veehouderij of doen we dat niet?",
+   "deel": 226
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:12:49",
+   "spreker": {
+    "id": "a33f6a7f-db72-4090-b68d-7c9bb1e45ba8",
+    "soort": "Tweede Kamerlid",
+    "naam": "Laura Bromet",
+    "verslagnaam": "Bromet",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Mevrouw Ouwehand heeft het over haar initiatiefvoorstel om de bio-industrie af te schaffen. Ik vind dit er echt bij horen. Dit is geen nieuws, maar wel de zoveelste bevestiging dat het helemaal mis is in Nederland. Het mooie is dat dit debat er staat. Steun voor het onderwerp, maar dan het liefst bij de initiatiefwet van de Partij voor de Dieren.",
+   "deel": 227
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:13:07",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. We hebben morgen een strategische procedurevergadering van LVVN. Daar zouden we kunnen vragen om snel een commissiedebat Dierenwelzijn in te plannen, dus geen steun voor een apart debat.",
+   "deel": 228
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:13:22",
+   "spreker": {
+    "id": "8e1a5f2e-cc83-4a85-a90b-c6989f01b02b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Dion Graus",
+    "verslagnaam": "Graus",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Al twintig jaar zijn er dezelfde verschrikkelijke beelden. Er verandert helemaal niks. De NVWA grijpt niet in. Het is één grote puinzooi, al twintig jaar lang. Van harte steun.",
+   "deel": 229
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:13:31",
+   "spreker": {
+    "id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+    "soort": "Tweede Kamerlid",
+    "naam": "Anouschka Biekman",
+    "verslagnaam": "Biekman",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik sluit me aan bij de woorden van mevrouw Ouwehand, dus geen steun voor dit initiatief.",
+   "deel": 230
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:13:36",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 231
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:13:39",
+   "spreker": {
+    "id": "f9b55c38-c420-4b6a-96a7-ae00f4ec3918",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hilde Wendel",
+    "verslagnaam": "Wendel",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 232
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:13:40",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid.\nHet woord is aan mevrouw Ouweh… Ik zie het lid Kostić … Ik heb mevrouw Teunissen op de lijst staan. Mevrouw Teunissen voor haar verzoek namens de Partij voor de Dieren. Gaat uw gang.",
+   "deel": 233
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:13:57",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, voorzitter. De Nederlandse raffinaderijen boeken enorme oorlogswinsten: 11 miljoen per dag sinds de afsluiting van de Straat van Hormuz. In plaats van dit te investeren in verduurzaming kiezen ze ervoor om een aanzienlijk deel uit te keren aan hun aandeelhouders. Terwijl deze woekerwinsten door het dak gaan, gaat een op de vier mensen deze winter de kachel niet aanzetten vanwege de hoge energieprijzen. Dat is onacceptabel. Dan doet het kabinet er ook nog een schepje bovenop door te overwegen om deze fossiele bedrijven een subsidie te geven, namelijk de IKC …",
+   "deel": 234
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:14:35",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Uw verzoek.",
+   "deel": 235
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:14:38",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Zo worden gewone mensen twee keer de dupe. Dit mag en kan niet. Daarom vraag ik een debat aan met de minister van Financiën, voorafgegaan door een brief waarin hij verantwoordt waarom deze raffinaderijen überhaupt nog recht zouden hebben op subsidie.",
+   "deel": 236
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:14:48",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of u een meerderheid heeft.",
+   "deel": 237
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:14:49",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Dit was toch geen debataanvraag over subsidie, maar over extreme winsten? Ja toch?",
+   "deel": 238
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:14:57",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar steunt u het of niet?",
+   "deel": 239
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:14:58",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Omdat het zonet over fossiele subsidies ging, dacht ik: volgens mij was het een debat over extreme winsten. Daarvan zou ik willen zeggen: daar zou ik ook wel een procentje van willen. Maar wat is een \"extreme winst\"? Voordat je het weet, kom je weer bij hogere belastingen. Volgens mij moeten we zuinig zijn op onze ondernemers. Geen steun.",
+   "deel": 240
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:15:16",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Als dit over belastingen bij fossiele bedrijven gaat, zou het betrokken kunnen worden bij het debat over het Belastingplan dat straks nog komt. Geen steun voor dit aparte verzoek.",
+   "deel": 241
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:15:28",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun voor het verzoek.",
+   "deel": 242
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:15:32",
+   "spreker": {
+    "id": "5855593f-f06c-42e5-950c-02762b7941bc",
+    "soort": "Tweede Kamerlid",
+    "naam": "Fatihya Abdi",
+    "verslagnaam": "Abdi",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun voor dit verzoek, juist ook omdat we kennelijk heel goed zijn in het verhogen van belastingen voor alle werkende mensen en het eigenlijk heel moeilijk vinden om geld op te halen bij de mensen en ook bedrijven waar dat hoort. Van harte steun dus. Ik hoop dat minister Heinen daarbij dan net zo creatief kan zijn om 18 miljard te vinden.",
+   "deel": 243
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:15:47",
+   "spreker": {
+    "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hidde Heutink",
+    "verslagnaam": "Heutink",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wens mevrouw Teunissen vanavond een prettige wedstrijd. Geen steun.",
+   "deel": 244
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:15:53",
+   "spreker": {
+    "id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+    "soort": "Tweede Kamerlid",
+    "naam": "Robert Van Asten",
+    "verslagnaam": "Van Asten",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 245
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:15:57",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 246
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:16:01",
+   "spreker": {
+    "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Inge van Dijk",
+    "verslagnaam": "Inge van Dijk",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Vanavond hebben we een debat over het Belastingplan. Daar kan het prima bij.",
+   "deel": 247
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:16:02",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft geen meerderheid. Ook een dertigledendebat kan niet.\nHet woord is aan het lid Kostić, eveneens namens de Partij voor de Dieren. Gaat uw gang.",
+   "deel": 248
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:16:12",
+   "spreker": {
+    "id": "d66383ca-deef-4470-8807-924313ae15e6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ines Kostić",
+    "verslagnaam": "Kostić",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. In de procedurevergadering is besloten om een tweeminutendebat te voeren over het ontwerp-Luchthavenbesluit Rotterdam, zodat daar dan iets over meegegeven kan worden. Het ministerie heeft gezegd dat het goed is om iets mee te geven, maar dat het dan nog wel deze maand moet gebeuren, omdat het dan mee kan richting de Raad van State. Puur procedureel is het dus belangrijk dat we het tweeminutendebat, inclusief stemmingen, ergens deze maand organiseren. Daarvoor vraag ik steun van de Kamer.",
+   "deel": 249
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:16:37",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Alles mag. Ik wijs de leden erop dat er 57 tweeminutendebatten op de lijst staan.",
+   "deel": 250
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:16:45",
+   "spreker": {
+    "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+    "soort": "Tweede Kamerlid",
+    "naam": "Corrie Van Brenk",
+    "verslagnaam": "Van Brenk",
+    "fractie": "50PLUS",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 251
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:16:47",
+   "spreker": {
+    "id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+    "soort": "Tweede Kamerlid",
+    "naam": "Robert Van Asten",
+    "verslagnaam": "Van Asten",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Toch steun, voorzitter.",
+   "deel": 252
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:16:49",
+   "spreker": {
+    "id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jantine Zwinkels",
+    "verslagnaam": "Zwinkels",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun, voorzitter.",
+   "deel": 253
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:16:51",
+   "spreker": {
+    "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hidde Heutink",
+    "verslagnaam": "Heutink",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Hoe meer vliegen, hoe beter. Steun.",
+   "deel": 254
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:16:54",
+   "spreker": {
+    "id": "8eaa8995-7e34-47e6-bd85-250e60452b3f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Suzanne Kröger",
+    "verslagnaam": "Kröger",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 255
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:16:56",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zie de urgentie niet, dus geen steun.",
+   "deel": 256
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:17:00",
+   "spreker": {
+    "id": "1e232189-83d7-42d4-a048-c0c437b8b84f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Bart Bikkers",
+    "verslagnaam": "Bikkers",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wat mevrouw Van der Plas zegt.",
+   "deel": 257
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:17:03",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 258
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:17:05",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar u heeft wel een meerderheid.",
+   "deel": 259
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:17:11",
+   "spreker": {
+    "id": "d66383ca-deef-4470-8807-924313ae15e6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ines Kostić",
+    "verslagnaam": "Kostić",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel.",
+   "deel": 260
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:17:17",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot is het woord aan de heer Markuszower. Gaat uw gang, meneer Markuszower.",
+   "deel": 261
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:17:19",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, meneer de voorzitter. De soap rondom het vinden van een meerderheid voor het Belastingplan 2027 is het zoveelste bewijs dat dit kabinet onder leiding van deze premier niet in staat is de grote problemen van Nederland op te lossen. Met name het CDA en D66 leveren zwakke ministers op hun respectievelijke ministeries, waardoor onze boerenstand kapot wordt gemaakt, de asielinstroomcijfers blijven stijgen en het buitenland steeds meer en meer geld krijgt, terwijl wij hier in Nederland steeds grotere tekorten hebben. Verder zien we dat de premier niet in staat is van zijn kabinet een harmonieus team te maken en dat het CDA en D66 hun coalitiepartner VVD continu, en bovendien in het openbaar, laten struikelen. Met de houding van met name deze twee partijen richting de rest van de Kamer is het niet beter gesteld, waardoor we kunnen spreken van bestuurlijk onvermogen. Ik kom tot een verzoek. De grote problemen waar Nederland mee kampt, vereisen een kabinet dat als een geoliede machine functioneert. We hebben niet het vertrouwen dat dit kabinet dat in deze samenstelling en onder dit leiderschap gaat leveren. Daarom verzoeken wij nog vandaag, direct aansluitend op de regeling van werkzaamheden, een interpellatiedebat om een motie van wantrouwen in te dienen.\nDank u wel.",
+   "deel": 262
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:18:34",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kijk of u daar een meerderheid voor heeft. Voor een interpellatiedebat zijn 30 leden nodig en om dat vandaag in te plannen een meerderheid, dus als u zich zou willen expliciteren, zou dat prettig zijn. Ik geef als eerste het woord aan mevrouw Piri.",
+   "deel": 263
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:18:49",
+   "spreker": {
+    "id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1",
+    "soort": "Tweede Kamerlid",
+    "naam": "Kati Piri",
+    "verslagnaam": "Piri",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, voorzitter. Onze collega Markuszower weet zichzelf echt wel weer belachelijk te maken. Dit kabinet, in deze samenstelling, heeft een deal gemaakt met Groep Markuszower en deze heeft 95 miljoen gekregen. We hoorden het hem hier de vorige keer in de plenaire zaal nog heel trots vertellen. Vandaag wil hij dit kabinet in deze samenstelling naar huis sturen. Geen steun voor een interpellatiedebat. De heer Markuszower kan straks gewoon bij het debat over het Belastingplan zijn motie van wantrouwen indienen.",
+   "deel": 264
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:19:17",
+   "spreker": {
+    "id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+    "soort": "Tweede Kamerlid",
+    "naam": "Robert Van Asten",
+    "verslagnaam": "Van Asten",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik vind het heel gek dat we hier nu dit verzoek krijgen. Volgens mij wordt er nu alles aan gedaan om dit land goed bestuurbaar te houden. Ik denk dat wij daar als partijen in de Kamer ook volop aan mee moeten doen. Dus niet dit soort spelletjes. Vandaar dus geen steun.",
+   "deel": 265
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:19:32",
+   "spreker": {
+    "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+    "soort": "Tweede Kamerlid",
+    "naam": "Caroline Van der Plas",
+    "verslagnaam": "Van der Plas",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik vind dit gewoon een heel raar verzoek. De heer Markuszower steunt het Belastingplan, krijgt inderdaad 95 miljoen en wil dan een interpellatiedebat om een motie van wantrouwen in te dienen. Schiet mij maar lek. Ik snap 'm niet. Nogmaals, vanavond hebben we het over het Belastingplan en dan kan de Markuszower elke motie indienen die hij wil. Maar het blijft gek, vind ik: wel steun, wel deals maken en dan een motie van wantrouwen. I don't know.",
+   "deel": 266
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:20:03",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Van harte steun voor de interpellatie en ook van harte steun om dat nu te doen. We gaan er wel van uit dat wanneer die verzoeken geen meerderheid halen, de heer Markuszower die motie van wantrouwen gewoon vanavond in zijn tweede termijn indient. Dan zal hij vanzelfsprekend de steun van FVD krijgen.",
+   "deel": 267
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:20:17",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik kan me herinneren dat de heer Markuszower niet heel lang geleden met bijna betraande oogjes smeekte om bij meneer Jetten op gesprek te mogen. Hij heeft enorm veel geld toegeschoven gekregen. In het weekend is hij opeens enorm van mening veranderd en nu wil hij dit doen. Normaal gesproken heeft een lid van de Kamer als die vraagt om een interpellatie, om de agenda om te gooien om een motie van wantrouwen in te dienen, daar zwaarwegende redenen voor. Dan is er iets buitengewoon ernstigs gebeurd. Ik hoor hier alleen maar populistische prietpraat. Geen steun.",
+   "deel": 268
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:20:51",
+   "spreker": {
+    "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+    "soort": "Tweede Kamerlid",
+    "naam": "Corrie Van Brenk",
+    "verslagnaam": "Van Brenk",
+    "fractie": "50PLUS",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Een bizar verzoek, dus geen steun.",
+   "deel": 269
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:20:55",
+   "spreker": {
+    "id": "247cd142-7220-4f25-aa32-8e1801169e9f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Elmar Vlottes",
+    "verslagnaam": "Vlottes",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik sluit me aan bij de woorden van mevrouw Van der Plas.",
+   "deel": 270
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:20:58",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ben het spoor ook een beetje bijster, voorzitter. Los daarvan: het volgende agendapunt is het Belastingplan, dus daar kunnen we het uitgebreid met elkaar bespreken. Dat ga ik in ieder geval zeker doen.",
+   "deel": 271
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:21:11",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik snap dat de heer Markuszower aandacht wil, maar dit is totaal ongeloofwaardig, dus absoluut geen steun.",
+   "deel": 272
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:21:16",
+   "spreker": {
+    "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mirjam Bikker",
+    "verslagnaam": "Bikker",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Nog steeds verbaasd, maar op een nieuw niveau. Daarom geen steun.",
+   "deel": 273
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:21:24",
+   "spreker": {
+    "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Inge van Dijk",
+    "verslagnaam": "Inge van Dijk",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 274
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:21:26",
+   "spreker": {
+    "id": "c73e6f8a-05c9-4d13-945f-71dfb9c730f0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ingrid Michon-Derkzen",
+    "verslagnaam": "Michon-Derkzen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun, voorzitter.",
+   "deel": 275
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:21:30",
+   "spreker": {
+    "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+    "soort": "Tweede Kamerlid",
+    "naam": "Simon Ceulemans",
+    "verslagnaam": "Ceulemans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 276
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:21:31",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen 30 leden.",
+   "deel": 277
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T16:21:39",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik hoorde het, voorzitter. Dan hebben we vanavond een belastingplan. Bent u de voorzitter daar? Dan zien we u straks.",
+   "deel": 278
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T16:21:41",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ben erbij. Ik zie u zo. Daarmee zijn we aan het einde gekomen van de regeling van werkzaamheden. Ik schors een enkel ogenblik en dan gaan we verder, met de voortzetting van de behandeling van het Belastingplan. De vergadering is voor een kort ogenblik geschorst.",
+   "deel": 279
+  }
+ ],
+ "fragmenten": [
+  {
+   "soort": "Mededeling algemeen",
+   "tekst": "Overeenkomstig de voorstellen van de voorzitter wordt besloten.",
+   "personen": []
+  },
+  {
+   "soort": "Schorsing",
+   "tekst": "De vergadering wordt van 16.21 uur tot 16.31 uur geschorst.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

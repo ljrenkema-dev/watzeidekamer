@@ -1,0 +1,72 @@
+{
+ "id": "9fbd5daf-25ce-473a-b470-0a8a54e663a5",
+ "soort": "Mededelingen",
+ "titel": "Mededelingen",
+ "begin": "2026-11-10T15:01:19",
+ "vergadering": {
+  "id": "59ca5b00-fce9-4aba-99a3-a9bb09000997",
+  "datum": "2026-11-10",
+  "gewijzigd": "2026-11-12T13:48:11.5172223+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "22e vergadering, dinsdag 10 november 2026",
+  "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:01:29",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heropen de vergadering. Ik verzoek u uw plaatsen in te nemen.",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:01:42",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Als u allen uw plaatsen inneemt, gaan we beginnen met de stemmingen.",
+   "deel": 1
+  }
+ ],
+ "fragmenten": [
+  {
+   "soort": "Bericht verhindering",
+   "tekst": "Ik deel aan de Kamer mee dat het volgende lid zich heeft afgemeld: El Abassi. Deze mededeling wordt voor kennisgeving aangenomen.",
+   "personen": [
+    {
+     "id": "6f18e01d-4b99-4181-8430-421848a18846",
+     "naam": "Ismail El Abassi",
+     "verslagnaam": "El Abassi",
+     "fractie": "DENK",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  }
+ ],
+ "afgemeld": [
+  {
+   "id": "6f18e01d-4b99-4181-8430-421848a18846",
+   "naam": "Ismail El Abassi",
+   "verslagnaam": "El Abassi",
+   "fractie": "DENK",
+   "functie": "lid Tweede Kamer"
+  }
+ ]
+}

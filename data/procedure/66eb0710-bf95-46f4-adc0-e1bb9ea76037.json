@@ -1,0 +1,25 @@
+{
+ "id": "66eb0710-bf95-46f4-adc0-e1bb9ea76037",
+ "soort": "Sluiting",
+ "titel": "Sluiting",
+ "begin": "2026-11-09T15:59:58",
+ "vergadering": {
+  "id": "e5f22727-2b66-438c-960f-5c3bb0447f30",
+  "datum": "2026-11-09",
+  "gewijzigd": "2026-11-09T17:46:11.6623998+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Wetgevingsoverleg OCW-begroting, onderdeel Cultuur",
+  "verslag_id": "c5364452-8408-4232-b3ae-24553275992e",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "fragmenten": [
+  {
+   "soort": "Tekst",
+   "tekst": "Sluiting 16.00 uur.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

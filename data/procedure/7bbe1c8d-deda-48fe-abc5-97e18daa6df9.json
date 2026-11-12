@@ -1,0 +1,25 @@
+{
+ "id": "7bbe1c8d-deda-48fe-abc5-97e18daa6df9",
+ "soort": "Sluiting",
+ "titel": "Sluiting",
+ "begin": "2026-11-09T18:23:34",
+ "vergadering": {
+  "id": "2be272b3-9bb1-4eda-9d38-f34d32fb15b0",
+  "datum": "2026-11-09",
+  "gewijzigd": "2026-11-10T16:37:37.2846787+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+  "verslag_id": "35427849-3313-4039-b2cb-0fcb11281fba",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "fragmenten": [
+  {
+   "soort": "Tekst",
+   "tekst": "Sluiting 18.23 uur.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

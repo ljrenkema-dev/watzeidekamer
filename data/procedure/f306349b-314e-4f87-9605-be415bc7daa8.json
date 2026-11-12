@@ -1,0 +1,70 @@
+{
+ "id": "f306349b-314e-4f87-9605-be415bc7daa8",
+ "soort": "Opening",
+ "titel": "Opening",
+ "begin": "2026-11-12T10:15:52",
+ "vergadering": {
+  "id": "1609f035-ccb4-466f-996c-6de4ceba89a3",
+  "datum": "2026-11-12",
+  "gewijzigd": "2026-11-12T19:05:02.9730358+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "24e vergadering, donderdag 12 november 2026",
+  "verslag_id": "880a11c7-4125-41b5-a199-5e37393ecf34",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T10:15:54",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik open de vergadering van donderdag 12 november 2026. Mag ik u verzoeken uw plaatsen in te nemen?",
+   "deel": 0
+  }
+ ],
+ "aanwezig": [
+  {
+   "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "naam": "Thom Van Campen",
+   "verslagnaam": "Van Campen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "aantal_aanwezig_volgens_verslag": null,
+ "kamerleden_aanwezig": [
+  {
+   "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "naam": "Thom Van Campen",
+   "verslagnaam": "Van Campen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "voorzitter": "Van Campen",
+ "griffier": null,
+ "fragmenten": [
+  {
+   "soort": "Voorzitter selectie",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+     "naam": "Thom Van Campen",
+     "verslagnaam": "Van Campen",
+     "fractie": "VVD",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  }
+ ],
+ "afgemeld": []
+}

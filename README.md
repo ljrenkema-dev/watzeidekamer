@@ -28,3 +28,8 @@ import gzip, json
 beurten = [json.loads(r) for r in gzip.open("data/corpus/geert-wilders.jsonl.gz", "rt")]
 ```
 
+## Procedure, presentie en verzoeken
+
+- `data/procedure/<id>.json`: opening, mededelingen, regeling van werkzaamheden en sluiting. Met `aanwezig` en `kamerleden_aanwezig` (presentielijst uit de opening), `afgemeld` (berichten van verhindering), `voorzitter`, `griffier` en alle spreekbeurten.
+- `data/verzoeken/<id>.json`: per regeling van werkzaamheden de verzoeken (wie, wat, onderwerp), elke reactie met oordeel (steun, geen steun, alleen brief, onduidelijk) en letterlijk citaat, en de uitkomst volgens de voorzitter. Gecontroleerd met `scripts/verzoeken_check.py`.
+

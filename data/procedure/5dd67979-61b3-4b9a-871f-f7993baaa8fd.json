@@ -1,0 +1,41 @@
+{
+ "id": "5dd67979-61b3-4b9a-871f-f7993baaa8fd",
+ "soort": "Regeling van werkzaamheden",
+ "titel": "Regeling van werkzaamheden",
+ "begin": "2026-11-12T12:45:41",
+ "vergadering": {
+  "id": "1609f035-ccb4-466f-996c-6de4ceba89a3",
+  "datum": "2026-11-12",
+  "gewijzigd": "2026-11-12T19:05:02.9730358+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "24e vergadering, donderdag 12 november 2026",
+  "verslag_id": "880a11c7-4125-41b5-a199-5e37393ecf34",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T12:45:42",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Aan de orde is de regeling van werkzaamheden.\nIk deel aan de Kamer mee dat het lid Van der Plas haar motie op stuk nr. 723 (27625) intrekt.\nIk stel voor toe te voegen aan de agenda:\nhet tweeminutendebat Grondbeleid (CD d.d. 11/11), met als eerste spreker het lid Wiersma van de BBB; het tweeminutendebat Villa ExpertCare (24170, nr. 432), met als eerste spreker het lid Maeijer van de PVV; het tweeminutendebat Drugs (CD d.d. 11/11), met als eerste spreker het lid Bikker van de ChristenUnie; het tweeminutendebat Dakloosheid (CD d.d. 11/11), met als eerste spreker het lid Beckerman van de SP.\nIk stel voor de volgende stukken van de stand van werkzaamheden af te voeren: 36800-VII-98; 36800-VII-97; 36800-VIII-176; 31288-1265; 36800-VIII-147; 25268-248; 36800-VIII-185; 29338-299; 32336-176; 31288-1260; 31288-1261; 31288-1262; 31288-1263; 22112-4430; 21501-07-2206; 31066-1552; 22112-4385; 26150-245; 33625-353; 31934-118; 21501-02-3466; 33846-75; 32820-572; 36800-VIII-151; 30950-547; 32820-577; 32820-579; 30821-332; 30821-333; 30821-338; 32852-409; 30573-244; 29237-259; 32173-11; 36800-IX-51; 2026Z19417; 27581-55; 34682-230; 32847-1351; 34682-235; 26643-1552; 26643-1554; 26643-1547; 26643-1545; 33576-545; 25232-93; 29279-1084; 26448-907; 32802-160; 32043-717.\nAangezien voor de volgende stukken de termijnen zijn verstreken, stel ik voor deze stukken voor kennisgeving aan te nemen: 36576-120; 30196-863.",
+   "deel": 0
+  }
+ ],
+ "fragmenten": [
+  {
+   "soort": "Mededeling algemeen",
+   "tekst": "Overeenkomstig de voorstellen van de voorzitter wordt besloten.",
+   "personen": []
+  }
+ ],
+ "afgemeld": []
+}

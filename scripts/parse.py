@@ -215,6 +215,45 @@ def nummer_debatten(punten):
                          "ids": [x["id"] for x in stukken]}
 
 
+PROCEDURE = {"Opening", "Mededelingen", "Sluiting", "Regeling van werkzaamheden"}
+PROC = ROOT / "data" / "procedure"
+
+
+def personen(el):
+    """Alle <spreker>-elementen direct in een <sprekers>-lijst (presentielijst, afmeldingen)."""
+    uit = []
+    for lijst in el.iter(NS + "sprekers"):
+        for s_ in lijst.findall(NS + "spreker"):
+            uit.append({"id": s_.get("objectid"), "naam": f"{t(s_, 'voornaam')} {t(s_, 'verslagnaam')}".strip(),
+                        "verslagnaam": t(s_, "verslagnaam"), "fractie": t(s_, "fractie"), "functie": t(s_, "functie")})
+    return uit
+
+
+def procedure(act, verg_id, meta):
+    """Opening, mededelingen, sluiting en regeling van werkzaamheden: niet op de site, wel voor analyses."""
+    soort = act.get("soort")
+    uit = {"id": act.get("objectid"), "soort": soort, "titel": t(act, "titel"), "begin": t(act, "aanvangstijd"),
+           "vergadering": {"id": verg_id, **meta}, "beurten": list(beurten(act))}
+    if soort == "Opening":
+        hoofd = act.find(NS + "activiteithoofd")
+        uit["aanwezig"] = personen(hoofd) if hoofd is not None else []
+        m = re.search(r"Aanwezig zijn (\d+) leden", " ".join(hoofd.itertext()) if hoofd is not None else "")
+        uit["aantal_aanwezig_volgens_verslag"] = int(m.group(1)) if m else None
+        uit["kamerleden_aanwezig"] = [x for x in uit["aanwezig"] if x["functie"] == "lid Tweede Kamer"]
+        kop = " ".join(hoofd.itertext()) if hoofd is not None else ""
+        vz = re.search(r"Voorzitter: (.+?)(?=\s*(?:Griffier:|Aanwezig|$))", kop)
+        gr = re.search(r"Griffier: (.+?)(?=\s*(?:Aanwezig|Voorzitter:|$))", kop)
+        uit["voorzitter"] = vz.group(1).strip() if vz else None
+        uit["griffier"] = gr.group(1).strip() if gr else None
+    fragmenten = []
+    for d in act.iter(NS + "draadboekfragment"):
+        tekst_ = " ".join(" ".join(x.itertext()) for x in d.findall(NS + "tekst"))
+        fragmenten.append({"soort": d.get("soort"), "tekst": re.sub(r"\s+", " ", tekst_).strip(), "personen": personen(d)})
+    uit["fragmenten"] = fragmenten
+    uit["afgemeld"] = [p for f in fragmenten if f["soort"] == "Bericht verhindering" for p in f["personen"]]
+    return uit
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     index = json.loads((ROOT / "data" / "vergaderingen.json").read_text())
@@ -225,7 +264,11 @@ def main():
         root = ET.parse(RAW / f"{verg_id}.xml").getroot()
         for act in root.iter(NS + "activiteit"):
             titel = t(act, "titel")
-            if titel in OVERSLAAN:
+            if act.get("soort") in PROCEDURE or titel in OVERSLAAN:
+                PROC.mkdir(parents=True, exist_ok=True)
+                pr = procedure(act, verg_id, meta)
+                (PROC / f"{pr['id']}.json").write_text(json.dumps(pr, ensure_ascii=False, indent=1))
+                (OUT / f"{pr['id']}.json").unlink(missing_ok=True)  # stond eerder als agendapunt
                 continue
             bs = list(beurten(act))
             if not any(not b["voorzitter"] for b in bs):

@@ -1,0 +1,215 @@
+{
+ "id": "54894403-21e0-42c8-9250-7f9e75f69662",
+ "soort": "Opening",
+ "titel": "Opening",
+ "begin": "2026-11-09T10:03:40",
+ "vergadering": {
+  "id": "2be272b3-9bb1-4eda-9d38-f34d32fb15b0",
+  "datum": "2026-11-09",
+  "gewijzigd": "2026-11-10T16:37:37.2846787+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+  "verslag_id": "35427849-3313-4039-b2cb-0fcb11281fba",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "beurten": [],
+ "aanwezig": [
+  {
+   "id": "2b8aae23-8a8a-40bb-b070-f3a47cc73d3f",
+   "naam": "Sarah El Boujdaini",
+   "verslagnaam": "El Boujdaini",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+   "naam": "Emiel Emiel van Dijk",
+   "verslagnaam": "Emiel van Dijk",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+   "naam": "Sandra Beckerman",
+   "verslagnaam": "Beckerman",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+   "naam": "Barbara Kathmann",
+   "verslagnaam": "Kathmann",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "35caab67-2b49-4c45-a5c6-af0f110425c7",
+   "naam": "Queeny Rajkowski",
+   "verslagnaam": "Rajkowski",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+   "naam": "Henk Vermeer",
+   "verslagnaam": "Vermeer",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+   "naam": "Daniël Van den Berg",
+   "verslagnaam": "Van den Berg",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1951a14e-78db-446c-bb5a-fb1461033854",
+   "naam": "Don Ceder",
+   "verslagnaam": "Ceder",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+   "naam": "Willemijn Aerdts",
+   "verslagnaam": "Aerdts",
+   "fractie": "",
+   "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+  },
+  {
+   "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "naam": "Eric Van der Burg",
+   "verslagnaam": "Van der Burg",
+   "fractie": "",
+   "functie": "staatssecretaris Koninkrijksrelaties en Slagvaardige Overheid"
+  },
+  {
+   "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+   "naam": "David Van Weel",
+   "verslagnaam": "Van Weel",
+   "fractie": "",
+   "functie": "minister van Justitie en Veiligheid"
+  },
+  {
+   "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+   "naam": "Laurens Dassen",
+   "verslagnaam": "Dassen",
+   "fractie": "Volt",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "naam": "Jantine Zwinkels",
+   "verslagnaam": "Zwinkels",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+   "naam": "Emiel Emiel van Dijk",
+   "verslagnaam": "Emiel van Dijk",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "aantal_aanwezig_volgens_verslag": null,
+ "kamerleden_aanwezig": [
+  {
+   "id": "2b8aae23-8a8a-40bb-b070-f3a47cc73d3f",
+   "naam": "Sarah El Boujdaini",
+   "verslagnaam": "El Boujdaini",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+   "naam": "Emiel Emiel van Dijk",
+   "verslagnaam": "Emiel van Dijk",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+   "naam": "Sandra Beckerman",
+   "verslagnaam": "Beckerman",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+   "naam": "Barbara Kathmann",
+   "verslagnaam": "Kathmann",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "35caab67-2b49-4c45-a5c6-af0f110425c7",
+   "naam": "Queeny Rajkowski",
+   "verslagnaam": "Rajkowski",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+   "naam": "Henk Vermeer",
+   "verslagnaam": "Vermeer",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+   "naam": "Daniël Van den Berg",
+   "verslagnaam": "Van den Berg",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1951a14e-78db-446c-bb5a-fb1461033854",
+   "naam": "Don Ceder",
+   "verslagnaam": "Ceder",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+   "naam": "Laurens Dassen",
+   "verslagnaam": "Dassen",
+   "fractie": "Volt",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "naam": "Jantine Zwinkels",
+   "verslagnaam": "Zwinkels",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+   "naam": "Emiel Emiel van Dijk",
+   "verslagnaam": "Emiel van Dijk",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  }
+ ],
+ "voorzitter": "Emiel van Dijk",
+ "griffier": "Boeve",
+ "fragmenten": [
+  {
+   "soort": "Voorzitter selectie",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+     "naam": "Emiel Emiel van Dijk",
+     "verslagnaam": "Emiel van Dijk",
+     "fractie": "PVV",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  }
+ ],
+ "afgemeld": []
+}
