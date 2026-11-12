@@ -151,5 +151,47 @@
   "prompt": "Keep this exact character, style, colours, clothing, framing and white background. Change only these three things: 1) Mouth: thinner lips, a closed-mouth smile with the corners of the mouth turned slightly up, and soft lines running from the nose to the corners of the mouth, as in a woman of about sixty. 2) Hair: the ends of the curls are thinner and more pointed, wispy and slightly spiky at the tips instead of round, soft curls. 3) Eyes: noticeably smaller eyes, less wide-open, still friendly, slightly narrowed by the smile. Do not make her younger. No glasses. No text, no frame.",
   "model": "gemini-3.1-flash-image",
   "bewerking_van": "v2"
+ },
+ {
+  "wie": "Caroline van der Plas",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Image 1 is a photo portrait of a person. Image 2 is a manga character drawing in our house style. Draw the person from image 1 as a manga character in exactly the style of image 2: same full-colour manga style, same ink lines, cel shading, proportions, framing (bust, facing the viewer, turned slightly to the right), pure white background, 3:4. Capture the likeness of the person in image 1 closely: face shape, eyes, eyebrows, nose, mouth and smile lines, hairline, hairstyle and the shape of the hair ends, apparent age. Respectful and accurate, not a caricature: do not exaggerate any feature. Keep their real clothing colours but make the tie or scarf green. Calm, attentive expression with the person's natural slight smile. No text, no letters, no logos, no flags, no pins, no frame.",
+  "model": "gemini-3.1-flash-image",
+  "referenties": [
+   "officieel portret Tweede Kamer",
+   "eigen figuur (stijl)"
+  ]
+ },
+ {
+  "wie": "Jesse Klaver",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Image 1 is a photo portrait of a person. Image 2 is a manga character drawing in our house style. Draw the person from image 1 as a manga character in exactly the style of image 2: same full-colour manga style, same ink lines, cel shading, proportions, framing (bust, facing the viewer, turned slightly to the right), pure white background, 3:4. Capture the likeness of the person in image 1 closely: face shape, eyes, eyebrows, nose, mouth and smile lines, hairline, hairstyle and the shape of the hair ends, apparent age. Respectful and accurate, not a caricature: do not exaggerate any feature. Keep their real clothing colours but make the tie or scarf red. Calm, attentive expression with the person's natural slight smile. No text, no letters, no logos, no flags, no pins, no frame.",
+  "model": "gemini-3.1-flash-image",
+  "referenties": [
+   "officieel portret Tweede Kamer",
+   "eigen figuur (stijl)"
+  ]
+ },
+ {
+  "wie": "Caroline van der Plas",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "referenties": [
+   "officieel portret Tweede Kamer"
+  ]
+ },
+ {
+  "wie": "Jesse Klaver",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf red. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "referenties": [
+   "officieel portret Tweede Kamer"
+  ]
  }
 ]

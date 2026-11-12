@@ -10,7 +10,12 @@
   "beschrijving": "A man around forty with a slightly long, slim face, prominent dark eyebrows and lively dark-brown eyes. Thick dark-brown hair, messy and curly, standing up high on top and swept up and to the side, curls sticking out at the sides. Light skin, a very wide, open, beaming smile showing his upper teeth, dimples in the cheeks. Dark navy suit, light blue shirt, slim dark tie in the accent colour. No glasses.",
   "bron": "zelf beschreven naar het officiële portret; geen foto naar de beeldgenerator",
   "goedgekeurd": false,
-  "versie": 2
+  "versie": 2,
+  "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
+  "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-12"
+  }
  },
  "8c5a8186-8f46-4bca-956d-06d4fa521635": {
   "naam": "Mona Keijzer",
@@ -30,7 +35,12 @@
     "opdracht": "Keep this exact character, style, colours, clothing, framing and white background. Change only these three things: 1) Mouth: thinner lips, a closed-mouth smile with the corners of the mouth turned slightly up, and soft lines running from the nose to the corners of the mouth, as in a woman of about sixty. 2) Hair: the ends of the curls are thinner and more pointed, wispy and slightly spiky at the tips instead of round, soft curls. 3) Eyes: noticeably smaller eyes, less wide-open, still friendly, slightly narrowed by the smile. Do not make her younger. No glasses. No text, no frame.",
     "naar_aanleiding_van": "eigenaar: lijnen bij de mond anders, haarpunten puntiger, ogen kleiner"
    }
-  ]
+  ],
+  "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
+  "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-12"
+  }
  },
  "7cbb2d95-46b2-4fcb-b129-9505f56e7f07": {
   "naam": "Don Ceder",
