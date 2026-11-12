@@ -190,7 +190,7 @@ function hairFront(k,c){
     case "staart": return `<path d="M27 50 C26 22 74 22 73 50 C70 40 62 34 50 33 C38 34 30 40 27 50Z" fill="${c}" ${HS}/>`+SHINE("M40 27 C46 24 56 24 62 27");
     case "lang-krul": case "half-lang-krul": return curls([[30,44],[34,33],[43,27],[54,26],[64,30],[70,40]],7.5,c);
     case "kaal-rand": return `<path d="M27 56 C26 46 28 42 31 41 L33 62 L28 62Z M73 56 C74 46 72 42 69 41 L67 62 L72 62Z" fill="${c}"/>`;
-    case "achterover": return `<path d="M26 56 C19 20 34 12 52 12 C70 12 82 22 74 56 L72 46 C70 41 66 39 61 39 C55 38 45 38 39 39 C34 39 30 41 28 46 Z" fill="${c}" ${HS}/><path d="M40 38 C42 30 47 23 55 19 M50 38 C52 30 57 25 64 22 M60 38 C62 33 66 29 70 28" stroke="#1d1b2e" stroke-opacity=".3" stroke-width="1.1" fill="none" stroke-linecap="round"/>`;
+    case "achterover": return `<path d="M26 56 C21 26 35 20 52 20 C69 20 80 28 74 56 L72 46 C70 41 66 39 61 39 C55 38 45 38 39 39 C34 39 30 41 28 46 Z" fill="${c}" ${HS}/><path d="M40 38 C42 32 46 27 53 24 M50 38 C52 32 56 28 62 26 M60 38 C62 34 65 31 69 30" stroke="#1d1b2e" stroke-opacity=".3" stroke-width="1.1" fill="none" stroke-linecap="round"/>`;
     case "kort-middenscheiding": return `<path d="M26 56 C18 12 82 12 74 56 L72 45 C68 40 58 37 50 38 C42 37 32 40 28 45 Z" fill="${c}" ${HS}/><path d="M50 38 C50 32 50 27 50 22" stroke="#1d1b2e" stroke-width="1.2" fill="none"/>`+SHINE("M56 22 C62 23 67 27 69 32");
     case "pixie": return `<path d="M26 56 C18 14 82 12 74 56 L72 44 C68 40 62 39 56 40 C48 42 38 44 30 52 L28 50 Z" fill="${c}" ${HS}/>`+SHINE("M38 24 C46 19 58 19 64 24");
     case "afro-kort": return curls([[28,48],[27,38],[33,29],[42,23],[52,21],[62,24],[69,31],[73,40],[72,49],[38,32],[50,29],[61,32]],6.5,c);
@@ -273,7 +273,9 @@ function portraitCharacter(u,outfit,emo,accent){
   const jaw=JAW[u.gezichtsvorm]||(u.gezicht==="m"?"M28 52 C28 30 72 30 72 52 C72 72 62 88 50 88 C38 88 28 72 28 52Z":"M28 52 C28 30 72 30 72 52 C72 74 60 87 50 87 C40 87 28 74 28 52Z");
   const back=u.volume==="vol"?`<g transform="translate(50 0) scale(1.1 1) translate(-50 0)">${hairBack(u.kapsel,c)}</g>`:hairBack(u.kapsel,c);
   const front=u.pony&&u.pony!=="geen"?pony(u.pony,c):hairFront(u.kapsel,c);
-  const fit=(x)=>u.gezichtsvorm==="smal"?`<g transform="translate(50 0) scale(.95 1) translate(-50 0)">${x}</g>`:x;
+  /* volume "plat": voorhaar lager (bovenkant zakt, haarlijn blijft); smal gezicht: voorhaar iets smaller */
+  const fit=(x)=>{if(u.volume==="plat")x=`<g transform="translate(0 56) scale(1 .86) translate(0 -56)">${x}</g>`;
+    return u.gezichtsvorm==="smal"?`<g transform="translate(50 0) scale(.95 1) translate(-50 0)">${x}</g>`:x;};
   return `${back}
   ${clothes(u.kleding,outfit,accent||"#ffffff",u.onder,skin)}
   <path d="${jaw}" fill="${skin}" stroke="${ink}" stroke-width="2"/>
