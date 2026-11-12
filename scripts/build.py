@@ -42,6 +42,11 @@ def slug(naam):
     return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
 
 
+def deel_tag(punt):
+    d = punt.get("deel")
+    return f'<span class="tag">Deel {d["nummer"]} van {d["van"]}: {e(d["fase"])}</span>' if d else ""
+
+
 def politici(strips, uiterlijk, koppeling):
     """Pagina per politicus met activiteit uit alle verwerkte agendapunten."""
     mensen = {}
@@ -64,6 +69,8 @@ def politici(strips, uiterlijk, koppeling):
         kenm = {k: u.get(k) for k in KENMERKEN} if u else None
         ds = sorted(m["debatten"].values(), key=lambda d: d["punt"]["begin"], reverse=True)
         tot = {k: sum(d[k] for d in ds) for k in ("beurten", "interrupties", "woorden")}
+        # een lang debat in delen telt als één debat
+        n_debatten = len({(d["punt"].get("deel") or {}).get("ouder_id", d["punt"]["id"]) for d in ds})
         items = []
         for d in ds:
             punt, strip = d["punt"], d["strip"]
@@ -72,21 +79,21 @@ def politici(strips, uiterlijk, koppeling):
             standpunt = next((x["standpunt"] for x in (strip or {}).get("sprekers", []) if x["id"] in m["ids"]), None)
             citaten = [x["citaat"] for x in (strip or {}).get("strip", []) if x["spreker_id"] in m["ids"]]
             items.append(f"""<li class="item"><div class="meta"><span>{datum(v['datum'])}</span><span class="tag">{e(v['soort'])}</span>
-<span>{d['beurten']} keer gesproken{f", {d['interrupties']} interrupties" if d['interrupties'] else ""}</span></div>
+{deel_tag(punt)}<span>{d['beurten']} keer gesproken{f", {d['interrupties']} interrupties" if d['interrupties'] else ""}</span></div>
 <h3>{kop}</h3>{('<p class="note">Agendapunt: ' + e(punt['titel']) + '</p>') if strip else '<p class="note">Nog geen samenvatting voor dit debat.</p>'}
 {twee(standpunt, "p") if standpunt else ""}{"".join(f'<blockquote class="quote">“{e(c)}”</blockquote>' for c in citaten)}</li>""")
         wat = sp["fractie"] or sp["functie"]
         body = f"""<main style="display:flex;flex-direction:column;gap:20px">
 <div class="person"><svg id="av" viewBox="10 10 80 100" aria-hidden="true"></svg><div style="min-width:0"><h1>{e(naam)}</h1>
 <p class="note">{e(sp['functie'])}{(' · ' + e(sp['fractie'])) if sp['fractie'] else ''}</p></div></div>
-<div class="stats"><div><b>{len(ds)}</b><span>debatten</span></div><div><b>{tot['beurten']}</b><span>spreekbeurten</span></div>
+<div class="stats"><div><b>{n_debatten}</b><span>debat{"ten" if n_debatten != 1 else ""}</span></div><div><b>{tot['beurten']}</b><span>spreekbeurten</span></div>
 <div><b>{tot['interrupties']}</b><span>interrupties</span></div><div><b>{f"{tot['woorden']:,}".replace(",", ".")}</b><span>woorden</span></div></div>
 <p class="note">Geteld over de verslagen die deze site heeft verwerkt, niet over de hele zittingsperiode.</p>
 <h2>Activiteit</h2><ul class="list">{''.join(items)}</ul></main>"""
         data = json.dumps({"id": sorted(m["ids"])[0], "fractie": sp["fractie"], "u": kenm}, ensure_ascii=False)
         js = f'<script src="../strip.js"></script><script>const P={data};document.getElementById("av").innerHTML=character(makeLook(P.id,P.fractie,P.u),"neutraal");</script>'
         (out / f"{slug(naam)}.html").write_text(page(f"{naam} – Wat zei de Kamer?", body, js, root="../"))
-        per_partij.setdefault(sp["fractie"] or "Kabinet", []).append((naam, len(ds), tot["beurten"]))
+        per_partij.setdefault(sp["fractie"] or "Kabinet", []).append((naam, n_debatten, tot["beurten"]))
     blokken = "".join(
         f'<section><h2>{e(partij)}</h2><ul class="names">' +
         "".join(f'<li><a href="{slug(n)}.html">{e(n)}</a> <span class="note">{d} debat{"ten" if d != 1 else ""}, {b} spreekbeurten</span></li>'
