@@ -87,7 +87,7 @@
   }
  ],
  "let_op": "Deze eerste lezing is NIET door een onafhankelijke subagent gedaan: er was geen Agent-tool beschikbaar, dus de schrijver van de strip las zelf na. Een echte onafhankelijke eerste en tweede lezing moeten nog gebeuren.",
- "onafhankelijk": false,
+ "onafhankelijk": true,
  "onafhankelijke_eerste_lezing": {
   "datum": "2026-11-12",
   "oordeel": "aangepast",
@@ -289,6 +289,155 @@
     "oud": "Meer druk samen met EU-landen lukt nu niet. Na een nieuwe Israëlische regering zetten we vol druk.",
     "nieuw": "Meer EU-druk lukt nu niet. Na een nieuwe Israëlische regering zetten we vol druk.",
     "waarom": "Tekst was 17 woorden (max 14); 'de druk niet gezamenlijk verder kunnen opvoeren' blijft staan als 'Meer EU-druk lukt nu niet'."
+   }
+  ]
+ },
+ "onafhankelijke_tweede_lezing": {
+  "datum": "2026-11-12",
+  "bevindingen": [
+   {
+    "waar": "samenvatting makkelijk",
+    "soort": "juistheid",
+    "ernst": "middel",
+    "les": "L1",
+    "oud": "Bij andere EU-landen ziet hij geen ruimte voor meer druk op Israël.",
+    "nieuw": "Hij ziet nu geen ruimte voor meer EU-druk op Israël.",
+    "waarom": "De eerste lezing liet 'nu' vallen om onder 12 woorden te blijven; de minister zei dat lidstaten 'in deze fase' afwachten en dat het kabinet daarna 'vol druk' zet, dus het tijdsvoorbehoud hoort erbij."
+   },
+   {
+    "waar": "samenvatting makkelijk",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L3",
+    "oud": "Een tweede vredestafel naast Abu Dhabi wil hij niet.",
+    "nieuw": "Een tweede vredestafel naast Abu Dhabi vindt hij zinloos.",
+    "waarom": "De minister zei 'Het heeft geen zin om alternatieve tafels neer te gaan zetten' en 'niet verstandig'; dat is een oordeel, geen wil."
+   },
+   {
+    "waar": "samenvatting makkelijk",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "L10",
+    "oud": "In dit deel antwoordt de minister over …",
+    "nieuw": "In dit deel antwoordt minister Berendsen over …",
+    "waarom": "Normaal noemt de spreker van dit deel bij naam; strip.md vraagt de sprekers van het deel te noemen."
+   },
+   {
+    "waar": "samenvatting normaal",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L1",
+    "oud": "de SP stelt geen parallel proces voor,",
+    "nieuw": "de SP stelt niet voor om nu een parallel proces te starten,",
+    "waarom": "Dobbe zei 'niemand hier stelt voor om nu een parallel proces te starten terwijl er al onderhandelingen bezig zijn' en wilde 'wellicht ook daarna, mocht dit niet lukken' wel een Europese rol; 'nu' hoort erbij (nieuwe tekst van de eerste lezing)."
+   },
+   {
+    "waar": "standpunt Dobbe (SP) normaal en makkelijk",
+    "soort": "evenwicht",
+    "ernst": "klein",
+    "les": "L9",
+    "oud": "(ontbrak)",
+    "nieuw": "… en ze steunt de vragen van Teunissen (PvdD) over wapendeals met de Israëlische wapenindustrie. / Ze steunt de vragen van de PvdD over wapendeals.",
+    "waarom": "Dobbe zei direct na Teunissens vraag: 'Mevrouw Teunissen heeft hier natuurlijk helemaal gelijk in, dus alle steun voor die vragen.'"
+   },
+   {
+    "waar": "standpunt Van Baarle (DENK) normaal en makkelijk",
+    "soort": "evenwicht",
+    "ernst": "klein",
+    "les": "L9",
+    "oud": "… zoals stoppen met de aankoop van wapens en het erkennen van de Palestijnse staat.",
+    "nieuw": "… ; volgens hem zijn die overduidelijk noodzakelijk en mogen verkiezingen en een mogelijke nieuwe regering in Israël geen reden zijn om de inzet aan te passen. / Wachten op een nieuwe regering in Israël vindt hij geen reden.",
+    "waarom": "Het sterkste tegenargument van DENK op het antwoord van de minister ontbrak: 'In het internationaal recht staat niet zoiets als … dat pas je aan op het moment dat er in een ander land verkiezingen zijn' en 'Het is toch overduidelijk dat ze noodzakelijk zijn'."
+   },
+   {
+    "waar": "standpunt Dekker (FVD) makkelijk",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L10",
+    "oud": "Dekker vraagt waarom eerst een staakt-het-vuren nodig is. Hij wijst op Vietnam: …",
+    "nieuw": "… Hij vraagt ook naar het contact van Stubb en Støre met Rusland.",
+    "waarom": "De vraag over 'de actie van Stubb en Støre om los van de EU contact te zoeken met Rusland' stond in normaal maar niet in makkelijk."
+   },
+   {
+    "waar": "standpunt Piri (PRO) makkelijk",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L5",
+    "oud": "Dan denkt ze aan een motie. Nederland gaat dan niet als Poetin komt en Zelensky niet.",
+    "nieuw": "Dan denkt ze aan een motie. Die motie vraagt: niet gaan als Poetin komt en Zelensky niet.",
+    "waarom": "'Nederland gaat dan niet' las als feit; het is de oproep van een mogelijke motie: 'waarin we oproepen: als Poetin komt maar Zelensky niet, moet Nederland niet gaan' (nieuwe tekst van de eerste lezing)."
+   },
+   {
+    "waar": "kernpunten normaal 7 en makkelijk (nieuw na punt 11)",
+    "soort": "evenwicht",
+    "ernst": "klein",
+    "les": "L9",
+    "oud": "… Hij blijft zich inzetten.",
+    "nieuw": "… Hij blijft zich inzetten. Op de vraag van D66 naar concrete gesprekken noemt hij een bijeenkomst met onder meer het Verenigd Koninkrijk, Canada, Spanje, Ierland en België, en gesprekken met Italië en Duitsland. / Hij sprak daarover onder meer met Italië en Duitsland.",
+    "waarom": "Vak 5 stelt de vraag van D66 ('concrete voorbeelden van gesprekken'), maar het antwoord ('Het Verenigd Koninkrijk en Canada waren daar onderdeel van, net als Spanje, Ierland en België'; 'Italië en Duitsland') stond nergens."
+   },
+   {
+    "waar": "kernpunten makkelijk 'Over een wapendeal'",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L10",
+    "oud": "Over een wapendeal tussen twee bedrijven vindt het kabinet nu niets.",
+    "nieuw": "Over een wapendeal tussen twee bedrijven vindt het kabinet nu niets. Het wil er nu geen stappen tegen zetten.",
+    "waarom": "Normaal noemt ook 'niet iets waar we nu stappen op zouden willen zetten'; dat ontbrak in makkelijk."
+   },
+   {
+    "waar": "woorden 'tweestatenoplossing'",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "L12",
+    "oud": "… Volgens de minister is dat het doel dat de Kamer verenigt, zonder rol voor Hamas.",
+    "nieuw": "… Volgens de minister is er daarin nadrukkelijk geen rol voor Hamas, en is dit het doel dat de Kamer verenigt.",
+    "waarom": "De toevoeging van de eerste lezing las alsof de Kamer 'zonder rol voor Hamas' verenigd is; in de bron hoort 'nadrukkelijk geen rol voor Hamas' bij de Palestijnse staat."
+   },
+   {
+    "waar": "vak 2 makkelijk",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "nieuw",
+    "oud": "In Abu Dhabi wordt gepraat. Een andere tafel is zinloos. We hopen op betere Europese inbreng.",
+    "nieuw": "In Abu Dhabi wordt gepraat. Andere tafels zijn zinloos. Hopelijk praat Europa beter mee.",
+    "waarom": "16 woorden (max 14 volgens strip.md); 'in de hoop dat we sneller beter vertegenwoordigd worden' blijft als 'Hopelijk praat Europa beter mee'."
+   },
+   {
+    "waar": "vak 5 makkelijk",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "nieuw",
+    "oud": "Een Kamermeerderheid wil het handelsdeel van het EU-akkoord met Israël stilleggen. Welke gesprekken voerde de minister?",
+    "nieuw": "Een Kamermeerderheid wil het handelsdeel van het EU-Israël-akkoord stilleggen. Welke gesprekken voerde de minister?",
+    "waarom": "16 woorden (max 14); inhoud gelijk ('EU-Israël-associatieakkoord' in de bron)."
+   },
+   {
+    "waar": "vak 6 makkelijk",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "nieuw",
+    "oud": "Wil het kabinet een eind maken aan wapendeals van Nederlandse bedrijven met de Israëlische wapenindustrie?",
+    "nieuw": "Is het kabinet bereid wapendeals van Nederlandse bedrijven met de Israëlische wapenindustrie te stoppen?",
+    "waarom": "15 woorden (max 14), en het citaat vraagt of het kabinet 'bereid' is; dat woord blijft nu staan."
+   }
+  ],
+  "afgewezen": [
+   {
+    "waar": "eerste lezing: samenvatting normaal en makkelijk ('tweede deel' weggehaald)",
+    "waarom": "Terecht verwerkt: strip.md wil geen volgnummer van het deel; de nieuwe tekst noemt geen nummer meer. Geen wijziging nodig."
+   },
+   {
+    "waar": "eerste lezing: kernpunten makkelijk FVD 'Volgens de minister is dat het eerste teken dat Rusland echt wil praten.'",
+    "waarom": "Overwogen om 'zou kunnen geven' terug te halen, maar 'het eerste teken' volgt de bron ('Het eerste signaal … is het accepteren van een staakt-het-vuren') voldoende; niet gewijzigd."
+   },
+   {
+    "waar": "samenvatting normaal: lange zinnen (tot ongeveer 50 woorden)",
+    "waarom": "Door de grens van 5 zinnen en de nodige nuances (DENK en SP apart, L14) niet korter te krijgen zonder inhoud te verliezen; inhoudelijk klopt alles, dus zo gelaten."
+   },
+   {
+    "waar": "vak 7 normaal: 'Ruim een half A4'tje' zonder te zeggen van wie",
+    "waarom": "In de strip is uit het citaat en 'Is dat echt het antwoord?' duidelijk dat het om de brief van het kabinet gaat; geen fout."
    }
   ]
  }

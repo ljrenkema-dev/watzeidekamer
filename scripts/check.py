@@ -48,7 +48,7 @@ def check(pid):
             elif not any(stuk in t for t in bron):
                 wie = "de tekst" if sid is None else bekend[sid]["naam"]
                 fouten.append(f"vak {i}: niet letterlijk gevonden bij {wie}: '{stuk[:80]}'")
-        for niv, maxw in (("normaal", 20), ("makkelijk", 16)):
+        for niv, maxw in (("normaal", 18), ("makkelijk", 14)):  # gelijk aan prompts/strip.md
             t = (v.get("tekst") or {}).get(niv, "") if isinstance(v.get("tekst"), dict) else ""
             if not t.strip():
                 fouten.append(f"vak {i}: tekst '{niv}' ontbreekt")
