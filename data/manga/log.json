@@ -1,0 +1,7 @@
+[
+ {
+  "wie": "Geert Wilders",
+  "emotie": "neutraal",
+  "fout": "HTTP 400: [{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Unhandled generated data mime type: image/jpeg\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n]"
+ }
+]
