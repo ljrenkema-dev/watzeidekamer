@@ -58,8 +58,17 @@ function extras(emo){
   if(emo==="denkend") return `<circle cx="84" cy="30" r="2" fill="#1d1b2e"/><circle cx="90" cy="22" r="3" fill="#1d1b2e"/>`;
   return "";
 }
+/* Manga-beelden (goedgekeurd door de eigenaar) staan naast strip.js in manga/<sleutel>/<emotie>.jpg.
+   Wie er een heeft (u.manga), krijgt dat beeld; anders het getekende figuur. */
+const MANGA_ROOT=((document.currentScript&&document.currentScript.src)||"").replace(/strip\.js(\?.*)?$/,"")+"manga/";
+const MANGA_EMO=new Set(["neutraal","blij","boos","bezorgd","verbaasd","denkend","vastberaden","interruptie"]);
+function mangaImg(L,emo,x,y,w,h){
+  const e=MANGA_EMO.has(emo)?emo:"neutraal";
+  return `<image href="${MANGA_ROOT}${esc(L.u.manga)}/${e}.jpg" x="${x}" y="${y}" width="${w}" height="${h}" preserveAspectRatio="xMidYMin slice" style="mix-blend-mode:multiply"/>`;
+}
 /* character in a 100x120 box */
 function character(L,emo){
+  if(L.u&&L.u.manga)return mangaImg(L,emo,10,4,80,107);
   if(L.u)return portraitCharacter(L.u,L.outfit,emo,L.accent);
   return `${hairShape(L)}
   <path d="M30 96 Q50 88 70 96 L80 120 L20 120 Z" fill="${L.outfit}" stroke="#1d1b2e" stroke-width="2"/>
@@ -103,6 +112,10 @@ function panelSVG(p,i,lookOf){
   let fig="";
   if(narr){
     fig=`<g transform="translate(140 ${Math.max(150,16+bh+14)}) scale(1.1)"><rect x="0" y="40" width="110" height="60" fill="#c9b48a" stroke="#1d1b2e" stroke-width="2"/><rect x="10" y="20" width="90" height="24" fill="#e7d9b8" stroke="#1d1b2e" stroke-width="2"/><circle cx="55" cy="10" r="10" fill="#e7c34a" stroke="#1d1b2e" stroke-width="2"/></g>`;
+  } else if(L.u&&L.u.manga){
+    /* Manga-beeld: groter dan het getekende figuur; bij een interruptie de houding achter de microfoon. */
+    const w=186,h=248,x=flip?400-w-6:6;
+    fig=`<g${flip?` transform="translate(${2*x+w} 0) scale(-1 1)"`:""}>${mangaImg(L,p.interruptie?"interruptie":emo,x,300-h,w,h)}</g>`;
   } else {
     fig=`<g transform="translate(${charX} ${charY}) scale(1.55)${flip?" translate(100 0) scale(-1 1)":""}">${character(L,emo)}</g>`;
   }

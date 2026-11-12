@@ -65,8 +65,11 @@ def politici(strips, uiterlijk, koppeling):
     per_partij = {}
     for naam, m in mensen.items():
         sp = m["spreker"]
-        u = next((uiterlijk.get(koppeling.get(i, "")) for i in m["ids"] if koppeling.get(i)), None)
+        sl = next((koppeling.get(i) for i in m["ids"] if koppeling.get(i)), None)
+        u = uiterlijk.get(sl or "")
         kenm = {k: u.get(k) for k in KENMERKEN} if u else None
+        if kenm and manga(sl):
+            kenm["manga"] = manga(sl)
         ds = sorted(m["debatten"].values(), key=lambda d: d["punt"]["begin"], reverse=True)
         tot = {k: sum(d[k] for d in ds) for k in ("beurten", "interrupties", "woorden")}
         # een lang debat in delen telt als één debat
@@ -185,6 +188,12 @@ k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makk
 </script></body></html>"""
 
 
+def manga(sleutel):
+    """Map met goedgekeurde manga-beelden voor deze persoon (site/manga/, gemaakt door manga_site.py), of None."""
+    m = (sleutel or "").replace(":", "-")
+    return m if m and (ROOT / "site" / "manga" / m / "neutraal.jpg").exists() else None
+
+
 def wie(sp):
     if sp["fractie"]:
         return f"{sp['verslagnaam']} ({sp['fractie']})"
@@ -200,7 +209,12 @@ def debat(punt, strip):
     uiterlijk, koppeling = lees("uiterlijk.json"), lees("sprekers.json")
     def kenmerken(sid):
         u = uiterlijk.get(koppeling.get(sid, ""))
-        return {k: u[k] for k in KENMERKEN if k in u} if u else None
+        if not u:
+            return None
+        k_ = {k: u[k] for k in KENMERKEN if k in u}
+        if manga(koppeling.get(sid)):
+            k_["manga"] = manga(koppeling.get(sid))
+        return k_
     gebruikt = [s["id"] for s in strip["sprekers"]] + [p["spreker_id"] for p in strip["strip"] if p["spreker_id"]]
     sprekers = [{"id": s["id"], **bekend[s["id"]], "standpunt": s["standpunt"],
                  "label": bekend[s["id"]]["verslagnaam"], "uiterlijk": kenmerken(s["id"])} for s in strip["sprekers"]]
@@ -357,6 +371,8 @@ def main():
     (OUT / "d").mkdir(parents=True)
     for f in ("style.css", "strip.js"):
         shutil.copy(ROOT / "site" / f, OUT / f)
+    if (ROOT / "site" / "manga").exists():
+        shutil.copytree(ROOT / "site" / "manga", OUT / "manga")
     items = []
     for sf in sorted((ROOT / "data" / "strips").glob("*.json")):
         pid = sf.stem
