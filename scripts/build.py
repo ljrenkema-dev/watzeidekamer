@@ -17,6 +17,10 @@ VOORLOPIG = {"Casco", "Ongecorrigeerd"}
 e = html.escape
 
 
+KENMERKEN = ("gezicht", "haarkleur", "kapsel", "bril", "baard", "huid", "leeftijd", "spiegel",
+             "gezichtsvorm", "wenkbrauw", "oogkleur", "kleding", "onder", "montuur", "oorbel", "pony", "volume")
+
+
 def niv(x, n):
     """Tekst voor taalniveau n ('normaal' of 'makkelijk'); oude strips hebben één string."""
     if isinstance(x, dict):
@@ -73,7 +77,7 @@ def debat(punt, strip):
     uiterlijk, koppeling = lees("uiterlijk.json"), lees("sprekers.json")
     def kenmerken(sid):
         u = uiterlijk.get(koppeling.get(sid, ""))
-        return {k: u.get(k) for k in ("gezicht", "haarkleur", "kapsel", "bril", "baard", "huid", "leeftijd", "spiegel")} if u else None
+        return {k: u[k] for k in KENMERKEN if k in u} if u else None
     gebruikt = [s["id"] for s in strip["sprekers"]] + [p["spreker_id"] for p in strip["strip"] if p["spreker_id"]]
     sprekers = [{"id": s["id"], **bekend[s["id"]], "standpunt": s["standpunt"],
                  "label": bekend[s["id"]]["verslagnaam"], "uiterlijk": kenmerken(s["id"])} for s in strip["sprekers"]]

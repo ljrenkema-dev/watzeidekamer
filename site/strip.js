@@ -24,16 +24,20 @@ function fringe(L){
 }
 function eyes(L,emo){
   const ink="#1d1b2e";
-  if(emo==="blij") return `<path d="M34 58 Q40 50 46 58" stroke="${ink}" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M54 58 Q60 50 66 58" stroke="${ink}" stroke-width="3" fill="none" stroke-linecap="round"/>`;
+  if(emo==="blij") return `<path d="M34 58 Q40 50 46 58" stroke="${ink}" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M54 58 Q60 50 66 58" stroke="${ink}" stroke-width="3" fill="none" stroke-linecap="round"/>`+
+    (L.brow?`<path d="M34 46 Q40 42.5 46 45.5 M54 45.5 Q60 42.5 66 46" stroke="${L.brow.c}" stroke-width="${L.brow.w}" fill="none" stroke-linecap="round"/>`:"");
   const big = emo==="verbaasd" ? 1.15 : 1;
   const eye = (cx)=>`<ellipse cx="${cx}" cy="58" rx="${6*big}" ry="${8*big}" fill="#fff" stroke="${ink}" stroke-width="2"/>
     <ellipse cx="${cx}" cy="59" rx="${4.4*big}" ry="${6.2*big}" fill="${L.eye}"/>
     <ellipse cx="${cx}" cy="60" rx="${2.2*big}" ry="${3.4*big}" fill="${ink}"/>
     <circle cx="${cx-1.8}" cy="55.5" r="1.8" fill="#fff"/><circle cx="${cx+1.6}" cy="62" r=".9" fill="#fff"/>`;
+  /* L.brow (optioneel): {c: kleur, w: dikte} voor figuren met eigen wenkbrauwen; zonder blijft alles zoals het was */
+  const bc=L.brow?L.brow.c:ink, bw=(w)=>L.brow?L.brow.w*(w/2.5):w;
   let brows="";
-  if(emo==="boos"||emo==="vastberaden") brows=`<path d="M33 46 L46 50 M67 46 L54 50" stroke="${ink}" stroke-width="3" stroke-linecap="round"/>`;
-  else if(emo==="bezorgd") brows=`<path d="M34 50 L45 46 M66 50 L55 46" stroke="${ink}" stroke-width="2.5" stroke-linecap="round"/>`;
-  else if(emo==="denkend") brows=`<path d="M34 48 L45 48 M55 46 L66 49" stroke="${ink}" stroke-width="2.5" stroke-linecap="round"/>`;
+  if(emo==="boos"||emo==="vastberaden") brows=`<path d="M33 46 L46 50 M67 46 L54 50" stroke="${bc}" stroke-width="${bw(3)}" stroke-linecap="round"/>`;
+  else if(emo==="bezorgd") brows=`<path d="M34 50 L45 46 M66 50 L55 46" stroke="${bc}" stroke-width="${bw(2.5)}" stroke-linecap="round"/>`;
+  else if(emo==="denkend") brows=`<path d="M34 48 L45 48 M55 46 L66 49" stroke="${bc}" stroke-width="${bw(2.5)}" stroke-linecap="round"/>`;
+  else if(L.brow) brows=`<path d="M34 46.5 Q40 43.5 46 46 M54 46 Q60 43.5 66 46.5" stroke="${bc}" stroke-width="${L.brow.w}" fill="none" stroke-linecap="round"/>`;
   return eye(40)+eye(60)+brows;
 }
 function mouth(emo){
@@ -56,7 +60,7 @@ function extras(emo){
 }
 /* character in a 100x120 box */
 function character(L,emo){
-  if(L.u)return portraitCharacter(L.u,L.outfit,emo);
+  if(L.u)return portraitCharacter(L.u,L.outfit,emo,L.accent);
   return `${hairShape(L)}
   <path d="M30 96 Q50 88 70 96 L80 120 L20 120 Z" fill="${L.outfit}" stroke="#1d1b2e" stroke-width="2"/>
   <path d="M44 88 L50 98 L56 88" fill="#fff" stroke="#1d1b2e" stroke-width="1.5"/>
@@ -117,11 +121,22 @@ function panelSVG(p,i,lookOf){
 
 /* Vast figuurtje per persoon: kleding volgt de partij, haar en ogen de persoon. */
 const PARTY_COLORS=["#3aa676","#c9463d","#38405e","#7a52b3","#2c8a9e","#d08a1f","#565656","#b04a86","#3b6fd1","#8a6d3b"];
+/* Partijkleuren: [kleding, accent (das, sjaal)]. Uit de huisstijl van de partij waar die bekend is
+   (PRO, ChristenUnie, Groep Markuszower/DNA); de overige zijn benaderingen van logo en campagnekleur. */
+const PARTIJ_KLEUR={
+  "D66":["#00a640","#0b5e2e"], "VVD":["#1a3f9e","#ff7a00"], "PRO":["#01a747","#d81f27"],
+  "PVV":["#12306f","#d11f2e"], "CDA":["#007b5f","#9bc31f"], "JA21":["#1d2a5a","#2aa8e0"],
+  "FVD":["#7d1a1f","#e8d9b5"], "Groep Markuszower":["#25abe3","#c01718"], "BBB":["#8db82a","#0f5a35"],
+  "DENK":["#00a9a5","#ffffff"], "SGP":["#e8691e","#ffffff"], "SP":["#e3001b","#ffffff"],
+  "PvdD":["#0b6b34","#ffffff"], "ChristenUnie":["#3e8bd5","#eaab00"], "50PLUS":["#8e2a8c","#ffffff"],
+  "Volt":["#502379","#fdc220"], "Lid Keijzer":["#5b5f6b","#c9ccd3"]
+};
+const KABINET_KLEUR=["#2b2b3a","#8a90a0"];
 function hash(s){let h=2166136261;for(const c of String(s)){h^=c.charCodeAt(0);h=Math.imul(h,16777619);}return h>>>0;}
 function makeLook(id,fractie,u){
-  const outfit=fractie?PARTY_COLORS[hash(fractie)%PARTY_COLORS.length]:"#2b2b3a";
-  if(u)return {u,outfit};
-  return {...LOOKS[hash(id)%LOOKS.length],outfit};
+  const [outfit,accent]=fractie?(PARTIJ_KLEUR[fractie]||[PARTY_COLORS[hash(fractie)%PARTY_COLORS.length],"#ffffff"]):KABINET_KLEUR;
+  if(u)return {u,outfit,accent};
+  return {...LOOKS[hash(id)%LOOKS.length],outfit,accent};
 }
 function renderStrip(d){
   const looks={};for(const s of d.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
@@ -133,7 +148,8 @@ function renderStrip(d){
 
 /* Figuur getekend naar kenmerken uit het officiële portret (data/uiterlijk.json).
    Bewust eenvoudig: kapsel, haarkleur, bril, baard, huid en leeftijd. Geen karikatuur. */
-const HAIR={platinablond:"#f2e6b6",zwart:"#1c1a1f",donkerbruin:"#3b2a20",bruin:"#6b4630",lichtbruin:"#9c6f45",blond:"#e2bd6b",rood:"#a8482a",grijs:"#9a9ca3",wit:"#e4e4e8"};
+const HAIR={platinablond:"#f2e6b6",zwart:"#1c1a1f",donkerbruin:"#3b2a20",bruin:"#6b4630",lichtbruin:"#9c6f45",blond:"#e2bd6b",rood:"#a8482a",grijs:"#9a9ca3",wit:"#e4e4e8",
+  donkerblond:"#b89258",rossig:"#b5653a","peper-zout":"#6e6c70",zilver:"#c3c6cd"};
 const SKIN={licht:"#ffe2cf",middel:"#e3b08a",donker:"#9c6a46"};
 const HS='stroke="#1d1b2e" stroke-width="1.5" stroke-linejoin="round"';
 const SHINE=(d)=>`<path d="${d}" stroke="#fff" stroke-opacity=".35" stroke-width="2.5" fill="none" stroke-linecap="round"/>`;
@@ -148,6 +164,9 @@ function hairBack(k,c){
     case "vlechten": return `<path d="M22 54 C15 14 85 14 78 54 L82 104 L64 100 L64 56 L36 56 L36 100 L18 104Z" fill="${c}"/>`+
       [22,28,72,78].map(x=>`<path d="M${x} 60 l3 6 l-3 6 l3 6 l-3 6 l3 6 l-3 6" stroke="#000" stroke-opacity=".35" stroke-width="1.4" fill="none"/>`).join("");
     case "staart": return `<path d="M68 40 C88 44 90 72 80 88 C78 72 76 58 68 48Z" fill="${c}" ${HS}/>`;
+    case "lang-golf": return `<path d="M22 54 C15 14 85 14 78 54 C84 62 77 70 83 80 C88 90 79 96 84 106 L64 100 L64 56 L36 56 L36 100 L16 106 C21 96 12 90 17 80 C23 70 16 62 22 54Z" fill="${c}" ${HS}/>`;
+    case "bob": return `<path d="M22 54 C16 18 84 18 78 54 L80 76 C74 80 69 79 66 76 L64 54 L36 54 L34 76 C31 79 26 80 20 76Z" fill="${c}" ${HS}/>`;
+    case "staart-hoog": return `<path d="M60 22 C76 17 85 36 80 60 C76 47 70 36 61 31Z" fill="${c}" ${HS}/>`;
     default: return "";
   }
 }
@@ -171,6 +190,13 @@ function hairFront(k,c){
     case "staart": return `<path d="M27 50 C26 22 74 22 73 50 C70 40 62 34 50 33 C38 34 30 40 27 50Z" fill="${c}" ${HS}/>`+SHINE("M40 27 C46 24 56 24 62 27");
     case "lang-krul": case "half-lang-krul": return curls([[30,44],[34,33],[43,27],[54,26],[64,30],[70,40]],7.5,c);
     case "kaal-rand": return `<path d="M27 56 C26 46 28 42 31 41 L33 62 L28 62Z M73 56 C74 46 72 42 69 41 L67 62 L72 62Z" fill="${c}"/>`;
+    case "achterover": return `<path d="M26 56 C19 20 34 12 52 12 C70 12 82 22 74 56 L72 46 C70 41 66 39 61 39 C55 38 45 38 39 39 C34 39 30 41 28 46 Z" fill="${c}" ${HS}/><path d="M40 38 C42 30 47 23 55 19 M50 38 C52 30 57 25 64 22 M60 38 C62 33 66 29 70 28" stroke="#1d1b2e" stroke-opacity=".3" stroke-width="1.1" fill="none" stroke-linecap="round"/>`;
+    case "kort-middenscheiding": return `<path d="M26 56 C18 12 82 12 74 56 L72 45 C68 40 58 37 50 38 C42 37 32 40 28 45 Z" fill="${c}" ${HS}/><path d="M50 38 C50 32 50 27 50 22" stroke="#1d1b2e" stroke-width="1.2" fill="none"/>`+SHINE("M56 22 C62 23 67 27 69 32");
+    case "pixie": return `<path d="M26 56 C18 14 82 12 74 56 L72 44 C68 40 62 39 56 40 C48 42 38 44 30 52 L28 50 Z" fill="${c}" ${HS}/>`+SHINE("M38 24 C46 19 58 19 64 24");
+    case "afro-kort": return curls([[28,48],[27,38],[33,29],[42,23],[52,21],[62,24],[69,31],[73,40],[72,49],[38,32],[50,29],[61,32]],6.5,c);
+    case "bob": return `<path d="M26 54 C20 16 80 16 74 54 L72 44 C66 37 57 35 47 37 C40 39 33 43 28 50 Z" fill="${c}" ${HS}/>`+SHINE("M40 25 C46 22 56 22 62 25");
+    case "lang-golf": return `<path d="M27 50 C28 22 72 22 73 50 C67 40 60 36 54 32 C48 40 36 44 27 50Z" fill="${c}"/>`;
+    case "staart-hoog": return `<path d="M26 54 C20 16 80 16 74 54 L72 45 C68 40 60 38 50 38 C40 38 32 40 28 45 Z" fill="${c}" ${HS}/>`+SHINE("M40 25 C46 22 56 22 62 25");
     default: return ""; /* kaal */
   }
 }
@@ -180,21 +206,76 @@ function beard(b,c){
   if(b==="stoppel")return `<path d="${d}" fill="${c}" opacity=".3"/>`;
   return "";
 }
-function glasses(g){
-  const st='stroke="#1d1b2e" stroke-width="2.2" fill="#fff" fill-opacity=".15"';
-  if(g==="rechthoek")return `<rect x="31.5" y="51" width="17" height="14" rx="3" ${st}/><rect x="51.5" y="51" width="17" height="14" rx="3" ${st}/><path d="M48.5 56 L51.5 56" stroke="#1d1b2e" stroke-width="2"/>`;
-  if(g==="rond")return `<circle cx="40" cy="58" r="8.8" ${st}/><circle cx="60" cy="58" r="8.8" ${st}/><path d="M48.8 57 L51.2 57" stroke="#1d1b2e" stroke-width="2"/>`;
+/* Pony vervangt het voorhaar (alleen bij halflang/lang haar). */
+function pony(k,c){
+  switch(k){
+    case "recht": return `<path d="M26 52 C23 19 77 19 74 52 L73 45 C64 47 36 47 27 45 Z" fill="${c}" ${HS}/>`+SHINE("M40 26 C46 23 56 23 62 26");
+    case "schuin": return `<path d="M26 54 C23 19 77 19 74 54 L73 44 C64 42 50 44 40 46 C34 47 29 50 26 54Z" fill="${c}" ${HS}/>`+SHINE("M40 26 C46 23 56 23 62 26");
+    case "gordijn": return `<path d="M26 54 C23 19 77 19 74 54 C72 47 66 43 58 43 C54 43 51 41 50 38 C49 41 46 43 42 43 C34 43 28 47 26 54Z" fill="${c}" ${HS}/>`+SHINE("M40 26 C46 23 56 23 62 26");
+    default: return "";
+  }
+}
+const MONTUUR={zwart:"#1d1b2e",bruin:"#6b4630",goud:"#b8922e",zilver:"#8e949c",randloos:"#9aa3ad"};
+function glasses(g,m){
+  const col=MONTUUR[m]||MONTUUR.zwart, w=m==="randloos"?1.1:2.2, br=m==="randloos"?1.4:2;
+  const st=`stroke="${col}" stroke-width="${w}" fill="#fff" fill-opacity=".15"`;
+  const brug=(y)=>`<path d="M48.5 ${y} L51.5 ${y}" stroke="${col}" stroke-width="${br}"/>`;
+  if(g==="rechthoek")return `<rect x="31.5" y="51" width="17" height="14" rx="3" ${st}/><rect x="51.5" y="51" width="17" height="14" rx="3" ${st}/>`+brug(56);
+  if(g==="rond")return `<circle cx="40" cy="58" r="8.8" ${st}/><circle cx="60" cy="58" r="8.8" ${st}/>`+brug(57);
+  if(g==="ovaal")return `<ellipse cx="40" cy="58" rx="9" ry="7.2" ${st}/><ellipse cx="60" cy="58" rx="9" ry="7.2" ${st}/>`+brug(57);
   return "";
 }
-function portraitCharacter(u,outfit,emo){
+function shade(hex,f){const n=parseInt(hex.slice(1),16);const ch=(v)=>Math.max(0,Math.min(255,Math.round(v*f)));
+  return "#"+[ch(n>>16&255),ch(n>>8&255),ch(n&255)].map(v=>v.toString(16).padStart(2,"0")).join("");}
+/* Kleding. "shirt" is het oorspronkelijke figuur. Partijkleur = kleding, accent = das. */
+const ONDER={wit:"#ffffff",licht:"#e6d8c3",donker:"#2e3142"};
+function clothes(k,outfit,accent,onder,skin){
+  const ink="#1d1b2e", body=`<path d="M30 96 Q50 88 70 96 L80 120 L20 120 Z" fill="${outfit}" stroke="${ink}" stroke-width="2"/>`;
+  const rev=shade(outfit,.78), ond=ONDER[onder]||ONDER.wit;
+  const revers=`<path d="M41 90 L50 112 L45 101 L36 96 Z M59 90 L50 112 L55 101 L64 96 Z" fill="${rev}" stroke="${ink}" stroke-width="1.3" stroke-linejoin="round"/>`;
+  switch(k){
+    case "colbert-das": return body+`<path d="M41 90 L50 112 L59 90 Z" fill="#fff" stroke="${ink}" stroke-width="1.3"/>
+      <path d="M48.3 93.5 L51.7 93.5 L53 105 L50 109 L47 105 Z" fill="${accent}" stroke="${ink}" stroke-width="1"/><path d="M47.6 89.5 L52.4 89.5 L51.6 93.8 L48.4 93.8 Z" fill="${accent}" stroke="${ink}" stroke-width="1"/>`+revers;
+    case "colbert-open": return body+`<path d="M41 90 L50 108 L59 90 Z" fill="#fff" stroke="${ink}" stroke-width="1.3"/><path d="M44 88 L50 99 L56 88" fill="${skin}" stroke="${ink}" stroke-width="1.2"/>
+      <path d="M43 88 L47 96 L42 93 Z M57 88 L53 96 L58 93 Z" fill="#fff" stroke="${ink}" stroke-width="1"/>`+revers;
+    case "colbert-top": return body+`<path d="M41 90 L50 112 L59 90 Z" fill="${ond}" stroke="${ink}" stroke-width="1.3"/><path d="M43 89 Q50 95 57 89" fill="${skin}" stroke="${ink}" stroke-width="1.1"/>`+revers;
+    case "blouse": return body+`<path d="M42 89 Q50 99 58 89 Z" fill="${skin}" stroke="${ink}" stroke-width="1.3"/><path d="M42 89 Q50 99 58 89" stroke="${shade(outfit,1.25)}" stroke-width="2" fill="none"/>`;
+    case "trui": return body+`<path d="M42 89 Q50 95 58 89" stroke="${rev}" stroke-width="3" fill="none"/>`;
+    case "coltrui": return body;
+    default: return body+`<path d="M44 88 L50 98 L56 88" fill="#fff" stroke="${ink}" stroke-width="1.5"/>`;
+  }
+}
+/* Col van de coltrui komt over de kin heen; daarom apart, na het gezicht getekend. */
+function colKraag(k,outfit){
+  if(k!=="coltrui")return "";
+  return `<path d="M40 86 Q50 92 60 86 L61 95 Q50 101 39 95 Z" fill="${outfit}" stroke="#1d1b2e" stroke-width="1.5"/><path d="M41 91 Q50 96 59 91" stroke="${shade(outfit,.75)}" stroke-width="1.2" fill="none"/>`;
+}
+function earrings(k){
+  if(k==="knopje")return `<circle cx="28.6" cy="68" r="1.7" fill="#e9d38a" stroke="#1d1b2e" stroke-width=".8"/><circle cx="71.4" cy="68" r="1.7" fill="#e9d38a" stroke="#1d1b2e" stroke-width=".8"/>`;
+  if(k==="ring")return `<circle cx="28.4" cy="71" r="2.6" fill="none" stroke="#c9a640" stroke-width="1.3"/><circle cx="71.6" cy="71" r="2.6" fill="none" stroke="#c9a640" stroke-width="1.3"/>`;
+  return "";
+}
+const OOG={bruin:"#5a4636",blauw:"#4f7fb0",groen:"#5d8a5a",grijs:"#7a8794"};
+const JAW={
+  smal:"M30 52 C30 30 70 30 70 52 C70 74 60 89 50 89 C40 89 30 74 30 52Z",
+  rond:"M27 53 C27 30 73 30 73 53 C73 76 62 87 50 87 C38 87 27 76 27 53Z",
+  hoekig:"M28 52 C28 30 72 30 72 52 C72 68 70 77 63 83 C58 87 54 88 50 88 C46 88 42 87 37 83 C30 77 28 68 28 52Z"
+};
+const BROW_W={dun:1.6,normaal:2.3,dik:3.2};
+/* Figuur getekend naar kenmerken. Nieuwe velden zijn optioneel; zonder die velden ziet het figuur er uit zoals voorheen
+   (alleen de kledingkleur volgt nu de echte partijkleur). */
+function portraitCharacter(u,outfit,emo,accent){
   const c=HAIR[u.haarkleur]||HAIR.bruin, skin=SKIN[u.huid]||SKIN.licht, ink="#1d1b2e";
-  const L={eye:"#5a4636"};
+  const L={eye:OOG[u.oogkleur]||OOG.bruin};
+  if(u.wenkbrauw&&BROW_W[u.wenkbrauw])L.brow={c:["blond","platinablond","wit","zilver","grijs","donkerblond"].includes(u.haarkleur)?shade(c,.7):shade(c,.85),w:BROW_W[u.wenkbrauw]};
   const lashes=u.gezicht==="v"?`<path d="M33 52 l-3 -2 M35 50.5 l-2 -3 M67 52 l3 -2 M65 50.5 l2 -3" stroke="${ink}" stroke-width="1.8" stroke-linecap="round"/>`:"";
   const age=u.leeftijd==="ouder"?`<path d="M34 68 q6 2 11 0 M55 68 q6 2 11 0" stroke="#b88a72" stroke-width="1.3" fill="none"/>`:"";
-  const jaw=u.gezicht==="m"?"M28 52 C28 30 72 30 72 52 C72 72 62 88 50 88 C38 88 28 72 28 52Z":"M28 52 C28 30 72 30 72 52 C72 74 60 87 50 87 C40 87 28 74 28 52Z";
-  return `${hairBack(u.kapsel,c)}
-  <path d="M30 96 Q50 88 70 96 L80 120 L20 120 Z" fill="${outfit}" stroke="${ink}" stroke-width="2"/>
-  <path d="M44 88 L50 98 L56 88" fill="#fff" stroke="${ink}" stroke-width="1.5"/>
+  const jaw=JAW[u.gezichtsvorm]||(u.gezicht==="m"?"M28 52 C28 30 72 30 72 52 C72 72 62 88 50 88 C38 88 28 72 28 52Z":"M28 52 C28 30 72 30 72 52 C72 74 60 87 50 87 C40 87 28 74 28 52Z");
+  const back=u.volume==="vol"?`<g transform="translate(50 0) scale(1.1 1) translate(-50 0)">${hairBack(u.kapsel,c)}</g>`:hairBack(u.kapsel,c);
+  const front=u.pony&&u.pony!=="geen"?pony(u.pony,c):hairFront(u.kapsel,c);
+  const fit=(x)=>u.gezichtsvorm==="smal"?`<g transform="translate(50 0) scale(.95 1) translate(-50 0)">${x}</g>`:x;
+  return `${back}
+  ${clothes(u.kleding,outfit,accent||"#ffffff",u.onder,skin)}
   <path d="${jaw}" fill="${skin}" stroke="${ink}" stroke-width="2"/>
-  ${age}${beard(u.baard,c)}${u.spiegel?`<g transform="translate(100 0) scale(-1 1)">${hairFront(u.kapsel,c)}</g>`:hairFront(u.kapsel,c)}${eyes(L,emo)}${lashes}${glasses(u.bril)}${mouth(emo)}${extras(emo)}`;
+  ${colKraag(u.kleding,outfit)}${age}${beard(u.baard,c)}${earrings(u.oorbel)}${fit(u.spiegel?`<g transform="translate(100 0) scale(-1 1)">${front}</g>`:front)}${eyes(L,emo)}${lashes}${glasses(u.bril,u.montuur)}${mouth(emo)}${extras(emo)}`;
 }

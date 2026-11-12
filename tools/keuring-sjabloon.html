@@ -25,6 +25,8 @@ label.chk{display:flex;gap:6px;align-items:center;font-size:15px}
 .card img{width:120px;height:150px;object-fit:cover;border-radius:8px;display:block}
 .figs{display:flex;gap:6px;background:#fff;border-radius:10px;padding:6px;min-width:0}
 .figs svg{flex:1 1 0;min-width:0;max-width:110px;height:auto}
+.figs .was{flex:1 1 0;min-width:0;max-width:110px;margin:0;opacity:.75;border-right:2px dashed #ccc;padding-right:6px;text-align:center}
+.figs .was svg{display:block;width:100%;max-width:none}.figs .was figcaption{font-size:12px;color:#5d5a72}
 .info{display:flex;flex-direction:column;gap:8px;min-width:0}
 .info h2{font-family:var(--display);font-size:1.15rem;margin:0}
 .info .f{color:var(--muted);font-size:14px}
@@ -52,7 +54,7 @@ textarea{font:inherit;font-size:14px;width:100%;box-sizing:border-box;min-height
     <button id="next" type="button">Volgende 5 →</button>
   </div>
   <div class="cards" id="cards"></div>
-  <p class="note">De portretten zijn de officiële foto's van de Tweede Kamer (Tom Berendsen: Wikimedia Commons). Ze staan alleen op deze keuringspagina en komen niet op de site. Kleding volgt de kleur van de partij.</p>
+  <p class="note">De portretten zijn de officiële foto's van de Tweede Kamer (Tom Berendsen: Wikimedia Commons). Ze staan alleen op deze keuringspagina en komen niet op de site. Kleding volgt de kleur van de partij. Bij een aangepast figuur staat links, iets lichter, het figuur zoals het was.</p>
 </div>
 <script>
 __STRIP__
@@ -62,7 +64,8 @@ const oordelen={}; let db=null, group=0;
 try{group=Number(localStorage.getItem("keuring-groep"))||0}catch(e){}
 function esc2(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 function list(){return $("open").checked?ROWS.filter(r=>!oordelen[r.id]?.oordeel):ROWS;}
-function traits(u){return [u.kapsel+", "+u.haarkleur, u.bril!=="geen"?"bril "+u.bril:"geen bril", u.baard!=="geen"?"baard "+u.baard:"geen baard", "huid "+u.huid, u.leeftijd].join(" · ");}
+function traits(u){const extra=[["gezichtsvorm","gezicht "],["wenkbrauw","wenkbrauw "],["oogkleur","ogen "],["kleding",""],["onder","eronder "],["montuur","montuur "],["oorbel","oorbel "],["pony","pony "],["volume","haar "]].filter(([k])=>u[k]).map(([k,t])=>t+u[k]);
+  return [u.kapsel+", "+u.haarkleur, u.bril!=="geen"?"bril "+u.bril:"geen bril", u.baard!=="geen"?"baard "+u.baard:"geen baard", "huid "+u.huid, u.leeftijd, ...extra].join(" · ");}
 function render(){
   const L=list(); const n=Math.max(1,Math.ceil(L.length/5)); group=Math.min(Math.max(0,group),n-1);
   try{localStorage.setItem("keuring-groep",group)}catch(e){}
@@ -74,7 +77,7 @@ function render(){
   $("cards").innerHTML=part.length?part.map(r=>{const o=oordelen[r.id]||{};const L2=makeLook(r.id,r.fractie==="kabinet"?"":r.fractie,r.u);
     return `<article class="card ${o.oordeel||""}" data-id="${r.id}">
       <img src="${r.foto}" alt="Officieel portret van ${esc2(r.naam)}">
-      <div class="mid"><div class="figs">${["neutraal","blij","boos"].map(e=>`<svg viewBox="10 10 80 100" role="img" aria-label="Figuur ${esc2(r.naam)}, ${e}">${character(L2,e)}</svg>`).join("")}</div>
+      <div class="mid"><div class="figs">${r.oud?`<figure class="was"><svg viewBox="10 10 80 100" role="img" aria-label="Figuur ${esc2(r.naam)} zoals het was">${character(makeLook(r.id,r.fractie==="kabinet"?"":r.fractie,r.oud),"neutraal")}</svg><figcaption>was</figcaption></figure>`:""}${["neutraal","blij","boos"].map(e=>`<svg viewBox="10 10 80 100" role="img" aria-label="Figuur ${esc2(r.naam)}, ${e}">${character(L2,e)}</svg>`).join("")}</div>
       <div class="traits">${esc2(traits(r.u))}</div></div>
       <div class="info"><div><h2>${esc2(r.naam)}</h2><div class="f">${esc2(r.fractie)}</div></div>
         <div class="btns"><button type="button" class="ok" aria-pressed="${o.oordeel==="goed"}">Goed</button><button type="button" class="no" aria-pressed="${o.oordeel==="fout"}">Niet goed</button></div>
