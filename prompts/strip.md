@@ -13,7 +13,7 @@ Elke tekst schrijf je twee keer, onder `normaal` en `makkelijk`. Beide versies z
 ## Een deel van een lang debat
 Heeft het agendapunt een veld `deel`, dan is het één deel van een lang debat (`deel.nummer` van `deel.van`, fase `deel.fase`, zoals "Inbreng van de Kamer" of "Antwoord van het kabinet").
 - Vat alleen samen wat in dít deel gezegd is. Verwijs niet naar wat in andere delen staat.
-- Zeg in de samenvatting om welk deel het gaat: bijvoorbeeld "In dit deel van het debat over het Belastingplan geven Brekelmans (VVD) en Eerdmans (JA21) hun inbreng."
+- Zeg in de samenvatting om welk deel het gaat, met de fase en de sprekers maar **zonder volgnummer** (de nummering kan veranderen als er later delen bijkomen; de site toont het nummer zelf): bijvoorbeeld "In dit deel van het debat over het Belastingplan geven Brekelmans (VVD) en Eerdmans (JA21) hun inbreng." Niet: "In dit tweede deel …".
 - De titel gaat over de kern van dit deel, niet over het hele debat.
 - "Wie vindt wat?" bevat de fracties die in dit deel spraken. Een antwoord van het kabinet staat in een ander deel als het hier niet voorkomt; schrijf dan niet dat het ontbreekt.
 - Bij een antwoord van het kabinet: noem aan wie de bewindspersoon antwoordt.
