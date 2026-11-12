@@ -29,6 +29,24 @@
   "persoon_id": "0079c245-1bd8-45fb-8cb8-afa4b7bc5d36",
   "spiegel": false
  },
+ "01be9ad7-0444-483a-9983-5f66f1402f6a": {
+  "baard": "geen",
+  "bril": "geen",
+  "bron": "foto aangeleverd door de eigenaar (geen Kamerportret)",
+  "fractie": "FVD",
+  "gezicht": "v",
+  "goedgekeurd": false,
+  "haarkleur": "donkerbruin",
+  "huid": "licht",
+  "kapsel": "lang-golf",
+  "kleding": "colbert-top",
+  "leeftijd": "jong",
+  "naam": "Iem Al Biyati",
+  "onder": "licht",
+  "persoon_id": "01be9ad7-0444-483a-9983-5f66f1402f6a",
+  "spiegel": false,
+  "wenkbrauw": "dik"
+ },
  "02da66c7-029f-4207-a00d-21babf0d3cc6": {
   "baard": "kort",
   "bril": "geen",
@@ -2546,7 +2564,7 @@
   "fractie": "",
   "gezicht": "m",
   "gezichtsvorm": "rond",
-  "goedgekeurd": false,
+  "goedgekeurd": true,
   "haarkleur": "lichtbruin",
   "huid": "licht",
   "kapsel": "kort-inham",
