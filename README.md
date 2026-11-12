@@ -1,6 +1,6 @@
 # Wat zei de Kamer?
 
-Debatten uit de Tweede Kamer in makkelijke taal, met een anime-strip waarin elk vak het letterlijke citaat toont. Site: watzeidekamer.nl (Cloudflare Pages, map `public/`).
+Debatten uit de Tweede Kamer in normale taal, met een anime-strip waarin elk vak het letterlijke citaat toont. Site: watzeidekamer.nl (Cloudflare Pages, map `public/`).
 
 ## Hoe het werkt
 

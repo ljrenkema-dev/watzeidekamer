@@ -31,9 +31,9 @@ def page(title, body, scripts="", root=""):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="{root}style.css">
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><span class="note">Tweede Kamer in makkelijke taal</span></header>
+<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><span class="note">Tweede Kamer in normale taal</span></header>
 {body}
-<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in makkelijke taal gezet. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer.</footer>
+<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer.</footer>
 </div>{scripts}</body></html>"""
 
 
@@ -101,7 +101,7 @@ def index(items):
     opties = "".join(f'<option value="{e(p)}">{e(p)}</option>' for p in partijen)
     body = f"""<main style="display:flex;flex-direction:column;gap:20px">
 <h1>Wat zei de <mark>Kamer?</mark></h1>
-<p class="lede">Debatten uit de Tweede Kamer in makkelijke taal, met een strip. Elk plaatje laat zien wat er echt gezegd is.</p>
+<p class="lede">Debatten uit de Tweede Kamer in normale taal, met een strip. Elk plaatje laat zien wat er echt gezegd is.</p>
 <div class="filters"><label for="q" class="visually-hidden" style="position:absolute;left:-9999px">Zoeken</label>
 <input id="q" type="search" placeholder="Zoek op onderwerp of naam, bijvoorbeeld 'belasting'">
 <label for="partij" style="position:absolute;left:-9999px">Partij</label>
