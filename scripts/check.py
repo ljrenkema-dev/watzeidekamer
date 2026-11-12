@@ -54,6 +54,10 @@ def check(pid):
                 fouten.append(f"vak {i}: tekst '{niv}' ontbreekt")
             elif len(t.split()) > maxw:
                 waarsch.append(f"vak {i}: tekst '{niv}' is lang ({len(t.split())} woorden)")
+    # de Verteller alleen als eerste of laatste vak
+    for i, v in enumerate(vakken):
+        if v.get("spreker_id") is None and 0 < i < len(vakken) - 1:
+            fouten.append(f"vak {i + 1}: de Verteller mag alleen het eerste of laatste vak zijn")
     # vakken in de volgorde van het debat: positie van het eerste citaatstuk in de spreekbeurten
     posities = []
     for v in vakken:

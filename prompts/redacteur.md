@@ -51,6 +51,8 @@ Gebruik de uitkomst van `evenwicht.py` als startpunt, niet als oordeel:
 - **Nooit** een citaat herschrijven om het "kloppend" te maken, en nooit `scripts/check.py` wijzigen.
 - Is de strip niet te redden (bijvoorbeeld omdat het agendapunt verkeerd is opgeknipt of de bron onvolledig is): zet `"ingetrokken": true` en een korte `"reden"` in het stripbestand. Dan publiceert `build.py` hem niet.
 
+**Controleer je eigen nieuwe tekst.** Uit de tweede lezing bleek dat een redacteur zelf fouten kan toevoegen: een voorbehoud dat wegvalt in een herschreven samenvatting, of twee partijen die ten onrechte aan elkaar gekoppeld worden. Lees elke zin die jij schreef nog één keer tegen de bron en de lessen.
+
 Draai na je wijzigingen opnieuw `check.py` en `evenwicht.py`.
 
 ## Verslag

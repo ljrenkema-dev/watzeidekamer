@@ -20,7 +20,7 @@ def main(dagen):
         if r.get("datum", "") < grens:
             continue
         strips += 1
-        for b in r.get("bevindingen", []):
+        for b in r.get("bevindingen", []) + (r.get("tweede_lezing") or {}).get("bevindingen", []):
             totaal += 1
             les = b.get("les") or "zonder les"
             per_les[les] += 1

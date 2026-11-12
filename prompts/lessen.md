@@ -2,7 +2,7 @@
 
 Dit zijn fouten die de schrijver eerder maakte en die de redactie moest verbeteren. **Lees ze vóór je een strip schrijft** en controleer je tekst er zelf op. De redacteur verwijst bij elke bevinding naar het nummer van de les (`"les": "L3"`), of naar `"nieuw"` als de fout nog niet in deze lijst staat.
 
-Bijgewerkt na elke redactieronde (zie `CLAUDE.md`). Houd de lijst kort: voeg samen in plaats van te stapelen, hooguit 15 lessen.
+Bijgewerkt na elke redactieronde (zie `CLAUDE.md`). Houd de lijst kort: voeg samen in plaats van te stapelen, hooguit 15 lessen (nu vol: voeg voortaan samen).
 
 **L1. Voorbehouden blijven staan.**
 "voor zover wij weten", "Nederland gelooft dat", "op basis van het juridisch advies", "ik zie geen", "misschien", "kan geen barrière zijn" horen erbij.
@@ -57,3 +57,15 @@ Een feitelijke vraag is `neutraal` of `bezorgd`, niet `boos`. Maak niemand agres
 - Een novelle is een wetsvoorstel dat een ander wetsvoorstel aanpast.
 - Box 2 is voor wie een aanmerkelijk belang heeft: minstens 5% van de aandelen.
 - Gebruik de uitleg uit het debat zelf als die er is ("in de volksmond: papieren winst").
+
+**L13. Een standpunt is van één persoon.**
+Onder een spreker staat alleen wat díe persoon zei. Spraken twee mensen van dezelfde fractie, voeg hun punten niet samen onder één naam: die tekst verschijnt ook op de persoonspagina.
+- Fout: onder Jimmy Dijk (SP) het jeugdzorgpunt van Sarah Dobbe (SP).
+
+**L14. Koppel partijen niet aan elkaar zonder bron.**
+Schrijf alleen "net als X" of "steunt het voorstel van X" als de spreker dat zelf zegt, en geef het voorstel van elke partij apart weer als ze verschillen.
+- Fout: "Net als DENK wil de ChristenUnie de minister eerst laten antwoorden." DENK wilde dat de minister eerst op de politieke situatie inging en het wetgevingsoverleg in een apart debat.
+
+**L15. De Verteller opent of sluit, meer niet.**
+De Verteller is alleen het eerste of laatste vak. Een uitspraak van een spreker hoort in een vak van die spreker, niet bij de Verteller.
+
