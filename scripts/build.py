@@ -110,6 +110,17 @@ document.querySelectorAll('.partijen section').forEach(s=>s.hidden=![...s.queryS
     return len(mensen)
 
 
+def is_interruptie(punt, vak):
+    """Komt het citaat van dit vak uit een interruptie (rol 'interrumpant' in het verslag)?"""
+    from check import norm
+    import re as _re
+    stuk = _re.split(r"\s*(?:…|\.\.\.)\s*", norm(vak.get("citaat", "")))[0]
+    for b in punt["beurten"]:
+        if b["spreker"]["id"] == vak.get("spreker_id") and stuk and stuk in norm(b["tekst"]):
+            return b["rol"] == "interrumpant"
+    return False
+
+
 def delen_nav(punt):
     """Bij een lang debat dat in delen is geknipt: welk deel dit is en links naar de andere delen."""
     d = punt.get("deel")
@@ -201,7 +212,7 @@ def debat(punt, strip):
     for p in strip["strip"]:
         sp = bekend.get(p["spreker_id"]) if p["spreker_id"] else None
         vakken.append({"spreker": sp["verslagnaam"] if sp else "Verteller", "wie": wie(sp) if sp else "",
-                       "emotie": p["emotie"], "citaat": p["citaat"],
+                       "emotie": p["emotie"], "citaat": p["citaat"], "interruptie": is_interruptie(punt, p),
                        "tekst": {"normaal": niv(p["tekst"], "normaal"), "makkelijk": niv(p["tekst"], "makkelijk")}})
     status = (f'<span class="tag warn">Voorlopig verslag</span>' if v["status"] in VOORLOPIG
               else '<span class="tag">Gecorrigeerd verslag</span>')

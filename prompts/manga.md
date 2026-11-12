@@ -31,5 +31,8 @@ verbaasd → raised eyebrows, mouth slightly open
 denkend → looking slightly up and aside, hand near chin
 vastberaden → determined look, set jaw
 
+## Houding: interruptie
+Naast de emoties één houding: **interruptie**. Hetzelfde figuur staat bij een losse microfoon in het gangpad, leunt iets naar voren, één hand geheven in een spreekgebaar, betrokken en vastberaden. Middel-op in plaats van borstbeeld, effen witte achtergrond, niets anders in beeld. De strip gebruikt deze houding voor vakken waarin iemand interrumpeert, zodat een interruptie er anders uitziet dan een spreekbeurt.
+
 ## Keuring
 De beelden komen in `data/manga/<sleutel>/<emotie>.png` en worden gekeurd op een keuringspagina met het officiële portret ernaast (alleen op die privépagina). Pas na goedkeuring gebruikt de strip ze.

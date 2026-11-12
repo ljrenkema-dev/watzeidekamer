@@ -1,5 +1,5 @@
 """Pilot: manga-figuren per politicus met Gemini. Gebruik:
-  python3 scripts/manga.py                         # de 5 pilotpolitici, alle emoties
+  python3 scripts/manga.py                         # de 5 pilotpolitici, alle emoties en houdingen
   python3 scripts/manga.py --namen "Geert Wilders" --emoties neutraal,boos
   python3 scripts/manga.py --emoties neutraal --stijl zw,kleur      # stap 1 van de pilot: stijlen vergelijken
 Stijlen: zw (zwart-wit met partijkleur als accent) en kleur (gekleurde manga). Uitvoer per stijl in data/manga/<stijl>/.
@@ -24,6 +24,12 @@ EMOTIES = {
     "verbaasd": "eyebrows raised, mouth slightly open in surprise",
     "denkend": "looking slightly up and to the side, one hand near the chin, thinking",
     "vastberaden": "a determined look, set jaw, steady eyes",
+}
+# Houdingen naast de emoties. De strip gebruikt 'interruptie' voor een vak waarin iemand interrumpeert.
+HOUDINGEN = {
+    "interruptie": ("Same character, now standing at a simple free-standing microphone in an aisle, leaning slightly "
+                    "forward, one hand raised in a speaking gesture, a determined, engaged expression. Waist-up framing "
+                    "instead of a bust, the microphone on a plain stand, still a plain white background, nothing else in the scene."),
 }
 STIJLEN = {}
 STIJLEN["zw"] = ("Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, "
@@ -96,12 +102,16 @@ def maak(sleutel, u, emoties, log, stijl="zw"):
     basis = f"{STIJLEN[stijl]}\n\nCharacter: {beschrijving(u)}"
     neutraal = map_ / "neutraal.png"
     for emo in ["neutraal"] + [e for e in emoties if e != "neutraal"]:
+        if emo in HOUDINGEN:
+            tekst_houding = HOUDINGEN[emo]
+        else:
+            tekst_houding = None
         if emo not in emoties and neutraal.exists():
             continue
         uit = map_ / f"{emo}.png"
         if uit.exists():
             continue
-        tekst = f"{basis}\nExpression: {EMOTIES[emo]}."
+        tekst = f"{basis}\n{tekst_houding}" if tekst_houding else f"{basis}\nExpression: {EMOTIES[emo]}."
         inhoud = [{"type": "text", "text": tekst}]
         if emo != "neutraal" and neutraal.exists():
             inhoud = [{"type": "text", "text": "Draw exactly the same character as in this reference image, same face, hair, clothes, "
@@ -146,6 +156,6 @@ def main(namen, emoties, stijlen):
 if __name__ == "__main__":
     a = sys.argv[1:]
     namen = a[a.index("--namen") + 1].split(",") if "--namen" in a else PILOT
-    emoties = a[a.index("--emoties") + 1].split(",") if "--emoties" in a else list(EMOTIES)
+    emoties = a[a.index("--emoties") + 1].split(",") if "--emoties" in a else list(EMOTIES) + list(HOUDINGEN)
     stijlen = a[a.index("--stijl") + 1].split(",") if "--stijl" in a else ["zw"]
     main(namen, emoties, stijlen)
