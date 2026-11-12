@@ -61,7 +61,7 @@ def politici(strips, uiterlijk, koppeling):
     for naam, m in mensen.items():
         sp = m["spreker"]
         u = next((uiterlijk.get(koppeling.get(i, "")) for i in m["ids"] if koppeling.get(i)), None)
-        kenm = {k: u.get(k) for k in ("gezicht", "haarkleur", "kapsel", "bril", "baard", "huid", "leeftijd", "spiegel")} if u else None
+        kenm = {k: u.get(k) for k in KENMERKEN} if u else None
         ds = sorted(m["debatten"].values(), key=lambda d: d["punt"]["begin"], reverse=True)
         tot = {k: sum(d[k] for d in ds) for k in ("beurten", "interrupties", "woorden")}
         items = []
