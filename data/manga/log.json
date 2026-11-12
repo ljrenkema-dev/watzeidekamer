@@ -3,5 +3,82 @@
   "wie": "Geert Wilders",
   "emotie": "neutraal",
   "fout": "HTTP 400: [{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Unhandled generated data mime type: image/jpeg\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n]"
+ },
+ {
+  "wie": "Geert Wilders",
+  "emotie": "neutraal",
+  "stijl": "zw",
+  "prompt": "Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, subtle hatching, no colour except a single small accent colour on the tie or scarf. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols.\n\nCharacter: A fictional Dutch politician in their sixties, a man, platinum-blond hair, short with a combed-back quiff, no glasses, clean-shaven, light skin, wearing a dark suit with a dark blue tie.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Geert Wilders",
+  "emotie": "neutraal",
+  "stijl": "zw",
+  "prompt": "Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, subtle hatching, no colour except a single small accent colour on the tie or scarf. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their sixties, a man, platinum-blond hair, short with a combed-back quiff, no glasses, clean-shaven, light skin, wearing a dark suit with a dark blue tie.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Geert Wilders",
+  "emotie": "neutraal",
+  "stijl": "kleur",
+  "prompt": "Full-colour manga illustration in the style of a colour manga cover, clean confident ink lines, soft cel shading with a few gradients, natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their sixties, a man, platinum-blond hair, short with a combed-back quiff, no glasses, clean-shaven, light skin, wearing a dark suit with a dark blue tie.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Jesse Klaver",
+  "emotie": "neutraal",
+  "stijl": "zw",
+  "prompt": "Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, subtle hatching, no colour except a single small accent colour on the tie or scarf. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their forties or fifties, a man, black hair, short and curly, no glasses, clean-shaven, light skin, wearing a dark suit with a red tie.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Jesse Klaver",
+  "emotie": "neutraal",
+  "stijl": "kleur",
+  "prompt": "Full-colour manga illustration in the style of a colour manga cover, clean confident ink lines, soft cel shading with a few gradients, natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their forties or fifties, a man, black hair, short and curly, no glasses, clean-shaven, light skin, wearing a dark suit with a red tie.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Mona Keijzer",
+  "emotie": "neutraal",
+  "stijl": "zw",
+  "prompt": "Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, subtle hatching, no colour except a single small accent colour on the tie or scarf. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their sixties, a woman, grey hair, long and straight, rectangular glasses, light skin, wearing a dark blazer with a small teal scarf.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Mona Keijzer",
+  "emotie": "neutraal",
+  "stijl": "kleur",
+  "prompt": "Full-colour manga illustration in the style of a colour manga cover, clean confident ink lines, soft cel shading with a few gradients, natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their sixties, a woman, grey hair, long and straight, rectangular glasses, light skin, wearing a dark blazer with a small teal scarf.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Caroline van der Plas",
+  "emotie": "neutraal",
+  "stijl": "zw",
+  "prompt": "Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, subtle hatching, no colour except a single small accent colour on the tie or scarf. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their sixties, a woman, black hair, shoulder-length and wavy, no glasses, light skin, wearing a dark blazer with a small green scarf.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Caroline van der Plas",
+  "emotie": "neutraal",
+  "stijl": "kleur",
+  "prompt": "Full-colour manga illustration in the style of a colour manga cover, clean confident ink lines, soft cel shading with a few gradients, natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their sixties, a woman, black hair, shoulder-length and wavy, no glasses, light skin, wearing a dark blazer with a small green scarf.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Don Ceder",
+  "emotie": "neutraal",
+  "stijl": "zw",
+  "prompt": "Black-and-white manga illustration, clean confident ink lines, classic seinen style, screentone shading, subtle hatching, no colour except a single small accent colour on the tie or scarf. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their forties or fifties, a man, black hair, very short, buzzed, no glasses, a short, neat beard, medium skin, wearing a dark suit with a light blue tie.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Don Ceder",
+  "emotie": "neutraal",
+  "stijl": "kleur",
+  "prompt": "Full-colour manga illustration in the style of a colour manga cover, clean confident ink lines, soft cel shading with a few gradients, natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their forties or fifties, a man, black hair, very short, buzzed, no glasses, a short, neat beard, medium skin, wearing a dark suit with a light blue tie.\nExpression: calm, attentive expression, mouth closed.",
+  "model": "gemini-3.1-flash-image"
  }
 ]

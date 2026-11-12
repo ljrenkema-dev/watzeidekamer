@@ -36,13 +36,13 @@ STIJLEN["zw"] = ("Black-and-white manga illustration, clean confident ink lines,
          "subtle hatching, no colour except a single small accent colour on the tie or scarf. Expressive but restrained eyes. "
          "Bust portrait, facing the viewer, turned slightly to the right, plain white background, centred, the figure fills "
          "about 70% of the image height. Editorial newspaper-comic feel, respectful, not a caricature: no exaggerated features. "
-         "No text, no letters, no logos, no flags, no symbols.")
+         "No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.")
 STIJLEN["kleur"] = ("Full-colour manga illustration in the style of a colour manga cover, clean confident ink lines, "
                     "soft cel shading with a few gradients, natural skin and hair colours, muted dark clothing with the tie or "
                     "scarf in the accent colour. Expressive but restrained eyes. Bust portrait, facing the viewer, turned slightly "
                     "to the right, plain white background, centred, the figure fills about 70% of the image height. Editorial "
                     "newspaper-comic feel, respectful, not a caricature: no exaggerated features. "
-                    "No text, no letters, no logos, no flags, no symbols.")
+                    "No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.")
 STIJL = STIJLEN["zw"]
 HAAR = {"zwart": "black", "donkerbruin": "dark brown", "bruin": "brown", "lichtbruin": "light brown", "blond": "blond",
         "platinablond": "platinum-blond", "rood": "red", "grijs": "grey", "wit": "white"}

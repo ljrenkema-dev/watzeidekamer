@@ -5,6 +5,7 @@ Doel: per politicus één vaste set manga-figuren, één per emotie, die de stri
 ## Regels (niet onderhandelbaar)
 - **Geen portretfoto naar de beeldgenerator.** De beschrijving komt alleen uit de goedgekeurde kenmerken in `data/uiterlijk.json` (haar, bril, baard, huid, leeftijd, kleding). Het resultaat is een getekend figuur dat dezelfde kenmerken heeft, geen nagemaakte foto.
 - **Geen karikatuur.** Niets overdrijven: geen grote neus, geen dik/dun maken, geen tanden, geen huidskleur aanzetten. Vriendelijk en neutraal getekend; emoties ingetogen.
+- **Geen kader of rand** om het beeld: de strip tekent zelf het vak.
 - **Geen tekst in het beeld.** Geen letters, namen, logo's, partijsymbolen of vlaggen. Tekstballonnen voegt de site zelf toe.
 - **Zelfde opbouw bij elk figuur**: borstbeeld, recht van voren, iets naar rechts gedraaid, effen witte achtergrond, figuur gecentreerd en vult ongeveer 70% van de hoogte. Zo passen ze in elk stripvak.
 - **Partijkleur** alleen als klein accent: de stropdas, sjaal of een speld. De rest is zwart-wit.
