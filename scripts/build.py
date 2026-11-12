@@ -103,6 +103,29 @@ document.querySelectorAll('.partijen section').forEach(s=>s.hidden=![...s.queryS
     return len(mensen)
 
 
+def delen_nav(punt):
+    """Bij een lang debat dat in delen is geknipt: welk deel dit is en links naar de andere delen."""
+    d = punt.get("deel")
+    if not d:
+        return ""
+    items = []
+    for n in range(1, d["van"] + 1):
+        pid = f"{d['ouder_id']}-d{n}"
+        af = ROOT / "data" / "agendapunten" / f"{pid}.json"
+        fase = json.loads(af.read_text())["deel"]["fase"] if af.exists() else ""
+        heeft = (ROOT / "public" / "d" / f"{pid}.html").exists() or (ROOT / "data" / "strips" / f"{pid}.json").exists()
+        tekst = f"Deel {n}: {e(fase)}"
+        if n == d["nummer"]:
+            items.append(f'<li aria-current="page"><b>{tekst}</b></li>')
+        elif heeft:
+            items.append(f'<li><a href="{pid}.html">{tekst}</a></li>')
+        else:
+            items.append(f'<li>{tekst} <span class="note">(nog niet samengevat)</span></li>')
+    return (f'<nav class="delen" aria-label="Delen van dit debat"><p class="note">Dit lange debat ({d["woorden_totaal"]:,} woorden) '
+            f'is in {d["van"]} delen verdeeld. Dit is deel {d["nummer"]}: {e(d["fase"])}'
+            f'{(" — " + e(d["sprekers"])) if d["sprekers"] else ""}.</p><ol>{"".join(items)}</ol></nav>').replace(",", ".", 1)
+
+
 def redactie_regel(punt, strip):
     f = ROOT / "data" / "redactie" / f"{punt['id']}.json"
     if not f.exists():
@@ -185,7 +208,7 @@ def debat(punt, strip):
     body = f"""<main class="out" style="display:flex;flex-direction:column;gap:20px">
 <div class="meta"><span>{datum(v['datum'])}</span><span class="tag">{e(v['soort'])}</span>{status}</div>
 <h1>{twee(strip['titel'])}</h1>
-<p class="note">Agendapunt: {e(punt['titel'])}</p>
+<p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
 {twee(strip['samenvatting'], "p", "summary")}
 <h2>Wie vindt wat?</h2><div class="speakers">{kaarten}</div>
 <h2>Belangrijk om te weten</h2>{kern}
@@ -198,15 +221,47 @@ def debat(punt, strip):
     return page(f"{niv(strip['titel'], 'normaal')} – Wat zei de Kamer?", body, scripts, root="../"), sprekers
 
 
+def groepeer(items):
+    """Delen van één lang debat worden één regel in het overzicht, met de delen eronder."""
+    uit, groepen = [], {}
+    for it in items:
+        d = it.get("deel")
+        if not d:
+            uit.append(it); continue
+        g = groepen.get(d["ouder_id"])
+        if not g:
+            g = groepen[d["ouder_id"]] = {**it, "id": None, "delen": [], "fracties": set(), "zoek": "",
+                                          "titel": {"normaal": d["ouder_titel"], "makkelijk": d["ouder_titel"]}}
+            uit.append(g)
+        g["delen"].append(it)
+        g["fracties"] |= set(it["fracties"]); g["zoek"] += " " + it["zoek"]
+        g["voorlopig"] = g["voorlopig"] or it["voorlopig"]
+    for g in groepen.values():
+        g["delen"].sort(key=lambda x: x["deel"]["nummer"])
+        g["fracties"] = sorted(g["fracties"])
+        eerste = g["delen"][0]
+        g["lead"] = {n: f"In {eerste['deel']['van']} delen. " + niv(eerste["lead"], n) for n in ("normaal", "makkelijk")}
+    return uit
+
+
+def item_html(it):
+    kop = (f'<a href="d/{it["id"]}.html">{twee(it["titel"])}</a>' if it.get("id") else twee(it["titel"]))
+    delen = ""
+    if it.get("delen"):
+        delen = '<ol class="delenlijst">' + "".join(
+            f'<li><a href="d/{x["id"]}.html">Deel {x["deel"]["nummer"]}: {e(x["deel"]["fase"])}</a> — {twee(x["titel"])}</li>'
+            for x in it["delen"]) + "</ol>"
+    return (f'<li class="item" data-zoek="{e(it["zoek"].lower())}" data-fracties="{e("|".join(it["fracties"]))}">'
+            f'<div class="meta"><span>{datum(it["datum"])}</span><span class="tag">{e(it["soort"])}</span>'
+            f'{"<span class=\"tag warn\">Voorlopig</span>" if it["voorlopig"] else ""}</div>'
+            f'<h3>{kop}</h3>{twee(it["lead"], "p")}{delen}'
+            f'<div class="chips">{"".join(f"<span class=chip>{e(f)}</span>" for f in it["fracties"])}</div></li>')
+
+
 def index(items):
+    items = groepeer(items)
     partijen = sorted({f for it in items for f in it["fracties"]})
-    lijst = "".join(
-        f'<li class="item" data-zoek="{e(it["zoek"].lower())}" data-fracties="{e("|".join(it["fracties"]))}">'
-        f'<div class="meta"><span>{datum(it["datum"])}</span><span class="tag">{e(it["soort"])}</span>'
-        f'{"<span class=\"tag warn\">Voorlopig</span>" if it["voorlopig"] else ""}</div>'
-        f'<h3><a href="d/{it["id"]}.html">{twee(it["titel"])}</a></h3>{twee(it["lead"], "p")}'
-        f'<div class="chips">{"".join(f"<span class=chip>{e(f)}</span>" for f in it["fracties"])}</div></li>'
-        for it in items)
+    lijst = "".join(item_html(it) for it in items)
     opties = "".join(f'<option value="{e(p)}">{e(p)}</option>' for p in partijen)
     body = f"""<main style="display:flex;flex-direction:column;gap:20px">
 <h1>Wat zei de <mark>Kamer?</mark></h1>
@@ -249,7 +304,7 @@ def main():
         (OUT / "d" / f"{pid}.html").write_text(html_)
         v = punt["vergadering"]
         items.append({
-            "id": pid, "titel": strip["titel"] if isinstance(strip["titel"], dict) else {"normaal": strip["titel"]}, "datum": v["datum"], "soort": v["soort"], "begin": punt["begin"],
+            "id": pid, "deel": punt.get("deel"), "titel": strip["titel"] if isinstance(strip["titel"], dict) else {"normaal": strip["titel"]}, "datum": v["datum"], "soort": v["soort"], "begin": punt["begin"],
             "voorlopig": v["status"] in VOORLOPIG, "lead": {n: niv(strip["samenvatting"], n).split(". ")[0].rstrip(".") + "." for n in ("normaal", "makkelijk")},
             "fracties": sorted({s["fractie"] for s in sprekers if s["fractie"]}),
             "zoek": " ".join([niv(strip["titel"], "normaal"), niv(strip["titel"], "makkelijk"), punt["titel"],

@@ -99,3 +99,8 @@ html[data-taal="makkelijk"] .lv-n{display:none}
 .names{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:6px 16px}
 .names .note{font-size:13px}
 .sp h3 a{color:var(--ink)}
+
+/* lange debatten in delen */
+.delen{border:2px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--panel)}
+.delen p{margin:0 0 6px}
+.delen ol,.delenlijst{margin:6px 0 0;padding-left:1.4em;display:flex;flex-direction:column;gap:3px;font-size:15px}

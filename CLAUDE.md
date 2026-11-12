@@ -8,7 +8,7 @@ Site: watzeidekamer.nl. Debatten uit de Tweede Kamer in normale taal (standaard)
 ## Nachtelijke run
 1. `python3 scripts/fetch.py <vandaag-7-dagen> <vandaag>` en `python3 scripts/parse.py`.
 2. `python3 scripts/koppel.py` — koppelt sprekers aan figuren. Sprekers zonder figuur krijgen een neutraal figuur; noem ze in het verslag van de run (een figuur maken gebeurt apart, met keuring door de eigenaar).
-3. `python3 scripts/todo.py 10` — de agendapunten voor deze nacht (plenair eerst, nieuwste eerst; hooguit 10). Punten boven 25.000 woorden slaat het over: die moeten eerst opgeknipt worden.
+3. `python3 scripts/todo.py 10` — de agendapunten voor deze nacht (plenair eerst, nieuwste eerst; hooguit 10). `parse.py` knipt debatten boven 16.000 woorden al in delen (`<id>-d1`, `-d2`, …) langs spreekbeurten en fases (inbreng Kamer, antwoord kabinet, tweede termijn); elk deel krijgt een eigen strip. Delen van één debat staan in `todo.py` bij elkaar; maak ze bij voorkeur in dezelfde nacht.
 4. Maak per agendapunt een strip volgens `prompts/strip.md` (beide taalniveaus). Gebruik per agendapunt een eigen subagent, hooguit 5 tegelijk.
 5. **Redactie in twee lezingen**, elk door een eigen, nieuwe subagent die de strip nog niet kent:
    - **Eerste lezing**: volgens `prompts/redacteur.md`. Leest na tegen het agendapunt (ballon tegen citaat, samenvatting en standpunten, neutraliteit, ruimte per partij met `scripts/evenwicht.py`), verbetert teksten en schrijft `data/redactie/<id>.json`.

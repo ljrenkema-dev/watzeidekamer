@@ -1,0 +1,735 @@
+{
+ "id": "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d5",
+ "titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+ "onderwerp": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+ "soort_activiteit": "Wetgevingsoverleg",
+ "begin": "2026-11-09T14:57:55",
+ "eind": "2026-11-09T18:23:34",
+ "vergadering": {
+  "id": "2be272b3-9bb1-4eda-9d38-f34d32fb15b0",
+  "datum": "2026-11-09",
+  "gewijzigd": "2026-11-10T16:37:37.2846787+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+  "verslag_id": "35427849-3313-4039-b2cb-0fcb11281fba",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "woorden": 6627,
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T14:57:55",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Dank, voorzitter. Normaal gesproken stel ik me wat bescheidener op in een overleg over digitale zaken met ook de staatssecretaris van Economische Zaken en de staatssecretaris van Binnenlandse Zaken. Dank ook aan hen dat ik eerst mijn beantwoording mag doen. Ik zal dat doen langs drie blokjes. Eén: weerbaarheid en cybersecurity. Daar horen ook alle vragen bij over wie nu wat doet en waar de regie ligt. Dat is door meerdere leden van uw Kamer gevraagd. Dan kort over Offlimits en andere organisaties en financiering. Ten slotte over AI en digitale grondrechten, waarover ook een aantal vragen zijn gesteld. Ik zal ook antwoorden op de vraag hoe we die in acht nemen.\nEerst maar even de verantwoordelijkheden in cyberveiligheid. Ik ga die langslopen aan de hand van twee voorbeelden die door meerdere leden zijn genoemd, namelijk de kwetsbaarheden die in PHP zijn gezien en de vermoedelijke hack die bij Ahold heeft plaatsgevonden en die heeft geleid tot grote schade bij de supermarktketen. Kwetsbaarheden zoals die bij PHP gaan we in de toekomst nog wel vaker zien. Dit is inherent aan software. We zien, ook in dit geval, dat met behulp van AI het makkelijker is geworden om kwetsbaarheden te onderkennen en ook te kunnen misbruiken. Dat vraagt om een grotere snelheid in de omgang met dit soort constateringen. Je kunt je niet meer de luxe permitteren om, zoals hier wel is gebeurd, dit een aantal weken van alle kanten te gaan bewonderen alvorens te komen met een patch. In dit geval is de kwetsbaarheid naar buiten gekomen voordat de patch er was. Daardoor werd er een moment gecreëerd dat vroeg om acute actie. In dat geval ben ik als minister van JenV en als coördinerend bewindspersoon voor cybersecurity degene die daarvoor politiek verantwoordelijk is. Namens mij is het het NCSC, het Nationaal Cyber Security Centrum, dat daarmee vervolgens aan de slag gaat.\nDat heeft het NCSC ook gedaan. Ze hebben meteen doelgroepenberichten uitgebracht en ook geadviseerd om een risicoafweging te maken of organisaties al dan niet hun websites offline moesten halen. Daarbij wordt immers veel gebruik gemaakt van PHP. Een heleboel organisaties hebben dat ook gedaan, inclusief het Nationaal Cyber Security Centrum zelf, trouwens. Ook die site is offline gedaan. We hebben wel gezorgd voor een statische website waarop in ieder geval de informatie te vinden was die mensen nodig zouden kunnen hebben of om te verwijzen naar alternatieve digitale kanalen.\nZodra de patch beschikbaar was, was het NCSC vrij snel weer online nadat de patch was doorgevoerd. Via de verschillende sectoren hebben organisaties zichzelf weer online gebracht. Ik denk dat dat de kern is van hoe het moet werken: wij moeten als overheid zorgen dat de juiste informatie over dit soort kwetsbaarheden en het handelingsperspectief dat organisaties daarbij hebben beschikbaar komt, zodat mensen weten wat te doen, maar uiteindelijk kunnen we natuurlijk nooit de verantwoordelijkheid overnemen voor al die organisaties in Nederland die kwetsbaar kunnen zijn op basis van zo'n kwetsbaarheid in de software.\nHoe zit dat dan bij Ahold en de hack daar? Daar ligt het nog iets complexer. Ja, ook dan ben ik de coördinerend bewindspersoon op cybersecurity, maar we hebben wel afgesproken, ook in de Cyberbeveiligingswet die sinds 15 augustus van kracht is, zoals velen van u zeiden, dat de verantwoordelijkheid daarvoor per sector is verdeeld. Dat betekent dat vakministers een verantwoordelijkheid dragen, ook wettelijk, voor de cyberveiligheid binnen hun sectoren. Dat wil zeggen: als er een hack is van een ziekenhuis of een ziekenhuisketen, dan kunt u verwachten dat mevrouw Hermans in eerste instantie aan de lat staat om te kijken wat er is gebeurd, wat er moet gebeuren en wat het vervolg is. Dat gold dus ook voor staatssecretaris Erkens daar waar het gaat om voedselveiligheid en de keten die daaraan vastzit.\nNou had daar ook de minister van Justitie en Veiligheid kunnen zitten, zou u kunnen zeggen, want uiteindelijk betreft het ook een hack en zit ik daar altijd coördinerend boven. Dat kan, maar we hebben die sectorverantwoordelijkheid niet voor niks neergelegd. Elke sector — ik refereer daarbij ook aan de vraag van de heer Vermeer — heeft immers zijn eigen specifiteiten. Hoe maak je die weerbaar, hoe zorg je ervoor dat de sector blijft functioneren, ook als je een deel van de keten kwijtraakt? In het geval van supermarkten denk ik bijvoorbeeld aan de enorm moeilijke logistieke achterkant die eraan vastzit. Dat heeft dus ook geresulteerd in die schade van naar schatting 75 miljoen. Ik durf wel te beweren dat dit een bedrijf is dat goed voorbereid was op het gebied van cyberweerbaarheid. Naar mijn eerste inschatting, maar nader onderzoek zal dat moeten uitwijzen, heeft het bedrijf ook snel de conclusie getrokken: wij moeten offline om grotere schade te voorkomen. Ik vermoed dat ze dat daarmee ook hebben kunnen doen. Maar je ziet ook dat er meteen acute schade is ontstaan. Dat heeft geresulteerd in de lege schappen die we uiteindelijk in de winkels hebben gezien.\nWerkt de Cyberbeveiligingswet nou of niet? 15 augustus is zeer recent. Rondom Ahold leerden we meteen een aantal lessen die we ook meteen konden implementeren. Eén daarvan is de meldingsplicht bij significante incidenten. We zagen dat er niet spontaan melding werd gedaan door Ahold. Uiteindelijk hebben we tot op het hoogste niveau contact gehad. We hebben gezegd: die hebben we nodig, niet alleen voor jullie zelf, maar ook om andere bedrijven te helpen en te voorkomen dat zij getroffen worden door dezelfde aanval.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:03:38",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Meneer Van Weel, u heeft een interruptie. Ik wil de collega's graag even duidelijk maken dat we deze termijn zes interrupties van maximaal 30 seconden hanteren. Houd het dus beknopt, anders telt het als twee interrupties. Anders redden we het echt niet. Dat doe ik ook voor de medewerkers, de griffie en noem maar op.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:03:55",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nu gaat het om een heel groot bedrijf met heel grote impact. Maar hoe ziet het protocol er eigenlijk uit? Soms wordt de boel gewoon offline gehaald omdat er intern iets misgaat. Dat kan gewoon een storing in interne systemen betreffen. De ene keer is het door een hack veroorzaakt en de andere keer is het om een hack te voorkomen. Wat is eigenlijk het protocol? Dan weet het kabinet wie het de woordvoering moet laten doen.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:04:26",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Wat betreft de woordvoering: een PHP-kwetsbaarheid raakt alle sectoren. Sterker nog, die raakt bijna iedereen die van het internet gebruikmaakt, op welke manier dan ook. Dan is het logisch dat ik, als coördinerend bewindspersoon van cybersecurity, daar het voortouw in neem. Uiteindelijk heb ik dat ook gedaan. Ik ben ook degene geweest die uiteindelijk een brief heeft gestuurd aan uw Kamer, mede namens de beide staatssecretarissen, over de acties die we hebben ondernomen. Als zo'n hack zich voordoet in een specifieke sector, zoals bij Ahold — het kan ook elders zijn, bijvoorbeeld in de zorg of bij infrastructuur; denk aan bruggen die opengezet worden als gevolg van een hack — ligt de eerste verantwoordelijkheid bij de bewindspersoon die verantwoordelijk is voor de sector, ook omdat die moet kijken naar de specifieke mitigerende maatregelen die getroffen kunnen worden. Daarvoor is enige kennis van de sector nodig. Dan nog zult u zien dat de brieven waarschijnlijk altijd mede namens mij worden verstuurd. Dat gaat puur om de cybercomponent die erbij zit en de overkoepelende verantwoordelijkheid die ik daarvoor heb. Dat is de manier waarop we dat wettelijk hebben vastgelegd.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:05:40",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Een vervolgvraag van de heer Vermeer.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:05:41",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Bij een hack is het duidelijk, maar dit ging volgens mij niet eens om een hack. Dit ging om een preventieve maatregel. Eigenlijk was het een update, een patch van software die nou eenmaal breed gebruikt wordt. Als wij straks met kwantumcomputing wat sprongen maken, gaan we nog veel meer fouten in oude systemen ontdekken die we nu nog niet kennen. Is het dan de bedoeling dat het kabinet elke keer iets moet gaan zeggen over iets wat eigenlijk een normaal ICT-proces zou moeten zijn?",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:06:14",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Nee. Daarom noemde ik twee voorbeelden. Het Nationaal Cyber Security Centrum geldt voor de hele digitale sector en heeft geen sectorspecifieke aspecten. Wat betreft PHP kunt u mij en het NCSC verwachten. Waar het gaat om hacks bij individuele bedrijven — denk in dit geval aan Ahold — zult u in eerste instantie zien dat de vakminister daar de woordvoering doet, ook vanwege de mogelijke uitstralingseffecten die daaruit kunnen voortvloeien, bijvoorbeeld voor de voedselzekerheid.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:06:49",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank aan de minister voor de beantwoording. Ik denk dat ik heel goed snap waar dit vandaan komt, maar vanuit de Kamer bestaat er de grote behoefte dat het kabinet inziet dat er altijd sprake is van een overkoepelende bestuurlijke verantwoordelijkheid. Dat merkte ik de afgelopen keren toen er mondelinge vragen werden gesteld. De ene keer gaat om supermarkten. Het is heel veel hackers en zeker statelijke actoren te doen om het ingrijpen in kwetsbaarheden en vitale infrastructuur. Ze zijn niet specifiek op zoek naar een sector, maar naar kwetsbaarheden. Daar kun je van leren voor andere kwetsbaarheden. Na PHP wil je ook dat er een soort mechanisme op gang komt en er wordt gezegd: \"Oké, wie brengt in kaart waar de kwetsbaarheden voor de overheid zitten? Wat zijn de consequenties? Hoe doen we de communicatie richting Nederlanders?\" Hetzelfde geldt bij de supermarkten. Wie gaat zorgen dat we deze lessen kunnen trekken en dat alle sectoren daarvan kunnen profiteren? Dat overkoepelende karakter is er dus altijd. Volgens mij is de vraag vanuit de Kamer vooral hoe het kabinet dat gaat invullen qua communicatie, aanspreekbaarheid, verantwoordelijkheid, lessen trekken, al die aspecten. Moet daar misschien een plan voor komen, zodat dat heel duidelijk is? Daar zou ik namelijk heel veel behoefte aan hebben.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:07:59",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Ik denk dat het duidelijk is, zoals ik het net aan de hand van die twee voorbeelden heb gezegd. Dat is ook hoe wij het met elkaar overeen zijn gekomen in de Cyberbeveiligingswet. Ik kan nu dus niet die sectorale verantwoordelijkheden, die politieke verantwoordelijkheden, wegnemen bij collega's, terwijl we die net wettelijk hebben verankerd. Ik denk ook dat we nog moeten wennen. Helaas hebben we de afgelopen tijd genoeg gelegenheid gehad — dat zal de komende tijd ook het geval zijn, vrees ik — om te wennen aan de vraag: wie staat er nou op welk moment voor welk soort probleem?\nNogmaals, als er statelijke actoren achter blijken te zitten, of als het de nationale veiligheid of de weerbaarheid raakt, zult u mij overkoepelend altijd zien. Ik zie dat namelijk als mijn overkoepelende verantwoordelijkheid. Als het gaat om generieke kwetsbaarheden zult u mij ook zien. Bij PHP ben ik bijvoorbeeld ook het aanspreekpunt. Als het echt gaat om sectorspecifieke hacks, waarbij er nog geen sprake van een crisis is, zal de verantwoordelijkheid in eerste instantie liggen bij de verantwoordelijke sectorbewindspersoon. Op het moment dat we komen tot aspecten die een crisisniveau of de nationale veiligheid raken, dan hebben we onze hele crisisstructuur zoals we die in Nederland hebben ingericht, met de Ministeriële Commissie Crisisbeheersing. Dan komen we in actie met landelijke crisisplannen en ben ik er altijd, want op dat moment neemt het hele kabinet de landelijke regie op zich.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:09:34",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Een vervolgvraag van mevrouw Kathmann.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:09:35",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er is gewoon altijd een vraag om en een noodzaak voor overkoepelende verantwoordelijkheid. Niemand vraagt erom die sectorale verantwoordelijkheid af te pakken. Mensen vragen hoe de invulling van de overkoepelende aspecten gaat. Die aspecten zijn er namelijk altijd en die zitten 'm in communicatie, in lessen trekken, in het in kaart brengen van kwetsbaarheden in andere sectoren en noemt het maar op. Die overkoepelende aspecten zijn er altijd. We zijn gewaarschuwd dat we zulk soort storingen, hacks en noem het maar, op veel meer mee gaan maken. Er is gewoon grote behoefte om die overkoepelende, coördinerende verantwoordelijkheid vanuit het kabinet beter in kaart te brengen. Niemand vraagt: haal de sectorale verantwoordelijkheid weg.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:10:17",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Die sectorale verantwoordelijkheid betekent wel wat. Als de minister van Volksgezondheid daar staat om te duiden dat twee ziekenhuizen zijn gehackt, dan heeft dat impact op de dienstverlening in de zorg. Dat is haar verantwoordelijkheid. Zij zal dan ook heel duidelijk communiceren wat dit betekent voor ons zorgstelsel en waar mensen rekening mee moeten houden. Dat ligt evident bij haar. Ik denk dat we het daar wel over eens zijn.\nDan is de vraag of de cyberaspecten daarvan ook uitstralingseffecten hebben naar andere sectoren en hoe we daar dan mee omgaan. Daar zie ik absoluut een verantwoordelijkheid voor mijzelf en ook voor het Nationaal Cyber Security Centrum, dat in dat soort gevallen het punt zal zijn waar al die informatie samenkomt. Dat hebben we ook bij de Aholdhack gezien. Daar trekken we natuurlijk altijd bredere lessen uit, die niet alleen maar voor die sector gelden, maar breder. Ik ervaar en aanvaard die bredere, coördinerende verantwoordelijkheid voor cybersecurity. Bij specifieke incidenten in sectoren zal ik echter ook altijd de vakminister in positie brengen om datgene te doen wat nodig is in dat sectorgebied, ook in de communicatie.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:11:30",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U vervolgt, minister.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:11:34",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Je zult daar altijd iets van een grijs gebied in houden, maar houdt u ons ook daar alstublieft scherp. Als u mij ergens mist, kom ik graag opduiken.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:11:42",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De minister vervolgt zijn betoog.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:11:44",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Er waren ook vragen over hoe digitaal je nou moet worden. Moet je eigenlijk wel alles vasthangen aan het internet, of moet je toch ook terug kunnen vallen op systemen die daar geen moeite van hebben? Ik heb uw Kamer gehoord. Ik denk dat de interactie tussen de heer Vermeer en anderen de worsteling die we daarin allemaal zien precies weergeeft. Ik heb voor mezelf bepaald dat mijn koelkast thuis niet hoeft te communiceren met anderen dan mijzelf. Dat doen we wel visueel: ik doe de deur open en ik zie wat erin staat. Wat er ontbreekt, ga ik dan zelf wel halen, al dan niet digitaal. Dat laatste vind ik dan wel weer makkelijk, zeker in mijn baan. Het is makkelijk dat we de dienstverlening hebben om ook online boodschappen te kunnen bestellen en die te laten bezorgen. Daarmee neem je inherent altijd iets van een risico. Elk apparaat dat is aangesloten op het internet is uiteindelijk hackbaar, al dan niet door menselijke fouten dan wel door kwetsbaarheden in de systemen. We zullen daar altijd een afweging in moeten maken.\nIk denk dat de digitalisering van onze maatschappij niet meer te stoppen is en dat die ons in positieve zin ook heel veel brengt. Ik denk dat we de komende periode moeten werken aan de kwetsbaarheid en vooral ook aan de weerbaarheid. Ik heb mezelf drie jaar geleden wat minder populair gemaakt door bij een hack \"get used to it\" te zeggen. Die parafrasering was misschien wat kort door de bocht, maar in de kern sta ik nog wel achter de boodschap: we moeten er rekening mee houden dat hacks altijd voor zullen komen. De vraag is alleen hoe je ermee omgaat.\nEen van de positieve dingen die we bij Ahold hebben gezien, is dat er snel gehandeld wordt en dat men zich realiseert dat je, ondanks dat je grote schade gaat lijden, wellicht grotere schade hebt als je op zo'n moment niet ingrijpt. Ik denk dat steeds meer bedrijven nu ook wel inzien dat zij, als ze gehackt worden, in staat moeten zijn om het verkeer te monitoren dat op hun netwerk plaatsvindt. In negatieve zin hebben we vorige zomer het OM als een voorbeeld daarvan gezien. Toen kon niet geconstateerd worden of er data geëxfiltreerd werd. Dan kun je dus niks anders doen dan je hele systeem isoleren. Dat wil geen enkel bedrijf, maar dat is wel het gevolg als je dit niet goed inregelt.\nDe Cyberbeveiligingswet zorgt er hopelijk voor dat bedrijven dat wel gaan doen, want ze zijn daar wettelijk toe verplicht tot op het niveau van de boardroom. Zal dat wennen zijn? Absoluut. Dat zagen we nu bij de meldplicht bij Ahold. Die kwam niet spontaan; we hebben wat gesprekken moeten voeren om die los te krijgen. Dat geldt ook voor de aangifte die uiteindelijk gedaan is, die ons in staat stelt om ook te achterhalen wie erachter zat. Maar ook daar staan bedrijven tot op heden niet altijd om te springen, omdat ze denken dat het te diep ingrijpt in hun bedrijfsvoering.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:14:35",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Bij dat soort aanvallen kan het natuurlijk ook nog zo zijn dat een bedrijf gegijzeld wordt en dat bijvoorbeeld een van de eerste eisen is om geen contact te zoeken met de overheid. Dat gebeurt bij fysieke ontvoeringen natuurlijk ook. Maar ik heb er wel wat moeite mee dat de minister via dat koelkastverhaal probeert … Het is wel grappig, maar het is natuurlijk niet hoe bedrijven werken. Die hebben hun hele onderhoudssituatie en monitoring gekoppeld aan onlinetools. In het geval van al die koelinstallaties en zo moet men ook kunnen ontdooien als de boel aanvriest. Het is dus niet zo makkelijk voor grote bedrijfsprocessen en grote ketens als de minister schetst.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:15:26",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Daar ben ik het honderd procent mee eens. Ik noemde expliciet de afweging die ik makkelijk kan maken, maar de afwegingen voor bedrijven of bedrijfsprocessen zijn natuurlijk niet zo makkelijk. Het online monitoren van apparaten, waardoor je onderhoud kunt doen op het moment dat het nodig is in plaats van het periodiek te doen, is bijvoorbeeld al een enorme economische winst. Die winst willen we ook niet meer terugdraaien. Daarom vond ik de discussie tussen de Kamerleden zo goed, want die schetst precies dat we digitalisering of het feit dat netwerken verbonden zijn, echt niet meer ongedaan gaan maken. De vraag is dus: hoe zorgen we voor een snellere recuperatie en daarmee voor een hogere dijkbewaking?",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:16:09",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. Gaat u verder met uw betoog.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:16:15",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Samen met de Cyberbeveiligingswet hebben we natuurlijk ook de Wet weerbaarheid kritieke entiteiten. Die hangt een beetje samen met de vraag hoe we ervoor zorgen dat niet alleen de cyberveiligheid op orde is, maar dat ook de weerbaarheid van de kritieke voedselvoorziening, waterbeheersing en elektriciteitsvoorziening van die sectoren van hoog niveau is. Ook die wet is aangenomen. Die dwingt alle bedrijven in deze keten ook om te kijken naar hun toeleveringsketen. Dat raakt een beetje aan de mkb-vraag die we hoorden. Je kunt als Ahold alles op orde hebben, maar er hangen natuurlijk een heleboel kleine bedrijven onder die minder capaciteit hebben om te zorgen voor hun cyberveiligheid. Ik denk dat daar een verantwoordelijkheid ligt bij de grote spelers in de keten, om ook te zorgen dat hun toeleveringsketen wat dat betreft op orde is. Die kunnen daar een rol in vervullen. Overigens kan ook de overheid daar een rol in vervullen. Dat is een antwoord op het Anti Phishing Shield, dat de heer Ceder noemde. Ja, we willen dat dolgraag uitbreiden omdat we zien dat hiermee op een laagdrempelige manier wel een service wordt geboden, ook aan bedrijven die daar anders wellicht niet zelf toe in staat zouden zijn.\nIk zei al dat de Cyberbeveiligingswet net in werking is getreden. We zien natuurlijk dat die nu zijn beslag moet gaan krijgen. Hoe zien we daar dan de resultaten van en hoe monitoren we die? Dat is een vraag van de heer Vermeer. Twee jaar na de inwerkingtreding wordt de wet geëvalueerd. Daar zal uw Kamer over worden geïnformeerd. Conform het Cyberbeveiligingsbesluit moeten de vakministers iedere vier jaar, of eerder als daar aanleiding toe is, de drempelwaarde bepalen wanneer een incident moet worden gemeld en die ook evalueren. Al die evaluaties zorgen ervoor dat we de effecten hopelijk goed in beeld krijgen.\nDaarnaast hebben we natuurlijk jaarlijks het Cybersecuritybeeld Nederland, dat we afgelopen vrijdag ook hebben uitgebracht. Dat vertelt ons in ieder geval hoe het staat met de dreiging, maar ook met de digitale weerbaarheid van Nederland. U heeft gezien dat dit afgelopen vrijdag een redelijk alarmistisch bericht was, vooral omdat we nu voor het eerst AI zien binnentreden in de wereld van cyberaanvallen. Daar is echt wel een been bij te trekken.\nIk bladerde even door mijn antwoorden, want in interrupties kom je al een hoop tegen. Ik wil u ook niet onnodig dubbele informatie vertellen. Maar laat ik nog wel het volgende vertellen. Er werd gevraagd wat voor plannen er zijn voor ontwrichting door een cyberaanval. Hoe zijn we daarop voorbereid? Daar is een Landelijk Crisisplan Digitaal voor. Die landelijke crisisplannen hebben wij voor verschillende dreigingen: voor overstromingen, voor stroomuitval, maar dus ook voor een digitale crisis. Dat geeft inzicht in de afspraken over de beheersing van zo'n crisis op landelijk niveau. Dan moet je dus wel echt op een behoorlijk crisisniveau zijn. De crisisstructuur is omschreven. De rollen, de taken en de verantwoordelijkheden zijn omschreven voor de organisaties die daarbij betrokken zijn.\nWe hebben ook een periodieke oefening tussen de overheid en de private sector. Die heet ISIDOOR. Ik nodig u allen van harte uit om daar een keer te komen kijken, want het is echt indrukwekkend hoeveel bedrijven daar inmiddels aan meedoen en daarin bepaalde scenario's doorleven. Dat gebeurt onder gezag van het Nationaal Cyber Security Center. Ook die zullen we gaan updaten aan de hand van de Cyberbeveiligingswet, want die brengt natuurlijk een hele nieuwe dimensie in de verantwoordelijkheid van bedrijven daarin.\nLaat ik eindigen met de digitale euro. Daarbij kijk ik naar de voorzitter in zijn rol. Vanuit de \"Denk vooruit\"-campagne moedigen wij ook aan om cashgeld in huis te hebben, juist voor dit soort crisissituaties. We zagen bijvoorbeeld bij een stroomuitval in Spanje dat er niet meer digitaal betaald kon worden en dat de prijs van kaarsen in één keer kon stijgen naar €50. Cashgeld is daarbij echt een uitkomst. Ik zou dus iedereen willen oproepen om ervoor te zorgen dat je iets van cashgeld in huis hebt. Tegelijkertijd zien we dat, zeker waar het gaat om hele grote aankopen met cashgeld, er ook echt misbruik van werd gemaakt in de ondermijnende sfeer. Daar komt de €3.000 vandaan, die de heer Van Dijk ook aanhaalde in zijn betoog. Ja, het was gewoon te duidelijk dat aankopen per stuk van €3.000 of meer heel vaak niet meer lagen in de legitieme IKEA-inkopen van een gemiddeld gezin. Daarmee druk ik mij ook nog zacht uit. Ik denk dat we daarmee een goede grens hebben gelegd, maar daarmee willen we geenszins het gebruik van cashgeld criminaliseren of ontmoedigen.\nDat was het blokje, voorzitter.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:21:49",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan had ik als eerste een interruptie van mevrouw Zwinkels, en daarna een van mevrouw Rajkowski.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:21:56",
+   "spreker": {
+    "id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jantine Zwinkels",
+    "verslagnaam": "Zwinkels",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank aan de minister voor zijn eerste beantwoording. Ik had nog een vraag over precies die cyberweerbaarheid, ook in relatie tot het mkb. Wat de minister beschrijft, heb ik eerder dit jaar namelijk letterlijk zo verwoord in een motie: dat grote bedrijven in die keten een belangrijke rol spelen, maar dus ook dat we de kennisuitwisseling en de regelingen voor het mkb op orde moeten houden. Die motie is toen aangenomen, maar ik lees nu in de begroting dat de subsidie voor cybersecurity, waar al dat soort regelingen voor het mkb in zitten, nu in 2026, dus dit jaar, gaat eindigen. Mijn vraag was dus simpelweg: kan er worden toegezegd dat die regelingen gewoon doorlopen? Het zijn namelijk kleine bijdrages die een groot verschil maken voor het mkb. Volgens mij heb ik het antwoord daarop gemist.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:22:43",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Excuus voor de cliffhanger, maar ik verwijs deze door naar de staatssecretaris van Economische Zaken. Zij komt zo op deze specifieke vraag terug.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:22:53",
+   "spreker": {
+    "id": "35caab67-2b49-4c45-a5c6-af0f110425c7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Queeny Rajkowski",
+    "verslagnaam": "Rajkowski",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "€3.000, dat zijn wel heel veel Billykasten. Dat wordt natuurlijk een beetje verdacht; dat begrijp ik zeker.\nIk heb een vraag over ISIDOOR. Ik kom graag een keer kijken. U bent, denk ik, de derde minister die een publiekelijke uitnodiging heeft gedaan waar ik publiekelijk op inga, maar ik zou ook graag een keertje komen kijken, na zes jaar Tweede Kamerlidmaatschap. Ik wil dus graag dat dat genoteerd wordt. Ik heb alleen ook vaker het volgende gevraagd. ISIDOOR vindt elke twee jaar plaats; volgens mij is de eerstvolgende op z'n vroegst pas eind 2027. Dan is de wereld alweer zo anders. Ik zou het dus ook fijn vinden als we dit soort oefeningen vaker kunnen doen, en dan misschien kleinschaliger, want ik snap wel de impact daarvan. Graag een reactie daarop: kan een oefening ook vaker en dus ook kleinschaliger plaatsvinden?\nDan heb ik ook nog een vraag over de crisisplannen digitaal. Die zijn er alleen per sector, als ik het goed heb begrepen. Het interessante vind ik nou juist dat als een cyberaanval een keer succesvol is en voor ontwrichting gaat zorgen, dat natuurlijk sectoroverstijgend gaat plaatsvinden. Ik maak me dus zorgen, ook vanwege de gesprekken die ik vaker heb gehad, ook met toezichthouders. Zij kijken per sector en per organisatie naar de vraag: heb jij een analoge terugvaloptie nodig, ja of nee? Volgens mij is dat niet waar we naar moeten kijken. Volgens mij moeten we het allesoverstijgend zien, zo van: maar wacht even, misschien heeft deze organisatie dat alleen niet nodig, maar als deze andere sectoren alle drie omvallen, is deze sector ineens wel heel belangrijk. Ik ben dus meer op zoek naar hoe het in de realiteit werkt. Ik ben blij dat al die crisisplannen bestaan, maar kan die volgende vertaalslag nog gemaakt worden?",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:24:31",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Op dat laatste: dat crisisplan digitaal gaan we sowieso dit jaar hernemen, omdat de Cyberbeveiligingswet en de Wet kritieke entiteiten in werking zijn getreden. Dat is als crisisplan al sectoroverstijgend. We gaan dus ook aandacht besteden aan deze aspecten; het is terecht dat u die noemt.\nWat betreft ISIDOOR: dit soort oefeningen heeft natuurlijk een hele lange aanlooptijd, omdat ze heel veel voorbereiding vereisen. Het is niet de enige oefening die plaatsvindt. Ik hoor uw hartenkreet na zes jaar Kamerlidmaatschap. Ik weet zeker dat we u op korte termijn voor de oefening kunnen uitnodigen. Ik denk dat het ook goed is om te zien hoe het NCSC echt wel de spin in het web is geworden wat betreft cyberbeveiliging qua connecties met elke sector. Qua kennis worden ze zeer hoog ingeschat. Ik ben daarvan wel onder de indruk. Internationaal krijg ik ook veel complimenten over het niveau dat we hebben, dus ik moet zeggen dat dit echt een organisatie is die de moeite van het bezoeken waard is.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:25:30",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. Dan is de minister bij zijn volgende blokje, neem ik aan?",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:25:35",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Ja, Offlimits. Dat was ook vorige week tijdens het WGO Politie aan de orde, en morgen is het dat ook in motievorm bij de afronding van het WGO Politie. Ik zal hier herhalen wat ik in het debat daar heb gezegd: ik zie echt de waardevolle rol van wat Offlimits doet. We hebben hier natuurlijk te maken met een structurele taakstelling, die al vanuit het kabinet-Schoof is ingevoerd. Die kan ik niet generiek ongedaan maken, maar ik kijk zeer welwillend aan tegen dit amendement en dat zal ik tijdens de begrotingsbehandeling dus ook langs die lijn appreciëren. Ik zie wat deze organisatie doet. Overigens vind ik dat we daar op langere termijn als overheid natuurlijk ook wel zelf een rol in zouden moeten willen spelen, maar op dit moment zie ik dat Offlimits de enige is die dat gat kan vullen en denk ik dat we daar blij mee moeten zijn.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:26:30",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Excuus, minister. Ik zag drie vingers. Ging dat allemaal over het laatste punt of over het volgende punt? O, over Offlimits. We laten de minister even zijn verhaal afmaken.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:26:47",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Er werd breder gevraagd naar organisaties, ook in relatie tot het debat Kinderrechten, dat in december plaatsvindt. HackShield werd genoemd als een van de organisaties, maar ook organisaties waarover we met OCW in gesprek zijn. Ik zeg u toe dat we voor het commissiedebat van 16 december even terugkomen met een alomvattend beeld. Waar staan we? Waar zien we een rol van de overheid in financiering? Waar vinden we dat de markt aan zet zou moeten zijn? Dat verschilt echt per project en per opgave, maar daar komen we voor dat debat graag op terug.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:27:22",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan zijn er wellicht een aantal interrupties. Ik zie dat mevrouw Kathmann een interruptie heeft, en mevrouw Boujdaini.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:27:31",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nog even over Offlimits: er waren ook een aantal vragen gesteld over de structurele financiering van Offlimits in de toekomst. Het is fijn dat de minister zegt dat hij daar misschien een overheidstaak ziet, maar er zijn ook zaken geopperd als Offlimits financieren naar aanleiding van het aantal meldingen dat binnenkomt. Het zou fijn zijn als de minister daar nog even op in zou willen gaan.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:27:53",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Laten we daar bij de begrotingsbehandeling dan op terugkomen. Dan beschouwen we ook dat amendement. Dat gaat over 2027, om het daar weer te repareren. Nogmaals, er is structurele financiering voor Offlimits. Alleen, daar is een korting op doorgevoerd. Ik ben bereid om tijdens het begrotingsbehandelingsdebat te kijken naar alternatieve financieringsmogelijkheden.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:28:18",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Zwinkels, wilt u nog? Nee. Mevrouw Boujdaini? De vraag is beantwoord. Dan kan de minister verder naar het volgende blokje.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:28:29",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Het volgende blokje is tevens mijn laatste blokje, over AI en digitale grondrechten. Er zitten ook een aantal losse onderwerpjes in, zoals brillen. Dat zijn niet brillen in algemene zin. Die van u is nog redelijk transparant, meneer Vermeer, maar er zijn ook andere.\nMevrouw Kathmann vroeg naar de aantasting van digitale grondrechten. Hoe houden we daar rekening mee, ook bij het opstellen van wetgeving? Ik denk dat het ontzettend belangrijk is om die afweging te maken bij wetgeving, zodat digitale grondrechten niet in het geding komen. Dat geldt niet alleen voor digitale grondrechten. Dat zijn gewoon grondrechten. Die moeten überhaupt alleen onder bepaalde voorwaarden worden ingeperkt. Dat past bij de afweging bij wetgeving van noodzaak en proportionaliteit. De inperking van de grondrechten zal dus altijd worden meegewogen.\nHet is in eerste instantie aan elk departement om dat per wetsvoorstel te zien. Daarnaast doet BZK de grondwettoets op elke wetgeving. Daar nemen ze natuurlijk ook de grondrechten in mee, inclusief de digitale grondrechten. Daarbovenop komt de AP natuurlijk altijd nog met een advies per wetgeving. Ik heb bij wetgeving bij mijn eigen departement vaak meegemaakt dat wij ook in het digitale domein door de AP gewezen werden op spanning met bijvoorbeeld de AVG. Ik denk dat het mooie van stelsels als de AVG is dat die technologieneutraal zijn. Die kijken gewoon naar het effect. Ongeacht of we te maken hebben met een AI-agent, een digitale agent of het echte leven, dezelfde regels zijn daarvoor van toepassing. Dat wordt ook voor Europese wetgeving gedaan. Dat vindt u dan terug onder het kopje constitutionele toets in het BNC-fiche dat bij wetgeving komt. Ik denk dus dat de digitale grondrechten daarmee binnen het kopje grondrechten zijn gewaarborgd.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:30:29",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zei hier expliciet bij dat we steeds meer zien dat waar we vroeger soms de, volgens mij valse, tegenstelling hadden tussen bescherming van privacy en veiligheid, privacy nu een veiligheidsvraagstuk is geworden. Met de geopolitieke spanningen die we hebben, is het heel logisch dat we naar instrumenten zoeken die de veiligheid sneller bevorderen, maar daardoor zijn we geneigd om sneller inbreuk te maken op de privacy, terwijl dat ook een veiligheidsvraagstuk is. Dat is een belangenafweging, omdat elk deurtje dat je inbouwt waardoor, zeg maar, goede vrienden mee kunnen kijken, niet betekent dat alleen goede mensen door die deur gaan. Je opent dan vaak ook een deur voor, en soms wordt die zelfs vertrapt door, alle kwaadwillenden die dan online kunnen meekijken. De vraag is even hoe de minister voor zich ziet dat we dat gesprek beter met elkaar voeren, zodat die veiligheidsafwegingen beter kunnen worden gemaakt en voorliggen.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:31:27",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nogmaals, voordat de minister verdergaat: denk a.u.b. allemaal aan de tijd en hou de interrupties kort en bondig.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:31:35",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Ik denk dat die toetsen, ook die van de AP, die natuurlijk ook kijkt naar dit soort risico's, daar belangrijk in zijn. Ik denk ook dat het aan de Kamer zelf is om in debatten over wetsvoorstellen die hierover gaan of hieraan raken, dit soort aspecten nadrukkelijk in te brengen. Ik zie wel het spanningsveld waarop mevrouw Kathmann doelt. Nogmaals, ik denk dat we de instrumenten om dat in kaart te brengen, wel hebben, maar het is goed om dat debat elke keer te voeren met elkaar.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:32:10",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U bent bij het einde van het laatste blokje gekomen?",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:32:16",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Nou, ik heb nog een paar antwoorden.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:32:17",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Gaat u verder.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:32:20",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Voorzitter. De heer Van Dijk vroeg om innovaties niet tegen te gaan, maar ook de privacy te waarborgen. Ik denk dat dat precies raakt aan waar we het net over hadden: hoe zorgen we voor een goede balans daarin? We zijn er zeker niet voor om innovaties af te remmen, zo dat al zou kunnen, zeg ik daarbij. Ik denk dat bijvoorbeeld een generiek verbod op AI niet handhaafbaar, werkbaar en realistisch zou zijn. Zo maakbaar ziet de wereld er niet uit. Tegelijkertijd moet je bij de komst van nieuwe technologieën elke keer nadenken over de kaders waarbinnen je die technologie wilt laten gebruiken, zowel door particulieren als door bedrijven. Technologieneutrale wetgeving, zoals de AVG, helpt daartegen, want die geeft gewoon ankers, ook wanneer nieuwe technologie haar intrede doet.\nOnder anderen mevrouw Zwinkels vroeg naar de camerabrillen: moeten we die willen in onze openbare ruimte? Ik begrijp de zorgen, zeker waar het gaat om bijna onzichtbaar ingebouwde camera's en microfoons. Onder de AVG hebben de aanbieders van deze technologie een eigen verantwoordelijkheid voor de naleving van hun verwerkingsactiviteiten. Volgens de artikelen 12 en 13 van de AVG gelden zogenaamde transparantievereisten. Dat betekent dat de producenten bij het ontwikkelen van slimme brillen rekening zouden moeten houden met die transparantievereisten, zoals visuele indicatoren die aangeven dat het een bril is die op dat moment filmt. Daarnaast blijft gewoon gelden dat zaken als heimelijk opnemen et cetera, onafhankelijk van de vraag of je dat nou met je telefoon, je bril, je paraplu of anderszins doet, niet mag en aan voorwaarden gebonden is.\nDe Duitsers — daar werd nog naar gevraagd — hebben hierbij gebruikgemaakt van oudere wetgeving die stelt dat als iets eruitziet als een bril, dat ook alleen maar mag worden gebruikt als een bril. Dat helpt in dit specifieke geval. Die wetgeving hebben wij niet, dus wij gaan ook na hoe we in Europees verband kunnen kijken naar bijvoorbeeld aanvullende eisen aan dit soort producten, die je dan aan producenten zou kunnen opleggen. De EDPB komt volgend jaar met richtsnoeren voor de vraag of aanvullende eisen mogelijk zijn. Die zullen wij daarin meenemen. Ik zeg dit dus graag als een inspanning toe aan mevrouw Zwinkels.\nDan was er nog een vraag …",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:34:59",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Pardon, er is nog een interruptie van mevrouw Kathmann.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:35:01",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik vraag me dan nu weer af waar de regie ligt, want de minister gaat er nu volledig aan voorbij dat er een breed gesteunde Kamermotie ligt waarin wordt opgeroepen tot uitbreiding van het verbod in de openbare ruimte en dat er een toezegging van het kabinet ligt dat daaraan gewerkt zal worden en dat de uitwerking zo snel als mogelijk naar de Kamer gestuurd zal worden. Er is namelijk ook een debat aangevraagd, volgens mij door mevrouw Zwinkels, en het zou fijn zijn als we die uitwerking voor dat debat hebben, zodat we hier dan over kunnen uitweiden. Er zijn namelijk wel meerdere producten te bedenken; daar doelde mevrouw Zwinkels op.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:35:36",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Op dit moment wachten wij op de richtsnoeren van de EDPB, want op basis daarvan kunnen we kijken naar de aanvullende eisen die we zelf willen inbrengen. Dat zei ik net ook in antwoord op de vraag van mevrouw Zwinkels. We hebben eerst die richtsnoeren nodig. Die worden overigens wel dit najaar nog verwacht, toch? Nee, die worden in het voorjaar verwacht, hoor ik van de ambtenaar naast me. Dan komt de staatssecretaris, míjn staatssecretaris, dus die van Justitie en Veiligheid — niet de mijne, maar die van mijn ministerie — daar verder op terug. Dit valt namelijk binnen haar dossier, vanuit de privacywetgeving.\nDan de notificatie van slachtoffers door de politie. Daarover ging een vraag van mevrouw Rajkowski. Om na te gaan of persoonsgegevens voorkomen in datasets die door de politie in beslag zijn genomen kunnen mensen via Check je hack op politie.nl hun e-mailadres invoeren. Als dat e-mailadres voorkomt, ontvangen zij binnen enkele minuten een e-mail van de politie. Het is echt een complex proces als je elk potentieel slachtoffer moet gaan inlichten, maar ik ben wel bereid om te kijken welke volgende stap we kunnen nemen, naast deze passieve check. Ook daar hebben we natuurlijk al vaker over van gedachten gewisseld.\nDan was er nog een vraag van de heer Dassen, die er nu niet is maar die dit ongetwijfeld zal terugkijken. Wie is er aansprakelijk bij losgebroken AI agents en hoe zit het met de civiele en de strafrechtelijke aansprakelijkheid waar het gaat om AI? Hij heeft gelijk: een mens moet altijd aansprakelijk zijn voor daden die gepleegd worden. Personen en organisaties zijn dus altijd verantwoordelijk als er schade ontstaat door AI-modellen van hun hand. Het zijn niet de systemen die dan aansprakelijk worden. Dat benadrukken de huidige kaders over civiele en strafrechtelijke aansprakelijkheid ook en die zijn technologieneutraal dus die gelden ook in gevallen waarin schade uiteindelijk wordt veroorzaakt door een AI-systeem of -model. We hebben op dit moment nog geen zicht op tekortkomingen in dat systeem, maar we kijken natuurlijk wel continu naar de ontwikkelingen en naar wat hierin verder nodig is.\nDan was er nog een vraag over auteursrecht. Die kwam van mevrouw El Boujdaini, volgens mij. Wil ik pleiten voor een collectief vergoedingenstelsel voor AI? Ja. Generatieve artificiële intelligentie kan worden getraind op auteursrechtelijk materiaal. De rechthebbenden moeten natuurlijk een eerlijke vergoeding krijgen voor het gebruik van hun werken en de andere materialen daarin. De Europese Commissie komt binnen een halfjaar met een richtlijnvoorstel om een licentiemarkt te bevorderen. Wij zullen ons ervoor inzetten dat alle rechthebbenden, dus ook de makers en de uitvoerende kunstenaars, van die licentievergoeding kunnen meeprofiteren.\nEr moeten collectieve afspraken kunnen worden gemaakt om dat doel te bereiken, niet alleen tussen de rechthebbenden en de AI-ontwikkelaars maar ook tussen de exploitanten enerzijds en de makers en de uitvoerende kunstenaars anderzijds. Op dit moment ligt in het Europese denken een verplicht collectief vergoedingenstelsel minder voor de hand, omdat dit individuele rechthebbenden het recht ontneemt om zelf afspraken te maken over hun eigen werken en andere materialen. Dat vindt de Europese Commissie op dit moment te ver gaan in de uitwerking van haar richtlijn. Maar nogmaals, die richtlijn wordt op korte termijn verwacht.\nIn het verlengde daarvan had mevrouw Beckerman nog een vraag over een pamflet van de Kunstenbond. In aanvulling op wat ik zonet zei, kan ik melden dat artikel 4 van de Europese richtlijn over auteursrechten in de digitale markt dicteert dat deze modellen alleen maar mogen worden getraind als de werken afkomstig zijn van een legale bron en de makers hebben nagelaten om te bepalen dat de werken niét mogen worden gebruikt. Makers die zeggenschap willen houden over hun werken moeten opt-outen, en dan hebben de ontwikkelaars van generative AI toestemming nodig om de werken te gebruiken en hun modellen te trainen. Makers kunnen zichzelf ook organiseren en onder het motto \"samen sterk\" collectieve afspraken maken. De AI-verordening dicteert dat ontwikkelaars van AI-modellen voor algemene doeleinden een voldoende duidelijke samenvatting moeten maken van de werken waarmee hun modellen zijn getraind. Daardoor kunnen rechthebbenden ook in staat worden gesteld om te controleren of de voorwaarden van dat artikel 4 worden gerespecteerd.\nVoor de bescherming van stem en beeltenis geldt dat er sprake is van verwerking van persoonsgegevens en dat onderdeel is al beschermd. Daar kan op basis van de AVG al tegen worden opgetreden. In aanvulling daarop zeg ik dat ook hier geldt dat de Europese Commissie met een richtlijn komt die aanvullende waarborgen zou moeten geven.\nDat waren de antwoorden.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:40:18",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik dank de minister van Justitie en Veiligheid voor zijn beantwoording en geef nu het woord aan de staatssecretaris van Digitale Zaken.",
+   "deel": 13
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T15:40:32",
+   "spreker": {
+    "id": "b7478ecd-2b3f-4c6a-b385-9d6dcb88ab3b",
+    "soort": "Minister",
+    "naam": "David Van Weel",
+    "verslagnaam": "Van Weel",
+    "fractie": "",
+    "functie": "minister van Justitie en Veiligheid"
+   },
+   "tekst": "Voorzitter, ik blijf hier wel zo lang mogelijk zitten, maar op enig moment zal ik dan verdwijnen.",
+   "deel": 13
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T15:40:35",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het wordt u vergeven.",
+   "deel": 13
+  }
+ ],
+ "deel": {
+  "nummer": 5,
+  "van": 8,
+  "fase": "Antwoord van het kabinet",
+  "sprekers": "Van Weel",
+  "ouder_id": "a0c6e833-9da5-4dfd-aeac-af857bbd4096",
+  "ouder_titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+  "woorden_totaal": 67298
+ }
+}

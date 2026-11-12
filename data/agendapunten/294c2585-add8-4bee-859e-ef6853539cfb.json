@@ -29,7 +29,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ik heropen de vergadering. Aan de orde is een extra regeling van werkzaamheden. Daarvoor geef ik het woord aan mevrouw Piri namens de fractie van PRO.\nBij een extra regeling van werkzaamheden zie ik u graag bij het spreekgestoelte. Gaat uw gang."
+   "tekst": "Ik heropen de vergadering. Aan de orde is een extra regeling van werkzaamheden. Daarvoor geef ik het woord aan mevrouw Piri namens de fractie van PRO.\nBij een extra regeling van werkzaamheden zie ik u graag bij het spreekgestoelte. Gaat uw gang.",
+   "deel": 0
   },
   {
    "rol": "woordvoerder",
@@ -43,7 +44,8 @@
     "fractie": "PRO",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Heel fijn. Dank u wel, voorzitter. Ik zou graag het verzoek willen doen om de stemmingen over het Belastingplan, die voor morgen gepland staan, op het einde van de middag te doen. Uiteraard met een korte knip, zodat er daarna ook tijd is voor de fracties om een finale overweging te maken over het Belastingplan, en dan ook morgen aan het begin van de avond de stemming over het Belastingplan zelf."
+   "tekst": "Heel fijn. Dank u wel, voorzitter. Ik zou graag het verzoek willen doen om de stemmingen over het Belastingplan, die voor morgen gepland staan, op het einde van de middag te doen. Uiteraard met een korte knip, zodat er daarna ook tijd is voor de fracties om een finale overweging te maken over het Belastingplan, en dan ook morgen aan het begin van de avond de stemming over het Belastingplan zelf.",
+   "deel": 1
   },
   {
    "rol": "woordvoerder",
@@ -57,7 +59,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ik kijk hoe daarover wordt gedacht."
+   "tekst": "Ik kijk hoe daarover wordt gedacht.",
+   "deel": 2
   },
   {
    "rol": "woordvoerder",
@@ -71,7 +74,8 @@
     "fractie": "PVV",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Nou ja, de vraag is of we nog een kabinet hebben. Ik begrijp nu namelijk dat de Partij van de Arbeid een deal heeft gesloten met het CDA en D66, maar niet alleen dat; het is niet zeker of de VVD dat überhaupt kan dragen. Dat lees ik althans in de pers. Dus ja, we kunnen praten over uitstel van stemmingen, maar ik wil een debat. Ik wil een debat waar alle coalitiefractievoorzitters bij zitten en waar de minister-president bij aanwezig is. Dat wil ik als eerste. Ik weet niet of we nu nog een kabinet hebben. Als de VVD zegt \"we steunen het niet\" of \"we kunnen het niet dragen\", is er geen coalitie meer. Als ze het wel kunnen dragen, hebben ze een hele hoop uit te leggen, want dan hebben ze \"ja\" gezegd tegen die miljonairsbelasting. Ik wil dus een debat met de fractievoorzitters en de minister-president, het liefst vandaag nog en anders morgen. Zolang dat er niet is, kan er van uitstel van de stemmingen geen sprake zijn."
+   "tekst": "Voorzitter. Nou ja, de vraag is of we nog een kabinet hebben. Ik begrijp nu namelijk dat de Partij van de Arbeid een deal heeft gesloten met het CDA en D66, maar niet alleen dat; het is niet zeker of de VVD dat überhaupt kan dragen. Dat lees ik althans in de pers. Dus ja, we kunnen praten over uitstel van stemmingen, maar ik wil een debat. Ik wil een debat waar alle coalitiefractievoorzitters bij zitten en waar de minister-president bij aanwezig is. Dat wil ik als eerste. Ik weet niet of we nu nog een kabinet hebben. Als de VVD zegt \"we steunen het niet\" of \"we kunnen het niet dragen\", is er geen coalitie meer. Als ze het wel kunnen dragen, hebben ze een hele hoop uit te leggen, want dan hebben ze \"ja\" gezegd tegen die miljonairsbelasting. Ik wil dus een debat met de fractievoorzitters en de minister-president, het liefst vandaag nog en anders morgen. Zolang dat er niet is, kan er van uitstel van de stemmingen geen sprake zijn.",
+   "deel": 3
   },
   {
    "rol": "woordvoerder",
@@ -85,7 +89,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "U steunt het voorstel van mevrouw Piri dus niet?"
+   "tekst": "U steunt het voorstel van mevrouw Piri dus niet?",
+   "deel": 4
   },
   {
    "rol": "woordvoerder",
@@ -99,7 +104,8 @@
     "fractie": "PVV",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Tenzij er een debat komt."
+   "tekst": "Tenzij er een debat komt.",
+   "deel": 5
   },
   {
    "rol": "woordvoerder",
@@ -113,7 +119,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Oké, dan noteren we voor nu \"geen steun\"."
+   "tekst": "Oké, dan noteren we voor nu \"geen steun\".",
+   "deel": 6
   },
   {
    "rol": "woordvoerder",
@@ -127,7 +134,8 @@
     "fractie": "DENK",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Ik denk dat we dit verzoek zuiver procedureel moeten beoordelen en niet langs de lijnen van de inhoud. Als er fracties in dit huis zijn die zeggen wat meer tijd nodig te hebben omdat zij een amendement maken, of het nou de fractie van PRO is of dat het andere fracties zijn die dat willen, dan zou ik dat steunen, louter uit collegialiteit. Politiek gezien vind ik dat er nogal wat aan de hand is. Ik kan me heel goed voorstellen dat we met elkaar een debat hebben over de ontstane situatie als dadelijk blijkt dat we naar aanleiding van de ontwikkelingen geen kabinet meer hebben. Maar het procedurele voorstel steun ik procedureel, zonder op de inhoud en de positionering van mijn fractie in te gaan."
+   "tekst": "Voorzitter. Ik denk dat we dit verzoek zuiver procedureel moeten beoordelen en niet langs de lijnen van de inhoud. Als er fracties in dit huis zijn die zeggen wat meer tijd nodig te hebben omdat zij een amendement maken, of het nou de fractie van PRO is of dat het andere fracties zijn die dat willen, dan zou ik dat steunen, louter uit collegialiteit. Politiek gezien vind ik dat er nogal wat aan de hand is. Ik kan me heel goed voorstellen dat we met elkaar een debat hebben over de ontstane situatie als dadelijk blijkt dat we naar aanleiding van de ontwikkelingen geen kabinet meer hebben. Maar het procedurele voorstel steun ik procedureel, zonder op de inhoud en de positionering van mijn fractie in te gaan.",
+   "deel": 7
   },
   {
    "rol": "woordvoerder",
@@ -141,7 +149,8 @@
     "fractie": "D66",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun voor het voorstel van mevrouw Piri."
+   "tekst": "Steun voor het voorstel van mevrouw Piri.",
+   "deel": 8
   },
   {
    "rol": "woordvoerder",
@@ -155,7 +164,8 @@
     "fractie": "CDA",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun voor het voorstel."
+   "tekst": "Steun voor het voorstel.",
+   "deel": 9
   },
   {
    "rol": "woordvoerder",
@@ -169,7 +179,8 @@
     "fractie": "PvdD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Fracties moeten de ruimte krijgen voor zorgvuldige afronding van hun amendementen, dus van harte steun voor het voorstel."
+   "tekst": "Voorzitter. Fracties moeten de ruimte krijgen voor zorgvuldige afronding van hun amendementen, dus van harte steun voor het voorstel.",
+   "deel": 10
   },
   {
    "rol": "woordvoerder",
@@ -183,7 +194,8 @@
     "fractie": "SP",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Wat een bende! Echt ongelofelijk. Wel steun voor het voorstel, maar niemand snapt dit toch nog?"
+   "tekst": "Voorzitter. Wat een bende! Echt ongelofelijk. Wel steun voor het voorstel, maar niemand snapt dit toch nog?",
+   "deel": 11
   },
   {
    "rol": "woordvoerder",
@@ -197,7 +209,8 @@
     "fractie": "50PLUS",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 12
   },
   {
    "rol": "woordvoerder",
@@ -211,7 +224,8 @@
     "fractie": "ChristenUnie",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 13
   },
   {
    "rol": "woordvoerder",
@@ -225,7 +239,8 @@
     "fractie": "PRO",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ik deed het voorstel mede namens Volt. Dat had ik er even bij moeten zeggen."
+   "tekst": "Ik deed het voorstel mede namens Volt. Dat had ik er even bij moeten zeggen.",
+   "deel": 14
   },
   {
    "rol": "woordvoerder",
@@ -239,7 +254,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Er is een meerderheid. Meneer Markuszower wenst zich uit te spreken."
+   "tekst": "Er is een meerderheid. Meneer Markuszower wenst zich uit te spreken.",
+   "deel": 15
   },
   {
    "rol": "woordvoerder",
@@ -253,7 +269,8 @@
     "fractie": "Groep Markuszower",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Als PRO nog wat tijd nodig heeft om Jesse Klaver formeel tot onderkoning van Nederland te kronen, dan gun ik PRO die tijd, maar het is natuurlijk een drama dat we hier zien."
+   "tekst": "Als PRO nog wat tijd nodig heeft om Jesse Klaver formeel tot onderkoning van Nederland te kronen, dan gun ik PRO die tijd, maar het is natuurlijk een drama dat we hier zien.",
+   "deel": 16
   },
   {
    "rol": "woordvoerder",
@@ -267,7 +284,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "We noteren steun. Er is een meerderheid voor uw voorstel, dus de stemmingen zullen worden uitgesteld naar het einde van de middag, met een korte knip, zoals u heeft verzocht. We kijken even naar een pragmatische tijd daartussen."
+   "tekst": "We noteren steun. Er is een meerderheid voor uw voorstel, dus de stemmingen zullen worden uitgesteld naar het einde van de middag, met een korte knip, zoals u heeft verzocht. We kijken even naar een pragmatische tijd daartussen.",
+   "deel": 17
   },
   {
    "rol": "woordvoerder",
@@ -281,7 +299,8 @@
     "fractie": "PRO",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Dank u wel."
+   "tekst": "Dank u wel.",
+   "deel": 18
   },
   {
    "rol": "woordvoerder",
@@ -295,7 +314,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Meneer Wilders."
+   "tekst": "Meneer Wilders.",
+   "deel": 19
   },
   {
    "rol": "woordvoerder",
@@ -309,7 +329,8 @@
     "fractie": "PVV",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ik had nog om een debat gevraagd. Formeel gezien moet ik dat dan apart melden, geloof ik, maar het zou wel heel raar zijn als we hier nou niet over zouden kunnen praten."
+   "tekst": "Ik had nog om een debat gevraagd. Formeel gezien moet ik dat dan apart melden, geloof ik, maar het zou wel heel raar zijn als we hier nou niet over zouden kunnen praten.",
+   "deel": 20
   },
   {
    "rol": "woordvoerder",
@@ -323,7 +344,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ja."
+   "tekst": "Ja.",
+   "deel": 21
   },
   {
    "rol": "woordvoerder",
@@ -337,7 +359,8 @@
     "fractie": "PVV",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Mag ik dat voorstel bij uitzondering dus nu doen en vragen of de collega's dat kunnen steunen?"
+   "tekst": "Mag ik dat voorstel bij uitzondering dus nu doen en vragen of de collega's dat kunnen steunen?",
+   "deel": 22
   },
   {
    "rol": "woordvoerder",
@@ -351,7 +374,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Laten we dat maar doen. Op welke termijn had u zo'n debat gewenst?"
+   "tekst": "Laten we dat maar doen. Op welke termijn had u zo'n debat gewenst?",
+   "deel": 23
   },
   {
    "rol": "woordvoerder",
@@ -365,7 +389,8 @@
     "fractie": "PVV",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Liefst vandaag, en anders morgenvroeg."
+   "tekst": "Liefst vandaag, en anders morgenvroeg.",
+   "deel": 24
   },
   {
    "rol": "woordvoerder",
@@ -379,7 +404,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Vandaag nog. Ja. Ik kijk of daar een meerderheid voor is."
+   "tekst": "Vandaag nog. Ja. Ik kijk of daar een meerderheid voor is.",
+   "deel": 25
   },
   {
    "rol": "woordvoerder",
@@ -393,7 +419,8 @@
     "fractie": "Groep Markuszower",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Daar is natuurlijk zeker een meerderheid voor. Ik wilde gisteren al een interpellatiedebat, met precies hetzelfde verzoek. Dat werd volgens mij toen niet gesteund. Maar we hebben natuurlijk een heel groot probleem en het is hartstikke goed als we daar een debat over voeren."
+   "tekst": "Daar is natuurlijk zeker een meerderheid voor. Ik wilde gisteren al een interpellatiedebat, met precies hetzelfde verzoek. Dat werd volgens mij toen niet gesteund. Maar we hebben natuurlijk een heel groot probleem en het is hartstikke goed als we daar een debat over voeren.",
+   "deel": 26
   },
   {
    "rol": "woordvoerder",
@@ -407,7 +434,8 @@
     "fractie": "JA21",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun voor het debat, liefst vandaag nog."
+   "tekst": "Steun voor het debat, liefst vandaag nog.",
+   "deel": 27
   },
   {
    "rol": "woordvoerder",
@@ -421,7 +449,8 @@
     "fractie": "SGP",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ook steun voor het debat. Volgens mij is er vanavond wel ruimte op de agenda."
+   "tekst": "Ook steun voor het debat. Volgens mij is er vanavond wel ruimte op de agenda.",
+   "deel": 28
   },
   {
    "rol": "woordvoerder",
@@ -435,7 +464,8 @@
     "fractie": "BBB",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun voor het debat, vanavond."
+   "tekst": "Steun voor het debat, vanavond.",
+   "deel": 29
   },
   {
    "rol": "woordvoerder",
@@ -449,7 +479,8 @@
     "fractie": "FVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 30
   },
   {
    "rol": "woordvoerder",
@@ -463,7 +494,8 @@
     "fractie": "SP",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Dan zal ik het maar herhalen: wat een bende! Laten we daar dan ook maar over debatteren."
+   "tekst": "Dan zal ik het maar herhalen: wat een bende! Laten we daar dan ook maar over debatteren.",
+   "deel": 31
   },
   {
    "rol": "woordvoerder",
@@ -477,7 +509,8 @@
     "fractie": "CDA",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Ik kan best begrijpen dat op het moment dat er een amendement wordt ingediend nadat een debat gesloten is, je bijvoorbeeld een derde termijn opent of iets. Dat hebben we vaker gezien. Maar voor dit aparte debat over de politieke situatie in ieder geval geen steun."
+   "tekst": "Voorzitter. Ik kan best begrijpen dat op het moment dat er een amendement wordt ingediend nadat een debat gesloten is, je bijvoorbeeld een derde termijn opent of iets. Dat hebben we vaker gezien. Maar voor dit aparte debat over de politieke situatie in ieder geval geen steun.",
+   "deel": 32
   },
   {
    "rol": "woordvoerder",
@@ -491,7 +524,8 @@
     "fractie": "DENK",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Ik denk wel dat we over de ontstane situatie, de onzekerheid, de bende die we de afgelopen tijd hebben gezien, moeten debatteren. Mijn fractie steunt dus een apart debat."
+   "tekst": "Voorzitter. Ik denk wel dat we over de ontstane situatie, de onzekerheid, de bende die we de afgelopen tijd hebben gezien, moeten debatteren. Mijn fractie steunt dus een apart debat.",
+   "deel": 33
   },
   {
    "rol": "woordvoerder",
@@ -505,7 +539,8 @@
     "fractie": "50PLUS",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 34
   },
   {
    "rol": "woordvoerder",
@@ -519,7 +554,8 @@
     "fractie": "D66",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Geen steun, voorzitter."
+   "tekst": "Geen steun, voorzitter.",
+   "deel": 35
   },
   {
    "rol": "woordvoerder",
@@ -533,7 +569,8 @@
     "fractie": "ChristenUnie",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Soms vertellen de muren een verhaal. Het lijkt me goed dat we een derde termijn houden, maar die moet dan wel aangevraagd worden. Ik kan 'm in die zin steunen. Het lijkt me logisch dat we een derde termijn houden, omdat er waarschijnlijk een amendement volgt waarover we moeten spreken. Dat werd gesuggereerd door de heer Krul. Dat begrijp ik."
+   "tekst": "Voorzitter. Soms vertellen de muren een verhaal. Het lijkt me goed dat we een derde termijn houden, maar die moet dan wel aangevraagd worden. Ik kan 'm in die zin steunen. Het lijkt me logisch dat we een derde termijn houden, omdat er waarschijnlijk een amendement volgt waarover we moeten spreken. Dat werd gesuggereerd door de heer Krul. Dat begrijp ik.",
+   "deel": 36
   },
   {
    "rol": "woordvoerder",
@@ -547,7 +584,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ik breng nu echt alleen het voorstel van meneer Wilders in stemming. Kunt u het voorstel van meneer Wilders voor een debat vanavond of uiterlijk morgenochtend steunen, of wijst u dat af?"
+   "tekst": "Ik breng nu echt alleen het voorstel van meneer Wilders in stemming. Kunt u het voorstel van meneer Wilders voor een debat vanavond of uiterlijk morgenochtend steunen, of wijst u dat af?",
+   "deel": 37
   },
   {
    "rol": "woordvoerder",
@@ -561,7 +599,8 @@
     "fractie": "ChristenUnie",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Dan wel voor morgenochtend. Ik wil namelijk ook bestuderen wat er ligt. Dat lijkt me verstandig."
+   "tekst": "Dan wel voor morgenochtend. Ik wil namelijk ook bestuderen wat er ligt. Dat lijkt me verstandig.",
+   "deel": 38
   },
   {
    "rol": "woordvoerder",
@@ -575,7 +614,8 @@
     "fractie": "PRO",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ik sluit me aan bij mevrouw Bikker, maar als er een meerderheid voor is, dan willen wij dat wel graag vandaag, zodat er morgen gewoon gestemd kan worden."
+   "tekst": "Ik sluit me aan bij mevrouw Bikker, maar als er een meerderheid voor is, dan willen wij dat wel graag vandaag, zodat er morgen gewoon gestemd kan worden.",
+   "deel": 39
   },
   {
    "rol": "woordvoerder",
@@ -589,7 +629,8 @@
     "fractie": "PvdD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun voor een debat."
+   "tekst": "Steun voor een debat.",
+   "deel": 40
   },
   {
    "rol": "woordvoerder",
@@ -603,7 +644,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Een meerderheid wil iets."
+   "tekst": "Een meerderheid wil iets.",
+   "deel": 41
   },
   {
    "rol": "woordvoerder",
@@ -617,7 +659,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Dat is een begin, zou ik willen zeggen. Meneer Wilders heeft gezegd: dat mag vandaag, maar ook morgenochtend. Er zijn leden die dat voorstel aan een meerderheid kunnen brengen door te zeggen: morgenochtend. Maar dat hoor ik ook nog niet."
+   "tekst": "Dat is een begin, zou ik willen zeggen. Meneer Wilders heeft gezegd: dat mag vandaag, maar ook morgenochtend. Er zijn leden die dat voorstel aan een meerderheid kunnen brengen door te zeggen: morgenochtend. Maar dat hoor ik ook nog niet.",
+   "deel": 42
   },
   {
    "rol": "woordvoerder",
@@ -631,7 +674,8 @@
     "fractie": "PVV",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Of het nou een nieuw debat is of een derde termijn, het gaat erom dat we kunnen praten over de nieuwe politieke situatie en dat we vijf minuten spreektijd hebben in plaats van een derde van ik-weet-niet-wat. Ik wil graag dat de minister-president erbij is. Als het een meerderheid krijgt om het morgenvroeg te doen, vind ik het prima om dat morgenvroeg te doen, maar niet later."
+   "tekst": "Of het nou een nieuw debat is of een derde termijn, het gaat erom dat we kunnen praten over de nieuwe politieke situatie en dat we vijf minuten spreektijd hebben in plaats van een derde van ik-weet-niet-wat. Ik wil graag dat de minister-president erbij is. Als het een meerderheid krijgt om het morgenvroeg te doen, vind ik het prima om dat morgenvroeg te doen, maar niet later.",
+   "deel": 43
   },
   {
    "rol": "woordvoerder",
@@ -645,7 +689,8 @@
     "fractie": "CDA",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Nee, dat vind ik gewoon een gekke figuur, voorzitter. Ik kan best begrijpen dat je bij de behandeling van het Belastingplan zegt: \"De tweede termijn is gesloten, maar er zijn nieuwe politieke ontwikkelingen omdat er eventueel nog amendementen worden ingediend die het Belastingplan al dan niet ingrijpend veranderen. Het is goed om daar nog een keer over te praten en om daar het kabinet nog een keer over te horen et cetera.\" Dat hebben we vaker gezien in dit huis. Ik kan me een Onderwijsbegroting herinneren vorig jaar, waarbij we exact dezelfde figuur hebben toegepast. Daar wil ik best steun voor uitspreken, maar dat is dan gewoon een derde termijn, met beperkte spreektijd. En één termijn, niet een totaal apart meerderheidsdebat."
+   "tekst": "Nee, dat vind ik gewoon een gekke figuur, voorzitter. Ik kan best begrijpen dat je bij de behandeling van het Belastingplan zegt: \"De tweede termijn is gesloten, maar er zijn nieuwe politieke ontwikkelingen omdat er eventueel nog amendementen worden ingediend die het Belastingplan al dan niet ingrijpend veranderen. Het is goed om daar nog een keer over te praten en om daar het kabinet nog een keer over te horen et cetera.\" Dat hebben we vaker gezien in dit huis. Ik kan me een Onderwijsbegroting herinneren vorig jaar, waarbij we exact dezelfde figuur hebben toegepast. Daar wil ik best steun voor uitspreken, maar dat is dan gewoon een derde termijn, met beperkte spreektijd. En één termijn, niet een totaal apart meerderheidsdebat.",
+   "deel": 44
   },
   {
    "rol": "woordvoerder",
@@ -659,7 +704,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Mag ik een procedureel tussenvoorstel doen? Laten we over een of twee uur, na afronding van de eerste termijn van de begroting Buitenlandse Zaken, een extra regeling van werkzaamheden met elkaar inplannen. Dan kunt u even met elkaar overleggen wat een pragmatische oplossing is. Dan kunnen we kijken of we vanmiddag of morgenochtend tot een debat komen."
+   "tekst": "Mag ik een procedureel tussenvoorstel doen? Laten we over een of twee uur, na afronding van de eerste termijn van de begroting Buitenlandse Zaken, een extra regeling van werkzaamheden met elkaar inplannen. Dan kunt u even met elkaar overleggen wat een pragmatische oplossing is. Dan kunnen we kijken of we vanmiddag of morgenochtend tot een debat komen.",
+   "deel": 45
   },
   {
    "rol": "woordvoerder",
@@ -673,7 +719,8 @@
     "fractie": "BBB",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Nee, voorzitter. Er is hierover gestemd. Er is een meerderheid om het morgenochtend te doen. Dan kan er wel gezegd worden \"gek figuur\", maar …"
+   "tekst": "Nee, voorzitter. Er is hierover gestemd. Er is een meerderheid om het morgenochtend te doen. Dan kan er wel gezegd worden \"gek figuur\", maar …",
+   "deel": 46
   },
   {
    "rol": "woordvoerder",
@@ -687,7 +734,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Nee, er is geen meerderheid voor."
+   "tekst": "Nee, er is geen meerderheid voor.",
+   "deel": 47
   },
   {
    "rol": "woordvoerder",
@@ -701,7 +749,8 @@
     "fractie": "BBB",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Er is geen meerderheid?"
+   "tekst": "Er is geen meerderheid?",
+   "deel": 48
   },
   {
    "rol": "woordvoerder",
@@ -715,7 +764,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Nee. Kijk, het ingewikkelde is dat het een niet-aangekondigd debatverzoek is. Dat mag, dat kan en ik snap het, want we lezen allemaal wat er allemaal gebeurt. Maar ik zou toch willen voorstellen om het een beetje procedureel hygiënisch te houden. Ik zou willen voorstellen dat u zich even een kort moment terugtrekt om te kijken hoe u in het komende uur of in de komende twee uur tot een vergelijk kunt komen, want op dit moment is er voor geen enkel voorstel een meerderheid. Ik concludeer daarmee dat alleen het voorstel van mevrouw Piri een meerderheid heeft."
+   "tekst": "Nee. Kijk, het ingewikkelde is dat het een niet-aangekondigd debatverzoek is. Dat mag, dat kan en ik snap het, want we lezen allemaal wat er allemaal gebeurt. Maar ik zou toch willen voorstellen om het een beetje procedureel hygiënisch te houden. Ik zou willen voorstellen dat u zich even een kort moment terugtrekt om te kijken hoe u in het komende uur of in de komende twee uur tot een vergelijk kunt komen, want op dit moment is er voor geen enkel voorstel een meerderheid. Ik concludeer daarmee dat alleen het voorstel van mevrouw Piri een meerderheid heeft.",
+   "deel": 49
   },
   {
    "rol": "woordvoerder",
@@ -729,7 +779,8 @@
     "fractie": "BBB",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Nee, voorzitter. Volgens mij is dat niet helemaal correct, want er is een voorstel geweest voor een debat hierover. Daar is een meerderheid voor, maar een paar partijen hebben gezegd: maar alleen als we dat morgenochtend doen. U kunt als voorzitter gewoon voorstellen om morgenochtend nog één rondje debat te doen. Als daar een meerderheid voor is, dan weet iedereen waar hij aan toe is."
+   "tekst": "Nee, voorzitter. Volgens mij is dat niet helemaal correct, want er is een voorstel geweest voor een debat hierover. Daar is een meerderheid voor, maar een paar partijen hebben gezegd: maar alleen als we dat morgenochtend doen. U kunt als voorzitter gewoon voorstellen om morgenochtend nog één rondje debat te doen. Als daar een meerderheid voor is, dan weet iedereen waar hij aan toe is.",
+   "deel": 50
   },
   {
    "rol": "woordvoerder",
@@ -743,7 +794,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Nee, die partijen hebben gezegd: wij kunnen ons een derde termijn voorstellen wanneer de ingediende amendementen daar aanleiding voor geven. Maar die partijen gaven nu geen steun aan het voorstel van meneer Wilders. Het is versnipperd stemgedrag."
+   "tekst": "Nee, die partijen hebben gezegd: wij kunnen ons een derde termijn voorstellen wanneer de ingediende amendementen daar aanleiding voor geven. Maar die partijen gaven nu geen steun aan het voorstel van meneer Wilders. Het is versnipperd stemgedrag.",
+   "deel": 51
   },
   {
    "rol": "woordvoerder",
@@ -757,7 +809,8 @@
     "fractie": "PVV",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. We weten niet of we nog een coalitie hebben. Het gaat over veel meer dan alleen het amendement. We weten niet of de VVD, die ook nu niet eens het procedurevoorstel van PRO heeft gesteund, überhaupt het kabinet nog steunt. Dat weten we niet. Dus het gaat over veel meer dan het Belastingplan. Maar als het helpt om, als het amendement er vanmiddag ligt, het dan morgenvroeg te doen, wat ik een aantal collega's hoor zeggen, vind ik dat prima. Daar is volgens mij ook een meerderheid voor. En of u dat dan een derde termijn noemt of een apart debat, zal mij worst zijn. Als er morgenvroeg politiek kan worden gedebatteerd, heeft het mijn voorkeur dat dit met de minister-president en de fractievoorzitters is. Als andere fracties daar anders over denken: be my guest. Volgens mij is voor een debat morgen om 10.15 uur, ongeacht hoe je het noemt, een meerderheid."
+   "tekst": "Voorzitter. We weten niet of we nog een coalitie hebben. Het gaat over veel meer dan alleen het amendement. We weten niet of de VVD, die ook nu niet eens het procedurevoorstel van PRO heeft gesteund, überhaupt het kabinet nog steunt. Dat weten we niet. Dus het gaat over veel meer dan het Belastingplan. Maar als het helpt om, als het amendement er vanmiddag ligt, het dan morgenvroeg te doen, wat ik een aantal collega's hoor zeggen, vind ik dat prima. Daar is volgens mij ook een meerderheid voor. En of u dat dan een derde termijn noemt of een apart debat, zal mij worst zijn. Als er morgenvroeg politiek kan worden gedebatteerd, heeft het mijn voorkeur dat dit met de minister-president en de fractievoorzitters is. Als andere fracties daar anders over denken: be my guest. Volgens mij is voor een debat morgen om 10.15 uur, ongeacht hoe je het noemt, een meerderheid.",
+   "deel": 52
   },
   {
    "rol": "woordvoerder",
@@ -771,7 +824,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Dan gaan we het even als volgt doen. Even geen tussenoplossingen. Meneer Wilders stelt nu voor: een debat morgenochtend om 10.15 uur, met de minister-president. Ik wil geen tussenvoorstellen horen. Desnoods kunnen we daarna nog weer andere voorstellen doen. Ik wil nu eerst even uw stemgedrag horen op het voorstel van Wilders: morgenochtend om 10.15 uur een debat met de minister-president."
+   "tekst": "Dan gaan we het even als volgt doen. Even geen tussenoplossingen. Meneer Wilders stelt nu voor: een debat morgenochtend om 10.15 uur, met de minister-president. Ik wil geen tussenvoorstellen horen. Desnoods kunnen we daarna nog weer andere voorstellen doen. Ik wil nu eerst even uw stemgedrag horen op het voorstel van Wilders: morgenochtend om 10.15 uur een debat met de minister-president.",
+   "deel": 53
   },
   {
    "rol": "woordvoerder",
@@ -785,7 +839,8 @@
     "fractie": "SGP",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 54
   },
   {
    "rol": "woordvoerder",
@@ -799,7 +854,8 @@
     "fractie": "CDA",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voor het voorstel van de heer Wilders: geen steun. Als het voorstel …"
+   "tekst": "Voor het voorstel van de heer Wilders: geen steun. Als het voorstel …",
+   "deel": 55
   },
   {
    "rol": "woordvoerder",
@@ -813,7 +869,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Neeneenee!"
+   "tekst": "Neeneenee!",
+   "deel": 56
   },
   {
    "rol": "woordvoerder",
@@ -827,7 +884,8 @@
     "fractie": "CDA",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Geen steun."
+   "tekst": "Geen steun.",
+   "deel": 57
   },
   {
    "rol": "woordvoerder",
@@ -841,7 +899,8 @@
     "fractie": "Groep Markuszower",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Van harte steun."
+   "tekst": "Van harte steun.",
+   "deel": 58
   },
   {
    "rol": "woordvoerder",
@@ -855,7 +914,8 @@
     "fractie": "JA21",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 59
   },
   {
    "rol": "woordvoerder",
@@ -869,7 +929,8 @@
     "fractie": "SP",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 60
   },
   {
    "rol": "woordvoerder",
@@ -883,7 +944,8 @@
     "fractie": "BBB",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 61
   },
   {
    "rol": "woordvoerder",
@@ -897,7 +959,8 @@
     "fractie": "D66",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Geen steun, voorzitter."
+   "tekst": "Geen steun, voorzitter.",
+   "deel": 62
   },
   {
    "rol": "woordvoerder",
@@ -911,7 +974,8 @@
     "fractie": "PvdD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 63
   },
   {
    "rol": "woordvoerder",
@@ -925,7 +989,8 @@
     "fractie": "FVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 64
   },
   {
    "rol": "woordvoerder",
@@ -939,7 +1004,8 @@
     "fractie": "ChristenUnie",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter, geen steun. Wel meteen daarna de aanvraag voor een derde termijn ..."
+   "tekst": "Voorzitter, geen steun. Wel meteen daarna de aanvraag voor een derde termijn ...",
+   "deel": 65
   },
   {
    "rol": "woordvoerder",
@@ -953,7 +1019,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Neeneenee. Geen steun dus."
+   "tekst": "Neeneenee. Geen steun dus.",
+   "deel": 66
   },
   {
    "rol": "woordvoerder",
@@ -967,7 +1034,8 @@
     "fractie": "50PLUS",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun."
+   "tekst": "Steun.",
+   "deel": 67
   },
   {
    "rol": "woordvoerder",
@@ -981,7 +1049,8 @@
     "fractie": "DENK",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Steun voor een debat."
+   "tekst": "Steun voor een debat.",
+   "deel": 68
   },
   {
    "rol": "woordvoerder",
@@ -995,7 +1064,8 @@
     "fractie": "PRO",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Geen steun voor zoals het nu voorligt."
+   "tekst": "Geen steun voor zoals het nu voorligt.",
+   "deel": 69
   },
   {
    "rol": "woordvoerder",
@@ -1009,7 +1079,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Er is geen meerderheid voor het voorstel van meneer Wilders.\nMevrouw Bikker doet een nieuw voorstel. Gaat uw gang."
+   "tekst": "Er is geen meerderheid voor het voorstel van meneer Wilders.\nMevrouw Bikker doet een nieuw voorstel. Gaat uw gang.",
+   "deel": 70
   },
   {
    "rol": "woordvoerder",
@@ -1023,7 +1094,8 @@
     "fractie": "ChristenUnie",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter, ik stel voor dat er morgenochtend om 10.15 uur een derde termijn wordt geopend."
+   "tekst": "Voorzitter, ik stel voor dat er morgenochtend om 10.15 uur een derde termijn wordt geopend.",
+   "deel": 71
   },
   {
    "rol": "woordvoerder",
@@ -1037,7 +1109,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Dat is hetzelfde voorstel als dat van de heer Wilders, alleen noemen we het anders. Oké, we doen het opnieuw. Een derde termijn …"
+   "tekst": "Dat is hetzelfde voorstel als dat van de heer Wilders, alleen noemen we het anders. Oké, we doen het opnieuw. Een derde termijn …",
+   "deel": 72
   },
   {
    "rol": "woordvoerder",
@@ -1051,7 +1124,8 @@
     "fractie": "CDA",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter, dit is echt …"
+   "tekst": "Voorzitter, dit is echt …",
+   "deel": 73
   },
   {
    "rol": "woordvoerder",
@@ -1065,7 +1139,8 @@
     "fractie": "BBB",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ja, joh."
+   "tekst": "Ja, joh.",
+   "deel": 74
   },
   {
    "rol": "woordvoerder",
@@ -1079,7 +1154,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Hohoho! Een derde termijn met de minister-president. Dat is het voorstel van …"
+   "tekst": "Hohoho! Een derde termijn met de minister-president. Dat is het voorstel van …",
+   "deel": 75
   },
   {
    "rol": "woordvoerder",
@@ -1093,7 +1169,8 @@
     "fractie": "PVV",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter, in alle eerlijkheid: u heeft er \"een apart debat\" van gemaakt. Ik heb letterlijk gezegd \"of u het nou een derde termijn noemt\" … Een derde termijn is dus ook mijn voorstel."
+   "tekst": "Voorzitter, in alle eerlijkheid: u heeft er \"een apart debat\" van gemaakt. Ik heb letterlijk gezegd \"of u het nou een derde termijn noemt\" … Een derde termijn is dus ook mijn voorstel.",
+   "deel": 76
   },
   {
    "rol": "woordvoerder",
@@ -1107,7 +1184,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ja, meneer Wilders heeft gelijk."
+   "tekst": "Ja, meneer Wilders heeft gelijk.",
+   "deel": 77
   },
   {
    "rol": "woordvoerder",
@@ -1121,7 +1199,8 @@
     "fractie": "ChristenUnie",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Om daarop terug te komen, zeg ik: dan steun ik dat. Een derde termijn steun ik."
+   "tekst": "Voorzitter. Om daarop terug te komen, zeg ik: dan steun ik dat. Een derde termijn steun ik.",
+   "deel": 78
   },
   {
    "rol": "woordvoerder",
@@ -1135,7 +1214,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Oké. Met die interpretatie is er een meerderheid voor een derde termijn van het debat over het Belastingplan, morgenochtend om 10.15 uur met de minister-president."
+   "tekst": "Oké. Met die interpretatie is er een meerderheid voor een derde termijn van het debat over het Belastingplan, morgenochtend om 10.15 uur met de minister-president.",
+   "deel": 79
   },
   {
    "rol": "woordvoerder",
@@ -1149,7 +1229,8 @@
     "fractie": "CDA",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Ik heb één procedurele vraag, als u 't mij toestaat."
+   "tekst": "Voorzitter. Ik heb één procedurele vraag, als u 't mij toestaat.",
+   "deel": 80
   },
   {
    "rol": "woordvoerder",
@@ -1163,7 +1244,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Zeker, gaat uw gang."
+   "tekst": "Zeker, gaat uw gang.",
+   "deel": 81
   },
   {
    "rol": "woordvoerder",
@@ -1177,7 +1259,8 @@
     "fractie": "CDA",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ik heb de heer Wilders horen zeggen dat hij dan wel gewoon vijf minuten spreektijd en een normaal debat wil. Dat is niet een derde termijn. Ja, dat maakt zeker uit, collega's. Puur voor de techniek wil ik dan toch even vragen: gaan we een derde termijn openen van een debat dat al gesloten is of wordt er een nieuw meerderheidsdebat ingepland?"
+   "tekst": "Ik heb de heer Wilders horen zeggen dat hij dan wel gewoon vijf minuten spreektijd en een normaal debat wil. Dat is niet een derde termijn. Ja, dat maakt zeker uit, collega's. Puur voor de techniek wil ik dan toch even vragen: gaan we een derde termijn openen van een debat dat al gesloten is of wordt er een nieuw meerderheidsdebat ingepland?",
+   "deel": 82
   },
   {
    "rol": "woordvoerder",
@@ -1191,7 +1274,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Kijk, meneer Wilders stelt hier voor om een derde termijn te openen van het debat over het Belastingplan. Dat is niet raar, want er zijn nieuwe amendementen ingediend. Hij heeft zelf gezegd dat dat met vijf minuten spreektijd kan en dat hij wil dat de minister-president erbij is. Het ingewikkelde daarvan is dat het natuurlijk wel wetgeving betreft. Als we met elkaar concluderen dat het een derde termijn is over het Belastingplan, wat wetgeving betreft, kunnen partijen dus zelf hun spreektijd opgeven. Het gaat om één termijn."
+   "tekst": "Kijk, meneer Wilders stelt hier voor om een derde termijn te openen van het debat over het Belastingplan. Dat is niet raar, want er zijn nieuwe amendementen ingediend. Hij heeft zelf gezegd dat dat met vijf minuten spreektijd kan en dat hij wil dat de minister-president erbij is. Het ingewikkelde daarvan is dat het natuurlijk wel wetgeving betreft. Als we met elkaar concluderen dat het een derde termijn is over het Belastingplan, wat wetgeving betreft, kunnen partijen dus zelf hun spreektijd opgeven. Het gaat om één termijn.",
+   "deel": 83
   },
   {
    "rol": "woordvoerder",
@@ -1205,7 +1289,8 @@
     "fractie": "PRO",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Voor de duidelijkheid: het is niet zo dat mijn fractie niet wil debatteren. Maar we vinden het volgende ook belangrijk. We weten tegen welke procedurele deadlines we met deze wetgeving aanlopen, omdat er morgen ook gestemd wordt. Dat vind ik het allerbelangrijkste. Als het debat morgen dan op tijd klaar is en er gestemd kan worden, is dat prima."
+   "tekst": "Voorzitter. Voor de duidelijkheid: het is niet zo dat mijn fractie niet wil debatteren. Maar we vinden het volgende ook belangrijk. We weten tegen welke procedurele deadlines we met deze wetgeving aanlopen, omdat er morgen ook gestemd wordt. Dat vind ik het allerbelangrijkste. Als het debat morgen dan op tijd klaar is en er gestemd kan worden, is dat prima.",
+   "deel": 84
   },
   {
    "rol": "woordvoerder",
@@ -1219,7 +1304,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ik concludeer dat er een meerderheid is voor een derde termijn morgenochtend met de minister-president, zodat er morgen aan het einde van de middag gestemd kan worden conform het voorstel van mevrouw Piri. Dat is de conclusie en daar gaan we niet meer over in discussie. Ik schors de vergadering voor een enkel ogenblik."
+   "tekst": "Ik concludeer dat er een meerderheid is voor een derde termijn morgenochtend met de minister-president, zodat er morgen aan het einde van de middag gestemd kan worden conform het voorstel van mevrouw Piri. Dat is de conclusie en daar gaan we niet meer over in discussie. Ik schors de vergadering voor een enkel ogenblik.",
+   "deel": 85
   }
  ]
 }

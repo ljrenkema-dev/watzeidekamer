@@ -10,6 +10,14 @@ Elke tekst schrijf je twee keer, onder `normaal` en `makkelijk`. Beide versies z
 - **normaal** (standaard op de site): heldere, gewone taal zoals een goede nieuwssite. Zinnen tot ongeveer 20 woorden. Houd getallen, nuances en wie-wat-vindt precies. Geen jargon zonder uitleg.
 - **makkelijk**: korte zinnen van hooguit 12 woorden, alledaagse woorden, actieve vorm. Voor laaggeletterden en mensen die Nederlands leren.
 
+## Een deel van een lang debat
+Heeft het agendapunt een veld `deel`, dan is het één deel van een lang debat (`deel.nummer` van `deel.van`, fase `deel.fase`, zoals "Inbreng van de Kamer" of "Antwoord van het kabinet").
+- Vat alleen samen wat in dít deel gezegd is. Verwijs niet naar wat in andere delen staat.
+- Zeg in de samenvatting om welk deel het gaat: bijvoorbeeld "In dit deel van het debat over het Belastingplan geven Brekelmans (VVD) en Eerdmans (JA21) hun inbreng."
+- De titel gaat over de kern van dit deel, niet over het hele debat.
+- "Wie vindt wat?" bevat de fracties die in dit deel spraken. Een antwoord van het kabinet staat in een ander deel als het hier niet voorkomt; schrijf dan niet dat het ontbreekt.
+- Bij een antwoord van het kabinet: noem aan wie de bewindspersoon antwoordt.
+
 ## Juistheid (belangrijkst)
 - Gebruik ALLEEN wat in de spreekbeurten staat. Verzin niets. Geen eigen mening. Neutraal naar alle partijen.
 - Getallen, data en standpunten precies zoals in de tekst, in beide versies.

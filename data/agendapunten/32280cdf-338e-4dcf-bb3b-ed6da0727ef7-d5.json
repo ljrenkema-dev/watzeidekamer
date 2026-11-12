@@ -1,0 +1,1440 @@
+{
+ "id": "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d5",
+ "titel": "Pakket Belastingplan 2027",
+ "onderwerp": "Pakket Belastingplan 2027",
+ "soort_activiteit": "Plenair debat",
+ "begin": "2026-11-10T22:10:11",
+ "eind": "2026-11-10T22:43:24",
+ "vergadering": {
+  "id": "59ca5b00-fce9-4aba-99a3-a9bb09000997",
+  "datum": "2026-11-10",
+  "gewijzigd": "2026-11-12T13:48:11.5172223+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "22e vergadering, dinsdag 10 november 2026",
+  "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "woorden": 4629,
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:10:11",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Voorzitter, dank u wel. In het kader van de slagvaardige overheid zal ik ook de moties en de vragen aan de minister beantwoorden. Dan besparen we hier vanavond weer een beetje tijd.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:10:23",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat wordt hogelijk gewaardeerd.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:10:24",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Ik begin met de vragen, dan de amendementen en tot besluit de moties.\nEr was een vraag van mevrouw Van Eijk van de VVD over de durfinvesteerders. De route die zij voorstelt kunnen we inderdaad onderzoeken. Ik temper een klein beetje de verwachtingen, vanwege de ingewikkeldheid van de materie, maar ik zeg u toe dat ik u voor de behandeling van het volgende Belastingplan, dus bij Prinsjesdag, zal informeren over de resultaten van dat onderzoek.\nDan de vraag van de heer Dijk over de Aof-premie. Het is evident dat we als land voor grote uitdagingen staan. Daarvoor moet uiteindelijk ook gewoon betaald worden. De minister van Sociale Zaken en Werkgelegenheid is met dit vraagstuk bezig en stuurt u zo spoedig mogelijk een brief over de toekomst van de fondsensystematiek. Die was dit najaar beloofd; dat is het nu. Hij gaat in die brief in op de Aof-premie in het bijzonder en zal refereren aan de moties.\nDan ga ik naar de amendementen. Ik moet vooraf een paar extra zinnen zeggen over de appreciatie daarvan. Die appreciatie ga ik hier vanavond namens het kabinet geven, met het Belastingplan in de hand. Ik zal eigenlijk een vrij zuivere appreciatie geven, op basis van het nu voorliggende Belastingplan. Tegelijkertijd beseft het kabinet — daar is het in het debat veelvuldig over gegaan — dat u, met het primaat bij de Kamer, nog onderling gesprekken met elkaar heeft over de vraag: wat kunnen wij nog doen om het Belastingplan, dat eigenlijk al hartstikke mooi is, toch nog een beetje mooier te maken en daar allicht onze steun aan te verbinden? Daar heeft het kabinet, ook gegeven hoe we het nu met elkaar doen, geen zicht op. We waarderen zeer de inspanningen die u doet. Het zou ook zomaar kunnen dat u, als ik nu een appreciatie uitspreek bij een amendement, op een later moment in de tijd, als u daar meer met elkaar over gesproken heeft, tot een ander oordeel komt. Ik doe het nu vanuit de kennis die we nu hebben met elkaar. Ik ben u zeer erkentelijk voor het harde werk dat u doet. Ik kom ook nogmaals terug op mijn oproep: dit kunnen we in Nederland goed, dus poldert u lekker vooruit en dan kijkt het kabinet met goede moed naar amendementen die eventueel ook morgen bijvoorbeeld nog kunnen worden ingediend. En ja, voorzitter, dan sturen wij u een brief, ook nog morgen, met de aanvullende appreciaties. Ik zag het in de ogen van de heer Oosterhuis.\nDan ga ik naar het amendement op stuk nr. 14.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:12:50",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar u heeft eerst nog een interruptie van mevrouw Van Eijk.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:12:58",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is inderdaad gebruikelijk om de amendementen schriftelijk te appreciëren. Allemaal, en vaak ook nog voorzien van een quickscan of een korte uitvoeringstoets et cetera, zodat we dat ook in onze afwegingen kunnen meenemen. Is dat dan het pakket dat morgen nog naar de Kamer komt?",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:13:07",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Zo is het maar net. Alles wat ik u hier mondeling kort zeg, kunnen we iets uitgebreider doen in de brief. Ik hoop dat u het het kabinet gunt — een en ander had een iets kortere doorlooptijd dan normaal — dat het een wat compactere brief wordt dan u allicht eerder van het kabinet gewend was.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:13:28",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Spreekt u via de voorzitter, vraag ik de staatssecretaris.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:13:31",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Voorzitter.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:13:32",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Een aantal van mijn collega's, maar ook ikzelf wacht nog steeds op een aantal amendementen van de amendementenservice. In mijn geval gaat het om twee stuks, waarvan ik net begreep dat er eentje uit het zicht was geraakt. Wanneer dat amendement komt en wordt ingediend, durf ik nu niet te voorspellen. Ik hoop dat dat tussen nu en een uur is, maar die kans is klein. Stel je voor dat het morgen rond een uur of twaalf lukt. Om 14.00 uur sluit het proces aan de kant van de Griffie. Die brief moet nog naar ons toe. Vervolgens moeten wij op basis van die brief nog tijd hebben om onvolkomenheden als die erin zitten nog te kunnen verhelpen. Tja … Wat is haalbaar voor de staatssecretaris? Hoeveel ruimte is er dan nog voor de Kamer om op basis van die brief te acteren?",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:14:13",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Ik zou hier willen aansluiten, als ik zo vrij mag zijn, bij de suggestie die u zelf heeft gedaan om het stap voor stap te doen. Ik weet namelijk ook niet in het hier en nu wat er morgen nog door u wordt ingediend. Ik vind wel dat er wederkerigheid bij de huidige situatie hoort. Wij vragen veel van uw Kamer als het gaat over flexibiliteit in doorlooptijden en dat betekent ook dat wij hard moeten doorwerken. Dus ja, u krijgt morgen zo snel als mogelijk een brief. En als het twee brieven moeten worden, zodat we er tempo op kunnen houden, doe ik dat. Of dat voor uw Kamer dan voldoende is om daarna de vervolgstap te zetten, wil ik graag bij uw eigen Kamer neerleggen.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:14:53",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Gaat uw gang.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:14:54",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het amendement op stuk nr. 14 is ontraden. Met dit amendement wordt voorgesteld om de verlaging van het hoge tarief in de vliegbelasting deels terug te draaien en dat geld in te zetten om de verkeersboetes niet te verhogen. Voorzitter, ik ga het misschien nog iets korter dan dit doen. Ontraden. Het draagt natuurlijk bij aan een hogere mate van internalisatie, maar ik hecht er echt belang aan om ook dat tarief te harmoniseren, zoals afgesproken in het coalitieakkoord.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:15:18",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "En dit betreft het amendement op stuk nr. 14?",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:15:19",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "14.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:15:20",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan het amendement op stuk nr. 15.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:15:21",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het amendement op stuk nr. 15: ontraden. Ik verwijs kortheidshalve naar de Kamerbrief over Acties Weerbaarheid Energieschok en de besluitvorming daaromtrent.\nDan het amendement op stuk nr. 16. Dit is ontraden. Bij de begrotingsbehandeling van VWS is een tegenhanger van dit amendement reeds beoordeeld, dus dan moet ik hier het spiegelbeeldige zeggen.\nHet amendement-Keijzer op stuk nr. 18 is overbodig omdat wij via de derde nota van wijziging een maatregel over het afschaffen van het verlaagde btw-tarief uit het Belastingplan 2027 hebben gehaald. Ik komt straks nog toe aan uw motie. Dan zal ik hier iets meer over zeggen.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:15:57",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik begrijp het. Om technische redenen moet ik dit amendement dus intrekken. Daarvoor in de plaats heb ik een motie ingediend. Ik hoop dat die een meerderheid zal halen.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:16:11",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Bij dezen concludeer ik dus, mevrouw Keijzer, dat het amendement op stuk nr. 18 is ingetrokken.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:16:19",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het amendement over de sierteelt.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:16:24",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, correct.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:16:26",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het amendement op stuk nr. 19 ontraad ik. Bij het volledig laten vervallen van de vpb-plicht voor woningbouwcorporaties dient rekening te worden gehouden met het risico op ongeoorloofde staatssteun. Dan hebben we nog de eindafrekening die moet plaatsvinden en die overigens ook voor woningbouwcorporaties nadelig is. Dit is niet uitvoerbaar.\nHet amendement op stuk nr. 24 ontraad ik. Het amendement geeft woningbouwcorporaties niet meer zekerheid, omdat de staatssteunbeoordeling nodig blijft. Het informele contact met de Europese Commissie is inmiddels gelegd. Ik heb in het WGO reeds verteld dat wij vinden dat woningbouwcorporaties zich hier echt geen zorgen hoeven te maken.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:17:04",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De redenering van de staatssecretaris kun je met even goed fatsoen omdraaien. Je kunt immers ook zeggen: ze hoeven zich heen zorgen te maken; wij gaan dit gewoon fiksen bij de Europese Commissie, dus die datum kan gewoon in het wetsvoorstel. Ik begrijp dus het wat negatieve advies niet.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:17:23",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het is eigenlijk vooral ingegeven vanuit beleefdheid ten opzichte van onze Europese partners. Dit is het proces, hoe we het doen met elkaar. Dan vind ik ook dat je moet laten zien dat je in je wetgeving dat proces faciliteert. Tegelijkertijd ga ik dat proces met zeer veel vertrouwen in.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:17:40",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik vind het echt ongerijmd. Het is aan het kabinet om vertrouwen uit te stralen in hun eigen plannen, om vertrouwen uit te stralen dat ze dit gaan fiksen. We weten dat het een formaliteit is — een formaliteit! Ik snap echt niet dat dit amendement wordt ontraden. Ik geef nog één keer aan de staatssecretaris mee: alstublieft, doe dat niet. Anders is het aan mijn collega's om hier zelfstandig een oordeel over te vellen, zoals zij altijd doen.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:18:01",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Ik hoop oprecht dat de woorden die ik spreek de middenweg tussen het amendement en de praktijk zullen vinden, omdat de inschatting die wij doen nu eenmaal de inschatting is. Tegelijkertijd, als er een staatssteunproces aan de orde is, vind ik dat we die in beginsel ook in de wetgeving moeten vastleggen.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:18:18",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het amendement op stuk nr. 28.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:18:20",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Daar had mevrouw Van Dijk al een goede voorspelling op gedaan; die ga ik ontraden. Dat heeft te maken met de Wbso. Het idee om innovatieve werkzaamheden extra te stimuleren is natuurlijk hartstikke goed, maar voor die structurele indexatie is ook een structurele dekking nodig en dat betekent dat we het zo doen. Ik besef mij overigens dat mevrouw Van Dijk vorig jaar hetzelfde amendement heeft ingediend, met dezelfde appreciatie. Mevrouw Van Dijk weet wat daar het resultaat van was.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:18:56",
+   "spreker": {
+    "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Inge van Dijk",
+    "verslagnaam": "Inge van Dijk",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is incidenteel.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:18:57",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Correct, maar dat betekent nog steeds dat mijn collega de beleidsvrijheid wil houden, zoals ik u dat ook in het WGO heb geschetst. Volgens mij herhaalt het scenario van vorig jaar zich.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:19:08",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het amendement op stuk nr. 30.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:19:09",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het amendement op stuk nr. 30 gaat over de ETS, over de CO2-heffing. Die ga ik ontraden. Het kabinet heeft in het coalitieakkoord afgesproken om de bestaande CO2-heffing voor ETS1 en lachgasinstallaties af te schaffen. Het kabinet erkent dat er werk aan de winkel is, maar daarover later meer, zou ik bijna zeggen, zoals in het debat gewisseld.\nHet amendement op stuk nr. 31 ontraad ik ook, eigenlijk met een vergelijkbare redenatie. In het coalitieakkoord zijn afspraken gemaakt over de CO2-heffing, maar ook over het vooruitzicht dat er in het voorjaar een additioneel klimaatpakket komt.\nDan het amendement op stuk nr. 34 van de heer Grinwis en mevrouw Van Brenk. Dat ontraad ik met het Belastingplan in de hand, zoals ik in mijn introductie zei. Tegelijkertijd merkte ik ook in het debat dat u er veel over wisselt met elkaar.\nDe motie op stuk nr. 35 …",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:20:01",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het amendement op stuk nr. 35.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:20:02",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het amendement op stuk nr. 35 van Klaver en Dassen ontraad ik om een hele trits redenen. Dat gaat namelijk over afspraken over erf en schenk, over de box 2-maatregel die erin zit, over de maatvoering daarvan, en de technische uitvoerbaarheid van onder andere de punten over box 3. In het debat is het, geloof ik, weleens \"te ruig\" genoemd en daar kan het kabinet zich bij aansluiten, en ietsje meer dan dat.\nDan ga ik naar het amendement op stuk nr. 38 van Markuszower over het schrappen van de vrijheidsbijdrage. Die ontraad ik. Het amendement is in zichzelf namelijk ongedekt.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:20:43",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik schat in dat meneer Grinwis een vraag heeft over het amendement op stuk nr. 34.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:20:47",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er komt een gewijzigd amendement in plaats van het amendement op stuk nr. 34, want dat amendement is nog niet de uitwerking van de motie inzake de daling van de rekenrente van 6% naar 3%. De juiste uitvoering komt dus nog naar u toe. De motie heeft de staatssecretaris destijds oordeel Kamer gegeven. Als we de juiste technische uitvoering hebben van die motie, krijgt het amendement dan wel oordeel Kamer?",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:21:13",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het is volgens mij goed gebruik om het amendement dan eerst te beschouwen. Dat kunt u dan in de brief zien. Ik hoop dat u in mijn introductie heeft gehoord dat het kabinet ook beseft dat er een aantal amendementen nog in beweging zijn, gehoord het debat. Dit is er een daarvan, dus vanavond houd ik het even strikt bij wat er ligt en strikt bij het Belastingplan. Maar laten we morgen ook weer in een nieuwe dag en met frisse moed kijken naar wat er dan op tafel ligt.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:21:39",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het amendement op stuk nr. 39.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:21:40",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Dat ontraad ik u. Dit hebben we vaker met elkaar gewisseld, maar een btw-instrument is geen geschikt instrument om consumptie van groente en fruit te stimuleren. Het is ook nog eens een heel ingewikkeld instrument, met allerlei afbakeningsvraagstukken, dus ontraden.\nDan het amendement op stuk nr. 40 over het lage btw-tarief voor huishoudapparaten. Dat ontraad ik ook. Ook daarbij gaat het over uitvoerbaarheid en gerichtheid. Ook dat hebben we reeds eerder met elkaar gewisseld.\nDan ga ik naar het amendement op stuk nr. 41 over het afschaffen van de landbouwvrijstelling. Dat ontraad ik. Ik heb eerder in een debat gezegd dat ik gezien alles wat er speelt in de landbouw en alles wat er voortvloeit uit de discussies die we hier met elkaar hebben, zou zeggen: laten we aan deze kant van het dossier een beetje rust organiseren.\nDan ga ik naar het amendement op stuk nr. 42 van Grinwis en Van Brenk. Dat geef ik oordeel Kamer, zoals ook al te lezen was in de kabinetsbrief. Daarmee herverdeelt uw Kamer het koopkrachtpakket.\nDan het amendement op stuk nr. 43. Dat ontraad ik. De invoering van die kostenaftrek en die tegenbewijsregeling per 2027 is niet uitvoerbaar. De kostenaftrek voor alleen onroerende zaken is ook nog eens juridisch kwetsbaar. Er is geen wezenlijk onderscheid tussen kosten voor vastgoed en kosten voor andere beleggingen. Ook is er geen dekking opgenomen. En ja, ik begrijp heel goed wat de achtergrond van het amendement is. Ik begrijp ook welk probleem mevrouw Keijzer ziet en wil onderkennen. Tegelijkertijd zei ik al in mijn eerste of tweede termijn — dat weet ik niet meer — dat dit ook gewoon inherent is aan de route die we nu kiezen.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:23:19",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar doordat de Wet werkelijk rendement is uitgesteld tot 2029 — het is een dossier dat zich kenmerkt door het uitstellen van een definitieve regeling — hebben we nu geen kostenaftrek. Zoals ook is geantwoord op eerdere Kamervragen stijgt de belastingdruk bij middenhuur soms tot boven de 100% van het netto-exploitatieresultaat. Hier zijn we dus vastgoedverhuurders verder de verkoop in aan het jagen. Is dat nou niet een overweging om toch nog eens een keertje hiernaar te kijken en mij desnoods ook in een brief uit te leggen waarom dit praktisch niet kan?",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:24:02",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Ik zal er dan morgen in de brief extra zinnen aan wijden. Ik ga niet het debat van gisteren met veel woorden overdoen, maar de nu gekozen route betekent volledige focus op de novelle in '29.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:24:18",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat begrijp ik, maar ik heb mij ook laten vertellen dat je dit als aangever van de belasting, dus als vastgoedexploitant, in het aangifteformulier bij werkelijk rendement in een specifiek invulveld gewoon zelf kunt verlagen met die 25%. Dus in die zin verandert er voor de Belastingdienst helemaal niets, maar ga je wel eindelijk eens een keertje op een reële manier bekijken wat er hier gebeurt. Zou de staatssecretaris in de brief ook nadrukkelijk op dit punt in willen gaan? Mij bekruipt namelijk een beetje het gevoel dat de wil er gewoon niet is.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:24:59",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "De wil is zeker het probleem niet, maar we zullen er morgen wat extra zinnen aan wijden, zonder meer.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:25:11",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot, voorzitter. Dank, maar aan er alleen wat extra zinnen aan wijden, heb ik niks. Ik wil dan ook dat er echt heel inhoudelijk op ingegaan wordt en met name ook op dat praktische punt dat ik nu aangeef. We jagen namelijk zo'n beetje elke dag jonge mensen uit hun huurflat, omdat de verhuurder geen andere oplossing ziet dan verkoop.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:25:31",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Ik zal ervoor zorgen dat de extra zinnen zowel inhoudelijk zijn als ingaan op dit praktische voorstel van mevrouw Keijzer.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:25:39",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het amendement op stuk nr. 44.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:25:40",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het amendement op stuk nr. 44 ontraad ik. De verlenging van de accijnskorting hebben we juist goed afgewogen ten opzichte van onder andere de koopkracht.\nHet amendement op stuk nr. 45 ontraad ik. Het kabinet zoekt een balans tussen het internaliseren van de externe kosten van vliegen en het gelijke speelveld.\nDan kom ik bij het amendement op stuk nr. 37. Dat ontraad ik ook. Hiervoor geldt, denk ik, dezelfde zin als die ik eerder heb uitgesproken rondom amendementen van de heer Grinwis.\nDan ga ik naar het amendement op stuk nr. 47.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:26:14",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Hier gaat het even mis, denk ik. Ik kijk even rond of de leden dat ook zo ervaren. Ik ben bij het amendement op stuk nr. 46.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:26:26",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Ja, daar was ik ook.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:26:28",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is het amendement-Grinwis over de verlaging van het energiebelastingtarief. U zei 36.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:26:31",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "O! Ik bedoelde het amendement op stuk nr. 46. Stop de tijd!",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:26:37",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Kijk! We doen het opnieuw. Het amendement op stuk nr. 46.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:26:38",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Dan het amendement op stuk nr. 47.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:26:47",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Graag nog één keer het amendement op stuk nr. 46, voor de administratie van ons allemaal.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:26:48",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het amendement op stuk nr. 46 ontraad ik. Ik zeg daar niet uitgesproken vergelijkbare zinnen bij als bij de eerdere amendementen van de heer Grinwis.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:27:36",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan het amendement op stuk nr. 47.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:27:37",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het amendement op stuk nr. 47 ontraad ik ook. We hebben daar namelijk al een stap in gezet en dat zou het voor het kabinet dan moeten zijn.\nHet amendement op stuk nr. 48 ontraad ik. Dan gaat het namelijk over dat we het best goed afgewogen hebben, hoe vervelend het voor de sector ook is.\nDan het amendement op stuk nr. 49 van de heer Stoffer. Dat wil ik oordeel Kamer geven, met een extra zin. Het bijtellingspercentage gaat daardoor wel schommelen. Dat wordt eigenlijk een uitvloeisel van deze rekensom. Daar is eigenlijk het bijtellingspercentage niet voor bedoeld, want dat moet natuurlijk de economische waarde reflecteren. Je hebt rekkelijken en preciezen en bij dit amendement ben ik maar even rekkelijk.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:28:07",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan het amendement op stuk nr. 50.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:28:10",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Dat ontraad ik. Dat heeft te maken met de eerdere besluitvorming en de verschuiving van het probleem naar een ander deel van de sector.\nDan het amendement op stuk nr. 52. Dat ontraad ik ook. Ik denk dat ik net al het nodige heb gezegd over onze weging van de lastenverzwaring die met dat forfaitaire systeem te maken heeft.\nDan heb ik bij het wetsvoorstel over start-ups en scale-ups een nieuwe nummering, voorzitter. Dus dan kom ik bij het amendement op stuk nr. 7. Dat wil ik graag oordeel Kamer geven.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:28:20",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, dat is het amendement op stuk nr. 7 (37024) van Inge van Dijk en Van Eijk. Is dat correct?",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:28:21",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Zo staat het er ook bij mij.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:28:22",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het amendement op stuk nr. 7 krijgt oordeel Kamer.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:28:23",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het amendement op stuk nr. 8 bij hetzelfde wetsvoorstel krijgt ook oordeel Kamer.\nHet amendement op stuk nr. 11 ga ik ontraden. Dat heeft te maken met de ambities voor een slagvaardige overheid. Dat betekent niet te veel en dus ook niet te snel evalueren.\nDan kom ik bij het wetsvoorstel Overige fiscale maatregelen. Dan komen we weer bij een nieuwe nummering: wetsvoorstel 37023, met het amendement op stuk nr. 9. Dat ontraad ik. Het is absoluut een sympathiek amendement, maar dit heeft ook weer met de uitvoering en de techniek te maken. U kunt daar morgen in de brief wat meer over lezen.\nDan kom ik het amendement op stuk nr. 7, bij de Novelle uitbreiding vermogenswinstbelasting box 3.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:29:09",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Correct. Wetsvoorstel 37053, het amendement op stuk nr. 7 van de heer Schenk.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:29:14",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Dat ontraad ik. De alternatieve dekking die het amendement voorstelt, is niet zoals we dat doen.\nIdem voor het amendement op stuk nr. 12. Daar is natuurlijk ook al het nodige over gewisseld.\nTot slot het amendement op stuk nr. 13. Dat vind ik zonder meer sympathiek vanuit het doel. Ik wil u vragen om dat aan te houden. We geven het oordeel \"ontijdig\", omdat we daar nog op studeren.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:29:36",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Is de heer Grinwis bereid om het amendement op stuk nr. 13 aan te houden? Dat is een beetje gek natuurlijk.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:29:44",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat kan niet. We hebben in het WGO gisteren gewisseld dat het technisch kan op deze manier, namelijk een amendement indienen met als ingangsdatum 1-1-2030. Het antwoord daarop is ja. We weten dat deze modaliteit het beste aansluit bij de praktijk van de NSW-landgoederen en bij hoe er tussen de verschillende spelers in het spel is gesproken bij het ministerie en bij de landgoederen, en dat dit de meest uitvoerbare variant is. Dus mijn overtuiging is dat dit niet meer gaat veranderen tussen als ik het nu zou terugtrekken en als de staatssecretaris het volgend jaar in het definitieve wetsvoorstel zou stoppen. Dus volgens mij is dit gewoon zoals het moet zijn en handhaaf ik het. Ik hoop dat de staatssecretaris tussen nu en morgen dit in de brief nog even kan uitharden.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:30:41",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Dan kom ik op het amendement op nr. 13 meer in detail terug in de brief. Ik heb gisteren natuurlijk wel al een brief toegezegd voor de zomer op de inhoud hiervan.\nVoorzitter. Dan ga ik naar ...",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:30:54",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan concludeer ik dat voor het amendement op stuk nr. 13 een schriftelijke appreciatie volgt.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:31:01",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Zo is het.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:31:02",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "... waarbij er twee smaken zijn: \"oordeel Kamer\" of \"ontraden\".",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:31:03",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Dan ga ik naar de moties, voorzitter.\nHet is niet aan het kabinet om de motie op stuk nr. 53 te appreciëren.\nDe motie op stuk nr. 54: oordeel Kamer.\nDe motie op stuk nr. 55: oordeel Kamer.\nWat de motie op stuk nr. 56 betreft heb ik al iets in deze richting toegezegd, maar ik snap ook dat u dat allicht hier wil markeren, dus: oordeel Kamer.\nHetzelfde geldt voor de motie op stuk nr. 57.\nDe motie op stuk nr. 58 krijgt ook oordeel Kamer.\nHet is niet aan het kabinet om de motie op stuk nr. 59 te appreciëren.\nDe motie op stuk nr. 60 ga ik ontraden. We hebben al een voorstel opgenomen in het Belastingplan voor een accijnskorting. Bovendien is zij ongedekt.\nDe motie op stuk nr. 61 moet ik ook ontraden; om een vergelijkbare reden, kortheidshalve.\nDe motie op stuk nr. 62 ontraad ik. De voorgestelde dekking is slecht voor het vestigingsklimaat en wij maken een andere weging.\nVan de motie op stuk nr. 63 zeg ik dat wij die ontraden, maar vanuit EZK wordt er wel een onderzoek gedaan naar dit thema. Ik zal de oproep uit deze motie doorgeleiden naar de bewindspersonen van EZK, zodat zij dit bij het onderzoek mee kunnen nemen.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:32:30",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan de motie op stuk nr. 64.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:32:31",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "De motie op stuk nr. 64 ontraad ik. Dat pakken wij namelijk in EU-verband op met elkaar. Wij zitten ook in de kopgroep die daar nu verder vorm aan geeft.\nDan de motie op stuk nr. 65, die ik graag oordeel Kamer geef. Ik zal dat overigens dan wel ook samen met KGG doen of dit in ieder geval naar KGG doorgeleiden.\nDe motie op stuk nr. 66 geef ik graag oordeel Kamer. Dat geeft ons allen een helder inzicht, waarvan ik hoop dat we het niet nodig hebben — zo is het ook.\nOver de motie op stuk nr. 67 zeg ik dat wij daar graag tot het voorjaar op willen doorstuderen. Zij is dus ontijdig.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:33:14",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan is de vraag of de heer Vermeer bereid is om de motie op stuk nr. 67 aan te houden. Dat is hij niet. Daarmee krijgt-ie de appreciatie: ontijdig. De motie op stuk nr. 68.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:33:23",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "De motie op stuk nr. 68. Dank voor het oppakken van de handschoen uit het WGO. Oordeel Kamer.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:33:26",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 68 oordeel Kamer. De heer Vermeer wil iets zeggen over de motie op stuk nr. 67.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:33:28",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, voorzitter. De motie op stuk nr. 67 kan ik niet aanhouden om deze reden, want dan wordt ie ontijdig. Wij willen namelijk nu onderhandelen.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:33:43",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het voorstel van het kabinet is, ook omdat u natuurlijk spreekt over de uitgavenkant, om hier gewoon in het voorjaar verder over te spreken met elkaar, dus ontijdig.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:33:52",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heb een vraag over de motie op stuk nr. 64, over de overwinstbelasting die je nationaal zou kunnen invoeren. Ik krijg namelijk bij meerdere debatten, bij de begroting KGG en eerder ook al, iedere keer het antwoord: we zitten in een Europese kopgroep. Maar we krijgen er ook altijd bij te horen dat die Europese kopgroep heel moeizaam voortgang boekt, dus dat er eigenlijk geen resultaat is.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:34:27",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Dat is niet een beeld dat ik herken. Ook onze minister zit bij allerlei overleggen die hierover gaan en trekt daar ook aan. Je moet dit Europees regelen. Dat is eigenlijk de enige manier om dit effectief te laten zijn. Ik kom dus echt tot een ander oordeel over de inspanningen van het kabinet in Europa.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:34:34",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mag ik dan vragen wanneer er een resultaat is?",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:34:36",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Uit mijn hoofd gezegd, en dit klopt, gaat de kopgroep in december een resultaat opleveren.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:34:37",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:34:49",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dus vanaf december hebben wij een overwinstbelasting?",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:34:51",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Nee, dan heeft de kopgroep ... Je moet dingen ook stap voor stap en zorgvuldig doen. Het is ook een juridisch instrumentarium waarmee je jezelf in de voet kan schieten, als je dat te snel invoert. Ook dit gaat dus stap voor stap, maar wel met veel passie.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:35:04",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 69.",
+   "deel": 20
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:35:05",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "De motie op stuk nr. 69 ontraad ik. Daarbij kan ik, denk ik, verwijzen naar de vele debatten over dit thema en het belang van veiligheid op ons continent.\nHet is niet aan het kabinet om de motie op stuk nr. 70 te appreciëren.\nBij de motie op stuk nr. 71 wilde ik eigenlijk hetzelfde doen als bij de motie op stuk nr. 67: ontijdig.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:35:24",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan is de vraag of mevrouw Keijzer bereid is om de motie op stuk nr. 71 aan te houden. Dat is zij niet. Daarmee krijgt de motie op stuk nr. 71 ontijdig.\nDaarmee zijn we aan het einde gekomen van de tweede termijn van de zijde van het kabinet bij de behandeling van het Pakket Belastingplan 2027, alsook van de behandeling van het Pakket Belastingplan.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:35:43",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De stemmingen zijn aanstaande donderdag voorzien, bij aanvang van de middagvergadering. Ik zie mevrouw Keijzer naar de interruptiemicrofoon lopen. Het was al aangekondigd. Gaat uw gang.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:35:59",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heb hier net gevraagd: zullen we deze hele discussie hernemen als er wat meer duidelijkheid is over een eventuele deal met wie dan ook? Als op een gegeven moment duidelijk wordt hoe dat eruitziet en er verandert echt iets fundamenteels, dan kunnen we hier met elkaar een regeling hebben voor een eventuele derde termijn. Ik denk dat het sowieso verstandig is om tussen het stemmen over de amendementen en het stemmen over het Belastingplan ook even iets van tijd te laten. Dat hoeft niet nu, maar dat zal dan woensdag- of donderdagochtend of donderdag rond de middagpauze zijn. Dan kunnen we hier met elkaar eens goed kijken hoe we dit, en in ieder geval de uiteindelijke besluitvorming, een klein beetje netjes laten verlopen, heren.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:36:58",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Als dit een ordevoorstel is, dan steun ik het voorstel.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:37:05",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan concludeer ik dat het voor nu zo is dat stemmingen over alles aanstaande donderdag bij aanvang van de middagvergadering zullen plaatsvinden, waarbij mevrouw Keijzer er inderdaad terecht op wijst dat de Kamer op ieder moment met een extra regeling van werkzaamheden kan verzoeken tot heropening van het debat of tot wijziging van het moment van stemmen. Ik kijk even naar de griffiers; wij houden in ieder geval onze mailbox in de gaten. We zien hoe het loopt en wat uw Kamer wenst.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T22:37:32",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil graag het tweede punt onderstrepen: er moet echt een paar uur zitten tussen de stemmingen over de amendementen en over de wet zelf. Het maakt zo veel uit wat er wordt aangenomen dat het wel goed is om als fracties te kunnen wegen wat we met het Belastingplan doen.",
+   "deel": 20
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T22:37:45",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Helder. Ik dank u allen voor uw medewerking. Ik schors vijf minuten. Dan gaan we stemmen over de motie van meneer Markuszower. Ik schors de vergadering vijf minuten.",
+   "deel": 20
+  }
+ ],
+ "deel": {
+  "nummer": 5,
+  "van": 5,
+  "fase": "Antwoord in tweede termijn",
+  "sprekers": "Eerenberg",
+  "ouder_id": "32280cdf-338e-4dcf-bb3b-ed6da0727ef7",
+  "ouder_titel": "Pakket Belastingplan 2027",
+  "woorden_totaal": 33584
+ }
+}

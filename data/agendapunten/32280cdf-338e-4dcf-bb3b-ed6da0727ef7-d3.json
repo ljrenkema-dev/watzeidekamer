@@ -1,0 +1,2100 @@
+{
+ "id": "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d3",
+ "titel": "Pakket Belastingplan 2027",
+ "onderwerp": "Pakket Belastingplan 2027",
+ "soort_activiteit": "Plenair debat",
+ "begin": "2026-11-10T19:58:25",
+ "eind": "2026-11-10T22:43:24",
+ "vergadering": {
+  "id": "59ca5b00-fce9-4aba-99a3-a9bb09000997",
+  "datum": "2026-11-10",
+  "gewijzigd": "2026-11-12T13:48:11.5172223+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "22e vergadering, dinsdag 10 november 2026",
+  "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "woorden": 9135,
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T19:58:25",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u, voorzitter. Het waren een paar enerverende weken met het Belastingplan. Er waren tijden dat de tribune leeg was en dat na afloop alleen mijn moeder had meegekeken. Dat is wel veranderd dit jaar. Opeens krijgt het heel veel aandacht. Dat vind ik positief, zeker als het over inhoudelijke punten gaat, want het gaat over grote vraagstukken. Het gaat met name om de vraag wie in Nederland de komende jaren de rekening betaalt. Een van onze kern- en kritiekpunten bij dit Belastingplan is dat de rekening eenzijdig, eigenlijk volledig, wordt neergelegd bij werkende mensen. Er wordt niks gevraagd van de allerrijksten of van de mensen met de grootste vermogens en de grootste winsten. Sterker nog: er ligt een gigantische belastingkorting van 17,5 miljard in box 3. Ik ga zo verder, als ik deze interruptie heb gehad.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T19:59:26",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Volgens mij mocht u doorspreken van de heer Hoogeveen.",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T19:59:29",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wilde er nog aan toevoegen: dat vinden wij niet in balans en niet eerlijk. Daarom gaan wij op basis van de amendementen kijken of het Belastingplan eerlijker is geworden en beter in balans is om uiteindelijk te kunnen bepalen of we het gaan steunen of niet.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T19:59:51",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik lees in allerlei kranten dat coalitiepartijen zich er zo aan ergeren dat Klaver zo'n groot strateeg is. Ik moet eerlijk toegeven dat ik dat amendement ook niet had zien aankomen in de eerste termijn. Ik denk dat dat een strategische zet was, want dan creëer je chaos en zet je het debat naar je hand. Het nadeel voor de heer Stultiens is dat wij dat amendement even hebben kunnen doornemen, omdat wij daar nu tijd voor hebben. Dat blijkt dan toch wel een vrij destructief amendement te zijn, als we de analyses zelf maken en doorlezen. Ik pik er gewoon even eentje uit: het box 3-tarief van 45%. Is de heer Stultiens bekend met het ambtelijk advies van het ministerie van Financiën dat bij een box 3-tarief hoger dan 38% het evenwicht compleet verstoord raakt en er gedragseffecten optreden waaronder kapitaalvlucht? Hoe reflecteert hij daarop?",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:00:36",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank. Ik ken de analyse. Sterker nog, ik heb een jaar geleden al een amendement ingediend met dezelfde strekking. Ik ben daar dus mee bekend. Als je boxhoppen wil tegengaan, en dat snap ik, dan moet je vooral zorgen dat box 2 en box 3 met elkaar in balans zijn. Dus als de heer Hoogeveen zich zorgen maakt om het amendement, dan moeten we kijken of box 2 misschien te laag is. Dat punt snap ik wel. Tegelijkertijd zie je ook aan de ramingen van Financiën zelf dat het uiteraard geld oplevert. Gedragseffecten zijn er dus altijd, maar onder aan de streep haal je nog steeds een bedrag op van, uit mijn hoofd, zo'n 600 miljoen, en dat is fors geld. Dat gebruiken wij om werk te laten lonen. Dat is het grote verschil tussen onze partijen. Wij willen namelijk vooral dat werkende mensen niet alle rekeningen betalen, maar dat ligt nu wel voor, helaas.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:01:21",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat vind ik toch opmerkelijk. Ik krijg dan toch het gevoel dat dit amendement niet helemaal doordacht is en eigenlijk meer was gericht op het creëren van chaos en destructie, om het maar even zo te stellen. Het gebeurt niet vaak, maar ik ben het eens met de heer Bas Jacobs. Wij noemen hem op de fractie vaak \"Bas Aanwas\", omdat we het zo vaak niet met hem eens zijn, maar zijn analyse van het amendement van de heer Stultiens snijdt wel degelijk hout: \"Belastingen op kapitaalinkomens zijn economisch schadelijker, omdat huishoudens en bedrijven sterker op kapitaalbelastingen reageren dan op arbeidsbelastingen. Daardoor brengt een belasting op kapitaal relatief meer schade toe aan de economie dan een belasting op arbeid met hetzelfde tarief.\" Hoogleraar Bas Jacobs noemt dit amendement in zijn conclusie \"ondoordacht\" en \"naïef\". Hoe kijkt de heer Stultiens daarnaar?",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:02:17",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De heer Bas Jacobs noemt deze box 3-novelle \"boekhoudkundige zwendel\" en JA21 steunt dat van harte. JA21 maakt de route mogelijk om er hier in een week tijd 18,5 miljard doorheen te jagen, ongedekt. Dat is wat Bas Jacobs zegt.\nDan over ons eigen amendement. \"Chaos en destructie\"? Volgens mij hebben onze beide partijen al weken, misschien al maanden, aangekondigd: kies een route, ga met ons praten en maakt het Belastingplan beter. Dat heeft u gedaan met een rechtse route en wij met een linkse route. Laten we dus elkaar niet aanpraten dat de chaos nu komt door de oppositie. Die is er omdat er geen keuzes worden gemaakt. Wij hadden liever aan tafel dingen gefixt, op Financiën en in het Catshuis. Dat is niet gelukt en dus moesten we inderdaad lastminute gaan amenderen.\nDan op het punt: is dit destructief? Nee, natuurlijk niet. Als je hard werkt voor je geld en je komt in het toptarief in box 1, dan betaal je in Nederland gewoon 49,5% belasting. Ik hoor daar niemand een punt van maken, maar als je van cryptomiljonairs vraagt \"hé, maar als jij zo veel geld krijgt …\", namelijk €80.000, is het opeens: oe, chaos, destructie! Werkende mensen betalen allang 50% als ze werken voor hun geld. Waarom hoor ik u daar niet over?",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:03:32",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:03:33",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zal de jij-bak ten aanzien van box 3 even negeren. De heer Stultiens wijst er ook vaak op dat dat gebeurt. Ik begrijp goed wat de heer Stultiens zegt, namelijk dat wij als partij allebei zeggen: kies een richting. Dat hebben we vrij consequent gedaan. Ik vraag alleen wel het volgende aan de heer Stultiens. Je vraagt aan het kabinet een richting te kiezen, maar dan is dit de richting die PRO voorstelt, met dusdanige negatieve effecten op de economie. Nogmaals, ik kan mee in de discussie over vermogen versus inkomen. Maar dit amendement is zo ondoordacht en rücksichtslos dat ik PRO toch zou willen vragen: reflecteer hierop en kijk ook kritisch naar hoe de eigen plannen die in een amendement uitgevoerd zouden moeten worden, zijn ingediend.",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:04:29",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank voor de aanmoediging. Er liggen nu inderdaad een paar routes voor voor het kabinet. Er is de route met PRO en Volt. Dan zeggen wij: vraag wat meer van de grote vermogens en laat werken lonen. De route over rechts vraagt een heleboel dingen, onder andere: houd het stikstofslot op tafel. Weet u wat slecht is voor de economie, meneer Hoogeveen? Nog langer doormodderen met stikstof. Dat zeggen alle economen, dat zeggen alle ondernemers en toch ligt het op tafel als eis van een van uw partijen. U bent een bondje. U zegt: nee, we willen nog liever de economie een paar jaar op slot houden, werk met ons samen. Ik zou het wel weten als ik het kabinet was.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:05:08",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is natuurlijk wel echt een rigoureus amendement dat PRO voorstelt, namelijk anderhalf miljard extra belasting op vermogen. Er zijn ook veel ondernemers geweest die daar inmiddels op hebben gereageerd in de media. Ik citeer er een paar. \"Het lijkt wel dat Den Haag bewust aanstuurt op de eliminatie van elke ondernemer in Nederland.\" Een volgende: \"Soms denk ik weleens dat het jaloezie is en dat ze denken dat ondernemers makkelijk geld verdienen en hun zakken vullen, maar de meesten werken keihard. Als je die lange dagen meerekent, valt het uurtarief tegen.\" Dan citeer ik er nog eentje over het schrappen van de doorschuifregeling; dan moet er dus een belasting van 33% afgetikt worden bij de overdracht van een bedrijf: \"Als dit doorgaat, dan is het einde verhaal voor ons familiebedrijf.\" Dat is nogal wat. Ik vraag me heel erg af hoe de heer Stultiens van PRO kijkt naar de reacties van de mensen die geraakt gaan worden door het amendement van PRO.",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:05:54",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik vind het vrij naïef hoe makkelijk Forum voor Democratie alle lobby zomaar slikt. Ik zou zeggen: verdiep je in de inhoud en lees gewoon alle ambtelijke adviezen. Ik zal het erbij pakken over het afschaffen van de doorschuifregeling. Uiteraard kun je dan als ondernemer een betalingsregeling treffen met de Belastingdienst en kun je er jaren over doen om te betalen. Terecht, want het doel is uiteraard om ze in leven te houden. Daarom zeggen deze ambtenaren ook in deze adviezen: deze kun je afschaffen; zorg voor ruime betalingsregelingen. Inderdaad, het geld wordt gebruikt om werken te laten lonen. Dat is precies wat ondernemers heel goed vinden.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:06:33",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "PRO draait toch een beetje om de hete brij heen. Dat betreft gewoon de gedragseffecten die dit amendement tot gevolg zullen hebben. Sommige ondernemers zullen stoppen. Ze zien hun familiebedrijf helaas kapotgaan. Ze zullen wellicht naar het buitenland vertrekken. Dat betekent ook dat er uiteindelijk een rekening neerkomt bij de middenklasse, want als mensen wegtrekken die nu belasting betalen, dan komt die rekening vanzelfsprekend uiteindelijk bij andere mensen terecht, in dit geval dus werkenden, de middenklasse bijvoorbeeld. Daar beweert PRO voor op te komen. Zou PRO zich dus niet beter bewust moeten zijn van de gedragseffecten die dit, nogmaals, rigoureuze amendement tot gevolg zal hebben?",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:07:19",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De denkwijze van Forum is eigenlijk: hé, PRO wil het neerleggen bij de grote vermogens, maar dat komt dan misschien straks bij de middenklasse terecht; laten we maar gelijk de middenklasse gaan belasten. Dat ligt nu namelijk vandaag voor in het Belastingplan: een miljardenverhoging op de middenklasse, op werkende mensen. Dat vinden wij niet eerlijk en niet rechtvaardig. Daarom zeggen wij inderdaad: vraag het van de grote vermogens. Om u gerust te stellen, als u tenminste die inhoud interessant vindt, zegt de ambtelijke analyse heel duidelijk: het gevolg voor een succesvolle overdracht aan erfgenamen is beperkt, omdat die regelingen uiteraard mogelijk zijn. Iedereen wil graag dat die bedrijven in stand blijven. Alleen is dit gewoon een fiscale korting die ondoelmatig en niet nodig is. Daarom staat die in ons amendement. Maar het argument \"pas op, het komt bij de middenklasse terecht\" is natuurlijk heel raar. Het ligt nu bij de middenklasse door een miljardenverhoging op belasting in box 1. Dat vinden wij niet eerlijk.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:08:13",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:08:14",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Laat voorop staan: de heer Stultiens beweert hier dat FVD het prima vindt dat werkenden zwaarder belast worden. Het tegendeel is waar; daar zijn wij volgens mij ook heel helder in. Wij zijn fundamenteel tegenstander van het Belastingplan. Wij vinden dat alle belastingen in Nederland omlaag zouden moeten. Dat kan ook als we wat aan de uitgavenkant zouden doen. Daar hebben we wel wat mooie potjes voor, zoals klimaat en immigratie. Daar wil PRO niet aankomen. Als dit amendement een meerderheid krijgt, is dat gewoon desastreus voor het verdienvermogen van Nederland en desastreus voor de economie van Nederland, voor ondernemers, voor werkenden en voor de middenklasse. Het zou volstrekt onverantwoord zijn als het CDA en D66 met deze linkse gekte meegaan. Ik neem aan dat ook zij meeluisteren en dat de heer Paternotte en de heer Bontenbal in hun onderhandelingen ook heel goed weten wat straks het gevolg zal zijn van dit amendement. Ik ga de heer Stultiens nogmaals het verzoek doen: denk alstublieft heel goed na over wat dit voor gevolgen heeft, want het verdienvermogen van Nederland gaat eraan; dat zal iedereen gaan voelen.",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:09:05",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Uiteraard gaat het verdienvermogen van Nederland er door dit amendement niet aan; dat weet de heer Schenk ook. We gaan het inhoudelijk niet eens worden, wat natuurlijk geen verrassing is. Ik zie amendementen van Forum voorbijkomen die zeggen: laten we het tarief verlagen van 36% naar 0%. Nou, dat lijkt me nog eens een stevig amendement. Maar goed, we gaan het niet eens worden en dat is prima. Ik ga verder met mijn betoog.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:09:28",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja.",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:09:31",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Vandaag hebben meer dan 100.000 mensen een petitie aangeboden aan de Tweede Kamer met de boodschap: belast de allerrijksten, niet gewone mensen. Dat is precies waar deze vraag over gaat: wie gaat de komende jaren belastingen betalen? Als PRO zeggen wij, samen met Volt, dat er een kans is om het Belastingplan eerlijker en beter voor de economie te maken. Ik hoop van harte dat dit door de rest van de Kamer wordt opgepakt. Ik heb eigenlijk nog één vraag aan het kabinet en ik stel hem aan beide bewindspersonen. Het lijkt nu namelijk op een tamme afronding, maar we gaan over twee dagen stemmen en er is nog geen meerderheid in beide Kamers. Wat is nou precies de gewenste route naar een meerderheid in beide Kamers? Is de boodschap nou volledig om het hier in de Tweede Kamer maar met elkaar uit te zoeken? Is de route-Markuszower nog steeds mogelijk? Gaan de medisch-ethische punten, de Spreidingsweteisen of het stikstofslot van tafel? Of, en hierop hoop ik, is het kabinet toch bereid iets te vragen van de grootste vermogens, zodat we eindelijk kunnen zorgen dat werken echt gaat lonen?\nDank u wel, voorzitter.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:10:29",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik dank u wel. Het woord is aan meneer Oosterhuis voor zijn tweede termijn namens D66.",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:10:43",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank, voorzitter. Ik wil beginnen met het bedanken van beide bewindspersonen voor hun beantwoording van vandaag, maar ook voor die in de wetgevingsoverleggen. Ik dank natuurlijk ook alle mensen die achter de schermen, op de ministeries en hier in de Kamer, hard aan het werk zijn om vaak met korte deadlines nota's van wijziging en amendementen voor te bereiden.\nEr komt bijna een einde aan deze Belastingplanmarathon. Eerlijk gezegd had ik er al een beetje rekening mee gehouden dat het een marathon zou worden. Eind januari, op de ochtend van het coalitieakkoord, appte ik mijn vrouw: november gaat wel druk worden, want het Belastingplan wordt de eerste echte test in beide Kamers. Dat was ook wel te voorzien, want dit Belastingplan is bedoeld om alle investeringen van dit kabinet te betalen. Hogere belastingen vindt niemand leuk, de meningen in deze Kamer over hoe je dat doet zijn verdeeld en er is een duidelijke deadline in november. Dat zijn alle ingrediënten voor een stevig politiek debat, wat we nu ook met elkaar voeren. We hoopten allemaal misschien op een eerdere deal voor een meerderheid, maar stiekem wisten we ook wel dat het tot 12 november spannend zou blijven. Dat is achteraf ook niet zo gek. Een minderheidskabinet kost immers tijd en energie van iedereen, van coalitie en oppositie. Maar uiteindelijk is de kern dat we gesprekken voeren, luisteren, voorstellen doen en onderhandelen.\nHet kabinet is op zoek gegaan naar brede steun in beide Kamers. Om die te vergaren is het coalitieakkoord in het eerste aanbod aan de Kamer, de Miljoenennota, al op 25 punten aangepast. Vervolgens zijn er nieuwe stappen gezet voor de Financiële Beschouwingen en nog een derde keer voor de behandeling van het Belastingplan. Nu is de Kamer aan zet om de laatste stap te zetten naar een zo breed mogelijke meerderheid. Ik waardeer het dat constructieve partijen amendementen hebben ingediend, ook al zijn sommige een beetje ruig en daardoor nog niet verantwoord. Er wordt veel gesproken en ik hoop dat deze gesprekken leiden tot een Belastingplan met brede steun in beide Kamers. Dat zal niemands favoriete plan zijn, want daarvoor lopen de politieke voorkeuren hier te veel uiteen. Maar we zijn het uiteindelijk aan de kiezer verplicht om problemen op te lossen, het samen eens te worden en het land vooruit te brengen. Dat doen we bijvoorbeeld op stikstof, waarvoor vorige week met breed draagvlak belangrijke stappen zijn gezet. Ik blijf optimistisch dat we dat bij dit Belastingplan ook kunnen.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:12:52",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Twee dingen. Op stikstof zijn helemaal geen goede stappen gemaakt. Over stikstof heeft de Europese Commissie eigenlijk gezegd \"u kunt op de rem stappen\" en wat doet de D66-minister? Die stapt op het gaspedaal en rijdt zo alle boeren van Nederland kapot. Dat is er gedaan op stikstof. De heer Oosterhuis zei net wat de kern van een minderheidskabinet is. De kern van een minderheidskabinet, meneer Oosterhuis, is dat partijen het fatsoen hebben om de hele Kamer mee te nemen in hun processen en te kijken of ze tot constructieve meerderheden kunnen komen met het hele parlement. Daar hoort dus geen premier bij die over één partij zegt \"die hebben we lekker naar de marges geduwd\" en ook geen woordvoerders van partijen die fracties hier schofferen. Dat is ook de kern van een minderheidskabinet. De kern van een minderheidskabinet is ook dat je een premier hebt die van zijn ploeg een team weet te maken. De kern van een minderheidskabinet is ook dat coalitiepartijen elkaar niet voor de bus gooien in de media.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:13:58",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ben heel blij dat dit kabinet heel hard aan het werk is om Nederland vooruit te brengen en dat er ook constructieve partijen zijn die er voor alle Nederlanders willen zijn, die daarbij helpen. Ik geloof dat de verschillen ook tussen mijn partij en die van de heer Markuszower buitengewoon groot zijn. Dat gaan we ook niet onder het tapijt schuiven. Dus ja, ik blijf doorwerken met partijen die constructief zijn en die mee willen werken aan brede meerderheden.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:14:20",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wie bepaalt wat constructief is, meneer Oosterhuis? Wie bepaalt dat? Wie bepaalt wat de betekenis van het woord \"constructief\" is? Vindt de heer Oosterhuis D66 constructief? Wie bepaalt wat constructief is?",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:14:37",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is uiteindelijk een afweging die iedere partij voor zichzelf moet maken. Partijen die willen samenwerken aan oplossingen om ons land vooruit te helpen, beschouw ik als constructief.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:14:38",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:14:45",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "En wat als de heer Oosterhuis nou doorgaat met het schofferen en schofferen? Hij heeft zo veel partijen geschoffeerd dat er van een meerderheid geen sprake meer is. Wat doet de heer Oosterhuis dan?",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:14:54",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Naar mijn mening — maar misschien heb ik het mis — ben ik niet degene die hier partijen schoffeert, en al zeker geen mensen in ons land. Dus ja, ik zou de heer Markuszower willen vragen om dat ook niet te doen.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:15:11",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Aan het eind van dit debat ben ik wel benieuwd waar D66 inmiddels staat ten opzichte van het bondje van de drie partijen, met name op het gebied van stikstof. Als je kijkt naar de voorstellen die ze gedaan hebben, is er echt flink bewogen. Het lijkt mij een no-brainer om gewoon tegen die drie partijen te zeggen: nou, laten we met jullie verder praten. Daarmee bereik je namelijk dat boeren kunnen blijven boeren en dat ons platteland mooi, toegankelijk en beheerbaar blijft.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:15:44",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Zoals ik zojuist zei over stikstof: ik ben heel blij met de brief die minister Van Essen vorige week heeft gestuurd, waar lang over is gesproken, ook met boerenorganisaties, en waarvoor breed draagvlak is. Ik denk dat dat de weg vooruit is om Nederland van het stikstofslot te helpen. Ik denk dat dat ook, zoals de heer Stultiens net zei, ontzettend belangrijk is voor onze economie, dus ik hoop echt dat we daar voortgang op kunnen houden, want het stikstofprobleem slepen we nu al veel te lang met ons mee.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:16:12",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het lastige van de voorstellen die gedaan zijn, is dat Nederland daarmee niet van het stikstofslot komt. Zelfs het PBL zegt: je bent er hiermee niet. Dat komt omdat we voort blijven bouwen op die stikstofkoortsdroom, mag ik inmiddels wel zeggen. Waarom kies je er niet voor om die grootvee-eenheid conform het voorstel aan te passen? Waarom kies je er niet voor om de rekenkundige ondergrens zo snel mogelijk te verhogen? Dat zijn twee voorstellen die daadwerkelijk een oplossing zijn, niet alleen voor de boerenstand, maar ook voor de woningbouw. Want je kunt locaties aanwijzen tot je erbij neerklapt, maar als je niet kunt beginnen, bereik je niks.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:16:58",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wie had toch gedacht dat we het bij het Belastingplan ooit over grootvee-eenheden zouden gaan hebben? Laten we hier geen stikstofdebat van maken. Ik denk dat die posities volkomen helder zijn. Ik constateer ook dat allerhande economen en ook partijen zoals Bouwend Nederland zeggen: ga nu niet al die wijzigingen aanbrengen; zorg dat we nu doorgaan op de ingeslagen weg. Dat steun ik.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:17:23",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:17:24",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Misschien is de winst van deze deconfiture — laat ik het zo maar noemen met dit kabinet — dat er bij het Belastingplan eindelijk eens niet alleen over die financiële tabellen gesproken wordt, maar ook over de werkelijkheid en de wereld die erachter zit. Ik constateer dat er bij D66 dus nog steeds geen enkele beweging zit en dat men maar gewoon voortgaat, misschien niet met de halvering van de agrarische sector, maar 40% gaat alsnog kapot. Nou, het zal maar het resultaat zijn wat je bereikt hebt.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:18:00",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik begrijp de tekst van mevrouw Keijzer niet zo goed, want minister Van Essen is in goed overleg bezig met het aanpassen van zijn plannen om ze te verbeteren. Dat leidt volgens mij tot de juiste stappen vooruit.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:18:12",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heb in de bijdrage van de heer Oosterhuis even zitten turven en ik heb negen keer het woord \"constructief\" gehoord. Ik vind het een beetje gek dat D66 het heeft over \"constructief\", terwijl we in november zitten en er over een Belastingplan moet worden besloten. Daarmee wordt geïmpliceerd dat partijen niet constructief zijn als ze het hebben over die afbraak die u pleegt op de aftrekposten voor ziektekosten, de problemen die u veroorzaakt door de hogere energierekening in stand te houden en de hoge boodschappenprijzen. Wat bedoelt u precies met \"constructief\" en voor wie bent u dan precies constructief bezig?",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:18:46",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U spreekt via de voorzitter.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:18:47",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik doel op het politieke debat dat we hier hebben. Partijen komen met andere voorstellen, waardoor ook maatregelen uit het coalitieakkoord zijn aangepast, veranderd, verbeterd, afgezwakt; al naar gelang uw politieke voorkeur mag u daar een invulling aan geven. Ik denk dat we nog nooit een kabinet hebben gehad — ik denk dat dat ook past bij een minderheidskabinet — dat het coalitieakkoord in zo korte tijd op zo veel punten heeft aangepast en ik denk dat dat de manier is waarop we het hier ook de komende jaren met elkaar zullen doen.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:19:21",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "In welke mate is het constructief dat mensen, met honderdduizenden, op dit moment de energierekening niet kunnen betalen en dat daar geen enkele maatregel voor wordt genomen? In welke zin is het constructief dat de boodschappenprijzen de komende maanden zullen gaan stijgen en dat mensen boodschappen uit hun boodschappenkarretje weer terug moeten leggen in het schap? U doet hier \"constructief\" over een Belastingplan dat uw plan is, dat D66 erdoorheen wil brengen, maar er is niks constructiefs aan dit plan. Er gaan miljarden naar grootvermogenden. Er zit niet één voorstel in dat werkende mensen verder vooruit helpt. U heeft het steeds over \"constructief\", maar noem mij eens een voorbeeld waaruit blijkt dat dit plan constructief is voor al die mensen die aan het einde van de maand niet of nauwelijks de eindjes aan elkaar kunnen knopen.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:20:16",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik denk dat de voorbeelden die de heer Dijk noemt er bijvoorbeeld toe hebben geleid dat er is besloten dat er een noodfonds voor energie komt, juist voor de mensen die moeite met hun energierekening hebben. Ik denk dat dat ook de reden is dat we er in de afgelopen maanden in samenwerking met de Kamer aan hebben gewerkt dat de belasting op arbeid die omhoog zou gaan, het komende jaar niet omhooggaat. Dat zijn allerlei manieren waarop de plannen van het kabinet zijn aangepast. Die zijn aangepast om ze te verbeteren en om te komen tot een breed draagvlak. Dat de heer Dijk misschien nog niet helemaal overtuigd is, snap ik vanuit zijn programma en vanuit zijn perspectief ook — geen misverstand daarover — maar volgens mij komen we op die manier wel in een goed gesprek tot steeds betere plannen.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:20:57",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:20:58",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De minister-president had een heel mooi filmpje op internet, een jaar na zijn gewonnen verkiezingen. Een soort morele hoogvliegerij was het. Ze hadden gewonnen van de populisten. Ze gingen het allemaal even regelen. U heeft nu een paar voorstellen genoemd die het minder slecht maken. Die hebben plannen dus minder erg gemaakt. De bezuinigingen op de sociale zekerheid zijn teruggedraaid. Dat was afbraak en die is teruggedraaid, maar er is geen enkele vooruitgang geweest. Het noodfonds zorgt ervoor dat een miljoen mensen die de energierekening niet kunnen betalen, die straks nog steeds niet kunnen betalen. Met uw morele hoogvliegerij hier en het impliceren dat u ook maar iets constructiefs teweeg gaat brengen met dit Belastingplan, toont u aan dat u totaal blind bent voor de voedingsbodem waar dezelfde populisten op hebben gedijd voordat u de grootste partij was. Ik zou u dus willen vragen om het vanaf nu niet te gaan hebben over \"constructief\" maar over uw afbraakbeleid.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:22:09",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "\"Het vermeende afbraakbeleid van de heer Oosterhuis.\" U spreekt via de voorzitter, meneer Dijk. Ik heb het nu vaak genoeg gezegd.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:22:25",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is niet voor niks dat de heer Dijk volgens mij bij het debat over de regeringsverklaring al een motie van wantrouwen tegen dit kabinet steunde. Vanuit dat perspectief snap ik ook dat ik zijn partij niet tot de meest constructieve partijen kan rekenen, maar ik blijf ook met hem de komende jaren graag het debat aangaan om plannen te verbeteren die dit kabinet naar de Kamer brengt.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:22:33",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, nee, nee, meneer Dijk. U spreekt niet via de voorzitter en u vliegt uit de tijd met uw interrupties. We gaan nu naar de heer Ergin.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:22:53",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De heer Oosterhuis was in zijn eerste termijn heel duidelijk: er is geen deal met Markuszower. Wat was het nou? Een halfuur later kregen wij een brief van de minister waarin eigenlijk in alle toonaarden duidelijk werd dat er een deal was met de fractie-Markuszower. Wat vindt de heer Oosterhuis nou van een deal die is gemaakt met een dubieuze fractie als Groep Markuszower, die geweldsoproepen doet, die groepen Nederlanders discrimineert? Wat vindt de heer Oosterhuis daar nou van?",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:23:16",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dit wordt een beetje een herhaling van het debat van vorige week, waar de heer Ergin niet het woord voerde. Ik sta nog volledig achter wat ik daar toen over heb gezegd.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:23:28",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is dus precies het punt: de heer Oosterhuis gaf aan dat er geen deal was, terwijl er kennelijk wel een deal was. De lezing van de heer Oosterhuis klopt niet. Ik zou graag aan de heer Oosterhuis willen vragen te reflecteren op hetgeen wat hier is gebeurd, namelijk dat het kabinet een deal heeft gesloten met een fractie die oproept tot geweld in de richting van Palestijnen, die groepen Nederlanders discrimineert, die de vrijheid van vrouwen wil inperken door een hoofddoekenverbod in te voeren. Wat vindt het lid Oosterhuis hier nou van?",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:24:10",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wat ik van de opvattingen en de teksten van de heer Markuszower vindt, mag genoegzaam bekend zijn. De heer Markuszower gaat zo meteen een motie van wantrouwen tegen dit kabinet indienen, dus dan lijkt me van enige afspraak echt geen sprake.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:24:20",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik vind het echt best wel bijzonder wat de heer Oosterhuis hier doet. We weten allemaal dat het kabinet een deal heeft gesloten met de heer Markuszower en dat die deal 95 miljoen euro bedraagt. De heer Markuszower kan hier tijdens het debat zelfs concrete punten noemen op basis waarvan die deal is gemaakt. En dan nog steeds hier staan en beweren dat er geen deal is … Voorzitter, als ik het woord gebruik dat Nederlanders in de dagelijkse praktijk hiervoor gebruiken, gaat u ingrijpen, dus ik doe dat niet. Maar het is niet de waarheid. De heer Oosterhuis spreekt hier niet de waarheid. Wat hier wel aan de hand is, is dat D66 in ruil voor macht letterlijk alle principes overboord gooit. Vandaag, eigenlijk vorige week, zagen we nog een principe overboord gegooid worden, namelijk samenwerken met een extreemrechtse partij en zelfs als die partij het vertrouwen in het kabinet opzegt, nog steeds achter die samenwerking staan. Ik vind dat echt weer een voorbeeld van hoe D66 hier zijn principes overboord gooit.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:25:23",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Omdat de heer Ergin er vorige week niet bij was, zal ik het nog even kort herhalen. Het klopt dat er bij meerdere partijen, onder andere 50PLUS en de heer Markuszower, maar ook bij burgemeesters, een brede wens was voor extra geld voor veiligheid. Daar heeft het kabinet ook een nota van wijziging over gestuurd. Daar ligt verder geen enkele afspraak onder. De heer Markuszower heeft ook geen zetels in de Eerste Kamer, die wél nodig zijn voor een brede meerderheid. Dat is precies de reden waarom we deze week heel veel gesprekken voeren om alsnog tot die bredere meerderheid te komen.\nVoorzitter. In eerste termijn refereerde de heer Grinwis aan het werkbezoek aan Denemarken en Noorwegen dat we laatst met een aantal collega's hebben gebracht, ook over de lange ervaring die ze daar hebben met een minderheidskabinet. Ook al hebben ze daar andere staatsrechtelijke verhoudingen, vond ik het zelf heel interessant hoe ze daar formeel een datum hebben vastgelegd waarop er uiterlijk een meerderheid moet zijn voor de begroting. Misschien is het een idee om dat hier ook met elkaar af te spreken, dat we volgend jaar proberen om dat voor Prinsjesdag of voor de Financiële Beschouwingen te doen, want dit jaar was het misschien onontkoombaar om zo tegen de deadline voor stemmingen aan te werken, maar laten we ook met z'n allen van dit jaar leren en elkaar eerder proberen te vinden.\nDank u wel.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:26:32",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "In drieën, toch?",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:26:34",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Zeker.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:26:35",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Vraag één. Wil de heer Oosterhuis wel of geen meerderheid voor het Belastingplan in de Tweede Kamer?",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:26:40",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil graag dat het Belastingplan een meerderheid heeft in beide Kamers.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:26:52",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Vraag twee: wat nou als blijkt dat ook onze steun, dus van de fractie-Markuszower, de Groep Markuszower, DNA, essentieel is voor steun in de Tweede Kamer? Wilt u dan wel of geen steun?",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:27:04",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Daar heb ik vorige week over gezegd dat ik u niet ga vragen om tegen het Belastingplan te stemmen, maar dat ik er alles aan doe om voor de stemmingen in de Tweede Kamer bredere steun te hebben, omdat er ook in de Eerste Kamer een meerderheid moet zijn voor het Belastingplan.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:27:25",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:27:27",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het antwoord op vraag twee ging niet zo lekker, hè? Vraag drie: als dat nou niet blijkt te lukken en de steun van onze fractie essentieel is voor een meerderheid in de Tweede Kamer, wil de fractie van D66 dan wel of niet de steun van onze fractie?",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:27:44",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ben optimistisch dat het wel blijft lukken.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:27:52",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Was u daarmee aan het einde gekomen van uw tweede termijn?",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:27:53",
+   "spreker": {
+    "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk-Jan Oosterhuis",
+    "verslagnaam": "Oosterhuis",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja.",
+   "deel": 4
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:27:54",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. Het woord is aan meneer Vlottes voor zijn tweede termijn namens de Partij voor de Vrijheid.",
+   "deel": 4
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:28:06",
+   "spreker": {
+    "id": "247cd142-7220-4f25-aa32-8e1801169e9f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Elmar Vlottes",
+    "verslagnaam": "Vlottes",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, dank u wel. De conclusie is eigenlijk gewoon: dit kabinet moet weg. Daarom één motie, een motie van wantrouwen. Ik zal 'm voorlezen.",
+   "deel": 5
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:28:53",
+   "spreker": {
+    "id": "247cd142-7220-4f25-aa32-8e1801169e9f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Elmar Vlottes",
+    "verslagnaam": "Vlottes",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel.",
+   "deel": 5
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:28:54",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. Het woord is aan mevrouw Van Eijk namens de VVD in tweede termijn. Gaat uw gang.",
+   "deel": 5
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:29:01",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank je wel, voorzitter. Dank aan de bewindspersonen voor de beantwoording en aan de collega's voor het debat. Uiteraard ook dank aan de ambtenaren, die nog hard aan het werk zijn: de mensen van Bureau Wetgeving en de mensen van de amendementenservice. Het is inderdaad een traject met hindernissen, zoals we dat noemen, maar uiteindelijk hoop ik dat we er ook met z'n allen gaan komen.\nVoor de VVD staat voorop dat hard werken moet lonen, dat mensen hun rekeningen kunnen betalen, iets kunnen opbouwen en meer grip krijgen op hun portemonnee en dat ondernemers de ruimte krijgen om te investeren, te groeien en banen te creëren. Mensen thuis verwachten oplossingen en een overheid die verstandig met belastinggeld omgaat. Met dit Belastingplan zetten we belangrijke stappen. We maken het dagelijks leven betaalbaarder en voorkomen hogere belastingen op spaargeld, huis en auto. We versterken onze economie en we nemen maatregelen die belangrijk zijn voor onze samenleving.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:29:51",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik hoor mevrouw Van Eijk zeggen dat de VVD vindt dat werken moet lonen. Is de VVD van mening dat dit Belastingplan dat doet?",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:30:02",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, die mening hebben wij zeker. Het pakket dat er ligt en met name ook de koopkrachtpakketten zorgen ervoor dat het leven in ieder geval betaalbaarder wordt. De vrijheidsbijdrage die oorspronkelijk in de plannen stond is met de koopkrachtpakketten in die zin ook eruit gehaald. Daarmee denken we dat er een goed Belastingplan ligt.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:30:23",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is een creatieve weergave van zaken, denk ik. Maar hoe kijkt de VVD dan naar de situatie een jaar later? Dan staat er gewoon 3,4 miljard euro verzwaring aan lasten op arbeid in de boeken, waarvoor er op dit moment helemaal geen koopkrachtmaatregel of zoiets is. Die gaat er gewoon komen een jaar later, als het zo doorgaat. Hoe kijkt de VVD daarnaar? Hoe rijmt de VVD dat met het pleidooi om werken meer te laten lonen?",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:30:47",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We spreken vandaag over het Belastingplan 2027. We zullen er uiteraard weer met elkaar over komen te spreken bij de behandeling van het Belastingplan 2028. Er liggen ook nog wel wat voorstellen op tafel waaraan verder invulling moet worden gegeven bij de Voorjaarsnota. Dat gesprek gaan wij dus zeker met elkaar voeren. Het zal ook onze inzet zijn dat werken gaat lonen. In de eerste termijn heb ik al aangegeven dat het belastingstelsel, de inkomensafhankelijke regelingen en de toeslagen ook niet heel helpend zijn om dat te laten vliegen. Ik hoop dus ook zeer dat we het gesprek met elkaar kunnen voeren om het stelsel eenvoudiger te maken, zodat werken ook gaat lonen.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:31:22",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:31:25",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het klinkt allemaal heel mooi, maar de feiten staan gewoon in het plan dat we vandaag bespreken: miljarden lastenverzwaring op arbeid over de komende jaren, oplopend tot bijna 8 miljard extra lasten voor werkenden. De VVD kan dit Belastingplan hier toch niet met trots verdedigen? De VVD moet toch erkennen dat dit behoorlijk indruist tegen de verkiezingsbeloften van de VVD, met de slogans waarmee de VVD verkozen is voor deze Kamerperiode? De VVD kan hier toch niet echt beweren blij te zijn met dit Belastingplan, dat werkenden de komende jaren kei- en keihard pakt?",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:32:00",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ben het niet eens met de heer Schenk, zeker niet als het gaat om de 8 miljard. Er zijn verschillende pakketten naar de Kamer gegaan. Die zijn verwerkt in dit Belastingplan. Al met al gaat werken nog altijd lonen.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:32:11",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U vervolgt uw betoog.",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:32:12",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heb nog drie moties.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:34:11",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Interessante moties. We zullen ze natuurlijk gaan bekijken en beoordelen en erover stemmen, op basis van de inhoud. Ik heb even een andere vraag, namelijk over het amendement van PRO. Het is, met het oog op de beraadslagingen en wat we uiteindelijk moeten doen, misschien voor de Kamer en ook voor onze fracties goed om te weten hoe de VVD dat amendement van PRO beoordeelt en wat de partij is genegen te stemmen op dat amendement, of wat de woordvoerder van de VVD de fractie gaat adviseren om te stemmen. Gaat de fractie van de VVD voor of tegen dat amendement van PRO stemmen?",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:34:41",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het amendement dat PRO vorige week tijdens de eerste termijn van de Kamer heeft ingediend, zal mijn fractie niet steunen.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:34:52",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké, helder. Dank voor dat antwoord. Wat als nou blijkt dat die coalitiegenoten, die de laatste weken hebben laten zien dat ze nou niet per se loyaal zijn aan de coalitie-eenheid, dus D66 en CDA, nou wél voor dat amendement gaan stemmen? Hoe ziet de VVD dat scenario?",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:35:10",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik stel vast dat in het amendement dat voorligt, dat vorige week is ingediend, een aantal maatregelen staan die in strijd zijn met de afspraken die zijn gemaakt in het coalitieakkoord, en dat ze daarnaast een tegengestelde werking hebben als het gaat om de dekking voor box 3, waar we met elkaar afspraken over hebben gemaakt. Ik zie het dus in de huidige vorm ook niet gesteund worden door de coalitie.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:35:32",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:35:34",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké. Kan ik ervan uitgaan dat als dat amendement op een of andere manier wél wordt aangenomen — je weet het toch nooit met het CDA en D66; je weet eigenlijk nooit of ze betrouwbaar zijn en hoe ze gaan stemmen — de VVD dan tegen dat Belastingplan stemt?",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:35:52",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er zijn ontzettend veel moties ingediend. Er wordt op dit moment nog aan een aantal moties gewerkt. Die moties ga ik beoordelen en bespreken in mijn fractie. Op basis daarvan gaan we bepalen hoe we gaan stemmen.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:36:03",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Was u daarmee aan het einde gekomen van uw tweede termijn?",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:36:04",
+   "spreker": {
+    "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+    "soort": "Tweede Kamerlid",
+    "naam": "Wendy Van Eijk",
+    "verslagnaam": "Van Eijk",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja.",
+   "deel": 6
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:36:08",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan is het woord aan de heer Hoogeveen, namens JA21 in tweede termijn.",
+   "deel": 6
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:36:16",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, dank. Dank aan de minister en de staatssecretaris voor de beantwoording. Het wordt een spannende tijd. Wat zeg ik? Het is een spannende tijd. Het Belastingplan dat nu voor ons ligt, is al meerdere keren vertimmerd, met name vanuit de vurige wens van het minderheidskabinet om een zo breed mogelijke oppositie tegemoet te komen.\nVoorzitter. We zien op een aantal punten echt wel stappen onze kant op. Ik zei dat al in de eerste termijn, maar ik noem die nogmaals omdat ik denk dat het goed is om te benadrukken waar het wel goed is gegaan: de in de koopkracht gecompenseerde vrijheidsbijdrage, de accijnskortingen op benzine en diesel, de vrachtwagenheffing dit jaar, het hoogste tarief van de vliegbelasting en de verruiming van de innovatiebox voor het mkb. Dat zijn stuk voor stuk positieve punten.\nVoorzitter. Toch is het ook een belastingplan zonder plan, altijd met een schuin oog naar de linkerkant van de Kamer, hopend dat de droom van 100 zetels ooit realiteit zal worden. Dat is overduidelijk niet het geval. Als de VVD samenwerken met PRO al uitsluit, waarom zouden wij als JA21 dat dan in vredesnaam vanuit de oppositie wel gaan doen? Overigens begrijp en respecteer ik dat vanuit die kant van de Kamer precies zo. De keuze die nog steeds is uitgesteld, zal in de komende dagen toch echt gemaakt moeten worden. Het land schreeuwt om politieke richting, visie en daadkracht.\nVoorzitter. Toch nog even over box 3. Ik diende gisteren bij het WGO geen motie in omdat ik ervan uitging dat dat vandaag ook tot de mogelijkheden zou behoren. Hierbij doe ik dat dus alsnog. Hoewel wij als JA21 de novelle natuurlijk steunen, doen we dat met enige tegenzin. Wij hebben tenslotte nooit gevraagd om, laat staan gestemd voor, vermogensaanwasbelasting. Gelukkig kunnen we hierbij 90% uit de aanwas trekken in 2029, maar helaas is een jaar later pas de beurt aan bitcoin en edelmetalen. Ik begrijp dat dat uitvoeringstechnisch niet mogelijk is en dat de alternatieven, vermogensaanwasbelasting voor vrijwel alles en iedereen of nog langer in de tegenbewijsregeling, nog erger zijn. Daarom de volgende motie.",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:39:03",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:39:04",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kom de laatste tijd weleens op feestjes en zo. Dan hoor ik veel dat onze gezamenlijke achterban, die van u reëel en die van mij heel fictief, een beetje boos op ons is. De rechtste kiezer is boos omdat er in dit huis wel een rechtse meerderheid is voor bijvoorbeeld asielbeperkende maatregelen, maar we dat op de een of andere manier niet kunnen materialiseren. Ik kom natuurlijk van de PVV. Die had goud in handen en kon allerlei asielbeperkende maatregelen doorvoeren, en heeft dat toen uit haar handen laten glippen. Nu lees ik overal over JA21 in de krant dat ze deals hadden, vergaande afspraken. Ze hadden bijna een deal op asielbeperkende maatregelen, maar het lijkt er dan toch niet van te komen. Mijn vraag aan de heer Hoogeveen is of dat niet zonde is voor Nederland, voor de achterban van de heer Hoogeveen en misschien voor de mensen die weleens dachten: die Markuszower wil toch ook asielbeperkende maatregelen? Waarom kunnen we niet proberen dat nu te regelen?",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:40:01",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is goed dat de heer Markuszower verwijst naar een rechtse meerderheid, zowel in de Tweede als de Eerste Kamer. Die bieden wij nu. Dat is de reden waarom wij gedrieën zijn opgetrokken om naar het kabinet te gaan. Van de zomer deden JA21 en de SGP dat samen. Ik denk dat dat vrij constructief en goed ging. Maar daarna kregen wij ook te horen dat er toch ook wel met een schuin oog naar links werd gekeken, zoals ik net in mijn tweede termijn al zei. Dan zeiden wij \"kom op, kies richting\", maar dan werd ons ook verteld: dan moet je de volgende keer meer zetels meebrengen. Dat hebben we nu ook gedaan. Ik denk dat er vanuit ons een goed voorstel ligt, een mooi totaalpakket waarover onderhandeld en gesproken kan worden. Ik denk dat precies datgene wat de heer Markuszower betoogt, is waar wij voor staan.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:40:53",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat hoop ik ook. Ik bedoel: ik heb heel veel sympathie voor de pogingen van uw fractie en de andere twee fracties om te komen tot een pakket dat goed is voor — laten we het maar even zo noemen — rechts Nederland. Maar als dat niet lukt omdat alles aan elkaar wordt verknoopt, is het dan niet dood- en doodzonde dat we de asielbeperkende maatregelen die de fractie van JA21 al bijna binnen heeft — ze hoeven alleen nog een knikje te geven — met z'n allen laten lopen en dat we uiteindelijk een Nederland krijgen waar meer in plaats van minder asiel is, terwijl de landen om ons heen nu allemaal dalende asielinstroomcijfers laten zien? Is dat verknopingsspel dat we met z'n allen spelen niet doodzonde? Daardoor laten we als rechts Nederland gouden kansen uit onze handen glippen?",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:41:41",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Die gesprekken over de asielinstroombeperkende maatregelen lopen nog, dus daar zou ik niet op vooruit willen lopen. De heer Markuszower noemt het \"verknopen\"; ik noem het gewoon het vormen van een parlementaire meerderheid. Dat wordt nu juist geregeld. Dat wordt nu gedaan. Er wordt ook gezegd: kies richting, kabinet, voor Nederland en voor die rechtse meerderheid. Daarin geef ik de heer Markuszower helemaal gelijk. Die richting moet nu worden gekozen. Er ligt een heel concreet voorstel op tafel, met duidelijke punten waarover gesproken kan worden. De rest zullen we de komende dagen slash week gaan zien.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:42:26",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:42:28",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké. Ik hoop van ganser harte dat die route dan slaagt en dat we Nederland eindelijk wat asielbeperkende maatregelen kunnen schenken.",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:42:42",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Waarvan akte.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:42:46",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Op hetzelfde punt. Gaat JA21 vasthouden aan de medisch-ethische stilstand, de Spreidingswet van tafel en de stikstofbrief in de shredder? Dit zijn nog steeds de drie punten die al weken worden herhaald. Houdt JA21 vast aan alle drie de punten?",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:42:56",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wij werken samen met BBB en de SGP. Dat doen we nu en dat blijven we doen. Waarom? Omdat wij vinden dat die rechtse meerderheid moet worden gematerialiseerd. Daar staan we voor.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:43:07",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nou, dat is consistent. Dat siert hem. Ik ben het er inhoudelijk niet mee eens, maar dat zal u niet verbazen. U gaf net aan: dat gaat misschien de komende dag nog lukken. We stemmen donderdag. Waar is dat vertrouwen op gebaseerd? Het zijn vrij forse eisen. Gaat het allemaal morgen gebeuren? Wat is hiervoor het plan van JA21?",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:43:24",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wat ik zeg: er lopen gesprekken. Er is een voorstel vanuit het kabinet naar de Kamer gegaan. Uiteindelijk heeft de Kamer gezegd: nou goed, dan pakken wij zelf de regie. Er lopen dus gesprekken. Ik sta hier voor de financiën, dus ik kan vertellen hoe het met de financiën zit, welke punten we hebben binnengehaald en welke punten we anders zouden willen zien en waarvoor we nog amendementen gaan indienen. Die andere gesprekken lopen via de fractievoorzitters dan wel de woordvoerders.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:43:56",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:44:00",
+   "spreker": {
+    "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+    "soort": "Tweede Kamerlid",
+    "naam": "Luc Stultiens",
+    "verslagnaam": "Stultiens",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot. Dat over die amendementen snap ik goed, want dat is inderdaad mijn expertise en die van de heer Hoogeveen. Dat gaan we de komende dagen zien. Maar ik constateer ook dat hij nog steeds zegt: \"Er moet iets gebeuren. De stikstofbrief moet in de shredder, de Spreidingswet moet van tafel en er moet medisch-ethische stilstand zijn.\" Dat gaat morgen niet met amendementen lukken. Ik ben dan benieuwd wat hij met zijn bondje nodig heeft. Wat moet er morgen gebeuren, zodat zij kunnen zeggen \"we gaan het Belastingplan steunen\"?",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:44:23",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Volgens mij is het belangrijk dat er de komende tijd richting wordt gekozen. De reden dat wij gedrieën samen optrekken, is dat we die richting willen forceren. Ik kan de heer Stultiens namelijk wel vertellen wat er gebeurt als er individueel op rechts wordt gestemd. Kijk, uiteindelijk gaat men zweven in de Tweede Kamer en de Eerste Kamer. Dat hebben de coalitiepartijen ook duidelijk aangegeven. Dat gebeurt altijd in de politiek, dan gaan ze namelijk zweven naar waar de meerderheid ligt. De meerderheid in de Eerste Kamer is binair, namelijk over links, via uw partij, of over rechts, via onze partijen. Dus die keuze staat nog steeds. Daar vechten wij voor tot de laatste snik.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:45:09",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil dit wel graag even herformuleren. De standstillafspraak die gemaakt is met de SGP, die overigens ook is afgesproken in Rutte II, samen met toen nog PvdA en D66, daar blijft u dus aan vasthouden. U houdt dus vast aan verstandig stikstofbeleid, zodat we straks nog een paar boeren hebben en een platteland dat functioneert. En u houdt nog steeds vast aan de Spreidingswet, die gewoon het sluitstuk is van mensenhandel, waardoor mensen verdrinken op de Middellandse Zee. Dat bondje staat nog steeds?",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:45:45",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er is meerdere keren aangegeven: samen uit, samen thuis. Dat is wat wij doen en dat is waar wij voor staan. Dat is onze inzet.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:45:54",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is goed om te horen, want als we niet een andere afslag nemen in dit land, maak ik mij op vele fronten zorgen. Dit zijn er zeker drie. Dank u wel.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:46:04",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan zijn we aan het einde van uw termijn.",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:46:06",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank, voorzitter.",
+   "deel": 7
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:46:07",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u. Het woord is aan mevrouw Inge van Dijk, namens het CDA, in tweede termijn. Gaat uw gang.",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:46:22",
+   "spreker": {
+    "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Inge van Dijk",
+    "verslagnaam": "Inge van Dijk",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, voorzitter. Ik wil eerst nog een keer terugkomen op het politieke proces. Ik heb in mijn eerste termijn gezegd dat de weg naar dit Belastingplan een politieke hindernisbaan is. Ik had ook nog \"geweest\" staan, maar dat woord heb ik maar doorgestreept. Dat is niet alleen ongemakkelijk voor ons als Kamerleden, maar ook voor mensen en ondernemers, die uiteindelijk duidelijkheid nodig hebben voor hun fiscale positie. Natuurlijk wil ik het kabinet bedanken voor de beantwoording, maar ik wil vooral de ambtenaren bedanken die ons in dit hectische proces bijstaan. Maar ik wil ook de mensen bedanken die bij de Belastingdienst zelf werken en die eigenlijk tot nu toe ook nog niet weten waar ze aan toe zijn. Ik wel dat toch even benoemd hebben, want ik besef wat we ze aandoen.\nVoorzitter. Als CDA willen we verantwoordelijkheid nemen en blijven zoeken naar brede samenwerking, waarbij we hopelijk op de inhoud naar elkaar blijven bewegen. Mijn oproep aan het kabinet blijft daarom: samenwerken, gericht op meerderheden. Begin daar de komende jaren graag wat eerder mee.\nIk heb het ook gehad over een nieuw stelsel en over de fundamentele discussies die we met elkaar hierover moeten gaan voeren. We hebben geprobeerd daar wat richting aan te geven in het debat. Mijn collega van 50PLUS zal daar mede namens ons een motie over indienen.\nDan wil ik nogmaals een oproep doen over hoe we in de toekomst omgaan met het afschaffen van fiscale regelingen: niet alleen afschaffen, maar in eerste instantie vooral ook verbeteren.\nNog een paar concrete punten. Ik ben blij met de toezegging van de staatssecretaris over de concrete uitwerking van de mogelijkheid voor de externe waardering, waarvoor wij met een amendement de juridische grondslag hebben voorgesteld. Voor de zomer komt hij met een onderzoek. Wij gaan ervan uit dat dan alle opties in kaart worden gebracht, zodat wij vervolgens goed kunnen besluiten wat het beste kan worden ingevoerd.\nDan speciaal voor de voorzitter: de ingeprijsde valutaresultaten. Het kabinet en wij hebben een verschil van inzicht over de vraag of we daar wel of niet iets voor moeten doen. Wij hebben daar een amendement voor ingediend. Ik kan de appreciatie wel raden, maar toch vinden wij het nodig om het in te dienen. Ik hoop dat de Kamer er met een welwillende blik naar wil kijken.\nDan heb ik nog een motie over de vruchtwisseling. Ik had al aangegeven dat die zou komen.",
+   "deel": 8
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:49:29",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Keijzer.",
+   "deel": 8
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:49:32",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ben wel benieuwd wat de CDA-fractie doet met dat amendement van Klaver en Dassen. Zeker als ik de laatste motie hoor, kan ik mij niet voorstellen dat de fractie van het CDA daar voor zal stemmen.",
+   "deel": 8
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:49:44",
+   "spreker": {
+    "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Inge van Dijk",
+    "verslagnaam": "Inge van Dijk",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heb volgens mij in de eerste termijn ook al aangegeven dat dit amendement voor ons te ver en te veel is, onder andere door deze onderdelen die erin zitten en die inderdaad ook ingaan tegen het coalitieakkoord.",
+   "deel": 8
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:49:56",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké. Dat is goed om te constateren. Geldt dat ook voor de verzwaringen die in dit amendement in box 2 en box 3 zitten?",
+   "deel": 8
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:50:05",
+   "spreker": {
+    "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Inge van Dijk",
+    "verslagnaam": "Inge van Dijk",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heb in de eerste termijn al aangegeven dat het echt te veel en te ver is voor ons. Zoals het amendement nu voorligt, kan het CDA dat niet dragen.",
+   "deel": 8
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:50:13",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nou, dan is er nog hoop, voorzitter. Dank u.",
+   "deel": 8
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:50:15",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, mevrouw Van Dijk. Het woord is aan meneer Schenk voor zijn tweede termijn namens Forum voor Democratie.",
+   "deel": 8
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:50:26",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank, voorzitter. Zoals ook in mijn eerste termijn aangegeven, gaat het wat Forum voor Democratie betreft hier niet enkel om de technische uitwerking van het innen van belastingen en hoe we dat allemaal gaan doen, met een plusje hier en een minnetje daar, al is het maar om het feit dat de komende jaren miljarden extra aan belastingen op arbeid geheven gaan worden; volstrekt ontoelaatbaar. En dan laat ik heel wat desastreuze maatregelen nog even liggen waar ik genoeg over zou kunnen zeggen — dat heb ik volgens mij ook met verve gedaan in de eerste termijn.\nWat ons betreft gaat het Belastingplan ook over het functioneren van dit kabinet en dan vooral over de vraag of dit kabinet nog door kan. Volgens mij valt of staat het functioneren van het kabinet op dit moment bij het wel of niet behalen van een meerderheid voor zijn Belastingplan in zowel de Tweede Kamer als de Eerste Kamer. Ik heb daarom de volgende motie.",
+   "deel": 9
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:52:13",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel.",
+   "deel": 9
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:52:17",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, meneer Schenk. Het woord is aan meneer Ergin namens DENK in tweede termijn.",
+   "deel": 9
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:52:33",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, dank je wel. Ik heb een viertal moties. Voordat ik overga tot die moties, wil ik zeggen dat ik denk dat het laatste woord over het Belastingplan nog niet is gezegd en dat we wellicht morgen nog hierover gaan spreken.\nMaar dan de moties.",
+   "deel": 10
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:52:49",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De Kamer,\ngehoord de beraadslaging,\nconstaterende dat de gestegen prijzen van brandstoffen zorgen voor …\nMomentje, voorzitter, dat is de verkeerde versie.",
+   "deel": 10
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:53:48",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De laatste motie.",
+   "deel": 10
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:54:11",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. Het woord is aan meneer Stoffer namens de Staatkundig Gereformeerde Partij in tweede termijn.",
+   "deel": 10
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:54:23",
+   "spreker": {
+    "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Stoffer",
+    "verslagnaam": "Stoffer",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Laat ik beginnen met de staatssecretaris, die het meeste heeft gedaan in dit debat over het Belastingplan, en de minister, die iets minder heeft gedaan, te bedanken voor de beantwoording van de gestelde vragen. Er liggen nog een paar amendementen. Ik hoop dat die de staatssecretaris bereikt hebben. Zo ja, dan zouden we daar in tweede termijn graag appreciaties op krijgen. Zo niet, dan komen die ons vast op papier toe.\nVoorzitter. Ik ben vorige week in eerste termijn begonnen met stellen dat er nog geen meerderheid is voor dit Belastingplan van het minderheidskabinet. Dat is voor de Belastingdienst niet makkelijk, maar is zeker ook niet best voor inwoners en ondernemers in het land. Laat ik hier ook zeggen — de heer Hoogeveen refereerde er zojuist aan — dat wij als JA21, BBB en SGP een voorstel hebben neergelegd. Wij spreken daarover en zijn tot de laatste minuut bereid om te kijken of we eruit kunnen komen. Dat geldt niet alleen voor het Belastingplan; we kijken ook constructief naar alle begrotingen. Sommigen daarvan moeten we later dit jaar nog behandelen, maar we moeten over alles nog stemmen.\nWat dat betreft denk ik dat er best veel op het spel staat, niet best veel, maar gewoon veel. Het gaat om de fundamentele vraag of we voor links of rechts kiezen. Dat laatste is, denk ik, heel goed voor ondernemers, maar ook voor de inwoners van het land en voor de toekomst. Wat ons betreft gaan we de komende uren en dagen nog aan tafel om te kijken of we er met elkaar uit kunnen komen. Aan JA21, BBB en SGP zal het niet liggen.\nDank u wel.",
+   "deel": 11
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:55:49",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, meneer Stoffer. Het woord is aan mevrouw Teunissen namens de Partij voor de Dieren. Gaat uw gang.",
+   "deel": 11
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:56:14",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, voorzitter. Ik kan het helaas niet goudgerander maken, maar dit is nog steeds een fossiel Belastingplan en voor het kabinet ook een gemiste kans als het gaat over het klimaat. Net als bij de dekking voor box 3 schuift het kabinet de rekening naar de toekomst. Een definitief voorstel van PRO en Volt moeten we natuurlijk nog tegemoetzien, maar het lijkt in ieder geval een heel redelijk voorstel als je bedenkt dat de minister bij box 3 17,6 miljard aan vermogenden geeft.\nVoorzitter. Om dit Belastingplan groener te maken, heeft de Partij voor de Dieren acht voorstellen ingediend en er komen er nog drie aan. Voorbeelden zijn het terugbrengen van de CO2-heffing, het afschaffen van de accijnskorting en het verhogen van de vliegbelasting voor de vliegende elite.\nDaarbij heb ik nog twee moties.",
+   "deel": 12
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:56:54",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar eerst is daar mevrouw Keijzer.",
+   "deel": 12
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:56:56",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik haak toch even aan op de uitspraak \"17 miljard aan vermogenden geven\". Was mevrouw Teunissen er niet bij toen wij met elkaar vaststelden dat dat een raming is voor over vijftien jaar, waar ook het CPB van zegt: eigenlijk weet je dit niet, want je weet niet wat de aandelenmarkt tegen die tijd gaat doen.",
+   "deel": 12
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:57:14",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, maar als ik zo'n voorstel in zou dienen, zou het kabinet daar korte metten mee maken door te zeggen: de dekking klopt niet. Dat is het belangrijkste punt.",
+   "deel": 12
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:57:27",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ook daarvan hebben we met elkaar vastgesteld dat dat het langetermijnperspectief is, niet de eerste vier, vijf jaar waar je dekking voor moet zoeken. Weet u, de Partij voor de Dieren is altijd een van de eersten die zeggen dat je geen misinformatie en desinformatie mag delen, dus doe dat dan ook zelf niet.",
+   "deel": 12
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:57:43",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik schetste het langetermijnperspectief. Ik leg zelfs een parallel met klimaat, dus ik hoop dat mevrouw Keijzer dan ook goed heeft geluisterd naar wat ik zojuist heb gezegd. Op de lange termijn schuift het kabinet alles vooruit. Dat doet het kabinet als het gaat om box 3, maar ook voor het klimaat. De kosten van het klimaat komen allemaal nog op ons af. Als we nu niks doen, zijn die ook enorm. Dat was mijn punt.",
+   "deel": 12
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:58:09",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 12
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:58:12",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Daar geldt dan misschien wel hetzelfde voor. Je kunt nu niet voorspellen wat er over 30 jaar gebeurt. Al Gore heeft dat trouwens al 30 jaar geleden geprobeerd. In dat filmpje zaten wij hier nu al onder zee. Dat is niet gebeurd. Even terug naar die 17 miljard. Mevrouw Teunissen zei letterlijk: er wordt 17 miljard aan vermogenden gegeven. Dat is gewoon niet waar. Dat is een raming, onder andere over de aandelenmarkt. Niemand weet wat er de komende vijftien jaar gebeurt. Dus wees daar gewoon duidelijk en eerlijk over. Anders is het desinformatie, denk ik, want mevrouw Teunissen is niet gek.",
+   "deel": 12
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:58:50",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Keijzer kan mij van alles verwijten, maar het komt erop neer dat er een gat is ontstaan van 17,6 miljard. Ik kan het ook niet mooier maken dan het is.",
+   "deel": 12
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T20:59:02",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Uw moties.",
+   "deel": 12
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T20:59:03",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De moties.",
+   "deel": 12
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T21:00:03",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, voorzitter.",
+   "deel": 12
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T21:00:04",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, mevrouw Teunissen. Dan is het woord aan de heer Grinwis namens de ChristenUnie in tweede termijn. Gaat uw gang.",
+   "deel": 12
+  }
+ ],
+ "deel": {
+  "nummer": 3,
+  "van": 5,
+  "fase": "Tweede termijn van de Kamer",
+  "sprekers": "Stultiens, Oosterhuis, Vlottes, Van Eijk en 6 anderen",
+  "ouder_id": "32280cdf-338e-4dcf-bb3b-ed6da0727ef7",
+  "ouder_titel": "Pakket Belastingplan 2027",
+  "woorden_totaal": 33584
+ }
+}

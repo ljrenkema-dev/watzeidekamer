@@ -1,0 +1,1260 @@
+{
+ "id": "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d8",
+ "titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+ "onderwerp": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+ "soort_activiteit": "Wetgevingsoverleg",
+ "begin": "2026-11-09T18:01:04",
+ "eind": "2026-11-09T18:23:34",
+ "vergadering": {
+  "id": "2be272b3-9bb1-4eda-9d38-f34d32fb15b0",
+  "datum": "2026-11-09",
+  "gewijzigd": "2026-11-10T16:37:37.2846787+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+  "verslag_id": "35427849-3313-4039-b2cb-0fcb11281fba",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "woorden": 2920,
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:01:04",
+   "spreker": {
+    "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+    "soort": "Staatssecretaris",
+    "naam": "Eric Van der Burg",
+    "verslagnaam": "Van der Burg",
+    "fractie": "",
+    "functie": "staatssecretaris Koninkrijksrelaties en Slagvaardige Overheid"
+   },
+   "tekst": "Voorzitter. Dan doe ik de moties waar ik over ga. Allereerst is dat de motie-Kathmann/El Boujdaini op stuk nr. 10 over de Aanbestedingswet op defensie- en veiligheidsgebied. Oordeel Kamer, voorzitter.",
+   "deel": 26
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:01:19",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 10: oordeel Kamer.",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:01:21",
+   "spreker": {
+    "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+    "soort": "Staatssecretaris",
+    "naam": "Eric Van der Burg",
+    "verslagnaam": "Van der Burg",
+    "fractie": "",
+    "functie": "staatssecretaris Koninkrijksrelaties en Slagvaardige Overheid"
+   },
+   "tekst": "Dan de motie-Rajkowski op stuk nr. 17 over de Dutch Tech Force. Deze motie krijgt oordeel Kamer met de kanttekening dat we het hier hebben over een pilot en dat we nog even naar de woorden kijken. Maar daar kan mevrouw Rajkowski mee leven.",
+   "deel": 26
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:01:30",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 17: oordeel Kamer.",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:01:32",
+   "spreker": {
+    "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+    "soort": "Staatssecretaris",
+    "naam": "Eric Van der Burg",
+    "verslagnaam": "Van der Burg",
+    "fractie": "",
+    "functie": "staatssecretaris Koninkrijksrelaties en Slagvaardige Overheid"
+   },
+   "tekst": "Dan de motie-Van den Berg op stuk nr. 19 over verouderde ICT-systemen. Oordeel Kamer, voorzitter.",
+   "deel": 26
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:01:44",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 19: oordeel Kamer.",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:01:45",
+   "spreker": {
+    "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+    "soort": "Staatssecretaris",
+    "naam": "Eric Van der Burg",
+    "verslagnaam": "Van der Burg",
+    "fractie": "",
+    "functie": "staatssecretaris Koninkrijksrelaties en Slagvaardige Overheid"
+   },
+   "tekst": "Dan de motie-Vermeer op stuk nr. 24. Ik had wat moeite met \"minder administratieve lasten\" als harde eis, want soms werkt het niet zo, maar ik ga die motie toch gewoon oordeel Kamer geven. Dan kom ik daar met de heer Vermeer verder ooit wel een keer uit.",
+   "deel": 26
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:02:00",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 24: oordeel Kamer.",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:02:01",
+   "spreker": {
+    "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+    "soort": "Staatssecretaris",
+    "naam": "Eric Van der Burg",
+    "verslagnaam": "Van der Burg",
+    "fractie": "",
+    "functie": "staatssecretaris Koninkrijksrelaties en Slagvaardige Overheid"
+   },
+   "tekst": "Dan de motie op stuk nr. 26. De heer Ceder is er nu niet, voorzitter. Ik kan wel leven met verzoek één, maar bij verzoek twee staat \"aan álle toegankelijkheidseisen voldoen\" en dat is soms net even iets te veel. Op dit moment moet ik deze motie ontraden vanwege het woordje \"alle\", maar ik ga de heer Ceder benaderen om te vragen of hij de motie wil aanpassen door van \"alle\" ofwel \"zo veel mogelijk\" te maken ofwel iets in die zin. Op dit moment moet ik de motie echter ontraden en de heer Ceder kan nu niet reageren.",
+   "deel": 26
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:02:31",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 26 is op dit moment ontraden.",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:02:35",
+   "spreker": {
+    "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+    "soort": "Staatssecretaris",
+    "naam": "Eric Van der Burg",
+    "verslagnaam": "Van der Burg",
+    "fractie": "",
+    "functie": "staatssecretaris Koninkrijksrelaties en Slagvaardige Overheid"
+   },
+   "tekst": "Tot slot, voorzitter, de motie-Dassen over een interactieve AI-database.",
+   "deel": 26
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:02:42",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Welk nummer?",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:02:43",
+   "spreker": {
+    "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+    "soort": "Staatssecretaris",
+    "naam": "Eric Van der Burg",
+    "verslagnaam": "Van der Burg",
+    "fractie": "",
+    "functie": "staatssecretaris Koninkrijksrelaties en Slagvaardige Overheid"
+   },
+   "tekst": "Dat is de motie op stuk nr. 33. Ik verzoek de heer Dassen om deze motie op dit moment even aan te houden. Ik heb hier nu de middelen niet voor, maar ik deel het doel, dus ik wil hier samen met de heer Dassen even verder naar kijken. Voorzitter, als u nu naar de heer Dassen kijkt, dan ziet u dat dat goed gaat.",
+   "deel": 26
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:03:02",
+   "spreker": {
+    "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Laurens Dassen",
+    "verslagnaam": "Dassen",
+    "fractie": "Volt",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, dat lijkt me helemaal goed.",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:03:11",
+   "spreker": {
+    "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+    "soort": "Staatssecretaris",
+    "naam": "Eric Van der Burg",
+    "verslagnaam": "Van der Burg",
+    "fractie": "",
+    "functie": "staatssecretaris Koninkrijksrelaties en Slagvaardige Overheid"
+   },
+   "tekst": "Meer heb ik niet in de aanbieding, voorzitter.",
+   "deel": 26
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:03:13",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan wachten we even rustig af totdat de staatssecretaris terug is.",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:07:55",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heropen de vergadering. We gaan verder met de appreciatie van de moties door de staatssecretaris.",
+   "deel": 27
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:08:02",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Voorzitter. Ik had nog drie vragen openstaan. Daar wou ik even kort op ingaan.\nDe eerste was van de heer Ceder. Ik zou even terugkomen op de leeftijdsverificatie ten aanzien van de uitvoering van de moties. Ik begrijp de reactie van de heer Ceder in het eerdere interruptiedebatje dat we hadden heel goed. In het kader van de inrichting van het EDI-stelsel, waarin leeftijdsverificatie onderwerp van gesprek is, ga ik met de diverse betrokken departementen in gesprek. Dit is ook om te kijken voor welke andere onderwerpen leeftijdsverificatie zou kunnen worden ingericht en onder welke voorwaarden. Ik zal u hierover in Q2 van 2027 informeren.\nMevrouw Zwinkels sprak nog even over de zorgen die zij had over de subsidie voor het cybersecuritybeleid. Ik gaf net ook al aan dat er structureel 12,2 miljoen euro beschikbaar blijft — excuus, 12,3 miljoen — voor het cybersecuritybeleid vanuit de EZK-begroting. Ik gaf al even aan dat het op de ene post staat totdat het uitgegeven kan worden op de andere post. Die subsidie voor Mijn Cyberweerbare Zaak gaat dus gewoon door.\nMevrouw Beckerman vroeg nog — heel terecht, denk ik — naar de arbeidsomstandigheden bij datacenters. De situatie zoals door Follow the Money beschreven, toont aan hoe belangrijk is dat bedrijven zorgdragen voor veilige, gezonde en eerlijke arbeidsomstandigheden. Dit geldt uiteraard ook voor de snelle ontwikkelingen in de digitale sector. Op geen enkele manier zou dat ten koste moeten gaan van de veiligheid van werknemers. Bedrijven moeten dan ook zorgen voor goede arbeidsomstandigheden en veiligheid op de werkplek en wanneer er wordt gewerkt met arbeidsmigranten, moet er aandacht zijn voor taalverschillen, zeker wanneer er sprake is van een werkomgeving die mogelijk onveilig is. Aanstaande donderdag, 12 november, is er een commissiedebat Arbeidsmigratie met de minister van Sociale Zaken.\nDan ga ik over tot de appreciatie van de moties. Mijn collega zal op de motie op stuk nr. 10 ingaan.\nDan de motie op stuk nr. 11 van mevrouw Kathmann. Ik zou haar willen vragen om deze aan te houden. Zij is wat ons betreft ontijdig, omdat er nog een brief van de minister van Buitenlandse Zaken zal komen met een kabinetsreactie met ongeveer de strekking van deze motie. Die zou u rond kerst moeten ontvangen. Anders moet ik 'm ontraden.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:10:20",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik begrijp dit. Ik snap ook dat dit een breder dossier is, waar ook Buitenlandse Zaken mee van doen heeft. Ik denk dus dat het slim is om dat af te wachten en deze aan te houden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:10:31",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 12 vinden we ook ontijdig. Het rijksbrede cloudbeleid is in juli van dit jaar aangenomen. De eerste signalen zijn dat het inderdaad leidt tot andere keuzes als het om cloudgebruik gaat. Het is ook zeker geen vrijblijvend beleid. Ik ben nu aan de slag met het overheidsbrede cloudbeleid. Daarin zal ik ook meenemen of en hoe er aanvullend instrumentarium moet worden opgenomen. Daartoe wil ik wel de eerste ervaringen met het herziene cloudbeleid kunnen meenemen, zodat we de reikwijdte en maatregelen goed kunnen vaststellen. Ik ben bereid om, als na de zomer 2027 blijkt dat dat noodzakelijk is, in overleg met mijn collega's het beleid beter afdwingbaar te maken.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:11:06",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ben het hier echt niet mee eens met de ontijdigheid. Er is twee jaar gewerkt aan de NDS, waarbij ook over het herziene cloudbeleid gesproken zou worden. Dat is de Kamer elke keer beloofd. Er zijn ook allerlei moties en voorstellen ingediend, die met meerderheden zijn aangenomen. Er zou echt afdwingbaar beleid komen. Niet voor niks was het motto van de hele NDS \"de vrijblijvendheid voorbij\". En we hebben dat gewoon niet gekregen. Deze motie is dus eigenlijk gewoon een aanpassing van iets wat al beloofd is. Er is ook door brede Kamermeerderheden gevraagd om dit te gaan doen. Het is niet gekomen en het moet er gewoon wel komen. Het is dus gewoon niet fair om hier de kwalificatie \"ontijdig\" aan te geven. Het is gewoon iets als: de Kamer heeft het ons gevraagd, maar we gaan het niet doen. Dat is wat dit is.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:11:56",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik begrijp dat mevrouw Kathmann de motie niet wenst aan te houden. Daarmee heeft zij dan het oordeel \"ontijdig\". De motie op stuk nr. 12: ontijdig.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:12:06",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "En als de motie niet wordt aangehouden, ontraden wij haar dus.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:12:17",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 12: ontraden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:12:36",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Voorzitter. Ik zou mevrouw El Boujdaini willen vragen om de motie op stuk nr. 13 aan te houden, zodat we een schriftelijke appreciatie kunnen geven van deze motie. We hebben er iets meer tijd voor nodig.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:12:42",
+   "spreker": {
+    "id": "2b8aae23-8a8a-40bb-b070-f3a47cc73d3f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sarah El Boujdaini",
+    "verslagnaam": "El Boujdaini",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan houd ik 'm voor nu even aan.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:12:53",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 14 krijgt oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:12:54",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 14: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:12:55",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 15: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:12:56",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 15: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:12:57",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 16: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:14:03",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 16: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:14:05",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 18: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:14:08",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 18: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:14:09",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 20, van de heer Van den Berg: ontraden. De eenmalige financiering voor het Quantum Deltaprogramma van het Nationaal Groeifonds loopt tot 2028. Er is voor de periode erna niet voorzien in een nieuwe gerichte financiering. Het Nederlandse kwantumecosysteem kan wel gebruikmaken van de reguliere instrumenten, zoals de PPS Innovatieregeling, de nieuwe ronde van het NGF, het NADI en de nationale investeringsinstelling. Hierbij moet worden opgemerkt dat deze instrumenten gebruikt kunnen worden voor enkele specifieke ambities in de Rijksbrede Quantumstrategie. Het is naar verwachting niet toereikend om alle ambities te realiseren. De komende periode gaan we aan de slag met verkennen wat er additioneel nodig is om de Rijksbrede Quantumstrategie te realiseren. Een belangrijk uitgangspunt is hierbij dat we de private partijen als eerste uitnodigen om concrete plannen te ontwikkelen met de investeringsbehoeften en dat de Rijksoverheid hier niet het voortouw in dient te nemen. De Rijksoverheid kan vervolgens meedenken over een publieke inzet op specifieke knelpunten of investeringsbehoeften, om daarmee private investeringen uit te lokken.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:14:11",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 20: ontraden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:14:12",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 21: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:14:13",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 21: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:14:14",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 22: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:14:15",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 22: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:14:16",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 23: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:14:17",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 23: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:14:20",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 25 wordt ontraden, maar als de heer Ceder de motie zodanig kan aanpassen dat conform het actieplan dat we afgelopen vrijdag hebben gepresenteerd een opt-out ook mag worden onderzocht, dan zou de motie oordeel Kamer kunnen krijgen.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:14:46",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 25 is ontraden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:14:50",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 26: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:14:51",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 26: oordeel Kamer. Maar dat …",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:14:55",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Ja, de motie op stuk nr. 26 is oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:14:59",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Die appreciatie hebben we net gehad, dat die oordeel Kamer zou zijn als het tweede dictum, over alle toegankelijkheidseisen, aangepast zou kunnen worden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:15:09",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Dan sluit ik me daarbij aan.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:15:12",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar de heer Ceder was er niet, dus die kon niet zeggen of hij de motie zodanig wilde aanpassen. Dan blijft het advies: ontraden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:15:21",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Akkoord. Dat geldt ook voor de motie op stuk nr. 25.\nDe motie op stuk nr. 27: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:15:30",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 27: oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:15:31",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 28 is ontijdig, omdat de Europese Commissie werkt aan een voorstel voor een richtlijn waarmee dit mogelijk wordt gereguleerd. Het voorstel wordt binnen een halfjaar verwacht, maar ik ga daarover graag het gesprek aan met mevrouw Beckerman.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:15:48",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er zit verder geen tijdpad in. Het leek ons juist heel logisch om er nu goed naar te kijken. Er staat: verzoekt de regering om met de Kunstenbond in gesprek te gaan. Dan kun je ook snel doorpakken als zo'n voorstel er komt. Er zit verder geen tijdsdruk in. We zijn ons ervan bewust. We willen ook niet dat je pas na een halfjaar gaat zeggen: oké, dan gaan we nu in gesprek en gaan we er nu over praten. Het leek ons logisch om er wel over te beginnen. Maar er zit geen datum in deze motie voor wanneer een en ander klaar moet zijn.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:16:17",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Doet dat de appreciatie …",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:16:19",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Ja, als we dat \"omzetten in beleid\" er dan uit kunnen halen, want daar wil ik echt de Europese route even voor afwachten.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:16:28",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat wil ik eruit halen. Is het dan zo voldoende? Of moet ik dat nog mailen naar de Griffie?",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:16:33",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie moet nog even schriftelijk worden aangepast.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:16:38",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dus ik moet dat nog mailen naar TK-vragen?",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:16:39",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:16:44",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Helder.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:16:46",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Als dat laatste stukje inderdaad geschrapt wordt, kunnen we 'm oordeel Kamer geven.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:16:47",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké, bij aanpassing wordt het oordeel Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:16:48",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Ook de motie op stuk nr. 29 is ontijdig. Ik wil echt niet vooruitlopen op de brief die volgt in het eerste kwartaal van 2027. Ik kan er wel nadrukkelijk bij aangeven dat we daarin factoren als de energie-inpassing, de ruimtelijke inpassing en het mogelijke gebruik van water, gewogen tegen de soevereiniteit en de lokale meerwaarde, mee zullen nemen. Maar deze motie vind ik ontijdig, dus als die wordt ingediend, is het oordeel: ontraden.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:16:49",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Beckerman, de motie op stuk nr. 29 krijgt het oordeel ontijdig. Wilt u de motie aanhouden of wilt u …?",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:17:27",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, kijk, hier zijn we al sinds 2021 moties over aan het indienen. Elke keer wordt gezegd \"ontijdig\" en \"wacht nog maar even\". Ja, dat kun je niet jarenlang volhouden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:17:31",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Dan ontraad ik de motie.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:17:33",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan krijgt die het oordeel ontijdig?",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:17:46",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Ontijdig is goed.\nDe motie op stuk nr. 30 is ook ontijdig. Er zijn twee sets Kamervragen plus een Kamerbrief onderweg. Deze worden op korte termijn gedeeld met de Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:17:58",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Beckerman, wenst u de motie op stuk nr. 30 aan te houden of kunt u leven met het oordeel ontijdig?",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:18:01",
+   "spreker": {
+    "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sandra Beckerman",
+    "verslagnaam": "Beckerman",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik kan leven met ontijdig.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:18:05",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 30 is ontijdig.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:18:07",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 31 wordt ontraden. Het is aan een volgend kabinet om hier een besluit over te nemen.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:18:16",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 31: ontraden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:18:19",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "De motie op stuk nr. 32: ontraden.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:18:27",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De motie op stuk nr. 32: ontraden.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:18:28",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Het kabinet evalueert continu, waarbij relevant is dat ook in Europees verband de toereikendheid van bestaande regels in de context van nieuwe technologieën wordt geëvalueerd. Voor wat betreft de aansprakelijkheid bij AI-modellen vindt het kabinet het echter nog te vroeg om te constateren dat het huidige kader ontoereikend is. De huidige regels zijn technologieneutraal en ook van toepassing op AI-modellen.\nDe motie op stuk nr. 33 was aangehouden door de heer Dassen zelf.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:18:51",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik dank de staatssecretaris voor haar beantwoording.\nVoordat we de vergadering sluiten, lees ik nog een aantal toezeggingen op. Dat gaat om de volgende toezeggingen.\nDe minister van JenV zegt toe om in het commissiedebat Sociale media en kinderrechten van 16 december 2026 terug te komen op het financieringsbeeld maatschappelijke organisaties, met aandacht voor de vraag waar publieke financiering een rol moet spelen en waar dit aan de markt overgelaten moet worden. De minister van JenV zegt toe dat het kabinet na ontvangst van de richtsnoeren EDPB komt met een uitwerking van een eventueel verbod op camerabrillen. De vraag is enkel wanneer. De staatssecretaris van EZK zegt toe om in de eerste helft van 2027 in de Staat van de Digitale Infrastructuur de uitfasering van zeekabels mee te nemen en de Kamer hierover te informeren. In dit onderzoek worden eventuele risico's van verouderde kabels meegenomen. De staatssecretaris van EZK zegt voorts toe om de Kamer begin volgend jaar te informeren over de uitwerking van de Strategie Digitale Economie. De staatssecretaris van EZK zegt toe om in Q1 van 2027 de Kamer te informeren over de kabinetsstrategie ten aanzien van datacenterontwikkeling en neemt hier relevante aanpalende beleidsonderwerpen in mee, zoals netcongestie, ruimtelijke inpassing en watergebruik. De staatssecretaris van EZK zegt toe om een vervolgonderzoek van TNO over het AI Safety Institute nog dit jaar aan de Kamer te doen toekomen. De staatssecretaris van EZK zegt toe om in de jaarlijkse trendanalyse de cao's en de ontwikkelingen van AI in de cao's mee te nemen. De vraag is enkel nog wanneer. De staatssecretaris van EZK zegt toe om in Q2 van 2027 de Kamer te informeren over de beleidsinzet voor digitale inclusie. De staatssecretaris van EZK zegt verder toe om de uitwerking van de actieplannen AI en arbeid, de scenariostudie AI en daarmee de uitwerking van de motie-Kathmann in Q2 2027 naar de Kamer te sturen. De staatssecretaris van EZK zegt toe om de Kamer in het voorjaar van 2027 te informeren over de uitwerking van de LOO-regeling en de allocatie van middelen voor die regeling. De staatssecretaris van EZK zegt toe om de Kamer eind van het jaar via de NDS-rapportage verder te informeren over onder andere het cloudbeleid. De staatssecretaris van EZK zegt toe om de Kamer in de loop van 2027 te informeren over de verdere uitwerking van de planning voor de realisatie van de soevereine cloud. De staatssecretaris van EZK zegt toe de routekaart digitale autonomie voor het commissiedebat Digitale autonomie van 26 november 2026 aan de Kamer te doen toekomen. De staatssecretaris van EZK zegt toe om de Kamer voor de Voorjaarsnota 2027 te informeren over de structurele financiering voor de Digitale Dienst. De staatssecretaris van EZK zegt toe om de Kamer te informeren over het EDI-stelsel ten aanzien van leeftijdsverificatie in Q2 2027 naar aanleiding van vragen van het lid Ceder van de ChristenUnie. De staatssecretaris van BZK zegt toe om de Kamer in Q1 van 2027 te informeren over de doelmatigheidswinst en harmonisatie in inkoopprocessen door de Auditdienst Rijk en neemt hier heel nadrukkelijk IT-diensten in mee. De staatssecretaris van BZK zegt toe de Commissie voor digitale zaken uit te nodigen als deelnemende partij bij een crisissimulatie in 2027. De staatssecretaris van BZK zegt toe om voor Verantwoordingsdag, de derde woensdag in mei, de resultaten van het onderzoek naar grote IT-projecten aan de Kamer te sturen. De staatssecretaris van BZK zegt toe om de positieve en negatieve kanten van de impact van het programma slagvaardige overheid aan de Kamer te sturen. Ook hieraan is nog geen tijd verbonden.\nDit waren alle toezeggingen. Hiermee zijn we eigenlijk aan het einde gekomen van dit debat, maar ik zie nog een opmerking van de staatssecretaris.",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:22:35",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "Ja, nog één toevoeging. Waar we spraken over AI en cao's is het misschien even goed om aan te merken dat de minister van Sociale Zaken en Werkgelegenheid dit doet. De vraag was wanneer het komt. Ik zou even bij hem moeten checken wanneer dit op de rol staat.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:22:50",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké, dat gaat over de toezegging om in de jaarlijkse trendanalyse cao's en ontwikkelingen mee te nemen. Dat is dan …",
+   "deel": 28
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T18:22:57",
+   "spreker": {
+    "id": "dbd86d47-ff95-441a-9a48-c46cd21db1b9",
+    "soort": "Staatssecretaris",
+    "naam": "Willemijn Aerdts",
+    "verslagnaam": "Aerdts",
+    "fractie": "",
+    "functie": "staatssecretaris Digitale Economie en Soevereiniteit"
+   },
+   "tekst": "En ik heb nog iets over de routekaart digitale economie. Die is er niet voor het debat, maar die stuur ik in Q1 naar de Kamer.",
+   "deel": 28
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T18:23:15",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Daar nemen wij kennis van.\nDan zijn we hiermee aan het einde gekomen van dit WGO. Ik wil iedereen bedanken: de staatssecretarissen, de minister, de ondersteunende staf van de Kamer en de ministeries, de leden en iedereen die thuis het debat heeft gevolgd. Ik sluit hierbij de vergadering. Dank u wel.",
+   "deel": 28
+  }
+ ],
+ "deel": {
+  "nummer": 8,
+  "van": 8,
+  "fase": "Antwoord in tweede termijn",
+  "sprekers": "Van der Burg, Aerdts",
+  "ouder_id": "a0c6e833-9da5-4dfd-aeac-af857bbd4096",
+  "ouder_titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+  "woorden_totaal": 67298
+ }
+}

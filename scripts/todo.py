@@ -9,7 +9,7 @@ import json, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LANG = 25000
+LANG = 25000  # parse.py knipt alles boven 16.000 woorden al in delen
 SKIP = {"Stemmingen", "Regeling van werkzaamheden", "Procedurevergadering"}
 
 
@@ -27,10 +27,18 @@ def main(maximum):
             continue
         reden = "nieuwe versie van het verslag" if sf.exists() else "nog geen strip"
         rijen.append((p["vergadering"]["soort"] != "Plenair", p["begin"], p, reden))
-    rijen.sort(key=lambda r: (r[0], [-ord(c) for c in r[1]]))
+    # delen van één debat blijven bij elkaar en op volgorde
+    def volgorde(r):
+        commissie, _, p, _ = r
+        d = p.get("deel") or {}
+        datum = [-ord(c) for c in p["vergadering"]["datum"]]  # nieuwste eerst
+        return (commissie, datum, d.get("ouder_id", p["id"]), d.get("nummer", 0))
+    rijen.sort(key=volgorde)
     for _, _, p, reden in rijen[:maximum]:
         print(p["id"])
-        print(f"  {p['vergadering']['datum']} {p['vergadering']['soort']:9} {p['woorden']:>6} woorden  {p['titel'][:60]}  ({reden})", file=sys.stderr)
+        d = p.get("deel")
+        deel = f" [deel {d['nummer']}/{d['van']}: {d['fase']}]" if d else ""
+        print(f"  {p['vergadering']['datum']} {p['vergadering']['soort']:9} {p['woorden']:>6} woorden  {p['titel'][:50]}{deel}  ({reden})", file=sys.stderr)
     if len(rijen) > maximum:
         print(f"  … nog {len(rijen) - maximum} voor een volgende nacht", file=sys.stderr)
     for p in te_lang:

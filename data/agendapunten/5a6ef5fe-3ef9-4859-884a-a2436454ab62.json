@@ -29,7 +29,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Ik heropen de vergadering. Aan de orde is de stemming over een motie die is ingediend bij het Belastingplan 2027: de motie op stuk nr. 70 (37022). Voordat we gaan stemmen, is er een stemverklaring van meneer Vlottes. U krijgt het woord voor uw stemverklaring namens de PVV."
+   "tekst": "Ik heropen de vergadering. Aan de orde is de stemming over een motie die is ingediend bij het Belastingplan 2027: de motie op stuk nr. 70 (37022). Voordat we gaan stemmen, is er een stemverklaring van meneer Vlottes. U krijgt het woord voor uw stemverklaring namens de PVV.",
+   "deel": 0
   },
   {
    "rol": "woordvoerder",
@@ -43,7 +44,8 @@
     "fractie": "PVV",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Voorzitter. Een korte stemverklaring over de motie van de heer Markuszower. Kijk, wij hebben juist vanmiddag tegen de motie-Bikker over het aanwijzen van zo'n verkenner gestemd, omdat wij direct nieuwe verkiezingen willen. Dus dat gedeelte van de motie steunen wij niet. Dat gezegd hebbende, iedere motie van wantrouwen die dit kabinet naar huis kan sturen, steunen wij. Daarom zullen wij vóór de motie-Markuszower stemmen.\nDank u wel."
+   "tekst": "Voorzitter. Een korte stemverklaring over de motie van de heer Markuszower. Kijk, wij hebben juist vanmiddag tegen de motie-Bikker over het aanwijzen van zo'n verkenner gestemd, omdat wij direct nieuwe verkiezingen willen. Dus dat gedeelte van de motie steunen wij niet. Dat gezegd hebbende, iedere motie van wantrouwen die dit kabinet naar huis kan sturen, steunen wij. Daarom zullen wij vóór de motie-Markuszower stemmen.\nDank u wel.",
+   "deel": 1
   },
   {
    "rol": "interrumpant",
@@ -57,7 +59,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Dank u wel, meneer Vlottes."
+   "tekst": "Dank u wel, meneer Vlottes.",
+   "deel": 1
   },
   {
    "rol": "woordvoerder",
@@ -71,7 +74,8 @@
     "fractie": "VVD",
     "functie": "lid Tweede Kamer"
    },
-   "tekst": "Daarmee zijn we aan het einde gekomen van de stemmingen alsook aan het einde van de vergaderdag van dinsdag 10 november 2026. Ik sluit de vergadering."
+   "tekst": "Daarmee zijn we aan het einde gekomen van de stemmingen alsook aan het einde van de vergaderdag van dinsdag 10 november 2026. Ik sluit de vergadering.",
+   "deel": 3
   }
  ]
 }

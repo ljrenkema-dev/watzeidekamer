@@ -1,0 +1,1065 @@
+{
+ "id": "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d1",
+ "titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+ "onderwerp": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+ "soort_activiteit": "Wetgevingsoverleg",
+ "begin": "2026-11-09T10:03:44",
+ "eind": "2026-11-09T18:23:34",
+ "vergadering": {
+  "id": "2be272b3-9bb1-4eda-9d38-f34d32fb15b0",
+  "datum": "2026-11-09",
+  "gewijzigd": "2026-11-10T16:37:37.2846787+01:00",
+  "soort": "Commissie",
+  "status": "Ongecorrigeerd",
+  "titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+  "verslag_id": "35427849-3313-4039-b2cb-0fcb11281fba",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "woorden": 8451,
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:03:44",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Goedemorgen allemaal. Ik open dit WGO. Goeiemorgen aan alle leden en aan de bewindslieden. Ik open deze vergadering van de vaste commissie voor Digitale Zaken. Aan de orde is het wetgevingsoverleg over de begrotingen BZK, EZK en JenV, voor zover het onderwerpen betreft die zien op digitale zaken. Welkom aan de bewindspersonen. Ook welkom aan de leden hier links van mij: mevrouw Kathmann, mevrouw Boujdaini, mevrouw Rajkowski, de heer Van den Berg, mevrouw Zwinkels, de heer Vermeer, de heer Ceder en, tot slot, mevrouw Beckerman.\nWe hebben vandaag acht uur de tijd voor dit wetgevingsoverleg. We willen er graag voor zorgen dat iedereen voldoende aan het woord komt, maar tegelijkertijd ook dat we dit overleg binnen onze tijd afronden. Ik wil het aantal interrupties per fractie dus graag beperken tot vijf. Dat betekent dat elke vraag een interruptie is. Ook een vervolgvraag kost dus een interruptie. Dat zal ertoe leiden dat iedereen kort en bondig bij de punten blijft. Als we dat zo kunnen doen, dan is er voldoende tijd om iedereen aan het woord te laten. Kunnen we dat zo afspreken?",
+   "deel": 0
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:05:07",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dit is natuurlijk wel een wetgevingsoverleg, dus in principe zou het onbeperkt moeten zijn.",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:05:15",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "In principe is het inderdaad onbeperkt. Het is ook aan de leden van de Kamer om dat te besluiten. Mijn voorstel zou zijn om toch te proberen het met zes interrupties te doen. Als die kort en bondig zijn, dan kunnen wij natuurlijk heel veel coulance tonen, maar als iedereen interrupties van een, twee, drie minuten en dergelijke heeft, dan komen we straks misschien met de tijd in de knel. Dat zou zonde zijn. Ik moet ook aangeven dat de minister van JenV ons vanaf 16.00 uur moet verlaten, dus als we iedereen aan bod willen laten komen, dan stel ik voor om het toch kort en bondig te houden.",
+   "deel": 0
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:05:58",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zal ook om 16.00 uur vertrekken in verband met het WGO over box 3.",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:06:06",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Helder.",
+   "deel": 0
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:06:09",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil toch wel aangeven dat ik er persoonlijk in ieder geval niet op heb geanticipeerd dat we het met een beperkt aantal interrupties zouden moeten doen, dus dat is wel een last-minuteverrassing. Dus ik zou willen voorstellen om het toch gewoon open te gooien, maar daarmee kijk ik ook naar mezelf. Ik hou ook van een debatje, maar laten we daar verantwoordelijk mee omgaan als Kamer. Als we uit de tijd beginnen te lopen, dan zou ik zeggen dat u alle vrijheid heeft om ons als Kamer daarop te wijzen. Daarmee houden we de scherpte in het debat en de controle erop.",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:06:46",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is wat mij betreft geen probleem. Akkoord, iedereen? Dan beginnen we met de eerste termijn van de Kamer. We houden de begrotingsvolgorde aan. Ik begin dus bij mevrouw Kathmann voor haar eerste termijn van de zijde van de Kamer. Aan u het woord.",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:07:07",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, voorzitter. AI is te belangrijk om over te laten aan een handjevol techmiljardairs. De astronomische bedragen die erin omgaan en de onheilspellende uitspraken over AI met een zogenaamd \"eigen leven\" leiden af van de vragen die echt gesteld moeten worden: \"Wie is de baas? Wie is er verantwoordelijk als het misgaat? Wie houdt toezicht? Wie profiteert?\" En de belangrijkste vraag: wie zorgt ervoor dat wij AI gaan vormgeven in plaats van andersom?\nIn één dag verloor Google 500 miljoen dollar op de beurs. Maar niet getreurd: Meta heeft nog 95 miljard dollar op de plank liggen om in andere AI-bedrijven te pompen. Dat zijn gestoorde bedragen. De andere dag sla je de krant open en zie je dat een van de rijkste mannen ter wereld, uiteraard ook zo'n AI-baas, aankondigt dat zijn product de mensheid kan uitroeien. Dat hij vertikt daar zelf iets aan te doen, zegt hij er niet bij. Stel je eens voor dat een ander bedrijf met zulk nieuws komt, en zegt: \"Hallo wereld, we hebben een nieuw speelgoedje gemaakt. Er is zo'n 50% kans dat het je doodmaakt. Maar dat risico zijn we bereid te nemen.\" We zouden moord en brand schreeuwen als zoiets in het nieuws zou komen. Maar zulke regels gelden niet voor AI-bedrijven. We laten ons meeslepen in hun spel. De economie wordt heen en weer gesleurd door bedrijven die machtiger zijn dan de meeste landen en in één dag meer geld kunnen verliezen op de beurs dan de hele rijksbegroting van Nederland.\nPRO ziet veel van de uitspraken van deze AI-baronnen als grootspraak, zodat ze hun eigen AI-producten kunnen verkopen en vooral verantwoordelijkheden kunnen afschuiven. Het schetst heel goed de complete absurditeit van dit moment. Dit gaat om honderden miljarden, die met een ongekende stortvloed ongereguleerd op de AI-markt worden gegooid. Het is ook knetterpolitiek. Hier zijn de belangen van geopolitieke grootmachten en het internationale grootkapitaal maximaal met elkaar verenigd. In deze context voeren wij dit debat.\nTechnologie is niet neutraal. Dat is het nooit geweest. Met elke cent die we uitgeven aan ICT, kunnen we kiezen: spekken we de portemonnee van de grootste boeven ter wereld, of bouwen we aan een eigen industrie waar we wel afspraken mee kunnen maken? Die keuze ligt voor aan ons, met elke aanbesteding, met elke investering en met elk A4'tje aan nieuw beleid.\nDe Tweede Kamer heeft al een route uitgestippeld. Deze Kamer wil een ambitieuze agenda voor digitalisering. We willen zeggenschap over digitale infrastructuur. We willen investeren in een rijkscloud, nieuwe zeekabels en rekenkracht van Europese bodem. Dat is de enige manier om de macht terug te grijpen. Het is diepteleurstellend dat we voor de zoveelste keer tegen dezelfde muur aan rijden. Ondanks de mooie woorden van dit kabinet, het vorige kabinet en het kabinet daarvoor, blijft echte actie uit. Tegenover mij zitten nu drie bewindspersonen die er niet in slagen om één vuist te maken en Nederland staande te houden in al het cybergeweld. Helaas verliezen we daarmee kostbare tijd. Als Kamerlid word ik daar inmiddels best wel een beetje gek van. Als de Albert Heijn platligt door een IT-storing, komt de staatssecretaris van Visserij om antwoorden te geven. Als het halve internet op zwart gaat door een cruciale fout in een veelgebruikte programmeertaal, neemt niemand de telefoon op. Als de Kamer vragen heeft over de beursgang van AI-bedrijven, is de staatssecretaris te laat. De staatssecretaris die ICT van de Rijksoverheid inkoopt, heeft afgezegd voor het debat over digitale autonomie. Zeg het me maar, kabinet: hoe moeten we zakendoen met staatssecretarissen zonder geld en zonder mandaat? Wie mogen wij vandaag kronen tot de minister van digitale zaken? De meerwaarde van twee staatssecretarissen die over digitalisering gaan, heb ik helaas nog niet kunnen zien. Ik snap gewoon echt niet waarom daarvoor gekozen is, en dat zeg ik echt met alle respect voor de individuele mensen en het harde werken achter de schermen. Het beleid moet gewoon dwingender en strenger, maar niemand neemt die handschoen op.\nVorig jaar nam de Kamer een motie aan van onze oud-collega Jesse Six Dijkstra van NSC om het zogenaamde Coördinatiebesluit organisatie, bedrijfsvoering en informatiesystemen rijksdienst van het kabinet aan te passen voor meer digitale autonomie. Nu heb ik laatst gevraagd of het kabinet die motie nog gaat uitvoeren. Het antwoord was als volgt: \"Om de departementale autonomie te behouden is hier niet voor gekozen.\" Ik heb daar grote moeite mee, want die departementale autonomie is precies wat we moeten doorbreken. We moeten de vrijblijvendheid voorbij. Dat zegt het kabinet ook zelf. Dat doe je door ICT meer centraal te coördineren. We weten dat versnippering tussen ministeries een reden is waarom we heel afhankelijk zijn geworden van een paar grote techbedrijven. De Kamer heeft deze motie al aangenomen, dus ik wil weten: erkent het kabinet dat de departementale autonomie onze digitale autonomie in de weg zit? Hoe gaat de coördinerend staatssecretaris zichzelf opstellen om de vrijblijvendheid voorbij te gaan? Zie het als een aanmoediging en neem de regie. Ik vraag concreet om de toezegging dat het niet-uitvoeren van de motie-Six Dijkstra heroverwogen wordt en betrokken wordt bij de verdere plannen voor digitale autonomie.\nDan terug naar de centen. Althans, het gebrek aan centen. Het kabinet …",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:11:49",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voordat u verdergaat, mevrouw Kathmann: u heeft een interruptie op dit punt van de heer Van den Berg.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:11:54",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Volgens mij streeft mevrouw Kathmann, terecht, naar meer digitale autonomie en naar dat we veel meer van dit soort bedrijven in Nederland en in Europa gaan hebben. Dat begrijp ik toch goed?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:12:05",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, daar gaat het om.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:12:08",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan vraag ik mij het volgende af. Als mevrouw Kathmann spreekt over de \"boeven\" vanuit onder andere de Verenigde Staten, gaat ons dat dan nou echt helpen om in de tussentijd, terwijl we nog afhankelijk zijn, te gaan werken naar de eigen digitale zelfstandigheid?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:12:24",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik denk dat het aan mij ligt, maar ik de begrijp de vraag van de heer Van den Berg niet.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:12:34",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het was de eerste interruptie van de dag, voorzitter. Als we continu blijven spreken over de \"boeven\" in de Verenigde Staten, de grote techbedrijven die AI nu hebben ontwikkeld en volgens mevrouw Kathmann heel veel risico opleveren … Feit is dat we nog wel afhankelijk zijn van die bedrijven. Als wij nou onafhankelijk willen worden en onze eigen techsector willen opbouwen op dat vlak, heeft het dan zin om in de tussentijd je eigen glazen in te gooien, zoals mevrouw Kathmann nu doet met die uitspraken?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:13:06",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, dat denk ik niet. Ik denk wel dat we echt moeten gaan snappen dat we de grip op technologie moeten terugkrijgen en dat dat ook kan. We moeten technologie maken. We moeten dus ook een rem zetten op alle uitwassen die we nu zien. Het probleem is als volgt. Ik noem de bedrijven hierom ook niet bij naam, maar noem het expres \"techmiljardairs\". Het is een handjevol mensen — het zijn volgens mij allemaal mannen — dat bizar profiteert en bizarre winsten maakt, en dat echt over de rug van alles wat voor ons van waarde is. Ze doen dat rücksichtslos.\nKijk naar Finland, waar een heel ecosysteem is verkwanseld omdat daar zonder vergunningen bossen zijn gekapt. Kijk naar wat er gebeurt qua land- en watergebruik en naar transparantieregels die niet worden nagevolgd. Eigenlijk alles wat wij met elkaar hebben afgesproken aan regels, wordt volstrekt niet nageleefd. Alles wat wij van waarde vinden, onze democratie en noem het allemaal maar op, staat onder druk. Ik denk dat het juist belangrijk is om te benoemen dat we daar mensen voor verantwoordelijk kunnen houden. Dat is één. Twee. Door zelf veel meer dingen te bouwen, door regels af te dwingen en door toezicht te houden, krijgen we ook weer veel meer grip op die wereld.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:14:20",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Over het laatste punt, dat we dat zelf ook moeten opbouwen, zijn we het eens. Daar verschillen we dus helemaal niet zo veel in. Ik wil alleen kort vragen: houdt mevrouw Kathmann zich dan ook aan haar eigen woorden? Ze zei namelijk net \"ik noem die bedrijven niet bij naam\", maar ik hoorde net ook de naam Meta, die 90 miljard euro in AI gaat investeren, en daar werd een heel frame overheen gegooid. Mevrouw Kathmann spreekt zichzelf tegen op dat vlak. Laten we het nou gewoon constructief aanpakken. Laten we ervoor zorgen dat we ook met die bedrijven kunnen werken aan iets wat zelfstandig is, voordat we alles kapot hebben gemaakt en geen samenwerking met hen hebben, en in de tussentijd ook nog geen eigen, zelfstandige sector hebben. Daar is Nederland namelijk niet bij gebaat.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:15:02",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil nu wel even de verantwoordelijkheid leggen bij waar die ligt. Op dit moment maakt dus een handjevol techmiljardairs een hele hoop kapot. Ik zal echt niet rusten voordat daartegen is gestreden. Ik zal daarvoor opkomen en zorgen dat er een hele hoop gerepareerd wordt.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:15:16",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. Mevrouw Kathmann, u heeft nog een interruptie van de heer Vermeer.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:15:20",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Kathmann zei in een tussenzinnetje: het zijn allemaal mannen. Wat bedoelt ze daarmee?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:15:32",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Excuses. Ik refereerde daar zelf aan. Ik wilde zeggen \"mannen en vrouwen\", dus daar zat ik mee in mijn hoofd, maar toen dacht ik \"o nee, het zijn allemaal mannen!\" Ik bedoelde dat niet zo. Ik heb zelf drie jongens thuis, en een hele leuke man. Zo bedoelde ik het niet. Ik wilde er een woord aan geven, en toen dacht ik: o ja, dat zijn allemaal mannen, dus dat kan ik wel zeggen.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:15:52",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan is dat opgeklaard. U kunt uw betoog vervolgen.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:15:58",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik was gebleven bij geld, althans het gebrek aan geld. Het kabinet snapt toch ook wel dat we met de begroting, waar geen rooie cent in staat voor digitaal, geen grote resultaten zullen bereiken? Ik heb het eigenlijk al honderd keer gehoord: wacht nog maar even; we komen wel met geld. Maar het leidt eigenlijk nooit ergens toe. Het gebrek aan geld heeft gevolgen. Want hoe realiseer je een rijkscloud zonder geld? Hoe leg je nieuwe zeekabels zonder geld? Hoe ontwikkel je je eigen rekenkracht zonder geld? Hoe voer je de Nederlandse digitaliseringsagenda uit zonder geld? Hoe richt je een Nederlandse digitale dienst op zonder geld? Hoe koop je ethische en Europese AI- en clouddiensten zonder geld? Hoe help je de miljoenen Nederlanders die digitaal worden buitengesloten zonder geld?\nIk wil op al die vragen een helder antwoord, eigenlijk om erachter te komen hoe we het dan wél gaan doen. Zonder geld is het risico te groot dat al die mooie beloftes niet worden waargemaakt. Zonder geld tuigen we alleen nog maar praatclubs en overlegstructuren op en gaan we van succesvolle pilot naar succesvolle pilot, die vervolgens niet opgeschaald wordt omdat uit geldgebrek de stekker eruit wordt getrokken.\nVorige week kwam er wel iets in beweging, maar dat was na 44 interrupties tijdens de Algemene Politieke Beschouwingen, door de heer Dassen van Volt.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:17:09",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik denk dat mevrouw Kathmann een terecht punt aansnijdt: dit gaat om heel veel geld, en geld is hier een cruciale factor. In het begin van haar betoog heeft ze het over die techmiljardairs. Dat is gewoon een soort populistische stempel, om die mensen in een bepaalde hoek te drukken. Maar daarmee erkent mevrouw Kathmann nu toch zelf dat deze ontwikkelingen alleen mogelijk zijn met heel veel geld?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:17:38",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Deze ontwikkelingen zijn alleen mogelijk met veel geld, maar we kunnen ook vragen om publieke investeringen zodat we er meer grip op houden. Ik heb expres in een bijzin gezegd: hoe gaan we het wel doen? Het is heel belangrijk om meer inzicht te krijgen in de rijksbegroting en in hoe we geld kunnen verschuiven, bundelen of, zoals hier vaak wordt gezegd, alloceren. Maar dan moeten we nu wel het volgende weten. Wat gaat het kosten en wat kunnen we nu helemaal niet doen? Als we budgetten kunnen bundelen, hoe en waar doen we dat dan en wie heeft daar de regie op? Alle financieringsinstrumenten die we nu hebben om bijvoorbeeld in infrastructuur te investeren moeten dan ook vrijkomen om in digitale infrastructuur te kunnen investeren. Het is zeker waar dat dat geld kost.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:18:30",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ben het er zeer mee eens dat allerlei ambities en beleid zonder geld holle woorden zijn. Kan mevrouw Kathmann drie voorbeelden noemen waarin overheden succesvoller zijn in het investeren in nieuwe ontwikkelingen dan bedrijven?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:18:49",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U slaat de spijker op z'n kop! Dat is in het digitale domein heel ingewikkeld geweest. Het gaat mij er niet om dat wij als overheid alles zelf moeten bouwen. Ik denk dat dat ook niet gaat, omdat we al te vaak hebben moeten constateren dat die kennis hier niet altijd is. Maar we moeten wel zorgen voor structuren waarin je als overheid zeggenschap hebt over modellen of systemen, met gouden aandelen of noem het maar op. Je moet veel meer kijken naar eigenaarschap, zonder dat je alles zelf hoeft te ontwikkelen.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:19:53",
+   "spreker": {
+    "id": "1951a14e-78db-446c-bb5a-fb1461033854",
+    "soort": "Tweede Kamerlid",
+    "naam": "Don Ceder",
+    "verslagnaam": "Ceder",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik deel de zorgen van mevrouw Kathmann. Ik denk dat we inderdaad naar een continent van kwaliteit moeten. We moeten onze AI-systemen inrichten met de juiste waarborgen. Alleen, de heer Vermeer heeft wel een terecht punt. Er wordt volgens mij meer dan 2 biljoen geïnvesteerd in AI. Als wij dat op het Europees continent op een concurrerende manier willen doen, dan is daar wel een plan voor nodig. Ik heb naar de bewindspersonen en de begroting gekeken. De overheden gaan dat gewoon niet ophoesten en in Europees verband wordt het ook lastig. Ik ben dus benieuwd of u een beeld heeft van hoe we dat gaan doen. Kunt u erkennen dat, als we dat plan nog niet hebben, het heel lastig wordt om de infrastructuur op het Europees continent concurrerend vorm te geven?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:20:29",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We hebben volgens mij net al geconstateerd dat het zeker niet gratis is en dat het duur is, dus dat is jammer. Maar ik zei aan het begin van mijn bijdrage al dat we ook moeten constateren dat we nu echt in een opgeklopte AI-economie leven. Er wordt op een dag 500 miljard verloren. Er is een grote angst dat de AI-bubbel gaat klappen. Eigenlijk niemand snapt waarom bedrijven bepaalde waarden hebben. We hebben vorige week een AI-ontbijt gehad. Daar stond de AI COPY SHOP. Dat is een initiatief om te laten zien hoe AI de grootste kunstroof aan het veroorzaken is die we wereldwijd hebben gezien. Kunstenaars hebben dit initiatief genomen. Zij maakten met hun winkeltje op die dag €40 winst. Dat is meer dan wat al die bedrijven tot nu toe hebben gedaan. Het is een bizarre opgeklopte wereld. Dat is niet de race die wij moeten spelen of moeten willen winnen. Dit kabinet zegt ook: in Nederland zijn we goed in toegepaste AI, in AI die impact maakt. Laten we daar dan ook op gaan focussen, laten we daar keuzes in maken, laten we die voorrang geven en laten we daar een plan voor maken, in plaats van een plan voor de opgekloptheid die we nu zien en waarin we het nooit gaan winnen. Volgens mij is dat helemaal niet de wedstrijd die we willen spelen.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:21:47",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Een vervolgvraag van de heer Ceder.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:21:50",
+   "spreker": {
+    "id": "1951a14e-78db-446c-bb5a-fb1461033854",
+    "soort": "Tweede Kamerlid",
+    "naam": "Don Ceder",
+    "verslagnaam": "Ceder",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is goed om hier een debat met elkaar te voeren om te horen wat PRO hiervan vindt. Bent u van mening dat we de bedrijven die proberen om AI te integreren, moeten verleiden om voor Europese toepassingen te kiezen? Of bent u meer voor het verbieden en afbakenen van welke toepassingen überhaupt mogelijk zijn op het Europees continent?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:22:14",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Allebei. De ontwikkelingen van AI vragen echt om heel veel vangrails en autogordels. Daar kunnen we nu eenmaal niet omheen. Maar we moeten het wel op zo'n manier doen dat we niet alle kansen te grabbel gooien. Ik ga er zo in mijn bijdrage ook nog even op in, maar volgens mij heb je daar als overheid nu juist een hele grote mogelijkheid liggen om te verleiden. Dat geldt niet alleen voor Nederland, maar voor alle lidstaten in de EU gezamenlijk. Als Nederlandse overheid zijn wij de grootste IT-inkoper van Nederland. Wij kunnen dus een heel groot gedeelte van die markt maken door in te kopen wat we wel willen hebben en niet in te kopen wat we eigenlijk niet willen hebben. Dat lijkt me een hele mooie manier om te kunnen sturen.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:22:57",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. Voordat u verdergaat, heeft mevrouw Rajkowski nog een interruptie.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:23:01",
+   "spreker": {
+    "id": "35caab67-2b49-4c45-a5c6-af0f110425c7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Queeny Rajkowski",
+    "verslagnaam": "Rajkowski",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik maak me zeker zorgen over de macht, de invloed en het geld van de grote AI-bedrijven, dus daar kan ik PRO helemaal in vinden. Ik weet alleen niet of ik me zulke zorgen moet maken of Nederland meegaat in die AI-race. Als je kijkt naar onze digitale infrastructuur en naar het geld dat wij er in onze economie in steken, zie je volgens mij dat we echt wel een aantal goede dingen doen. We doen alleen bij lange na niet wat China en de VS doen. Eigenlijk doen wij zo weinig dat als wij op de Nederlandse manier, met onze normen en waarden, op het wereldtoneel van invloed willen zijn op toegepaste AI, we ook echt aan de slag zullen moeten gaan met zeekabels, datacenters et cetera. We zullen dus toch op enige manier mee moeten doen met de race, ook als we willen dat AI meer vorm gaat krijgen op de manier die wij belangrijk vinden. Welke van de twee kiest PRO dan eigenlijk?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:23:58",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "PRO kiest voor meer publieke investeringen in belangrijke infrastructuur zoals zeekabels en datacenters, zodat je gewoon meer autonomie hebt. Ik denk niet dat dat helemaal meespelen in die race is, al kan je er misschien niet helemaal omheen. Het is gewoon een wedstrijd die je niet kan winnen en ook niet wil spelen. Zoals het kabinet ook heel vaak zegt: we moeten scherpe keuzes maken. Laten we dat dan ook doen. Waarop willen we dan wel inzetten? Waarop niet? Wat kunnen we niet? Wat krijgt voorrang? Dat moeten ook strategische keuzes worden, en niet gewoon keuzes omdat het geld er niet is, want dat zijn geen strategische keuzes.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:24:44",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U vervolgt uw betoog.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:24:52",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik was gebleven bij de heer Dassen en zijn 44 interrupties tijdens de Algemene Politieke Beschouwingen. Ik ben hem daar dankbaar voor, want nu komt er wel structureel 10 miljoen voor digitalisering en AI. Het is duidelijk dat we onze digitale dijken moeten beschermen. Cyberaanvallen worden nog gevaarlijker in combinatie met nieuwe AI-modellen. De Cyberbeveiligingswet gaat helpen, maar dat is niet genoeg. We zijn zo afhankelijk van andere bedrijven dat we onze eigen computers niet meer kunnen repareren als er iets stuk is. In de meeste gevallen heeft de Rijksoverheid geen idee wat voor ICT we überhaupt gebruiken.\nIk vraag daarom het volgende. Ik las in dagblad Trouw dat de staatssecretaris, van wie ik dacht dat zij daarvoor was aangewezen, geen verantwoordelijkheid voelt voor alle computers van de overheid. Wie in dit kabinet voelt zich wel verantwoordelijk voor de computers van de overheid? Welke stappen zet dit kabinet om het inzicht in het eigen ICT-landschap te verbeteren? Is het kabinet nog steeds van plan om een interdepartementaal beleidsonderzoek uit te voeren, zoals ik heb verzocht in een aangenomen motie, om bij alle ministeries maatregelen op te halen om digitaal autonoom te worden?\nCyberveiligheid moet een breder begrip worden. De rijkscloud houdt ons veilig. Nieuwe zeekabels houden ons veilig. Het beschermen van persoonsgegevens houdt ons veilig. Het verbieden van manipulatieve ontwerptrucjes op sociale media houdt ons veilig. Er moet één overkoepelende agenda komen die dit samenbrengt, met financiering, onder regie van één bewindspersoon. We weten inmiddels welke structurele maatregelen er nodig zijn, want die zijn allemaal al aangekondigd: de werkagenda waardegedreven digitalisering, de Nederlandse Digitaliseringsstrategie, de Cyberstrategie, het AI Deltaplan, de meerjarenvisie op digitale overheid, maar ook de kwantumstrategie, het cloudbeleid, de strategie voor online kinderrechten en nog veel meer. Pak daar alle aangenomen Kamermoties over ICT bij, schiet er een nietje doorheen en voer het uit.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:26:36",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Kathmann maakt er terecht een punt van dat de staatssecretaris zich niet verantwoordelijk voelt voor elke computer binnen de Rijksoverheid. Zij refereerde daarbij aan dat interview. Maar ik zie in dat interview ook nog iets anders staan. Ik citeer: \"Techniek is natuurlijk niet neutraal, en mijn horrorbeeld is dat we straks AI-systemen hebben waarbij we vergeten zijn om vrouwen dan wel minderheden mee te nemen.\" Ik vroeg me af wat de visie van mevrouw Kathmann is op die uitspraak. Is dat net zo belangrijk voor haar?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:27:03",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is een hele belangrijke uitspraak die de staatssecretaris hier heeft gedaan. We weten nu eenmaal dat heel veel AI-systemen gewoon discriminerende systemen zijn. Dat is heel zorgwekkend en kwalijk, zeker met het oog op de uitrol van AI door de overheid. De overheid discrimineert niet. In het verleden is dat vaak genoeg gebeurd, maar laten we dus ervoor zorgen dat dit nooit meer kan, mag en zal gebeuren. Ik hoop dat echt niemand in de Kamer ooit zal schromen om daarvoor op te komen.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:27:34",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Kan mevrouw Kathmann dan één voorbeeld geven van een AI-systeem dat discrimineert op vrouwen of minderheden en daar een concreet voorbeeld van geven hoe dat in het verleden is gebeurd?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:27:49",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Kijk bijvoorbeeld naar de generatieve AI. Daar zit gewoon superveel bias in die discriminatie in de hand werkt. Dat houdt dus eigenlijk stereotypen gewoon hoog. Het is echt bijzonder kwalijk als je die gaat gebruiken, want dan ga je daar beleid op maken. We moeten heel erg oppassen. AI-systemen in bijvoorbeeld de zorg zijn tot nu toe vooral gemaakt voor mannen van 35 tot 65. Andere groepen worden gewoon vergeten. Dat kan gewoon letterlijk schadelijk zijn. Als het gaat over AI en algoritmen, we kennen hier in dit huis het toeslagenschandaal van haver tot gort, dus ik denk dat ik daar niet veel verder over hoef te zeggen.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:28:36",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:28:40",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Kathmann zegt: we hebben natuurlijk gezien dat er systemen zijn die discriminerend werken, zowel voor de minderheden als voor vrouwen. Nogmaals, kan mevrouw Kathmann één concreet voorbeeld geven van de systemen die er nu zijn, die aantoonbaar discriminerend hebben gewerkt op vrouwen dan wel minderheden?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:28:56",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U bedoelt systemen die nu door de overheid worden toegepast? Ja. Ik heb net aangegeven: kijk naar ChatGPT en stel daar vragen over beroepen en kijk wat daaruit komt. Kijk ook naar AI-systemen die worden toegepast in sociale media en zie hoe mensen letterlijk kapot worden gemaakt online. Kijk ook — ik zei het net al — naar het toeslagenschandaal. Kijk naar wat er bij DUO is gebeurd. Kijk naar bepaalde systemen in de zorg waar AI in zit, wat letterlijk zorgt voor zorgonveiligheid, omdat die gebouwd zijn op een bepaald type lichaam, waardoor minderheden dus gewoon geen goede zorg krijgen. Er zijn dus heel veel systemen waarbij we er echt heel scherp op moeten zijn dat dit risico er is. Ik ben dus heel blij dat de staatssecretaris dit heeft gezegd en dit nogmaals heeft willen aanstippen in dat interview.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:29:51",
+   "spreker": {
+    "id": "35caab67-2b49-4c45-a5c6-af0f110425c7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Queeny Rajkowski",
+    "verslagnaam": "Rajkowski",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil mevrouw Kathmann hierin eigenlijk bijvallen. Natuurlijk heb ik alle vertrouwen in de overheid, die, misschien door wat grotere en kleinere schandalen, wel heeft gezien hoe AI slimmer en verantwoorder moet. Maar dat er heel veel bias in zit, kunnen we met elkaar toch echt niet ontkennen. Het is gewoon garbage in, garbage out, dus als we te weinig weten over vrouwengezondheid of we hebben in het verleden te weinig vrouwelijke leiders gezien, is dat de data waar LLM's mee worden gevoed en is dat het antwoord dat je krijgt. Ik zou tegen de mensen die meeluisteren, willen zeggen: open het LLM-model dat je gebruikt, en vraag even of je een plaatje van een Tweede Kamerlid mag. Laten we kijken wat voor foto daaruit komt.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:30:28",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U vervolgt uw betoog, mevrouw Kathmann, of u geeft uiteraard antwoord.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:30:33",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nou, ik ben het helemaal met mevrouw Rajkowski eens! Zij vroeg of ik dat met haar eens ben en dan zeg ik natuurlijk ja.\nIk zei net \"schiet er een nietje doorheen en voer het uit\", maar de realiteit is natuurlijk weerbarstiger. Honderd procent veilig ben je namelijk nooit, hoe goed je systeem ook in elkaar zit. We moeten op alles voorbereid zijn, de risico's serieus nemen en tegelijkertijd de rust bewaren. In paniek raken is het ergste dat we kunnen doen, want dat is precies wat de landen en de boeven die ons aanvallen, willen bereiken. Bij grootschalige storingen buiten de overheid zijn we voor de crisiscommunicatie nu afhankelijk van bedrijven, organisaties of zelfs vrijwilligers. Denk daarbij aan de aanval op Odido of de IT-storing van Albert Heijn, en aan de PHP-kwetsbaarheid waardoor onlangs talloze websites offline gingen.\nPRO vindt dat het kabinet op moet staan. Voor veel mensen bestaat de scheiding tussen private nationale infrastructuur en de overheid helemaal niet. Als de systemen van grote bedrijven op zwart gaan, raakt dat ons veiligheidsgevoel, en dat is precies het doel van zulke aanvallen: de boel ontregelen en onrust zaaien. Die bewuste strategie moet je ontmantelen. Het is terecht dat mensen voor antwoorden naar de politiek kijken. Je mag van je regering ook wel verwachten dat er iemand met bestuurlijke verantwoordelijkheid is om je vragen te beantwoorden. Ik roep het kabinet op tot het volgende. Neem verantwoordelijkheid als er een storing is die ons hele land raakt, ook als dit bij een bedrijf gebeurt. Doe dat niet voor de gebeurtenis zelf, maar juist voor het proces erna. Communiceer direct met Nederland over de situatie en vertel wat mensen zelf kunnen doen. Wijs één bewindspersoon aan die deze taak op zich neemt.\nEr zijn een paar hele duidelijke stappen die we kunnen zetten om ons land veiliger te maken. Die hebben alles te maken met infrastructuur. De politiek kijkt eindelijk om naar de bruggen en wegen die piepen en kraken. Daar moet wat aan gebeuren, maar in diezelfde adem moeten we ook de zeekabels noemen. Eerder dit jaar is er een meerderheid gekomen voor een amendement van PRO, Volt en JA21 om 18 miljoen euro te gebruikten voor zeekabelonderzoek. Vooralsnog blijft het daar ook bij, en dat is jammer. Deze Kamer pleit er namelijk juist voor dat we publiek gaan investeren in dit soort infrastructuur. Als Nederland vasthoudt aan het marktdenken, waardoor al jarenlang geen nieuwe kabel is aangelegd, raken we onze positie kwijt. Dat nekt onze economie en onze veiligheid.\nIk wil het volgende weten. De komende jaren moeten vier zeekabels worden uitgefaseerd. Wat is het plan van dit kabinet qua vervanging? Kan het kabinet garanderen dat er geen kabels worden uitgefaseerd zonder dat er iets nieuws voor terugkomt? Hoeveel geld is daarvoor beschikbaar? Zegt het kabinet toe dat er in de Voorjaarsnota extra geld komt voor digitale infrastructuur? Op welke manier hebben deze bewindspersonen contact met hun collega's van Infrastructuur en Defensie om samen de portemonnee te kunnen trekken?\nDe rijkscloud is ook zo'n voorbeeld. Een meerderheid van de Kamer steunde mijn motie voor een rijkscloud, maar ook hiervoor geldt dat niemand die uit de lucht gaat toveren. We zullen een opdracht moeten uitzetten om echt iets te bouwen. Het is heel terecht dat gemeenten, provincies en waterschappen een oproep hebben gedaan: kabinet, investeer 40 miljoen euro in een rijkscloud. Ik vraag daarom: hoe kijkt het kabinet naar die oproep van de gemeenten, provincies en waterschappen om eenmalig 40 miljoen euro in de rijkscloud te steken? Is de regering bereid om hiervoor in de Voorjaarsnota een voorstel uit te werken?\nPRO vraagt er al jaren om dat de Rijksoverheid marktmeester wordt. Onze ministeries en uitvoeringsorganisaties zijn grootverbruiker van ICT. Als we de juiste spullen inkopen, kunnen we nieuwe markten creëren en het oneerlijke voordeel van grote techbedrijven beteugelen. We mogen van de overheid meer verwachten dan alleen het allergoedkoopste spul in huis halen. Laten we kiezen voor technologie die gebouwd is op onze waarden, die onze privacy beschermt en die ons onafhankelijk maakt van internationale grootmachten. Zoiets kan klein beginnen. Eerder stelde ik al voor om het ministerie van Algemene Zaken in ieder geval uit het ecosysteem van Amerikaanse bedrijven te rukken, maar misschien kunnen we het nog concreter maken. Daarvoor kijk ik naar de staatssecretaris van Digitale Soevereiniteit. Draait haar eigen afdeling eigenlijk al op soevereine software? Zo nee, waarom eigenlijk niet? Is zij in dat geval bereid om haar afdeling op autonome alternatieven over te zetten, om ervaringen op te doen die de rest van de overheid ook kunnen helpen?\nIk vraag dit terwijl de volgende fuik alweer op ons af dendert: het gebruik van AI. Naast de staatssecretaris van Digitale Soevereiniteit zit namelijk de staatssecretaris Slagvaardige Overheid. Dat klinkt natuurlijk als muziek in de oren, want wie wil er geen slagvaardige overheid? Wat we alleen te allen tijde moeten voorkomen, is dat AI hier als een paard van Troje naar binnen wordt gereden. AI als tovermiddel. Daar wordt dan tijdens de Algemene Politieke Beschouwingen door coalitiepartijen bij geroepen dat we vooral niet de tijd moeten nemen om een plan te maken. Je hebt geen glazen bol nodig om te voorspellen dat dat een mislukking wordt. Als dat je aanpak wordt, heb je daarna honderd plannen nodig om de schade te repareren.\nEr wordt ondoordacht naar AI gegrepen. Daarom heb ik heel veel vragen. Wat voor AI kopen we dan precies? Waar hebben we het over als we het over AI hebben? Het is namelijk nogal een containerbegrip. Hoe duur is deze operatie? Welke kaders stellen we aan de uitgaven? Van wie zijn de AI-modellen? Ja, er liggen kansen. Hebben we die geïnventariseerd? Krijgt die AI voorrang? Denk aan AI waarmee je systemen kunt verbeteren of minder energie kunt verbruiken. Komt er een afwegingskader voor het gebruik van AI, zoals in andere EU-landen? Wanneer gebruiken we het wel en wanneer niet?\nEerder bleek uit een Rekenkamerrapport dat we totaal niet monitoren welke problemen we met AI oplossen, en dus al helemaal niet welke doelen we halen, en dat de risicoanalyses niet op orde zijn. Wanneer krijgen we van wie een dashboard waarmee we die doelen en risicoanalyses kunnen monitoren? Wie is er verantwoordelijk als de AI van de overheid een fout maakt? Hoe maakt het gebruiken van die AI onze overheid onafhankelijk van andere landen? Waar gaat de Rijksoverheid nou absoluut géén AI voor gebruiken? PRO voorspelt dat AI de volgende gigantische afhankelijkheid wordt, zoals de cloud dat nu is, en dat is kwalijk. Gelukkig is er nu nog de tijd om dat te voorkomen, maar ook hierbij snap ik niet wie ik moet aankijken: de staatssecretaris die de vangrails en de autogordels voor AI moet leveren, of de staatssecretaris die AI wil gebruiken voor efficiëntie? Ik hoor in de termijn van het kabinet wel wie er gaat antwoorden.\nAls overheid moeten we gewoon een keer het goede voorbeeld geven, en dat is veel te vaak niet gebeurd. Digitalisering werkt doorgaans in het voordeel van de macht. Denk aan het algoritmisch profileren van mensen of het automatiseren van mensenwerk. Dat zijn dingen die op voorhand geld lijken te besparen, maar die de afstand tussen overheid en burgers dusdanig vergroten dat schandalen op de loer liggen. PRO is niet vergeten wat er in het toeslagenschandaal gebeurd is. Mensenlevens zijn kapotgemaakt. Denk ook aan de doorgeslagen profilering van DUO bij studenten met een migratieachtergrond of de tig andere voorbeelden waarin algoritmes discriminatie in de hand werken. Daarom pleit ik voor privacybescherming. Bedrijven en de overheid moeten niet alles van ons weten als dat niet nodig is, want dat zorgt voor een oneerlijke machtsverhouding en, met alle hacks en lekken, voor onveiligheid.\nPrivacy is de allerbeste onlineveiligheidsgarantie die je als burger kunt krijgen. Toch is er een trend gaande in voorgestelde wet- en regelgeving die dit principe zwaar ondermijnt, alsof privacy in de weg staat van veiligheid. Dat is eigenlijk de omgekeerde wereld. Ook met verdere uitrol van AI komen digitale grondrechten onder druk te staan. Ondertussen bouwen geopolitieke spanningen zich op en wordt er snel gekeken naar extra instrumenten waardoor de privacy weer verder onder druk komt te staan. Vaak breken we onbewust de rechtsstaat verder af vanuit het doel om die te beschermen.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:37:34",
+   "spreker": {
+    "id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jantine Zwinkels",
+    "verslagnaam": "Zwinkels",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil graag even reageren op het betoog ten aanzien van het toepassen van AI binnen de overheid. Het CDA heeft ook wel wat zorgen daarbij. Wij vinden dat je de overheid niet moet runnen als een bedrijf, zeg ik tegen mevrouw Kathmann. Ik denk dat we elkaar daar wel in kunnen vinden. Tegelijkertijd moeten we misschien niet nu al, aan de voorkant, roepen dat het ondoordacht zou zijn. Ik ben juist benieuwd naar alle plannen die gaan komen en de afwegingen die we daarin zelf al kunnen meegeven. Ik zou mevrouw Kathmann willen vragen om hier niet twintigduizend vragen af te vuren en dan te roepen dat het ondoordacht is, maar om juist met eigen voorstellen te komen en zich af te vragen hoe we dit met elkaar wel op een verantwoorde manier zouden kunnen doen binnen de overheid. Is mevrouw Kathmann dat met mij eens? Anders vind ik het stellen van zo veel vragen ook een beetje ondoordacht.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:38:12",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik weet eigenlijk niet wat nou de vraag was.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:38:20",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Of u wat minder vragen …",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:38:21",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar ik denk dat ik wel tot een soort antwoord kan komen. Ik refereer eraan dat het zonder plan is, omdat bij de Algemene Politieke Beschouwingen bij het indienen van een motie door een van de fractievoorzitters van een coalitiepartij expliciet is gezegd dat we dit vooral heel snel zonder plan moeten doen, omdat we geen tijd te verliezen hebben. Nou, ik vind het nogal ondoordacht als je op die manier aan de slag wilt gaan, omdat we echt nog wel op het niveau zitten dat er nog een heel vragen zijn. Dat hebben we ook met elkaar gewisseld bij een eerder debat over de digitaliserende overheid. Over welke AI hebben we het eigenlijk? Er is namelijk ongelofelijk veel AI te bedenken die ongelofelijk goed kan helpen bij het functioneren van de overheid, maar er is ook heel veel AI te bedenken, waarbij je misschien wel de bijsluiter moet leveren: gebruik dit gewoon niet!\nAl die politieke vragen hebben we nog niet beantwoord, maar er wordt wel al gesproken over een soort grootscheepse uitrol. We weten helemaal niet hoe we alle ambtenaren kunnen opleiden en voldoende skills kunnen geven om hier goed mee om te gaan. Bij mij gingen dus alle alarmbellen af toen de oproep aan het kabinet was om dit vooral heel snel, ondoordacht, zonder plan te doen, omdat we geen tijd te verliezen hebben. Ja, dat wekt zorgen op bij mij. Ik vind het heel terecht en niet raar dat ik daar dan honderd vragen over heb. Ik heb zelfs dertig vragen geschrapt, gezien de tijd, en ik heb bovendien een aantal schriftelijke vragen gesteld om tijd te besparen.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:39:47",
+   "spreker": {
+    "id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jantine Zwinkels",
+    "verslagnaam": "Zwinkels",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Natuurlijk moeten we dit aan de voorkant goed inregelen met elkaar. We moeten zorgen voor vangrails et cetera. Daar kan ik me samen met mevrouw Kathmann goed in vinden. Mijn punt is vooral dat we inderdaad een nuance gaan aanbrengen: hoe en waar binnen de overheid gaan we het waarvoor toepassen? Daar zou ik juist veel meer een gesprek over willen. Ik denk juist dat de eerder ingediende motie een heel grote kans biedt om dat met elkaar te gaan doen de komende tijd. Dat is mijn pleidooi. Ik zal daar in mijn eigen inbreng ook op ingaan. Ik hoop toch echt dat de Kamer daarin kan sturen. Ik denk dat we veel beter kunnen sturen op het komen met voorstellen die hier echt invulling aan geven, dan continu roepen dat er te weinig geld is. Op die manier weten we bijvoorbeeld ook waar we het beperkte geld dat we hebben, in gaan investeren. Ik denk dat er binnen de overheid heel veel budgetten beschikbaar zijn. Die moeten we gaan bundelen en samenbrengen. Het CDA zou het bijvoorbeeld ook heel mooi vinden als er een beschermde AI-omgeving komt, waarmee ambtenaren in de toekomst heel goed zouden kunnen gaan werken. Er zijn een aantal ambtenaren die al heel goed met AI werken en dat levert de overheid inderdaad al heel veel winst op.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:40:55",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Kathmann, wilt u een reactie daarop geven? Anders heeft u nog een interruptie van de heer Van den Berg.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:40:58",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het gaat erom dat we dat gesprek juist heel goed moeten voeren. Daar ben ik het helemaal mee eens. Het is nu echter heel moeilijk om dat te doen, omdat het weer volledig versnipperd plaatsvindt. Het debat over de slagvaardige overheid is al geweest, maar dat was niet met de commissie Digitale Zaken. Dat was een rondetafelgesprek over de slagvaardige overheid, waarvoor de commissie Binnenlandse Zaken aan zet is. Dat snap ik allemaal, maar wanneer bespreek je nou wat? Welke AI-strategie hoort dan in het plan voor de slagvaardige overheid? Zoals ik al in het begin van mijn inbreng heb gezegd, is er bij mij hele grote behoefte aan coördinatie en regie. Zo wordt dit gesprek goed gevoerd en niet aan honderd verschillende tafels met honderd verschillende budgetten die niet bij elkaar komen, maar juist vanuit regie en coördinatie. Zo weet iedereen wat er wanneer en waar gebeurt, met tijdlijnen, investeringsagenda's en noem het allemaal maar op. Op die manier kunnen wij het zowel technisch als op kansen en uitdagingen veel beter controleren. Dat kan nu gewoon niet.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:42:12",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot op dit punt, mevrouw Zwinkels.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:42:17",
+   "spreker": {
+    "id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jantine Zwinkels",
+    "verslagnaam": "Zwinkels",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dit is inderdaad mijn laatste interruptie op dit punt. Die oproep ten aanzien van coördinatie en regie deel ik van harte. Als ik vind dat die ontbreken, zal ik me ook altijd kritisch opstellen. Die versnippering zie ik ook. Tegelijkertijd ben ik wel benieuwd of we vandaag — we hebben vandaag een hele lange dag voor dit WGO — gaan gebruiken om continu te zeggen dat dat niet op orde is. Gaan we daar continu op ingrijpen en daardoor de inhoudelijke discussie niet voeren in de commissie Digitale Zaken? Dan zul je zien dat die inhoudelijke discussie wel gevoerd gaat worden in andere commissies, zoals de commissies voor Binnenlandse Zaken of Economische Zaken. Dat is juist waar ik van weg wil blijven. Ik wil ervoor zorgen dat we dit hier met elkaar bespreken, dus ja, coördinatie en regie zijn heel erg belangrijk. Wat ons betreft heeft het kabinet daarin een hele grote opdracht. We moeten daar kritische vragen over stellen, maar laten we ervoor zorgen dat de balans ook zo uitslaat dat de inhoudelijke afwegingen hier daadwerkelijk een plek krijgen. Ik daag mevrouw Kathmann uit om ook daar ruimte voor te laten in haar betoog.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:43:14",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik weet eigenlijk niet zo goed wat ik moet zeggen, want ik ben een beetje perplex. In mijn bijdrage ga ik hier nog op in, maar in principe gaat er geen dag voorbij zonder dat Progressief Nederland voorstellen doet op dit terrein, concrete voorstellen die de boel beter maken. Sterker nog, er zijn heel veel voorstellen met hele grote Kamermeerderheden aangenomen. Sterker nog, we krijgen elke maand wel weer een brief waarin staat dat die toch niet uitgevoerd gaan worden. Dat is nou precies mijn punt. Als iemand serieus Progressief Nederland op dit terrein de maat gaat nemen en zegt dat we met wat meer voorstellen moeten komen, die vervolgens door dit kabinet niet worden uitgevoerd, terwijl ze wel met meerderheden worden aangenomen, dan weet ik het ook niet meer.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:44:02",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ga mevrouw Zwinkels hier toch bijvallen, want ik hoor PRO inderdaad ook continu vragen stellen en moties indienen — mevrouw Kathmann heeft het over \"voorstellen\" — met allerlei wilde ideeën. Maar een motie is natuurlijk echt iets wezenlijk anders dan een voorstel. Dan is de vraag: waarom heeft PRO in het verleden bijvoorbeeld geen initiatiefwetsvoorstellen ingediend? Dat zijn concrete dingen die als er een meerderheid is, omgezet kunnen worden in wetgeving, zodat het ook echt gaat gebeuren. Waarom elke keer naar het kabinet wijzen als je zelf de regie kan pakken?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:44:35",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik denk dat JA21 dan echt beter z'n huiswerk moet doen. U kunt zelf gaan kijken in de archieven naar de initiatiefnota's, wetsvoorstellen en voorstellen die door PRO zijn ingediend. Ik noem bijvoorbeeld het voorstel voor een rijkscloud of een initiatiefnota op het gebied van de gehele digitale overheid, die we, volgens mij, met meer dan 80 zetels hebben ingediend. Ik noem mijn wetsvoorstel over sociale media en algoritmen. Maar ook ten aanzien hiervan vraag ik: maak nou een afwegingskader voor het gebruik van AI bij de overheid.\nMijn punt vandaag is juist dat er de afgelopen jaren met hele grote meerderheden heel veel concrete voorstellen zijn gedaan, niet alleen door PRO, maar ook door andere partijen, of door andere partijen in gezamenlijkheid, met elkaar. We hebben duidelijk gedacht: laten we de krachten bundelen, het heel concreet maken en niet het onmogelijke vragen, zodat we stappen kunnen zetten. Al die initiatieven zijn aangenomen, met hele brede meerderheden, soms unaniem, soms met maar één of twee partijen die tegenstemden, maar we krijgen nu eigenlijk alleen maar brieven waarin staat dat we het niet gaan doen. Dat is het grote probleem: we worden teruggeslingerd in de tijd en zitten vast, ook omdat er gewoon geen geld voor is uitgetrokken, niet voor de plannen die uit de Kamer komen en niet voor de plannen die het kabinet idealiter zelf ook zou willen uitvoeren. Er staat hierover een hele uitgebreide paragraaf in het coalitieakkoord. Daarin worden alle risico's beschreven, maar er wordt nul euro uitgetrokken om die risico's te tackelen.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:46:18",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot, op dit punt.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:46:27",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Soms geldt: hoe langer het antwoord, des te minder inhoud. Er zijn allerlei ideeën van PRO, maar die zijn gewoon niet met elkaar te rijmen. Enerzijds is PRO tegen datacenters; anderzijds lopen jullie continu te blèren — ik zeg het even zo, heel specifiek — om …",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:46:38",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Via de voorzitter, alstublieft.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:46:39",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké. Anderzijds lopen ze te roepen om een soevereine cloud en meer autonomie. Als je meer dingen hier in Nederland wilt doen, met Europese bedrijven, om van de techbro's in de Verenigde Staten af te komen, moet je ook investeren in datacenters. Neem bijvoorbeeld DigiD. Er zijn voorstellen om overname tegen te gaan, maar een aanpassing van de Aanbestedingswet aan de voorkant om het voor eeuwig en altijd te tackelen, zie ik niet. Wat is nou de visie van PRO om echt ergens te komen, waarbij de dingen met elkaar in balans zijn? Nu worden er alleen maar vragen gesteld en moties ingediend. Zo komen we nergens.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:47:15",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er wordt hier een soort van ... Nou, ik weet het niet. De werkelijkheid wordt hier in ieder geval geen recht gedaan. Ik zou JA21 er nogmaals toe willen oproepen om de archieven in te duiken en te kijken hoeveel concrete voorstellen er liggen. PRO staat vooral voor meer grip, meer regie en het veel meer kunnen sturen op onze digitale infrastructuur. Dat vraagt om meer publieke investeringen. Dat vraagt niet om het ergens tegen zijn, maar het vraagt erom dat je ervoor bent dat niet alles wat wij van waarde vinden en wat we eigenlijk hier in democratische meerderheden hebben afgesproken met elkaar, wat we belangrijk vinden, ondermijnt wordt.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:47:44",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. U vervolgt uw betoog. O, er is nog een interruptie van de heer Van den Berg. Echt heel kort, want u heeft een hoop interrupties, meneer Van den Berg. Echt tot slot.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:47:53",
+   "spreker": {
+    "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Daniël Van den Berg",
+    "verslagnaam": "Van den Berg",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Sorry, voorzitter. Ik ga niet over de lengte van de antwoorden, maar heel kort. Als we nou gaan voor een soevereine cloud en Nederlandse bedrijven die afhankelijkheid moeten verminderen, gaat mevrouw Kathmann dan ook voor datacenters in Nederland, zodat we dat echt kunnen ondersteunen? Ja of nee?",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:48:11",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Als wij daar publiek grip op hebben en kunnen sturen op wat het is, waar het staat, of het ons goeddoet, of het ons recht doet, of het klopt in de vergunningverlening, of niet alles aan de laars wordt gelapt en of het helpt om Nederland digitaal sterker te maken, ja, dan natuurlijk wel. Maar Progressief Nederland is niet voor hyperscalers die ongebreideld via smerige trucjes kleine datacenters laten bouwen zodat het toch weer één grote wordt.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:48:35",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U vervolgt uw betoog.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-09T10:48:37",
+   "spreker": {
+    "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Barbara Kathmann",
+    "verslagnaam": "Kathmann",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik had het over iets heel belangrijks, want in de wet- en regelgeving die nu wordt voorgesteld breken we vaak onbewust de rechtsstaat verder af, terwijl het doel eigenlijk is om die te beschermen. Ik kijk hiervoor ook vooral de minister van Justitie en Veiligheid aan, omdat ik het echt zaak vind dat wij daarover goed met elkaar in gesprek komen. Wie voelt zich nou eigenlijk verantwoordelijk om dat gesprek goed te voeren? Het gaat dan om aantasting van digitale grondrechten en het spannende vaarwater waar we soms in zitten, waardoor we het gevoel hebben dat we in heel veel wet- en regelgeving denken dat we de privacy van mensen moeten inperken. Vaak zien we niet goed dat we door een soort bodem aan het zaken zijn, terwijl we met elkaar wel hebben afgesproken dat we dat niet willen. Zelf zit ik te denken aan: moet er een soort — ik weet het niet — digitalegrondrechtentoets komen? Dat is het misschien ook niet, want je moet niet altijd meer willen optuigen, maar ik heb wel sterke behoefte aan het beter met elkaar aangaan van dat gesprek, zeker met het oog op alle wet- en regelgeving die op dit terrein op ons afkomt.\nTot slot wil ik me richten op een aantal herstelwerkzaamheden. Nederland boft met tal van organisaties en bedrijven die timmeren aan onze cyberveiligheid. Van deze initiatieven moeten we het namelijk hebben. Met een beperkte subsidie kunnen ze hun goede werk vaak voortzetten. Mijn teleurstelling was dan ook eigenlijk best wel gigantisch toen ik zag dat voor de zoveelste keer op rij Offlimits zou worden gekort op de begroting van Justitie en Veiligheid. Hoe vaak moeten we dit gesprek nog hebben? Hoe vaak moet de Kamer — dit keer is het D66 — nog een amendement indienen om dit te repareren? Ik wil van de minister horen waarom hij, na zijn eerdere toezegging om de korting niet meer in te boeken, alweer denkt dat een bezuiniging op Offlimits rechtvaardig is? Deze mensen begeleiden de slachtoffers van onlinekindermisbruik, ze voorkomen daders en slachtoffers en ze hebben cruciale kennis in huis. Daarom vraag ik met klem het volgende. Kan de minister toezeggen dat het echt de laatste keer is dat deze bezuiniging wordt voorgesteld? Is hij bereid om met een serieus en langjarig voorstel te komen waarin de subsidie meegroeit met het aantal meldingen, en dit bij de Voorjaarsnota recht te zetten?\nHetzelfde gevoel heb ik bij de makers van lespakketten voor kinderen, zoals een organisatie als HackShield — maar er zijn er meer — ondanks dat ze taken uitvoeren voor onze cyberveiligheid en een gigantisch bereik hebben. De Kamer nam eerder dit jaar mijn motie aan om dit soort organisaties, die direct bijdragen aan de onlineveiligheid van kinderen, te voorzien van publieke financiering. Zover ik weet, is dat nog steeds niet gebeurd, terwijl de tijd dringt. Volgens mij was dit expliciet in een debat met de minister van Justitie en Veiligheid, dus kan er worden toegezegd dat er nog voor het debat Sociale media en kinderrechten in december de zekerheid is dat deze organisaties op een vorm van publieke financiering kunnen rekenen? Hoe kijkt het kabinet naar een structurele vorm van financiering voor dit soort initiatieven? Welke financieringsvorm is er te vinden waarin verschillende ministeries vanuit hun verschillende verantwoordelijkheden een stukje kunnen meebetalen?\nDan is er nog internet.nl: een openbare tool waarmee elk bedrijf en elke burger kan controleren hoe veilig websites en mailadressen zijn. Het is een goede manier om ons scherp te houden. Scoor je slecht op internet.nl? Dan is er werk aan de winkel. In de brief van begin oktober, over de subsidies van ECP, zie ik dat deze website dreigt te sneuvelen. Dat kan toch niet de bedoeling zijn? Daarom heb ik een paar laatste vragen. Wat zijn de gevolgen van het stopzetten van deze subsidie? Is het kabinet bereid om de financiering van internet.nl voort te zetten, in welke vorm dan ook? Hoe groot is de bijdrage nu? En waarom kunnen we die niet behouden? Ik kijk uit naar de beantwoording.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-09T10:52:20",
+   "spreker": {
+    "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+    "soort": "Tweede Kamerlid",
+    "naam": "Emiel van Dijk",
+    "verslagnaam": "Emiel van Dijk",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, mevrouw Kathmann. Dan is nu het woord aan mevrouw El Boujdaini van D66 voor haar inbreng in de eerste termijn.",
+   "deel": 1
+  }
+ ],
+ "deel": {
+  "nummer": 1,
+  "van": 8,
+  "fase": "Inbreng van de Kamer",
+  "sprekers": "Kathmann",
+  "ouder_id": "a0c6e833-9da5-4dfd-aeac-af857bbd4096",
+  "ouder_titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+  "woorden_totaal": 67298
+ }
+}
