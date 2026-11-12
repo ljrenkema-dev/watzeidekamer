@@ -45,7 +45,8 @@ Gebruik de uitkomst van `evenwicht.py` als startpunt, niet als oordeel:
 ## Wat je mag doen
 - **Teksten verbeteren** (`tekst`, `titel`, `samenvatting`, `standpunt`, `kernpunten`, `woorden`) zodat ze precies kloppen.
 - **Een vak vervangen** door een beter vak (ander citaat van een ondervertegenwoordigde partij), mits het citaat letterlijk uit de bron komt en de vakken in de volgorde van het debat blijven.
-- **Nooit** een citaat aanpassen om het "kloppend" te maken, en nooit `scripts/check.py` wijzigen.
+- **Een citaat verlengen of vervangen** door een ander letterlijk stuk uit dezelfde spreekbeurt mag, bijvoorbeeld om een weggevallen voorwaarde ("als die wet sneuvelt") terug te halen. Geen woord in een citaat mag anders zijn dan in de bron.
+- **Nooit** een citaat herschrijven om het "kloppend" te maken, en nooit `scripts/check.py` wijzigen.
 - Is de strip niet te redden (bijvoorbeeld omdat het agendapunt verkeerd is opgeknipt of de bron onvolledig is): zet `"ingetrokken": true` en een korte `"reden"` in het stripbestand. Dan publiceert `build.py` hem niet.
 
 Draai na je wijzigingen opnieuw `check.py` en `evenwicht.py`.
