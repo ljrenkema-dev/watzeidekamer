@@ -6,7 +6,7 @@
     "makkelijk": "Vijf partijen over Gaza, Israël, Oekraïne en Insiya"
   },
   "samenvatting": {
-    "normaal": "In dit deel van het debat over de begroting van Buitenlandse Zaken voor 2027, op 11 november 2026, geven Stoffer (SGP), Teunissen (PvdD), Ceder (ChristenUnie), Dobbe (SP) en Van der Plas (BBB) hun inbreng. Stoffer vraagt wat de minister doet om het vertrouwen van Israël te herwinnen; Teunissen vindt dat Nederland veel meer kan en moet doen om een einde te maken aan wat zij de genocide in Gaza noemt. Ceder wil met een amendement meer inzet op verzoeningsprojecten tussen Israëli's en Palestijnen. Dobbe vraagt het kabinet om in Europa het initiatief te nemen voor vredesonderhandelingen tussen Oekraïne en Rusland, en Van der Plas vraagt waarom het ontvoerde meisje Insiya nog steeds niet terug is uit India. Daarna is er volgens de voorzitter voldoende steun voor zijn voorstel om de minister dezelfde avond vanaf 18.30 uur te laten antwoorden.",
+    "normaal": "In dit deel van het debat over de begroting van Buitenlandse Zaken voor 2027, op 11 november 2026, geven Stoffer (SGP), Teunissen (PvdD), Ceder (ChristenUnie), Dobbe (SP) en Van der Plas (BBB) hun inbreng. Stoffer vraagt wat de minister doet om het vertrouwen van Israël te herwinnen; Teunissen vindt dat Nederland veel meer kan en moet doen om een einde te maken aan wat zij de genocide in Gaza noemt. Ceder wil met een amendement meer inzet op verzoeningsprojecten tussen Israëli's en Palestijnen. Dobbe vraagt of het kabinet nu in Europa het initiatief wil nemen voor vredesonderhandelingen tussen Oekraïne en Rusland, en Van der Plas vraagt waarom het ontvoerde meisje Insiya nog steeds niet terug is uit India. Daarna is er volgens de voorzitter voldoende steun voor zijn voorstel om de minister dezelfde avond vanaf 18.30 uur te laten antwoorden.",
     "makkelijk": "Dit is een deel van het debat over het geld voor Buitenlandse Zaken. Het debat was op 11 november 2026. Vijf partijen stellen vragen aan de minister. Het gaat over Israël, Gaza, Oekraïne en het ontvoerde meisje Insiya. De voorzitter stelt voor dat de minister die avond om 18.30 uur antwoordt. Daar is genoeg steun voor."
   },
   "sprekers": [
@@ -42,14 +42,14 @@
       "id": "b5363002-d06e-4813-9c05-86fe74185a56",
       "standpunt": {
         "normaal": "Dobbe vindt dat het kabinet te weinig doet om wat zij de genocide in Gaza noemt te stoppen, en vraagt of het kabinet nu in Europa het initiatief wil nemen voor vredesonderhandelingen tussen Oekraïne en Rusland. Ze vindt 193 miljoen euro tegen energiearmoede in Nederland veel te weinig; militaire steun aan Oekraïne heeft de SP volgens haar altijd gesteund.",
-        "makkelijk": "Dobbe (SP) vindt dat het kabinet te weinig doet tegen wat zij genocide in Gaza noemt. Zij wil dat het kabinet in Europa het initiatief neemt voor vredesgesprekken over Oekraïne. De hulp tegen energiearmoede in Nederland vindt zij veel te weinig."
+        "makkelijk": "Dobbe (SP) vindt dat het kabinet te weinig doet tegen wat zij genocide in Gaza noemt. Zij wil dat het kabinet in Europa het initiatief neemt voor vredesgesprekken over Oekraïne. De hulp tegen energiearmoede in Nederland vindt zij veel te weinig. De SP steunt militaire hulp aan Oekraïne."
       }
     },
     {
       "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
       "standpunt": {
-        "normaal": "Van der Plas vraagt waarom het meisje Insiya, dat op 2-jarige leeftijd door haar vader naar India is ontvoerd, nog steeds niet terug is, terwijl de Nederlandse rechter haar moeder als enige het gezag gaf. Ze vraagt of het kabinet India formeel om uitlevering van de vader heeft gevraagd en kondigt een motie aan voor meer druk; ook staat BBB volgens haar heel kritisch tegenover de 1,2 miljard euro voor Oekraïne.",
-        "makkelijk": "Van der Plas (BBB) wil dat het ontvoerde meisje Insiya terugkomt uit India. Zij gaat een motie indienen voor meer druk. Ze is ook heel kritisch over 1,2 miljard euro voor Oekraïne."
+        "normaal": "Van der Plas vraagt waarom het meisje Insiya, dat op 2-jarige leeftijd door haar vader naar India is ontvoerd, nog steeds niet terug is, terwijl de Nederlandse rechter haar moeder als enige het gezag gaf. Ze vraagt of het kabinet India formeel om uitlevering van de vader heeft gevraagd en kondigt een motie aan voor meer druk. Ook staat BBB volgens haar heel kritisch tegenover de 1,2 miljard euro niet-militaire steun aan Oekraïne; dat je daarmee zou willen dat Poetin hier de grens over loopt, noemt ze onzin.",
+        "makkelijk": "Van der Plas (BBB) wil dat het ontvoerde meisje Insiya terugkomt uit India. Zij gaat een motie indienen voor meer druk. Ze is ook heel kritisch over 1,2 miljard euro hulp aan Oekraïne. Dat betekent niet dat ze wil dat Poetin hier binnenvalt, zegt ze."
       }
     },
     {
@@ -177,8 +177,8 @@
       "emotie": "bezorgd",
       "citaat": "Dit kabinet zegt 1,2 miljard euro niet-militaire steun toe aan Oekraïne om de winter door te komen, aan mensen in nood. Natuurlijk moeten we mensen in nood helpen om de winter door te komen, maar in Nederland leeft nu ongeveer een half miljoen mensen in energiearmoede … Wat maakt het kabinet voor hen vrij? 193 miljoen euro. Dat is veel te weinig.",
       "tekst": {
-        "normaal": "Oekraïne krijgt 1,2 miljard niet-militaire wintersteun toegezegd. Natuurlijk, maar 193 miljoen tegen energiearmoede hier is veel te weinig.",
-        "makkelijk": "Oekraïne krijgt 1,2 miljard voor de winter. Natuurlijk. Maar 193 miljoen hier is veel te weinig."
+        "normaal": "Oekraïne krijgt 1,2 miljard wintersteun. Natuurlijk moeten we helpen. Maar 193 miljoen tegen energiearmoede hier: veel te weinig.",
+        "makkelijk": "Oekraïne helpen moet natuurlijk. Maar 193 miljoen tegen energiearmoede hier is veel te weinig."
       }
     },
     {

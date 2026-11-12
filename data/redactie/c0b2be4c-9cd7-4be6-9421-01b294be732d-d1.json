@@ -169,7 +169,7 @@
       }
     ]
   },
-  "onafhankelijk": false,
+  "onafhankelijk": true,
   "onafhankelijke_eerste_lezing": {
     "datum": "2026-11-12",
     "oordeel": "aangepast",
@@ -255,6 +255,75 @@
         "oud": "Ze is ook kritisch over 1,2 miljard euro voor Oekraïne.",
         "nieuw": "Ze is ook heel kritisch over 1,2 miljard euro voor Oekraïne.",
         "waarom": "Zij zegt 'heel kritisch', zoals ook in de normale versie staat."
+      }
+    ]
+  },
+  "onafhankelijke_tweede_lezing": {
+    "datum": "2026-11-12",
+    "opmerking": "Onafhankelijke tweede lezing door een nieuwe agent die de strip niet schreef en de eerste lezing niet deed. Alle negen wijzigingen van de onafhankelijke eerste lezing nagelopen tegen de bron; daarna de hele checklist. check.py: OK, geen waarschuwingen.",
+    "bevindingen": [
+      {
+        "waar": "vak 6 normaal (wijziging eerste lezing)",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "Oekraïne krijgt 1,2 miljard niet-militaire wintersteun toegezegd. Natuurlijk, maar 193 miljoen tegen energiearmoede hier is veel te weinig.",
+        "nieuw": "Oekraïne krijgt 1,2 miljard wintersteun. Natuurlijk moeten we helpen. Maar 193 miljoen tegen energiearmoede hier: veel te weinig.",
+        "waarom": "Van de nuancering 'Natuurlijk moeten we mensen in nood helpen' bleef alleen 'Natuurlijk,' over; dat is dubbelzinnig en kan als spot gelezen worden. 'wintersteun' (Dobbes eigen woord) houdt het niet-militaire karakter vast binnen 18 woorden."
+      },
+      {
+        "waar": "vak 6 makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "Oekraïne krijgt 1,2 miljard voor de winter. Natuurlijk. Maar 193 miljoen hier is veel te weinig.",
+        "nieuw": "Oekraïne helpen moet natuurlijk. Maar 193 miljoen tegen energiearmoede hier is veel te weinig.",
+        "waarom": "'193 miljoen hier' zei niet waarvoor ('energiearmoede'), en het losse 'Natuurlijk.' gaf 'moeten we mensen in nood helpen' niet weer; het bedrag van 1,2 miljard staat in het citaat en de normale ballon."
+      },
+      {
+        "waar": "standpunt Van der Plas normaal en makkelijk",
+        "soort": "neutraliteit",
+        "ernst": "middel",
+        "les": "L9",
+        "oud": "ook staat BBB volgens haar heel kritisch tegenover de 1,2 miljard euro voor Oekraïne. / Ze is ook heel kritisch over 1,2 miljard euro voor Oekraïne.",
+        "nieuw": "Ook staat BBB volgens haar heel kritisch tegenover de 1,2 miljard euro niet-militaire steun aan Oekraïne; dat je daarmee zou willen dat Poetin hier de grens over loopt, noemt ze onzin. / Ze is ook heel kritisch over 1,2 miljard euro hulp aan Oekraïne. Dat betekent niet dat ze wil dat Poetin hier binnenvalt, zegt ze.",
+        "waarom": "Ze reageert op Dobbes 'niet-militaire steun' en zegt er direct bij dat het idee dat je dan wilt 'dat Poetin hier de grens over loopt' 'volstrekte onzin' is; zonder die kant leek BBB tegen alle steun aan Oekraïne."
+      },
+      {
+        "waar": "standpunt Dobbe makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "(zonder militaire steun)",
+        "nieuw": "+ De SP steunt militaire hulp aan Oekraïne.",
+        "waarom": "De normale versie noemt dat de SP 'militaire steun voor Oekraïne altijd gesteund' heeft, de makkelijke niet; zonder dat lijkt de SP tegen steun aan Oekraïne."
+      },
+      {
+        "waar": "samenvatting normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L5",
+        "oud": "Dobbe vraagt het kabinet om in Europa het initiatief te nemen voor vredesonderhandelingen",
+        "nieuw": "Dobbe vraagt of het kabinet nu in Europa het initiatief wil nemen voor vredesonderhandelingen",
+        "waarom": "Ze stelt een vraag: 'Is het kabinet nu dan bereid om in Europa het initiatief te nemen'; zo staat het ook in kernpunt 5."
+      }
+    ],
+    "afgewezen": [
+      {
+        "waar": "vak 4 makkelijk",
+        "waarom": "'een weg naar vrede' overwogen naast de normale 'pad naar een duurzame, vreedzame oplossing' (wijziging eerste lezing, die klopt); voor makkelijk is 'vrede' een aanvaardbare vereenvoudiging en een langere zin past niet binnen 14 woorden."
+      },
+      {
+        "waar": "overige wijzigingen eerste lezing (vak 3 en 5 makkelijk, standpunten Klos, Teunissen, Dobbe, Van der Plas 'heel kritisch')",
+        "waarom": "Nagelopen tegen de bron en juist: 'de genocide', 'lng', 'militair en humanitair … de-escalatie en diplomatie', 'het initiatief', 'heel kritisch' staan letterlijk in de spreekbeurten; geen voorbehoud weggevallen en geen partijen ten onrechte gekoppeld."
+      },
+      {
+        "waar": "vak 6 'toegezegd'",
+        "waarom": "Weggelaten om binnen 18 woorden te blijven; 'krijgt' is gangbaar voor 'zegt … toe' en het citaat in het vak toont 'zegt 1,2 miljard euro niet-militaire steun toe'."
+      },
+      {
+        "waar": "vak 7 'tien jaar geleden'",
+        "waarom": "Eigen woorden van Van der Plas in haar ballon, niet van de site (L7 gaat over sitetekst); standpunt en kernpunten hebben geen relatieve datum."
       }
     ]
   }
