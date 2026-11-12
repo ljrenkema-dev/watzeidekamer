@@ -1,0 +1,160 @@
+{
+  "agendapunt": "f366ee5a-0d8a-436c-9125-3a2c63f85196",
+  "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
+  "niveau": "B1",
+  "titel": "In welke volgorde praat de Kamer over belastingen?",
+  "samenvatting": "Dit debat gaat over de volgorde, niet over de belastingen zelf. Gisteren was een apart debat over box 3 afgesproken. Via een e-mailprocedure is dat vandaag anders besloten. Veel partijen vinden dat niet netjes. Een meerderheid wil dat eerst de minister over box 3 antwoordt.",
+  "sprekers": [
+    {
+      "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+      "standpunt": "PRO vindt het oncollegiaal dat de afspraak is teruggedraaid. PRO wil genoeg tijd voor het budgettaire gat van 7,5 miljard."
+    },
+    {
+      "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+      "standpunt": "FVD noemt de gang van zaken volstrekt ontoelaatbaar en een schoffering van een groot deel van de Kamer."
+    },
+    {
+      "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+      "standpunt": "DENK vindt de procedure onacceptabel. DENK ziet een nieuwe politieke situatie. De minister van Financiën moet eerst spreken."
+    },
+    {
+      "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+      "standpunt": "ChristenUnie zegt: de procedure kan volgens de regels zijn, maar klopt niet. De minister moet eerst de vragen over box 3 beantwoorden."
+    },
+    {
+      "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+      "standpunt": "BBB vindt het niet sportief om via een andere route op een besluit terug te komen. BBB wil eerst het wetgevingsoverleg afronden."
+    },
+    {
+      "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+      "standpunt": "50PLUS steunt het voorstel van ChristenUnie. 50PLUS vindt dat een minderheidskabinet rekening moet houden met de oppositie."
+    },
+    {
+      "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+      "standpunt": "JA21 vindt het prima om eerst het wetgevingsoverleg af te ronden."
+    },
+    {
+      "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+      "standpunt": "PvdD steunt het voorstel van ChristenUnie, maar vindt dat het debat erdoor wordt gejaagd."
+    },
+    {
+      "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+      "standpunt": "Volt vindt het niet fraai, maar wil eerst het wetgevingsoverleg voortzetten."
+    },
+    {
+      "id": "247cd142-7220-4f25-aa32-8e1801169e9f",
+      "standpunt": "PVV spreekt van chaos, maar steunt het voorstel van ChristenUnie."
+    },
+    {
+      "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+      "standpunt": "SP steunt het voorstel van ChristenUnie."
+    },
+    {
+      "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+      "standpunt": "SGP steunt het voorstel van ChristenUnie."
+    },
+    {
+      "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+      "standpunt": "VVD vindt dat beide onderwerpen een volwaardig debat verdienen. VVD steunt wat de meerderheid wil."
+    },
+    {
+      "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+      "standpunt": "CDA steunt het voorstel van ChristenUnie en wil dat alle tijd wordt genomen voor de antwoorden."
+    },
+    {
+      "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+      "standpunt": "D66 vindt de voorgestelde volgorde prima."
+    }
+  ],
+  "kernpunten": [
+    "Gisteren was een apart debat over box 3 afgesproken.",
+    "Via een e-mailprocedure is dat vandaag anders besloten.",
+    "Veel partijen vinden die gang van zaken niet netjes.",
+    "Een meerderheid steunt het voorstel van ChristenUnie.",
+    "Eerst antwoordt de minister over box 3, daarna gaat het Belastingplan verder."
+  ],
+  "woorden": [
+    {
+      "woord": "Belastingplan",
+      "uitleg": "Plan van het kabinet met de belastingregels voor volgend jaar."
+    },
+    {
+      "woord": "box 3",
+      "uitleg": "Het deel van de belasting over sparen en beleggen."
+    },
+    {
+      "woord": "novelle",
+      "uitleg": "Een wet die een ander wetsvoorstel aanpast."
+    },
+    {
+      "woord": "WGO (wetgevingsoverleg)",
+      "uitleg": "Een vergadering van een Kamercommissie over een wetsvoorstel."
+    },
+    {
+      "woord": "e-mailprocedure",
+      "uitleg": "Een commissie besluit iets via e-mail, zonder te vergaderen."
+    },
+    {
+      "woord": "ordevoorstel",
+      "uitleg": "Een voorstel over hoe of in welke volgorde het debat gaat."
+    },
+    {
+      "woord": "tweede termijn",
+      "uitleg": "De tweede ronde van een debat."
+    },
+    {
+      "woord": "minderheidskabinet",
+      "uitleg": "Een kabinet zonder meerderheid in de Kamer."
+    }
+  ],
+  "strip": [
+    {
+      "spreker_id": null,
+      "emotie": "neutraal",
+      "tekst": "Het debat over het Belastingplan 2027 gaat verder.",
+      "citaat": "Aan de orde is de voortzetting van de behandeling van het debat over het pakket Belastingplan 2027."
+    },
+    {
+      "spreker_id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+      "emotie": "boos",
+      "tekst": "Gisteren spraken we een apart debat af. Dat is via e-mail teruggedraaid.",
+      "citaat": "We hadden gisteren inderdaad besloten: we doen een los debat over de box 3-novelle met de minister. Dat is vandaag helaas alsnog teruggedraaid via een e-mailprocedure."
+    },
+    {
+      "spreker_id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+      "emotie": "boos",
+      "tekst": "Dit kan echt niet. Achteraf wordt de hele volgorde omgegooid.",
+      "citaat": "Wat hier gebeurt, is volstrekt ontoelaatbaar. … Via een e-mailprocedure wordt nu achteraf alsnog de hele vergaderorde omgegooid."
+    },
+    {
+      "spreker_id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+      "emotie": "vastberaden",
+      "tekst": "Er is een nieuwe politieke situatie. Laat de minister eerst spreken.",
+      "citaat": "er voor de stemmingen een nieuwe politieke situatie is ontstaan … Dit is dus een ordevoorstel om eerst de minister van Financiën het woord te geven."
+    },
+    {
+      "spreker_id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+      "emotie": "denkend",
+      "tekst": "Ik begrijp uw gevoel. Maar een meerderheid besloot het anders.",
+      "citaat": "Ik kan me heel goed voorstellen dat u daar gevoelens bij heeft. Alleen, ik heb me nu te verhouden tot de uitkomst van de procedurevergadering, die heeft geleid tot een meerderheid."
+    },
+    {
+      "spreker_id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+      "emotie": "denkend",
+      "tekst": "Het mocht volgens de regels, maar het klopt niet. Laat de minister eerst antwoorden.",
+      "citaat": "Deze procedure kan volgens de regels zijn gegaan, maar het klopt natuurlijk niet. … Ik zou hem dus inderdaad alle kans willen geven om de vragen die aan zijn adres zijn gesteld, eerst te beantwoorden."
+    },
+    {
+      "spreker_id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+      "emotie": "neutraal",
+      "tekst": "Beide onderwerpen verdienen een goed debat. Wij steunen wat de meerderheid wil.",
+      "citaat": "Beide onderwerpen verdienen een volwaardig debat, dus steun voor waar de meerderheid zich voor uitspreekt."
+    },
+    {
+      "spreker_id": null,
+      "emotie": "neutraal",
+      "tekst": "De Kamer kiest: eerst antwoordt de minister over box 3.",
+      "citaat": "De Kamer heeft nu in meerderheid besloten om te beginnen met de tweede termijn van de zijde van de minister ten aanzien van de behandeling van de novelle box 3."
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+ "id": "224d8a18-2a36-4271-818e-98097d8a31bc",
+ "titel": "Stemmingen",
+ "onderwerp": "Stemmingen",
+ "soort_activiteit": "Stemmingen",
+ "begin": "2026-11-10T15:02:00",
+ "eind": "2026-11-10T15:42:49",
+ "vergadering": {
+  "id": "59ca5b00-fce9-4aba-99a3-a9bb09000997",
+  "datum": "2026-11-10",
+  "gewijzigd": "2026-11-12T13:48:11.5172223+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "22e vergadering, dinsdag 10 november 2026",
+  "verslag_id": "f7ca9edd-408e-4cb5-9537-c28dd827e714",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "woorden": 678,
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:04:13",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Michon-Derkzen."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:04:15",
+   "spreker": {
+    "id": "c73e6f8a-05c9-4d13-945f-71dfb9c730f0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ingrid Michon-Derkzen",
+    "verslagnaam": "Michon-Derkzen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Bij de motie op stuk nr. 96 wil de VVD geacht worden tegen te hebben gestemd."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:04:16",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We hebben het genoteerd."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:07:35",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zie meneer Schenk staan."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:07:37",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. We zijn nu aangekomen bij de stemmingen over de moties die zijn ingediend bij de begroting Binnenlandse Zaken. Mijn motie op stuk nr. 27 over het openbaar maken van wachtgeld is zeer fundamenteel, want dat gaat over transparantie richting de belastingbetaler. Daar zou ik graag hoofdelijk over willen stemmen."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:07:47",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat kan. We gaan hoofdelijk stemmen over de motie op stuk nr. 27. Meneer Stöteler?"
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:07:51",
+   "spreker": {
+    "id": "fccf681b-e1de-45d0-afb6-7812c1efcd43",
+    "soort": "Tweede Kamerlid",
+    "naam": "Sebastiaan Stöteler",
+    "verslagnaam": "Stöteler",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Bij agendapunt 5, de stemmingen over het wetsvoorstel 36700, willen wij graag geacht worden voor te hebben gestemd."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:07:56",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We hebben het genoteerd. We gaan dus straks hoofdelijk stemmen, maar eerst stemmen we over de motie op stuk nr. 20."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:17:52",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Bikker."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:17:53",
+   "spreker": {
+    "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mirjam Bikker",
+    "verslagnaam": "Bikker",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. We hebben het goede gebruik dat als een motie die gericht is aan de regering is aangenomen, we niet om een brief vragen. Maar mijn motie is zojuist aangekomen en veel collega's hebben tegen me gezegd: we hopen dat deze motie niet nodig is en dat er gewoon een vierjarige termijn voor de Kamer is. Maar mocht het nou in een uitzonderlijk geval toch gebeuren dat het kabinet eerder valt — er zijn al vrij snel stemmingen die spannend zijn — dan zou het goed zijn als er al een voorstel ligt van het Presidium. Ik zou het Presidium dus graag willen aanmoedigen om deze motie snel in uitvoering te brengen."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:18:21",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik geleid dit stemmingsresultaat door naar het Presidium."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:20:13",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er is een stemverklaring van mevrouw Al Biyati. Gaat uw gang."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:20:22",
+   "spreker": {
+    "id": "94487bf2-db65-4c2b-bcac-eac80408e642",
+    "soort": "Tweede Kamerlid",
+    "naam": "Iem Al Biyati",
+    "verslagnaam": "Al Biyati",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het verder openstellen van het Noodfonds Energie, zoals voorgesteld in de motie op stuk nr. 19 van de PVV, is een doekje voor het bloeden. Al jaren zijn Nederlanders een te groot deel van hun inkomen kwijt aan de energierekening. De oorzaak ligt bij de extreem hoge belasting op gas, die ongeveer de helft van de kuubprijs uitmaakt. De oorzaak ligt ook bij de ontmanteling van onze energievoorziening en het sluiten van het Groninger gasveld, waardoor we miljarden aan gasbaten mislopen en ook nog eens afhankelijk worden van het buitenland. Deze motie laat iedereen meer belasting betalen, terwijl slechts een klein deel daarvan profiteert. Forum voor Democratie wil de energiebelasting verlagen, het Groninger gasveld heropenen en de afbraak van onze energievoorziening stoppen. Met deze generieke maatregelen helpen we iedere Nederlander. Daarom stemmen we tegen deze motie.\nDank u wel."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:20:26",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. Een stemverklaring van meneer Vermeer namens de BBB."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:21:20",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, voorzitter. Dit gaat over de motie op stuk nr. 21 van de heer Kops en de motie op stuk nr. 40 van de heer Jimmy Dijk over het verlagen van de btw op energie naar 9%. Wij zullen voor de motie van de heer Kops stemmen, maar tegen de motie van de heer Jimmy Dijk, niet omdat wij het voorstel niet goed vinden, maar wel de dekking. Die dekking zit in het verlagen van de regelingen voor expats en het verhogen van de bankenbelasting. Dat hebben we in 2023 al eens met een ernstig experiment geprobeerd en dat leidde direct tot dalende beurskoersen en verdampende pensioenen. Het kan nooit de bedoeling van de SP zijn, maar zeker niet van ons, om de pensioenen te laten verdampen, en dus stemmen wij tegen."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:22:07",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:24:07",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Keijzer."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:24:09",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Meneer Heutink was eerst."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:24:10",
+   "spreker": {
+    "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hidde Heutink",
+    "verslagnaam": "Heutink",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dames gaan voor."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:24:11",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Volgens mij moeten wij hetzelfde zeggen: wij hadden bij de motie op stuk nr. 15 voor moeten stemmen."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:24:15",
+   "spreker": {
+    "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hidde Heutink",
+    "verslagnaam": "Heutink",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik hoef niks meer te zeggen; het wordt voor mij gedaan!"
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:24:18",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ook u had bij de motie op stuk nr. 15 voor moeten stemmen?"
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:24:19",
+   "spreker": {
+    "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+    "soort": "Tweede Kamerlid",
+    "naam": "Hidde Heutink",
+    "verslagnaam": "Heutink",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Zeker."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:24:20",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We hebben het bij dezen genoteerd."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:29:30",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het lid Kostić."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:29:34",
+   "spreker": {
+    "id": "d66383ca-deef-4470-8807-924313ae15e6",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ines Kostić",
+    "verslagnaam": "Kostić",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zou heel graag een hoofdelijke stemming willen."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:29:36",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We gaan hoofdelijk stemmen over de motie."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:36:44",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De heer Jimmy Dijk."
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-10T15:36:45",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, wij worden geacht tegen de motie op stuk nr. 32 te hebben gestemd."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:36:49",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We hebben het genoteerd."
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-10T15:38:31",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat waren de stemmingen. Ik dank u voor uw medewerking. Ik schors voor een enkel ogenblik, en dan gaan we verder met de regeling van werkzaamheden."
+  }
+ ]
+}
