@@ -4,16 +4,16 @@
   python3 scripts/manga.py --emoties neutraal --stijl zw,kleur      # stap 1 van de pilot: stijlen vergelijken
 Stijlen: zw (zwart-wit met partijkleur als accent) en kleur (gekleurde manga). Uitvoer per stijl in data/manga/<stijl>/.
 
-Werkt via het OpenAI-compatibele adres van Gemini; de API-sleutel zet de netwerkproxy erbij
-(Authorization: Bearer). Er gaat GEEN portretfoto mee: de beschrijving komt uit data/uiterlijk.json.
+Werkt via de gewone Gemini-API (generateContent); de API-sleutel zet de netwerkproxy erbij in de
+header x-goog-api-key (netwerksleutel in de omgeving 'watzeidekamer'). Er gaat GEEN portretfoto mee: de beschrijving komt uit data/uiterlijk.json.
 Het neutrale beeld wordt daarna als voorbeeld meegestuurd voor de andere emoties.
-Uitvoer: data/manga/<stijl>/<sleutel>/<emotie>.png en een logboek met de gebruikte prompts.
+Uitvoer: data/manga/<stijl>/<sleutel>/<emotie>.png of .jpg en een logboek met de gebruikte prompts.
 """
 import base64, json, re, sys, time, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 MODEL = "gemini-3.1-flash-image"
 PILOT = ["Geert Wilders", "Jesse Klaver", "Mona Keijzer", "Caroline van der Plas", "Don Ceder"]
 EMOTIES = {
@@ -78,60 +78,67 @@ def beschrijving(u):
     return ", ".join(d for d in delen if d) + "."
 
 
-def vraag(berichten):
-    body = json.dumps({"model": MODEL, "messages": berichten, "modalities": ["image", "text"]}).encode()
-    req = urllib.request.Request(URL, data=body, headers={"Authorization": "Bearer proxy-injected",
-                                                          "Content-Type": "application/json"})
+def vraag(delen):
+    """Gewone Gemini-API (generateContent). De sleutel zet de netwerkproxy in de header x-goog-api-key."""
+    body = json.dumps({"contents": [{"role": "user", "parts": delen}],
+                       "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}}).encode()
+    req = urllib.request.Request(URL.format(model=MODEL), data=body,
+                                 headers={"x-goog-api-key": "proxy-injected", "Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=240) as r:
         return json.loads(r.read())
 
 
-def zoek_beeld(obj):
-    """Zoek een base64-afbeelding in het antwoord, waar die ook staat (data-URI of b64-veld)."""
-    s = json.dumps(obj)
-    m = re.search(r"data:image/(png|jpeg|webp);base64,([A-Za-z0-9+/=]{200,})", s)
-    if m:
-        return base64.b64decode(m.group(2))
-    m = re.search(r'"(?:b64_json|data)"\s*:\s*"([A-Za-z0-9+/=]{200,})"', s)
-    return base64.b64decode(m.group(1)) if m else None
+def zoek_beeld(antwoord):
+    """Eerste afbeelding in het antwoord: (bytes, extensie) of (None, None)."""
+    for c in antwoord.get("candidates", []):
+        for d in (c.get("content") or {}).get("parts", []):
+            inl = d.get("inlineData") or d.get("inline_data")
+            if inl and inl.get("data"):
+                mime = inl.get("mimeType") or inl.get("mime_type") or "image/png"
+                return base64.b64decode(inl["data"]), {"image/jpeg": "jpg", "image/webp": "webp"}.get(mime, "png")
+    return None, None
+
+
+def bestaand(map_, emo):
+    return next(iter(sorted(map_.glob(f"{emo}.*[gp]"))), None)
 
 
 def maak(sleutel, u, emoties, log, stijl="zw"):
     map_ = ROOT / "data" / "manga" / stijl / sleutel.replace(":", "-")
     map_.mkdir(parents=True, exist_ok=True)
     basis = f"{STIJLEN[stijl]}\n\nCharacter: {beschrijving(u)}"
-    neutraal = map_ / "neutraal.png"
     for emo in ["neutraal"] + [e for e in emoties if e != "neutraal"]:
-        if emo in HOUDINGEN:
-            tekst_houding = HOUDINGEN[emo]
-        else:
-            tekst_houding = None
-        if emo not in emoties and neutraal.exists():
+        if emo not in emoties and bestaand(map_, "neutraal"):
             continue
-        uit = map_ / f"{emo}.png"
-        if uit.exists():
+        if bestaand(map_, emo):
             continue
+        tekst_houding = HOUDINGEN.get(emo)
         tekst = f"{basis}\n{tekst_houding}" if tekst_houding else f"{basis}\nExpression: {EMOTIES[emo]}."
-        inhoud = [{"type": "text", "text": tekst}]
-        if emo != "neutraal" and neutraal.exists():
-            inhoud = [{"type": "text", "text": "Draw exactly the same character as in this reference image, same face, hair, clothes, "
-                                               "style and framing; only change the expression.\n\n" + tekst},
-                      {"type": "image_url", "image_url": {"url": "data:image/png;base64," + base64.b64encode(neutraal.read_bytes()).decode()}}]
+        delen = [{"text": tekst}]
+        ref = bestaand(map_, "neutraal")
+        if emo != "neutraal" and ref:
+            mime = "image/jpeg" if ref.suffix == ".jpg" else "image/png"
+            delen = [{"text": "Draw exactly the same character as in this reference image, same face, hair, clothes, "
+                              "style and framing; only change what is described below.\n\n" + tekst},
+                     {"inlineData": {"mimeType": mime, "data": base64.b64encode(ref.read_bytes()).decode()}}]
         try:
-            antwoord = vraag([{"role": "user", "content": inhoud}])
+            antwoord = vraag(delen)
         except urllib.error.HTTPError as e:
             fout = e.read().decode()[:400]
-            log.append({"wie": u["naam"], "emotie": emo, "fout": f"HTTP {e.code}: {fout}"})
+            log.append({"wie": u["naam"], "emotie": emo, "stijl": stijl, "fout": f"HTTP {e.code}: {fout}"})
             print(f"  {u['naam']} {emo}: HTTP {e.code}")
+            if e.code in (401, 403):
+                raise SystemExit("Sleutel geweigerd (401/403). Staat de netwerksleutel op de header x-goog-api-key?")
             if e.code == 429:
-                raise SystemExit("Quotum op (429). Zet betalen aan in Google AI Studio of probeer later opnieuw.")
+                raise SystemExit("Quotum op (429). Probeer later opnieuw.")
             continue
-        beeld = zoek_beeld(antwoord)
+        beeld, ext = zoek_beeld(antwoord)
         if not beeld:
             (map_ / f"{emo}.antwoord.json").write_text(json.dumps(antwoord, ensure_ascii=False)[:20000])
-            log.append({"wie": u["naam"], "emotie": emo, "fout": "geen afbeelding in het antwoord"})
+            log.append({"wie": u["naam"], "emotie": emo, "stijl": stijl, "fout": "geen afbeelding in het antwoord"})
             print(f"  {u['naam']} {emo}: geen afbeelding (antwoord bewaard)")
             continue
+        uit = map_ / f"{emo}.{ext}"
         uit.write_bytes(beeld)
         log.append({"wie": u["naam"], "emotie": emo, "stijl": stijl, "prompt": tekst, "model": MODEL})
         print(f"  {u['naam']} {emo}: {len(beeld) // 1024} kB")
