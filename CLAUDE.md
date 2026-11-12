@@ -16,7 +16,7 @@ Site: watzeidekamer.nl. Debatten uit de Tweede Kamer in normale taal (standaard)
    Op **zondag** doet de redacteur ook de wekelijkse controle van de hele site (zie het einde van `prompts/redacteur.md`), ook in twee lezingen.
    **Leren van fouten**: draai daarna `python3 scripts/lessen.py`. Zie je een fout die nog niet in `prompts/lessen.md` staat en die in deze run twee keer of vaker voorkwam (of één keer met ernst "groot"), voeg dan een les toe of breid een bestaande les uit, met een echt voorbeeld (fout → goed). Gaat een bestaande les steeds weer mis, maak hem dan scherper. Houd de lijst op hooguit 15 lessen. Noem de wijziging in het verslag van de run.
 6. `python3 scripts/check.py <id>` tot 0 fouten. Lukt dat niet, verwijder de strip en noem het in het verslag.
-7. `python3 scripts/build.py`, commit `data/` (zonder `data/raw/` en `data/portret/`, die staan in .gitignore) en `public/`, en push naar `claude/fase-1-proef`.
+7. `python3 scripts/corpus.py` (alle gesproken tekst per politicus in `data/corpus/`, voor analyses; niet op de site). Dan `python3 scripts/build.py`, commit `data/` (zonder `data/raw/` en `data/portret/`, die staan in .gitignore) en `public/`, en push naar `claude/fase-1-proef`.
 8. Eindig met een kort verslag: hoeveel strips gemaakt of vernieuwd, welke overgeslagen en waarom, sprekers zonder figuur, en wat er misging.
 
 ## Regels

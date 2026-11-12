@@ -17,3 +17,14 @@ Alleen de Python-standaardbibliotheek, geen afhankelijkheden.
 - Build command: leeg
 - Output directory: `public`
 - Productie-branch: `main`
+
+## Corpus per politicus
+
+`scripts/corpus.py` schrijft alle gesproken tekst per spreker naar `data/corpus/<naam>.jsonl.gz` (één regel per spreekbeurt, letterlijk uit het verslag, met datum, agendapunt, rol en fractie) en een overzicht in `data/corpus/index.json`. Bedoeld voor analyses; het staat niet op de site. Het corpus wordt elke run opnieuw opgebouwd uit `data/agendapunten/`, zodat gecorrigeerde verslagen de oude tekst vervangen.
+
+Voorbeeld:
+```python
+import gzip, json
+beurten = [json.loads(r) for r in gzip.open("data/corpus/geert-wilders.jsonl.gz", "rt")]
+```
+

@@ -220,6 +220,8 @@ def main():
     index = json.loads((ROOT / "data" / "vergaderingen.json").read_text())
     alle = []
     for verg_id, meta in index.items():
+        if not (RAW / f"{verg_id}.xml").exists():
+            continue  # niet opgehaald in deze run (ouder dan het venster): bestaande agendapunten blijven staan
         root = ET.parse(RAW / f"{verg_id}.xml").getroot()
         for act in root.iter(NS + "activiteit"):
             titel = t(act, "titel")
