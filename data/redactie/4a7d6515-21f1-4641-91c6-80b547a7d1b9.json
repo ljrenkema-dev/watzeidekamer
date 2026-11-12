@@ -164,5 +164,110 @@
       "les": "L12",
       "les_achteraf": true
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-12",
+    "bevindingen": [
+      {
+        "waar": "vak 4 (was Verteller)",
+        "soort": "evenwicht",
+        "ernst": "middel",
+        "les": "nieuw",
+        "oud": "Verteller (spreker_id null): \"De minister zegt: laten we in ieder geval koersen op 2029.\" / \"De minister zegt: we mikken in ieder geval op 2029.\" [citaat uit spreekbeurt 35, Heinen]",
+        "nieuw": "Van Brenk (50PLUS), vastberaden: \"Voor ons is het cruciaal dat er geluisterd wordt naar de signalen van de uitvoering.\" / \"Voor ons is het heel belangrijk dat er naar de uitvoering geluisterd wordt.\" [citaat letterlijk uit spreekbeurt 34; volgorde 32-34-41 klopt]",
+        "waarom": "De Verteller mag alleen eerste of laatste vak zijn; dit vak was in feite een derde vak voor de minister ('laten we in ieder geval koersen op 2029'), terwijl 50PLUS met een eigen standpunt ('cruciaal') geen vak had; 2029 staat al in samenvatting en kernpunten. 'signalen van' bleef in normaal staan (voorstel liet het weg)."
+      },
+      {
+        "waar": "sprekers Heinen, standpunt makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L6",
+        "oud": "Ook op lange termijn is het tekort per saldo afgerond nul, zegt hij.",
+        "nieuw": "Het blijvende tekort is per saldo ongeveer nul, zegt hij.",
+        "waarom": "De minister spreekt over 'structureel' en zegt over de tussenliggende jaren juist 'Je kunt bijna geen conclusies trekken over de situatie in 2040'; 'op lange termijn' suggereerde dat er ook in de jaren dertig geen gat is."
+      },
+      {
+        "waar": "kernpunten normaal en makkelijk, nieuw kernpunt 6",
+        "soort": "neutraliteit",
+        "ernst": "middel",
+        "les": "L9",
+        "oud": "(ontbrak; alleen kernpunt 5: 'Daarmee voert hij aangenomen moties uit, zegt de minister.')",
+        "nieuw": "De minister voert twee moties over de dekking niet uit: over de erf- en schenkbelasting en over het dekken van het hele gat binnen het vermogensdomein. Volgens hem vervalt dan de steun in de Eerste Kamer, en hij moet in beide Kamers een meerderheid vinden. Grinwis (ChristenUnie) zegt dat de minister \"schermt met de Eerste Kamer\". Volgens Stultiens (PRO) kan dat \"geen argument zijn\" voor een minister van Financiën. Schenk (FVD) vindt dat er \"een beetje met twee maten\" wordt gemeten. / De minister voert twee moties over de dekking niet uit. Dan steunt de Eerste Kamer het plan niet meer, zegt hij. Hij moet in beide Kamers een meerderheid hebben. ChristenUnie en PRO vinden dat geen goede reden. FVD vindt dat de minister een beetje met twee maten meet.",
+        "waarom": "Grinwis ('Hij schermt met de Eerste Kamer'), Stultiens ('Dat kan toch geen argument zijn') en Schenk ('een beetje met twee maten') betwisten het argument van de minister ('dat stuit tegen meerderheden in de Eerste Kamer'); alleen zijn kant stond erin. Aangepast t.o.v. voorstel: FVD vindt niet letterlijk dat het 'geen goed argument' is maar spreekt van 'twee maten', en het tegenargument van de minister ('Ik moet in beide Kamers meerderheden vinden') is toegevoegd."
+      },
+      {
+        "waar": "vak 6 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "Het plan is gedekt in deze kabinetsperiode. Per saldo is het afgerond nul.",
+        "nieuw": "Het is gedekt in deze kabinetsperiode. Het blijvende tekort is per saldo ongeveer nul.",
+        "waarom": "Bij 'het' was onduidelijk wat nul is; het citaat gaat over '86 miljoen in de structurele situatie'. 'afgerond' werd 'ongeveer' in plaats van weg te vallen (voorstel: 'per saldo nul')."
+      },
+      {
+        "waar": "kernpunt 8 (was 7) makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "De minister zegt dat het structurele tekort per saldo afgerond nul is. Hij wijst op onzekere ramingen tot 2040.",
+        "nieuw": "De minister zegt: er is een blijvend tekort van 86 miljoen. Maar bij de uitgaven is juist geld over. Samen is dat ongeveer nul. Hij wijst op onzekere ramingen tot 2040.",
+        "waarom": "De normale versie noemt de reden ('aan de uitgavenkant ook weer een overdekking'), de makkelijke niet. 'per jaar' uit het voorstel niet overgenomen: staat niet zo in de bron."
+      },
+      {
+        "waar": "samenvatting makkelijk en kernpunt 3 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1",
+        "oud": "Goud en crypto moeten in 2030 volgen, met een nieuwe wet.",
+        "nieuw": "Hij wil dat goud en crypto in 2030 volgen. Daarvoor wil hij een nieuwe wet. / De minister wil dat goud en crypto in 2030 volgen. Daarvoor wil hij een nieuwe wet.",
+        "waarom": "De minister zegt 'Wij proberen in 2030 ...' en 'Dat is onze inzet'; 'moeten' maakte een poging tot een vaststaand feit (in de eerste lezing zelf ingevoerd)."
+      },
+      {
+        "waar": "samenvatting makkelijk en kernpunt 2 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "De minister wil dit invoeren in 2029. / De minister koerst op invoering in 2029, omdat banken tijd nodig hebben voor gegevens.",
+        "nieuw": "De minister mikt op 2029. / De minister mikt op 2029, omdat banken tijd nodig hebben voor gegevens. Kan het sneller, dan wil hij eerder.",
+        "waarom": "De minister zegt 'laten we in ieder geval koersen op 2029' en 'Als dat kan, gaan we het eerder invoeren'; de normale kernpunt noemt dat, de makkelijke niet. In de samenvatting alleen 'koersen' gelijkgetrokken met normaal; de reden over banken bleef in de kernpunt staan."
+      },
+      {
+        "waar": "sprekers Stultiens, standpunt normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "Stultiens vindt dat de minister zelf de steun voor de bestaande wet introk.",
+        "nieuw": "Stultiens vindt dat de minister zelf de steun introk voor de wet die al bij de Eerste Kamer lag.",
+        "waarom": "Het gaat om 'de wet die voorlag' bij de Eerste Kamer; 'bestaande wet' suggereert een wet die al geldt."
+      },
+      {
+        "waar": "titel makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "Is de nieuwe box 3-belasting goed betaald?",
+        "nieuw": "Is er genoeg geld voor de nieuwe box 3-belasting?",
+        "waarom": "Bij een belasting leest 'goed betaald' als 'betalen mensen hem goed'; het debat gaat over de dekking, 'waar het geld vandaan komt'."
+      },
+      {
+        "waar": "sprekers Grinwis, standpunt makkelijk",
+        "soort": "neutraliteit",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "Grinwis vindt dat de minister deel is geworden van de strijd over box 3.",
+        "nieuw": "Grinwis vindt dat de minister deel is geworden van de discussie over box 3.",
+        "waarom": "Grinwis zegt 'controverse' en zelf ook 'discussie'; 'strijd' is sterker. 'discussie' gekozen in plaats van het voorgestelde 'meningsverschil', gelijk aan vak 1 (in de eerste lezing zelf ingevoerd)."
+      },
+      {
+        "waar": "kernpunt 7 (was 6) makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "PRO en ChristenUnie noemen een structureel tekort van 86 miljoen.",
+        "nieuw": "PRO en ChristenUnie noemen een blijvend tekort van 86 miljoen.",
+        "waarom": "Eigen gelijktrekking: de makkelijke versie gebruikt nu overal 'blijvend' voor 'structureel', zodat hetzelfde tekort niet twee namen heeft."
+      }
+    ],
+    "afgewezen": []
+  }
 }
