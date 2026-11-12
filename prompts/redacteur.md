@@ -72,6 +72,15 @@ Schrijf `data/redactie/<id>.json`:
 ```
 Eindig met een korte samenvatting voor de eigenaar: oordeel, aantal bevindingen per soort, en alles wat je niet kon oplossen.
 
+## Tweede lezing
+Na de eerste redacteur leest een tweede, onafhankelijke redacteur dezelfde strip. In de proef vond die na de eerste lezing nog ongeveer 8 fouten per strip, waarvan een deel door de eerste redacteur zelf was toegevoegd.
+- Lees de strip, de bron, de lessen en het redactieverslag van de eerste lezing.
+- Controleer **elke wijziging van de eerste redacteur** extra: is de nieuwe tekst juist, zijn voorbehouden blijven staan, zijn partijen niet ten onrechte aan elkaar gekoppeld?
+- Doorloop daarna de hele checklist hierboven opnieuw, alsof de strip nieuw is.
+- Verwerk wat klopt, met dezelfde regels als de eerste lezing. Wijs af wat niet klopt.
+- Schrijf in `data/redactie/<id>.json` een veld `"tweede_lezing": {"datum": "JJJJ-MM-DD", "bevindingen": [...], "afgewezen": [{"waar", "waarom"}]}`, met per bevinding dezelfde velden als hierboven, inclusief `les`.
+- Zet `oordeel` op `ingetrokken` als de strip na twee lezingen nog een grote fout heeft die je niet kunt oplossen.
+
 ## Wekelijkse controle van de hele site
 Op zondag loopt de redacteur alle gepubliceerde strips langs waarvan:
 - het verslag een nieuwere versie heeft (bijvoorbeeld van ongecorrigeerd naar gecorrigeerd), of
