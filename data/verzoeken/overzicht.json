@@ -1,0 +1,766 @@
+{
+ "verzoeken": [
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-11",
+   "procedure": "294c2585-add8-4bee-859e-ef6853539cfb",
+   "nr": 1,
+   "verzoeker": "Kati Piri",
+   "fractie": "PRO",
+   "soort": "stemmingen",
+   "onderwerp": "Stemmingen over het Belastingplan verplaatsen naar het einde van de middag",
+   "uitkomst": "meerderheid",
+   "zetels": {
+    "steun": 85,
+    "geen_steun": 19,
+    "onduidelijk": 0,
+    "geen_reactie": 46
+   },
+   "fracties": {
+    "PRO": "steun",
+    "PVV": "geen_steun",
+    "DENK": "steun",
+    "D66": "steun",
+    "CDA": "steun",
+    "PvdD": "steun",
+    "SP": "steun",
+    "50PLUS": "steun",
+    "ChristenUnie": "steun",
+    "Groep Markuszower": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-11",
+   "procedure": "294c2585-add8-4bee-859e-ef6853539cfb",
+   "nr": 2,
+   "verzoeker": "Geert Wilders",
+   "fractie": "PVV",
+   "soort": "debat",
+   "onderwerp": "Debat over de politieke situatie, met de premier en de fractievoorzitters, vandaag of morgenvroeg",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 59,
+    "geen_steun": 44,
+    "onduidelijk": 23,
+    "geen_reactie": 24
+   },
+   "fracties": {
+    "PVV": "steun",
+    "Groep Markuszower": "steun",
+    "JA21": "steun",
+    "SGP": "steun",
+    "BBB": "steun",
+    "FVD": "steun",
+    "SP": "steun",
+    "CDA": "geen_steun",
+    "DENK": "steun",
+    "50PLUS": "steun",
+    "D66": "geen_steun",
+    "ChristenUnie": "onduidelijk",
+    "PRO": "onduidelijk",
+    "PvdD": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-11",
+   "procedure": "294c2585-add8-4bee-859e-ef6853539cfb",
+   "nr": 3,
+   "verzoeker": "Geert Wilders",
+   "fractie": "PVV",
+   "soort": "debat",
+   "onderwerp": "Debat met de minister-president, morgenochtend om 10.15 uur",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 59,
+    "geen_steun": 67,
+    "onduidelijk": 0,
+    "geen_reactie": 24
+   },
+   "fracties": {
+    "PVV": "steun",
+    "SGP": "steun",
+    "CDA": "geen_steun",
+    "Groep Markuszower": "steun",
+    "JA21": "steun",
+    "SP": "steun",
+    "BBB": "steun",
+    "D66": "geen_steun",
+    "PvdD": "steun",
+    "FVD": "steun",
+    "ChristenUnie": "geen_steun",
+    "50PLUS": "steun",
+    "DENK": "steun",
+    "PRO": "geen_steun"
+   }
+  },
+  {
+   "past_bij_zetels": "mogelijk",
+   "datum": "2026-11-11",
+   "procedure": "294c2585-add8-4bee-859e-ef6853539cfb",
+   "nr": 4,
+   "verzoeker": "Mirjam Bikker",
+   "fractie": "ChristenUnie",
+   "soort": "agenda",
+   "onderwerp": "Derde termijn van het debat over het Belastingplan, morgenochtend om 10.15 uur",
+   "uitkomst": "meerderheid",
+   "zetels": {
+    "steun": 22,
+    "geen_steun": 0,
+    "onduidelijk": 41,
+    "geen_reactie": 87
+   },
+   "fracties": {
+    "ChristenUnie": "steun",
+    "CDA": "onduidelijk",
+    "BBB": "onduidelijk",
+    "PVV": "steun",
+    "PRO": "onduidelijk"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 1,
+   "verzoeker": "Stephan Van Baarle",
+   "fractie": "DENK",
+   "soort": "debat",
+   "onderwerp": "Debat over de oproepen tijdens de Rode Lijndemonstratie over het Israëlbeleid",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 29,
+    "geen_steun": 60,
+    "onduidelijk": 26,
+    "geen_reactie": 35
+   },
+   "fracties": {
+    "DENK": "steun",
+    "PvdD": "steun",
+    "PRO": "steun",
+    "JA21": "geen_steun",
+    "Groep Markuszower": "geen_steun",
+    "SP": "steun",
+    "BBB": "geen_steun",
+    "SGP": "geen_steun",
+    "D66": "onduidelijk",
+    "PVV": "geen_steun",
+    "Lid Keijzer": "geen_steun",
+    "CDA": "geen_steun"
+   }
+  },
+  {
+   "past_bij_zetels": "n.v.t.",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 2,
+   "verzoeker": "Stephan Van Baarle",
+   "fractie": "DENK",
+   "soort": "brief",
+   "onderwerp": "Brief van het kabinet over de Rode Lijndemonstratie vóór de begroting Buitenlandse Zaken",
+   "uitkomst": "anders",
+   "zetels": {
+    "steun": 3,
+    "geen_steun": 0,
+    "onduidelijk": 0,
+    "geen_reactie": 147
+   },
+   "fracties": {
+    "DENK": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 3,
+   "verzoeker": "Caroline Van der Plas",
+   "fractie": "BBB",
+   "soort": "debat",
+   "onderwerp": "Debat over Europese plannen om natuurregels zoals Natura 2000 te herzien",
+   "uitkomst": "dertigledendebat",
+   "zetels": {
+    "steun": 49,
+    "geen_steun": 86,
+    "onduidelijk": 0,
+    "geen_reactie": 15
+   },
+   "fracties": {
+    "BBB": "steun",
+    "PRO": "geen_steun",
+    "SGP": "steun",
+    "D66": "geen_steun",
+    "PVV": "steun",
+    "CDA": "geen_steun",
+    "FVD": "steun",
+    "JA21": "steun",
+    "Lid Keijzer": "steun",
+    "Groep Markuszower": "steun",
+    "VVD": "geen_steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 4,
+   "verzoeker": "Caroline Van der Plas",
+   "fractie": "BBB",
+   "soort": "debat",
+   "onderwerp": "Dertigledendebat over het Ombudsman-rapport over de overheid en boeren omzetten in meerderheidsdebat",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 52,
+    "geen_steun": 40,
+    "onduidelijk": 49,
+    "geen_reactie": 9
+   },
+   "fracties": {
+    "BBB": "steun",
+    "PRO": "onduidelijk",
+    "D66": "onduidelijk",
+    "Groep Markuszower": "steun",
+    "PVV": "steun",
+    "CDA": "geen_steun",
+    "SGP": "steun",
+    "JA21": "steun",
+    "FVD": "steun",
+    "PvdD": "onduidelijk",
+    "Lid Keijzer": "steun",
+    "VVD": "geen_steun",
+    "SP": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 5,
+   "verzoeker": "Doğukan Ergin",
+   "fractie": "DENK",
+   "soort": "debat",
+   "onderwerp": "Debat over discriminatie van mensen met een migratieachtergrond op de woningmarkt",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 26,
+    "geen_steun": 44,
+    "onduidelijk": 40,
+    "geen_reactie": 40
+   },
+   "fracties": {
+    "DENK": "steun",
+    "Groep Markuszower": "geen_steun",
+    "BBB": "geen_steun",
+    "PRO": "steun",
+    "FVD": "geen_steun",
+    "VVD": "onduidelijk",
+    "CDA": "onduidelijk",
+    "PvdD": "steun",
+    "Lid Keijzer": "geen_steun",
+    "D66": "geen_steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 6,
+   "verzoeker": "René Claassen",
+   "fractie": "Groep Markuszower",
+   "soort": "debat",
+   "onderwerp": "Debat over antisemitisme op universiteiten",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 42,
+    "geen_steun": 69,
+    "onduidelijk": 0,
+    "geen_reactie": 39
+   },
+   "fracties": {
+    "Groep Markuszower": "steun",
+    "BBB": "steun",
+    "Lid Keijzer": "steun",
+    "D66": "geen_steun",
+    "SGP": "steun",
+    "JA21": "steun",
+    "PVV": "steun",
+    "ChristenUnie": "geen_steun",
+    "CDA": "geen_steun",
+    "VVD": "geen_steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 7,
+   "verzoeker": "René Claassen",
+   "fractie": "Groep Markuszower",
+   "soort": "debat",
+   "onderwerp": "Plenair debat over het geneesmiddelenbeleid in Nederland",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 31,
+    "geen_steun": 108,
+    "onduidelijk": 0,
+    "geen_reactie": 11
+   },
+   "fracties": {
+    "Groep Markuszower": "steun",
+    "VVD": "geen_steun",
+    "BBB": "steun",
+    "50PLUS": "steun",
+    "CDA": "geen_steun",
+    "JA21": "steun",
+    "FVD": "steun",
+    "DENK": "geen_steun",
+    "PRO": "geen_steun",
+    "PVV": "geen_steun",
+    "D66": "geen_steun",
+    "SP": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 8,
+   "verzoeker": "Mpanzu Bamenga",
+   "fractie": "D66",
+   "soort": "debat",
+   "onderwerp": "Debat over de import van Arabische gom en de oorlogseconomie in Sudan",
+   "uitkomst": "meerderheid",
+   "zetels": {
+    "steun": 78,
+    "geen_steun": 51,
+    "onduidelijk": 0,
+    "geen_reactie": 21
+   },
+   "fracties": {
+    "D66": "steun",
+    "50PLUS": "steun",
+    "BBB": "geen_steun",
+    "VVD": "geen_steun",
+    "PRO": "steun",
+    "DENK": "steun",
+    "PVV": "geen_steun",
+    "SGP": "steun",
+    "PvdD": "steun",
+    "CDA": "steun",
+    "Groep Markuszower": "geen_steun",
+    "SP": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 9,
+   "verzoeker": "Vicky Maeijer",
+   "fractie": "PVV",
+   "soort": "debat",
+   "onderwerp": "Breed debat over de toegang tot geneesmiddelen",
+   "uitkomst": "dertigledendebat",
+   "zetels": {
+    "steun": 67,
+    "geen_steun": 55,
+    "onduidelijk": 0,
+    "geen_reactie": 28
+   },
+   "fracties": {
+    "PVV": "steun",
+    "BBB": "steun",
+    "Groep Markuszower": "geen_steun",
+    "VVD": "geen_steun",
+    "SP": "steun",
+    "JA21": "steun",
+    "50PLUS": "steun",
+    "FVD": "steun",
+    "D66": "geen_steun",
+    "Lid Keijzer": "steun",
+    "PRO": "steun",
+    "DENK": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 10,
+   "verzoeker": "Caroline Van der Plas",
+   "fractie": "BBB",
+   "soort": "agenda",
+   "onderwerp": "Tweeminutendebat Kernenergie met stemmingen vóór december inplannen (namens Vermeer)",
+   "uitkomst": "meerderheid",
+   "zetels": {
+    "steun": 130,
+    "geen_steun": 0,
+    "onduidelijk": 0,
+    "geen_reactie": 20
+   },
+   "fracties": {
+    "BBB": "steun",
+    "D66": "steun",
+    "PRO": "steun",
+    "Groep Markuszower": "steun",
+    "ChristenUnie": "steun",
+    "CDA": "steun",
+    "PVV": "steun",
+    "SP": "steun",
+    "JA21": "steun",
+    "VVD": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 11,
+   "verzoeker": "Sandra Beckerman",
+   "fractie": "SP",
+   "soort": "debat",
+   "onderwerp": "Debat over energiearmoede: gezinnen die hun huis niet kunnen verwarmen",
+   "uitkomst": "meerderheid",
+   "zetels": {
+    "steun": 80,
+    "geen_steun": 44,
+    "onduidelijk": 22,
+    "geen_reactie": 4
+   },
+   "fracties": {
+    "SP": "steun",
+    "PVV": "steun",
+    "BBB": "steun",
+    "PRO": "steun",
+    "FVD": "steun",
+    "DENK": "steun",
+    "ChristenUnie": "steun",
+    "PvdD": "steun",
+    "Groep Markuszower": "steun",
+    "CDA": "geen_steun",
+    "50PLUS": "steun",
+    "VVD": "onduidelijk",
+    "JA21": "steun",
+    "D66": "geen_steun",
+    "Lid Keijzer": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 12,
+   "verzoeker": "Marjolein Faber",
+   "fractie": "PVV",
+   "soort": "debat",
+   "onderwerp": "Debat over borden voor Hamas en tegen Joden bij de recente demonstratie",
+   "uitkomst": "dertigledendebat",
+   "zetels": {
+    "steun": 42,
+    "geen_steun": 89,
+    "onduidelijk": 0,
+    "geen_reactie": 19
+   },
+   "fracties": {
+    "PVV": "steun",
+    "BBB": "steun",
+    "SGP": "steun",
+    "D66": "geen_steun",
+    "PRO": "geen_steun",
+    "Groep Markuszower": "steun",
+    "DENK": "geen_steun",
+    "Lid Keijzer": "steun",
+    "JA21": "steun",
+    "CDA": "geen_steun",
+    "VVD": "geen_steun"
+   }
+  },
+  {
+   "past_bij_zetels": "n.v.t.",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 13,
+   "verzoeker": "Marjolein Faber",
+   "fractie": "PVV",
+   "soort": "brief",
+   "onderwerp": "Brief over de besteding van €820.000 voor vliegende teams bij asielonrust",
+   "uitkomst": "anders",
+   "zetels": {
+    "steun": 19,
+    "geen_steun": 0,
+    "onduidelijk": 0,
+    "geen_reactie": 131
+   },
+   "fracties": {
+    "PVV": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 14,
+   "verzoeker": "Stephan Neijenhuis",
+   "fractie": "D66",
+   "soort": "debat",
+   "onderwerp": "Debat over groeiende uitval van jonge werknemers door stress en psychische klachten",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 60,
+    "geen_steun": 56,
+    "onduidelijk": 23,
+    "geen_reactie": 11
+   },
+   "fracties": {
+    "D66": "steun",
+    "PVV": "onduidelijk",
+    "JA21": "geen_steun",
+    "BBB": "onduidelijk",
+    "DENK": "steun",
+    "Groep Markuszower": "geen_steun",
+    "50PLUS": "steun",
+    "SP": "steun",
+    "ChristenUnie": "steun",
+    "CDA": "geen_steun",
+    "PRO": "steun",
+    "Lid Keijzer": "onduidelijk",
+    "VVD": "geen_steun",
+    "PvdD": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 15,
+   "verzoeker": "Sandra Beckerman",
+   "fractie": "SP",
+   "soort": "agenda",
+   "onderwerp": "Tweeminutendebat over de Groningse schaderegeling met stemmingen vóór 30 november inplannen",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 51,
+    "geen_steun": 26,
+    "onduidelijk": 18,
+    "geen_reactie": 55
+   },
+   "fracties": {
+    "SP": "steun",
+    "PRO": "steun",
+    "PvdD": "steun",
+    "BBB": "steun",
+    "PVV": "steun",
+    "DENK": "steun",
+    "D66": "geen_steun",
+    "CDA": "onduidelijk"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 16,
+   "verzoeker": "Sandra Beckerman",
+   "fractie": "SP",
+   "soort": "debat",
+   "onderwerp": "Debat over een rapport over dierenwelzijn in de vleessector en het toezicht",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 31,
+    "geen_steun": 51,
+    "onduidelijk": 23,
+    "geen_reactie": 45
+   },
+   "fracties": {
+    "SP": "steun",
+    "PvdD": "onduidelijk",
+    "PRO": "onduidelijk",
+    "BBB": "geen_steun",
+    "PVV": "steun",
+    "D66": "geen_steun",
+    "JA21": "steun",
+    "VVD": "geen_steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 17,
+   "verzoeker": "Christine Teunissen",
+   "fractie": "PvdD",
+   "soort": "debat",
+   "onderwerp": "Debat over winsten van raffinaderijen en mogelijke subsidie voor deze bedrijven",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 26,
+    "geen_steun": 59,
+    "onduidelijk": 18,
+    "geen_reactie": 47
+   },
+   "fracties": {
+    "PvdD": "steun",
+    "Lid Keijzer": "geen_steun",
+    "BBB": "geen_steun",
+    "DENK": "steun",
+    "PRO": "steun",
+    "Groep Markuszower": "geen_steun",
+    "D66": "geen_steun",
+    "VVD": "geen_steun",
+    "CDA": "onduidelijk"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 18,
+   "verzoeker": "Ines Kostić",
+   "fractie": "PvdD",
+   "soort": "agenda",
+   "onderwerp": "Tweeminutendebat over het ontwerp-Luchthavenbesluit Rotterdam met stemmingen deze maand inplannen",
+   "uitkomst": "meerderheid",
+   "zetels": {
+    "steun": 85,
+    "geen_steun": 3,
+    "onduidelijk": 22,
+    "geen_reactie": 40
+   },
+   "fracties": {
+    "PvdD": "steun",
+    "50PLUS": "steun",
+    "D66": "steun",
+    "CDA": "steun",
+    "Groep Markuszower": "steun",
+    "PRO": "steun",
+    "BBB": "geen_steun",
+    "VVD": "onduidelijk",
+    "JA21": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-10",
+   "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
+   "nr": 19,
+   "verzoeker": "Gidi Markuszower",
+   "fractie": "Groep Markuszower",
+   "soort": "debat",
+   "onderwerp": "Interpellatiedebat vandaag om een motie van wantrouwen tegen het kabinet in te dienen",
+   "uitkomst": "geen_meerderheid",
+   "zetels": {
+    "steun": 14,
+    "geen_steun": 106,
+    "onduidelijk": 23,
+    "geen_reactie": 7
+   },
+   "fracties": {
+    "Groep Markuszower": "steun",
+    "PRO": "geen_steun",
+    "D66": "geen_steun",
+    "BBB": "onduidelijk",
+    "FVD": "steun",
+    "DENK": "geen_steun",
+    "50PLUS": "geen_steun",
+    "PVV": "onduidelijk",
+    "Lid Keijzer": "onduidelijk",
+    "PvdD": "geen_steun",
+    "ChristenUnie": "geen_steun",
+    "CDA": "geen_steun",
+    "VVD": "geen_steun",
+    "JA21": "geen_steun"
+   }
+  }
+ ],
+ "per_fractie": {
+  "50PLUS": {
+   "steun": 9,
+   "geen_steun": 1
+  },
+  "BBB": {
+   "steun": 11,
+   "onduidelijk": 3,
+   "geen_steun": 6,
+   "verzoeken": 3,
+   "gehaald": 2
+  },
+  "CDA": {
+   "steun": 4,
+   "geen_steun": 11,
+   "onduidelijk": 4
+  },
+  "ChristenUnie": {
+   "steun": 5,
+   "onduidelijk": 1,
+   "geen_steun": 3,
+   "verzoeken": 1,
+   "gehaald": 1
+  },
+  "D66": {
+   "steun": 5,
+   "geen_steun": 13,
+   "onduidelijk": 2,
+   "verzoeken": 2,
+   "gehaald": 1
+  },
+  "DENK": {
+   "steun": 12,
+   "verzoeken": 3,
+   "geen_steun": 3
+  },
+  "FVD": {
+   "steun": 8,
+   "geen_steun": 1
+  },
+  "Groep Markuszower": {
+   "steun": 12,
+   "geen_steun": 6,
+   "verzoeken": 3
+  },
+  "JA21": {
+   "steun": 12,
+   "geen_steun": 3
+  },
+  "Lid Keijzer": {
+   "geen_steun": 3,
+   "steun": 6,
+   "onduidelijk": 2
+  },
+  "PRO": {
+   "steun": 11,
+   "verzoeken": 1,
+   "gehaald": 1,
+   "onduidelijk": 4,
+   "geen_steun": 5
+  },
+  "PVV": {
+   "geen_steun": 4,
+   "steun": 13,
+   "verzoeken": 5,
+   "gehaald": 2,
+   "onduidelijk": 2
+  },
+  "PvdD": {
+   "steun": 11,
+   "onduidelijk": 2,
+   "verzoeken": 2,
+   "gehaald": 1,
+   "geen_steun": 1
+  },
+  "SGP": {
+   "steun": 7,
+   "geen_steun": 1
+  },
+  "SP": {
+   "steun": 13,
+   "verzoeken": 3,
+   "gehaald": 1
+  },
+  "VVD": {
+   "geen_steun": 11,
+   "onduidelijk": 3,
+   "steun": 1
+  }
+ }
+}

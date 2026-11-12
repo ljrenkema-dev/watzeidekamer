@@ -32,4 +32,6 @@ beurten = [json.loads(r) for r in gzip.open("data/corpus/geert-wilders.jsonl.gz"
 
 - `data/procedure/<id>.json`: opening, mededelingen, regeling van werkzaamheden en sluiting. Met `aanwezig` en `kamerleden_aanwezig` (presentielijst uit de opening), `afgemeld` (berichten van verhindering), `voorzitter`, `griffier` en alle spreekbeurten.
 - `data/verzoeken/<id>.json`: per regeling van werkzaamheden de verzoeken (wie, wat, onderwerp), elke reactie met oordeel (steun, geen steun, alleen brief, onduidelijk) en letterlijk citaat, en de uitkomst volgens de voorzitter. Gecontroleerd met `scripts/verzoeken_check.py`.
+- `data/fracties.json`: zetelverdeling per datum (alleen een nieuwe stand bij een wijziging), via `scripts/zetels.py`.
+- `data/verzoeken/overzicht.json`: alle verzoeken met zetels voor, tegen, onduidelijk en zonder reactie, en per fractie het aantal verzoeken, gehaalde verzoeken en gegeven steun. De fractie van de verzoeker telt als steun; `past_bij_zetels` geeft aan of de uitkomst van de voorzitter bij de zetels past.
 

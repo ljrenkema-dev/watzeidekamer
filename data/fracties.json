@@ -1,0 +1,72 @@
+{
+ "2026-11-12": {
+  "ChristenUnie": {
+   "naam": "ChristenUnie",
+   "zetels": 3
+  },
+  "Groep Markuszower": {
+   "naam": "Groep Markuszower",
+   "zetels": 7
+  },
+  "FVD": {
+   "naam": "Forum voor Democratie",
+   "zetels": 7
+  },
+  "SP": {
+   "naam": "Socialistische Partij",
+   "zetels": 3
+  },
+  "PVV": {
+   "naam": "Partij voor de Vrijheid",
+   "zetels": 19
+  },
+  "PvdD": {
+   "naam": "Partij voor de Dieren",
+   "zetels": 3
+  },
+  "D66": {
+   "naam": "Democraten 66",
+   "zetels": 26
+  },
+  "SGP": {
+   "naam": "Staatkundig Gereformeerde Partij",
+   "zetels": 3
+  },
+  "BBB": {
+   "naam": "BoerBurgerBeweging",
+   "zetels": 3
+  },
+  "PRO": {
+   "naam": "Progressief Nederland",
+   "zetels": 20
+  },
+  "CDA": {
+   "naam": "Christen-Democratisch Appèl",
+   "zetels": 18
+  },
+  "DENK": {
+   "naam": "DENK",
+   "zetels": 3
+  },
+  "50PLUS": {
+   "naam": "50PLUS",
+   "zetels": 2
+  },
+  "VVD": {
+   "naam": "Volkspartij voor Vrijheid en Democratie",
+   "zetels": 22
+  },
+  "Lid Keijzer": {
+   "naam": "Lid Keijzer",
+   "zetels": 1
+  },
+  "JA21": {
+   "naam": "JA21",
+   "zetels": 9
+  },
+  "Volt": {
+   "naam": "Volt",
+   "zetels": 1
+  }
+ }
+}
