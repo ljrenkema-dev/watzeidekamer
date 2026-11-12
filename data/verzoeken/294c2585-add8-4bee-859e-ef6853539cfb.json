@@ -1,0 +1,93 @@
+{
+  "procedure": "294c2585-add8-4bee-859e-ef6853539cfb",
+  "datum": "2026-11-11",
+  "verzoeken": [
+    {
+      "verzoeker_id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1",
+      "soort": "stemmingen",
+      "onderwerp": "Stemmingen over het Belastingplan verplaatsen naar het einde van de middag",
+      "bewindspersoon": null,
+      "citaat": "Ik zou graag het verzoek willen doen om de stemmingen over het Belastingplan, die voor morgen gepland staan, op het einde van de middag te doen.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {"spreker_id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de", "oordeel": "geen_steun", "citaat": "Zolang dat er niet is, kan er van uitstel van de stemmingen geen sprake zijn."},
+        {"spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2", "oordeel": "steun", "citaat": "Maar het procedurele voorstel steun ik procedureel"},
+        {"spreker_id": "337901dc-6804-4399-a2ab-18f8af5042e4", "oordeel": "steun", "citaat": "Steun voor het voorstel van mevrouw Piri."},
+        {"spreker_id": "45b7e3af-3671-438d-9e72-7048593b903a", "oordeel": "steun", "citaat": "Steun voor het voorstel."},
+        {"spreker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d", "oordeel": "steun", "citaat": "dus van harte steun voor het voorstel."},
+        {"spreker_id": "b5363002-d06e-4813-9c05-86fe74185a56", "oordeel": "steun", "citaat": "Wel steun voor het voorstel"},
+        {"spreker_id": "78bfadde-92e9-4200-9324-ec3ff790a712", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "b5593cee-7c4f-4414-942b-6a8abb8c6543", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e", "oordeel": "steun", "citaat": "dan gun ik PRO die tijd"}
+      ],
+      "uitkomst": "meerderheid",
+      "uitkomst_citaat": "Er is een meerderheid voor uw voorstel, dus de stemmingen zullen worden uitgesteld naar het einde van de middag"
+    },
+    {
+      "verzoeker_id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+      "soort": "debat",
+      "onderwerp": "Debat over de politieke situatie, met de premier en de fractievoorzitters, vandaag of morgenvroeg",
+      "bewindspersoon": "minister-president",
+      "citaat": "Ik had nog om een debat gevraagd.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {"spreker_id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e", "oordeel": "steun", "citaat": "het is hartstikke goed als we daar een debat over voeren."},
+        {"spreker_id": "6c06c90e-deae-48ad-a5e4-ee01c981713b", "oordeel": "steun", "citaat": "Steun voor het debat, liefst vandaag nog."},
+        {"spreker_id": "40e883e0-5a57-4840-b523-7ccf6c7582e2", "oordeel": "steun", "citaat": "Ook steun voor het debat."},
+        {"spreker_id": "a2744035-96f3-4ac4-b5db-4aae321c6464", "oordeel": "steun", "citaat": "Steun voor het debat, vanavond."},
+        {"spreker_id": "8988c769-aa74-4c5f-8483-2df20987c922", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "b5363002-d06e-4813-9c05-86fe74185a56", "oordeel": "steun", "citaat": "Laten we daar dan ook maar over debatteren."},
+        {"spreker_id": "45b7e3af-3671-438d-9e72-7048593b903a", "oordeel": "geen_steun", "citaat": "Maar voor dit aparte debat over de politieke situatie in ieder geval geen steun."},
+        {"spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2", "oordeel": "steun", "citaat": "Mijn fractie steunt dus een apart debat."},
+        {"spreker_id": "78bfadde-92e9-4200-9324-ec3ff790a712", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "337901dc-6804-4399-a2ab-18f8af5042e4", "oordeel": "geen_steun", "citaat": "Geen steun, voorzitter."},
+        {"spreker_id": "b5593cee-7c4f-4414-942b-6a8abb8c6543", "oordeel": "onduidelijk", "citaat": "Dan wel voor morgenochtend. Ik wil namelijk ook bestuderen wat er ligt."},
+        {"spreker_id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1", "oordeel": "onduidelijk", "citaat": "Ik sluit me aan bij mevrouw Bikker, maar als er een meerderheid voor is, dan willen wij dat wel graag vandaag"},
+        {"spreker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d", "oordeel": "steun", "citaat": "Steun voor een debat."}
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "op dit moment is er voor geen enkel voorstel een meerderheid"
+    },
+    {
+      "verzoeker_id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+      "soort": "debat",
+      "onderwerp": "Debat met de minister-president, morgenochtend om 10.15 uur",
+      "bewindspersoon": "minister-president",
+      "citaat": "Volgens mij is voor een debat morgen om 10.15 uur, ongeacht hoe je het noemt, een meerderheid.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {"spreker_id": "40e883e0-5a57-4840-b523-7ccf6c7582e2", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "45b7e3af-3671-438d-9e72-7048593b903a", "oordeel": "geen_steun", "citaat": "Voor het voorstel van de heer Wilders: geen steun."},
+        {"spreker_id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e", "oordeel": "steun", "citaat": "Van harte steun."},
+        {"spreker_id": "6c06c90e-deae-48ad-a5e4-ee01c981713b", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "b5363002-d06e-4813-9c05-86fe74185a56", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "a2744035-96f3-4ac4-b5db-4aae321c6464", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "337901dc-6804-4399-a2ab-18f8af5042e4", "oordeel": "geen_steun", "citaat": "Geen steun, voorzitter."},
+        {"spreker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "8988c769-aa74-4c5f-8483-2df20987c922", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "b5593cee-7c4f-4414-942b-6a8abb8c6543", "oordeel": "geen_steun", "citaat": "Voorzitter, geen steun."},
+        {"spreker_id": "78bfadde-92e9-4200-9324-ec3ff790a712", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2", "oordeel": "steun", "citaat": "Steun voor een debat."},
+        {"spreker_id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1", "oordeel": "geen_steun", "citaat": "Geen steun voor zoals het nu voorligt."}
+      ],
+      "uitkomst": "geen_meerderheid",
+      "uitkomst_citaat": "Er is geen meerderheid voor het voorstel van meneer Wilders."
+    },
+    {
+      "verzoeker_id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+      "soort": "agenda",
+      "onderwerp": "Derde termijn van het debat over het Belastingplan, morgenochtend om 10.15 uur",
+      "bewindspersoon": "minister-president",
+      "citaat": "ik stel voor dat er morgenochtend om 10.15 uur een derde termijn wordt geopend.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {"spreker_id": "45b7e3af-3671-438d-9e72-7048593b903a", "oordeel": "onduidelijk", "citaat": "gaan we een derde termijn openen van een debat dat al gesloten is of wordt er een nieuw meerderheidsdebat ingepland?"},
+        {"spreker_id": "a2744035-96f3-4ac4-b5db-4aae321c6464", "oordeel": "onduidelijk", "citaat": "Ja, joh."},
+        {"spreker_id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de", "oordeel": "steun", "citaat": "Een derde termijn is dus ook mijn voorstel."},
+        {"spreker_id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1", "oordeel": "onduidelijk", "citaat": "Als het debat morgen dan op tijd klaar is en er gestemd kan worden, is dat prima."}
+      ],
+      "uitkomst": "meerderheid",
+      "uitkomst_citaat": "Ik concludeer dat er een meerderheid is voor een derde termijn morgenochtend met de minister-president"
+    }
+  ]
+}
