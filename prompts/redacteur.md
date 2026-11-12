@@ -72,6 +72,9 @@ Schrijf `data/redactie/<id>.json`:
 ```
 Eindig met een korte samenvatting voor de eigenaar: oordeel, aantal bevindingen per soort, en alles wat je niet kon oplossen.
 
+## Onafhankelijkheid
+Een lezing telt alleen als hij gedaan is door een agent die de strip niet zelf schreef en (bij de tweede lezing) ook de eerste lezing niet deed. Kun je dat niet garanderen, zet dan `"onafhankelijk": false` in het redactieverslag: de site toont de strip dan als "nog niet onafhankelijk nagelezen". Een subagent kan zelf geen nieuwe subagents starten; de hoofdsessie van de nachtelijke run start daarom elke rol (schrijver, eerste lezing, tweede lezing) als een aparte subagent.
+
 ## Tweede lezing
 Na de eerste redacteur leest een tweede, onafhankelijke redacteur dezelfde strip. In de proef vond die na de eerste lezing nog ongeveer 8 fouten per strip, waarvan een deel door de eerste redacteur zelf was toegevoegd.
 - Lees de strip, de bron, de lessen en het redactieverslag van de eerste lezing.

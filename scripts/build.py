@@ -109,8 +109,7 @@ def delen_nav(punt):
     if not d:
         return ""
     items = []
-    for n in range(1, d["van"] + 1):
-        pid = f"{d['ouder_id']}-d{n}"
+    for n, pid in enumerate(d.get("ids") or [f"{d['ouder_id']}-d{k}" for k in range(1, d["van"] + 1)], 1):
         af = ROOT / "data" / "agendapunten" / f"{pid}.json"
         fase = json.loads(af.read_text())["deel"]["fase"] if af.exists() else ""
         heeft = (ROOT / "public" / "d" / f"{pid}.html").exists() or (ROOT / "data" / "strips" / f"{pid}.json").exists()
@@ -131,6 +130,8 @@ def redactie_regel(punt, strip):
     if not f.exists():
         return '<p class="note">Nog niet nagelezen door de redactie.</p>'
     r = json.loads(f.read_text())
+    if r.get("onafhankelijk") is False:
+        return '<p class="note">Nog niet onafhankelijk nagelezen door de redactie.</p>'
     if r.get("verslag_id") != strip.get("verslag_id"):
         return '<p class="note">Het verslag is bijgewerkt; de redactie leest deze strip opnieuw na.</p>'
     n = len(r.get("bevindingen", []))

@@ -165,10 +165,60 @@ def knip(punt):
     return delen
 
 
+FASENAMEN = {"kamer": ["Inbreng van de Kamer", "Tweede termijn van de Kamer", "Derde termijn van de Kamer"],
+             "kabinet": ["Antwoord van het kabinet", "Antwoord in tweede termijn", "Antwoord in derde termijn"]}
+
+
+def nummer_debatten(punten):
+    """Eén debat kan over meerdere agendapunten lopen (voortzetting na een schorsing, met hetzelfde
+    parlisid) en is soms ook nog in delen geknipt. Nummer alle stukken van één debat door, op volgorde,
+    en geef elk stuk zijn fase(s), zodat 'deel 3 van 7' en 'Tweede termijn' over het hele debat kloppen."""
+    debatten = {}
+    for p in punten:
+        sleutel = (p["vergadering"]["id"], p["parlisid"] or p["titel"])
+        debatten.setdefault(sleutel, []).append(p)
+    for (verg, _), stukken in debatten.items():
+        if len(stukken) == 1 or stukken[0]["soort_activiteit"] in ("Stemmingen", "Regeling van werkzaamheden"):
+            stukken[0].pop("deel", None)
+            continue
+        stukken.sort(key=lambda p: (p["begin"], p["id"]))
+        teller, vorige = {"kamer": 0, "kabinet": 0}, None
+        debat_id = "debat-" + (stukken[0]["parlisid"] or stukken[0]["id"]) + "-" + stukken[0]["vergadering"]["datum"]
+        totaal = sum(p["woorden"] for p in stukken)
+        for i, p in enumerate(stukken, 1):
+            namen = []
+            groepen = {}
+            for b in p["beurten"]:
+                groepen.setdefault(b["deel"], []).append(b)
+            for _, g in sorted(groepen.items()):
+                k = fase(g)
+                if not k or k == vorige:
+                    if k and not namen:  # dit stuk loopt door in de fase van het vorige stuk
+                        namen.append(FASENAMEN[k][min(teller[k] - 1, 2)])
+                    continue
+                if k == "kamer" and teller["kabinet"] > teller["kamer"]:
+                    teller["kamer"] = teller["kabinet"]  # de Kamer spreekt na een antwoord: tweede termijn
+                namen.append(FASENAMEN[k][min(teller[k], 2)])
+                teller[k] += 1
+                vorige = k
+            naam = namen[0] if namen else "Ordedebat"
+            for extra in namen[1:]:
+                if extra not in naam:
+                    naam += " en " + extra[0].lower() + extra[1:]
+            sprekers = []
+            for b in p["beurten"]:
+                if b["rol"] == "woordvoerder" and not b["voorzitter"] and b["spreker"]["verslagnaam"] not in sprekers:
+                    sprekers.append(b["spreker"]["verslagnaam"])
+            wie = ", ".join(sprekers[:4]) + (f" en {len(sprekers) - 4} anderen" if len(sprekers) > 4 else "")
+            p["deel"] = {"nummer": i, "van": len(stukken), "fase": naam, "sprekers": wie, "ouder_id": debat_id,
+                         "ouder_titel": stukken[0]["titel"], "woorden_totaal": totaal,
+                         "ids": [x["id"] for x in stukken]}
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     index = json.loads((ROOT / "data" / "vergaderingen.json").read_text())
-    n = 0
+    alle = []
     for verg_id, meta in index.items():
         root = ET.parse(RAW / f"{verg_id}.xml").getroot()
         for act in root.iter(NS + "activiteit"):
@@ -180,6 +230,7 @@ def main():
                 continue
             punt = {
                 "id": act.get("objectid"), "titel": titel, "onderwerp": t(act, "onderwerp"),
+                "parlisid": t(act, "parlisid"), "voortzetting": t(act, "voortzetting") == "true",
                 "soort_activiteit": act.get("soort"), "begin": t(act, "aanvangstijd"),
                 "eind": t(act, "eindtijd"), "vergadering": {"id": verg_id, **meta},
                 "woorden": sum(len(b["tekst"].split()) for b in bs), "beurten": bs,
@@ -189,10 +240,11 @@ def main():
                 oud.unlink()
             if len(delen) > 1:
                 (OUT / f"{punt['id']}.json").unlink(missing_ok=True)  # alleen de delen bestaan nog
-            for d in delen:
-                (OUT / f"{d['id']}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1))
-                n += 1
-    print(f"{n} agendapunten geschreven")
+            alle.extend(delen)
+    nummer_debatten(alle)
+    for d in alle:
+        (OUT / f"{d['id']}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1))
+    print(f"{len(alle)} agendapunten geschreven")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,8 @@
  "id": "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d5",
  "titel": "Pakket Belastingplan 2027",
  "onderwerp": "Pakket Belastingplan 2027",
+ "parlisid": "2026A07998",
+ "voortzetting": true,
  "soort_activiteit": "Plenair debat",
  "begin": "2026-11-10T22:10:11",
  "eind": "2026-11-10T22:43:24",
@@ -1429,12 +1431,20 @@
   }
  ],
  "deel": {
-  "nummer": 5,
-  "van": 5,
+  "nummer": 6,
+  "van": 6,
   "fase": "Antwoord in tweede termijn",
   "sprekers": "Eerenberg",
-  "ouder_id": "32280cdf-338e-4dcf-bb3b-ed6da0727ef7",
+  "ouder_id": "debat-2026A07998-2026-11-10",
   "ouder_titel": "Pakket Belastingplan 2027",
-  "woorden_totaal": 33584
+  "woorden_totaal": 35181,
+  "ids": [
+   "f366ee5a-0d8a-436c-9125-3a2c63f85196",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d1",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d2",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d3",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d4",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d5"
+  ]
  }
 }

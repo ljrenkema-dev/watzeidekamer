@@ -1,0 +1,173 @@
+{
+  "agendapunt": "c0b2be4c-9cd7-4be6-9421-01b294be732d-d1",
+  "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
+  "datum": "2026-11-12",
+  "oordeel": "aangepast",
+  "opmerking": "Beide lezingen zijn uitgevoerd door dezelfde agent als de schrijver, na elkaar, omdat in deze sessie geen tool beschikbaar was om nieuwe subagents te starten. Ze zijn dus niet onafhankelijk.",
+  "bevindingen": [
+    {
+      "waar": "vak 2 normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "In de ogen van Israël maakt Nederland sinds 7 oktober flink wat bokkensprongen. Hoe herwint de minister dat vertrouwen?",
+      "nieuw": "In Israëls ogen maakt Nederland sinds 7 oktober flink wat bokkensprongen. Hoe herwint de minister komend jaar dat vertrouwen?",
+      "waarom": "Stoffer vraagt wat de minister 'komend jaar' gaat doen; die tijdsaanduiding viel weg."
+    },
+    {
+      "waar": "vak 2 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L3",
+      "oud": "Israël vindt dat Nederland sinds 7 oktober vaak raar doet. Hoe wint de minister vertrouwen terug?",
+      "nieuw": "Israël vindt Nederland sinds 7 oktober onvoorspelbaar. Hoe wint de minister vertrouwen terug?",
+      "waarom": "'een behoorlijk aantal bokkensprongen' is niet 'vaak raar doen'; 'raar' maakt het spottender dan het citaat."
+    },
+    {
+      "waar": "vak 4 normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "… Ik vraag per amendement meer inzet. / … Ik vraag meer inzet.",
+      "nieuw": "Verzoeningsprojecten tussen Israëli's en Palestijnen zijn een pad naar vrede. Mijn amendement vraagt daar meer inzet op. / … Ik vraag daar meer inzet voor.",
+      "waarom": "Het amendement vraagt meer inzet 'op deze vredesinitiatieven'; zonder 'daar' was niet duidelijk waarop."
+    },
+    {
+      "waar": "vak 6 citaat en tekst",
+      "soort": "neutraliteit",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "citaat zonder 'Natuurlijk moeten we mensen in nood helpen om de winter door te komen, maar'; tekst: Oekraïne krijgt 1,2 miljard steun voor de winter, mensen in energiearmoede hier 193 miljoen. Veel te weinig.",
+      "nieuw": "citaat verlengd met 'Natuurlijk moeten we mensen in nood helpen om de winter door te komen, maar in Nederland …'; tekst: Natuurlijk moeten we mensen in nood helpen. Maar Oekraïne krijgt 1,2 miljard, energiearmoede hier 193 miljoen. Veel te weinig.",
+      "waarom": "Dobbe begint met 'Natuurlijk moeten we mensen in nood helpen'; zonder die nuancering lijkt ze tegen de steun aan Oekraïne."
+    },
+    {
+      "waar": "samenvatting normaal en makkelijk, laatste kernpunt",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L4",
+      "oud": "Daarna steunen de woordvoerders het voorstel van de voorzitter …",
+      "nieuw": "Daarna is er volgens de voorzitter voldoende steun voor zijn voorstel …",
+      "waarom": "Niet alle woordvoerders reageerden (Stoffer niet); de voorzitter 'concludeer[t] dat er voldoende steun is'."
+    },
+    {
+      "waar": "standpunt Stoffer normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "of hij in Azerbeidzjan de Armeense krijgsgevangenen … ter sprake bracht",
+      "nieuw": "of hij in Azerbeidzjan de vrijlating van de Armeense krijgsgevangenen … ter sprake bracht",
+      "waarom": "Stoffer vraagt naar 'de vrijlating van de Armeense krijgsgevangenen'."
+    },
+    {
+      "waar": "standpunt Teunissen normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "afspraken die het Internationaal Strafhof raken",
+      "nieuw": "afspraken die gevolgen hebben voor arrestatiebevelen, onderzoeken of vervolgingen van het Internationaal Strafhof",
+      "waarom": "Teunissen noemt precies 'bestaande arrestatiebevelen, lopende onderzoeken of toekomstige vervolgingen'; 'raken' is te vaag."
+    },
+    {
+      "waar": "standpunt Teunissen makkelijk",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "(zonder Oekraïne)",
+      "nieuw": "+ Ook wil zij dat Nederland Oekraïne blijft steunen.",
+      "waarom": "De normale versie noemt de steun aan Oekraïne, de makkelijke niet."
+    },
+    {
+      "waar": "standpunt Van der Plas normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "haar moeder het gezag gaf",
+      "nieuw": "haar moeder als enige het gezag gaf",
+      "waarom": "De rechter bepaalde 'dat haar moeder als enige het gezag heeft'."
+    },
+    {
+      "waar": "standpunt Van der Plas makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L5",
+      "oud": "Zij dient een motie in voor meer druk.",
+      "nieuw": "Zij gaat een motie indienen voor meer druk.",
+      "waarom": "Ze zegt 'Ik ga een motie indienen'; die is in dit deel nog niet ingediend."
+    },
+    {
+      "waar": "kernpunt 1 normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L6",
+      "oud": "een koepel van onder meer Hamas",
+      "nieuw": "een koepel van Hamas, de Palestijnse Islamitische Jihad en de PFLP",
+      "waarom": "Stoffer noemt de koepel 'bestaande uit Hamas, de Palestijnse Islamitische Jihad en de PFLP'."
+    },
+    {
+      "waar": "kernpunt 1 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L5",
+      "oud": "Hij vindt het kabinet naïef over de BDS-beweging.",
+      "nieuw": "Hij vraagt wanneer het kabinet minder naïef wordt over de BDS-beweging.",
+      "waarom": "Stoffer stelt een vraag: 'wanneer schudt het de naïviteit eens van zich af?'."
+    }
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-12",
+    "bevindingen": [
+      {
+        "waar": "vak 2 normaal (wijziging eerste lezing)",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "Hoe herwint de minister komend jaar dat vertrouwen?",
+        "nieuw": "Hoe herwint de minister komend jaar Israëls vertrouwen?",
+        "waarom": "'dat vertrouwen' verwijst nergens naar: in de ballon wordt vertrouwen niet eerder genoemd ('het vertrouwen van deze belangrijke partner')."
+      },
+      {
+        "waar": "vak 3 makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Nederland kan en moet veel meer doen tegen de genocide. Alle wapenhandel met Israël kan stoppen.",
+        "nieuw": "Nederland kan en moet veel meer doen tegen genocide. Wij kunnen alle wapenhandel met Israël stoppen.",
+        "waarom": "Makkelijk vraagt actieve vorm en zeggen wie het doet: 'kunnen we … stopzetten'."
+      },
+      {
+        "waar": "vak 6 normaal en makkelijk (wijziging eerste lezing)",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L6",
+        "oud": "Natuurlijk moeten we mensen in nood helpen. Maar Oekraïne krijgt 1,2 miljard, energiearmoede hier 193 miljoen. Veel te weinig. / Oekraïne krijgt 1,2 miljard. Helpen moet. Maar 193 miljoen voor energiearmoede hier is veel te weinig.",
+        "nieuw": "Oekraïne krijgt 1,2 miljard voor de winter. Natuurlijk, maar 193 miljoen tegen energiearmoede hier is veel te weinig. / Oekraïne krijgt 1,2 miljard voor de winter. Natuurlijk. Maar 193 miljoen hier is veel te weinig.",
+        "waarom": "Na de wijziging van de eerste lezing viel 'om de winter door te komen' weg, waardoor 1,2 miljard leek op alle steun aan Oekraïne; het is 'niet-militaire steun … om de winter door te komen'. De nuance 'Natuurlijk' blijft staan."
+      },
+      {
+        "waar": "kernpunt Ceder normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "(niet vermeld)",
+        "nieuw": "+ Over Armenië sluit hij zich aan bij de vragen van Stoffer (SGP).",
+        "waarom": "Ceder zegt zelf: 'Ten aanzien van Armenië sluit ik mij aan bij de vragen van de heer Stoffer'. Zijn verwijzing naar Van der Werf (Suriname) is niet opgenomen, omdat haar vragen niet in dit deel staan."
+      }
+    ],
+    "afgewezen": [
+      {
+        "waar": "vak 7 normaal en makkelijk",
+        "waarom": "'tien jaar geleden' overwogen onder L7, maar het is de eigen formulering van Van der Plas in haar ballon en hangt niet af van de leesdag van de site op de manier van 'gisteren' of 'vorige week'; in standpunt en kernpunten staat geen relatieve datum."
+      },
+      {
+        "waar": "vak 2 makkelijk (wijziging eerste lezing)",
+        "waarom": "'onvoorspelbaar' voor 'bokkensprongen' gecontroleerd en goedgekeurd: dichter bij het citaat dan 'raar doen', en 'In de ogen van Israël' is weergegeven met 'Israël vindt'."
+      },
+      {
+        "waar": "titel",
+        "waarom": "'Vijf partijen' overwogen omdat ook D66 en CDA interrumpeerden; het klopt dat vijf fracties hier hun inbreng geven, en de titel is neutraal (L8)."
+      }
+    ]
+  },
+  "onafhankelijk": false
+}

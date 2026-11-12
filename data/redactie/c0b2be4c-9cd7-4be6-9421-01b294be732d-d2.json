@@ -1,0 +1,91 @@
+{
+  "agendapunt": "c0b2be4c-9cd7-4be6-9421-01b294be732d-d2",
+  "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
+  "datum": "2026-11-12",
+  "oordeel": "aangepast",
+  "bevindingen": [
+    {
+      "waar": "samenvatting makkelijk",
+      "soort": "taal",
+      "ernst": "middel",
+      "les": "nieuw",
+      "oud": "Dit is het tweede deel van het debat over de begroting van Buitenlandse Zaken. Minister Berendsen geeft antwoord op vragen over Oekraïne, de G20 en Israël. DENK en SP vragen waarom Europa niet zelf werkt aan vredesgesprekken. De minister wil geen tweede tafel naast de gesprekken in Abu Dhabi. Wel zegt hij dat Europa daar nu te weinig inbreng heeft. Poetin wel en Zelensky niet bij de G20 vindt hij zeker onwenselijk. Wat Nederland dan doet, overlegt hij met gelijkgestemde landen. Hij ziet bij andere EU-landen nu geen ruimte voor meer druk op Israël. Zij wachten op een nieuwe Israëlische regering. Een week na het debat praat hij met mensen van de Rode Lijn-demonstratie.",
+      "nieuw": "In dit tweede deel van het debat over Buitenlandse Zaken antwoordt minister Berendsen op vragen over Oekraïne, de G20 en Israël. Een tweede vredestafel naast Abu Dhabi wil hij niet, maar Europa heeft daar nu te weinig inbreng, zegt hij. Poetin wel en Zelensky niet bij de G20 vindt hij zeker onwenselijk. Bij andere EU-landen ziet hij nu geen ruimte voor meer druk op Israël. In de week na het debat praat hij met mensen van de Rode Lijn-demonstratie.",
+      "waarom": "prompts/strip.md vraagt 3-5 korte zinnen; het waren er 10, en 'Een week na het debat' was onnauwkeurig voor 'volgende week'."
+    },
+    {
+      "waar": "samenvatting normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L9",
+      "oud": "… zeker onwenselijk … ; PRO noemt dat 'slappe hap'.",
+      "nieuw": "… met gelijkgestemde landen bekijkt …; PRO noemt dat 'slappe hap'. Daarna zegt hij dat het zeker onwenselijk is …",
+      "waarom": "Piri zei 'slappe hap' over 'hoe we met gelijkgestemde landen hierin het beste kunnen optreden' (beurt 55), niet over het latere 'zeker een onwenselijke situatie' (beurt 60)."
+    },
+    {
+      "waar": "vak 4 normaal",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "nieuw",
+      "oud": "Poetin erbij en Zelensky niet, vinden we zeker onwenselijk. Onze acties stemmen we af met gelijkgestemde landen.",
+      "nieuw": "Poetin erbij en Zelensky niet: dat vinden we zeker onwenselijk. Onze acties stemmen we af met gelijkgestemde landen.",
+      "waarom": "De zin liep grammaticaal niet ('…, vinden we zeker onwenselijk')."
+    },
+    {
+      "waar": "vak 7 normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "200.000 demonstranten kregen ruim een half A4'tje dat niet op hun eisen ingaat. Is dat echt het antwoord? / Het briefje aan 200.000 demonstranten gaat niet over hun eisen. Is dat het antwoord?",
+      "nieuw": "Er stonden 200.000 mensen. We kregen ruim een half A4'tje dat niet op hun eisen ingaat. Is dat echt het antwoord? / 200.000 mensen demonstreerden. Het korte briefje gaat niet in op hun eisen. Is dat echt het antwoord?",
+      "waarom": "Citaat: 'En wat hebben we gekregen?' — het briefje is niet aantoonbaar aan de demonstranten gestuurd; ook 'echt' ontbrak in makkelijk."
+    },
+    {
+      "waar": "vak 8 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "Meer EU-druk lukt nu niet. Na een nieuwe Israëlische regering zetten we vol druk.",
+      "nieuw": "Meer druk samen met EU-landen lukt nu niet. Na een nieuwe Israëlische regering zetten we vol druk.",
+      "waarom": "Citaat: 'de druk niet gezamenlijk verder kunnen opvoeren'; 'samen' stond wel in normaal maar niet in makkelijk."
+    },
+    {
+      "waar": "woorden: Rode Lijn",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L4",
+      "oud": "Demonstratie in Amsterdam over Israël en de Palestijnse gebieden. Volgens SP en PvdD deden er 200.000 mensen mee. Een van de eisen was het stoppen van de wapenhandel met Israël.",
+      "nieuw": "Demonstratie in Amsterdam over Israël en de Palestijnse gebieden. Volgens SP en PvdD deden er 200.000 mensen mee. Volgens de PvdD was een van de eisen het stoppen van de wapenhandel met Israël.",
+      "waarom": "De eis over wapenhandel noemde alleen Teunissen ('Het was ook een van de eisen van de Rode Lijn')."
+    },
+    {
+      "waar": "kernpunten makkelijk 5",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "nieuw",
+      "oud": "De minister wil die twee niet tegen elkaar uitspelen.",
+      "nieuw": "De minister wil hulp aan Oekraïne en armoede hier niet tegen elkaar uitspelen.",
+      "waarom": "'die twee' is los gelezen onduidelijk."
+    },
+    {
+      "waar": "kernpunten makkelijk laatste",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "Een week na het debat praat de minister met mensen van de Rode Lijn-demonstratie.",
+      "nieuw": "In de week na het debat praat de minister met mensen van de Rode Lijn-demonstratie.",
+      "waarom": "De minister zei 'volgende week', niet precies een week later."
+    },
+    {
+      "waar": "kernpunten normaal 8",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L9",
+      "oud": "De minister zegt toe het juridisch advies over bredere nationale handelsmaatregelen voor eind 2026 naar de Kamer te sturen. Ook zijn reactie op het ontmoedigingsbeleid komt voor het einde van het jaar.",
+      "nieuw": "De minister zegt toe het juridisch advies over bredere nationale handelsmaatregelen voor eind 2026 naar de Kamer te sturen. DENK vraagt om aanvullende nationale maatregelen; de minister zegt dat hij het ontmoedigingsbeleid verkent en zijn reactie daarop voor het einde van het jaar meeneemt in de brief over de eventuele uitbreiding van de sanctiemaatregelen.",
+      "waarom": "De vraag van DENK naar nationale maatregelen en het antwoord ('Ook dat zijn we natuurlijk aan het verkennen') ontbraken in de kernpunten."
+    }
+  ],
+  "let_op": "Deze eerste lezing is NIET door een onafhankelijke subagent gedaan: er was geen Agent-tool beschikbaar, dus de schrijver van de strip las zelf na. Een echte onafhankelijke eerste en tweede lezing moeten nog gebeuren.",
+  "onafhankelijk": false
+}

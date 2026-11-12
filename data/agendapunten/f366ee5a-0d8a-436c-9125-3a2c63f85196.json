@@ -2,6 +2,8 @@
  "id": "f366ee5a-0d8a-436c-9125-3a2c63f85196",
  "titel": "Pakket Belastingplan 2027",
  "onderwerp": "Pakket Belastingplan 2027",
+ "parlisid": "2026A07998",
+ "voortzetting": false,
  "soort_activiteit": "Plenair debat",
  "begin": "2026-11-10T16:31:48",
  "eind": "2026-11-10T16:40:38",
@@ -497,5 +499,22 @@
    "tekst": "Ik ben het met u eens dat dit een bijzondere gang van zaken is. Ik constateer dat u in de vaste Kamercommissie een meerderheid heeft gevonden om vanavond de voortzetting van de behandeling van de novelle box 3 te laten plaatsvinden. Het ordedebat dat nu plaatsvindt, gaat over de vraag in welke volgorde we dat doen, in relatie tot de behandeling van het Belastingplan. De Kamer heeft nu in meerderheid besloten om te beginnen met de tweede termijn van de zijde van de minister ten aanzien van de behandeling van de novelle box 3. Dat gaan we doen. Na afronding daarvan — tegen meneer Stultiens zeg ik: daar zullen we genoeg tijd voor inlassen — zal de voorzetting plaatsvinden van de behandeling van het pakket Belastingplan 2027. We beginnen dan met de staatssecretaris en sluiten af met de minister. Daarna heeft u uw tweede termijn bij de behandeling van het pakket Belastingplan 2027. Ik constateer dat we het zo gaan doen.",
    "deel": 0
   }
- ]
+ ],
+ "deel": {
+  "nummer": 1,
+  "van": 6,
+  "fase": "Ordedebat",
+  "sprekers": "",
+  "ouder_id": "debat-2026A07998-2026-11-10",
+  "ouder_titel": "Pakket Belastingplan 2027",
+  "woorden_totaal": 35181,
+  "ids": [
+   "f366ee5a-0d8a-436c-9125-3a2c63f85196",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d1",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d2",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d3",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d4",
+   "32280cdf-338e-4dcf-bb3b-ed6da0727ef7-d5"
+  ]
+ }
 }

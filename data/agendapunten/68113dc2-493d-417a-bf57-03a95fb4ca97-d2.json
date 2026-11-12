@@ -2,6 +2,8 @@
  "id": "68113dc2-493d-417a-bf57-03a95fb4ca97-d2",
  "titel": "Pakket Belastingplan 2027",
  "onderwerp": "Pakket Belastingplan 2027",
+ "parlisid": "2026A08376",
+ "voortzetting": true,
  "soort_activiteit": "Plenair debat",
  "begin": "2026-11-12T13:34:35",
  "eind": "2026-11-12T16:47:30",
@@ -2149,12 +2151,19 @@
   }
  ],
  "deel": {
-  "nummer": 2,
-  "van": 3,
+  "nummer": 4,
+  "van": 5,
   "fase": "Inbreng van de Kamer",
   "sprekers": "Bontenbal, Schenk",
-  "ouder_id": "68113dc2-493d-417a-bf57-03a95fb4ca97",
+  "ouder_id": "debat-2026A08376-2026-11-12",
   "ouder_titel": "Pakket Belastingplan 2027",
-  "woorden_totaal": 34516
+  "woorden_totaal": 54317,
+  "ids": [
+   "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1",
+   "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d2",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d1",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d2",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d3"
+  ]
  }
 }

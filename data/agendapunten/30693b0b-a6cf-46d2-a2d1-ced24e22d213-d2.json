@@ -2,6 +2,8 @@
  "id": "30693b0b-a6cf-46d2-a2d1-ced24e22d213-d2",
  "titel": "Novelle uitbreiding vermogenswinstbelasting box 3",
  "onderwerp": "Novelle uitbreiding vermogenswinstbelasting box 3",
+ "parlisid": "2026A07547",
+ "voortzetting": false,
  "soort_activiteit": "Wetgevingsoverleg",
  "begin": "2026-11-09T16:57:44",
  "eind": "2026-11-09T23:01:05",
@@ -1388,8 +1390,17 @@
   "van": 7,
   "fase": "Inbreng van de Kamer",
   "sprekers": "Vlottes, Inge van Dijk, Van Brenk",
-  "ouder_id": "30693b0b-a6cf-46d2-a2d1-ced24e22d213",
+  "ouder_id": "debat-2026A07547-2026-11-09",
   "ouder_titel": "Novelle uitbreiding vermogenswinstbelasting box 3",
-  "woorden_totaal": 58039
+  "woorden_totaal": 58039,
+  "ids": [
+   "30693b0b-a6cf-46d2-a2d1-ced24e22d213-d1",
+   "30693b0b-a6cf-46d2-a2d1-ced24e22d213-d2",
+   "30693b0b-a6cf-46d2-a2d1-ced24e22d213-d3",
+   "30693b0b-a6cf-46d2-a2d1-ced24e22d213-d4",
+   "30693b0b-a6cf-46d2-a2d1-ced24e22d213-d5",
+   "30693b0b-a6cf-46d2-a2d1-ced24e22d213-d6",
+   "30693b0b-a6cf-46d2-a2d1-ced24e22d213-d7"
+  ]
  }
 }

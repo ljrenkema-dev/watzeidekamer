@@ -2,6 +2,8 @@
  "id": "c0b2be4c-9cd7-4be6-9421-01b294be732d-d2",
  "titel": "Begroting Buitenlandse Zaken 2027",
  "onderwerp": "Begroting Buitenlandse Zaken (37020-V) 1e TK",
+ "parlisid": "2026A05416",
+ "voortzetting": true,
  "soort_activiteit": "Plenair debat",
  "begin": "2026-11-11T18:31:44",
  "eind": "2026-11-11T20:23:00",
@@ -1654,12 +1656,20 @@
   }
  ],
  "deel": {
-  "nummer": 2,
-  "van": 3,
+  "nummer": 5,
+  "van": 6,
   "fase": "Antwoord van het kabinet",
   "sprekers": "Berendsen",
-  "ouder_id": "c0b2be4c-9cd7-4be6-9421-01b294be732d",
+  "ouder_id": "debat-2026A05416-2026-11-11",
   "ouder_titel": "Begroting Buitenlandse Zaken 2027",
-  "woorden_totaal": 22139
+  "woorden_totaal": 48288,
+  "ids": [
+   "b48091ca-ab96-492a-84a8-14e4d85d4159-d1",
+   "b48091ca-ab96-492a-84a8-14e4d85d4159-d2",
+   "00cb5f5f-f39d-4471-8450-6441281c6050",
+   "c0b2be4c-9cd7-4be6-9421-01b294be732d-d1",
+   "c0b2be4c-9cd7-4be6-9421-01b294be732d-d2",
+   "c0b2be4c-9cd7-4be6-9421-01b294be732d-d3"
+  ]
  }
 }

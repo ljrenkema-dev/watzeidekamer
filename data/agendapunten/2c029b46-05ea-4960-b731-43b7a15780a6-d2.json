@@ -2,6 +2,8 @@
  "id": "2c029b46-05ea-4960-b731-43b7a15780a6-d2",
  "titel": "Voortzetting wetgevingsoverleg begrotingsonderdeel politie (artikel 31)",
  "onderwerp": "Voortzetting wetgevingsoverleg begrotingsonderdeel politie (artikel 31)",
+ "parlisid": "2026A08070",
+ "voortzetting": false,
  "soort_activiteit": "Wetgevingsoverleg",
  "begin": "2026-11-10T20:17:30",
  "eind": "2026-11-10T21:01:30",
@@ -1058,8 +1060,12 @@
   "van": 2,
   "fase": "Antwoord van het kabinet",
   "sprekers": "Van Weel",
-  "ouder_id": "2c029b46-05ea-4960-b731-43b7a15780a6",
+  "ouder_id": "debat-2026A08070-2026-11-10",
   "ouder_titel": "Voortzetting wetgevingsoverleg begrotingsonderdeel politie (artikel 31)",
-  "woorden_totaal": 16329
+  "woorden_totaal": 16329,
+  "ids": [
+   "2c029b46-05ea-4960-b731-43b7a15780a6-d1",
+   "2c029b46-05ea-4960-b731-43b7a15780a6-d2"
+  ]
  }
 }

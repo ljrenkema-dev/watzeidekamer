@@ -2,6 +2,8 @@
  "id": "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1",
  "titel": "Pakket Belastingplan 2027",
  "onderwerp": "Pakket Belastingplan 2027",
+ "parlisid": "2026A08376",
+ "voortzetting": false,
  "soort_activiteit": "Plenair debat",
  "begin": "2026-11-12T10:16:15",
  "eind": "2026-11-12T12:45:07",
@@ -1550,11 +1552,18 @@
  ],
  "deel": {
   "nummer": 1,
-  "van": 2,
+  "van": 5,
   "fase": "Inbreng van de Kamer",
   "sprekers": "Klaver, Paternotte",
-  "ouder_id": "be0a626e-43e2-48d7-8d1e-2c60fd372f02",
+  "ouder_id": "debat-2026A08376-2026-11-12",
   "ouder_titel": "Pakket Belastingplan 2027",
-  "woorden_totaal": 19801
+  "woorden_totaal": 54317,
+  "ids": [
+   "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1",
+   "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d2",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d1",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d2",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d3"
+  ]
  }
 }

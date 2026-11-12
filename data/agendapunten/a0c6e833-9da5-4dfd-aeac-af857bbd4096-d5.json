@@ -2,6 +2,8 @@
  "id": "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d5",
  "titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
  "onderwerp": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
+ "parlisid": "2026A05223",
+ "voortzetting": false,
  "soort_activiteit": "Wetgevingsoverleg",
  "begin": "2026-11-09T14:57:55",
  "eind": "2026-11-09T18:23:34",
@@ -728,8 +730,18 @@
   "van": 8,
   "fase": "Antwoord van het kabinet",
   "sprekers": "Van Weel",
-  "ouder_id": "a0c6e833-9da5-4dfd-aeac-af857bbd4096",
+  "ouder_id": "debat-2026A05223-2026-11-09",
   "ouder_titel": "Wetgevingsoverleg over de begrotingen van de ministeries EZ, BZK en JenV voor zover het onderwerpen betreft die zien op digitalisering",
-  "woorden_totaal": 67298
+  "woorden_totaal": 67298,
+  "ids": [
+   "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d1",
+   "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d2",
+   "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d3",
+   "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d4",
+   "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d5",
+   "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d6",
+   "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d7",
+   "a0c6e833-9da5-4dfd-aeac-af857bbd4096-d8"
+  ]
  }
 }

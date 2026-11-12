@@ -2,6 +2,8 @@
  "id": "a0bfd881-fa34-4a1b-8372-74e0de7f8bc1-d3",
  "titel": "Wetgevingsoverleg OCW-begroting, onderdeel Cultuur",
  "onderwerp": "Wetgevingsoverleg OCW-begroting, onderdeel Cultuur",
+ "parlisid": "2026A05836",
+ "voortzetting": false,
  "soort_activiteit": "Wetgevingsoverleg",
  "begin": "2026-11-09T13:01:25",
  "eind": "2026-11-09T15:59:58",
@@ -908,8 +910,14 @@
   "van": 4,
   "fase": "Antwoord van het kabinet",
   "sprekers": "Letschert",
-  "ouder_id": "a0bfd881-fa34-4a1b-8372-74e0de7f8bc1",
+  "ouder_id": "debat-2026A05836-2026-11-09",
   "ouder_titel": "Wetgevingsoverleg OCW-begroting, onderdeel Cultuur",
-  "woorden_totaal": 47884
+  "woorden_totaal": 47884,
+  "ids": [
+   "a0bfd881-fa34-4a1b-8372-74e0de7f8bc1-d1",
+   "a0bfd881-fa34-4a1b-8372-74e0de7f8bc1-d2",
+   "a0bfd881-fa34-4a1b-8372-74e0de7f8bc1-d3",
+   "a0bfd881-fa34-4a1b-8372-74e0de7f8bc1-d4"
+  ]
  }
 }
