@@ -33,7 +33,7 @@ def page(title, body, scripts=""):
 </head><body><div class="wrap">
 <header class="top"><a class="home" href="/">Wat zei de <mark>Kamer?</mark></a><span class="note">Tweede Kamer in makkelijke taal</span></header>
 {body}
-<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in makkelijke taal gezet. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn verzonnen en lijken niet op echte personen. Geen officiële site van de Tweede Kamer.</footer>
+<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in makkelijke taal gezet. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer.</footer>
 </div>{scripts}</body></html>"""
 
 

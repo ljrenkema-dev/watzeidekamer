@@ -141,6 +141,7 @@ function hairBack(k,c){
   switch(k){
     case "half-lang": return `<path d="M23 54 C17 16 83 16 77 54 L79 84 L65 82 L64 54 L36 54 L35 82 L21 84Z" fill="${c}"/>`;
     case "half-lang-krul": return `<path d="M23 54 C17 16 83 16 77 54 L78 80 L64 80 L64 54 L36 54 L36 80 L22 80Z" fill="${c}"/>`+curls([[21,58],[19,72],[24,82],[79,58],[81,72],[76,82]],8,c);
+    case "half-lang-golf": return `<path d="M23 54 C17 16 83 16 77 54 C81 62 76 68 80 76 C82 80 78 84 72 84 L64 82 L64 54 L36 54 L36 82 L28 84 C22 84 18 80 20 76 C24 68 19 62 23 54Z" fill="${c}" ${HS}/>`;
     case "lang": return `<path d="M22 54 C15 14 85 14 78 54 L83 104 L64 100 L64 56 L36 56 L36 100 L17 104Z" fill="${c}"/>`;
     case "lang-krul": return `<path d="M22 54 C15 14 85 14 78 54 L82 100 L64 98 L64 56 L36 56 L36 98 L18 100Z" fill="${c}"/>`+curls([[20,58],[17,74],[19,90],[80,58],[83,74],[81,90],[26,98],[74,98]],8,c);
     case "vlechten": return `<path d="M22 54 C15 14 85 14 78 54 L82 104 L64 100 L64 56 L36 56 L36 100 L18 104Z" fill="${c}"/>`+
@@ -163,6 +164,7 @@ function hairFront(k,c){
     case "kort-krul": return curls([[29,46],[30,35],[38,26],[49,22],[60,24],[69,31],[72,43],[42,35],[56,34]],8,c);
     case "opgeschoren": return `<path d="M27 54 C23 22 77 22 73 54 L71 45 C66 39 34 39 29 45 Z" fill="${c}" fill-opacity=".85" ${HS}/>`;
     case "kort-dun": return `<path d="M26 58 C24 44 26 36 31 32 L33 60 L28 60Z M74 58 C76 44 74 36 69 32 L67 60 L72 60Z" fill="${c}"/><path d="M30 42 C32 24 68 24 70 42 C64 36 56 34 50 35 C44 34 36 36 30 42Z" fill="${c}" fill-opacity=".85" ${HS}/>`;
+    case "half-lang-golf": return `<path d="M27 50 C26 30 34 22 44 22 C40 30 46 34 52 30 C56 24 70 24 73 50 C68 42 62 36 56 36 C48 42 36 42 27 50Z" fill="${c}"/>`;
     case "half-lang": case "lang": return `<path d="M27 50 C28 22 72 22 73 50 C66 40 58 36 54 32 C48 40 36 44 27 50Z" fill="${c}"/>`;
     case "vlechten": return `<path d="M27 50 C28 24 72 24 73 50 C66 40 54 34 50 32 C46 34 34 40 27 50Z" fill="${c}"/>`;
     case "staart": return `<path d="M27 50 C26 22 74 22 73 50 C70 40 62 34 50 33 C38 34 30 40 27 50Z" fill="${c}" ${HS}/>`+SHINE("M40 27 C46 24 56 24 62 27");
