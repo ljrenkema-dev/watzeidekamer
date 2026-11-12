@@ -5,7 +5,10 @@
 Stijlen: zw (zwart-wit met partijkleur als accent) en kleur (gekleurde manga). Uitvoer per stijl in data/manga/<stijl>/.
 
 Werkt via de gewone Gemini-API (generateContent); de API-sleutel zet de netwerkproxy erbij in de
-header x-goog-api-key (netwerksleutel in de omgeving 'watzeidekamer'). Er gaat GEEN portretfoto mee: de beschrijving komt uit data/uiterlijk.json.
+header x-goog-api-key (netwerksleutel in de omgeving 'watzeidekamer'). Standaard gaat er GEEN portretfoto mee: de
+beschrijving komt uit data/manga/beschrijvingen.json of data/uiterlijk.json. Alleen voor wie in beschrijvingen.json een
+veld 'toestemming_foto' van de eigenaar heeft, gaat het officiële portret (data/portret/, niet in git) mee als voorbeeld
+voor het neutrale beeld. De foto komt nooit op de site of in git.
 Het neutrale beeld wordt daarna als voorbeeld meegestuurd voor de andere emoties.
 Uitvoer: data/manga/<stijl>/<sleutel>/<emotie>.png of .jpg en een logboek met de gebruikte prompts.
 """
@@ -52,6 +55,12 @@ STIJLEN["manga"] = ("Full-colour Japanese manga / anime character illustration, 
                     "not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. "
                     "No border, no frame, no panel outline: the white background runs to the edges.")
 STIJL = STIJLEN["zw"]
+FOTO_PROMPT = ("Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, "
+               "eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of "
+               "the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: "
+               "respectful, not a caricature.\n\n{stijl}\nKeep their real clothing, but make the tie or scarf {kleur}. "
+               "Calm expression with the person's natural slight smile. Remove the lapel pin. "
+               "No text, no letters, no logos, no flags.")
 BESCHRIJVINGEN = ROOT / "data" / "manga" / "beschrijvingen.json"
 HAAR = {"zwart": "black", "donkerbruin": "dark brown", "bruin": "brown", "lichtbruin": "light brown", "blond": "blond",
         "platinablond": "platinum-blond", "rood": "red", "grijs": "grey", "wit": "white"}
@@ -80,6 +89,13 @@ def beschrijving(u, sleutel=None):
             kleur = ACCENT.get(u.get("fractie") or "", "dark grey")
             return "A fictional Dutch politician. " + eigen["beschrijving"].replace("the accent colour", f"{kleur}")
     return beschrijving_kenmerken(u)
+
+
+def foto_toegestaan(sleutel):
+    """Portret mag mee naar Gemini als de eigenaar dat voor deze persoon heeft goedgekeurd en het portret lokaal staat."""
+    eigen = json.loads(BESCHRIJVINGEN.read_text()).get(sleutel, {}) if BESCHRIJVINGEN.exists() else {}
+    pad = ROOT / "data" / "portret" / (sleutel.replace(":", "-") + ".jpg")
+    return pad if eigen.get("toestemming_foto") and pad.exists() else None
 
 
 def beschrijving_kenmerken(u):
@@ -135,6 +151,11 @@ def maak(sleutel, u, emoties, log, stijl="zw"):
         tekst_houding = HOUDINGEN.get(emo)
         tekst = f"{basis}\n{tekst_houding}" if tekst_houding else f"{basis}\nExpression: {EMOTIES[emo]}."
         delen = [{"text": tekst}]
+        foto = foto_toegestaan(sleutel) if emo == "neutraal" else None
+        if foto:
+            tekst = FOTO_PROMPT.format(stijl=STIJLEN[stijl], kleur=ACCENT.get(u.get("fractie") or "", "dark grey"))
+            delen = [{"text": tekst}, {"inlineData": {"mimeType": "image/jpeg",
+                                                      "data": base64.b64encode(foto.read_bytes()).decode()}}]
         ref = bestaand(map_, "neutraal")
         if emo != "neutraal" and ref:
             mime = "image/jpeg" if ref.suffix == ".jpg" else "image/png"
@@ -160,7 +181,8 @@ def maak(sleutel, u, emoties, log, stijl="zw"):
             continue
         uit = map_ / f"{emo}.{ext}"
         uit.write_bytes(beeld)
-        log.append({"wie": u["naam"], "emotie": emo, "stijl": stijl, "prompt": tekst, "model": MODEL})
+        log.append({"wie": u["naam"], "emotie": emo, "stijl": stijl, "prompt": tekst, "model": MODEL,
+                    "portretfoto_meegestuurd": bool(foto)})
         print(f"  {u['naam']} {emo}: {len(beeld) // 1024} kB")
         time.sleep(2)
 

@@ -3,7 +3,12 @@
   "naam": "Geert Wilders",
   "beschrijving": "A man in his early sixties with a broad, square face and a strong jaw. Very voluminous platinum-blond hair, brushed up and swept back from the forehead into a tall, rounded quiff. Light, slightly tanned skin, light eyebrows, a wide friendly smile showing teeth, slight smile lines around the eyes. Dark navy suit, white shirt, tie in the accent colour. No glasses.",
   "bron": "zelf beschreven naar het officiële portret; geen foto naar de beeldgenerator",
-  "goedgekeurd": false
+  "goedgekeurd": false,
+  "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
+  "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-12"
+  }
  },
  "0d036fcf-a456-4798-9b76-3f44eb74a451": {
   "naam": "Jesse Klaver",
@@ -21,7 +26,12 @@
   "naam": "Mona Keijzer",
   "beschrijving": "A woman in her late fifties with a slim, oval face. Long straight hair in a light silver-blond grey, parted slightly off-centre, falling past the shoulders. Round thin metal-framed glasses, light skin, a gentle closed-mouth smile, small pearl earrings. Dark grey textured tweed jacket, small scarf in the accent colour.",
   "bron": "zelf beschreven naar het officiële portret; geen foto naar de beeldgenerator",
-  "goedgekeurd": false
+  "goedgekeurd": false,
+  "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
+  "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-12"
+  }
  },
  "b41b2403-9f06-4d55-adc5-b0777373ca7e": {
   "naam": "Caroline van der Plas",
@@ -46,6 +56,11 @@
   "naam": "Don Ceder",
   "beschrijving": "A man around forty with a narrow, oval face and high cheekbones. Black hair combed back tightly from the forehead and tied at the back. A neatly trimmed short full beard and moustache. Medium-brown skin, dark eyes, a calm, slight closed-mouth smile. Dark suit, white shirt, tie in the accent colour. No glasses.",
   "bron": "zelf beschreven naar het officiële portret; geen foto naar de beeldgenerator",
-  "goedgekeurd": false
+  "goedgekeurd": false,
+  "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
+  "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-12"
+  }
  }
 }
