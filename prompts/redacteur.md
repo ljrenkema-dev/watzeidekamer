@@ -7,6 +7,8 @@ Je krijgt één agendapunt-id. Lees:
 - `data/strips/<id>.json` — de strip, in twee taalniveaus (`normaal` en `makkelijk`).
 - `prompts/strip.md` — de regels waaraan de strip moet voldoen.
 
+Lees ook `prompts/lessen.md`: de fouten die vaker voorkomen. Controleer daar extra op.
+
 Draai eerst:
 - `python3 scripts/check.py <id>` — letterlijke citaten, juiste sprekers, volgorde, vorm.
 - `python3 scripts/evenwicht.py <id>` — ruimte per partij tegenover spreektijd.
@@ -61,6 +63,7 @@ Schrijf `data/redactie/<id>.json`:
   "oordeel": "goed | aangepast | ingetrokken",
   "bevindingen": [
     {"waar": "vak 3 makkelijk", "soort": "juistheid | neutraliteit | evenwicht | taal", "ernst": "klein | middel | groot",
+     "les": "L1 … L12 uit prompts/lessen.md, of nieuw",
      "oud": "…", "nieuw": "…", "waarom": "één zin, met het woord uit het citaat waar het om gaat"}
   ]
 }

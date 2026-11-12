@@ -1,6 +1,8 @@
 # Opdracht: agendapunt samenvatten in twee taalniveaus en een strip maken
 
 Je krijgt één agendapunt uit een debat van de Tweede Kamer (`data/agendapunten/<id>.json`).
+Lees eerst **`prompts/lessen.md`**: fouten die eerder gemaakt zijn en die je niet opnieuw maakt. Controleer je tekst daar aan het eind zelf op.
+
 Schrijf `data/strips/<id>.json`. Draai daarna `python3 scripts/check.py <id>` en los elke fout op tot de check slaagt.
 
 ## Twee taalniveaus

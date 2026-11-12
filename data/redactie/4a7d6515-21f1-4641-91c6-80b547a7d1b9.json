@@ -10,7 +10,9 @@
       "ernst": "groot",
       "oud": "De begroting krijgt gaten van 2 tot 3 miljard per jaar. De novelle brengt nu 90% naar vermogenswinst. [citaat: 'Er vallen acute gaten in de begroting. …']",
       "nieuw": "Sneuvelt die wet, dan vallen er gaten van 2 tot 3 miljard per jaar. Met de novelle: 90% naar vermogenswinst. [citaat uitgebreid met de letterlijke voorafgaande zinnen uit dezelfde spreekbeurt]",
-      "waarom": "De minister zegt 'als die wet sneuvelt' vallen er gaten; strip en ingekort citaat brachten dat als vaststaand feit."
+      "waarom": "De minister zegt 'als die wet sneuvelt' vallen er gaten; strip en ingekort citaat brachten dat als vaststaand feit.",
+      "les": "L2",
+      "les_achteraf": true
     },
     {
       "waar": "vak 2 makkelijk",
@@ -18,7 +20,9 @@
       "ernst": "groot",
       "oud": "De begroting krijgt gaten van miljarden. Met de novelle valt nu 90% onder vermogenswinst.",
       "nieuw": "Sneuvelt die wet, dan krijgt de begroting elk jaar gaten van miljarden.",
-      "waarom": "Zelfde voorwaarde 'als die wet sneuvelt' ontbrak."
+      "waarom": "Zelfde voorwaarde 'als die wet sneuvelt' ontbrak.",
+      "les": "L2",
+      "les_achteraf": true
     },
     {
       "waar": "vak 7 (oud) / vak 6 (nieuw)",
@@ -26,7 +30,9 @@
       "ernst": "middel",
       "oud": "Heinen: Reken dat dan ook per Nederlander uit voor de uitgavenkant. In het voorjaar bekijken we de situatie opnieuw. [citaat uit spreekbeurt 58]",
       "nieuw": "Heinen: Het is gedekt in de kabinetsperiode. De 86 miljoen structureel wordt bij de uitgaven overdekt: per saldo afgerond nul. [citaat uit spreekbeurten 52 en 54, nu vóór Stultiens]",
-      "waarom": "Het antwoord van de minister op de hoofdvraag ('een gedekt pakket in de kabinetsperiode', 'per saldo afgerond nul') stond niet in de strip; bovendien maakte de tekst van zijn retorische vraag 'zullen we dat dan ook aan de uitgavenkant doen?' een bevel."
+      "waarom": "Het antwoord van de minister op de hoofdvraag ('een gedekt pakket in de kabinetsperiode', 'per saldo afgerond nul') stond niet in de strip; bovendien maakte de tekst van zijn retorische vraag 'zullen we dat dan ook aan de uitgavenkant doen?' een bevel.",
+      "les": "L5",
+      "les_achteraf": true
     },
     {
       "waar": "vak 1 normaal",
@@ -34,7 +40,9 @@
       "ernst": "klein",
       "oud": "Met dit voorstel is de minister zelf deel van de discussie geworden. Hij had eerlijk bemiddelaar moeten zijn.",
       "nieuw": "Met dit voorstel heeft de minister zichzelf deel van de discussie gemaakt. Hij had eerlijk bemiddelaar moeten zijn.",
-      "waarom": "Grinwis zegt 'heeft de minister zichzelf onderdeel gemaakt'; 'is geworden' haalde de eigen rol van de minister weg."
+      "waarom": "Grinwis zegt 'heeft de minister zichzelf onderdeel gemaakt'; 'is geworden' haalde de eigen rol van de minister weg.",
+      "les": "L6",
+      "les_achteraf": true
     },
     {
       "waar": "vak 1 makkelijk",
@@ -42,7 +50,9 @@
       "ernst": "klein",
       "oud": "De minister is zelf deel van de discussie. Hij had eerlijk moeten bemiddelen.",
       "nieuw": "De minister maakte zichzelf deel van de discussie. Hij had eerlijk moeten bemiddelen.",
-      "waarom": "Zelfde punt: 'zichzelf onderdeel gemaakt'."
+      "waarom": "Zelfde punt: 'zichzelf onderdeel gemaakt'.",
+      "les": "L6",
+      "les_achteraf": true
     },
     {
       "waar": "samenvatting makkelijk",
@@ -50,7 +60,9 @@
       "ernst": "middel",
       "oud": "De Kamer praat met minister Heinen over een novelle voor box 3. Daardoor vallen spaargeld, vastgoed en aandelen onder de vermogenswinstbelasting. De minister wil dit invoeren in 2029. Overige bezittingen, zoals goud en crypto, volgen in 2030 met een nieuwe wet. De grootste ruzie gaat over de dekking: is het plan wel betaald?",
       "nieuw": "De Kamer praat met minister Heinen over een novelle voor box 3. Daardoor vallen spaargeld, vastgoed en aandelen onder de vermogenswinstbelasting. De minister wil dit invoeren in 2029. Goud en crypto moeten in 2030 volgen, met een nieuwe wet. Het debat gaat vooral over de dekking: is het plan wel betaald? PRO, ChristenUnie en Volt zeggen van niet. De minister zegt dat het wel gedekt is.",
-      "waarom": "'ruzie' is sterker dan wat er gebeurde (een debat over 'de dekking'), en de makkelijke versie miste wie het plan ongedekt noemt en dat de minister zegt dat het 'gedekt' is."
+      "waarom": "'ruzie' is sterker dan wat er gebeurde (een debat over 'de dekking'), en de makkelijke versie miste wie het plan ongedekt noemt en dat de minister zegt dat het 'gedekt' is.",
+      "les": "L3",
+      "les_achteraf": true
     },
     {
       "waar": "samenvatting normaal",
@@ -58,7 +70,9 @@
       "ernst": "klein",
       "oud": "Minister Heinen van Financiën verdedigt in de Kamer een novelle die de vermogenswinstbelasting in box 3 uitbreidt. Daarmee vallen spaargeld, vastgoed en aandelenbeleggingen onder een belasting op werkelijk behaalde winst. Het kabinet koerst op invoering in 2029; overige bezittingen zoals goud en crypto volgen in 2030 met een nieuwe wet. Het debat gaat vooral over de dekking: PRO, ChristenUnie en Volt noemen het plan ongedekt. De minister zegt dat het plan in de kabinetsperiode en structureel gedekt is.",
       "nieuw": "Minister Heinen van Financiën verdedigt in de Kamer een novelle die de vermogenswinstbelasting in box 3 uitbreidt. Daarmee vallen spaargeld, vastgoed en aandelenbeleggingen onder een belasting op werkelijk behaalde winst. Het kabinet koerst op invoering in 2029; overige bezittingen zoals goud en crypto wil het kabinet in 2030 met een nieuwe wet laten volgen. Het debat gaat vooral over de dekking: PRO, ChristenUnie en Volt noemen het plan ongedekt. De minister zegt dat het plan in de kabinetsperiode en structureel gedekt is.",
-      "waarom": "2030 is volgens de minister 'onze inzet', geen vaststaand feit."
+      "waarom": "2030 is volgens de minister 'onze inzet', geen vaststaand feit.",
+      "les": "L1",
+      "les_achteraf": true
     },
     {
       "waar": "kernpunt 3 normaal en makkelijk",
@@ -66,7 +80,9 @@
       "ernst": "klein",
       "oud": "Overige bezittingen, zoals goud en crypto, volgen in 2030 met een nieuwe wet. / Overige bezittingen, zoals goud en crypto, volgen in 2030 met een nieuwe wet.",
       "nieuw": "Overige bezittingen, zoals goud en crypto, wil het kabinet in 2030 met een nieuwe wet laten volgen. / Goud en crypto moeten in 2030 volgen, met een nieuwe wet.",
-      "waarom": "De minister: 'Wij proberen in 2030 de wet ... door beide Kamers te hebben' en 'Dat is onze inzet'."
+      "waarom": "De minister: 'Wij proberen in 2030 de wet ... door beide Kamers te hebben' en 'Dat is onze inzet'.",
+      "les": "L1",
+      "les_achteraf": true
     },
     {
       "waar": "kernpunt 4 normaal",
@@ -74,7 +90,9 @@
       "ernst": "klein",
       "oud": "Volgens de minister had de oude wet geen meerderheid in de Eerste Kamer. Zonder wet zouden er gaten van 2 tot 3 miljard per jaar in de begroting vallen.",
       "nieuw": "Volgens de minister had de oude wet geen meerderheid in de Eerste Kamer. Als die wet sneuvelt, vallen er volgens hem gaten van 2 tot 3 miljard per jaar in de begroting.",
-      "waarom": "De gaten ontstaan volgens de minister 'als die wet sneuvelt'; 'zonder wet' was onduidelijk."
+      "waarom": "De gaten ontstaan volgens de minister 'als die wet sneuvelt'; 'zonder wet' was onduidelijk.",
+      "les": "L2",
+      "les_achteraf": true
     },
     {
       "waar": "kernpunt 4 makkelijk",
@@ -82,7 +100,9 @@
       "ernst": "middel",
       "oud": "Volgens de minister zou de oude wet zonder meerderheid gaten van 2 tot 3 miljard per jaar slaan.",
       "nieuw": "Volgens de minister had de oude wet geen meerderheid in de Eerste Kamer. Sneuvelt die wet, dan ontstaan volgens hem gaten van 2 tot 3 miljard per jaar.",
-      "waarom": "De oude versie zei dat de oude wet zelf gaten zou slaan, terwijl de minister zegt dat de gaten ontstaan 'als die wet sneuvelt'."
+      "waarom": "De oude versie zei dat de oude wet zelf gaten zou slaan, terwijl de minister zegt dat de gaten ontstaan 'als die wet sneuvelt'.",
+      "les": "L2",
+      "les_achteraf": true
     },
     {
       "waar": "kernpunt 6 normaal en makkelijk",
@@ -90,7 +110,9 @@
       "ernst": "klein",
       "oud": "PRO, ChristenUnie en Volt vinden het plan niet goed gedekt. PRO en ChristenUnie wijzen op een structureel tekort van 86 miljoen; PRO en Volt spreken van een gat van 17,5 en 18 miljard.",
       "nieuw": "PRO, ChristenUnie en Volt vinden het plan niet goed gedekt. PRO en ChristenUnie wijzen op een structureel tekort van 86 miljoen; ChristenUnie noemt ook een tekort van 159 miljoen in deze kabinetsperiode. PRO en Volt spreken van een gat van 17,5 en 18 miljard.",
-      "waarom": "Grinwis betwist de claim 'gedekt in de kabinetsperiode' met 'een tekort ... van 159 miljoen'; dat ontbrak tegenover het standpunt van de minister."
+      "waarom": "Grinwis betwist de claim 'gedekt in de kabinetsperiode' met 'een tekort ... van 159 miljoen'; dat ontbrak tegenover het standpunt van de minister.",
+      "les": "L9",
+      "les_achteraf": true
     },
     {
       "waar": "standpunt Grinwis makkelijk",
@@ -98,7 +120,9 @@
       "ernst": "klein",
       "oud": "Grinwis vindt dat de minister deel is geworden van de ruzie over box 3. Hij vindt dat een betere dekking mogelijk was geweest.",
       "nieuw": "Grinwis vindt dat de minister deel is geworden van de strijd over box 3. Hij had eerlijk moeten bemiddelen. Volgens Grinwis was een betere dekking mogelijk geweest.",
-      "waarom": "'controverse' werd 'ruzie', dat is sterker; ook 'honest broker' ontbrak in de makkelijke versie."
+      "waarom": "'controverse' werd 'ruzie', dat is sterker; ook 'honest broker' ontbrak in de makkelijke versie.",
+      "les": "L3",
+      "les_achteraf": true
     },
     {
       "waar": "standpunt Schenk normaal en makkelijk",
@@ -106,7 +130,9 @@
       "ernst": "klein",
       "oud": "Schenk vindt dat de minister met twee maten meet bij de keuze welke voorstellen hij wel of niet uitvoert. / Schenk vindt dat de minister met twee maten meet bij het wel of niet uitvoeren van voorstellen.",
       "nieuw": "Schenk vindt dat de minister \"een beetje met twee maten\" meet: bij het ene voorstel kijkt hij naar de Eerste Kamer, bij het andere niet. / Schenk vindt dat de minister een beetje met twee maten meet. Bij het ene plan kijkt hij naar de Eerste Kamer, bij het andere niet.",
-      "waarom": "Schenk zegt 'een beetje met twee maten gemeten'; het voorbehoud viel weg en het ging over wanneer de minister naar de Eerste Kamer kijkt."
+      "waarom": "Schenk zegt 'een beetje met twee maten gemeten'; het voorbehoud viel weg en het ging over wanneer de minister naar de Eerste Kamer kijkt.",
+      "les": "L1",
+      "les_achteraf": true
     },
     {
       "waar": "standpunt Heinen makkelijk",
@@ -114,7 +140,9 @@
       "ernst": "klein",
       "oud": "De minister zegt dat de oude wet geen meerderheid had in de Eerste Kamer. Volgens hem is het plan gedekt in deze kabinetsperiode en structureel afgerond nul.",
       "nieuw": "De minister zegt dat de oude wet geen meerderheid had in de Eerste Kamer. Volgens hem is het plan gedekt in deze kabinetsperiode. Ook op lange termijn is het tekort per saldo afgerond nul, zegt hij.",
-      "waarom": "'structureel afgerond nul' was onbegrijpelijk in makkelijke taal; inhoud gelijk aan 'per saldo is dat afgerond nul'."
+      "waarom": "'structureel afgerond nul' was onbegrijpelijk in makkelijke taal; inhoud gelijk aan 'per saldo is dat afgerond nul'.",
+      "les": "L6",
+      "les_achteraf": true
     },
     {
       "waar": "woorden: box 2",
@@ -122,7 +150,9 @@
       "ernst": "klein",
       "oud": "Het deel van de inkomstenbelasting voor mensen met een groot aandeel in een bedrijf.",
       "nieuw": "Het deel van de inkomstenbelasting voor mensen met een aanmerkelijk belang: minstens 5% van de aandelen in een bedrijf.",
-      "waarom": "'groot aandeel' was vaag; de vaststaande grens is een aanmerkelijk belang van 5%."
+      "waarom": "'groot aandeel' was vaag; de vaststaande grens is een aanmerkelijk belang van 5%.",
+      "les": "L12",
+      "les_achteraf": true
     },
     {
       "waar": "woorden: vermogensaanwasbelasting",
@@ -130,7 +160,9 @@
       "ernst": "klein",
       "oud": "Belasting op winst die alleen op papier bestaat, ook als je niets verkoopt.",
       "nieuw": "Belasting op de waardestijging van je bezit, ook als je niets verkoopt. In het debat ook 'belasting op papieren winst' genoemd.",
-      "waarom": "Aanwasbelasting belast de waardestijging, ook als je niets verkoopt; 'papieren winst' is de duiding uit het debat ('in de volksmond')."
+      "waarom": "Aanwasbelasting belast de waardestijging, ook als je niets verkoopt; 'papieren winst' is de duiding uit het debat ('in de volksmond').",
+      "les": "L12",
+      "les_achteraf": true
     }
   ]
 }
