@@ -23,7 +23,14 @@
   "beschrijving": "A woman of about sixty, clearly middle-aged, not young: a round, full face with full cheeks and a soft jawline, visible smile lines around the eyes and mouth. Shoulder-length, dense dark-brown hair in loose, slightly unruly curls, voluminous at the sides and on top, a few curls falling onto the forehead. Light skin, dark eyebrows, friendly eyes that narrow a little when she smiles, a warm, broad closed-mouth smile. Plum-coloured blazer over a dark top, small scarf in the accent colour. No glasses.",
   "bron": "zelf beschreven naar het officiële portret; geen foto naar de beeldgenerator",
   "goedgekeurd": false,
-  "versie": 2
+  "versie": 2,
+  "aanpassingen": [
+   {
+    "versie": 3,
+    "opdracht": "Keep this exact character, style, colours, clothing, framing and white background. Change only these three things: 1) Mouth: thinner lips, a closed-mouth smile with the corners of the mouth turned slightly up, and soft lines running from the nose to the corners of the mouth, as in a woman of about sixty. 2) Hair: the ends of the curls are thinner and more pointed, wispy and slightly spiky at the tips instead of round, soft curls. 3) Eyes: noticeably smaller eyes, less wide-open, still friendly, slightly narrowed by the smile. Do not make her younger. No glasses. No text, no frame.",
+    "naar_aanleiding_van": "eigenaar: lijnen bij de mond anders, haarpunten puntiger, ogen kleiner"
+   }
+  ]
  },
  "7cbb2d95-46b2-4fcb-b129-9505f56e7f07": {
   "naam": "Don Ceder",

@@ -143,5 +143,13 @@
   "stijl": "manga",
   "prompt": "Full-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician. A man around forty with a slightly long, slim face, prominent dark eyebrows and lively dark-brown eyes. Thick dark-brown hair, messy and curly, standing up high on top and swept up and to the side, curls sticking out at the sides. Light skin, a very wide, open, beaming smile showing his upper teeth, dimples in the cheeks. Dark navy suit, light blue shirt, slim dark tie in red. No glasses.\nExpression: calm, attentive expression, mouth closed.",
   "model": "gemini-3.1-flash-image"
+ },
+ {
+  "wie": "Caroline van der Plas",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Keep this exact character, style, colours, clothing, framing and white background. Change only these three things: 1) Mouth: thinner lips, a closed-mouth smile with the corners of the mouth turned slightly up, and soft lines running from the nose to the corners of the mouth, as in a woman of about sixty. 2) Hair: the ends of the curls are thinner and more pointed, wispy and slightly spiky at the tips instead of round, soft curls. 3) Eyes: noticeably smaller eyes, less wide-open, still friendly, slightly narrowed by the smile. Do not make her younger. No glasses. No text, no frame.",
+  "model": "gemini-3.1-flash-image",
+  "bewerking_van": "v2"
  }
 ]
