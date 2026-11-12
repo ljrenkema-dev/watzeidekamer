@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from fetch import BASE, get, UA  # noqa: E402
 
 KEYS = ("gezicht", "haarkleur", "kapsel", "bril", "baard", "huid", "leeftijd", "spiegel",
-        "gezichtsvorm", "wenkbrauw", "oogkleur", "kleding", "onder", "montuur", "oorbel", "pony", "volume")
+        "gezichtsvorm", "wenkbrauw", "oogkleur", "kleding", "onder", "montuur", "oorbel", "pony", "volume", "slapen")
 
 
 def foto(key, v):

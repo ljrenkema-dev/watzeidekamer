@@ -279,9 +279,11 @@ function portraitCharacter(u,outfit,emo,accent){
   const back=u.volume==="vol"?`<g transform="translate(50 0) scale(1.1 1) translate(-50 0)">${hairBack(u.kapsel,c)}</g>`:hairBack(u.kapsel,c);
   const front=u.pony&&u.pony!=="geen"?pony(u.pony,c):hairFront(u.kapsel,c);
   /* volume "plat": voorhaar lager (bovenkant zakt, haarlijn blijft); smal gezicht: voorhaar iets smaller */
-  const fit=(x)=>{if(u.volume==="plat")x=`<g transform="translate(0 56) scale(1 .86) translate(0 -56)">${x}</g>`;
+  const fit=(x)=>{const sy={plat:.86,"extra-plat":.76}[u.volume];if(sy)x=`<g transform="translate(0 56) scale(1 ${sy}) translate(0 -56)">${x}</g>`;
     return u.gezichtsvorm==="smal"?`<g transform="translate(50 0) scale(.95 1) translate(-50 0)">${x}</g>`:x;};
-  return `${back}
+  /* slapen "bedekt": laag haar achter het gezicht, zodat er bij de slapen geen wit tussen haar en gezicht valt */
+  const cap=u.slapen==="bedekt"?`<path d="M26 58 C18 12 82 12 74 58 Z" fill="${c}"/>`:"";
+  return `${back}${cap}
   ${clothes(u.kleding,outfit,accent||"#ffffff",u.onder,skin)}
   <path d="${jaw}" fill="${skin}" stroke="${ink}" stroke-width="2"/>
   ${colKraag(u.kleding,outfit)}${age}${beard(u.baard,c)}${earrings(u.oorbel)}${fit(u.spiegel?`<g transform="translate(100 0) scale(-1 1)">${front}</g>`:front)}${eyes(L,emo)}${lashes}${glasses(u.bril,u.montuur)}${mouth(emo)}${extras(emo)}`;
