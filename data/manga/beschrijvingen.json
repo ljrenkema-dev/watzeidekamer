@@ -8,6 +8,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-12"
+  },
+  "manga_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-12",
+   "beelden": [
+    "neutraal",
+    "blij",
+    "boos",
+    "bezorgd",
+    "verbaasd",
+    "denkend",
+    "vastberaden",
+    "interruptie"
+   ]
   }
  },
  "0d036fcf-a456-4798-9b76-3f44eb74a451": {
@@ -20,6 +34,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-12"
+  },
+  "manga_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-12",
+   "beelden": [
+    "neutraal",
+    "blij",
+    "boos",
+    "bezorgd",
+    "verbaasd",
+    "denkend",
+    "vastberaden",
+    "interruptie"
+   ]
   }
  },
  "8c5a8186-8f46-4bca-956d-06d4fa521635": {
@@ -31,6 +59,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-12"
+  },
+  "manga_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-12",
+   "beelden": [
+    "neutraal",
+    "blij",
+    "boos",
+    "bezorgd",
+    "verbaasd",
+    "denkend",
+    "vastberaden",
+    "interruptie"
+   ]
   }
  },
  "b41b2403-9f06-4d55-adc5-b0777373ca7e": {
@@ -50,6 +92,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-12"
+  },
+  "manga_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-12",
+   "beelden": [
+    "neutraal",
+    "blij",
+    "boos",
+    "bezorgd",
+    "verbaasd",
+    "denkend",
+    "vastberaden",
+    "interruptie"
+   ]
   }
  },
  "7cbb2d95-46b2-4fcb-b129-9505f56e7f07": {
@@ -61,6 +117,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-12"
+  },
+  "manga_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-12",
+   "beelden": [
+    "neutraal",
+    "blij",
+    "boos",
+    "bezorgd",
+    "verbaasd",
+    "denkend",
+    "vastberaden",
+    "interruptie"
+   ]
   }
  }
 }
