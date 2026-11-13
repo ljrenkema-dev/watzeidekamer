@@ -163,8 +163,8 @@
       "soort": "juistheid",
       "ernst": "middel",
       "les": "L3",
-      "oud": "Een deal die er nog niet is, deel je niet.",
-      "nieuw": "De hele inhoud van een deal die er nog niet is, kun je niet delen.",
+      "oud": "We hielden de coalitiepartners op de hoogte. Een deal die er nog niet is, deel je niet.",
+      "nieuw": "We meldden de partners onze stappen. Een deal die er nog niet is, kun je niet helemaal delen.",
       "waarom": "Citaat: \"je kunt niet de hele inhoud van een deal ... delen\"; \"deel je niet\" maakt er een algemene weigering van."
     },
     {
@@ -172,8 +172,8 @@
       "soort": "juistheid",
       "ernst": "klein",
       "les": "L10",
-      "oud": "De afspraak was er nog niet.",
-      "nieuw": "De hele afspraak kon ik niet delen: die was er nog niet.",
+      "oud": "We vertelden de partners welke stappen we zetten. De afspraak was er nog niet.",
+      "nieuw": "Partners hoorden onze stappen. Alles vertellen kon niet: er was nog geen afspraak.",
       "waarom": "Zelfde punt als normaal: het ging om \"de hele inhoud\" die nog niet gedeeld kon worden."
     },
     {
@@ -181,8 +181,8 @@
       "soort": "juistheid",
       "ernst": "klein",
       "les": "L3",
-      "oud": "Het plan is volgens mij goed.",
-      "nieuw": "De brief kiest volgens mij het goede midden.",
+      "oud": "Ik wilde het stikstofplan niet fors veranderen. Het plan is volgens mij goed.",
+      "nieuw": "Ik wilde het stikstofplan niet fors veranderen. Het kiest volgens mij het goede midden.",
       "waarom": "Citaat: \"precies het goede midden heeft bewandeld\"; \"het plan is goed\" is een ander, breder oordeel."
     }
   ]
