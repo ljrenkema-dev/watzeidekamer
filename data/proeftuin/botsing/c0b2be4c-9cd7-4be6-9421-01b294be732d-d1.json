@@ -2,8 +2,8 @@
  "debat": "c0b2be4c-9cd7-4be6-9421-01b294be732d-d1",
  "kop": "Begroting Buitenlandse Zaken · 11 nov 2026",
  "geen_botsing": true,
- "vraag": "Moet de begroting van Buitenlandse Zaken voor 2027 worden aangenomen?",
- "vraag_bron": "Titel van het wetsvoorstel: 'Begroting Buitenlandse Zaken (37020-V)'.",
+ "vraag": "Wat moet Nederland doen richting Israël en de Palestijnse gebieden?",
+ "vraag_bron": "Bron 5. Vragen van drie fracties: Stoffer (SGP, beurt 4): 'wat gaat deze minister komend jaar doen om het vertrouwen van deze belangrijke partner te herwinnen?'; Teunissen (PvdD, beurt 11): 'welke stappen heeft het kabinet gezet om echt werk te maken van de erkenning van de Palestijnse Staat?'; Dobbe (SP, beurt 15): 'Wat is de reactie van het kabinet-Jetten op de oproep van de Rode Lijn?'. Het kabinet gaat erop in: minister Berendsen (deel 5, beurt 60): 'Ik kom op Israël en de Palestijnse gebieden.' Ook D66 (Van der Werf, deel 5, beurt 65) gaat erop in. De woorden 'Israël en de Palestijnse gebieden' komen van de minister.",
  "afloop": "In dit debat zijn geen moties ingediend.",
  "afloop_kort": "Geen moties in dit debat.",
  "versies": {
@@ -124,6 +124,6 @@
   "lang": "In dit debat zijn geen moties ingediend.",
   "moties": []
  },
- "vraag_bron_soort": 2,
- "vraag_bron_toetsing": "Terugval: bron 2 bestaat maar past slecht bij het Israël-paar van versie c. Bron 3: geen verzoek waarmee dit debat werd aangevraagd (wel een DENK-verzoek om een brief vooraf; dat ging niet over het aanvragen van dit debat). Bron 5 getoetst voor Israël/Gaza: vragen van SGP, PvdD en SP (ChristenUnie en BBB noemen het zonder vraag); geen coalitiepartij (D66, CDA) stelt er een vraag over, dus drempel niet gehaald."
+ "vraag_bron_soort": 5,
+ "vraag_bron_toetsing": "Bron 2 en 4 (titel en agendatitel: 'Begroting Buitenlandse Zaken') bestaan, maar passen niet bij het gekozen onderwerp (19% van de spreektijd; lng was een bijzaak). Bron 3: geen verzoek waarmee dit debat werd aangevraagd. Bron 5 gehaald. Versie a (lng) blijft alleen ter vergelijking; de vraag hoort bij versie c."
 }
