@@ -61,9 +61,10 @@ function extras(emo){
 /* Manga-beelden (goedgekeurd door de eigenaar) staan naast strip.js in manga/<sleutel>/<emotie>.jpg.
    Wie er een heeft (u.manga), krijgt dat beeld; anders het getekende figuur. */
 const MANGA_ROOT=((document.currentScript&&document.currentScript.src)||"").replace(/strip\.js(\?.*)?$/,"")+"manga/";
-const MANGA_EMO=new Set(["neutraal","blij","boos","bezorgd","verbaasd","denkend","vastberaden","interruptie"]);
+/* Het gezicht blijft neutraal; de emotie zit in de achtergrond van het vak. Alleen bij een interruptie
+   een andere houding, als die er is (u.manga_int). */
 function mangaImg(L,emo,x,y,w,h){
-  const e=MANGA_EMO.has(emo)?emo:"neutraal";
+  const e=emo==="interruptie"&&L.u.manga_int?"interruptie":"neutraal";
   return `<image href="${MANGA_ROOT}${esc(L.u.manga)}/${e}.jpg" x="${x}" y="${y}" width="${w}" height="${h}" preserveAspectRatio="xMidYMin slice" style="mix-blend-mode:multiply"/>`;
 }
 /* character in a 100x120 box */
@@ -164,7 +165,7 @@ function renderStrip(d){
     el.innerHTML=el.dataset.emo?`<g>${character(L,el.dataset.emo)}</g>`:avatar(L);
     const k=el.closest(".kaart");if(k)k.style.setProperty("--partij",L.outfit);});
   const taal=document.documentElement.dataset.taal==="makkelijk"?"makkelijk":"normaal";
-  document.getElementById("strip").innerHTML=d.strip.map(p0=>({...p0,tekst:typeof p0.tekst==="object"?(p0.tekst[taal]||p0.tekst.normaal||p0.tekst.makkelijk):p0.tekst})).map((p,i)=>`<figure class="panel" style="margin:0">${panelSVG(p,i,lookOf)}<figcaption class="src"><b>Echt gezegd${p.spreker==="Verteller"?"":" door "+esc(p.wie)}:</b> “${esc(p.citaat)}”</figcaption></figure>`).join("");
+  document.getElementById("strip").innerHTML=d.strip.map(p0=>({...p0,tekst:typeof p0.tekst==="object"?(p0.tekst[taal]||p0.tekst.normaal||p0.tekst.makkelijk):p0.tekst})).map((p,i)=>`<figure class="panel" style="margin:0">${panelSVG(p,i,lookOf)}<figcaption class="src"><b>Echt gezegd${p.spreker==="Verteller"?"":" door "+esc(p.wie)}:</b> “${esc(p.citaat)}”${p.beurt!=null&&d.verslag?` <a class="indebat" href="${d.verslag}#b${p.beurt}">Lees in het debat</a>`:""}</figcaption></figure>`).join("");
 }
 
 /* Figuur getekend naar kenmerken uit het officiële portret (data/uiterlijk.json).

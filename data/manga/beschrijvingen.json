@@ -22,6 +22,10 @@
     "vastberaden",
     "interruptie"
    ]
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "0d036fcf-a456-4798-9b76-3f44eb74a451": {
@@ -48,6 +52,10 @@
     "vastberaden",
     "interruptie"
    ]
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "8c5a8186-8f46-4bca-956d-06d4fa521635": {
@@ -73,6 +81,10 @@
     "vastberaden",
     "interruptie"
    ]
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "b41b2403-9f06-4d55-adc5-b0777373ca7e": {
@@ -106,6 +118,10 @@
     "vastberaden",
     "interruptie"
    ]
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "7cbb2d95-46b2-4fcb-b129-9505f56e7f07": {
@@ -131,6 +147,10 @@
     "vastberaden",
     "interruptie"
    ]
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "0004fa63-2652-43fe-9866-4130ca4652d8": {
@@ -139,12 +159,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "0079c245-1bd8-45fb-8cb8-afa4b7bc5d36": {
   "naam": "Heera Dijk",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -163,12 +191,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "02fab128-a8d3-4010-b936-5500a53caf27": {
   "naam": "Henk Vermeer",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -179,6 +215,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "ogen kleiner",
+   "datum": "2026-11-13"
   }
  },
  "059453a7-a169-477c-9f89-54dda55b6d40": {
@@ -187,12 +227,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "05c9a6b8-4642-449a-9a1e-1df4aca70b10": {
   "naam": "Jan Schoonis",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -211,12 +259,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "0ea8e29d-3bfe-4982-8594-9350b527d553": {
   "naam": "Sandra Beckerman",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -227,12 +283,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "10c4f889-d7de-48bb-a0b7-9a7125f1fc98": {
   "naam": "Annelotte Lammers",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -251,12 +315,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "14642402-bfc5-4471-9246-7fb6742a35e8": {
   "naam": "Marijke Synhaeve",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -275,6 +347,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "1a02adff-bc47-4d06-bc1e-fec2d3ed193d": {
@@ -291,6 +367,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "1c16919b-5c3f-486c-9cc7-bdd00e29e9a4": {
@@ -299,12 +379,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "Iets ouder",
+   "datum": "2026-11-13"
   }
  },
  "1ee767b9-67f3-47e5-9e28-045da1c37b05": {
   "naam": "Inge van Dijk",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -315,12 +403,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "21674d1a-d86e-46e4-bff5-7cc3e4c7d270": {
   "naam": "Jan Struijs",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -331,12 +427,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "2690bccc-5463-459a-b1df-cb93e222b348": {
   "naam": "Jan Paternotte",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -347,12 +451,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "2bea63db-715f-401f-b710-e91c7650df0c": {
   "naam": "André Flach",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -363,12 +475,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "33290394-05f7-44c4-9187-7c6ec6059c27": {
   "naam": "Hidde Heutink",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -387,12 +507,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "3817ddd8-9797-4b14-8d75-77c909b711e0": {
   "naam": "Felix Klos",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -403,12 +531,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "3b3c7923-b604-4902-97c1-210aa85182c1": {
   "naam": "Alisha Müller",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -419,12 +555,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "3c96ed5d-f7bf-4cae-9ec7-a5a29f5299da": {
   "naam": "Chris Jansen",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -435,12 +579,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "45e9917b-95cc-428c-b8a0-9d50cff58a59": {
   "naam": "Shanna Schilder",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -451,12 +603,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "48d02bab-281c-4bd0-8a50-26bf90a38cc0": {
   "naam": "Edgar Mulder",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -467,12 +627,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "geen bril",
+   "datum": "2026-11-13"
   }
  },
  "4b6348d0-bf6d-4086-983b-48eb3834efff": {
   "naam": "Hilde Wendel",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -483,12 +651,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "4e24b3c9-966c-48bf-947d-231d3feb649d": {
   "naam": "Anouschka Biekman",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -499,12 +675,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "51036c88-5a8f-4842-8867-0a460bbb611e": {
   "naam": "Renate den Hollander",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -515,12 +699,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "5222c31a-b0b0-496b-8f74-55988b1b8dda": {
   "naam": "Nicole Moinat",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -531,12 +723,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "59f4fe08-4b7e-42a0-9551-082b07c5945a": {
   "naam": "Fatimazhra Belhirch",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -547,12 +747,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "5f70fd14-3d7a-4936-9667-d76b0d524a61": {
   "naam": "Henk-Jan Oosterhuis",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -563,12 +771,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "64f39510-b420-4b01-8b5e-2b2f2b0aad91": {
   "naam": "Pepijn Van Houwelingen",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -579,12 +795,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "67261924-770e-4746-88d3-22e85bf217ed": {
   "naam": "Renilde Huizenga",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -595,12 +819,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "6938f6a4-a336-4f91-bd93-deed5f45e3f0": {
   "naam": "Michiel Hoogeveen",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -611,6 +843,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "6edaeec8-fad8-4c2c-8103-7aae8594e772": {
@@ -619,12 +855,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "6f8efc5e-726c-4919-98d8-c6f1cd6b0b2b": {
   "naam": "Ani Zalinyan",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -643,12 +887,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "71a23ba5-15b7-4057-9349-70bf28be58c4": {
   "naam": "Peter van Duijvenvoorde",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -659,12 +911,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "7564c685-2691-4796-9159-ebd5df4fdc8d": {
   "naam": "Christine Teunissen",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -683,12 +943,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "7a727f46-0e36-493f-8779-736d3250fb27": {
   "naam": "Luc Stultiens",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -699,12 +967,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "7da5d1c6-58a0-4a40-89c0-cc5fc3aff9c4": {
   "naam": "Erik van der Maas",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -715,12 +991,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "81552958-ef83-4fab-8a92-6e5b1975c9ef": {
   "naam": "Emiel van Dijk",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -731,12 +1015,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "83886cc3-def7-45bb-bea6-e10200c1cd9e": {
   "naam": "Björn Schutz",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -755,6 +1047,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "89d70a20-bd10-46ed-866a-2c79362a0559": {
@@ -770,6 +1066,10 @@
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
    "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "smaller gezicht",
    "datum": "2026-11-13"
   }
  },
@@ -787,6 +1087,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "942a29b8-057f-4dba-a8cd-3c35e5a81aaf": {
@@ -795,12 +1099,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "mond zo houden en de rest meer van de vriendelijke versie, vooral de ogen kloppen niet",
+   "datum": "2026-11-13"
   }
  },
  "950c21d2-8a14-406d-b3af-877360bbd0ab": {
   "naam": "Anne-Marijke Podt",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -811,6 +1123,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "langwerpiger gezicht, iets ouder (zoals de vriendelijke versie)",
+   "datum": "2026-11-13"
   }
  },
  "98aa8bde-85b0-49ed-9795-e2eeb206e3b8": {
@@ -818,6 +1134,10 @@
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
    "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "ogen kleiner",
    "datum": "2026-11-13"
   }
  },
@@ -827,12 +1147,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "990b2d9b-0b83-4dde-ab04-5cd5d8c5c4d3": {
   "naam": "Jimmy Dijk",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -851,6 +1179,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "9e79de98-e914-4dc8-8dc7-6d7cb09b93d7": {
@@ -858,6 +1190,10 @@
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
    "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "dunnere lippen",
    "datum": "2026-11-13"
   }
  },
@@ -875,12 +1211,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "a0b48551-42b7-4c55-9556-6b997d978ff2": {
   "naam": "Peter de Groot",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -899,12 +1243,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "a437e923-725f-415e-a01d-5588a7af933e": {
   "naam": "Kati Piri",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -915,6 +1267,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "a4eb6b9e-dd6c-4cc8-a95c-ccb76860b162": {
@@ -923,12 +1279,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "meer lijnen in gezicht zoals de vriendelijker versie",
+   "datum": "2026-11-13"
   }
  },
  "a68468b6-51ea-440c-9387-b44ba10ad8b6": {
   "naam": "Laurens Dassen",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -939,12 +1303,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "a824c21d-055a-49ed-a060-a1c7af3262df": {
   "naam": "Julian Bushoff",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -955,12 +1327,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "a962ffcb-a300-45e1-8850-70c7173c233e": {
   "naam": "Bente Becker",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -971,12 +1351,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "ad900f22-2dd0-4525-bb71-96550fa7985f": {
   "naam": "Eric Van der Burg",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -987,12 +1375,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "b4bbefe3-6926-4d81-b8a4-b1bb6ae2e3c6": {
   "naam": "Jeremy Mooiman",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1003,12 +1399,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "b7a52679-bac9-4e00-9dfd-06a22a7cf088": {
   "naam": "Mohammed Mohandis",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1027,6 +1431,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "bf494e35-c009-4c74-a5c6-3cb2cd26bb51": {
@@ -1043,12 +1451,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "c4082506-df19-49de-a2e2-ccee0c5c7a81": {
   "naam": "Marieke Vellinga-Beemsterboer",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1059,6 +1475,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "c6e26bd3-724f-45d3-93af-ef431e6fcd42": {
@@ -1067,12 +1487,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "ogen moeten beter en het brilmontuur ook",
+   "datum": "2026-11-13"
   }
  },
  "c7822b58-103f-4612-87ef-648be97192c6": {
   "naam": "Lisa Westerveld",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1083,12 +1511,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "ccea26dd-dcae-4174-8945-ec5cb568e951": {
   "naam": "Laura Bromet",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1099,6 +1535,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "d081e81a-72b1-4c57-9d25-2f34292da0cf": {
@@ -1107,12 +1547,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "meer inhammen",
+   "datum": "2026-11-13"
   }
  },
  "d0ddd0c4-ece0-4b75-85b7-d2396a05f921": {
   "naam": "Milan Schenk",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1123,12 +1571,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "d36d9afd-613a-4dbe-bfef-785967a9b807": {
   "naam": "Marc Vervuurt",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1139,12 +1595,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "d4b77771-411c-4d3d-a893-767f38e07c67": {
   "naam": "Mpanzu Bamenga",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1171,12 +1635,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "dc160d87-fc55-486d-9b55-a307330e4da0": {
   "naam": "Michelle Jagtenberg",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1187,12 +1659,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "dd85a3cc-916a-4f94-aaed-cb341eb6a036": {
   "naam": "Diederik van Dijk",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1211,12 +1691,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "e0ccfbe3-9f51-4eaa-8ed6-c1ba3f6236b5": {
   "naam": "Arend Kisteman",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1227,12 +1715,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "iers kalender",
+   "datum": "2026-11-13"
   }
  },
  "e5c4753f-d2d8-4a4a-ae9d-62118892a731": {
   "naam": "Ruben Brekelmans",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1251,12 +1747,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "e71290ca-7a53-4466-889b-fe1d113005ec": {
   "naam": "Etkin Armut",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1275,12 +1779,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "ed5b0339-d627-4d4e-8d65-4a9eb88cb6b0": {
   "naam": "Femke Wiersma",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1291,12 +1803,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "f3ebacbe-ae1d-4ee9-bf9f-cef7d9e0f489": {
   "naam": "Marina Vondeling",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1315,12 +1835,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "ffcac8a5-952b-42e8-975a-09860c123d3f": {
   "naam": "Sarah El Boujdaini",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1331,12 +1859,20 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
   }
  },
  "wiki:eelco-eerenberg": {
   "naam": "Eelco Eerenberg",
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
+   "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
    "door": "eigenaar",
    "datum": "2026-11-13"
   }
@@ -1347,6 +1883,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "zonder hoed",
+   "datum": "2026-11-13"
   }
  },
  "wiki:rob-jetten": {
@@ -1354,6 +1894,10 @@
   "methode": "portretfoto als voorbeeld meegestuurd naar Gemini",
   "toestemming_foto": {
    "door": "eigenaar",
+   "datum": "2026-11-13"
+  },
+  "neutraal_aanpassing": {
+   "opmerking": "ogeb meer zoals de vriendelihker versie, iets meer grijze haren",
    "datum": "2026-11-13"
   }
  },

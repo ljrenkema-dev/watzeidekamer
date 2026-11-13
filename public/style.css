@@ -128,3 +128,17 @@ html[data-taal="makkelijk"] .lv-n{display:none}
 .alle-standpunten summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .alle-standpunten[open] summary{margin-bottom:8px}
 .kaart-body svg{flex:0 0 84px;width:84px;height:94px}
+
+/* Het hele debat */
+.verslag{display:flex;flex-direction:column;gap:10px}
+.beurt{background:#fff;border:2px solid var(--line,#d9d6e4);border-radius:12px;padding:10px 14px;scroll-margin-top:16px}
+.beurt header{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline}
+.beurt header time{margin-left:auto;color:#5d5a72;font-size:13px}
+.beurt header .anker{color:#5d5a72;text-decoration:none;font-size:14px}
+.beurt p{margin:.4em 0;max-width:70ch}
+.beurt.vz{background:#f6f5f1;border-style:dashed}
+.beurt.int{margin-left:24px}
+.beurt:target{outline:3px solid #ffe066;outline-offset:2px}
+.strip-tag{background:#ffe066;color:#1d1b2e}
+.indebat{white-space:nowrap;font-weight:700}
+@media (max-width:600px){.beurt.int{margin-left:10px}}

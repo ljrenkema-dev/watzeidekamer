@@ -70,6 +70,7 @@ def politici(strips, uiterlijk, koppeling):
         kenm = {k: u.get(k) for k in KENMERKEN} if u else None
         if kenm and manga(sl):
             kenm["manga"] = manga(sl)
+            kenm["manga_int"] = manga_int(sl)
         ds = sorted(m["debatten"].values(), key=lambda d: d["punt"]["begin"], reverse=True)
         tot = {k: sum(d[k] for d in ds) for k in ("beurten", "interrupties", "woorden")}
         # een lang debat in delen telt als één debat
@@ -122,6 +123,59 @@ def is_interruptie(punt, vak):
         if b["spreker"]["id"] == vak.get("spreker_id") and stuk and stuk in norm(b["tekst"]):
             return b["rol"] == "interrumpant"
     return False
+
+
+def beurt_index(punt, vak):
+    """Nummer van de spreekbeurt waaruit het citaat van dit vak komt, of None."""
+    from check import norm
+    import re as _re
+    stuk = _re.split(r"\s*(?:…|\.\.\.)\s*", norm(vak.get("citaat", "")))[0]
+    for i, b in enumerate(punt["beurten"]):
+        if b["spreker"]["id"] == vak.get("spreker_id") and stuk and stuk in norm(b["tekst"]):
+            return i
+    return None
+
+
+def verslag_pagina(punt, strip):
+    """Leesbare weergave van alle spreekbeurten van dit agendapunt (of deel), met een anker per beurt.
+    De tekst komt ongewijzigd uit het verslag; onderaan de link naar de officiële bron."""
+    v = punt["vergadering"]
+    bron = f"https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Verslag({v['verslag_id']})/resource"
+    status = ("Dit is het <b>ongecorrigeerde</b> verslag: sprekers kunnen nog kleine correcties doorgeven."
+              if v["status"] in VOORLOPIG else "Dit is het gecorrigeerde verslag.")
+    in_strip = {beurt_index(punt, x) for x in strip["strip"] if x.get("spreker_id")}
+    rijen, vorige_tijd = [], ""
+    for i, b in enumerate(punt["beurten"]):
+        sp = b["spreker"]
+        naam = sp.get("naam") or sp.get("verslagnaam")
+        wat = sp["fractie"] or sp.get("functie", "")
+        tijd = (b.get("begin") or "")[11:16]
+        tags = []
+        if b.get("voorzitter"):
+            tags.append('<span class="tag">voorzitter</span>')
+        if b["rol"] == "interrumpant":
+            tags.append('<span class="tag">interruptie</span>')
+        if i in in_strip:
+            tags.append('<span class="tag strip-tag">in de strip</span>')
+        alineas = "".join(f"<p>{e(a)}</p>" for a in b["tekst"].split("\n") if a.strip())
+        kop = (e(naam) if b.get("voorzitter") or not wat
+               else f'<a href="../p/{slug(naam)}.html">{e(naam)}</a> <span class="party">({e(wat)})</span>')
+        rijen.append(f'<article class="beurt{" vz" if b.get("voorzitter") else ""}{" int" if b["rol"] == "interrumpant" else ""}" id="b{i}">'
+                     f'<header><b>{kop}</b> {"".join(tags)}'
+                     f'{f"<time>{tijd}</time>" if tijd and tijd != vorige_tijd else ""}'
+                     f'<a class="anker" href="#b{i}" aria-label="Link naar deze spreekbeurt">#</a></header>{alineas}</article>')
+        vorige_tijd = tijd or vorige_tijd
+    body = f"""<main class="out" style="display:flex;flex-direction:column;gap:16px">
+<p><a href="../d/{e(punt['id'])}.html">← Terug naar de samenvatting en de strip</a></p>
+<div class="meta"><span>{datum(v['datum'])}</span><span class="tag">{e(v['soort'])}</span></div>
+<h1>Het hele debat</h1>
+<p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
+<p class="note">Hieronder staan alle spreekbeurten, letterlijk en in volgorde uit het verslag van de Tweede Kamer. {status}
+Spreekbeurten die in de strip staan, zijn gemarkeerd.</p>
+<div class="verslag">{"".join(rijen)}</div>
+<p class="note">Bron: <a href="{e(bron)}">officieel verslag van de Tweede Kamer</a> (XML, {e(v['titel'])}).</p>
+</main>"""
+    return page(f"Het hele debat: {punt['titel']} – Wat zei de Kamer?", body, root="../")
 
 
 def delen_nav(punt):
@@ -194,6 +248,11 @@ def manga(sleutel):
     return m if m and (ROOT / "site" / "manga" / m / "neutraal.jpg").exists() else None
 
 
+def manga_int(sleutel):
+    m = manga(sleutel)
+    return bool(m and (ROOT / "site" / "manga" / m / "interruptie.jpg").exists())
+
+
 def wie(sp):
     if sp["fractie"]:
         return f"{sp['verslagnaam']} ({sp['fractie']})"
@@ -214,6 +273,7 @@ def debat(punt, strip):
         k_ = {k: u[k] for k in KENMERKEN if k in u}
         if manga(koppeling.get(sid)):
             k_["manga"] = manga(koppeling.get(sid))
+            k_["manga_int"] = manga_int(koppeling.get(sid))
         return k_
     gebruikt = [s["id"] for s in strip["sprekers"]] + [p["spreker_id"] for p in strip["strip"] if p["spreker_id"]]
     sprekers = [{"id": s["id"], **bekend[s["id"]], "standpunt": s["standpunt"],
@@ -227,6 +287,7 @@ def debat(punt, strip):
         sp = bekend.get(p["spreker_id"]) if p["spreker_id"] else None
         vakken.append({"spreker": sp["verslagnaam"] if sp else "Verteller", "wie": wie(sp) if sp else "",
                        "emotie": p["emotie"], "citaat": p["citaat"], "interruptie": is_interruptie(punt, p),
+                       "beurt": beurt_index(punt, p) if p["spreker_id"] else None,
                        "tekst": {"normaal": niv(p["tekst"], "normaal"), "makkelijk": niv(p["tekst"], "makkelijk")}})
     status = (f'<span class="tag warn">Voorlopig verslag</span>' if v["status"] in VOORLOPIG
               else '<span class="tag">Gecorrigeerd verslag</span>')
@@ -297,9 +358,9 @@ def debat(punt, strip):
 <h2>Belangrijk om te weten</h2>{kern}
 {'<h2>Moeilijke woorden</h2><div class="words">' + woorden + '</div>' if woorden else ''}
 <h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>
-{redactie_regel(punt, strip)}<p class="note">De strip laat alleen zien wat in het verslag staat. <a href="{e(bron)}">Bekijk het verslag van de Tweede Kamer (XML)</a>.</p>
+{redactie_regel(punt, strip)}<p class="note">De strip laat alleen zien wat in het verslag staat. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a>, of bekijk het <a href="{e(bron)}">officiële verslag van de Tweede Kamer</a> (XML).</p>
 </main>"""
-    data = json.dumps({"sprekers": sprekers, "strip": vakken}, ensure_ascii=False).replace("</", "<\\/")
+    data = json.dumps({"sprekers": sprekers, "strip": vakken, "verslag": f"../v/{punt['id']}.html"}, ensure_ascii=False).replace("</", "<\\/")
     scripts = f'<script src="../strip.js"></script><script>window.STRIP={data};renderStrip(window.STRIP);</script>'
     return page(f"{niv(strip['titel'], 'normaal')} – Wat zei de Kamer?", body, scripts, root="../"), sprekers
 
@@ -387,6 +448,8 @@ def main():
         strip = json.loads(sf.read_text())
         html_, sprekers = debat(punt, strip)
         (OUT / "d" / f"{pid}.html").write_text(html_)
+        (OUT / "v").mkdir(exist_ok=True)
+        (OUT / "v" / f"{pid}.html").write_text(verslag_pagina(punt, strip))
         v = punt["vergadering"]
         items.append({
             "id": pid, "deel": punt.get("deel"), "titel": strip["titel"] if isinstance(strip["titel"], dict) else {"normaal": strip["titel"]}, "datum": v["datum"], "soort": v["soort"], "begin": punt["begin"],
