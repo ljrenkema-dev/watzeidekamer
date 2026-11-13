@@ -45,7 +45,7 @@ table.st2{width:100%;border-collapse:collapse}table.st2 td,table.st2 th{text-ali
 <script>
 const VERSIE="__VERSIE__";
 const D=__DATA__;
-const $=id=>document.getElementById(id);
+const $=id=>document.getElementById(id);const K=d=>d.variant||d.id;
 let taal="normaal",actief=0,db=null;const fb={};
 try{actief=Number(localStorage.getItem("pt-tab"))||0}catch(e){}
 function esc2(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
@@ -55,27 +55,38 @@ function fbHTML(d,o){const k=sleutel(d,o),f=fb[k]||{};
 function cls(d,o){const f=fb[sleutel(d,o)];return f&&f.oordeel?f.oordeel:"";}
 function blok(d,o,kop,inhoud){return `<section class="blok ${cls(d,o)}"><h3>${kop}</h3>${inhoud}${fbHTML(d,o)}</section>`;}
 function vorig(d,f){return d.vorige?`<div class="vorige"><b>Vorige versie:</b> ${f(d.vorige)}</div>`:"";}
+function tekstblok(t){const r=(t||"").split("\n").map(x=>x.trim()).filter(Boolean);const a=r.filter(x=>!x.startsWith("- ")),b=r.filter(x=>x.startsWith("- ")).map(x=>x.slice(2));
+  return a.map(x=>`<p style="margin:0 0 6px">${esc2(x)}</p>`).join("")+(b.length?`<ul style="margin:0">${b.map(x=>`<li>${esc2(x)}</li>`).join("")}</ul>`:"");}
 function render(){
   const T=x=>x?(x[taal]||x.normaal):"";
-  $("tabs").innerHTML=D.map((d,i)=>{const n=Object.keys(fb).filter(k=>k.startsWith(sleutel(d.id,"").replace(/_+$/,""))&&(fb[k].oordeel||fb[k].opmerking)).length;
-    return `<button type="button" role="tab" aria-selected="${i===actief}" data-i="${i}">${esc2(d.agendapunt.slice(0,28))}${d.agendapunt.length>28?"…":""} <span class="n">${n?`(${n})`:""}</span></button>`}).join("");
+  $("tabs").innerHTML=D.map((d,i)=>{const n=Object.keys(fb).filter(k=>k.startsWith(sleutel(K(d),"").replace(/_+$/,""))&&(fb[k].oordeel||fb[k].opmerking)).length;
+    return `<button type="button" role="tab" aria-selected="${i===actief}" data-i="${i}">${esc2(d.agendapunt.slice(0,28))}${d.agendapunt.length>28?"…":""}${d.opzet&&!d.opzet.startsWith("ongewijzigd")?` · ${esc2(d.opzet)}`:""} <span class="n">${n?`(${n})`:""}</span></button>`}).join("");
   const d=D[actief];if(!d)return;
   const looks={};for(const s of d.strip.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
   const lookOf=n=>looks[n]||LOOKS[0];
   const vakken=d.strip.strip.map((p0,i)=>{const p={...p0,tekst:T(p0.tekst)};
-    return `<section class="blok vak ${cls(d.id,"vak"+(i+1))}"><h3>Vak ${i+1}${p.interruptie?" · interruptie":""}</h3><figure>${panelSVG(p,i,lookOf)}<figcaption class="src"><b>Citaat${p.spreker==="Verteller"?"":" van "+esc2(p.wie)}:</b> “${esc2(p.citaat)}”</figcaption></figure>
-    ${d.vorige&&d.vorige.strip.strip[i]?`<div class="vorige"><b>Vorige versie:</b> ${esc2(d.vorige.strip.strip[i].spreker)}: “${esc2(T(d.vorige.strip.strip[i].tekst))}”</div>`:""}${fbHTML(d.id,"vak"+(i+1))}</section>`}).join("");
+    return `<section class="blok vak ${cls(K(d),"vak"+(i+1))}"><h3>Vak ${i+1}${p.interruptie?" · interruptie":""}</h3><figure>${panelSVG(p,i,lookOf)}<figcaption class="src"><b>Echt gezegd${p.spreker==="Verteller"?"":" door "+esc2(p.wie)}:</b> “${esc2(p.citaat)}”${p.video?` <a class="indebat" href="${esc2(p.video)}" target="_blank" rel="noopener">▶ Bekijk dit moment</a>${p.video_na>=60?` <span class="na">(het citaat komt ongeveer ${Math.round(p.video_na/60)} minuut${Math.round(p.video_na/60)===1?"":"en"} na het begin van de spreekbeurt)</span>`:""}`:""}</figcaption></figure>
+    ${d.vorige&&d.vorige.strip.strip[i]?`<div class="vorige"><b>Vorige versie:</b> ${esc2(d.vorige.strip.strip[i].spreker)}: “${esc2(T(d.vorige.strip.strip[i].tekst))}”</div>`:""}${fbHTML(K(d),"vak"+(i+1))}</section>`}).join("");
   $("debat").innerHTML=
-    `<p class="src">${esc2(d.datum)} · ${esc2(d.soort)} · ${esc2(d.agendapunt)}</p>`+
-    blok(d.id,"titel","Titel",`<p style="font-size:1.4rem;font-weight:700;margin:0">${esc2(T(d.titel))}</p>${vorig(d,v=>esc2(T(v.titel)))}`)+
-    blok(d.id,"samenvatting","Samenvatting",`<p style="margin:0">${esc2(T(d.samenvatting))}</p>${vorig(d,v=>esc2(T(v.samenvatting)))}`)+
-    blok(d.id,"strip","De strip als geheel",`<p class="src" style="margin:0">Hieronder elk vak apart. Hier je oordeel over de strip als geheel: keuze van de momenten, de botsing, de volgorde.</p>`)+
+    `<p class="src">${esc2(d.datum)} · ${esc2(d.soort)} · ${esc2(d.agendapunt)}${d.opzet?` · opzet: <b>${esc2(d.opzet)}</b>`:""}</p>`+
+    blok(K(d),"titel","Titel",`<p style="font-size:1.4rem;font-weight:700;margin:0">${esc2(T(d.titel))}</p>${vorig(d,v=>esc2(T(v.titel)))}`)+
+    blok(K(d),"samenvatting","Samenvatting",`${tekstblok(T(d.samenvatting))}${vorig(d,v=>tekstblok(T(v.samenvatting)))}`)+
+    blok(K(d),"strip","De strip als geheel",`<p class="src" style="margin:0">Hieronder elk vak apart. Hier je oordeel over de strip als geheel: keuze van de momenten, de botsing, de volgorde.</p>`)+
     `<div class="vakken">${vakken}</div>`+
-    blok(d.id,"standpunten","Standpunten per partij",`<table class="st2"><tbody>${d.standpunten.map(s=>`<tr><th scope="row">${esc2(s.partij)}<br><span class="src">${esc2(s.naam)}</span></th><td>${esc2(T(s.tekst))}</td></tr>`).join("")}</tbody></table>`)+
-    blok(d.id,"kernpunten","Belangrijk om te weten",`<ul style="margin:0">${(T(d.kernpunten)||[]).map(k=>`<li>${esc2(k)}</li>`).join("")}</ul>`)+
-    blok(d.id,"algemeen","Algemeen over dit debat","");
+    blok(K(d),"standpunten","Standpunten per partij",standHTML(d,T))+
+    blok(K(d),"kernpunten","Belangrijk om te weten",kernHTML(d,T))+
+    blok(K(d),"algemeen","Algemeen over dit debat","");
   const n=Object.values(fb).filter(f=>f.oordeel||f.opmerking).length;$("telling").textContent=n?`${n} onderdelen met feedback`:"";
 }
+function standHTML(d,T){const rij=s=>`<tr><th scope="row">${esc2(s.partij)}<br><span class="src">${esc2(s.naam)}</span></th><td>${esc2(T(s.tekst))}</td></tr>`;
+  if(!d.onderwerpen.length)return `<table class="st2"><tbody>${d.standpunten.map(rij).join("")}</tbody></table>`;
+  const per={};d.standpunten.forEach(s=>per[s.id]=s);const gehad=new Set();
+  let h=d.onderwerpen.map(o=>{const l=(o.sprekers||[]).filter(i=>per[i]&&!gehad.has(i));l.forEach(i=>gehad.add(i));return `<tr><th colspan="2" style="background:rgba(127,127,127,.12)">${esc2(T(o.titel))}</th></tr>`+l.map(i=>rij(per[i])).join("")}).join("");
+  const rest=d.standpunten.filter(s=>!gehad.has(s.id));if(rest.length)h+=`<tr><th colspan="2" style="background:rgba(127,127,127,.12)">Overig</th></tr>`+rest.map(rij).join("");
+  return `<table class="st2"><tbody>${h}</tbody></table>`;}
+function kernHTML(d,T){const k=T(d.kernpunten)||[];const ul=xs=>`<ul style="margin:0 0 8px">${xs.map(x=>`<li>${esc2(x)}</li>`).join("")}</ul>`;
+  if(d.onderwerpen.length&&d.onderwerpen.every(o=>o.kernpunten))return d.onderwerpen.map(o=>`<h4 style="margin:6px 0 2px">${esc2(T(o.titel))}</h4>`+ul(o.kernpunten.map(i=>k[i]).filter(Boolean))).join("");
+  return ul(k);}
 async function bewaar(el,patch){
   const k=el.dataset.k;fb[k]={...(fb[k]||{}),...patch};const st=el.querySelector(".st");if(st)st.textContent="bewaren…";
   if(!db){if(st)st.textContent="niet bewaard";return;}

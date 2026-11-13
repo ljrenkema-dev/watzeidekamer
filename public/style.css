@@ -148,3 +148,6 @@ html[data-taal="makkelijk"] .lv-n{display:none}
 .naar-vak{display:block;margin-top:6px;font-size:14px;font-weight:700}
 .panel{scroll-margin-top:16px}
 .panel:target{outline:4px solid #ffe066}
+table.standpunten tr.onderwerp th{background:#f3f1ea;font-size:15px;padding-top:10px}
+.onderwerp-kop{font-size:1.05rem;margin:12px 0 4px}
+.summary p{margin:.3em 0}.summary ul.points{margin:.4em 0}

@@ -1,0 +1,14 @@
+{
+ "versie": "v1",
+ "datum": "2026-11-13",
+ "feedback_van": "eigenaar",
+ "verwerkt": [
+  {"debat": "vragenuur", "onderdeel": "titel", "opmerking": "Vragenuur: (als standaard)", "gedaan": "prompts/strip.md: titel begint met het soort debat en een dubbele punt bij debatten met losse onderwerpen."},
+  {"debat": "vragenuur", "onderdeel": "samenvatting", "opmerking": "Bulleted list bij een reeks is overzichtelijker", "gedaan": "prompts/strip.md: inleidende zin + regels met '- '; build.py en proeftuin tonen die als opsomming."},
+  {"debat": "vragenuur", "onderdeel": "kernpunten, standpunten", "opmerking": "subkopjes per vraag, voor alle vragenuurtjes", "gedaan": "Nieuw veld 'onderwerpen' (titel, sprekers, kernpunten); build.py en proeftuin groeperen standpunten en kernpunten per onderwerp."},
+  {"debat": "vragenuur", "onderdeel": "strip", "opmerking": "Focus bij vragenuur op 1 onderwerp, van beide kanten; rest in standpunten met subkopjes", "gedaan": "prompts/strip.md: strip kiest één onderwerp (strip_onderwerp), met vraag, antwoord en tegenwerpingen."},
+  {"debat": "vragenuur", "onderdeel": "vak1", "opmerking": "Spreekgestoelte mag mooier", "gedaan": "site/strip.js: nieuw spreekgestoelte met microfoons en de blauwe zetels van de plenaire zaal."},
+  {"debat": "vragenuur", "onderdeel": "vak2-7", "opmerking": "achtergrond/context", "gedaan": "Nog niet: navragen bij de eigenaar wat bedoeld is (achtergrond van het vak of meer context in de ballon)."},
+  {"debat": "vragenuur", "onderdeel": "vak5", "opmerking": "Nieuwe avatar", "gedaan": "Nog niet: Sophie Hermans heeft nog geen manga-figuur; wacht op Gemini-tegoed."}
+ ]
+}

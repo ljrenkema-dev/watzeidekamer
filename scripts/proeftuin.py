@@ -18,6 +18,12 @@ TEST = ["dd194a7c-3fbf-4bc5-b275-5f733e839dd6",            # vragenuur
 UIT = ROOT / "tools" / "proeftuin"
 
 
+def varianten(versie, pid):
+    """Alle strips van dit debat in deze versie: <id>.json en <id>__<opzet>.json."""
+    map_ = ROOT / "data" / "proeftuin" / versie
+    return sorted(map_.glob(f"{pid}*.json")) if map_.exists() else []
+
+
 def lees_strip(versie, pid):
     f = ROOT / "data" / "proeftuin" / versie / f"{pid}.json"
     if not f.exists() and versie == "v1":
@@ -37,19 +43,26 @@ def debat_data(pid, strip):
                    for s in strip["sprekers"]]
     return {"id": pid, "agendapunt": punt["titel"], "datum": punt["vergadering"]["datum"], "soort": punt["vergadering"]["soort"],
             "titel": tw(strip["titel"]), "samenvatting": tw(strip["samenvatting"]), "kernpunten": tw(strip["kernpunten"]),
-            "standpunten": standpunten, "strip": data}
+            "standpunten": standpunten, "strip": data, "onderwerpen": strip.get("onderwerpen") or [],
+            "strip_onderwerp": strip.get("strip_onderwerp"), "opzet": strip.get("_opzet", "")}
 
 
 def main(versie="v1", vorige=None):
     debatten = []
     for pid in TEST:
-        s = lees_strip(versie, pid)
-        if not s:
-            print(f"ontbreekt: {versie}/{pid}"); continue
-        d = debat_data(pid, s)
-        if vorige and lees_strip(vorige, pid):
-            d["vorige"] = debat_data(pid, lees_strip(vorige, pid))
-        debatten.append(d)
+        bestanden = varianten(versie, pid)
+        if not bestanden:  # nog niet opnieuw gemaakt: de vorige versie blijft staan
+            s = lees_strip(vorige or "v1", pid)
+            if not s:
+                continue
+            d = debat_data(pid, s); d["opzet"] = f"ongewijzigd ({vorige or 'v1'})"; debatten.append(d); continue
+        for f in bestanden:
+            s = json.loads(f.read_text())
+            d = debat_data(pid, s)
+            d["variant"] = f.stem
+            if vorige and lees_strip(vorige, pid):
+                d["vorige"] = debat_data(pid, lees_strip(vorige, pid))
+            debatten.append(d)
     if UIT.exists():
         shutil.rmtree(UIT)
     UIT.mkdir(parents=True)

@@ -18,6 +18,13 @@ Heeft het agendapunt een veld `deel`, dan is het één deel van een lang debat (
 - "Standpunten per partij" (`sprekers`) bevat de fracties die in dit deel spraken. Een antwoord van het kabinet staat in een ander deel als het hier niet voorkomt; schrijf dan niet dat het ontbreekt.
 - Bij een antwoord van het kabinet: noem aan wie de bewindspersoon antwoordt.
 
+## Debat met losse onderwerpen (vragenuur e.d.)
+Bij een vragenuur, mondelinge vragen of een debat waarin achter elkaar losse onderwerpen langskomen:
+- **Titel** begint met het soort debat en een dubbele punt: "Vragenuur: …". De rest noemt de onderwerpen of het belangrijkste onderwerp.
+- **Samenvatting**: één inleidende zin, dan per onderwerp een regel die begint met "- " (de site maakt er een opsomming van). Zelfde opbouw in normaal en makkelijk.
+- **`onderwerpen`**: per onderwerp, in de volgorde van het debat, `{"titel": {"normaal": "...", "makkelijk": "..."}, "sprekers": [ids van wie over dit onderwerp sprak], "kernpunten": [nummers van de kernpunten over dit onderwerp, vanaf 0]}`. De site zet de standpunten en de kernpunten dan per onderwerp onder een subkop. Zet de kernpunten in `kernpunten` op volgorde van onderwerp; normaal en makkelijk hebben evenveel kernpunten in dezelfde volgorde. Spreekt iemand over twee onderwerpen, zet hem bij het onderwerp waar hij het meest over zei en noem het andere in zijn standpunt.
+- **Strip**: kies één onderwerp en belicht het van beide kanten: de vraag, het antwoord van de bewindspersoon en de vervolgvragen of tegenwerpingen van andere partijen. Zet in `strip_onderwerp` het nummer van dat onderwerp (vanaf 0). Kies het onderwerp met de duidelijkste botsing of het meeste belang voor gewone mensen. De andere onderwerpen staan in de samenvatting, de kernpunten en de standpunten. Het eerste vak (Verteller) zegt dat de strip over dit ene onderwerp gaat; het mag een letterlijk stuk uit de vraag of de inleiding zijn.
+
 ## Juistheid (belangrijkst)
 - Gebruik ALLEEN wat in de spreekbeurten staat. Verzin niets. Geen eigen mening. Neutraal naar alle partijen.
 - Getallen, data en standpunten precies zoals in de tekst, in beide versies.
@@ -54,9 +61,11 @@ Een lezer die alleen de ballonnen leest, moet snappen waar het over gaat en waar
   "agendapunt": "<id>",
   "verslag_id": "<vergadering.verslag_id uit het agendapunt>",
   "titel": {"normaal": "max 12 woorden", "makkelijk": "max 10 woorden"},
-  "samenvatting": {"normaal": "3-5 zinnen", "makkelijk": "3-5 korte zinnen"},
+  "samenvatting": {"normaal": "3-5 zinnen (of inleiding + regels met '- ')", "makkelijk": "3-5 korte zinnen"},
   "sprekers": [{"id": "<spreker.id>", "standpunt": {"normaal": "1-2 zinnen", "makkelijk": "1-2 korte zinnen"}}],
   "kernpunten": {"normaal": ["..."], "makkelijk": ["..."]},
+  "onderwerpen": [{"titel": {"normaal": "...", "makkelijk": "..."}, "sprekers": ["<id>"], "kernpunten": [0, 1]}],
+  "strip_onderwerp": 0,
   "woorden": [{"woord": "...", "uitleg": "..."}],
   "strip": [{"spreker_id": "<id of null>", "emotie": "neutraal", "citaat": "...", "tekst": {"normaal": "...", "makkelijk": "..."}}]
 }

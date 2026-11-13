@@ -36,6 +36,20 @@ def twee(x, tag="span", cls=""):
     return f'<{tag} class="lv-n {cls}">{a}</{tag}><{tag} class="lv-m {cls}">{b}</{tag}>'
 
 
+def tekstblok(x, cls=""):
+    """Samenvatting: gewone alinea, of een inleiding met een opsomming (regels die met "- " beginnen)."""
+    def html_(t):
+        regels = [r.strip() for r in (t or "").split("\n") if r.strip()]
+        alinea = [r for r in regels if not r.startswith("- ")]
+        punten = [r[2:] for r in regels if r.startswith("- ")]
+        uit = "".join(f"<p>{e(a)}</p>" for a in alinea)
+        return uit + (f'<ul class="points">{"".join(f"<li>{e(p)}</li>" for p in punten)}</ul>' if punten else "")
+    a, b = html_(niv(x, "normaal")), html_(niv(x, "makkelijk"))
+    if a == b:
+        return f'<div class="{cls}">{a}</div>'
+    return f'<div class="lv-n {cls}">{a}</div><div class="lv-m {cls}">{b}</div>'
+
+
 def slug(naam):
     import re, unicodedata
     t = unicodedata.normalize("NFKD", naam).encode("ascii", "ignore").decode().lower()
@@ -364,11 +378,27 @@ def debat(punt, strip):
     def naar_vak(sid):
         nr = eerste_vak_nr.get(sid)
         return f'<a class="naar-vak" href="#vak{nr}">Zie vak {nr} in de strip</a>' if nr else ""
-    standpunten = "".join(
-        f'<tr><th scope="row">{e(s["fractie"] or "Kabinet")}</th>'
-        f'<td><a href="../p/{slug(s["naam"])}.html">{e(s["naam"])}</a>{"" if s["fractie"] else ", " + e(s["functie"])}</td>'
-        f'<td>{twee(s["standpunt"])}{naar_vak(s["id"])}</td></tr>'
-        for s in sorted((x for x in sprekers if not x.get("alleen_strip")), key=lambda x: (not x["fractie"], x["fractie"].lower())))
+    def rij(s):
+        return (f'<tr><th scope="row">{e(s["fractie"] or "Kabinet")}</th>'
+                f'<td><a href="../p/{slug(s["naam"])}.html">{e(s["naam"])}</a>{"" if s["fractie"] else ", " + e(s["functie"])}</td>'
+                f'<td>{twee(s["standpunt"])}{naar_vak(s["id"])}</td></tr>')
+    volgorde = lambda xs: sorted(xs, key=lambda x: (not x["fractie"], x["fractie"].lower()))
+    hoofd = [x for x in sprekers if not x.get("alleen_strip")]
+    onderwerpen = strip.get("onderwerpen") or []
+    if onderwerpen:
+        # Debat met losse onderwerpen (zoals het vragenuur): per onderwerp een subkop, in de volgorde van het debat.
+        per_id_ = {x["id"]: x for x in hoofd}
+        gehad, delen = set(), []
+        for o in onderwerpen:
+            leden = [per_id_[i] for i in o.get("sprekers", []) if i in per_id_ and i not in gehad]
+            gehad |= {x["id"] for x in leden}
+            delen.append(f'<tr class="onderwerp"><th colspan="3">{twee(o["titel"])}</th></tr>' + "".join(rij(x) for x in leden))
+        rest = [x for x in hoofd if x["id"] not in gehad]
+        if rest:
+            delen.append('<tr class="onderwerp"><th colspan="3">Overig</th></tr>' + "".join(rij(x) for x in volgorde(rest)))
+        standpunten = "".join(delen)
+    else:
+        standpunten = "".join(rij(x) for x in volgorde(hoofd))
     # Kaartjes: de belangrijkste sprekers, standaard 6 en hooguit 9.
     # Eerst wie in de strip staat (in volgorde van het debat), dan wie het meest sprak; bewindspersonen altijd.
     woorden_per = {}
@@ -415,14 +445,21 @@ def debat(punt, strip):
     kp = strip["kernpunten"]
     kp = kp if isinstance(kp, dict) else {"normaal": kp, "makkelijk": kp}
     lijst = lambda xs: "".join(f"<li>{e(k)}</li>" for k in xs)
-    kern = (f'<ul class="points">{lijst(kp["normaal"])}</ul>' if kp["normaal"] == kp["makkelijk"] else
-            f'<ul class="points lv-n">{lijst(kp["normaal"])}</ul><ul class="points lv-m">{lijst(kp["makkelijk"])}</ul>')
+    def kernlijst(idx=None):
+        kies = lambda xs: [xs[i] for i in idx if i < len(xs)] if idx is not None else xs
+        n, m = kies(kp["normaal"]), kies(kp["makkelijk"])
+        return (f'<ul class="points">{lijst(n)}</ul>' if n == m else
+                f'<ul class="points lv-n">{lijst(n)}</ul><ul class="points lv-m">{lijst(m)}</ul>')
+    if onderwerpen and all("kernpunten" in o for o in onderwerpen):
+        kern = "".join(f'<h3 class="onderwerp-kop">{twee(o["titel"])}</h3>{kernlijst(o["kernpunten"])}' for o in onderwerpen)
+    else:
+        kern = kernlijst()
     woorden = "".join(f'<div class="word"><b>{e(w["woord"])}</b>{e(w["uitleg"])}</div>' for w in strip.get("woorden", []))
     body = f"""<main class="out" style="display:flex;flex-direction:column;gap:20px">
 <div class="meta"><span>{datum(v['datum'])}</span><span class="tag">{e(v['soort'])}</span>{status}</div>
 <h1>{twee(strip['titel'])}</h1>
 <p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
-{twee(strip['samenvatting'], "p", "summary")}
+{tekstblok(strip['samenvatting'], "summary")}
 <h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>
 <p class="note">Elk vak toont een letterlijk citaat uit het verslag. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a></p>
 <h2>Standpunten per partij</h2>

@@ -112,7 +112,19 @@ function panelSVG(p,i,lookOf){
   const charX=flip?250:40, charY=Math.max(110,Math.min(168,by+bh+40));
   let fig="";
   if(narr){
-    fig=`<g transform="translate(140 ${Math.max(150,16+bh+14)}) scale(1.1)"><rect x="0" y="40" width="110" height="60" fill="#c9b48a" stroke="#1d1b2e" stroke-width="2"/><rect x="10" y="20" width="90" height="24" fill="#e7d9b8" stroke="#1d1b2e" stroke-width="2"/><circle cx="55" cy="10" r="10" fill="#e7c34a" stroke="#1d1b2e" stroke-width="2"/></g>`;
+    /* Verteller: het spreekgestoelte van de plenaire zaal, met de blauwe zetels erachter. */
+    const y0=Math.max(118,16+bh+8);
+    fig=`<g transform="translate(0 ${y0})">
+      <path d="M0 ${300-y0} L0 ${150-y0+120} Q200 ${150-y0+70} 400 ${150-y0+120} L400 ${300-y0} Z" fill="#3a5a9b" opacity=".35"/>
+      ${[40,100,160,240,300,360].map(x=>`<rect x="${x-18}" y="${168-y0+40}" width="36" height="26" rx="7" fill="#2f4f8f" opacity=".55"/>`).join("")}
+      <g transform="translate(130 0)">
+        <path d="M14 46 L126 46 L116 ${300-y0} L24 ${300-y0} Z" fill="#d9c7a3" stroke="#1d1b2e" stroke-width="2.5"/>
+        <path d="M24 70 L116 70" stroke="#b49a6d" stroke-width="2"/><path d="M28 100 L112 100" stroke="#b49a6d" stroke-width="2"/>
+        <rect x="50" y="58" width="40" height="24" rx="5" fill="#f4ecd8" stroke="#1d1b2e" stroke-width="2"/>
+        <path d="M0 34 Q70 22 140 34 L140 46 L0 46 Z" fill="#efe3c8" stroke="#1d1b2e" stroke-width="2.5"/>
+        <path d="M52 34 L44 4" stroke="#1d1b2e" stroke-width="3" stroke-linecap="round"/><circle cx="43" cy="2" r="4" fill="#1d1b2e"/>
+        <path d="M88 34 L96 4" stroke="#1d1b2e" stroke-width="3" stroke-linecap="round"/><circle cx="97" cy="2" r="4" fill="#1d1b2e"/>
+      </g></g>`;
   } else if(L.u&&L.u.manga){
     /* Manga-beeld: groter dan het getekende figuur; bij een interruptie de houding achter de microfoon. */
     const w=186,h=248,x=flip?400-w-6:6;
