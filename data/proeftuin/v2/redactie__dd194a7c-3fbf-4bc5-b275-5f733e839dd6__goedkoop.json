@@ -1,0 +1,162 @@
+{
+  "agendapunt": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
+  "verslag_id": "0b4535e0-4257-48c9-9cd3-764382181d49",
+  "datum": "2026-11-13",
+  "oordeel": "aangepast",
+  "onafhankelijk": true,
+  "bevindingen": [
+    {
+      "waar": "vak 4 normaal+makkelijk (oud vak 6)",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L10",
+      "oud": "citaat zonder 'in de wet staat en niet gelijk'",
+      "nieuw": "citaat verlengd met 'dit gebeurt doordat er gelijkwaardig in de wet staat en niet gelijk'",
+      "waarom": "Patijn noemt 'gelijkwaardig' in de wet de oorzaak; zonder dat is het vak niet op zichzelf te begrijpen"
+    },
+    {
+      "waar": "strip vak 4 en 5 (vouchers, monitoren) en vak 8 (Patijn slot)",
+      "soort": "evenwicht",
+      "ernst": "middel",
+      "les": "L9",
+      "oud": "PRO 4 vakken, Dijk en antwoord op steunpunt ontbraken",
+      "nieuw": "vouchers/monitoren en Patijn-slot vervangen door Dijk (hulp-, meld- en steunpunt) en Vijlbriefs antwoord",
+      "waarom": "PRO had 4 vakken tegen ongeveer 0.8 op spreektijd; SP kreeg nu een stem met antwoord van de minister"
+    },
+    {
+      "waar": "vak 6 en 7 nieuw",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1",
+      "oud": "n.v.t.",
+      "nieuw": "Vijlbrief: 'denk ik' blijft staan bij 'aan de vakbeweging'",
+      "waarom": "voorbehoud 'denk ik' in citaat"
+    },
+    {
+      "waar": "standpunt Patijn",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1",
+      "oud": "vindt dat de minister bagatelliseert",
+      "nieuw": "vindt dat de minister een beetje bagatelliseert",
+      "waarom": "citaat: 'een beetje bagatelliseert'"
+    },
+    {
+      "waar": "standpunt Neijenhuis makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L4",
+      "oud": "Nederland wordt nog steeds gebruikt als land met lage lonen",
+      "nieuw": "Volgens hem wordt Nederland ...",
+      "waarom": "bewering van Neijenhuis, 'sluiproutes'"
+    },
+    {
+      "waar": "standpunt Struijs normaal+makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L4",
+      "oud": "gemeenten verliezen hun reserves",
+      "nieuw": "volgens de VNG raken de reserves op",
+      "waarom": "bron: 'Ook de VNG geeft aan dat de reserves hierdoor opraken'"
+    },
+    {
+      "waar": "standpunt Paulusma makkelijk en kernpunt 8 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "artsen",
+      "nieuw": "de beroepsgroep",
+      "waarom": "bron: 'de beroepsgroep'"
+    },
+    {
+      "waar": "standpunt Hermans",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L2",
+      "oud": "geen nuance over geld",
+      "nieuw": "Volgens haar kan geld geen barrière zijn, maar de oorzaken worden onderzocht",
+      "waarom": "citaat: 'dat kan geen barrière zijn'"
+    },
+    {
+      "waar": "kernpunt 2 (beide)",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1",
+      "oud": "vindt dat de vakbeweging dat moet opzetten",
+      "nieuw": "denkt dat het aan de vakbeweging is",
+      "waarom": "citaat: 'denk ik'"
+    },
+    {
+      "waar": "kernpunt 3 (beide)",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L5",
+      "oud": "Patijn wil dat gelijkwaardig vervangen wordt",
+      "nieuw": "Patijn vraagt of ... kan worden vervangen",
+      "waarom": "haar tekst is een vraag"
+    },
+    {
+      "waar": "kernpunt 1 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "had moeten liggen",
+      "nieuw": "beter was geweest als ... had gelegen",
+      "waarom": "bron: 'veel beter geweest'"
+    },
+    {
+      "waar": "kernpunt 6 (beide)",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L2",
+      "oud": "is geen barrière",
+      "nieuw": "kan geen barrière zijn, wel onderzocht",
+      "waarom": "citaat: 'Althans, dat kan geen barrière zijn'"
+    },
+    {
+      "waar": "kernpunt 9 (beide)",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L4",
+      "oud": "vrouwen moeten een jaar langer wachten als feit",
+      "nieuw": "Volgens haar ...",
+      "waarom": "bewering van Vliegenthart"
+    },
+    {
+      "waar": "kernpunt 10 normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L4",
+      "oud": "Assen noemde één casus van een miljoen",
+      "nieuw": "Assen gaf aan dat één casus een miljoen euro kostte",
+      "waarom": "bron: 'gaf aan ... kwijt te zijn'"
+    },
+    {
+      "waar": "kernpunt 13 (beide)",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L14",
+      "oud": "hij is het met Keijzer eens dat de samenleving klaar moet staan",
+      "nieuw": "Keijzers vraag of er gekozen moet worden, volledig mee eens; zwaarste groep klaarstaan, lichtste groep anders bekijken",
+      "waarom": "bron [75]: 'Daar ben ik het volledig mee eens' gaat over kiezen"
+    },
+    {
+      "waar": "samenvatting makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L4",
+      "oud": "Uitzendkrachten kregen jaren minder loon. / hoe gemeenten de dure jeugdzorg betalen",
+      "nieuw": "Volgens haar kregen ... / wat de regering doet aan de dure jeugdzorg",
+      "waarom": "Struijs vroeg wat de regering doet"
+    },
+    {
+      "waar": "woorden",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "nieuw",
+      "oud": "Scholingsvoucher",
+      "nieuw": "verwijderd",
+      "waarom": "woord komt niet meer voor in de strip"
+    }
+  ]
+}

@@ -150,6 +150,17 @@ def beurt_index(punt, vak):
     return None
 
 
+def plek(punt, vak, sp):
+    """Waar de spreker staat, voor de achtergrond van het vak."""
+    if (punt["vergadering"].get("soort") or "").lower().startswith("commissie"):
+        return "commissie"
+    if not sp:
+        return "katheder"
+    if is_interruptie(punt, vak):
+        return "interruptie"
+    return "kabinet" if not sp.get("fractie") else "katheder"
+
+
 def video_link(punt, i):
     """Link naar het moment in Debat Direct waarop spreekbeurt i begint, of None.
     Debat Direct heeft dezelfde id's als de agendapunten; het spreekmoment moet dezelfde persoon hebben
@@ -319,12 +330,12 @@ k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makk
 def manga(sleutel):
     """Map met goedgekeurde manga-beelden voor deze persoon (site/manga/, gemaakt door manga_site.py), of None."""
     m = (sleutel or "").replace(":", "-")
-    return m if m and (ROOT / "site" / "manga" / m / "neutraal.jpg").exists() else None
+    return m if m and (ROOT / "site" / "manga" / m / "neutraal.webp").exists() else None
 
 
 def manga_int(sleutel):
     m = manga(sleutel)
-    return bool(m and (ROOT / "site" / "manga" / m / "interruptie.jpg").exists())
+    return bool(m and (ROOT / "site" / "manga" / m / "interruptie.webp").exists())
 
 
 def wie(sp):
@@ -362,6 +373,7 @@ def debat(punt, strip):
         vakken.append({"spreker": sp["verslagnaam"] if sp else "Verteller", "wie": wie(sp) if sp else "",
                        "emotie": p["emotie"], "citaat": p["citaat"], "interruptie": is_interruptie(punt, p),
                        "beurt": beurt_index(punt, p) if p["spreker_id"] else None,
+                       "plek": plek(punt, p, sp),
                        "video": video_link(punt, beurt_index(punt, p)) if p["spreker_id"] else None,
                        "video_na": citaat_na(punt, p) if p["spreker_id"] else None,
                        "tekst": {"normaal": niv(p["tekst"], "normaal"), "makkelijk": niv(p["tekst"], "makkelijk")}})

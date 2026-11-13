@@ -1,0 +1,362 @@
+{
+  "agendapunt": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
+  "verslag_id": "0b4535e0-4257-48c9-9cd3-764382181d49",
+  "_opzet": "duur",
+  "titel": {
+    "normaal": "Vragenuur: loon van uitzendkrachten, gentest bij borstkanker en kosten van jeugdzorg",
+    "makkelijk": "Vragenuur: loon, gentest bij borstkanker en kosten van jeugdzorg"
+  },
+  "samenvatting": {
+    "normaal": "In het vragenuur van 10 november 2026 stelden Kamerleden vragen over drie onderwerpen.\n- PRO vroeg minister Vijlbrief (Sociale Zaken) naar uitzendkrachten die volgens PRO jarenlang minder betaald kregen dan hun collega's, omdat gelijk loon in 2011 niet in de wet kwam.\n- JA21 vroeg minister Hermans (Volksgezondheid) waarom een gentest die onnodige chemotherapie bij borstkanker kan voorkomen, in twee derde van de gevallen niet wordt ingezet.\n- 50PLUS vroeg staatssecretaris Van der Burg, die de zieke minister van Binnenlandse Zaken verving, wat het kabinet doet aan de hoge kosten van intensieve, complexe jeugdzorg voor gemeenten.",
+    "makkelijk": "Op 10 november 2026 was het vragenuur. Kamerleden vroegen naar drie onderwerpen.\n- PRO zegt: uitzendkrachten kregen jaren minder loon dan collega's.\n- JA21 vroeg naar een gentest bij borstkanker. Die test kan onnodige chemo voorkomen. Hij wordt te weinig gebruikt.\n- 50PLUS vroeg naar de hoge kosten van zware jeugdzorg voor gemeenten."
+  },
+  "sprekers": [
+    {
+      "id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+      "standpunt": {
+        "normaal": "Volgens Patijn (PRO) kwam gelijk loon voor uitzendkrachten in 2011 bewust niet in de wet, in strijd met de Europese richtlijn; ze vraagt of de minister het ministerie aansprakelijk acht en wil dat het ministerie onderbetaalde uitzendkrachten actief informeert, bijvoorbeeld via sociale media. Ze hoort nu al geluiden dat 'gelijkwaardig' loon in de Flexwet weer tot onderbetaling leidt en vindt het onacceptabel als uitzendkrachten daardoor duizenden euro's mislopen.",
+        "makkelijk": "Patijn (PRO) zegt: gelijk loon kwam in 2011 bewust niet in de wet. Ze wil dat het ministerie uitzendkrachten over hun rechten vertelt. Ze hoort dat 'gelijkwaardig' loon weer te weinig loon geeft."
+      }
+    },
+    {
+      "id": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+      "standpunt": {
+        "normaal": "Volgens minister Vijlbrief gebeurde er in 2011 niets wat juridisch niet door de beugel kon: het was een interpretatie van de richtlijn, waar de Kamer met algemene stemmen mee instemde, al was meer openheid beter geweest. Hij bespreekt met de vakbeweging hoe mensen hun recht kunnen halen, wil met de bonden bijhouden of 'gelijkwaardig' loon tot onderbetaling leidt, wil doordetachering hard aanpakken en vindt een hulp-, meld- en steunpunt een taak voor de vakbeweging.",
+        "makkelijk": "Minister Vijlbrief vindt dat de keuze uit 2011 juridisch mocht. Hij praat met de vakbonden over de rechten van uitzendkrachten. Een steunpunt is volgens hem aan de vakbonden."
+      }
+    },
+    {
+      "id": "94b57459-7e34-46f8-834a-da04c53a02d6",
+      "standpunt": {
+        "normaal": "Volgens Neijenhuis (D66) wordt Nederland via allerlei sluiproutes nog steeds gebruikt als lagelonenland. Hij vraagt wat de minister doet om die sluiproutes af te sluiten.",
+        "makkelijk": "Neijenhuis (D66) zegt: Nederland wordt nog gebruikt als land met lage lonen. Hij vraagt wat de minister daartegen doet."
+      }
+    },
+    {
+      "id": "00d76c77-5747-4519-a846-5fc28b793dc7",
+      "standpunt": {
+        "normaal": "Van Houwelingen (FVD) vindt het vreemd dat bij de omzetting van de richtlijn een risico is genomen, met mogelijk een massaclaim van miljarden euro's, terwijl er volgens hem bij de kinderopvang geen enkel risico met de Europese Unie mag zijn.",
+        "makkelijk": "Van Houwelingen (FVD) vindt het vreemd dat hier een risico werd genomen. Bij de kinderopvang mag dat volgens hem niet."
+      }
+    },
+    {
+      "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+      "standpunt": {
+        "normaal": "Volgens Dijk (SP) kregen honderdduizenden mensen, misschien wel een miljoen, jarenlang miljarden te weinig loon. Hij vraagt de minister met de vakbonden af te spreken dat er een hulp-, meld- en steunpunt komt, zodat deze mensen ook steun van de overheid voelen.",
+        "makkelijk": "Dijk (SP) zegt: honderdduizenden mensen kregen te weinig loon. Hij wil een hulp-, meld- en steunpunt voor hen."
+      }
+    },
+    {
+      "id": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+      "standpunt": {
+        "normaal": "Coenradie (JA21) vindt het onbegrijpelijk dat een gentest die kan bepalen of vrouwen met borstkanker chemotherapie nodig hebben, te weinig wordt ingezet. Ze vraagt of geld daarbij meespeelt, wil snel uitsluitsel uit het onderzoek en vraagt om een duidelijk aanspreekpunt voor diagnostiek bij het ministerie.",
+        "makkelijk": "Coenradie (JA21) vindt het onbegrijpelijk dat de gentest te weinig wordt gebruikt. Ze wil weten of geld een rol speelt. Ze wil meer aandacht voor diagnostiek."
+      }
+    },
+    {
+      "id": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+      "standpunt": {
+        "normaal": "Minister Hermans vindt het niet goed dat de test in twee derde van de gevallen niet wordt ingezet. De test wordt sinds 2023 vergoed, dus geld kan volgens haar geen barrière zijn, maar dat wordt wel onderzocht; de resultaten komen eind 2027 en intussen brengt de beroepsgroep het onder de aandacht.",
+        "makkelijk": "Minister Hermans vindt het niet goed dat de test te weinig wordt gebruikt. Geld kan geen reden zijn, want de test wordt vergoed. Dat wordt wel onderzocht."
+      }
+    },
+    {
+      "id": "80a5d70b-e932-493d-90b4-d45fe2be522f",
+      "standpunt": {
+        "normaal": "Paulusma (D66) wil niet alleen een ledenvergadering van de beroepsgroep afwachten. Ze wil dat de minister de beroepsgroep wijst op de wettelijke plicht om samen met de patiënt te beslissen.",
+        "makkelijk": "Paulusma (D66) wil dat de minister de beroepsgroep wijst op de wet. Arts en patiënt moeten samen beslissen."
+      }
+    },
+    {
+      "id": "6ee6a4b6-3523-4806-b784-a669f6fa8c10",
+      "standpunt": {
+        "normaal": "Poortman (CDA) vindt dat deze casus de urgentie van passende zorg onderstreept, en vraagt welke drempels rond het aanbieden van de genprofieltest weggenomen kunnen worden.",
+        "makkelijk": "Poortman (CDA) wil weten wat er in de weg staat. Dan kunnen vrouwen de gentest krijgen."
+      }
+    },
+    {
+      "id": "9d5e0865-b8a6-4952-8126-c3e27b08ef33",
+      "standpunt": {
+        "normaal": "Vliegenthart (PRO) maakt zich enorme zorgen dat vrouwen door personeelstekorten een jaar langer moeten wachten op een uitnodiging voor borstkankeronderzoek en dat borstenbussen sluiten. Ze vraagt wat de minister doet om de screening tijdig toegankelijk te houden.",
+        "makkelijk": "Vliegenthart (PRO) maakt zich zorgen. Vrouwen wachten een jaar langer op borstkankeronderzoek. Ze vraagt wat de minister daaraan doet."
+      }
+    },
+    {
+      "id": "43f571a7-1136-42f0-9a88-7b404b8e43b9",
+      "standpunt": {
+        "normaal": "Maeijer (PVV) wijst erop dat bij de evaluatie in 2025 naar schatting 30% van de vrouwen die in aanmerking komen, werd getest, met grote verschillen tussen ziekenhuizen, en vraagt of al die vrouwen wisten dat de test bestaat.",
+        "makkelijk": "Maeijer (PVV) wil weten of alle vrouwen wisten dat de test bestaat."
+      }
+    },
+    {
+      "id": "78bfadde-92e9-4200-9324-ec3ff790a712",
+      "standpunt": {
+        "normaal": "Volgens Struijs (50PLUS) zijn gemeenten onevenredig veel geld kwijt aan intensieve, complexe jeugdzorg, en heeft het Rijk de wettelijke plicht om ze genoeg geld te geven. Hij wil voorkomen dat deze jongeren worden opgesloten, omdat ze zorg verdienen, en vraagt de Kamer op de hoogte te houden van de gesprekken met de VNG.",
+        "makkelijk": "Struijs (50PLUS) vindt dat het Rijk gemeenten genoeg geld moet geven voor zware jeugdzorg. Deze jongeren verdienen zorg, niet een cel."
+      }
+    },
+    {
+      "id": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+      "standpunt": {
+        "normaal": "Staatssecretaris Van der Burg, die de zieke minister verving, erkent dat kleine gemeenten de kosten van de zwaarste jeugdzorg niet kunnen dragen: 'als er een taak overgaat, moet er ook een knaak overgaan'. Hij wijst op het advies van de commissie-Van Ark in januari, dat het kabinet zwaar laat wegen, en zegt een brief toe over perspectief en onderwijs voor deze jongeren.",
+        "makkelijk": "Staatssecretaris Van der Burg zegt: kleine gemeenten kunnen dit niet betalen. Hij wacht op het advies van de commissie-Van Ark in januari."
+      }
+    },
+    {
+      "id": "ad2d74ac-2b93-494b-8587-ec1084c9eaa0",
+      "standpunt": {
+        "normaal": "Verkuijlen (VVD) vraagt of de staatssecretaris voordelen ziet in het centraler inkopen van de zorg voor de 2% jongeren met de zwaarste zorg, en hoe de taken van BZK en VWS verdeeld zijn.",
+        "makkelijk": "Verkuijlen (VVD) vraagt of het helpt om zware jeugdzorg centraler in te kopen."
+      }
+    },
+    {
+      "id": "b5363002-d06e-4813-9c05-86fe74185a56",
+      "standpunt": {
+        "normaal": "Volgens Dobbe (SP) is het jeugdzorgsysteem kapot en verwarrend, met onder meer 41 jeugdregio's en 342 gemeenten. Ze wil dat de bezuiniging van 1 miljard op de jeugdzorg van tafel gaat en dat de specialistische jeugdzorg terug naar het Rijk gaat.",
+        "makkelijk": "Dobbe (SP) vindt de jeugdzorg te ingewikkeld. Ze wil geen bezuiniging van 1 miljard. De specialistische jeugdzorg moet terug naar het Rijk."
+      }
+    },
+    {
+      "id": "49473613-31b4-4fa3-9f2b-12646b918ecf",
+      "standpunt": {
+        "normaal": "Boelsma-Hoekstra (CDA) vraagt of de staatssecretaris het eens is dat dit een gezamenlijke verantwoordelijkheid is van BZK en VWS, omdat je samen stappen kunt zetten.",
+        "makkelijk": "Boelsma-Hoekstra (CDA) vindt dat twee ministeries dit samen moeten oplossen."
+      }
+    },
+    {
+      "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+      "standpunt": {
+        "normaal": "Van Brenk (50PLUS) maakt zich zorgen dat er geen positief advies ligt over de samenwerkingsagenda; volgens de VNG komen gemeenten 728 miljoen tekort. Bij de gentest vroeg ze wie ervoor kan zorgen dat vrouwen de test ook echt krijgen.",
+        "makkelijk": "Van Brenk (50PLUS) maakt zich zorgen. Volgens de gemeenten komen ze 728 miljoen tekort. Ze vroeg ook wie zorgt dat vrouwen de gentest krijgen."
+      }
+    },
+    {
+      "id": "b119b226-8fb6-4888-829f-0ccd02d6dee6",
+      "standpunt": {
+        "normaal": "Volgens Westerveld (PRO) zien we dit probleem al jaren aankomen: bij de afbouw van de gesloten jeugdzorg is te weinig gedaan om goede alternatieven te ontwikkelen. Ze vraagt wat het kabinet doet voor perspectief en goed onderwijs voor deze jongeren.",
+        "makkelijk": "Westerveld (PRO) zegt: dit probleem is al jaren bekend. Ze wil perspectief en goed onderwijs voor deze jongeren."
+      }
+    },
+    {
+      "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+      "standpunt": {
+        "normaal": "Keijzer zegt dat een kind soms gewoon pech kan hebben in het leven. Ze vraagt of er bij de eenvoudige jeugdzorg keuzes gemaakt moeten worden, zodat er genoeg geld en mensen overblijven voor de zware zorg.",
+        "makkelijk": "Keijzer wil keuzes maken bij lichte jeugdzorg. Dan blijft er genoeg over voor zware zorg."
+      }
+    }
+  ],
+  "kernpunten": {
+    "normaal": [
+      "Volgens PRO kwam gelijk loon voor uitzendkrachten in 2011 bewust niet in de wet, na een lobby van minister Kamp samen met de uitzendsector. Minister Vijlbrief vindt dat er niets gebeurde wat juridisch niet door de beugel kon, al was meer openheid naar de Kamer volgens hem beter geweest.",
+      "Tot een uitspraak in 2022 was volgens de minister onduidelijk hoe uitzendkrachten betaald moesten worden. Sinds de Wet meer zekerheid flexwerkers staat er 'gelijkwaardig' loon in de wet.",
+      "PRO hoort nu al geluiden dat 'gelijkwaardig' loon weer tot onderbetaling leidt, en wil 'gelijk' loon. De minister zegt dat de Kamer in meerderheid voor 'gelijkwaardig' koos. Blijkt er structureel onderbetaling, dan kan hij via een AMvB op basis van het amendement van Patijn ingrijpen. Hij wil met de bonden bijhouden hoe vaak het misgaat.",
+      "De minister bespreekt met de vakbeweging hoe zo veel mogelijk mensen te weten komen dat ze hun recht kunnen halen. Een hulp-, meld- en steunpunt, waar de SP om vraagt, is volgens hem een taak voor de vakbeweging; hij geeft ze een steuntje in de rug.",
+      "FVD vindt het vreemd dat in 2011 een risico werd genomen, met mogelijk een massaclaim van miljarden euro's. Volgens de minister is de Kamer de wetgever en hoort een risico erbij als je een richtlijn interpreteert.",
+      "Volgens JA21 hebben jaarlijks honderden, misschien wel duizenden vrouwen onnodig chemotherapie voor borstkanker gekregen, omdat een gentest te weinig wordt ingezet. Volgens de minister wordt de test in twee derde van de gevallen niet gebruikt.",
+      "De test wordt sinds 2023 vergoed. Daarom kan geld volgens de minister geen barrière zijn, maar dat wordt wel onderzocht. IKNL en drie universiteiten zoeken de oorzaken uit; de resultaten komen pas eind 2027.",
+      "Volgens JA21 kost chemotherapie al snel €15.000, tegenover €3.000 tot €4.000 voor een gentest. JA21 wil snel uitsluitsel en meer aandacht voor diagnostiek bij het ministerie. De minister herkent de versnippering niet, maar zegt een gesprek toe.",
+      "D66 wil dat de minister de beroepsgroep wijst op de wettelijke plicht om samen met de patiënt te beslissen. De minister kan volgens haar niet treden in de uitvoering van de richtlijn; de beroepsgroep brengt het een week na het debat op haar ledenvergadering onder de aandacht.",
+      "PRO maakt zich enorme zorgen dat vrouwen door personeelstekorten een jaar langer wachten op een uitnodiging voor borstkankeronderzoek. Volgens de minister wordt hard gewerkt om mensen te werven.",
+      "Volgens 50PLUS komen gemeenten in geldnood door intensieve, complexe jeugdzorg, ongeveer 2% van de jeugdzorg. Volgens Assen kostte één casus een miljoen euro.",
+      "Volgens de staatssecretaris kregen in 2024 9.600 jongeren meer dan €100.000 aan zorg, 1.100 jongeren meer dan €250.000 en 100 tot 200 jongeren €500.000 of meer. Zeker kleine gemeenten kunnen dat niet dragen; het kabinet is daarover in gesprek met de VNG.",
+      "In januari komt de commissie-Van Ark met een nieuw advies. Volgens de staatssecretaris laat het kabinet dat zwaar wegen. Hij zegt: 'als er een taak overgaat, moet er ook een knaak overgaan'.",
+      "De SP wil dat de bezuiniging van 1 miljard op de jeugdzorg van tafel gaat en dat de specialistische jeugdzorg terug naar het Rijk gaat. De staatssecretaris geeft de SP gelijk dat het systeem voor bijna niemand meer te snappen is.",
+      "PRO vraagt wat het kabinet doet voor perspectief en goed onderwijs voor deze jongeren. De staatssecretaris zegt een brief aan de Kamer toe."
+    ],
+    "makkelijk": [
+      "Volgens PRO kwam gelijk loon in 2011 bewust niet in de wet. De minister vindt dat dit juridisch mocht. Meer openheid naar de Kamer was wel beter geweest, vindt hij.",
+      "Tot 2022 was het onduidelijk hoe uitzendkrachten betaald moesten worden, zegt de minister. Nu staat 'gelijkwaardig' loon in de wet.",
+      "PRO hoort dat 'gelijkwaardig' loon weer te weinig loon geeft. PRO wil 'gelijk' loon. De meeste Kamerleden kozen 'gelijkwaardig', zegt de minister. Blijft loon steeds te laag, dan kan hij ingrijpen. Hij wil dat met de bonden bijhouden.",
+      "De minister praat met de vakbonden. Hoe weten mensen dat ze hun recht kunnen halen? De SP wil een steunpunt. Dat is aan de vakbonden, zegt de minister. Hij helpt ze daarbij.",
+      "FVD vindt het vreemd dat in 2011 een risico werd genomen. Er kan een claim van miljarden komen. De minister zegt: de Kamer maakt de wet.",
+      "Volgens JA21 kregen honderden, misschien duizenden vrouwen onnodig chemo. Een gentest wordt te weinig gebruikt. In twee van de drie gevallen gebeurt het niet, zegt de minister.",
+      "De test wordt sinds 2023 vergoed. Geld kan dus geen reden zijn, zegt de minister. Dat wordt wel onderzocht. De uitkomst komt eind 2027.",
+      "Chemo kost al snel €15.000, zegt JA21. Een gentest kost €3.000 tot €4.000. JA21 wil meer aandacht voor diagnostiek. De minister wil daarover praten.",
+      "D66 wil dat de minister de beroepsgroep wijst op de wet. Arts en patiënt moeten samen beslissen. De minister zegt: daar ga ik niet over. De beroepsgroep praat er zelf over.",
+      "PRO maakt zich zorgen. Vrouwen wachten een jaar langer op borstkankeronderzoek. Er is te weinig personeel. Er wordt hard gewerkt om mensen te vinden, zegt de minister.",
+      "Volgens 50PLUS komen gemeenten in geldnood door zware jeugdzorg. Volgens Assen kostte één geval een miljoen euro.",
+      "In 2024 kregen 9.600 jongeren zorg van meer dan €100.000. Kleine gemeenten kunnen dat niet betalen, zegt de staatssecretaris. Het kabinet praat met de vereniging van gemeenten.",
+      "In januari komt een nieuw advies van de commissie-Van Ark. Het kabinet vindt dat advies erg belangrijk, zegt de staatssecretaris.",
+      "De SP wil geen bezuiniging van 1 miljard op jeugdzorg. De specialistische jeugdzorg moet terug naar het Rijk. Het systeem is te ingewikkeld, zegt de staatssecretaris ook.",
+      "PRO wil weten wat het kabinet doet voor deze jongeren en hun school. De staatssecretaris stuurt de Kamer een brief."
+    ]
+  },
+  "onderwerpen": [
+    {
+      "titel": {
+        "normaal": "Loon van uitzendkrachten",
+        "makkelijk": "Loon van uitzendkrachten"
+      },
+      "sprekers": [
+        "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+        "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+        "94b57459-7e34-46f8-834a-da04c53a02d6",
+        "00d76c77-5747-4519-a846-5fc28b793dc7",
+        "a7d583c5-c521-49f7-99be-35bd470fbf35"
+      ],
+      "kernpunten": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "titel": {
+        "normaal": "Gentest bij borstkanker",
+        "makkelijk": "Gentest bij borstkanker"
+      },
+      "sprekers": [
+        "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+        "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+        "80a5d70b-e932-493d-90b4-d45fe2be522f",
+        "6ee6a4b6-3523-4806-b784-a669f6fa8c10",
+        "9d5e0865-b8a6-4952-8126-c3e27b08ef33",
+        "43f571a7-1136-42f0-9a88-7b404b8e43b9"
+      ],
+      "kernpunten": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "titel": {
+        "normaal": "Kosten van zware jeugdzorg voor gemeenten",
+        "makkelijk": "Dure jeugdzorg voor gemeenten"
+      },
+      "sprekers": [
+        "78bfadde-92e9-4200-9324-ec3ff790a712",
+        "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+        "ad2d74ac-2b93-494b-8587-ec1084c9eaa0",
+        "b5363002-d06e-4813-9c05-86fe74185a56",
+        "49473613-31b4-4fa3-9f2b-12646b918ecf",
+        "75e07581-7770-48b1-926c-a1cc5c008774",
+        "b119b226-8fb6-4888-829f-0ccd02d6dee6",
+        "bb57944e-5a38-4899-be48-9b635a5bf1e4"
+      ],
+      "kernpunten": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "strip_onderwerp": 0,
+  "woorden": [
+    {
+      "woord": "Europese richtlijn",
+      "uitleg": "Een regel van de Europese Unie die elk land zelf in een eigen wet moet omzetten. Volgens de minister kun je een richtlijn altijd op meer manieren uitleggen."
+    },
+    {
+      "woord": "Gelijk en gelijkwaardig loon",
+      "uitleg": "In de Wet meer zekerheid flexwerkers staat dat uitzendkrachten 'gelijkwaardig' beloond worden. PRO wilde 'gelijk' loon: volgens PRO geeft 'gelijkwaardig' ruimte om mensen minder te betalen."
+    },
+    {
+      "woord": "Woo-verzoek",
+      "uitleg": "Een verzoek op grond van de Wet open overheid om documenten van de overheid openbaar te maken."
+    },
+    {
+      "woord": "AMvB",
+      "uitleg": "Algemene maatregel van bestuur: regels die het kabinet maakt op basis van een wet. Volgens de minister kan hij hiermee 'gelijkwaardig' vervangen door 'gelijk' als er structureel onderbetaling blijkt."
+    },
+    {
+      "woord": "Doordetachering",
+      "uitleg": "Uitleg van de minister: je wordt bijvoorbeeld in Polen bij een uitzendbureau aangenomen en direct doorgestuurd naar Nederland, waar je geen werkgever en geen goede rechten hebt."
+    },
+    {
+      "woord": "Genprofieltest",
+      "uitleg": "Een test die volgens de minister laat zien wat de kans is op uitzaaiingen en of chemotherapie wel of niet een goede behandeling is, voor een specifieke groep vrouwen met borstkanker."
+    },
+    {
+      "woord": "Passende zorg",
+      "uitleg": "Zorg waarbij niet het aanbod centraal staat, maar de behoefte van de patiënt (uitleg van Poortman, CDA)."
+    },
+    {
+      "woord": "Samen beslissen",
+      "uitleg": "Patiënt en behandelaar maken samen, op basis van informatie, de afweging over een behandeling. Dit staat in de wet."
+    },
+    {
+      "woord": "Gemeentefonds",
+      "uitleg": "Geld dat het Rijk aan gemeenten geeft. Volgens de staatssecretaris mogen gemeenten dat aan van alles uitgeven, 'van jeugdzorg tot lantaarnpalen'; geld voor één doel heet een doeluitkering."
+    },
+    {
+      "woord": "VNG",
+      "uitleg": "Vereniging van Nederlandse Gemeenten."
+    },
+    {
+      "woord": "Ozb",
+      "uitleg": "Onroerendezaakbelasting: een belasting die gemeenten heffen op huizen en andere gebouwen."
+    }
+  ],
+  "strip": [
+    {
+      "spreker_id": null,
+      "emotie": "bezorgd",
+      "citaat": "Uitzendkrachten kregen jaren minder betaald dan hun collega's, ondanks een Europese richtlijn die gelijk loon voor gelijk werk regelt.",
+      "tekst": {
+        "normaal": "Deze strip gaat over uitzendkrachten. PRO zegt: zij kregen jaren minder dan collega's, ondanks een Europese richtlijn.",
+        "makkelijk": "Deze strip gaat over uitzendkrachten. Volgens PRO kregen zij jaren minder loon dan collega's."
+      }
+    },
+    {
+      "spreker_id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+      "emotie": "vastberaden",
+      "citaat": "Minister Kamp lobbyde in 2011 samen met de uitzendsector, met als gevolg dat gelijk loon voor gelijk werk voor uitzendkrachten niet in de Nederlandse wetgeving geregeld werd, in strijd met de richtlijn. Dat was bewust, blijkt nu. … Mijn eerste vraag aan de minister is dan ook: acht hij het ministerie aansprakelijk?",
+      "tekst": {
+        "normaal": "Gelijk loon voor uitzendkrachten kwam in 2011 bewust niet in de wet. Acht de minister het ministerie aansprakelijk?",
+        "makkelijk": "In 2011 bleef gelijk loon bewust uit de wet. Is het ministerie aansprakelijk, minister?"
+      }
+    },
+    {
+      "spreker_id": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+      "emotie": "neutraal",
+      "citaat": "dit parlement en de Raad van State zijn daarbij betrokken geweest. Het was geen geheime samenzwering. … Naar mijn mening, als ik er goed naar kijk, is er niets gebeurd wat juridisch niet door de beugel kon.",
+      "tekst": {
+        "normaal": "Het was geen geheime samenzwering: Kamer en Raad van State waren betrokken. Juridisch kon het naar mijn mening.",
+        "makkelijk": "Niet geheim: Kamer en Raad van State waren erbij. Volgens mij mocht het."
+      }
+    },
+    {
+      "spreker_id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+      "emotie": "bezorgd",
+      "citaat": "Het gaat erom dat er in die sector zo'n construct bedacht wordt om mensen minder te kunnen betalen. … dit gebeurt doordat er \"gelijkwaardig\" in de wet staat en niet \"gelijk\".",
+      "tekst": {
+        "normaal": "Er staat 'gelijkwaardig' in de wet, niet 'gelijk'. Daardoor bedenkt de sector constructies om mensen minder te betalen.",
+        "makkelijk": "In de wet staat 'gelijkwaardig', niet 'gelijk'. Zo kan de sector mensen minder betalen."
+      }
+    },
+    {
+      "spreker_id": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+      "emotie": "neutraal",
+      "citaat": "de Kamer heeft in meerderheid gekozen voor \"gelijkwaardig\" en niet voor \"gelijk\". Daar was een reden voor, namelijk dat je uitzendarbeid op dezelfde flexibele manier wil kunnen blijven inzetten als dat je nu doet. … Wij strijden overigens aan dezelfde kant.",
+      "tekst": {
+        "normaal": "De Kamer koos in meerderheid voor 'gelijkwaardig', zodat uitzendwerk flexibel inzetbaar blijft. Wij strijden aan dezelfde kant.",
+        "makkelijk": "De meeste Kamerleden kozen 'gelijkwaardig', zodat uitzendwerk flexibel blijft. We staan aan dezelfde kant."
+      }
+    },
+    {
+      "spreker_id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+      "emotie": "vastberaden",
+      "citaat": "Jarenlang hebben honderdduizenden mensen, misschien wel een miljoen mensen, miljarden te weinig loon gekregen. … Ik zou de minister willen vragen of hij met de vakbonden wil afspreken dat er een hulp-, een meld- en een steunpunt komt",
+      "tekst": {
+        "normaal": "Honderdduizenden mensen kregen miljarden te weinig loon. Wil de minister met vakbonden een hulp-, meld- en steunpunt afspreken?",
+        "makkelijk": "Honderdduizenden kregen miljarden te weinig loon. Wil de minister met vakbonden een steunpunt regelen?"
+      }
+    },
+    {
+      "spreker_id": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+      "emotie": "neutraal",
+      "citaat": "Ik ben bereid om dit ook met de vakbeweging te bespreken en heb geen enkel probleem met een hulp-, meld- en steunpunt. … Maar het is dan, denk ik, aan de vakbeweging om te zorgen dat dat meld-, hulp- en steunpunt er komt. Ik zal ze daarbij een steuntje in de rug geven",
+      "tekst": {
+        "normaal": "Geen enkel probleem met een steunpunt, maar dat is, denk ik, aan de vakbeweging. Ik geef ze steun.",
+        "makkelijk": "Een steunpunt is goed. Dat regelt de vakbond, denk ik. Ik help ze."
+      }
+    }
+  ]
+}

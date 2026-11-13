@@ -5,7 +5,7 @@ en, waar goedgekeurd, de houding bij een interruptie. Alleen beelden die de eige
 Gebruik: python3 scripts/manga_site.py   (vereist Pillow)."""
 import json, shutil
 from pathlib import Path
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFilter
 
 ROOT = Path(__file__).resolve().parent.parent
 BRON = ROOT / "data" / "manga" / "manga"
@@ -13,12 +13,38 @@ UIT = ROOT / "site" / "manga"
 BREED, HOOG = 360, 480
 
 
+def vrijstaand(im):
+    """Maak de witte achtergrond doorzichtig: vul vanaf de randen alles wat (bijna) wit is."""
+    werk = im.copy()
+    w, h = werk.size
+    MAGENTA = (255, 0, 255)
+    for x in range(0, w, 12):
+        for y in (0, h - 1):
+            if sum(werk.getpixel((x, y))) > 700:
+                ImageDraw.floodfill(werk, (x, y), MAGENTA, thresh=40)
+    for y in range(0, h, 12):
+        for x in (0, w - 1):
+            if sum(werk.getpixel((x, y))) > 700:
+                ImageDraw.floodfill(werk, (x, y), MAGENTA, thresh=40)
+    masker = Image.new("L", (w, h), 255)
+    px, mp = werk.load(), masker.load()
+    for y in range(h):
+        for x in range(w):
+            if px[x, y] == MAGENTA:
+                mp[x, y] = 0
+    masker = masker.filter(ImageFilter.GaussianBlur(0.8))
+    uit = im.convert("RGBA")
+    uit.putalpha(masker)
+    return uit
+
+
 def zet(src, doel):
+    doel = doel.with_suffix(".webp")
     doel.parent.mkdir(parents=True, exist_ok=True)
     im = Image.open(src).convert("RGB")
     if abs(im.width / im.height - 0.75) >= 0.02:
         im = im.crop((0, 0, im.width, int(im.width / 0.75)))
-    im.resize((BREED, HOOG)).save(doel, "JPEG", quality=82, optimize=True)
+    vrijstaand(im.resize((BREED, HOOG))).save(doel, "WEBP", quality=82, method=6)
 
 
 def main():

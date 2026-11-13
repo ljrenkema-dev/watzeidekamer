@@ -58,14 +58,14 @@ function extras(emo){
   if(emo==="denkend") return `<circle cx="84" cy="30" r="2" fill="#1d1b2e"/><circle cx="90" cy="22" r="3" fill="#1d1b2e"/>`;
   return "";
 }
-/* Manga-beelden (goedgekeurd door de eigenaar) staan naast strip.js in manga/<sleutel>/<emotie>.jpg.
+/* Manga-beelden (goedgekeurd door de eigenaar) staan naast strip.js in manga/<sleutel>/<houding>.webp (doorzichtige achtergrond).
    Wie er een heeft (u.manga), krijgt dat beeld; anders het getekende figuur. */
 const MANGA_ROOT=((document.currentScript&&document.currentScript.src)||"").replace(/strip\.js(\?.*)?$/,"")+"manga/";
 /* Het gezicht blijft neutraal; de emotie zit in de achtergrond van het vak. Alleen bij een interruptie
    een andere houding, als die er is (u.manga_int). */
 function mangaImg(L,emo,x,y,w,h){
   const e=emo==="interruptie"&&L.u.manga_int?"interruptie":"neutraal";
-  return `<image href="${MANGA_ROOT}${esc(L.u.manga)}/${e}.jpg" x="${x}" y="${y}" width="${w}" height="${h}" preserveAspectRatio="xMidYMin slice" style="mix-blend-mode:multiply"/>`;
+  return `<image href="${MANGA_ROOT}${esc(L.u.manga)}/${e}.webp" x="${x}" y="${y}" width="${w}" height="${h}" preserveAspectRatio="xMidYMin slice"/>`;
 }
 /* character in a 100x120 box */
 function character(L,emo){
@@ -93,6 +93,39 @@ const BG = {
   denkend:(id)=>`<rect width="400" height="300" fill="url(#tone${id})" opacity=".6"/>`,
   verbaasd:(id)=>BG.vastberaden(id),
   neutraal:(id)=>`<rect width="400" height="300" fill="#f7f6fb"/>`
+};
+/* Achtergrond met context: waar staat de spreker? (plek uit build.py: katheder, kabinet, interruptie, commissie)
+   Ingetogen lijnwerk in de kleuren van de Tweede Kamer, zodat figuur en ballon voorop blijven. */
+const STOEL="#4a6aa8",HOUT="#d8c39a",HOUTD="#b49a6d",MUUR="#efe9dd";
+function stoelen(y,n,w,opa){return Array.from({length:n},(_,k)=>{const x=k*(400/(n-1))-w/2;return `<rect x="${x}" y="${y}" width="${w}" height="${w*0.7}" rx="${w*0.2}" fill="${STOEL}" opacity="${opa}"/>`}).join("");}
+const SCENE={
+  katheder:()=>`<rect width="400" height="300" fill="${MUUR}"/>
+    ${Array.from({length:11},(_,k)=>`<line x1="${k*40}" y1="0" x2="${k*40}" y2="150" stroke="${HOUTD}" stroke-width="1" opacity=".35"/>`).join("")}
+    <rect y="140" width="400" height="10" fill="${HOUTD}" opacity=".5"/>
+    <path d="M0 300 L0 205 Q200 160 400 205 L400 300 Z" fill="${STOEL}" opacity=".18"/>
+    ${stoelen(196,8,34,.35)}${stoelen(232,7,40,.45)}${stoelen(272,8,46,.55)}`,
+  kabinet:()=>`<rect width="400" height="300" fill="${MUUR}"/>
+    ${Array.from({length:11},(_,k)=>`<line x1="${k*40}" y1="0" x2="${k*40}" y2="170" stroke="${HOUTD}" stroke-width="1" opacity=".35"/>`).join("")}
+    <rect y="160" width="400" height="8" fill="${HOUTD}" opacity=".5"/>
+    <path d="M-10 250 Q200 225 410 250 L410 300 L-10 300 Z" fill="${HOUT}" stroke="#1d1b2e" stroke-width="2" opacity=".9"/>
+    <path d="M-10 250 Q200 225 410 250" fill="none" stroke="${HOUTD}" stroke-width="6" opacity=".6"/>
+    ${[70,190,310].map(x=>`<rect x="${x}" y="236" width="26" height="9" rx="2" fill="#fff" stroke="#1d1b2e" stroke-width="1" opacity=".8"/>`).join("")}`,
+  interruptie:()=>`<rect width="400" height="300" fill="${MUUR}"/>
+    <path d="M0 300 L0 120 Q200 90 400 120 L400 300 Z" fill="${STOEL}" opacity=".12"/>
+    ${stoelen(120,9,30,.28)}${stoelen(160,8,36,.36)}${stoelen(205,8,42,.44)}${stoelen(255,7,50,.52)}
+    <path d="M196 300 L206 120" stroke="#9aa3b5" stroke-width="22" opacity=".25"/>`,
+  commissie:()=>`<rect width="400" height="300" fill="#f3efe6"/>
+    ${[40,150,260,370].map(x=>`<rect x="${x-34}" y="22" width="68" height="96" fill="#dfe8f2" stroke="${HOUTD}" stroke-width="3" opacity=".7"/><line x1="${x}" y1="22" x2="${x}" y2="118" stroke="${HOUTD}" stroke-width="2" opacity=".6"/>`).join("")}
+    <path d="M-10 238 L410 226 L410 300 L-10 300 Z" fill="${HOUT}" stroke="#1d1b2e" stroke-width="2"/>
+    ${[60,180,300].map(x=>`<path d="M${x} 230 l30 -1 l-4 -14 l-22 1 z" fill="#fff" stroke="#1d1b2e" stroke-width="1" opacity=".85"/>`).join("")}`
+};
+/* De emotie als lichte laag over de achtergrond. */
+const SFEER={
+  blij:(id)=>BG.blij(id), vastberaden:(id)=>BG.vastberaden(id), verbaasd:(id)=>BG.vastberaden(id),
+  bezorgd:(id)=>`<rect width="400" height="300" fill="url(#tone${id})" opacity=".7"/>`,
+  denkend:(id)=>`<rect width="400" height="300" fill="url(#tone${id})" opacity=".4"/>`,
+  boos:(id)=>`<rect width="400" height="300" fill="#ff8c7a" opacity=".16"/>`,
+  neutraal:()=>""
 };
 function panelSVG(p,i,lookOf){
   const emo=(p.emotie||"neutraal").toLowerCase();
@@ -143,7 +176,7 @@ function panelSVG(p,i,lookOf){
   return `<svg viewBox="0 0 400 300" role="img" aria-label="${esc((p.spreker||"")+": "+p.tekst)}">
     <defs><pattern id="tone${i}" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.4" fill="#1d1b2e" opacity=".25"/></pattern>
     <clipPath id="clip${i}"><rect width="400" height="300"/></clipPath></defs>
-    <g clip-path="url(#clip${i})"><rect width="400" height="300" fill="#fff"/>${(BG[emo]||BG.neutraal)(i)}${fig}</g>
+    <g clip-path="url(#clip${i})"><rect width="400" height="300" fill="#fff"/>${p.plek&&SCENE[p.plek]?SCENE[p.plek]()+(SFEER[emo]||SFEER.neutraal)(i):(BG[emo]||BG.neutraal)(i)}${fig}</g>
     ${bubble}${name}
     <rect x="1.5" y="1.5" width="397" height="297" fill="none" stroke="#1d1b2e" stroke-width="3"/>
   </svg>`;
