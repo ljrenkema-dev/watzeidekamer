@@ -1,7 +1,7 @@
 {
  "alexander-kops": {
   "spreker_id": "73822989-cf80-4cc9-a76f-a76549e2dd24",
-  "persoon": null,
+  "persoon": "77c541d2-49e3-483f-869d-134df420c5ea",
   "naam": "Alexander Kops",
   "fracties": [
    "PVV"
@@ -9,14 +9,14 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 3,
-  "woorden": 3,
+  "spreekbeurten": 9,
+  "woorden": 631,
   "eerste": "2026-11-10",
-  "laatste": "2026-11-10"
+  "laatste": "2026-11-12"
  },
  "alisha-muller": {
   "spreker_id": "e3a027eb-acac-4242-8b8d-533365ce3366",
-  "persoon": null,
+  "persoon": "3b3c7923-b604-4902-97c1-210aa85182c1",
   "naam": "Alisha Müller",
   "fracties": [
    "VVD"
@@ -24,10 +24,10 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 2,
-  "woorden": 12,
+  "spreekbeurten": 11,
+  "woorden": 1379,
   "eerste": "2026-11-10",
-  "laatste": "2026-11-10"
+  "laatste": "2026-11-12"
  },
  "andre-flach": {
   "spreker_id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
@@ -103,6 +103,19 @@
   "woorden": 614,
   "eerste": "2026-11-10",
   "laatste": "2026-11-10"
+ },
+ "annet-bertram": {
+  "spreker_id": "5d0132f1-e8ab-4a32-b8af-3e8beff8ba5f",
+  "persoon": null,
+  "naam": "Annet Bertram",
+  "fracties": [],
+  "functies": [
+   "staatssecretaris van Infrastructuur en Waterstaat"
+  ],
+  "spreekbeurten": 8,
+  "woorden": 2328,
+  "eerste": "2026-11-12",
+  "laatste": "2026-11-12"
  },
  "annette-raijer": {
   "spreker_id": "15342ca7-bffc-4d20-bcc1-be5ab9d6530c",
@@ -204,8 +217,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 40,
-  "woorden": 5586,
+  "spreekbeurten": 45,
+  "woorden": 5810,
   "eerste": "2026-11-09",
   "laatste": "2026-11-12"
  },
@@ -219,8 +232,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 44,
-  "woorden": 4588,
+  "spreekbeurten": 61,
+  "woorden": 6141,
   "eerste": "2026-11-10",
   "laatste": "2026-11-12"
  },
@@ -322,10 +335,10 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 13,
-  "woorden": 1051,
+  "spreekbeurten": 15,
+  "woorden": 1071,
   "eerste": "2026-11-10",
-  "laatste": "2026-11-10"
+  "laatste": "2026-11-12"
  },
  "don-ceder": {
   "spreker_id": "1951a14e-78db-446c-bb5a-fb1461033854",
@@ -365,10 +378,10 @@
   "functies": [
    "staatssecretaris van Financiën"
   ],
-  "spreekbeurten": 127,
-  "woorden": 19777,
+  "spreekbeurten": 138,
+  "woorden": 20245,
   "eerste": "2026-11-09",
-  "laatste": "2026-11-10"
+  "laatste": "2026-11-12"
  },
  "eelco-heinen": {
   "spreker_id": "d55afb85-f47f-469e-a8a1-a37f8296d0b0",
@@ -526,10 +539,10 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 16,
-  "woorden": 1419,
+  "spreekbeurten": 38,
+  "woorden": 3712,
   "eerste": "2026-11-11",
-  "laatste": "2026-11-11"
+  "laatste": "2026-11-12"
  },
  "geert-wilders": {
   "spreker_id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
@@ -541,9 +554,24 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 20,
-  "woorden": 2849,
+  "spreekbeurten": 23,
+  "woorden": 2999,
   "eerste": "2026-11-11",
+  "laatste": "2026-11-12"
+ },
+ "gideon-van-meijeren": {
+  "spreker_id": "5086e857-c6b3-4e20-bb69-fb769d40128f",
+  "persoon": "557f8bd5-9f66-4bed-9b5f-86746bb0600a",
+  "naam": "Gideon Van Meijeren",
+  "fracties": [
+   "FVD"
+  ],
+  "functies": [
+   "lid Tweede Kamer"
+  ],
+  "spreekbeurten": 1,
+  "woorden": 562,
+  "eerste": "2026-11-12",
   "laatste": "2026-11-12"
  },
  "gidi-markuszower": {
@@ -556,8 +584,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 67,
-  "woorden": 7100,
+  "spreekbeurten": 86,
+  "woorden": 8161,
   "eerste": "2026-11-10",
   "laatste": "2026-11-12"
  },
@@ -578,7 +606,7 @@
  },
  "hanneke-steen": {
   "spreker_id": "2bddf0e3-4312-4d39-ab17-a6837e24b5d8",
-  "persoon": null,
+  "persoon": "4acb1921-a68d-40af-9f14-35112c020da5",
   "naam": "Hanneke Steen",
   "fracties": [
    "CDA"
@@ -586,10 +614,10 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 1,
-  "woorden": 20,
+  "spreekbeurten": 49,
+  "woorden": 741,
   "eerste": "2026-11-10",
-  "laatste": "2026-11-10"
+  "laatste": "2026-11-12"
  },
  "hanneke-van-der-werf": {
   "spreker_id": "fcf713d0-8b9e-4199-83bf-6088f485fffc",
@@ -666,7 +694,7 @@
  },
  "henk-jumelet": {
   "spreker_id": "c9327241-92ea-43c7-9195-f658880d1d42",
-  "persoon": null,
+  "persoon": "de44b333-86c1-4af7-9439-a0c186d6f2e3",
   "naam": "Henk Jumelet",
   "fracties": [
    "CDA"
@@ -674,10 +702,10 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 2,
-  "woorden": 34,
+  "spreekbeurten": 10,
+  "woorden": 1612,
   "eerste": "2026-11-10",
-  "laatste": "2026-11-10"
+  "laatste": "2026-11-12"
  },
  "henk-vermeer": {
   "spreker_id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
@@ -689,8 +717,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 113,
-  "woorden": 11887,
+  "spreekbeurten": 137,
+  "woorden": 13541,
   "eerste": "2026-11-09",
   "laatste": "2026-11-12"
  },
@@ -704,8 +732,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 55,
-  "woorden": 7234,
+  "spreekbeurten": 59,
+  "woorden": 7260,
   "eerste": "2026-11-12",
   "laatste": "2026-11-12"
  },
@@ -839,8 +867,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 55,
-  "woorden": 8132,
+  "spreekbeurten": 59,
+  "woorden": 8184,
   "eerste": "2026-11-12",
   "laatste": "2026-11-12"
  },
@@ -854,8 +882,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 25,
-  "woorden": 2516,
+  "spreekbeurten": 28,
+  "woorden": 2525,
   "eerste": "2026-11-10",
   "laatste": "2026-11-12"
  },
@@ -899,8 +927,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 14,
-  "woorden": 3010,
+  "spreekbeurten": 20,
+  "woorden": 3329,
   "eerste": "2026-11-12",
   "laatste": "2026-11-12"
  },
@@ -914,8 +942,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 51,
-  "woorden": 5481,
+  "spreekbeurten": 56,
+  "woorden": 5664,
   "eerste": "2026-11-09",
   "laatste": "2026-11-12"
  },
@@ -929,8 +957,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 73,
-  "woorden": 3421,
+  "spreekbeurten": 82,
+  "woorden": 3726,
   "eerste": "2026-11-10",
   "laatste": "2026-11-12"
  },
@@ -1019,8 +1047,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 17,
-  "woorden": 3910,
+  "spreekbeurten": 20,
+  "woorden": 3916,
   "eerste": "2026-11-09",
   "laatste": "2026-11-12"
  },
@@ -1169,10 +1197,10 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 45,
-  "woorden": 7178,
+  "spreekbeurten": 47,
+  "woorden": 7423,
   "eerste": "2026-11-09",
-  "laatste": "2026-11-11"
+  "laatste": "2026-11-12"
  },
  "milan-schenk": {
   "spreker_id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
@@ -1184,8 +1212,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 47,
-  "woorden": 7084,
+  "spreekbeurten": 57,
+  "woorden": 7891,
   "eerste": "2026-11-09",
   "laatste": "2026-11-12"
  },
@@ -1199,8 +1227,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 37,
-  "woorden": 3770,
+  "spreekbeurten": 42,
+  "woorden": 4093,
   "eerste": "2026-11-10",
   "laatste": "2026-11-12"
  },
@@ -1229,8 +1257,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 72,
-  "woorden": 5182,
+  "spreekbeurten": 94,
+  "woorden": 6465,
   "eerste": "2026-11-10",
   "laatste": "2026-11-12"
  },
@@ -1289,10 +1317,23 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 100,
-  "woorden": 12911,
+  "spreekbeurten": 102,
+  "woorden": 12954,
   "eerste": "2026-11-09",
-  "laatste": "2026-11-10"
+  "laatste": "2026-11-12"
+ },
+ "pieter-heerma": {
+  "spreker_id": "4457a9f0-8688-459b-b4f5-77157bbb9e1d",
+  "persoon": null,
+  "naam": "Pieter Heerma",
+  "fracties": [],
+  "functies": [
+   "minister van Binnenlandse Zaken en Koninkrijksrelaties"
+  ],
+  "spreekbeurten": 2,
+  "woorden": 765,
+  "eerste": "2026-11-12",
+  "laatste": "2026-11-12"
  },
  "queeny-rajkowski": {
   "spreker_id": "35caab67-2b49-4c45-a5c6-af0f110425c7",
@@ -1405,8 +1446,8 @@
   "functies": [
    "minister-president, minister van Algemene Zaken"
   ],
-  "spreekbeurten": 8,
-  "woorden": 900,
+  "spreekbeurten": 66,
+  "woorden": 6517,
   "eerste": "2026-11-12",
   "laatste": "2026-11-12"
  },
@@ -1435,8 +1476,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 32,
-  "woorden": 4271,
+  "spreekbeurten": 38,
+  "woorden": 4658,
   "eerste": "2026-11-12",
   "laatste": "2026-11-12"
  },
@@ -1547,7 +1588,7 @@
  },
  "sjoukje-van-oosterhout": {
   "spreker_id": "432729d4-fd5e-4e53-aba8-9bc981949713",
-  "persoon": null,
+  "persoon": "8f38a474-1b0a-4fcc-a727-28531df173a6",
   "naam": "Sjoukje Van Oosterhout",
   "fracties": [
    "PRO"
@@ -1555,10 +1596,10 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 2,
-  "woorden": 5,
+  "spreekbeurten": 28,
+  "woorden": 2524,
   "eerste": "2026-11-10",
-  "laatste": "2026-11-10"
+  "laatste": "2026-11-12"
  },
  "songul-mutluer": {
   "spreker_id": "8ef2beca-4c5f-4706-92c8-1dcdd8683d62",
@@ -1613,9 +1654,22 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 77,
-  "woorden": 7694,
+  "spreekbeurten": 79,
+  "woorden": 7742,
   "eerste": "2026-11-10",
+  "laatste": "2026-11-12"
+ },
+ "stientje-van-veldhoven-van-der-meer": {
+  "spreker_id": "1a43ac2a-2bf3-4fb5-90eb-02a098b140f4",
+  "persoon": null,
+  "naam": "Stientje Van Veldhoven-van der Meer",
+  "fracties": [],
+  "functies": [
+   "minister van Klimaat en Groene Groei"
+  ],
+  "spreekbeurten": 18,
+  "woorden": 4476,
+  "eerste": "2026-11-12",
   "laatste": "2026-11-12"
  },
  "suzanne-kroger": {
@@ -1658,8 +1712,8 @@
   "functies": [
    "lid Tweede Kamer"
   ],
-  "spreekbeurten": 573,
-  "woorden": 8547,
+  "spreekbeurten": 666,
+  "woorden": 10031,
   "eerste": "2026-11-10",
   "laatste": "2026-11-12"
  },

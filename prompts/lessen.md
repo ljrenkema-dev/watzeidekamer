@@ -18,7 +18,7 @@ Komt er direct na de kern een "als …", "maar …" of "althans …", dan hoort 
 Kies het woord dat de spreker koos, of een gelijkwaardig woord.
 - "aandacht vragen voor druk" is niet "om druk vragen" en niet "druk zetten".
 - "controverse", "discussie" is niet "ruzie". "enigszins" is niet "veel". "vreest", "horen geluiden" is niet "vindt".
-- Draai een uitspraak nooit om. Fout: "Met rechtse partijen lukte dat volgens hem niet." → Goed: "Met rechtse partijen kwam hij er inhoudelijk niet uit." (citaat: "ik heb niet gezegd dat de optie rechts getalsmatig niet kan"). Neem ook een richting (meer/minder belasten) precies over.
+- Draai een uitspraak nooit om. Fout: "Met rechtse partijen lukte dat volgens hem niet." → Goed: "Met rechtse partijen kwam hij er inhoudelijk niet uit." (citaat: "ik heb niet gezegd dat de optie rechts getalsmatig niet kan"). Neem ook een richting (meer/minder belasten) precies over. Let op ontkenningen: "vindt u niet dat die risico's toen ondenkbaar waren?" is niet "waren die risico's toen niet ondenkbaar?".
 
 **L4. Beweringen zijn geen feiten.**
 Wat één spreker zegt, schrijf je als "volgens X", "X zegt" of "X gaf aan".
