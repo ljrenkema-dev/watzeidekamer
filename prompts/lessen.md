@@ -18,6 +18,7 @@ Komt er direct na de kern een "als …", "maar …" of "althans …", dan hoort 
 Kies het woord dat de spreker koos, of een gelijkwaardig woord.
 - "aandacht vragen voor druk" is niet "om druk vragen" en niet "druk zetten".
 - "controverse", "discussie" is niet "ruzie". "enigszins" is niet "veel". "vreest", "horen geluiden" is niet "vindt".
+- Draai een uitspraak nooit om. Fout: "Met rechtse partijen lukte dat volgens hem niet." → Goed: "Met rechtse partijen kwam hij er inhoudelijk niet uit." (citaat: "ik heb niet gezegd dat de optie rechts getalsmatig niet kan"). Neem ook een richting (meer/minder belasten) precies over.
 
 **L4. Beweringen zijn geen feiten.**
 Wat één spreker zegt, schrijf je als "volgens X", "X zegt" of "X gaf aan".
@@ -33,6 +34,8 @@ Maak van een vraag geen stelling en van een wens of oproep geen bevel.
 - "de zuidflank van Europa" is niet "Zuid-Europa". "leden van de schaduwregering" is niet "leiders".
 - "nieuwe plannen van de regering" is niet "een nieuwe regering". "de beroepsgroep" is niet "artsen".
 - Een jaartal hoort bij wat er in dat jaar gebeurde: "bij de evaluatie in 2025", niet "in 2025 werd getest".
+- Een vak staat op zichzelf: geen "ze", "die twee" of "dat vertrouwen" zonder dat in het vak zelf staat wie of wat. Fout: "Ze kregen een stem." → Goed: "De deelnemers kregen een stem." (citaat: "deze mensen")
+- Controleer of een bewindspersoon "hij" of "zij" is aan de hand van het debat (staatssecretaris Bertram: "zij").
 
 **L7. Geen woorden die afhangen van de leesdag.**
 Geen "gisteren", "vandaag", "morgen", "vorige week". Schrijf de datum of "een dag eerder".
@@ -49,7 +52,9 @@ Een feitelijke zin of een open vraag. Geen conflictwoorden ("botst", "ruzie", "o
 - Steunt een partij het voorstel van een andere partij, zeg dat ("PRO steunt het voorstel van de ChristenUnie").
 
 **L10. Normaal en makkelijk zeggen hetzelfde.**
-Dezelfde punten, dezelfde voorbehouden, hetzelfde onderwerp in de titel. Makkelijk is korter, niet anders. In makkelijk: actieve vorm en zeg wie het doet ("De minister ontraadt motie 274", niet "Motie 274 is ontraden"), en geen jargon zoals "oordeel Kamer" (schrijf "de minister laat de keuze aan de Kamer").
+Dezelfde punten, dezelfde voorbehouden, hetzelfde onderwerp in de titel. Makkelijk is korter, niet anders. **Herstel je een fout, herstel hem overal**: zoek dezelfde bewering ook in samenvatting, standpunten, kernpunten, vakken en woordenlijst, in beide taalniveaus.
+- Fout (Belastingplan, 12-11-2026): Bontenbal hersteld in zijn standpunt ("kwam er inhoudelijk niet uit"), maar de samenvatting zei nog "met JA21, SGP en BBB lukte dat niet". → Goed: overal "kwam hij er volgens hem inhoudelijk niet uit".
+- Fout: "denk ik" teruggezet in kernpunt 1 normaal, niet in makkelijk. → Goed: in beide. In makkelijk: actieve vorm en zeg wie het doet ("De minister ontraadt motie 274", niet "Motie 274 is ontraden"), en geen jargon zoals "oordeel Kamer" (schrijf "de minister laat de keuze aan de Kamer").
 
 **L11. De emotie past bij het citaat.**
 Een feitelijke vraag is `neutraal` of `bezorgd`, niet `boos`. Maak niemand agressiever of belachelijker dan het citaat.

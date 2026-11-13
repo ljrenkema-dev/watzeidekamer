@@ -177,5 +177,144 @@
       "waarom": "FVD heeft meer spreektijd dan PVV en SGP maar geen vak; de strip heeft al 8 vakken en elk vak draagt een kernmoment (Stoffer stelt de vraag waar Jetten op antwoordt), dus niet opgelost; Schenk staat wel volledig in 'Wie vindt wat?'."
     }
   ],
-  "opmerkingen": "Deel en fase gecontroleerd: alle vakken en teksten komen uit dit deel (antwoord van Jetten en Eerenberg, [0]-[242]); de samenvatting noemt aan wie zij antwoorden. Volgorde [236]-[238] op tijdstip gelezen: Eerenberg stemt in met een schriftelijk antwoord vóór de stemmingen. Vierde termijn: voor zijn FVD (Schenk) en BBB (Vermeer); tegen PRO, D66, 50PLUS, Volt, CDA, ChristenUnie, JA21, Keijzer en PVV (Wilders, wel antwoord per brief); VVD (Brekelmans) geeft geen ja of nee; SP en SGP reageren niet; de voorzitter stelt geen uitkomst vast. Dat klopt met de strip."
+  "opmerkingen": "Deel en fase gecontroleerd: alle vakken en teksten komen uit dit deel (antwoord van Jetten en Eerenberg, [0]-[242]); de samenvatting noemt aan wie zij antwoorden. Volgorde [236]-[238] op tijdstip gelezen: Eerenberg stemt in met een schriftelijk antwoord vóór de stemmingen. Vierde termijn: voor zijn FVD (Schenk) en BBB (Vermeer); tegen PRO, D66, 50PLUS, Volt, CDA, ChristenUnie, JA21, Keijzer en PVV (Wilders, wel antwoord per brief); VVD (Brekelmans) geeft geen ja of nee; SP en SGP reageren niet; de voorzitter stelt geen uitkomst vast. Dat klopt met de strip.",
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "onafhankelijk": true,
+    "bevindingen": [
+      {
+        "waar": "kernpunt 1 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1, L10",
+        "oud": "ik en de vicepremiers hoorden ongeveer een uur van tevoren van de deal.",
+        "nieuw": "... ongeveer een uur van tevoren van de deal, denk ik.",
+        "waarom": "De eerste lezing zette 'denk ik' terug in normaal maar niet in makkelijk; Jetten [8]: 'Ongeveer een uur, denk ik'."
+      },
+      {
+        "waar": "kernpunt 1 normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "voordat Klaver en Dassen het gewijzigde amendement bekendmaakten",
+        "nieuw": "voordat Klaver en Dassen bekendmaakten dat ze een gewijzigd amendement zouden indienen",
+        "waarom": "Jetten [8]: 'naar buiten bekendmaakten dat zij een gewijzigd amendement zouden indienen'."
+      },
+      {
+        "waar": "kernpunt 3 normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "(ontbrak)",
+        "nieuw": "Op de vraag van Dijk (SP) of dit een politieke crisis is, noemt Jetten het 'een ongekende situatie' die hij heel serieus neemt. / Dijk (SP) vraagt: is dit een politieke crisis? Jetten noemt het een ongekende situatie.",
+        "waarom": "Dijks vraag staat in zijn standpunt maar het antwoord van Jetten [110] ('Het is een ongekende situatie ... Die neem ik heel serieus') ontbrak."
+      },
+      {
+        "waar": "kernpunt 4 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L2, L10",
+        "oud": "Jetten zegt: dat kan altijd.",
+        "nieuw": "Jetten zegt: dat kan altijd. Dat hangt ook af van de stemmingen over de voorstellen.",
+        "waarom": "Normaal heeft de voorwaarde wel; Jetten [83]: 'Dat kan altijd, afhankelijk ook van de stemmingen over de amendementen'."
+      },
+      {
+        "waar": "kernpunt 6 makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "(ontbrak)",
+        "nieuw": "Over het nieuwe voorstel moet de Kamer volgens hem vooral politiek kiezen.",
+        "waarom": "De eerste lezing voegde de helft over het eerdere amendement toe, maar niet 'vraagt meer om een politieke weging' [74] die in normaal staat."
+      },
+      {
+        "waar": "kernpunt 7 normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6, L14",
+        "oud": "Vermeer (BBB) en Markuszower vragen om alle informatie over contacten ... over het amendement / BBB en Markuszower willen alle berichten over het voorstel zien.",
+        "nieuw": "Vermeer (BBB) vraagt ... over het amendement van PRO en Volt; Markuszower wil daarbij een tijdlijn van contacten over alle amendementen. / BBB wil alle berichten ... Markuszower wil weten wie wanneer contact had.",
+        "waarom": "De verzoeken verschillen: Vermeer [162] 'mijn informatieverzoek is helder: dat amendement met PRO en Volt'; 'De heer Markuszower verbreedt het nog naar andere amendementen' en Markuszower [151] vraagt 'Gewoon een tijdslijn'."
+      },
+      {
+        "waar": "samenvatting makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L2, L10",
+        "oud": "Jetten zegt die brief toe.",
+        "nieuw": "Jetten zegt die brief toe. Er staat volgens hem niets nieuws in.",
+        "waarom": "De eerste lezing voegde de nuance 'niet iets anders zijn' [145] toe in samenvatting normaal en kernpunt 7, maar niet in de makkelijke samenvatting."
+      },
+      {
+        "waar": "standpunt Eerenberg makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L4, L10",
+        "oud": "Op een technische vraag van JA21 antwoordt hij vóór de stemmingen op papier.",
+        "nieuw": "Hij belooft JA21 vóór de stemmingen een antwoord op papier.",
+        "waarom": "Na de wijziging van de eerste lezing stond het nog als feit; [238] 'Laten we het zo doen' is een toezegging, zoals kernpunt 8 makkelijk ('belooft') ook zegt."
+      },
+      {
+        "waar": "standpunt Vermeer normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "er werd alleen iets weggegeven.",
+        "nieuw": "er werden alleen dingen uitgewisseld en hier en daar iets weggegeven.",
+        "waarom": "Vermeer [48]: 'We hebben steeds alleen maar dingen uitgewisseld' en 'dat er hier en daar wat weggegeven is'; 'alleen weggegeven' is sterker."
+      },
+      {
+        "waar": "standpunt Keijzer normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1, L2",
+        "oud": "Wordt het amendement van PRO en Volt aangenomen, het amendement-Struijs/Bikker niet en motie 84 wel, dan ontstaat volgens haar ...; ze vindt het goed als de Kamer zich uitspreekt over haar motie 85.",
+        "nieuw": "Volgens haar wordt het amendement van PRO en Volt aangenomen; wordt dan het amendement-Struijs/Bikker niet aangenomen en motie 84 wel, dan ontstaat ... Ze denkt dat het goed is als de Kamer zich uitspreekt over haar motie 85.",
+        "waarom": "Wijziging van de eerste lezing verbeterd: Keijzer [165] brengt aanname van PRO/Volt als verwachting ('gaat aangenomen worden'), alleen de rest is voorwaarde; en [228] 'dan is het denk ik goed'."
+      },
+      {
+        "waar": "standpunt Brekelmans makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L5",
+        "oud": "Hij vraagt: stellen we de stemmingen uit als het plan dreigt te vallen?",
+        "nieuw": "Hij vraagt: wil Jetten de stemmingen uitstellen als het plan dreigt te vallen?",
+        "waarom": "Brekelmans [84] vraagt of de minister-president 'dan ook de oproep [doet] om de stemmingen uit te stellen'."
+      },
+      {
+        "waar": "standpunt Bikker makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "Ze is bang dat burgers de rekening betalen.",
+        "nieuw": "Ze is bang dat burgers de rekening zien oplopen door de politiek.",
+        "waarom": "Bikker [127]: 'dat de burger thuis dit najaar de rekening ziet oplopen door ons gedrag hier'."
+      },
+      {
+        "waar": "vak 5 normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2, L6",
+        "oud": "Technische checkvragen beantwoorden Bureau Wetgeving en ambtenaren op de departementen. / Ambtenaren beantwoorden technische vragen. Dat gebeurt vaak.",
+        "nieuw": "Kabinetsleden schrijven niet mee aan amendementen. Er zijn technische checkvragen gesteld; die beantwoorden Bureau Wetgeving en ambtenaren. / Wij schrijven niet mee aan voorstellen. Er waren technische vragen. Ambtenaren beantwoorden die.",
+        "waarom": "Het verlengde citaat van de eerste lezing is letterlijk en terecht, maar de tekst liet 'Er zijn technische checkvragen gesteld' weg: dat er bij dit amendement vragen waren, is de kern van het antwoord op Stoffer."
+      },
+      {
+        "waar": "vakken (evenwicht)",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "FVD 6% van de woorden, 0 vakken",
+        "nieuw": "niet gewijzigd",
+        "waarom": "Eens met de eerste lezing: een Schenk-vak ([36] of [208]) zou een kernmoment (Stoffer–Jetten over het gerucht) of de volgorde kosten; Schenk staat volledig in 'Wie vindt wat?' en zijn 'alle schijn van'-verwijt [208] in zijn standpunt."
+      }
+    ],
+    "gecontroleerd_zonder_bezwaar": [
+      "Volgorde [236]-[238]: [238] (18:01:37) 'Laten we het zo doen' antwoordt op [236] (18:01:35) 'Kunt u dat schriftelijk voor de stemmingen toezeggen?'; [237] (18:02:59) is de schorsing en staat verkeerd in de bron. De lezing van de eerste redacteur klopt.",
+      "Vak 5 verlengd citaat: letterlijk uit [54] en [56] (check.py OK).",
+      "Stand vierde termijn: voor Schenk (FVD) [210] en Vermeer (BBB) [214]; tegen Klaver (PRO), Paternotte (D66), Struijs (50PLUS), Dassen (Volt), Bontenbal (CDA), Bikker (ChristenUnie), Eerdmans (JA21), Keijzer, Wilders (PVV, wel antwoord per brief); Brekelmans (VVD) zegt geen ja of nee; SP en SGP reageren niet; de voorzitter stelt geen uitkomst vast. Kernpunt 9 en de samenvatting kloppen hiermee.",
+      "Overige wijzigingen van de eerste lezing (kernpunt 2, 8, Eerenberg normaal, Markuszower, Wilders, Klaver, Bikker normaal, vak 1, vak 3, woord 'vierde termijn', Stoffer in de samenvatting) zijn juist."
+    ],
+    "afgewezen": []
+  }
 }
