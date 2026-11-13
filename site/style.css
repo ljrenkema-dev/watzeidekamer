@@ -145,3 +145,6 @@ html[data-taal="makkelijk"] .lv-n{display:none}
 .beurt header a.video{font-size:13px;font-weight:700;text-decoration:none;border:2px solid currentColor;border-radius:999px;padding:0 8px;color:#3b4cca}
 .beurt header time+a.video,.beurt header a.video{margin-left:4px}
 .src .na{color:#5d5a72;font-size:13px}
+.naar-vak{display:block;margin-top:6px;font-size:14px;font-weight:700}
+.panel{scroll-margin-top:16px}
+.panel:target{outline:4px solid #ffe066}

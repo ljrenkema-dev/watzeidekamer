@@ -355,10 +355,19 @@ def debat(punt, strip):
               else '<span class="tag">Gecorrigeerd verslag</span>')
     bron = f"https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Verslag({v['verslag_id']})/resource"
     # Standpunten per partij: iedereen uit "sprekers" (één per fractie, plus bewindspersonen)
+    # Standpunten per partij: iedereen uit "sprekers" (één per fractie, plus bewindspersonen),
+    # met een link naar het eerste vak van die spreker in de strip.
+    eerste_vak_nr = {}
+    for nr, p_ in enumerate(strip["strip"], 1):
+        if p_["spreker_id"] and p_["spreker_id"] not in eerste_vak_nr:
+            eerste_vak_nr[p_["spreker_id"]] = nr
+    def naar_vak(sid):
+        nr = eerste_vak_nr.get(sid)
+        return f'<a class="naar-vak" href="#vak{nr}">Zie vak {nr} in de strip</a>' if nr else ""
     standpunten = "".join(
         f'<tr><th scope="row">{e(s["fractie"] or "Kabinet")}</th>'
         f'<td><a href="../p/{slug(s["naam"])}.html">{e(s["naam"])}</a>{"" if s["fractie"] else ", " + e(s["functie"])}</td>'
-        f'<td>{twee(s["standpunt"])}</td></tr>'
+        f'<td>{twee(s["standpunt"])}{naar_vak(s["id"])}</td></tr>'
         for s in sorted((x for x in sprekers if not x.get("alleen_strip")), key=lambda x: (not x["fractie"], x["fractie"].lower())))
     # Kaartjes: de belangrijkste sprekers, standaard 6 en hooguit 9.
     # Eerst wie in de strip staat (in volgorde van het debat), dan wie het meest sprak; bewindspersonen altijd.
@@ -414,12 +423,13 @@ def debat(punt, strip):
 <h1>{twee(strip['titel'])}</h1>
 <p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
 {twee(strip['samenvatting'], "p", "summary")}
-<h2>Wie vindt wat?</h2><div class="speakers">{kaarten}</div>{kaarten_noot}
-<details class="alle-standpunten"><summary>Alle standpunten ({aantal_partijen} {"partij" if aantal_partijen == 1 else "partijen"}{" en kabinet" if heeft_kabinet else ""})</summary>
-<div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{standpunten}</tbody></table></div></details>
+<h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>
+<p class="note">Elk vak toont een letterlijk citaat uit het verslag. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a></p>
+<h2>Standpunten per partij</h2>
+<p class="note">{aantal_partijen} {"partij" if aantal_partijen == 1 else "partijen"}{" en het kabinet" if heeft_kabinet else ""} in dit debat. Niet elke partij staat in de strip; hier staan ze allemaal.</p>
+<div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{standpunten}</tbody></table></div>
 <h2>Belangrijk om te weten</h2>{kern}
 {'<h2>Moeilijke woorden</h2><div class="words">' + woorden + '</div>' if woorden else ''}
-<h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>
 {redactie_regel(punt, strip)}<p class="note">De strip laat alleen zien wat in het verslag staat. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a>, of bekijk het <a href="{e(bron)}">officiële verslag van de Tweede Kamer</a> (XML).</p>
 </main>"""
     data = json.dumps({"sprekers": sprekers, "strip": vakken, "verslag": f"../v/{punt['id']}.html"}, ensure_ascii=False).replace("</", "<\\/")
