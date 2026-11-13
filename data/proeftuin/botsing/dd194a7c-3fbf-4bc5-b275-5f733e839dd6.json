@@ -1,0 +1,66 @@
+{
+ "debat": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
+ "kop": "Vragenuur · 10 nov 2026 · vraag 1 van 3",
+ "vraag": "Is het ministerie aansprakelijk voor het lagere loon van uitzendkrachten?",
+ "vraag_bron": "De mondelinge vraag van Patijn (PRO), beurt 1: 'Mijn eerste vraag aan de minister is dan ook: acht hij het ministerie aansprakelijk?' De voorzitter noemt alleen dat Patijn haar mondelinge vraag stelt. 'Lagere loon' volgt uit Patijns inleiding ('kregen jaren minder betaald') en wordt door de minister niet betwist ('Er werd dus relatief laag betaald').",
+ "ook_tekst": "Ook over deze vraag aan het woord: D66, FVD en SP",
+ "partijen_totaal": 10,
+ "afloop": "Bij een vragenuur wordt niet gestemd en worden geen moties ingediend. De twee andere vragen (gentest bij borstkanker, kosten van jeugdzorg) staan op de site.",
+ "afloop_kort": "Bij een vragenuur wordt niet gestemd.",
+ "versies": {
+  "a": {
+   "regel": "Het onderwerp van de strip (spreidingsregel). Daarbinnen de langste wisseling: Patijn (PRO) ↔ Vijlbrief (minister), de hele vraag. Eerste ronde: de vraag zoals Patijn hem stelt en het antwoord van de minister daarop. Knipregel: de schrijver kiest per beurt de twee zinnen die vraag en antwoord dragen; de strikte regel 'eerste twee zinnen' gaf bij de minister 'dank dat ik mag blijven zitten in verband met mijn rug'.",
+   "wisseling": "Patijn (PRO) ↔ Vijlbrief (minister van SZW), beurt 1–14, 12 beurten (voorzitter niet meegeteld)",
+   "afgevallen": [
+    "Dijk (SP) ↔ Vijlbrief, 2 beurten",
+    "Van Houwelingen (FVD) ↔ Vijlbrief, 4 beurten",
+    "Neijenhuis (D66) ↔ Vijlbrief, 2 beurten",
+    "gentest en jeugdzorg: ander onderwerp dan de strip"
+   ],
+   "citaten": [
+    {
+     "beurt": 1,
+     "naam": "Mariëtte Patijn",
+     "partij": "PRO",
+     "citaat": "Minister Kamp heeft willens en wetens een praktijk toegestaan waarvan hij wist dat die juridisch omstreden was. … Mijn eerste vraag aan de minister is dan ook: acht hij het ministerie aansprakelijk?",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=speaker2026-11-10T14%3A00%3A23%2B0100",
+     "tijd": "14:00"
+    },
+    {
+     "beurt": 3,
+     "naam": "Hans Vijlbrief",
+     "partij": "minister van SZW",
+     "citaat": "Naar mijn mening, als ik er goed naar kijk, is er niets gebeurd wat juridisch niet door de beugel kon. … Ik ga hier nu ook geen uitspraken doen over wie daar dan verantwoordelijk voor is en niet.",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=speaker2026-11-10T14%3A01%3A19%2B0100",
+     "tijd": "14:01"
+    }
+   ]
+  },
+  "c": {
+   "regel": "Zelfde wisseling, maar de laatste ronde in plaats van de eerste: waar de twee het verschil zelf benoemen ('gelijkwaardig' of 'gelijk' in de wet). Laat zien dat de keuze van de ronde de kaart sterk bepaalt: a gaat over schuld in het verleden, c over de wet van nu.",
+   "wisseling": "Patijn (PRO) ↔ Vijlbrief (minister van SZW), beurt 12–13",
+   "afgevallen": [
+    "eerste ronde (versie a)",
+    "tussenrondes over monitoren met de vakbonden (beurt 4–11)"
+   ],
+   "citaten": [
+    {
+     "beurt": 12,
+     "naam": "Mariëtte Patijn",
+     "partij": "PRO",
+     "citaat": "Het gaat erom dat er in die sector zo'n construct bedacht wordt om mensen minder te kunnen betalen. … dit gebeurt doordat er \"gelijkwaardig\" in de wet staat en niet \"gelijk\".",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=interrupter2026-11-10T14%3A09%3A45%2B0100",
+     "tijd": "14:09"
+    },
+    {
+     "beurt": 13,
+     "naam": "Hans Vijlbrief",
+     "partij": "minister van SZW",
+     "citaat": "Ik zeg het toch nog één keer: de Kamer heeft in meerderheid gekozen voor \"gelijkwaardig\" en niet voor \"gelijk\". Daar was een reden voor, namelijk dat je uitzendarbeid op dezelfde flexibele manier wil kunnen blijven inzetten als dat je nu doet.",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=speaker2026-11-10T14%3A10%3A11%2B0100",
+     "tijd": "14:10"
+    }
+   ]
+  }
+ }
+}

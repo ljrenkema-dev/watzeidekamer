@@ -38,35 +38,38 @@ body{background:var(--b-paper);color:var(--b-ink)}
 </style>
 <div class="bw">
 <header><h1>Botsingskaart: proef</h1>
-<p class="lede">Een lokbeeld voor sociale media: de vraag van het debat en twee letterlijke citaten tegenover elkaar, zonder gezichten. Drie versies voor hetzelfde debat, met de huidige strip eronder ter vergelijking. Bij elke versie staat welke regel de citaten koos.</p></header>
-<section><h2>a. Eén beeld (4:5, Instagram)</h2><div class="rij" id="a"></div></section>
-<section><h2>b. Carrousel van drie dia's</h2><div class="rij" id="b"></div></section>
-<section><h2>c. Eén beeld, andere keuzeregel</h2><div class="rij" id="c"></div></section>
-<section><h2>De huidige strip van dit debat</h2><div class="strip-huidig" id="strip"></div></section>
+<p class="lede">Een lokbeeld voor sociale media: de vraag van het debat en twee letterlijke citaten tegenover elkaar, zonder gezichten. Per debat drie versies, met de huidige strip eronder ter vergelijking. Bij elke versie staat welke regel de citaten koos.</p></header>
+<nav class="rij" id="tabs" role="tablist"></nav>
+<div id="debat" style="display:flex;flex-direction:column;gap:22px"></div>
 </div>
 <script src="strip.js"></script>
 <script>
-const K=__KAART__, S=__STRIP__;
+const D=__DATA__;let actief=0;try{actief=Number(localStorage.getItem("bots-tab"))||0}catch(e){}
 const esc2=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const bg=()=>`<div class="bg" aria-hidden="true"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">${SCENE.interruptie()}</svg></div>`;
 const voet=`<div class="voet"><b>Wat zei de Kamer?</b><span>citaten uit het verslag</span></div>`;
 const cit=c=>`<div class="cit"><p>“${esc2(c.citaat)}”</p><div class="wie">${esc2(c.naam)} <span>(${esc2(c.partij)})</span></div></div>`;
-const ook=`<div class="ook">Ook aan het woord: ${K.partijen_totaal-2} andere partijen</div>`;
-const afloop=`<div class="afloop"><b>Afloop:</b> ${esc2(K.afloop_kort||K.afloop)}</div>`;
 const kaart=(binnen,nr)=>`<div class="kaart">${bg()}${nr?`<div class="nr">${nr}</div>`:""}<div class="in">${binnen}</div></div>`;
-function verslag(v){const x=K.versies[v];
-  return `<dl class="verslag"><dt>Keuzeregel</dt><dd>${esc2(x.regel)}</dd><dt>Gekozen wisseling</dt><dd>${esc2(x.wisseling)}</dd>
-  <dt>Afgevallen</dt><dd>${x.afgevallen.map(esc2).join("; ")}</dd>
-  <dt>Bron van de vraagzin</dt><dd>${esc2(K.vraag_bron)}</dd>
-  <dt>Videomomenten</dt><dd>${x.citaten.map(c=>c.video?`<a href="${esc2(c.video)}" target="_blank" rel="noopener">▶ ${esc2(c.naam)}, ${esc2(c.tijd)}</a>`:esc2(c.naam)+": geen video").join(" · ")}</dd></dl>`;}
-function een(v){const x=K.versies[v];return kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag">${esc2(K.vraag)}</p>${x.citaten.map(cit).join("")}${ook}${afloop}${voet}`);}
-document.getElementById("a").innerHTML=een("a")+verslag("a");
-const A=K.versies.a;
-document.getElementById("b").innerHTML=
-  kaart(`<div class="kop">${esc2(K.kop)} · Pakket Belastingplan 2027, derde termijn</div><p class="vraag groot" style="font-size:9cqw;margin-top:8cqw">${esc2(K.vraag)}</p><div class="ook">Twee Kamerleden over en weer. Swipe →</div>${voet}`,"1/3")+
-  kaart(`<div class="kop">De botsing</div>${A.citaten.map(cit).join("")}${ook}${voet}`,"2/3")+
-  kaart(`<div class="kop">Hoe liep het af?</div><p class="vraag" style="font-size:6.2cqw">${esc2(K.afloop)}</p><div class="ook">Lees alle standpunten van ${K.partijen_totaal} partijen, de moties en het hele debat op de site.</div>${voet}`,"3/3");
-document.getElementById("c").innerHTML=een("c")+verslag("c");
-const looks={};for(const s of S.strip.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
-document.getElementById("strip").innerHTML=S.strip.strip.map((p0,i)=>{const p={...p0,tekst:p0.tekst.normaal||p0.tekst};return panelSVG(p,i,n=>looks[n]||LOOKS[0]);}).join("");
+function render(){
+  document.getElementById("tabs").innerHTML=D.map((d,i)=>`<button type="button" role="tab" aria-selected="${i===actief}" data-i="${i}" style="font:inherit;font-weight:700;border-radius:999px;padding:6px 14px;cursor:pointer;border:2px solid currentColor;background:${i===actief?"var(--b-ink)":"transparent"};color:${i===actief?"var(--b-paper)":"var(--b-ink)"}">${esc2(d.kaart.kop.split(" · ")[0])} · ${esc2(d.strip.agendapunt.slice(0,30))}</button>`).join("");
+  const K=D[actief].kaart,S=D[actief].strip;
+  const ook=`<div class="ook">${esc2(K.ook_tekst||`Ook aan het woord: ${K.partijen_totaal-2} andere partijen`)}</div>`;
+  const afloop=`<div class="afloop"><b>Afloop:</b> ${esc2(K.afloop_kort||K.afloop)}</div>`;
+  const verslag=v=>{const x=K.versies[v];return `<dl class="verslag"><dt>Keuzeregel</dt><dd>${esc2(x.regel)}</dd><dt>Gekozen wisseling</dt><dd>${esc2(x.wisseling)}</dd>
+    <dt>Afgevallen</dt><dd>${x.afgevallen.map(esc2).join("; ")}</dd><dt>Bron van de vraagzin</dt><dd>${esc2(K.vraag_bron)}</dd>
+    <dt>Videomomenten</dt><dd>${x.citaten.map(c=>c.video?`<a href="${esc2(c.video)}" target="_blank" rel="noopener">▶ ${esc2(c.naam)}, ${esc2(c.tijd)}</a>`:esc2(c.naam)+": geen video").join(" · ")}</dd></dl>`;};
+  const een=v=>kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag">${esc2(K.vraag)}</p>${K.versies[v].citaten.map(cit).join("")}${ook}${afloop}${voet}`);
+  const A=K.versies.a;
+  const looks={};for(const s of S.strip.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
+  document.getElementById("debat").innerHTML=
+   `<section><h2>a. Eén beeld (4:5, Instagram)</h2><div class="rij">${een("a")+verslag("a")}</div></section>
+    <section><h2>b. Carrousel van drie dia's</h2><div class="rij">${
+     kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag" style="font-size:8.6cqw;margin-top:8cqw">${esc2(K.vraag)}</p><div class="ook">Twee kanten, in hun eigen woorden. Swipe →</div>${voet}`,"1/3")+
+     kaart(`<div class="kop">De botsing</div>${A.citaten.map(cit).join("")}${ook}${voet}`,"2/3")+
+     kaart(`<div class="kop">Hoe liep het af?</div><p class="vraag" style="font-size:6.2cqw">${esc2(K.afloop)}</p><div class="ook">Lees alle standpunten van ${K.partijen_totaal} partijen en het hele debat op de site.</div>${voet}`,"3/3")}</div></section>
+    <section><h2>c. Eén beeld, andere keuzeregel</h2><div class="rij">${een("c")+verslag("c")}</div></section>
+    <section><h2>De huidige strip van dit debat</h2><div class="strip-huidig">${S.strip.strip.map((p0,i)=>{const p={...p0,tekst:p0.tekst.normaal||p0.tekst};return panelSVG(p,i,n=>looks[n]||LOOKS[0]);}).join("")}</div></section>`;
+}
+document.addEventListener("click",e=>{const t=e.target.closest("[role=tab]");if(t){actief=Number(t.dataset.i);try{localStorage.setItem("bots-tab",actief)}catch(x){};render();}});
+render();
 </script>
