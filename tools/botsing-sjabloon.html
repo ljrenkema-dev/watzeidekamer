@@ -20,8 +20,10 @@ body{background:var(--b-paper);color:var(--b-ink)}
 .kaart .in{position:relative;height:100%;box-sizing:border-box;padding:5cqw 5.5cqw 4cqw;display:flex;flex-direction:column;gap:2cqw}
 .kaart .kop{font-size:3.3cqw;letter-spacing:.04em;text-transform:uppercase;color:#4a4660;font-weight:700}
 .kaart .vraag{font-family:"Zen Maru Gothic",system-ui,sans-serif;font-weight:900;font-size:5.8cqw;line-height:1.1;margin:0}
-.kaart .cit{background:#fff;border:2px solid #1d1b2e;border-radius:4cqw;padding:2.4cqw 3.4cqw;font-size:3.25cqw;line-height:1.27}
+.kaart .cit{position:relative;padding-right:15cqw !important;background:#fff;border:2px solid #1d1b2e;border-radius:4cqw;padding:2.4cqw 3.4cqw;font-size:3.25cqw;line-height:1.27}
 .kaart .cit p{margin:0 0 1.6cqw}
+.kaart .fig{position:absolute;right:-2.5cqw;bottom:-3cqw;width:15cqw;height:17cqw;border-radius:50% 50% 8% 8%;overflow:hidden;background:#fff;border:2px solid #1d1b2e}
+.kaart .fig svg{width:100%;height:100%;display:block}
 .kaart .wie{font-size:3.4cqw;font-weight:700}
 .kaart .wie span{font-weight:400;color:#4a4660}
 .kaart .ook{font-size:3.4cqw;color:#4a4660;margin-top:auto}
@@ -48,7 +50,9 @@ const D=__DATA__;let actief=0;try{actief=Number(localStorage.getItem("bots-tab")
 const esc2=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const bg=()=>`<div class="bg" aria-hidden="true"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">${SCENE.interruptie()}</svg></div>`;
 const voet=`<div class="voet"><b>Wat zei de Kamer?</b><span>citaten uit het verslag</span></div>`;
-const cit=c=>`<div class="cit"><p>“${esc2(c.citaat)}”</p><div class="wie">${esc2(c.naam)} <span>(${esc2(c.partij)})</span></div></div>`;
+const fig=c=>{if(!c.figuur)return "";const L=makeLook(c.figuur.id,c.figuur.fractie,c.figuur.u);
+  return `<div class="fig" aria-hidden="true"><svg viewBox="16 6 68 78" preserveAspectRatio="xMidYMin slice">${character(L,"neutraal")}</svg></div>`;};
+const cit=c=>`<div class="cit"><p>“${esc2(c.citaat)}”</p><div class="wie">${esc2(c.naam)} <span>(${esc2(c.partij)})</span></div>${fig(c)}</div>`;
 const kaart=(binnen,nr)=>`<div class="kaart">${bg()}${nr?`<div class="nr">${nr}</div>`:""}<div class="in">${binnen}</div></div>`;
 function render(){
   document.getElementById("tabs").innerHTML=D.map((d,i)=>`<button type="button" role="tab" aria-selected="${i===actief}" data-i="${i}" style="font:inherit;font-weight:700;border-radius:999px;padding:6px 14px;cursor:pointer;border:2px solid currentColor;background:${i===actief?"var(--b-ink)":"transparent"};color:${i===actief?"var(--b-paper)":"var(--b-ink)"}">${esc2(d.kaart.kop.split(" · ")[0])} · ${esc2(d.strip.agendapunt.slice(0,30))}</button>`).join("");

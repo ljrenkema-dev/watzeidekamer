@@ -17,6 +17,23 @@ for f in ("strip.js", "style.css"):
 alles = []
 for pid in ids:
     kaart = json.loads((ROOT / "data" / "proeftuin" / "botsing" / f"{pid}.json").read_text())
+    # figuur per geciteerde spreker (zelfde kenmerken en manga-beeld als in de strip)
+    import build
+    uiterlijk = json.loads((ROOT / "data" / "uiterlijk.json").read_text())
+    koppeling = json.loads((ROOT / "data" / "sprekers.json").read_text())
+    punt = json.loads((ROOT / "data" / "agendapunten" / f"{pid}.json").read_text())
+    for v in kaart["versies"].values():
+        for c in v["citaten"]:
+            sp = punt["beurten"][c["beurt"]]["spreker"]
+            sl = koppeling.get(sp["id"])
+            u = uiterlijk.get(sl or "")
+            k = {x: u[x] for x in build.KENMERKEN if x in u} if u else None
+            if k and build.manga(sl):
+                k["manga"] = build.manga(sl)
+                m = build.manga(sl)
+                if not (uit / "manga" / m).exists():
+                    shutil.copytree(ROOT / "site" / "manga" / m, uit / "manga" / m)
+            c["figuur"] = {"id": sp["id"], "fractie": sp.get("fractie") or "", "u": k}
     huidig = proeftuin.debat_data(pid, json.loads((ROOT / "data" / "strips" / f"{pid}.json").read_text()))
     for sp in huidig["strip"]["sprekers"]:
         m = (sp.get("uiterlijk") or {}).get("manga")
