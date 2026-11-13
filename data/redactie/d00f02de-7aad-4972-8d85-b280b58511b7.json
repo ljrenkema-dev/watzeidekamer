@@ -1,221 +1,226 @@
 {
-  "agendapunt": "d00f02de-7aad-4972-8d85-b280b58511b7",
-  "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
-  "datum": "2026-11-12",
-  "oordeel": "aangepast",
-  "bevindingen": [
-    {
-      "waar": "vak 6 normaal",
-      "soort": "juistheid",
-      "ernst": "middel",
-      "oud": "De diensten zien aanwijzingen dat desinformatie in de Sahel deel is van een Russische campagne, ook tegen Zuid-Europa.",
-      "nieuw": "Diensten zien aanwijzingen: desinformatie in de Sahel hoort bij een Russische campagne, ook om Europa's zuidflank te destabiliseren.",
-      "waarom": "Het citaat zegt 'de zuidflank van Europa te destabiliseren', niet 'Zuid-Europa', en 'tegen' maakt het doel vager.",
-      "les": "L3",
-      "les_achteraf": true
-    },
-    {
-      "waar": "vak 6 makkelijk",
-      "soort": "juistheid",
-      "ernst": "middel",
-      "oud": "De diensten zien aanwijzingen voor een Russische campagne. Die wil ook Zuid-Europa ontwrichten.",
-      "nieuw": "De diensten zien aanwijzingen voor een Russische desinformatiecampagne. Die wil ook Europa's zuidkant ontwrichten.",
-      "waarom": "'zuidflank van Europa' is geen 'Zuid-Europa', en het woord 'desinformatie' uit het citaat ontbrak.",
-      "les": "L9",
-      "les_achteraf": true
-    },
-    {
-      "waar": "vak 7 normaal",
-      "soort": "juistheid",
-      "ernst": "klein",
-      "oud": "We startten een programma van 40 miljoen voor lokale onafhankelijke journalistiek. Engagement dient onze belangen het best.",
-      "nieuw": "Een programma van 40 miljoen versterkt lokale onafhankelijke journalistiek. Wij geloven: engagement dient onze belangen het best.",
-      "waarom": "De minister zegt 'Nederland gelooft dat engagement het beste onze belangen dient'; het voorbehoud 'gelooft' viel weg.",
-      "les": "L1",
-      "les_achteraf": true
-    },
-    {
-      "waar": "vak 7 makkelijk",
-      "soort": "juistheid",
-      "ernst": "klein",
-      "oud": "We steunen lokale journalistiek met 40 miljoen. Contact houden dient onze belangen het best.",
-      "nieuw": "We steunen lokale journalistiek met 40 miljoen. Contact houden is volgens ons het beste.",
-      "waarom": "Ook hier het voorbehoud 'gelooft' terug, als 'volgens ons'.",
-      "les": "L1",
-      "les_achteraf": true
-    },
-    {
-      "waar": "vak 3 makkelijk",
-      "soort": "juistheid",
-      "ernst": "klein",
-      "oud": "Begrijp waar mensen in de Sahel vertrouwen vinden. Religieuze leiders zijn een soort influencers.",
-      "nieuw": "Wil je de Sahel begrijpen? Kijk waar mensen hun vertrouwen vandaan halen.",
-      "waarom": "'wie de Sahel wil begrijpen, moet ook begrijpen' is een voorwaarde, geen bevel.",
-      "les": "L2",
-      "les_achteraf": true
-    },
-    {
-      "waar": "vak 3 normaal",
-      "soort": "taal",
-      "ernst": "klein",
-      "oud": "Wie de Sahel wil begrijpen, moet weten waar mensen hun vertrouwen vandaan halen. Religieuze leiders zijn een soort influencers.",
-      "nieuw": "Wie de Sahel wil begrijpen, moet weten waar mensen vertrouwen vinden. Religieuze leiders zijn een soort influencers.",
-      "waarom": "19 woorden, de regel is hooguit 18.",
-      "les": "taal-lengte",
-      "les_achteraf": true
-    },
-    {
-      "waar": "vak 4 normaal",
-      "soort": "taal",
-      "ernst": "klein",
-      "oud": "Bij toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister op opnieuw met aanbevelingen te komen.",
-      "nieuw": "Bij toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister op tot nieuwe aanbevelingen.",
-      "waarom": "19 woorden, de regel is hooguit 18; 'roept ... op' blijft staan.",
-      "les": "taal-lengte",
-      "les_achteraf": true
-    },
-    {
-      "waar": "vak 4 makkelijk",
-      "soort": "juistheid",
-      "ernst": "klein",
-      "oud": "De rol van religie verandert. Minister, kom opnieuw met aanbevelingen.",
-      "nieuw": "Bij meer conflicten verandert de rol van religie. Wij vragen nieuwe aanbevelingen.",
-      "waarom": "'In tijden van toenemende conflicten' viel weg, en 'Mijn fractie roept de minister op' werd een bevel.",
-      "les": "L5",
-      "les_achteraf": true
-    },
-    {
-      "waar": "samenvatting makkelijk",
-      "soort": "juistheid",
-      "ernst": "klein",
-      "oud": "De minister ziet aanwijzingen voor een Russische desinformatiecampagne.",
-      "nieuw": "De minister zegt: de diensten zien aanwijzingen voor Russische desinformatie.",
-      "waarom": "Volgens het citaat zijn er 'aanwijzingen bij de diensten', niet bij de minister zelf; zo stond het ook al in de normale versie.",
-      "les": "L4",
-      "les_achteraf": true
-    },
-    {
-      "waar": "sprekers Berendsen normaal",
-      "soort": "juistheid",
-      "ernst": "klein",
-      "oud": "Minister Berendsen ziet aanwijzingen voor een Russische desinformatiecampagne via de Sahel ... Volgens hem dient engagement met de regio de Nederlandse belangen het best.",
-      "nieuw": "Minister Berendsen zegt dat de diensten aanwijzingen zien voor een Russische desinformatiecampagne via de Sahel. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en zegt dat Nederland gelooft dat engagement de Nederlandse belangen het best dient.",
-      "waarom": "Het zijn 'aanwijzingen bij de diensten', en 'Nederland gelooft dat engagement' is een overtuiging.",
-      "les": "L1",
-      "les_achteraf": true
-    },
-    {
-      "waar": "sprekers Van Ark",
-      "soort": "evenwicht",
-      "ernst": "klein",
-      "oud": "... vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen. Zij roept de minister op opnieuw met aanbevelingen te komen over religieuze geletterdheid.",
-      "nieuw": "Mevrouw Van Ark (CDA) vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen, omdat religie vertrouwen geeft maar ook een bron van desinformatie kan zijn. Zij roept de minister op opnieuw met aanbevelingen te komen.",
-      "waarom": "Haar argument heeft twee kanten: religieuze leiders als 'influencers', maar 'religie kan ook een bron zijn van desinformatie'; die tweede kant ontbrak in beide versies.",
-      "les": "L9",
-      "les_achteraf": true
-    },
-    {
-      "waar": "kernpunten normaal 2 en makkelijk 1-2",
-      "soort": "juistheid",
-      "ernst": "klein",
-      "oud": "Die campagne is erop gericht ... / De minister: er zijn aanwijzingen ... / Die campagne wil ook de zuidkant van Europa ontwrichten.",
-      "nieuw": "Volgens de minister is die campagne erop gericht ... / De minister: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. / Volgens de minister wil die campagne ook de zuidkant van Europa ontwrichten.",
-      "waarom": "Een bewering van de minister ('aanwijzingen bij de diensten') stond als vaststaand feit.",
-      "les": "L4",
-      "les_achteraf": true
-    },
-    {
-      "waar": "titel makkelijk",
-      "soort": "juistheid",
-      "ernst": "klein",
-      "oud": "Wat doet Nederland in de Sahel?",
-      "nieuw": "Kort debat over de Sahel: desinformatie en religie",
-      "waarom": "De makkelijke titel ging over iets anders dan de normale titel ('Desinformatie, religie en moties').",
-      "les": "L8",
-      "les_achteraf": true
-    }
-  ],
-  "tweede_lezing": {
-    "datum": "2026-11-12",
-    "bevindingen": [
-      {
-        "waar": "vak 7 (citaat + normaal + makkelijk)",
-        "soort": "juistheid",
-        "ernst": "middel",
-        "les": "L2",
-        "oud": "citaat: \"…40 miljoen, gericht op het versterken van lokale onafhankelijke journalistiek. … Nederland gelooft dat engagement het beste onze belangen dient\"; normaal: \"Een programma van 40 miljoen versterkt lokale onafhankelijke journalistiek. Wij geloven: engagement dient onze belangen het best.\"; makkelijk: \"We steunen lokale journalistiek met 40 miljoen. Contact houden is volgens ons het beste.\"",
-        "nieuw": "citaat: \"De eerste motie, die op stuk nr. 274, ontraad ik, met verwijzing naar het debat. Nederland gelooft dat engagement het beste onze belangen dient\"; normaal: \"Motie 274 ontraad ik, met verwijzing naar het debat. Nederland gelooft dat engagement onze belangen het beste dient.\"; makkelijk: \"Ik ontraad motie 274. Wij geloven: contact houden dient onze belangen het best.\"",
-        "waarom": "In de bron is \"Nederland gelooft dat engagement het beste onze belangen dient\" de toelichting bij \"die op stuk nr. 274, ontraad ik\"; door de \" … \" na het journalistiekprogramma leek het een losse beleidsuitspraak. Het voorstel van de tweede lezer voor makkelijk liet \"gelooft\" weg (L1); dat is teruggezet als \"Wij geloven\". Het 40-miljoenprogramma staat nog in kernpunt 3 en bij de minister in \"Wie vindt wat?\"."
-      },
-      {
-        "waar": "vak 3 (citaat + normaal + makkelijk)",
-        "soort": "evenwicht",
-        "ernst": "middel",
-        "les": "L9",
-        "oud": "citaat: \"wie de Sahel wil begrijpen, moet ook begrijpen waar mensen hun vertrouwen vandaan halen. … Religieuze leiders zijn eigenlijk een soort influencers, maar dan zonder TikTokaccount\"; normaal: \"Wie de Sahel wil begrijpen, moet weten waar mensen vertrouwen vinden. Religieuze leiders zijn een soort influencers.\"; makkelijk: \"Wil je de Sahel begrijpen? Kijk waar mensen hun vertrouwen vandaan halen.\"",
-        "nieuw": "citaat: \"Religieuze leiders zijn eigenlijk een soort influencers, maar dan zonder TikTokaccount, maar religie kan ook een bron zijn van desinformatie en worden gebruikt om geweld te legitimeren.\"; normaal: \"Religieuze leiders zijn een soort influencers, maar religie kan ook bron van desinformatie zijn en geweld legitimeren.\"; makkelijk: \"Religieuze leiders zijn een soort influencers. Religie kan ook desinformatie brengen of geweld goedpraten.\"",
-        "waarom": "Het citaat brak af vóór \"maar religie kan ook een bron zijn van desinformatie en worden gebruikt om geweld te legitimeren\", precies het voorbeeld uit L9; om binnen 18/14 woorden te blijven is de zin over \"vertrouwen\" uit dit vak gehaald (die staat nog in het standpunt van Van Ark), en \"geweld te legitimeren\" is anders dan in het voorstel niet weggelaten."
-      },
-      {
-        "waar": "sprekers Van Ark makkelijk",
-        "soort": "juistheid",
-        "ernst": "middel",
-        "les": "L4",
-        "oud": "Religie kan vertrouwen geven, maar ook desinformatie verspreiden. Mevrouw Van Ark vraagt de minister om opnieuw met aanbevelingen te komen.",
-        "nieuw": "Mevrouw Van Ark zegt: religie kan vertrouwen geven, maar ook desinformatie verspreiden. Zij vraagt de minister om nieuwe aanbevelingen.",
-        "waarom": "\"religie kan ook een bron zijn van desinformatie\" is de opvatting van Van Ark en stond als feit van de site; normaal zegt al \"vindt dat\" (L10)."
-      },
-      {
-        "waar": "sprekers Berendsen normaal en makkelijk",
-        "soort": "juistheid",
-        "ernst": "klein",
-        "les": "L6",
-        "oud": "normaal: \"…aanwijzingen zien voor een Russische desinformatiecampagne via de Sahel. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en zegt dat Nederland gelooft dat engagement de Nederlandse belangen het best dient.\"; makkelijk: \"De diensten zien aanwijzingen voor een Russische desinformatiecampagne via de Sahel. De minister vindt contact houden met de regio het beste voor Nederland.\"",
-        "nieuw": "normaal: \"Minister Berendsen zegt dat de diensten aanwijzingen zien dat desinformatie in de Sahel deel is van een bredere Russische campagne. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en ontraadt motie 274, omdat Nederland gelooft dat engagement de Nederlandse belangen het best dient.\"; makkelijk: \"De minister zegt: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. Hij ontraadt motie 274. Hij vindt contact houden met de regio het beste voor Nederland.\"",
-        "waarom": "De bron zegt \"desinformatie-inzet in de Sahel onderdeel is van een bredere Russische campagne\", niet \"via de Sahel\"; in makkelijk stond de uitspraak zonder \"de minister zegt\" als feit (L4); de koppeling met motie 274 is meegenomen zoals in vak 7."
-      },
-      {
-        "waar": "kernpunten normaal 3 en makkelijk 3",
-        "soort": "juistheid",
-        "ernst": "klein",
-        "les": "L4",
-        "oud": "normaal: \"Het kabinet startte vorige maand een regionaal programma van 40 miljoen om lokale onafhankelijke journalistiek te versterken.\"; makkelijk: \"Het kabinet startte vorige maand een programma van 40 miljoen voor lokale onafhankelijke journalistiek.\"",
-        "nieuw": "normaal: \"Volgens de minister startte het kabinet in oktober 2026 een regionaal programma van 40 miljoen, gericht op het versterken van lokale onafhankelijke journalistiek.\"; makkelijk: \"Volgens de minister startte het kabinet in oktober een programma van 40 miljoen. Dat moet lokale onafhankelijke journalistiek sterker maken.\"",
-        "waarom": "Alleen de minister zegt dit (\"heeft het kabinet vorige maand ook een regionaal programma gestart\"), en \"gericht op het versterken\" is een doel. Niet door de tweede lezer gemeld: \"vorige maand\" hangt af van de leesdag (L7); het debat was op 11 november 2026, dus oktober 2026."
-      },
-      {
-        "waar": "kernpunten normaal 5 en makkelijk 5",
-        "soort": "juistheid",
-        "ernst": "klein",
-        "les": "L4",
-        "oud": "normaal: \"Nederland gaat nationaal iets minder doen in de Sahel; de minister vindt het goed dat de EU er aanwezig blijft.\"; makkelijk: \"Nederland gaat zelf iets minder doen. De minister vindt het goed dat de EU er aanwezig is.\"",
-        "nieuw": "normaal: \"Volgens de minister gaat Nederland nationaal iets minder doen; daarom vindt hij het goed dat de EU daar aanwezig is. Dat zei hij bij het ontraden van motie 275.\"; makkelijk: \"Volgens de minister gaat Nederland zelf iets minder doen. Daarom vindt hij het goed dat de EU er is. Dat zei hij bij motie 275.\"",
-        "waarom": "\"omdat we nationaal iets minder gaan doen, is het goed dat de EU daar aanwezig is\" is een uitspraak van de minister bij motie 275 en stond als feit, zonder het verband \"omdat\"."
-      },
-      {
-        "waar": "vak 8 makkelijk",
-        "soort": "taal",
-        "ernst": "klein",
-        "les": "nieuw",
-        "oud": "Moties 274 en 275 zijn ontraden. Bij 276 en 277: oordeel Kamer.",
-        "nieuw": "De minister ontraadt motie 274 en 275. Over 276 en 277 kiest de Kamer.",
-        "waarom": "strip.md vraagt voor makkelijk een actieve vorm; \"zijn ontraden\" verzwijgt dat de minister \"ontraad ik\" zegt, en \"oordeel Kamer\" is jargon. Het voorstel van de tweede lezer was 15 woorden (max 14) en is ingekort."
-      },
-      {
-        "waar": "sprekers De Roon normaal",
-        "soort": "juistheid",
-        "ernst": "klein",
-        "les": "L7",
-        "oud": "…de toelichting die de minister zes weken geleden toezegde…",
-        "nieuw": "…de toelichting die de minister in het commissiedebat van 1 oktober toezegde…",
-        "waarom": "Eigen vondst bij de tweede lezing: \"zes weken geleden\" hangt af van de leesdag; het onderwerp van het agendapunt noemt \"CD d.d. 01/10\"."
-      }
-    ],
-    "afgewezen": [
-      {
-        "waar": "vak 7 normaal (\"versterkt\" → \"is gericht op het versterken\")",
-        "waarom": "Klopt inhoudelijk (\"gericht op het versterken\"), maar vervalt: door bevinding vak 7 staat het 40-miljoenprogramma niet meer in vak 7. De juiste formulering \"gericht op het versterken\" is wel overgenomen in kernpunt 3."
-      }
-    ]
+ "agendapunt": "d00f02de-7aad-4972-8d85-b280b58511b7",
+ "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
+ "datum": "2026-11-12",
+ "oordeel": "aangepast",
+ "bevindingen": [
+  {
+   "waar": "vak 6 normaal",
+   "soort": "juistheid",
+   "ernst": "middel",
+   "oud": "De diensten zien aanwijzingen dat desinformatie in de Sahel deel is van een Russische campagne, ook tegen Zuid-Europa.",
+   "nieuw": "Diensten zien aanwijzingen: desinformatie in de Sahel hoort bij een Russische campagne, ook om Europa's zuidflank te destabiliseren.",
+   "waarom": "Het citaat zegt 'de zuidflank van Europa te destabiliseren', niet 'Zuid-Europa', en 'tegen' maakt het doel vager.",
+   "les": "L3",
+   "les_achteraf": true
+  },
+  {
+   "waar": "vak 6 makkelijk",
+   "soort": "juistheid",
+   "ernst": "middel",
+   "oud": "De diensten zien aanwijzingen voor een Russische campagne. Die wil ook Zuid-Europa ontwrichten.",
+   "nieuw": "De diensten zien aanwijzingen voor een Russische desinformatiecampagne. Die wil ook Europa's zuidkant ontwrichten.",
+   "waarom": "'zuidflank van Europa' is geen 'Zuid-Europa', en het woord 'desinformatie' uit het citaat ontbrak.",
+   "les": "L9",
+   "les_achteraf": true
+  },
+  {
+   "waar": "vak 7 normaal",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "oud": "We startten een programma van 40 miljoen voor lokale onafhankelijke journalistiek. Engagement dient onze belangen het best.",
+   "nieuw": "Een programma van 40 miljoen versterkt lokale onafhankelijke journalistiek. Wij geloven: engagement dient onze belangen het best.",
+   "waarom": "De minister zegt 'Nederland gelooft dat engagement het beste onze belangen dient'; het voorbehoud 'gelooft' viel weg.",
+   "les": "L1",
+   "les_achteraf": true
+  },
+  {
+   "waar": "vak 7 makkelijk",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "oud": "We steunen lokale journalistiek met 40 miljoen. Contact houden dient onze belangen het best.",
+   "nieuw": "We steunen lokale journalistiek met 40 miljoen. Contact houden is volgens ons het beste.",
+   "waarom": "Ook hier het voorbehoud 'gelooft' terug, als 'volgens ons'.",
+   "les": "L1",
+   "les_achteraf": true
+  },
+  {
+   "waar": "vak 3 makkelijk",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "oud": "Begrijp waar mensen in de Sahel vertrouwen vinden. Religieuze leiders zijn een soort influencers.",
+   "nieuw": "Wil je de Sahel begrijpen? Kijk waar mensen hun vertrouwen vandaan halen.",
+   "waarom": "'wie de Sahel wil begrijpen, moet ook begrijpen' is een voorwaarde, geen bevel.",
+   "les": "L2",
+   "les_achteraf": true
+  },
+  {
+   "waar": "vak 3 normaal",
+   "soort": "taal",
+   "ernst": "klein",
+   "oud": "Wie de Sahel wil begrijpen, moet weten waar mensen hun vertrouwen vandaan halen. Religieuze leiders zijn een soort influencers.",
+   "nieuw": "Wie de Sahel wil begrijpen, moet weten waar mensen vertrouwen vinden. Religieuze leiders zijn een soort influencers.",
+   "waarom": "19 woorden, de regel is hooguit 18.",
+   "les": "taal-lengte",
+   "les_achteraf": true
+  },
+  {
+   "waar": "vak 4 normaal",
+   "soort": "taal",
+   "ernst": "klein",
+   "oud": "Bij toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister op opnieuw met aanbevelingen te komen.",
+   "nieuw": "Bij toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister op tot nieuwe aanbevelingen.",
+   "waarom": "19 woorden, de regel is hooguit 18; 'roept ... op' blijft staan.",
+   "les": "taal-lengte",
+   "les_achteraf": true
+  },
+  {
+   "waar": "vak 4 makkelijk",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "oud": "De rol van religie verandert. Minister, kom opnieuw met aanbevelingen.",
+   "nieuw": "Bij meer conflicten verandert de rol van religie. Wij vragen nieuwe aanbevelingen.",
+   "waarom": "'In tijden van toenemende conflicten' viel weg, en 'Mijn fractie roept de minister op' werd een bevel.",
+   "les": "L5",
+   "les_achteraf": true
+  },
+  {
+   "waar": "samenvatting makkelijk",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "oud": "De minister ziet aanwijzingen voor een Russische desinformatiecampagne.",
+   "nieuw": "De minister zegt: de diensten zien aanwijzingen voor Russische desinformatie.",
+   "waarom": "Volgens het citaat zijn er 'aanwijzingen bij de diensten', niet bij de minister zelf; zo stond het ook al in de normale versie.",
+   "les": "L4",
+   "les_achteraf": true
+  },
+  {
+   "waar": "sprekers Berendsen normaal",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "oud": "Minister Berendsen ziet aanwijzingen voor een Russische desinformatiecampagne via de Sahel ... Volgens hem dient engagement met de regio de Nederlandse belangen het best.",
+   "nieuw": "Minister Berendsen zegt dat de diensten aanwijzingen zien voor een Russische desinformatiecampagne via de Sahel. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en zegt dat Nederland gelooft dat engagement de Nederlandse belangen het best dient.",
+   "waarom": "Het zijn 'aanwijzingen bij de diensten', en 'Nederland gelooft dat engagement' is een overtuiging.",
+   "les": "L1",
+   "les_achteraf": true
+  },
+  {
+   "waar": "sprekers Van Ark",
+   "soort": "evenwicht",
+   "ernst": "klein",
+   "oud": "... vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen. Zij roept de minister op opnieuw met aanbevelingen te komen over religieuze geletterdheid.",
+   "nieuw": "Mevrouw Van Ark (CDA) vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen, omdat religie vertrouwen geeft maar ook een bron van desinformatie kan zijn. Zij roept de minister op opnieuw met aanbevelingen te komen.",
+   "waarom": "Haar argument heeft twee kanten: religieuze leiders als 'influencers', maar 'religie kan ook een bron zijn van desinformatie'; die tweede kant ontbrak in beide versies.",
+   "les": "L9",
+   "les_achteraf": true
+  },
+  {
+   "waar": "kernpunten normaal 2 en makkelijk 1-2",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "oud": "Die campagne is erop gericht ... / De minister: er zijn aanwijzingen ... / Die campagne wil ook de zuidkant van Europa ontwrichten.",
+   "nieuw": "Volgens de minister is die campagne erop gericht ... / De minister: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. / Volgens de minister wil die campagne ook de zuidkant van Europa ontwrichten.",
+   "waarom": "Een bewering van de minister ('aanwijzingen bij de diensten') stond als vaststaand feit.",
+   "les": "L4",
+   "les_achteraf": true
+  },
+  {
+   "waar": "titel makkelijk",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "oud": "Wat doet Nederland in de Sahel?",
+   "nieuw": "Kort debat over de Sahel: desinformatie en religie",
+   "waarom": "De makkelijke titel ging over iets anders dan de normale titel ('Desinformatie, religie en moties').",
+   "les": "L8",
+   "les_achteraf": true
   }
+ ],
+ "tweede_lezing": {
+  "datum": "2026-11-12",
+  "bevindingen": [
+   {
+    "waar": "vak 7 (citaat + normaal + makkelijk)",
+    "soort": "juistheid",
+    "ernst": "middel",
+    "les": "L2",
+    "oud": "citaat: \"…40 miljoen, gericht op het versterken van lokale onafhankelijke journalistiek. … Nederland gelooft dat engagement het beste onze belangen dient\"; normaal: \"Een programma van 40 miljoen versterkt lokale onafhankelijke journalistiek. Wij geloven: engagement dient onze belangen het best.\"; makkelijk: \"We steunen lokale journalistiek met 40 miljoen. Contact houden is volgens ons het beste.\"",
+    "nieuw": "citaat: \"De eerste motie, die op stuk nr. 274, ontraad ik, met verwijzing naar het debat. Nederland gelooft dat engagement het beste onze belangen dient\"; normaal: \"Motie 274 ontraad ik, met verwijzing naar het debat. Nederland gelooft dat engagement onze belangen het beste dient.\"; makkelijk: \"Ik ontraad motie 274. Wij geloven: contact houden dient onze belangen het best.\"",
+    "waarom": "In de bron is \"Nederland gelooft dat engagement het beste onze belangen dient\" de toelichting bij \"die op stuk nr. 274, ontraad ik\"; door de \" … \" na het journalistiekprogramma leek het een losse beleidsuitspraak. Het voorstel van de tweede lezer voor makkelijk liet \"gelooft\" weg (L1); dat is teruggezet als \"Wij geloven\". Het 40-miljoenprogramma staat nog in kernpunt 3 en bij de minister in \"Wie vindt wat?\"."
+   },
+   {
+    "waar": "vak 3 (citaat + normaal + makkelijk)",
+    "soort": "evenwicht",
+    "ernst": "middel",
+    "les": "L9",
+    "oud": "citaat: \"wie de Sahel wil begrijpen, moet ook begrijpen waar mensen hun vertrouwen vandaan halen. … Religieuze leiders zijn eigenlijk een soort influencers, maar dan zonder TikTokaccount\"; normaal: \"Wie de Sahel wil begrijpen, moet weten waar mensen vertrouwen vinden. Religieuze leiders zijn een soort influencers.\"; makkelijk: \"Wil je de Sahel begrijpen? Kijk waar mensen hun vertrouwen vandaan halen.\"",
+    "nieuw": "citaat: \"Religieuze leiders zijn eigenlijk een soort influencers, maar dan zonder TikTokaccount, maar religie kan ook een bron zijn van desinformatie en worden gebruikt om geweld te legitimeren.\"; normaal: \"Religieuze leiders zijn een soort influencers, maar religie kan ook bron van desinformatie zijn en geweld legitimeren.\"; makkelijk: \"Religieuze leiders zijn een soort influencers. Religie kan ook desinformatie brengen of geweld goedpraten.\"",
+    "waarom": "Het citaat brak af vóór \"maar religie kan ook een bron zijn van desinformatie en worden gebruikt om geweld te legitimeren\", precies het voorbeeld uit L9; om binnen 18/14 woorden te blijven is de zin over \"vertrouwen\" uit dit vak gehaald (die staat nog in het standpunt van Van Ark), en \"geweld te legitimeren\" is anders dan in het voorstel niet weggelaten."
+   },
+   {
+    "waar": "sprekers Van Ark makkelijk",
+    "soort": "juistheid",
+    "ernst": "middel",
+    "les": "L4",
+    "oud": "Religie kan vertrouwen geven, maar ook desinformatie verspreiden. Mevrouw Van Ark vraagt de minister om opnieuw met aanbevelingen te komen.",
+    "nieuw": "Mevrouw Van Ark zegt: religie kan vertrouwen geven, maar ook desinformatie verspreiden. Zij vraagt de minister om nieuwe aanbevelingen.",
+    "waarom": "\"religie kan ook een bron zijn van desinformatie\" is de opvatting van Van Ark en stond als feit van de site; normaal zegt al \"vindt dat\" (L10)."
+   },
+   {
+    "waar": "sprekers Berendsen normaal en makkelijk",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L6",
+    "oud": "normaal: \"…aanwijzingen zien voor een Russische desinformatiecampagne via de Sahel. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en zegt dat Nederland gelooft dat engagement de Nederlandse belangen het best dient.\"; makkelijk: \"De diensten zien aanwijzingen voor een Russische desinformatiecampagne via de Sahel. De minister vindt contact houden met de regio het beste voor Nederland.\"",
+    "nieuw": "normaal: \"Minister Berendsen zegt dat de diensten aanwijzingen zien dat desinformatie in de Sahel deel is van een bredere Russische campagne. Hij wijst op een programma van 40 miljoen voor lokale journalistiek en ontraadt motie 274, omdat Nederland gelooft dat engagement de Nederlandse belangen het best dient.\"; makkelijk: \"De minister zegt: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. Hij ontraadt motie 274. Hij vindt contact houden met de regio het beste voor Nederland.\"",
+    "waarom": "De bron zegt \"desinformatie-inzet in de Sahel onderdeel is van een bredere Russische campagne\", niet \"via de Sahel\"; in makkelijk stond de uitspraak zonder \"de minister zegt\" als feit (L4); de koppeling met motie 274 is meegenomen zoals in vak 7."
+   },
+   {
+    "waar": "kernpunten normaal 3 en makkelijk 3",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L4",
+    "oud": "normaal: \"Het kabinet startte vorige maand een regionaal programma van 40 miljoen om lokale onafhankelijke journalistiek te versterken.\"; makkelijk: \"Het kabinet startte vorige maand een programma van 40 miljoen voor lokale onafhankelijke journalistiek.\"",
+    "nieuw": "normaal: \"Volgens de minister startte het kabinet in oktober 2026 een regionaal programma van 40 miljoen, gericht op het versterken van lokale onafhankelijke journalistiek.\"; makkelijk: \"Volgens de minister startte het kabinet in oktober een programma van 40 miljoen. Dat moet lokale onafhankelijke journalistiek sterker maken.\"",
+    "waarom": "Alleen de minister zegt dit (\"heeft het kabinet vorige maand ook een regionaal programma gestart\"), en \"gericht op het versterken\" is een doel. Niet door de tweede lezer gemeld: \"vorige maand\" hangt af van de leesdag (L7); het debat was op 11 november 2026, dus oktober 2026."
+   },
+   {
+    "waar": "kernpunten normaal 5 en makkelijk 5",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L4",
+    "oud": "normaal: \"Nederland gaat nationaal iets minder doen in de Sahel; de minister vindt het goed dat de EU er aanwezig blijft.\"; makkelijk: \"Nederland gaat zelf iets minder doen. De minister vindt het goed dat de EU er aanwezig is.\"",
+    "nieuw": "normaal: \"Volgens de minister gaat Nederland nationaal iets minder doen; daarom vindt hij het goed dat de EU daar aanwezig is. Dat zei hij bij het ontraden van motie 275.\"; makkelijk: \"Volgens de minister gaat Nederland zelf iets minder doen. Daarom vindt hij het goed dat de EU er is. Dat zei hij bij motie 275.\"",
+    "waarom": "\"omdat we nationaal iets minder gaan doen, is het goed dat de EU daar aanwezig is\" is een uitspraak van de minister bij motie 275 en stond als feit, zonder het verband \"omdat\"."
+   },
+   {
+    "waar": "vak 8 makkelijk",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "nieuw",
+    "oud": "Moties 274 en 275 zijn ontraden. Bij 276 en 277: oordeel Kamer.",
+    "nieuw": "De minister ontraadt motie 274 en 275. Over 276 en 277 kiest de Kamer.",
+    "waarom": "strip.md vraagt voor makkelijk een actieve vorm; \"zijn ontraden\" verzwijgt dat de minister \"ontraad ik\" zegt, en \"oordeel Kamer\" is jargon. Het voorstel van de tweede lezer was 15 woorden (max 14) en is ingekort."
+   },
+   {
+    "waar": "sprekers De Roon normaal",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L7",
+    "oud": "…de toelichting die de minister zes weken geleden toezegde…",
+    "nieuw": "…de toelichting die de minister in het commissiedebat van 1 oktober toezegde…",
+    "waarom": "Eigen vondst bij de tweede lezing: \"zes weken geleden\" hangt af van de leesdag; het onderwerp van het agendapunt noemt \"CD d.d. 01/10\"."
+   }
+  ],
+  "afgewezen": [
+   {
+    "waar": "vak 7 normaal (\"versterkt\" → \"is gericht op het versterken\")",
+    "waarom": "Klopt inhoudelijk (\"gericht op het versterken\"), maar vervalt: door bevinding vak 7 staat het 40-miljoenprogramma niet meer in vak 7. De juiste formulering \"gericht op het versterken\" is wel overgenomen in kernpunt 3."
+   }
+  ]
+ },
+ "samenvatting_opsomming": {
+  "datum": "2026-11-13",
+  "wat": "Samenvatting herschreven tot inleiding plus één regel per motie (regel: opsomming bij tweeminutendebat met moties); daarna onafhankelijk nagelezen",
+  "bevindingen_aantal": 8
+ }
 }
