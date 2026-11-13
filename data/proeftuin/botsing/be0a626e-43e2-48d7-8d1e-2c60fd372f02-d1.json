@@ -4,7 +4,7 @@
  "vraag": "Stemmen de drie coalitiepartijen samen voor het Belastingplan 2027?",
  "vraag_bron": "Kamerstuk/agendapunt 'Pakket Belastingplan 2027' (voorzitter: 'Aan de orde is het Pakket Belastingplan 2027. Het betreft de derde termijn.') plus de vraag van Van Baarle (DENK) in beurt 78. De voorzitter noemt geen reden voor de derde termijn; de vraagzin steunt dus op een spreker, niet op de voorzitter.",
  "partijen_totaal": 16,
- "afloop": "Over dit deel van het debat zijn geen moties ingediend. De stemming over het Belastingplan staat nog niet in onze data.",
+ "afloop": "In dit debat zijn geen moties ingediend.",
  "versies": {
   "a": {
    "regel": "Langste wisseling tussen twee sprekers (meeste beurten over en weer, voorzitter niet meegeteld). Vraag: de vraagzinnen uit de eerste beurt van de vraagsteller. Antwoord: de eerste twee zinnen van het antwoord.",
@@ -61,5 +61,12 @@
    ]
   }
  },
- "afloop_kort": "Nog geen stemuitslag in onze data."
+ "afloop_kort": "Geen moties in dit debat.",
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-13",
+  "kort": "Geen moties in dit debat.",
+  "lang": "In dit debat zijn geen moties ingediend.",
+  "moties": []
+ }
 }

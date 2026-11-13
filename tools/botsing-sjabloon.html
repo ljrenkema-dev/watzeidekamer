@@ -57,8 +57,11 @@ const kaart=(binnen,nr)=>`<div class="kaart">${bg()}${nr?`<div class="nr">${nr}<
 function render(){
   document.getElementById("tabs").innerHTML=D.map((d,i)=>`<button type="button" role="tab" aria-selected="${i===actief}" data-i="${i}" style="font:inherit;font-weight:700;border-radius:999px;padding:6px 14px;cursor:pointer;border:2px solid currentColor;background:${i===actief?"var(--b-ink)":"transparent"};color:${i===actief?"var(--b-paper)":"var(--b-ink)"}">${esc2(d.kaart.kop.split(" · ")[0])} · ${esc2(d.strip.agendapunt.slice(0,30))}</button>`).join("");
   const K=D[actief].kaart,S=D[actief].strip;
-  const ook=`<div class="ook">${esc2(K.ook_tekst||`Ook aan het woord: ${K.partijen_totaal-2} andere partijen`)}</div>`;
-  const afloop=`<div class="afloop"><b>Afloop:</b> ${esc2(K.afloop_kort||K.afloop)}</div>`;
+  const opKaart=new Set(K.versies.a.citaten.map(c=>c.figuur&&c.figuur.fractie).filter(Boolean)).size;
+  const n=K.partijen_totaal-opKaart;
+  const ook=`<div class="ook">${esc2(K.ook_tekst||(n>0?`Ook aan het woord: ${n} andere ${n===1?"partij":"partijen"}`:""))}</div>`;
+  const stand=K.afloop_data&&K.afloop_data.status!=="geen_moties"?new Date(K.afloop_data.stand).toLocaleDateString("nl-NL",{day:"numeric",month:"short"}):"";
+  const afloop=`<div class="afloop"><b>${K.afloop_data&&K.afloop_data.status==="open"?"Wordt vervolgd":"Afloop"}${stand?` (stand ${esc2(stand)})`:""}:</b> ${esc2(K.afloop_kort||K.afloop)}</div>`;
   const verslag=v=>{const x=K.versies[v];return `<dl class="verslag"><dt>Keuzeregel</dt><dd>${esc2(x.regel)}</dd><dt>Gekozen wisseling</dt><dd>${esc2(x.wisseling)}</dd>
     <dt>Afgevallen</dt><dd>${x.afgevallen.map(esc2).join("; ")}</dd><dt>Bron van de vraagzin</dt><dd>${esc2(x.vraag_bron||K.vraag_bron)}</dd>${K.lezing?`<dt>Lezing</dt><dd>${esc2(K.lezing.oordeel)}: ${(K.lezing.bevindingen||[]).map(esc2).join(" · ")}</dd>`:""}
     ${x.kosten?`<dt>Kosten</dt><dd>${esc2(x.kosten)}</dd>`:""}<dt>Videomomenten</dt><dd>${x.citaten.map(c=>c.video?`<a href="${esc2(c.video)}" target="_blank" rel="noopener">▶ ${esc2(c.naam)}, ${esc2(c.tijd)}</a>`:esc2(c.naam)+": geen video").join(" · ")}</dd></dl>`;};
@@ -70,7 +73,7 @@ function render(){
     <section><h2>b. Carrousel van drie dia's</h2><div class="rij">${
      kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag" style="font-size:8.6cqw;margin-top:8cqw">${esc2(K.vraag)}</p><div class="ook">Twee kanten, in hun eigen woorden. Swipe →</div>${voet}`,"1/3")+
      kaart(`<div class="kop">De botsing</div>${A.citaten.map(cit).join("")}${ook}${voet}`,"2/3")+
-     kaart(`<div class="kop">Hoe liep het af?</div><p class="vraag" style="font-size:6.2cqw">${esc2(K.afloop)}</p><div class="ook">Lees alle standpunten van ${K.partijen_totaal} partijen en het hele debat op de site.</div>${voet}`,"3/3")}</div></section>
+     kaart(`<div class="kop">Hoe liep het af?${stand?` · stand ${esc2(stand)}`:""}</div><p class="vraag" style="font-size:6.2cqw">${esc2(K.afloop_kort||K.afloop)}</p>${K.afloop_data&&K.afloop_data.status==="open"?`<div class="ook">Wordt vervolgd: de uitslag staat op de site zodra er gestemd is.</div>`:""}<div class="ook">Lees alle standpunten van ${K.partijen_totaal} partijen en het hele debat op de site.</div>${voet}`,"3/3")}</div></section>
     ${K.versies.c?`<section><h2>c. Eén beeld, andere keuzeregel</h2><div class="rij">${een("c")+verslag("c")}</div></section>`:""}
     ${K.geen_botsing?`<p class="uitleg"><b>Geen echte botsing in dit debat:</b> de kaart toont de vraag met één citaat.</p>`:""}
     <section><h2>De huidige strip van dit debat</h2><div class="strip-huidig">${S.strip.strip.map((p0,i)=>{const p={...p0,tekst:p0.tekst.normaal||p0.tekst};return panelSVG(p,i,n=>looks[n]||LOOKS[0]);}).join("")}</div></section>`;

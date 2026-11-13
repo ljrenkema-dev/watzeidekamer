@@ -17,9 +17,8 @@ Schrijf `data/proeftuin/botsing/<id>.json`:
 ```json
 {"debat": "<id>", "kop": "<soort debat> · <d mmm jjjj>[ · <deel of vraag x van y>]",
  "vraag": "...?", "vraag_bron": "...",
- "afloop": "<letterlijk uit AFLOOP>", "afloop_kort": "<hooguit 10 woorden, zelfde strekking>",
  "versies": {"a": {"regel": "welke wisseling en waarom", "wisseling": "A (partij) ↔ B (partij), beurt x–y, n beurten",
                    "afgevallen": ["..."], "citaten": [{"beurt": 12, "citaat": "..."}, {"beurt": 13, "citaat": "..."}]},
              "c": {...}}}
 ```
-Naam, partij, video en figuur vult het script aan. Draai `python3 scripts/kaart.py check <id>` en herstel tot OK. Eindig met twee zinnen: welke wisseling en vraag je koos en waarom.
+Naam, partij, video, figuur en de afloop vult het script aan; de afloop wordt bij elke run opnieuw uit de stemdata berekend, dus schrijf er zelf niets over. Draai `python3 scripts/kaart.py check <id>` en herstel tot OK. Eindig met twee zinnen: welke wisseling en vraag je koos en waarom.

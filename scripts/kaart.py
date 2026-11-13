@@ -45,17 +45,61 @@ def partijen(p):
     return sorted({b["spreker"]["fractie"] for b in p["beurten"] if b["spreker"]["fractie"] and not b["voorzitter"]})
 
 
-def afloop(pid):
+def afloop_data(pid):
+    """Afloop uit de motie- en stemdata, steeds opnieuw berekend (nooit als vaste tekst bewaard).
+    status: geen_moties | open (nog niet (helemaal) gestemd) | gestemd."""
+    import datetime
     f = ROOT / "data" / "moties" / f"{pid}.json"
     ms = json.loads(f.read_text())["moties"] if f.exists() else []
+    stand = datetime.date.today().isoformat()
+    if not ms and "vragenuur" in laad(pid)["titel"].lower():
+        return {"status": "geen_moties", "stand": stand, "kort": "Bij een vragenuur wordt niet gestemd.",
+                "lang": "Bij een vragenuur wordt niet gestemd en worden geen moties ingediend.", "moties": []}
     if not ms:
-        return "Geen moties in dit debat in onze data; geen stemuitslag."
-    regels = []
+        return {"status": "geen_moties", "stand": stand, "kort": "Geen moties in dit debat.",
+                "lang": "In dit debat zijn geen moties ingediend.", "moties": []}
+    rij, open_ = [], 0
     for m in ms:
         u = m.get("uitslag")
-        regels.append(f"motie {m['nummer']} ({', '.join(i['naam'] for i in m['indieners'][:1])}): "
-                      + (f"{u['besluit'].rstrip('.').lower()} ({u['zetels_voor']}–{u['zetels_tegen']})" if u else "nog niet gestemd"))
-    return "; ".join(regels)
+        wie = m["indieners"][0]["naam"] if m["indieners"] else "?"
+        if u:
+            rij.append({"nummer": m["nummer"], "wie": wie, "besluit": u["besluit"].rstrip("."), "voor": u["zetels_voor"], "tegen": u["zetels_tegen"]})
+        else:
+            open_ += 1
+            rij.append({"nummer": m["nummer"], "wie": wie, "besluit": None})
+    gestemd = [r for r in rij if r["besluit"]]
+    n = len(rij)
+    if not gestemd:
+        kort = f"Over {'de motie' if n == 1 else f'de {n} moties'} is nog niet gestemd."
+    elif open_:
+        kort = f"{len(gestemd)} van {n} moties gestemd: " + ", ".join(f"{r['nummer']} {r['besluit'].lower()}" for r in gestemd) + "."
+    else:
+        kort = "; ".join(f"Motie {r['nummer']} {r['besluit'].lower()} ({r['voor']}–{r['tegen']})" for r in gestemd) + "."
+    lang = " ".join(f"Motie {r['nummer']} ({r['wie']}): " + (f"{r['besluit'].lower()}, {r['voor']} zetels voor en {r['tegen']} tegen." if r["besluit"] else "nog niet gestemd.") for r in rij)
+    return {"status": "gestemd" if not open_ else "open", "stand": stand, "kort": kort, "lang": lang, "moties": rij}
+
+
+def afloop(pid):
+    return afloop_data(pid)["lang"]
+
+
+def bijwerken():
+    """Voor de nachtelijke run: werk de afloop van alle kaarten bij en meld welke kaarten een nieuwe afloop kregen
+    (die kunnen een vervolgpost krijgen: 'Zo stemde de Kamer')."""
+    gewijzigd = []
+    for f in sorted((ROOT / "data" / "proeftuin" / "botsing").glob("*.json")):
+        k = json.loads(f.read_text())
+        oud = (k.get("afloop_data") or {}).get("status")
+        nieuw = afloop_data(f.stem)
+        k["afloop_data"] = nieuw
+        k["afloop"], k["afloop_kort"] = nieuw["lang"], nieuw["kort"]
+        if oud and oud != nieuw["status"]:
+            k.setdefault("afloop_historie", []).append({"van": oud, "naar": nieuw["status"], "datum": nieuw["stand"]})
+            gewijzigd.append((f.stem, oud, nieuw["status"]))
+        f.write_text(json.dumps(k, ensure_ascii=False, indent=1))
+    for g in gewijzigd:
+        print(f"nieuwe afloop: {g[0]} ({g[1]} → {g[2]}): vervolgpost 'Zo stemde de Kamer' mogelijk")
+    print(f"{len(gewijzigd)} kaarten met een nieuwe afloop")
 
 
 def voor(pid):
@@ -65,7 +109,7 @@ def voor(pid):
     regels = [f"DEBAT {pid} | {p['titel']} | {v['datum']} | {v['soort']}" + (f" | deel: {p['deel'].get('fase')}" if p.get("deel") else ""),
               f"OPENING VOORZITTER: {B[0]['tekst'][:600] if B else ''}",
               f"PARTIJEN DIE SPRAKEN ({len(partijen(p))}): {', '.join(partijen(p))}",
-              f"AFLOOP (uit de motiedata, letterlijk overnemen): {afloop(pid)}", ""]
+              f"AFLOOP (alleen ter informatie; het script vult de afloop zelf in en werkt hem bij): {afloop(pid)}", ""]
     w = wisselingen(p)
     if not w or len(w[0]) < 3:
         regels.append("GEEN ECHTE WISSELING (minder dan 3 beurten over en weer).")
@@ -115,7 +159,8 @@ def check(pid):
                 kk["manga"] = build.manga(sl)
             c["figuur"] = {"id": sp["id"], "fractie": sp.get("fractie") or "", "u": kk}
     k["partijen_totaal"] = len(partijen(p))
-    k.setdefault("afloop", afloop(pid))
+    ad = afloop_data(pid)  # altijd uit de data, nooit uit de schrijver
+    k["afloop_data"], k["afloop"], k["afloop_kort"] = ad, ad["lang"], ad["kort"]
     f.write_text(json.dumps(k, ensure_ascii=False, indent=1))
     print(f"{pid}: {'OK' if not fouten else str(len(fouten)) + ' fout(en)'}")
     for x in fouten:
@@ -124,4 +169,7 @@ def check(pid):
 
 
 if __name__ == "__main__":
-    {"voor": voor, "check": check}[sys.argv[1]](sys.argv[2])
+    if sys.argv[1] == "bijwerken":
+        bijwerken()
+    else:
+        {"voor": voor, "check": check}[sys.argv[1]](sys.argv[2])

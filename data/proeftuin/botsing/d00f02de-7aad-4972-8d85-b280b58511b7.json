@@ -4,8 +4,8 @@
  "geen_botsing": true,
  "vraag": "Moet de minister opnieuw met aanbevelingen komen over de rol van religie in het buitenlandbeleid?",
  "vraag_bron": "Mijn fractie roept de minister daarom op om opnieuw met aanbevelingen te komen. (Elles Van Ark, CDA, beurt 5)",
- "afloop": "motie 274 (R. de Roon): nog niet gestemd; motie 275 (R. de Roon): nog niet gestemd; motie 276 (A.F.J. van Ark): nog niet gestemd; motie 277 (D.J.H. (Diederik) van Dijk): nog niet gestemd",
- "afloop_kort": "Over de vier moties is nog niet gestemd.",
+ "afloop": "Motie 274 (R. de Roon): nog niet gestemd. Motie 275 (R. de Roon): nog niet gestemd. Motie 276 (A.F.J. van Ark): nog niet gestemd. Motie 277 (D.J.H. (Diederik) van Dijk): nog niet gestemd.",
+ "afloop_kort": "Over de 4 moties is nog niet gestemd.",
  "versies": {
   "a": {
    "regel": "Geen echte botsing: alle drie de wisselingen hebben 2 beurten en gaan over moties indienen of procedure. Daarom één citaat uit de inbreng van Van Ark (CDA), die een eigen motie toelicht. De Roon (PVV) dient twee moties in die de minister ontraadt (de enige tegenstelling in dit debat), maar de motietekst staat niet in zijn spreekbeurt, dus er is geen letterlijk citaat van zijn kant.",
@@ -55,6 +55,34 @@
    "Citaat aangepast zodat beide kanten van haar standpunt erin staan (L9: religieuze leiders als 'influencers' én religie als bron van desinformatie) en het zonder voorkennis te begrijpen is: 'opnieuw met aanbevelingen' volgt nu op een zin die zegt waarover het gaat. 'daarom' verwijst in het origineel naar de veranderende rol van religie; in haar betoog volgt dat uit hetzelfde punt (religie doet ertoe in het buitenlandbeleid), dus de betekenis blijft gelijk.",
    "Vraag is neutraal en steunt op haar eigen oproep en de motie (276: 'met concrete aanbevelingen te komen'); kop en afloop kloppen met de bron en de motiedata.",
    "Hoofdsessie: citaat vervangen door twee aaneengesloten zinnen, omdat 'daarom' na inkorten naar een andere zin verwees dan in het verslag ('buienlandbeleid' staat zo in het verslag)."
+  ]
+ },
+ "afloop_data": {
+  "status": "open",
+  "stand": "2026-11-13",
+  "kort": "Over de 4 moties is nog niet gestemd.",
+  "lang": "Motie 274 (R. de Roon): nog niet gestemd. Motie 275 (R. de Roon): nog niet gestemd. Motie 276 (A.F.J. van Ark): nog niet gestemd. Motie 277 (D.J.H. (Diederik) van Dijk): nog niet gestemd.",
+  "moties": [
+   {
+    "nummer": "274",
+    "wie": "R. de Roon",
+    "besluit": null
+   },
+   {
+    "nummer": "275",
+    "wie": "R. de Roon",
+    "besluit": null
+   },
+   {
+    "nummer": "276",
+    "wie": "A.F.J. van Ark",
+    "besluit": null
+   },
+   {
+    "nummer": "277",
+    "wie": "D.J.H. (Diederik) van Dijk",
+    "besluit": null
+   }
   ]
  }
 }

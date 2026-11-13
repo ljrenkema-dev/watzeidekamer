@@ -5,7 +5,7 @@
  "vraag_bron": "De mondelinge vraag van Patijn (PRO), beurt 1: 'Mijn eerste vraag aan de minister is dan ook: acht hij het ministerie aansprakelijk?' De voorzitter noemt alleen dat Patijn haar mondelinge vraag stelt. 'Lagere loon' volgt uit Patijns inleiding ('kregen jaren minder betaald') en wordt door de minister niet betwist ('Er werd dus relatief laag betaald').",
  "ook_tekst": "Ook over deze vraag aan het woord: D66, FVD en SP",
  "partijen_totaal": 10,
- "afloop": "Bij een vragenuur wordt niet gestemd en worden geen moties ingediend. De twee andere vragen (gentest bij borstkanker, kosten van jeugdzorg) staan op de site.",
+ "afloop": "Bij een vragenuur wordt niet gestemd en worden geen moties ingediend.",
  "afloop_kort": "Bij een vragenuur wordt niet gestemd.",
  "versies": {
   "a": {
@@ -62,5 +62,12 @@
     }
    ]
   }
+ },
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-13",
+  "kort": "Bij een vragenuur wordt niet gestemd.",
+  "lang": "Bij een vragenuur wordt niet gestemd en worden geen moties ingediend.",
+  "moties": []
  }
 }
