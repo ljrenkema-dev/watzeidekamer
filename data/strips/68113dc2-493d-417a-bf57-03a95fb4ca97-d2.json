@@ -165,8 +165,8 @@
       "emotie": "neutraal",
       "citaat": "De afgelopen dagen hebben wij de coalitiepartners op de hoogte gebracht van de stappen die wij aan het zetten waren. … Maar je kunt niet de hele inhoud van een deal met je coalitiepartner delen als de deal er nog niet is.",
       "tekst": {
-        "normaal": "We hielden de coalitiepartners op de hoogte. De hele inhoud van een deal die er nog niet is, kun je niet delen.",
-        "makkelijk": "We vertelden de partners welke stappen we zetten. De hele afspraak kon ik niet delen: die was er nog niet."
+        "normaal": "We meldden de partners onze stappen. Een deal die er nog niet is, kun je niet helemaal delen.",
+        "makkelijk": "Partners hoorden onze stappen. Alles vertellen kon niet: er was nog geen afspraak."
       }
     },
     {
@@ -184,7 +184,7 @@
       "citaat": "Ik vond een forse aanpassing van het stikstofbeleid niet gewenst, omdat er net een brief lag die, denk ik, precies het goede midden heeft bewandeld",
       "tekst": {
         "normaal": "Het stikstofbeleid fors aanpassen vond ik niet gewenst. De brief kiest volgens mij het goede midden.",
-        "makkelijk": "Ik wilde het stikstofplan niet fors veranderen. De brief kiest volgens mij het goede midden."
+        "makkelijk": "Ik wilde het stikstofplan niet fors veranderen. Het kiest volgens mij het goede midden."
       }
     },
     {
