@@ -167,5 +167,77 @@
       "nieuw": "Wij hebben een deal gemaakt met het kabinet … Nou, die deal is nu gewoon van tafel. …",
       "waarom": "De tekst 'Onze deal met het kabinet' noemde het kabinet, terwijl dat niet in het citaat stond; citaat letterlijk verlengd uit dezelfde spreekbeurt."
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "onafhankelijk": true,
+    "gecontroleerd": "Alle 18 wijzigingen van de eerste lezing nagelezen tegen de bron; alle 18 kloppen en blijven staan. DENK-vak: citaat letterlijk, in debatvolgorde, en DENK (11%) had geen vak; steun voor het amendement blijft zichtbaar via Volt, kritiek op de VVD via SP. Bontenbal: bron zegt letterlijk 'het minder belasten van vermogen en het meer belasten van arbeid'; de richtingloze formulering met 'volgens hem' is juist. Struijs: verlengd citaat is letterlijk en draagt 'Onze deal met het kabinet'.",
+    "bevindingen": [
+      {
+        "waar": "samenvatting normaal en makkelijk, kernpunten normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L14",
+        "oud": "FVD, SGP, BBB en Markuszower vinden het amendement slecht voor ondernemers",
+        "nieuw": "FVD, SGP en BBB vinden het amendement slecht voor ondernemers, en Markuszower noemt de linkse samenwerking een ramp voor ondernemers",
+        "waarom": "Markuszower spreekt niet over het amendement maar over 'deze linkse kliek' als 'een ramp voor onze ondernemers'; hij hoort niet samengevoegd met de partijen die het amendement beoordelen."
+      },
+      {
+        "waar": "samenvatting makkelijk en kernpunten makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L2",
+        "oud": "De VVD dreigt dan tegen het Belastingplan te stemmen.",
+        "nieuw": "Gaat het voorstel door, dan dreigt de VVD tegen het Belastingplan te stemmen.",
+        "waarom": "'dan' verwees naar de deal; de dreiging geldt 'als dat amendement wordt aangenomen' (Markuszower, Dijk)."
+      },
+      {
+        "waar": "vak 1 normaal en makkelijk, sprekers Schenk makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1",
+        "oud": "gemiddeld €8 per maand",
+        "nieuw": "gemiddeld ongeveer €8 per maand",
+        "waarom": "Citaat: 'gemiddeld ongeveer €8 per maand per werkende Nederlander'; 'ongeveer' viel weg."
+      },
+      {
+        "waar": "sprekers Bikker normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "Ze heeft zorgen over het amendement geuit, maar zegt nog niet hoe de ChristenUnie stemt.",
+        "nieuw": "Ze heeft zorgen over het amendement geuit, maar ook complimenten gemaakt omdat er desastreuze zaken uit zijn verdwenen. Ze zegt nog niet hoe de ChristenUnie stemt. (makkelijk: Ze heeft zorgen over het voorstel, maar ziet ook verbeteringen.)",
+        "waarom": "Bikker zei ook: 'ik heb ook een aantal complimenten gemaakt, omdat een aantal desastreuze zaken uit dat amendement zijn vertrokken'; alleen de zorgen noemen was eenzijdig."
+      },
+      {
+        "waar": "sprekers Struijs normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "(ontbrak)",
+        "nieuw": "Tegen Brekelmans zegt hij dat 50PLUS nooit zal vragen een wet niet uit te voeren.",
+        "waarom": "Brekelmans' vraag staat in de strip, het antwoord niet; Struijs: 'Wij zullen nooit vragen om een wet niet uit te voeren'."
+      },
+      {
+        "waar": "sprekers Brekelmans normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "vindt het een gekke figuur",
+        "nieuw": "vindt het een beetje een gekke figuur",
+        "waarom": "Citaat: 'een beetje een gekke figuur'."
+      },
+      {
+        "waar": "vak 3 makkelijk (Stoffer)",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "D66 en CDA sloten de deur naar rechts, zonder onderhandelen.",
+        "nieuw": "D66 en CDA onderhandelden geen dag met rechts.",
+        "waarom": "Citaat: 'nog voordat er ook maar één dag onderhandeld is met rechts'; 'zonder onderhandelen' leek te zeggen dat er helemaal niet onderhandeld was, terwijl D66 en CDA met PRO en Volt onderhandelden."
+      }
+    ],
+    "afgewezen": [],
+    "niet_opgelost": "Groep Markuszower (9%) en Lid Keijzer (8%) hebben geen vak, PvdD (6%) na de vervanging ook niet; met 8 vakken (het maximum) en hun standpunten in 'Wie vindt wat?' en de samenvatting acceptabel."
+  }
 }

@@ -140,5 +140,122 @@
       "nieuw": "Vijandige acties tegen een land zonder gewone legers.",
       "waarom": "Spionage, een van Klos' voorbeelden, is geen 'aanval'."
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "onafhankelijk": true,
+    "bevindingen": [
+      {
+        "waar": "strip: vak Ceder vervangen door tweede vak Piri (na vak 1)",
+        "soort": "evenwicht",
+        "ernst": "middel",
+        "les": "L9",
+        "oud": "Ceder (ChristenUnie, 5% van de woorden): 'D66 noemt het genocide. Afbouwen kan vermoedelijk jaren duren. Past dat bij de plicht om die te stoppen?'; PRO (23%) had 1 vak; Oekraïne ontbrak in de strip",
+        "nieuw": "Piri: 'Het kabinet weigert de motie-Klaver uit te voeren. Wanneer komt de 1,3 miljard euro voor Oekraïne vrij?' (citaat letterlijk uit Piri's inbreng)",
+        "waarom": "Het Ceder-vak herhaalde Dobbe's vraag (Ceder: 'haar redenatie volg ik wel') en liet zijn eigen invalshoek ('een institutie met bewijslast') niet zien; PRO was ondervertegenwoordigd en Oekraïne, een hoofdpunt van Piri en Van der Werf, kwam in de strip niet voor. Ceders standpunt staat in 'Wie vindt wat?' en kernpunt 6."
+      },
+      {
+        "waar": "strip vak Ceder normaal (wijziging eerste lezing)",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1",
+        "oud": "Afbouwen kan vermoedelijk jaren duren.",
+        "nieuw": "(vak vervallen)",
+        "waarom": "Citaat: 'ik denk vermoedelijk jaren'; het voorbehoud 'ik denk' was weggevallen."
+      },
+      {
+        "waar": "strip vak Van Baarle makkelijk (wijziging eerste lezing)",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "Eerst wilde D66 meteen stoppen.",
+        "nieuw": "Voor de verkiezingen: meteen stoppen.",
+        "waarom": "Citaat: 'Voor de verkiezingen zei D66'; 'eerst' is vager dan het moment dat Van Baarle noemt."
+      },
+      {
+        "waar": "sprekers De Roon normaal",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "(alleen de vraag of het 'onaanvaardbaar' is; makkelijk noemde de waarom-vraag)",
+        "nieuw": "Aan Van der Werf vraagt hij waarom premier Jetten het volgens haar geen genocide kan noemen, en of zij …",
+        "waarom": "De Roon vroeg: 'waarom kan de heer Jetten dit naar uw mening niet zeggen?'; normaal en makkelijk zeggen nu hetzelfde."
+      },
+      {
+        "waar": "sprekers Piri normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L9",
+        "oud": "(Piri's vragen aan Van der Werf over het woord genocide ontbraken in haar standpunt, wel in kernpunt 8)",
+        "nieuw": "… als een kabinet erkent dat er een genocide gaande is, is het volgens Piri juridisch verplicht er alles aan te doen om die te stoppen.",
+        "waarom": "Piri: 'ben je gewoon juridisch verplicht er alles aan te doen om dat te stoppen'; haar eigen argument hoort onder haar naam."
+      },
+      {
+        "waar": "sprekers Van der Werf normaal",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "Tegen DENK zegt ze dat D66 er nog precies hetzelfde over denkt als een jaar geleden.",
+        "nieuw": "Tegen DENK zegt ze dat het kabinet als derde land van Europa een sanctiebesluit instelde, dat dat niet genoeg is en …",
+        "waarom": "Haar antwoord op het verwijt van Van Baarle ('als derde land van Europa een sanctiebesluit', 'nee, dat is niet genoeg') ontbrak."
+      },
+      {
+        "waar": "kernpunten 4 makkelijk (wijziging eerste lezing)",
+        "soort": "taal",
+        "ernst": "middel",
+        "les": "L10",
+        "oud": "Maar Nederlanders die hun energierekening niet kunnen betalen, krijgen te weinig hulp, zegt ze.",
+        "nieuw": "Maar voor Nederlanders met een te hoge energierekening is er niet eens de helft. Wat doet dat met de steun voor Oekraïne? vraagt ze. Van der Werf zegt: die steun is nog steeds heel groot.",
+        "waarom": "De eerste lezing voegde het antwoord ('nog steeds enorm groot') alleen in normaal toe; ook Dobbe's vraag over het draagvlak en 'niet eens de helft' ontbraken in makkelijk."
+      },
+      {
+        "waar": "kernpunten 6 normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "Van der Werf zegt dat Nederland daar zo snel mogelijk vanaf moet en dat het voor sommige middelen nu al kan.",
+        "nieuw": "… ; voor een aantal onderdelen zijn er volgens haar nu geen alternatieven.",
+        "waarom": "Haar sterkste argument ('Op een aantal onderdelen zijn er momenteel geen alternatieven') ontbrak."
+      },
+      {
+        "waar": "kernpunten 8 normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "Volgens Van der Werf leidt hij een minderheidskabinet …",
+        "nieuw": "Van der Werf zegt dat D66 het al heel lang een genocide noemt. Volgens haar leidt Jetten …",
+        "waarom": "Haar antwoord aan De Roon ('het standpunt dat de D66-fractie al heel lang heeft') hoort bij de vraag."
+      },
+      {
+        "waar": "kernpunten 9 normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "Dekker (FVD) vraagt om bewijs voor Russische hybride oorlogsvoering.",
+        "nieuw": "…; volgens Klos stapelt de bewijsvoering zich op.",
+        "waarom": "Het antwoord van Klos ('Volgens mij stapelt de bewijsvoering zich daarvoor op') ontbrak; voorbehoud via 'volgens Klos'."
+      },
+      {
+        "waar": "kernpunten 1 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "Minder geld voor Clingendael",
+        "nieuw": "Dat Clingendael de helft minder geld krijgt",
+        "waarom": "Piri spreekt van 'de halvering van de subsidie'."
+      }
+    ],
+    "afgewezen": [
+      {
+        "waar": "strip: Verteller-vak vervangen door vak Ceder",
+        "waarom": "Het weghalen van de Verteller klopt (de intro stond al in de samenvatting), maar het nieuwe vak gaf de ChristenUnie (5%) een vak met Dobbe's argument, terwijl PRO (23%) en het onderwerp Oekraïne ondervertegenwoordigd waren; vervangen door een vak van Piri."
+      }
+    ],
+    "gecontroleerd_zonder_wijziging": [
+      "Vak Van der Werf (Jetten): citaat verlengd met beurt 52; beide stukken letterlijk en van dezelfde spreker, tekst klopt nu met citaat.",
+      "Voorwaarde 'als een Europees kader niet lukt' bij inreisverboden: klopt (beurt 49).",
+      "Klos 'volgens hem opstapelt', Dobbe 'niet eens de helft', Ceder 'instantie met bewijs' en 'niet eens met Dobbe', Piri 'vraagt of … wil terugdraaien', kernpunt 6 en 7 (Van Baarle apart), hybride oorlog: kloppen met de bron.",
+      "Evenwicht na wijziging: D66 4/8 vakken bij 43% (Van der Werf beantwoordt bijna alle interrupties, Klos heeft een eigen inbreng), PRO 2, SP 1, DENK 1; ChristenUnie, PVV, FVD en CDA staan in 'Wie vindt wat?'."
+    ]
+  }
 }
