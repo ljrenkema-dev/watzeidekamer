@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import proeftuin  # noqa: E402
 
-ids = sys.argv[1:] or ["dd194a7c-3fbf-4bc5-b275-5f733e839dd6", "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1"]
+ids = sys.argv[1:] or [i for i in proeftuin.TEST if (ROOT / "data" / "proeftuin" / "botsing" / f"{i}.json").exists()]
 uit = ROOT / "tools" / "proeftuin-botsing"
 if uit.exists():
     shutil.rmtree(uit)

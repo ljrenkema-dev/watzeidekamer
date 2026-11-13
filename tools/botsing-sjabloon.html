@@ -61,7 +61,7 @@ function render(){
   const afloop=`<div class="afloop"><b>Afloop:</b> ${esc2(K.afloop_kort||K.afloop)}</div>`;
   const verslag=v=>{const x=K.versies[v];return `<dl class="verslag"><dt>Keuzeregel</dt><dd>${esc2(x.regel)}</dd><dt>Gekozen wisseling</dt><dd>${esc2(x.wisseling)}</dd>
     <dt>Afgevallen</dt><dd>${x.afgevallen.map(esc2).join("; ")}</dd><dt>Bron van de vraagzin</dt><dd>${esc2(K.vraag_bron)}</dd>
-    <dt>Videomomenten</dt><dd>${x.citaten.map(c=>c.video?`<a href="${esc2(c.video)}" target="_blank" rel="noopener">▶ ${esc2(c.naam)}, ${esc2(c.tijd)}</a>`:esc2(c.naam)+": geen video").join(" · ")}</dd></dl>`;};
+    ${x.kosten?`<dt>Kosten</dt><dd>${esc2(x.kosten)}</dd>`:""}<dt>Videomomenten</dt><dd>${x.citaten.map(c=>c.video?`<a href="${esc2(c.video)}" target="_blank" rel="noopener">▶ ${esc2(c.naam)}, ${esc2(c.tijd)}</a>`:esc2(c.naam)+": geen video").join(" · ")}</dd></dl>`;};
   const een=v=>kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag">${esc2(K.vraag)}</p>${K.versies[v].citaten.map(cit).join("")}${ook}${afloop}${voet}`);
   const A=K.versies.a;
   const looks={};for(const s of S.strip.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
@@ -71,7 +71,8 @@ function render(){
      kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag" style="font-size:8.6cqw;margin-top:8cqw">${esc2(K.vraag)}</p><div class="ook">Twee kanten, in hun eigen woorden. Swipe →</div>${voet}`,"1/3")+
      kaart(`<div class="kop">De botsing</div>${A.citaten.map(cit).join("")}${ook}${voet}`,"2/3")+
      kaart(`<div class="kop">Hoe liep het af?</div><p class="vraag" style="font-size:6.2cqw">${esc2(K.afloop)}</p><div class="ook">Lees alle standpunten van ${K.partijen_totaal} partijen en het hele debat op de site.</div>${voet}`,"3/3")}</div></section>
-    <section><h2>c. Eén beeld, andere keuzeregel</h2><div class="rij">${een("c")+verslag("c")}</div></section>
+    ${K.versies.c?`<section><h2>c. Eén beeld, andere keuzeregel</h2><div class="rij">${een("c")+verslag("c")}</div></section>`:""}
+    ${K.geen_botsing?`<p class="uitleg"><b>Geen echte botsing in dit debat:</b> de kaart toont de vraag met één citaat.</p>`:""}
     <section><h2>De huidige strip van dit debat</h2><div class="strip-huidig">${S.strip.strip.map((p0,i)=>{const p={...p0,tekst:p0.tekst.normaal||p0.tekst};return panelSVG(p,i,n=>looks[n]||LOOKS[0]);}).join("")}</div></section>`;
 }
 document.addEventListener("click",e=>{const t=e.target.closest("[role=tab]");if(t){actief=Number(t.dataset.i);try{localStorage.setItem("bots-tab",actief)}catch(x){};render();}});

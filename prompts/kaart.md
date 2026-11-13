@@ -1,0 +1,24 @@
+# Opdracht: botsingskaart (lokbeeld) voor één debat
+
+De kaart is het lokbeeld voor sociale media: een neutrale vraag en twee letterlijke citaten tegenover elkaar, die laten zien waar het in het debat om draaide. Wie nieuwsgierig wordt, leest verder op de site (alle standpunten, het hele debat). Accuraat en aansprekend; juistheid gaat altijd voor.
+
+Je krijgt `data/compact/kaart_<id>.txt`: het debat, de partijen, de afloop uit de motiedata en de drie langste wisselingen (twee sprekers die over en weer op elkaar reageren) met volledige tekst. Lees alleen dat bestand en `prompts/lessen.md` (L1–L6 gelden ook hier).
+
+## Wat je kiest
+1. **De wisseling.** Neem de langste, tenzij die geen echte tegenstelling heeft (twee sprekers die het eens zijn, of alleen procedure); kies dan de volgende. Is geen enkele wisseling een echte botsing, forceer er dan geen: geef één versie met één citaat en zet `"geen_botsing": true`.
+   Bij een vragenuur: het onderwerp van de eerste vraag, tenzij `python3 scripts/reeks.py --voor <datum>` die fractie op de grens zet.
+2. **De vraag**: één neutrale zin, als echte vraag ("Moet …?", "Is …?", "Stemmen …?"), nooit sturend ("Waarom faalt …?"). Hij steunt op het onderwerp dat de voorzitter, het Kamerstuk of de vraagsteller zelf noemt. Schrijf in `vraag_bron` op welke zin uit de bron hij steunt.
+3. **Twee citaten**, één per spreker, uit die wisseling, eerst wie het eerst sprak. Per citaat hooguit **twee zinnen**, de zinnen die de vraag en het antwoord dragen (geen aanhef, geen beleefdheden). Letterlijk; stukken van minstens 5 woorden mag je verbinden met " … ", zolang de betekenis niet verandert. Samen moeten ze zonder voorkennis te begrijpen zijn.
+4. **Versie c** (optioneel, alleen als het iets toevoegt): een tweede paar citaten uit een andere ronde of wisseling, zodat de eigenaar ziet wat een andere keuze doet.
+
+## Uitvoer
+Schrijf `data/proeftuin/botsing/<id>.json`:
+```json
+{"debat": "<id>", "kop": "<soort debat> · <d mmm jjjj>[ · <deel of vraag x van y>]",
+ "vraag": "...?", "vraag_bron": "...",
+ "afloop": "<letterlijk uit AFLOOP>", "afloop_kort": "<hooguit 10 woorden, zelfde strekking>",
+ "versies": {"a": {"regel": "welke wisseling en waarom", "wisseling": "A (partij) ↔ B (partij), beurt x–y, n beurten",
+                   "afgevallen": ["..."], "citaten": [{"beurt": 12, "citaat": "..."}, {"beurt": 13, "citaat": "..."}]},
+             "c": {...}}}
+```
+Naam, partij, video en figuur vult het script aan. Draai `python3 scripts/kaart.py check <id>` en herstel tot OK. Eindig met twee zinnen: welke wisseling en vraag je koos en waarom.
