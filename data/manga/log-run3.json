@@ -30,5 +30,355 @@
   "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
   "model": "gemini-3.1-flash-image",
   "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Annette Raijer",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf dark blue. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Annette Raijer",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Barbara Kathmann",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf red. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Barbara Kathmann",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Björn Schutz",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf orange. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Björn Schutz",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Christine Teunissen",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf dark green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Christine Teunissen",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Daan de Kort",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf orange. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Daan de Kort",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Diederik Boomsma",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf navy. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Diederik Boomsma",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Dion Huidekooper",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Dion Huidekooper",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Eelco Eerenberg",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf dark grey. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Eelco Eerenberg",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Elmar Vlottes",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf dark blue. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Elmar Vlottes",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Erik van der Maas",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf orange. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Erik van der Maas",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Etkin Armut",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Etkin Armut",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Fatimazhra Belhirch",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Fatimazhra Belhirch",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Gideon van Meijeren",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf dark red. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Gideon van Meijeren",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Hanneke Steen",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Hanneke Steen",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Harmen Krul",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Harmen Krul",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Henk Vermeer",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Henk Vermeer",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Hidde Heutink",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf dark grey. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Hidde Heutink",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Ines Kostić",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf dark green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Ines Kostić",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Ingrid Michon-Derkzen",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "geen afbeelding in het antwoord"
+ },
+ {
+  "wie": "Ingrid Michon-Derkzen",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Full-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their forties or fifties, a woman, blond hair, short, no glasses, light skin, wearing a dark blazer with a small orange scarf.\nExpression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Jan Paternotte",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Jan Paternotte",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Jantine Zwinkels",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Jantine Zwinkels",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Jimmy Dijk",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf red. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Jimmy Dijk",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
  }
 ]

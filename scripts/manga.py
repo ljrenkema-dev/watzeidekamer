@@ -174,8 +174,21 @@ def maak(sleutel, u, emoties, log, stijl="zw"):
                       "Draw exactly the same character as in this reference image, same face, hair, clothes, "
                       "style and framing; only change what is described below.\n\n" + tekst},
                      {"inlineData": {"mimeType": mime, "data": base64.b64encode(ref.read_bytes()).decode()}}]
+        antwoord = None
+        for poging in range(6):  # bij een tijdelijke limiet (429) of een antwoord zonder beeld: wachten en opnieuw
+            try:
+                antwoord = vraag(delen)
+            except urllib.error.HTTPError as e:
+                if e.code == 429 and poging < 5:
+                    print(f"  {u['naam']} {emo}: limiet (429), wacht {60 * (poging + 1)} s"); time.sleep(60 * (poging + 1)); continue
+                antwoord = e
+                break
+            if zoek_beeld(antwoord)[0] or poging >= 2:
+                break
+            print(f"  {u['naam']} {emo}: geen afbeelding, opnieuw"); time.sleep(5)
         try:
-            antwoord = vraag(delen)
+            if isinstance(antwoord, urllib.error.HTTPError):
+                raise antwoord
         except urllib.error.HTTPError as e:
             fout = e.read().decode()[:400]
             log.append({"wie": u["naam"], "emotie": emo, "stijl": stijl, "fout": f"HTTP {e.code}: {fout}"})
