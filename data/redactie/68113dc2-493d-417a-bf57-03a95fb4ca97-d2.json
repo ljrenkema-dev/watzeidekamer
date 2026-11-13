@@ -1,0 +1,189 @@
+{
+  "agendapunt": "68113dc2-493d-417a-bf57-03a95fb4ca97-d2",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
+  "datum": "2026-11-13",
+  "oordeel": "aangepast",
+  "onafhankelijk": true,
+  "bevindingen": [
+    {
+      "waar": "titel makkelijk",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "verdedigt zijn afspraak met PRO en Volt",
+      "nieuw": "verdedigt zijn belastingafspraak met PRO en Volt",
+      "waarom": "De normale titel noemt het onderwerp (box 3); de makkelijke titel zei niet waar de afspraak over ging."
+    },
+    {
+      "waar": "samenvatting normaal",
+      "soort": "neutraliteit",
+      "ernst": "middel",
+      "les": "L3",
+      "oud": "en het dreigen van de VVD om tegen te stemmen.",
+      "nieuw": "en de aankondiging van de VVD om tegen het Belastingplan te stemmen als het amendement wordt aangenomen.",
+      "waarom": "Dijk zegt dat de coalitiegenoot \"aangaf dat die als dat voorstel aangenomen wordt, tegen het Belastingplan gaat stemmen\"; \"dreigen\" is een woord van de site, en de voorwaarde viel weg (L2)."
+    },
+    {
+      "waar": "samenvatting makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L10",
+      "oud": "Werk wordt dan minder belast, grote vermogens iets meer. Veel partijen vinden dat hij de VVD heeft overvallen. Ze vragen of hij zelf gokt met het plan.",
+      "nieuw": "Werk wordt dan minder belast, grote vermogens iets meer. Met rechtse partijen kwam hij er volgens hem niet uit. Veel partijen vragen of hij de VVD heeft overvallen, en of hij zelf gokt.",
+      "waarom": "Normaal zegt \"vragen of hij zijn coalitiepartner VVD heeft overvallen\", makkelijk maakte er \"vinden dat\" van; ook ontbrak waarom het over rechts niet lukte."
+    },
+    {
+      "waar": "standpunt Bontenbal makkelijk",
+      "soort": "juistheid",
+      "ernst": "groot",
+      "les": "L6",
+      "oud": "Met rechtse partijen lukte dat volgens hem niet.",
+      "nieuw": "Met rechtse partijen kwam hij er inhoudelijk niet uit.",
+      "waarom": "Bontenbal zegt juist \"ik heb niet gezegd dat de optie rechts getalsmatig niet kan ... we kwamen er inhoudelijk niet uit\"; \"lukte dat [een meerderheid] niet\" zegt het omgekeerde."
+    },
+    {
+      "waar": "standpunt Bontenbal normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1",
+      "oud": "maar dit is volgens hem het maximaal haalbare dat hij kon uitonderhandelen. Hij wil dat het kabinet een succes wordt.",
+      "nieuw": "maar dit is het maximaal haalbare wat hij denkt te kunnen uitonderhandelen. Hij wil dat het kabinet een succes wordt en zit liever met de VVD dan met PRO in een coalitie.",
+      "waarom": "Citaat: \"het maximaal haalbare wat ik denk te kunnen uitonderhandelen\" — het voorbehoud \"denk\" hoort erbij; het antwoord aan Schenk (\"Met de VVD\") is van Bontenbal en verhuist hierheen (L13)."
+    },
+    {
+      "waar": "standpunt Bontenbal makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L13",
+      "oud": "Hij vindt het tarief van 38,5% zelf te hoog.",
+      "nieuw": "Hij vindt het tarief van 38,5% zelf te hoog. Hij zit liever met de VVD in een coalitie dan met PRO.",
+      "waarom": "Het antwoord \"Met de VVD\" stond onder Schenk; het is een uitspraak van Bontenbal."
+    },
+    {
+      "waar": "standpunt Schenk normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L13",
+      "oud": "in een coalitie zit; Bontenbal antwoordt: met de VVD.",
+      "nieuw": "in een coalitie zit.",
+      "waarom": "Onder een spreker staat alleen wat die persoon zei; \"Met de VVD\" is het antwoord van Bontenbal."
+    },
+    {
+      "waar": "standpunt Schenk makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L13",
+      "oud": "Bontenbal zegt: met de VVD. ",
+      "nieuw": "",
+      "waarom": "Zelfde als normaal: het antwoord is van Bontenbal."
+    },
+    {
+      "waar": "standpunt Vermeer normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "Volgens hem bood BBB een meerderheid aan in beide Kamers, en vraagt hij welke partijen de meerderheid voor het amendement vormen.",
+      "nieuw": "Volgens hem is over rechts een meerderheid in beide Kamers aangeboden; BBB sloot daarvoor aan bij SGP en JA21. Hij vraagt welke partijen de meerderheid voor het amendement vormen.",
+      "waarom": "Vermeer: \"Wij hebben die meerderheid aangeboden ... Dat was zelfs de reden waarom wij aangesloten zijn\" bij SGP en JA21; het aanbod was niet van BBB alleen."
+    },
+    {
+      "waar": "standpunt Vermeer makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "Volgens hem bood BBB zelf een meerderheid aan.",
+      "nieuw": "Volgens hem boden de rechtse partijen een meerderheid aan.",
+      "waarom": "Zelfde als normaal: \"wij\" zijn BBB samen met SGP en JA21."
+    },
+    {
+      "waar": "standpunt Dijk makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L2",
+      "oud": "De VVD wil misschien tegenstemmen.",
+      "nieuw": "De VVD wil tegenstemmen als dat plan erdoor komt.",
+      "waarom": "Dijk: \"als dat voorstel aangenomen wordt, tegen het Belastingplan gaat stemmen\" — een voorwaarde, geen \"misschien\"."
+    },
+    {
+      "waar": "kernpunt 3 normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L14",
+      "oud": "die partijen zeggen dat een rechtse meerderheid wel kon.",
+      "nieuw": "BBB en JA21 zeggen dat een rechtse meerderheid wel kon.",
+      "waarom": "Alleen Eerdmans (\"had wel geleid tot een zekere meerderheid\") en Vermeer (\"Wij hebben die meerderheid aangeboden\") zeggen dat; Stoffer zegt \"We hadden er zomaar uit kunnen zijn\", mits de Eerste Kamer erbij kwam."
+    },
+    {
+      "waar": "kernpunt 4 normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "hij zegt dat hij de coalitiepartners op de hoogte hield",
+      "nieuw": "hij zegt dat hij de coalitiepartners op de hoogte hield van de stappen",
+      "waarom": "Citaat: \"op de hoogte gebracht van de stappen die wij aan het zetten waren\", niet van de deal zelf."
+    },
+    {
+      "waar": "kernpunt 4 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L3",
+      "oud": "Andere partijen vinden dat hij de VVD heeft overvallen. Bontenbal zegt dat de VVD op de hoogte was.",
+      "nieuw": "Andere partijen vragen of hij de VVD heeft overvallen. Bontenbal zegt dat hij de partners vertelde welke stappen hij zette.",
+      "waarom": "\"de VVD was op de hoogte\" is sterker dan \"op de hoogte gebracht van de stappen\"; Bontenbal zegt zelf dat je \"niet de hele inhoud van een deal\" kunt delen. Ook \"vinden\" → \"vragen\" zoals in normaal (L10)."
+    },
+    {
+      "waar": "woorden omslagpunt",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L12",
+      "oud": "Volgens Bontenbal ligt dat bij 1,23 miljoen euro.",
+      "nieuw": "Volgens Bontenbal ligt dat bij 1,23 miljoen euro. Hij gebruikt het woord ook voor het tarief van ongeveer 38,9% waarboven mensen vermogen van box 3 naar box 2 kunnen brengen.",
+      "waarom": "Bontenbal gebruikt \"omslagpunt\" ook voor het tarief: \"Ik meen dat het ergens rond de 38,9% ligt\"; daarom bleef het tarief op 38,5%."
+    },
+    {
+      "waar": "vak 1 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "Met PRO en Volt maakten we een afspraak. Werk wordt minder belast.",
+      "nieuw": "Afspraak met PRO en Volt: minder belasting op werk, meer op vermogen.",
+      "waarom": "Citaat: \"verschuiving ... van de belasting op arbeid naar de belasting op vermogen\"; makkelijk liet de kant van het vermogen weg."
+    },
+    {
+      "waar": "vak 3 makkelijk",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "Het kan vanaf 2029. Het gaat om minder dan 3% in box 3.",
+      "nieuw": "We vroegen het na: het kan vanaf 2029. Grote vermogens zijn minder dan 3%.",
+      "waarom": "\"Het gaat om\" was onduidelijk; citaat: \"de mensen met die grote vermogens vormen minder dan 3%\", en \"We hebben nagevraagd\" staat ook in normaal."
+    },
+    {
+      "waar": "vak 5 normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L3",
+      "oud": "Een deal die er nog niet is, deel je niet.",
+      "nieuw": "De hele inhoud van een deal die er nog niet is, kun je niet delen.",
+      "waarom": "Citaat: \"je kunt niet de hele inhoud van een deal ... delen\"; \"deel je niet\" maakt er een algemene weigering van."
+    },
+    {
+      "waar": "vak 5 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "De afspraak was er nog niet.",
+      "nieuw": "De hele afspraak kon ik niet delen: die was er nog niet.",
+      "waarom": "Zelfde punt als normaal: het ging om \"de hele inhoud\" die nog niet gedeeld kon worden."
+    },
+    {
+      "waar": "vak 7 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Het plan is volgens mij goed.",
+      "nieuw": "De brief kiest volgens mij het goede midden.",
+      "waarom": "Citaat: \"precies het goede midden heeft bewandeld\"; \"het plan is goed\" is een ander, breder oordeel."
+    }
+  ]
+}
