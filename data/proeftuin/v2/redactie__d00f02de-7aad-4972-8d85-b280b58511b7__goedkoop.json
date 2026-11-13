@@ -1,0 +1,91 @@
+{
+ "agendapunt": "d00f02de-7aad-4972-8d85-b280b58511b7",
+ "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
+ "datum": "2026-11-13",
+ "oordeel": "aangepast",
+ "onafhankelijk": true,
+ "bevindingen": [
+  {
+   "waar": "vak 7",
+   "soort": "juistheid",
+   "ernst": "middel",
+   "les": "L15",
+   "oud": "Verteller met citaat van de voorzitter",
+   "nieuw": "Berendsen, citaat uit zijn eigen spreekbeurt [15]",
+   "waarom": "'oordeel Kamer' is een uitspraak van de minister, niet van de Verteller of voorzitter"
+  },
+  {
+   "waar": "vak 4 normaal+makkelijk",
+   "soort": "juistheid",
+   "ernst": "middel",
+   "les": "L4",
+   "oud": "Volgens de diensten zijn er aanwijzingen",
+   "nieuw": "Er zijn aanwijzingen bij de diensten dat...",
+   "waarom": "citaat zegt 'aanwijzingen bij de diensten': de diensten zelf zeggen niets"
+  },
+  {
+   "waar": "vak 4 en 5",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "les": "L11",
+   "oud": "bezorgd / vastberaden",
+   "nieuw": "neutraal",
+   "waarom": "feitelijke mededeling"
+  },
+  {
+   "waar": "vak 1",
+   "soort": "taal",
+   "ernst": "klein",
+   "les": "L6",
+   "oud": "De minister zou toelichten dat... / Volgens de minister zijn er aanwijzingen",
+   "nieuw": "De minister zou zijn uitlating toelichten (makkelijk: beloofde uitleg)",
+   "waarom": "De Roon vraagt om een toelichting; makkelijk liet die toezegging weg ('toegezegd')"
+  },
+  {
+   "waar": "vak 2",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "les": "L10",
+   "oud": "zonder TikTokaccount weggelaten",
+   "nieuw": "zonder TikTokaccount toegevoegd (normaal)",
+   "waarom": "pakkende beeldspraak van Van Ark zelf"
+  },
+  {
+   "waar": "vak 3",
+   "soort": "taal",
+   "ernst": "middel",
+   "les": "L6",
+   "oud": "opnieuw met aanbevelingen (waarover?)",
+   "nieuw": "citaat verlengd met Blok-brief over religieuze geletterdheid",
+   "waarom": "ballon was niet op zichzelf te begrijpen: aanbevelingen waarover"
+  },
+  {
+   "waar": "kernpunt 4 normaal+makkelijk",
+   "soort": "juistheid",
+   "ernst": "middel",
+   "les": "L14",
+   "oud": "motie 274 en 275 samen met 'engagement'-reden",
+   "nieuw": "reden voor 274 en aparte reden voor 275 (nationaal iets minder, EU aanwezig)",
+   "waarom": "'engagement' was alleen reden voor 274"
+  },
+  {
+   "waar": "kernpunt 3",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "les": "L2",
+   "oud": "geweld legitimeren weggelaten",
+   "nieuw": "toegevoegd",
+   "waarom": "'worden gebruikt om geweld te legitimeren'"
+  },
+  {
+   "waar": "samenvatting makkelijk",
+   "soort": "juistheid",
+   "ernst": "klein",
+   "les": "nieuw",
+   "oud": "regio in Afrika; opnieuw advies",
+   "nieuw": "Sahelregio; opnieuw met aanbevelingen",
+   "waarom": "Afrika staat niet in het verslag; 'aanbevelingen' is het woord van Van Ark"
+  }
+ ],
+ "afgewezen_opmerking": "Geen vak voor SGP (Van Dijk zei alleen dat hij een motie heeft) en geen vak voor motie 275 (max. evenwicht: kabinet al 4 van 7 vakken)."
+}
