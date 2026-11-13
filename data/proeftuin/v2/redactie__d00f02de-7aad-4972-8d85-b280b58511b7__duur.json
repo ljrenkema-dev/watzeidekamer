@@ -1,0 +1,121 @@
+{
+  "agendapunt": "d00f02de-7aad-4972-8d85-b280b58511b7",
+  "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
+  "datum": "2026-11-13",
+  "oordeel": "aangepast",
+  "onafhankelijk": true,
+  "bevindingen": [
+    {
+      "waar": "samenvatting normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1",
+      "oud": "wachtte nog op de toegezegde toelichting over desinformatie vanuit de Sahel richting Europa",
+      "nieuw": "wachtte nog op de toegezegde toelichting over de aanwijzingen voor desinformatie vanuit de Sahel richting Europa",
+      "waarom": "De Roon spreekt over de uitlating 'dat er aanwijzingen zijn'; dat voorbehoud viel weg."
+    },
+    {
+      "waar": "samenvatting normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "(oproep van Van Ark ontbrak; stond wel in makkelijk)",
+      "nieuw": "Zij roept de minister op opnieuw met aanbevelingen te komen.",
+      "waarom": "Makkelijk noemde 'opnieuw met aanbevelingen te komen' wel, normaal niet; nu gelijk."
+    },
+    {
+      "waar": "samenvatting makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "De minister zegt: de diensten zien aanwijzingen voor Russische desinformatie. Hij ontraadt twee moties ...",
+      "nieuw": "De minister zegt: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. De minister ontraadt twee moties ...",
+      "waarom": "Citaat: 'desinformatie-inzet in de Sahel'; 'Hij' na de PVV/CDA-zinnen was ook onduidelijk."
+    },
+    {
+      "waar": "standpunt De Roon makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1",
+      "oud": "De minister beloofde uitleg over desinformatie uit de Sahel naar Europa.",
+      "nieuw": "De minister noemde aanwijzingen voor desinformatie uit de Sahel naar Europa. Hij beloofde uitleg.",
+      "waarom": "Citaat: 'zijn uitlating dat er aanwijzingen zijn'."
+    },
+    {
+      "waar": "standpunt Van Ark makkelijk, kernpunt 4 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Maar religie kan ook desinformatie verspreiden.",
+      "nieuw": "Maar religie kan ook een bron van desinformatie zijn.",
+      "waarom": "Citaat: 'een bron zijn van desinformatie'."
+    },
+    {
+      "waar": "standpunt minister makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L10",
+      "oud": "... Hij ontraadt twee moties. Nederland gaat zelf iets minder doen. Daarom is het goed dat de EU er is.",
+      "nieuw": "... Die campagne wil ook de zuidkant van Europa ontwrichten. ... Over twee moties laat hij de Kamer kiezen.",
+      "waarom": "Normaal noemt de 'zuidflank van Europa' (het antwoord op De Roons vraag) en 'oordeel Kamer' voor 276 en 277; makkelijk liet beide weg."
+    },
+    {
+      "waar": "standpunt minister normaal, kernpunt 6 (beide)",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L2",
+      "oud": "vindt hij het goed dat de EU daar aanwezig is.",
+      "nieuw": "vindt hij het goed dat de EU daar aanwezig is en de inzet zo doorgaat.",
+      "waarom": "De zin loopt door: 'en we dus zo de inzet blijven voortzetten'."
+    },
+    {
+      "waar": "kernpunt 2 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "diensten zien aanwijzingen voor een Russische campagne.",
+      "nieuw": "diensten zien aanwijzingen voor een Russische campagne met desinformatie in de Sahel.",
+      "waarom": "Zonder 'desinformatie-inzet in de Sahel' was niet duidelijk welke campagne."
+    },
+    {
+      "waar": "vak 1 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1",
+      "oud": "Ik wacht op de beloofde uitleg over desinformatie uit de Sahel naar Europa.",
+      "nieuw": "De minister beloofde uitleg over aanwijzingen voor desinformatie uit de Sahel naar Europa.",
+      "waarom": "Citaat: 'dat er aanwijzingen zijn'; nu ook gelijk aan normaal."
+    },
+    {
+      "waar": "vak 3 normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Religie kan ook desinformatie verspreiden. ... Mijn fractie roept op tot nieuwe aanbevelingen.",
+      "nieuw": "Religie kan ook bron van desinformatie zijn. Bij toenemende conflicten verandert haar rol. Wij vragen nieuwe aanbevelingen.",
+      "waarom": "Citaat: 'een bron zijn van desinformatie'."
+    },
+    {
+      "waar": "vak 6 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Nederland gelooft: betrokken blijven is het beste.",
+      "nieuw": "Nederland gelooft: betrokken blijven dient onze belangen het best.",
+      "waarom": "Citaat: 'engagement het beste onze belangen dient'; 'het beste' zonder belangen is algemener."
+    },
+    {
+      "waar": "vak 7 citaat en tekst (beide)",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "citaat eindigde op 'is het goed dat de EU daar aanwezig is'; tekst: 'Nationaal gaan we iets minder doen, dus goed dat de EU daar is.'",
+      "nieuw": "citaat verlengd met 'en we dus zo de inzet blijven voortzetten'; tekst: 'Nationaal doen we iets minder; via de EU zetten we de inzet voort.' / 'De EU zet het werk voort.'",
+      "waarom": "De directe nuancering 'zo de inzet blijven voortzetten' viel weg, waardoor het als alleen minder doen las."
+    }
+  ],
+  "niet_opgelost": [
+    "Samenvatting makkelijk noemt het programma van 40 miljoen niet (maximaal 5 zinnen); het staat wel in kernpunt 3 makkelijk en in het standpunt van de minister.",
+    "De inhoud van de vier moties en wie welke motie (274-277) indiende staat niet in de bron; de strip koppelt de nummers terecht niet aan partijen. Vakken 6-8 blijven daardoor wat procedureel; er is geen sterker letterlijk citaat van een ondervertegenwoordigde partij (SGP zei alleen 'Ik heb één motie')."
+  ]
+}
