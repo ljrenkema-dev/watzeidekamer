@@ -3,3 +3,4 @@ __pycache__/
 data/portret/
 data/manga/*/*.antwoord.json
 tools/proeftuin/
+data/compact/
