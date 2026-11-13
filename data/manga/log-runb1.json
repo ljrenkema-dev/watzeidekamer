@@ -398,5 +398,223 @@
   "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
   "model": "gemini-3.1-flash-image",
   "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Robert van Asten",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Robert van Asten",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Ruben Brekelmans",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf orange. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Ruben Brekelmans",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Sandra Beckerman",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf red. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Sandra Beckerman",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Sarah El Boujdaini",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf green. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Sarah El Boujdaini",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Sebastiaan Stöteler",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Sebastiaan Stöteler",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Full-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their forties or fifties, a man, light brown hair, very short, buzzed, no glasses, a short, neat beard, light skin, wearing a dark suit with a dark blue tie.\nExpression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Simon Ceulemans",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Simon Ceulemans",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Songül Mutluer",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Songül Mutluer",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Full-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their forties or fifties, a woman, black hair, long and straight, no glasses, medium skin, wearing a dark blazer with a small red scarf.\nExpression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Stephan Neijenhuis",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Stephan Neijenhuis",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Suzanne Kröger",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Suzanne Kröger",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Thom Van Campen",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Thom Van Campen",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Tom Berendsen",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "prompt": "Redraw the person in this photo as a manga character. Keep the likeness: face shape, eyes and their size, eyebrows, nose, mouth and the lines around it, hairline, hairstyle including the exact shape and messiness of the hair ends, and apparent age. Do not make the person younger or prettier, and do not exaggerate any feature: respectful, not a caricature.\n\nFull-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\nKeep their real clothing, but make the tie or scarf dark grey. Calm expression with the person's natural slight smile. Remove the lapel pin. No text, no letters, no logos, no flags.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": true
+ },
+ {
+  "wie": "Tom Berendsen",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Tom van der Lee",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Tom van der Lee",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Full-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their forties or fifties, a man, grey hair, short with a receding hairline, no glasses, clean-shaven, light skin, wearing a dark suit with a red tie.\nExpression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Ulaş Köse",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Ulaş Köse",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Vicky Maeijer",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Vicky Maeijer",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Wieke Paulusma",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Wieke Paulusma",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Full-colour Japanese manga / anime character illustration, clean confident ink lines, cel shading with soft highlights, manga proportions: slightly larger expressive eyes, simplified nose and mouth, stylised hair with clear shapes. The character must still be clearly recognisable from the description: keep the face shape, hairstyle, hair colour, glasses and facial hair exactly as described. Natural skin and hair colours, muted dark clothing with the tie or scarf in the accent colour. Bust portrait, facing the viewer, turned slightly to the right, pure white background (#FFFFFF), centred, the figure fills about 75% of the image height. Respectful, not a caricature: no exaggerated features. No text, no letters, no logos, no flags, no symbols. No border, no frame, no panel outline: the white background runs to the edges.\n\nCharacter: A fictional Dutch politician in their forties or fifties, a woman, blond hair, short and curly, round glasses, light skin, wearing a dark blazer with a small green scarf.\nExpression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Wim Meulenkamp",
+  "emotie": "vriendelijk",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+ },
+ {
+  "wie": "Wim Meulenkamp",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "fout": "HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
  }
 ]
