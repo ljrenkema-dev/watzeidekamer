@@ -114,5 +114,96 @@
       "waarom": "De uitleg gaf alleen de kant van PRO; de minister: 'dat je uitzendarbeid op dezelfde flexibele manier wil kunnen blijven inzetten'."
     }
   ],
-  "opmerking": "Strip gaat over onderwerp 0 (uitzendkrachten). Evenwicht binnen dat onderwerp: PRO (vraagsteller) 2 vakken + Verteller, minister 3, SP 1; D66 (Neijenhuis) en FVD (Van Houwelingen) hebben geen vak maar staan bij de standpunten en kernpunten. Een FVD-vak met het antwoord van de minister erbij zou 9 vakken geven; daarom niet toegevoegd. Andere fracties zonder vak horen bij andere onderwerpen (redacteur.md punt 4)."
+  "opmerking": "Strip gaat over onderwerp 0 (uitzendkrachten). Evenwicht binnen dat onderwerp: PRO (vraagsteller) 2 vakken + Verteller, minister 3, SP 1; D66 (Neijenhuis) en FVD (Van Houwelingen) hebben geen vak maar staan bij de standpunten en kernpunten. Een FVD-vak met het antwoord van de minister erbij zou 9 vakken geven; daarom niet toegevoegd. Andere fracties zonder vak horen bij andere onderwerpen (redacteur.md punt 4).",
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "onafhankelijk": true,
+    "bevindingen": [
+      {
+        "waar": "standpunt Vijlbrief normaal+makkelijk, kernpunt 0 normaal+makkelijk",
+        "soort": "evenwicht",
+        "ernst": "middel",
+        "les": "L9",
+        "oud": "(geen antwoord op de vraag of het ministerie aansprakelijk is)",
+        "nieuw": "Over wie verantwoordelijk is, doet hij nu geen uitspraak; mensen kunnen volgens hem naar de rechter. / Wie verantwoordelijk is, zegt hij nu niet.",
+        "waarom": "Patijns hoofdvraag was 'acht hij het ministerie aansprakelijk?'; het antwoord 'Ik ga hier nu ook geen uitspraken doen over wie daar dan verantwoordelijk voor is' stond nergens."
+      },
+      {
+        "waar": "keuze_onderwerp",
+        "soort": "neutraliteit",
+        "ernst": "middel",
+        "les": "nieuw",
+        "oud": "(ontbrak)",
+        "nieuw": "De strip gaat over het loon van uitzendkrachten: daarover verschilden vraagsteller en minister het duidelijkst van mening. / … Daarover waren de vraagsteller en de minister het meest oneens.",
+        "waarom": "Nieuw verplicht veld. Bij de gentest ('ik deel dus dat dat niet goed is') en de jeugdzorg ('heeft de heer Struijs gelijk') gaven de bewindspersonen de vraagsteller grotendeels gelijk; bij de uitzendkrachten niet ('de Kamer heeft in meerderheid gekozen voor \"gelijkwaardig\"'). reeks.py --voor 2026-11-10: nog geen eerdere vragenuren, dus geen beperking voor PRO."
+      },
+      {
+        "waar": "vak 5 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "Wil de minister met vakbonden een steunpunt regelen?",
+        "nieuw": "Wil de minister met vakbonden een steunpunt afspreken?",
+        "waarom": "Citaat: 'met de vakbonden wil afspreken dat er een hulp-, een meld- en een steunpunt komt'; 'regelen' suggereert dat de minister het zelf doet, terwijl juist dat in vak 6 de botsing is."
+      },
+      {
+        "waar": "standpunt Boelsma-Hoekstra makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L5",
+        "oud": "Boelsma-Hoekstra (CDA) vindt dat twee ministeries dit samen moeten oplossen.",
+        "nieuw": "Boelsma-Hoekstra (CDA) vraagt of twee ministeries hier samen verantwoordelijk voor zijn. Samen kun je volgens haar stappen zetten.",
+        "waarom": "Zij vraagt 'Is de staatssecretaris het met mij eens dat dit vraagstuk de gezamenlijke verantwoordelijkheid is'; normaal had het als vraag, makkelijk als stelling (L10)."
+      },
+      {
+        "waar": "standpunt Keijzer makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L5",
+        "oud": "Keijzer wil keuzes maken bij lichte jeugdzorg.",
+        "nieuw": "Keijzer vraagt of we moeten kiezen bij lichte jeugdzorg.",
+        "waarom": "Citaat: 'Is de staatssecretaris van mening dat we ... daarin ook moeten kiezen'; een vraag, geen wens (normaal had het al goed)."
+      },
+      {
+        "waar": "kernpunt 4 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L4",
+        "oud": "Er kan een claim van miljarden komen.",
+        "nieuw": "Volgens FVD kan er een claim van miljarden komen.",
+        "waarom": "Van Houwelingen: 'zoals we volgens mij in het stuk lezen. Er kan een massaclaim aankomen'; een bewering van FVD, geen feit van de site."
+      },
+      {
+        "waar": "kernpunt 8 normaal+makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "… een week na het debat … / De minister zegt: daar ga ik niet over. De beroepsgroep praat er zelf over.",
+        "nieuw": "… in de week na het debat … / De minister zegt: de uitvoering van de richtlijn is niet aan mij. Ze blijft het wel volgen. De beroepsgroep praat er de week na het debat over.",
+        "waarom": "Hermans: 'Ik wil dat natuurlijk blijven volgen, alleen kan ik niet treden in de uitvoering van de richtlijn'; 'daar ga ik niet over' was breder en liet het volgen weg. 'volgende week' is geen exacte week."
+      }
+    ],
+    "afgewezen": [
+      {
+        "waar": "eerste lezing, alle wijzigingen",
+        "waarom": "Nagelopen tegen de bron: vak 1, 2, 3, 6, vak 0, kernpunten 2, 3, 5, 7, 12, standpunten Van der Burg en Van Brenk en de woordenlijst kloppen; voorbehouden ('hoort', 'denk ik', 'niet als zodanig') staan er. Niets teruggedraaid."
+      },
+      {
+        "waar": "vak 2 (antwoord minister): aansprakelijkheid in de ballon",
+        "waarom": "Overwogen om 'Ik ga hier nu ook geen uitspraken doen over wie daar dan verantwoordelijk voor is' in vak 2 te zetten, maar dan valt binnen 18/14 woorden 'naar mijn mening' of de verwijzing naar Kamer en Raad van State weg (L1). Daarom in standpunt en kernpunt 0 opgenomen."
+      },
+      {
+        "waar": "vak 3: vervangen door het voorbeeld van de scholingsvouchers",
+        "waarom": "Concreter, maar past niet binnen 18/14 woorden zonder 'ik hoor', 'bijvoorbeeld' of 'een deel van de eindejaarsuitkering' te verliezen (L1, L6). Het huidige vak is juist; het voorbeeld staat in kernpunt 2."
+      },
+      {
+        "waar": "evenwicht: vak voor FVD of D66 binnen het onderwerp",
+        "waarom": "Eens met de eerste lezing: een FVD-vak zonder het antwoord van de minister ('appels en peren', 'deze Kamer de wetgever') zou eenzijdig zijn, en met antwoord worden het 9 vakken. Beide staan in standpunten en kernpunten."
+      },
+      {
+        "waar": "keuze onderwerp: ander onderwerp kiezen",
+        "waarom": "reeks.py geeft geen eerdere vragenuren, dus PRO zit niet op de grens; de uitzendkrachten zijn het onderwerp met de duidelijkste botsing."
+      }
+    ]
+  }
 }
