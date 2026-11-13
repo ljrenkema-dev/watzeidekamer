@@ -1,0 +1,220 @@
+{
+  "agendapunt": "68113dc2-493d-417a-bf57-03a95fb4ca97-d3",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
+  "titel": {
+    "normaal": "Oppositie spreekt over amendement van PRO en Volt en dreigende kabinetscrisis",
+    "makkelijk": "Oppositie over voorstel van PRO en Volt en dreigende crisis"
+  },
+  "samenvatting": {
+    "normaal": "In dit deel van het debat over het Belastingplan 2027, op 12 november 2026, geven Schenk (FVD), Van Baarle (DENK), Stoffer (SGP), Teunissen (PvdD), Bikker (ChristenUnie), Dijk (SP), Vermeer (BBB), Struijs (50PLUS), Dassen (Volt), Markuszower en Keijzer hun inbreng in de derde termijn. Het gaat vooral over het amendement van PRO en Volt, dat D66 en CDA met die partijen uitonderhandelden, en over de dreiging van de VVD om dan tegen het Belastingplan te stemmen. FVD, SGP, BBB, Markuszower en Keijzer vinden het amendement slecht voor ondernemers en verwijten D66 en CDA dat ze om de VVD heen werkten. PvdD en Volt steunen het amendement, en DENK, PvdD, SP en Volt verwijten de VVD dat ze een crisis maakt om een kleine bijdrage van grote vermogens. ChristenUnie en 50PLUS maken zich zorgen over de bestuurbaarheid en vragen of de Belastingdienst het amendement kan uitvoeren.",
+    "makkelijk": "Dit is een deel van het debat over de belastingen voor 2027. Elf partijen spreken op 12 november 2026 voor de derde keer. Het gaat vooral over een voorstel van PRO en Volt. D66 en CDA maakten daar een deal over. De VVD dreigt dan tegen het Belastingplan te stemmen. Rechtse partijen vinden het voorstel slecht voor ondernemers. PvdD en Volt zijn voor het voorstel. ChristenUnie en 50PLUS maken zich zorgen over het bestuur van het land."
+  },
+  "sprekers": [
+    {
+      "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+      "standpunt": {
+        "normaal": "Schenk vindt dat CDA en D66 met de deal met PRO gokken met de economie. Volgens hem staat 1 miljard extra belasting op vermogen tegenover 879 miljoen verlichting voor werkenden, gemiddeld ongeveer €8 per maand, en is ruim 400 miljoen nog ongedekt. Hij wil zo snel mogelijk nieuwe verkiezingen.",
+        "makkelijk": "Schenk (FVD) vindt de deal met PRO een gok met de economie. Werkenden krijgen volgens hem gemiddeld maar €8 per maand. Hij wil snel nieuwe verkiezingen."
+      }
+    },
+    {
+      "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "standpunt": {
+        "normaal": "Van Baarle vindt dat de VVD een crisis wil organiseren omdat er iets extra's van grote vermogens wordt gevraagd. Het amendement is volgens hem een beweging die DENK zich kan voorstellen, maar hij vraagt het kabinet of het uitvoerbaar is en of de dekking realistisch is. DENK beoordeelt het Belastingplan pas na de stemmingen over moties en amendementen.",
+        "makkelijk": "Van Baarle (DENK) vindt dat de VVD een crisis maakt om rijke mensen te beschermen. Hij kan zich het voorstel van PRO en Volt voorstellen. Maar hij vraagt het kabinet of het kan."
+      }
+    },
+    {
+      "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+      "standpunt": {
+        "normaal": "Stoffer noemt de kabinetscrisis onnodig en onverantwoord. Volgens hem gooiden D66 en CDA de rechtse deur dicht, terwijl SGP, JA21 en BBB een constructief aanbod hadden gedaan. Het amendement van PRO en Volt betekent volgens hem een forse lastenverzwaring voor ondernemers. Hij vraagt of de premier vooraf van de deal wist.",
+        "makkelijk": "Stoffer (SGP) vindt de crisis onnodig. Volgens hem sloten D66 en CDA de deur naar rechts. Het voorstel van PRO en Volt is volgens hem slecht voor ondernemers."
+      }
+    },
+    {
+      "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+      "standpunt": {
+        "normaal": "Teunissen steunt het amendement en noemt het goed nieuws dat er een miljonairsbelasting komt. Ze vindt dat de VVD voor een fooi van miljonairs dreigt het kabinet op te blazen. Ze vindt ook dat het klimaat in het Belastingplan vergeten is en vraagt steun voor acht voorstellen van de PvdD.",
+        "makkelijk": "Teunissen (PvdD) is voor het voorstel van PRO en Volt. Ze vindt dat de VVD het kabinet wil opblazen voor een fooi. Ze vraagt ook meer aandacht voor het klimaat."
+      }
+    },
+    {
+      "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+      "standpunt": {
+        "normaal": "Bikker vindt dat het landsbelang is versmald tot de vraag wie het eerst met zijn ogen knippert, en noemt dat politieke verlamming. Hoe de VVD stemt, is volgens haar de keuze van de VVD. Ze zegt nog niet hoe de ChristenUnie over het amendement stemt, en vraagt of een tussenformatie of een financieel motorblok een mogelijkheid is.",
+        "makkelijk": "Bikker (ChristenUnie) vindt dat de politiek verlamd is. Ze zegt nog niet hoe ze stemt over het voorstel. Ze wil dat partijen samen afspraken maken voor het land."
+      }
+    },
+    {
+      "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+      "standpunt": {
+        "normaal": "Dijk noemt het voorstel van PRO en Volt eigenlijk heel dun. Hij vindt het tekenend dat de pijngrens van de VVD bereikt is als er iets van grote vermogens wordt gevraagd. Hij roept Brekelmans op tegen het Belastingplan te stemmen en wil verkiezingen als het kabinet valt.",
+        "makkelijk": "Dijk (SP) vindt het voorstel van PRO en Volt eigenlijk klein. Hij zegt tegen de VVD: stem maar tegen. Hij wil verkiezingen als het kabinet valt."
+      }
+    },
+    {
+      "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+      "standpunt": {
+        "normaal": "Vermeer vindt dat CDA en D66 door te kiezen voor PRO Nederland in de steek hebben gelaten. Volgens hem sloopt deze route het vestigingsklimaat en worden burgers en ondernemers zwaarder belast. Hij zegt dat het kabinet nooit serieus inging op het bod van BBB, JA21 en SGP.",
+        "makkelijk": "Vermeer (BBB) vindt dat CDA en D66 Nederland in de steek laten. Volgens hem gaan burgers en ondernemers meer belasting betalen."
+      }
+    },
+    {
+      "id": "78bfadde-92e9-4200-9324-ec3ff790a712",
+      "standpunt": {
+        "normaal": "Struijs zegt dat de deal van 50PLUS met het kabinet van tafel is en dat 50PLUS van niets wist. Hij beoordeelt het amendement pas aan het einde van de avond. Zijn zorgen zijn de erf- en schenkbelasting, of de Belastingdienst twee schijven in box 3 aankan, en de ongedekte 400 miljoen.",
+        "makkelijk": "Struijs (50PLUS) zegt: onze afspraak met het kabinet is van tafel. Hij beslist later over het voorstel. Hij twijfelt of de Belastingdienst het kan uitvoeren."
+      }
+    },
+    {
+      "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+      "standpunt": {
+        "normaal": "Dassen zegt dat werkenden en kleine spaarders er met het aangepaste amendement op vooruitgaan, betaald door een kleine bijdrage van de echt grote vermogens. Volt paste het voorstel aan voor het CDA. Volgens hem moet dit geen kabinetscrisis tot gevolg hebben, maar een vertrekpunt zijn voor samenwerking.",
+        "makkelijk": "Dassen (Volt) zegt: werkenden en kleine spaarders gaan erop vooruit. De grote vermogens betalen daarvoor. Dit moet volgens hem geen crisis worden."
+      }
+    },
+    {
+      "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+      "standpunt": {
+        "normaal": "Markuszower noemt de deal een ramp voor het vestigingsklimaat en de economie. Hij vindt dat de rechtse partijen hun kiezers in de steek hebben gelaten en roept hen op samen te gaan strijden. Hij vroeg Bikker of de ChristenUnie het amendement steunt.",
+        "makkelijk": "Markuszower vindt de deal een ramp voor de economie. Hij wil dat rechtse partijen gaan samenwerken."
+      }
+    },
+    {
+      "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+      "standpunt": {
+        "normaal": "Keijzer noemt de situatie rond het Belastingplan een chaos en vindt dat Bontenbal er één grote gok van heeft gemaakt. Ze noemt ouderenzorg, asiel, klimaat en Buitenlandse Handel als onderwerpen die met het Belastingplan betaald worden. Ze vroeg Van Baarle of DENK voor het geamendeerde plan gaat stemmen.",
+        "makkelijk": "Keijzer vindt het een chaos. Volgens haar maakte Bontenbal van het Belastingplan een gok."
+      }
+    },
+    {
+      "id": "56a43503-f031-4cec-bced-29ef74caa676",
+      "standpunt": {
+        "normaal": "Eerdmans vraagt Teunissen of de PvdD voor het Belastingplan stemt als haar amendementen niet worden aangenomen.",
+        "makkelijk": "Eerdmans (JA21) vraagt of de PvdD voor het plan stemt als haar voorstellen niet doorgaan."
+      }
+    },
+    {
+      "id": "d3232999-f7dc-43ab-93a1-1e191b217321",
+      "standpunt": {
+        "normaal": "Bontenbal vraagt Bikker wat zij inhoudelijk had gedaan als ze geen deal had hoeven sluiten, omdat de ChristenUnie ook plannen had om vermogen meer te belasten en arbeid minder.",
+        "makkelijk": "Bontenbal (CDA) vraagt Bikker wat zij zelf had gedaan met de belasting op vermogen."
+      }
+    },
+    {
+      "id": "ad93f400-387d-4506-96e8-6926f478e063",
+      "standpunt": {
+        "normaal": "Brekelmans vindt het een gekke figuur als de Kamer met een motie zegt dat het kabinet een deel van een net aangenomen wet niet moet uitvoeren, en vraagt Struijs of zijn motie dat bedoelt.",
+        "makkelijk": "Brekelmans (VVD) vraagt Struijs of zijn motie zegt: voer een deel van de wet niet uit."
+      }
+    },
+    {
+      "id": "457964c8-b4ba-4fa8-ad80-d2dea54e7c94",
+      "standpunt": {
+        "normaal": "Klaver vraagt de voorzitter om over alle vijf wetten op hetzelfde moment te stemmen, om fouten in de stemmingen te voorkomen.",
+        "makkelijk": "Klaver (PRO) vraagt om over alle vijf wetten tegelijk te stemmen."
+      }
+    }
+  ],
+  "kernpunten": {
+    "normaal": [
+      "Het debat gaat vooral over het amendement van PRO en Volt, dat D66 en CDA met die partijen uitonderhandelden, en over de dreiging van de VVD om dan tegen het Belastingplan te stemmen.",
+      "FVD, SGP, BBB, Markuszower en Keijzer vinden het amendement slecht voor ondernemers en het vestigingsklimaat; FVD en SGP verwijten D66 en CDA dat ze om de VVD heen een deal sloten.",
+      "PvdD en Volt steunen het amendement. DENK, PvdD, SP en Volt vinden dat de VVD een crisis maakt om een kleine bijdrage van grote vermogens.",
+      "ChristenUnie en 50PLUS maken zich zorgen over de bestuurbaarheid; 50PLUS zegt dat zijn deal met het kabinet van tafel is.",
+      "DENK, SGP en 50PLUS vragen het kabinet of de Belastingdienst het amendement kan uitvoeren en of de dekking klopt; volgens FVD en 50PLUS is ruim 400 miljoen nog niet ingevuld.",
+      "FVD en SP willen nieuwe verkiezingen; Bikker vraagt of een tussenformatie een mogelijkheid is."
+    ],
+    "makkelijk": [
+      "Het gaat vooral over een voorstel van PRO en Volt. D66 en CDA maakten daar een deal over.",
+      "De VVD dreigt dan tegen het Belastingplan te stemmen.",
+      "FVD, SGP, BBB, Markuszower en Keijzer vinden het voorstel slecht voor ondernemers.",
+      "PvdD en Volt zijn voor het voorstel. DENK, PvdD, SP en Volt vinden dat de VVD een crisis maakt.",
+      "ChristenUnie en 50PLUS maken zich zorgen over het bestuur van het land.",
+      "Een paar partijen vragen of de Belastingdienst het voorstel kan uitvoeren.",
+      "FVD en SP willen nieuwe verkiezingen."
+    ]
+  },
+  "woorden": [
+    {"woord": "amendement", "uitleg": "Een voorstel van Kamerleden om een wetsvoorstel te veranderen. Hier: het voorstel van PRO en Volt om grote vermogens iets meer te belasten en werkenden minder."},
+    {"woord": "derde termijn", "uitleg": "Een extra ronde in het debat, na de eerste en tweede termijn, waarin Kamerleden nog eens kort spreken en moties kunnen indienen."},
+    {"woord": "minderheidskabinet", "uitleg": "Een kabinet zonder meerderheid in de Kamer. Samenwerking met de oppositie is dan nodig om tot meerderheden te komen."},
+    {"woord": "box 3", "uitleg": "Het deel van de inkomstenbelasting voor sparen en beleggen. Met 'twee schijven' bedoelen sprekers een apart tarief voor hogere en voor lagere vermogens."},
+    {"woord": "ontraden", "uitleg": "Het kabinet raadt de Kamer af om voor een voorstel te stemmen."},
+    {"woord": "tussenformatie", "uitleg": "Nieuwe onderhandelingen over een kabinet tijdens de periode van deze Kamer, zonder eerst verkiezingen te houden."}
+  ],
+  "strip": [
+    {
+      "spreker_id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+      "emotie": "boos",
+      "citaat": "Het gaat om 1 miljard euro extra belasting op vermogen, tegenover 879 miljoen euro verlichting voor werkenden. … We hebben het over gemiddeld ongeveer €8 per maand per werkende Nederlander.",
+      "tekst": {
+        "normaal": "1 miljard extra belasting op vermogen, tegen 879 miljoen verlichting. Dat is gemiddeld €8 per maand per werkende.",
+        "makkelijk": "Er komt 1 miljard extra belasting op vermogen. Werkenden krijgen gemiddeld €8 per maand."
+      }
+    },
+    {
+      "spreker_id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+      "emotie": "vastberaden",
+      "citaat": "Deze kabinetscrisis is onnodig en onverantwoord. … Plotseling gooiden D66 en CDA gisteren de rechtse deur dicht, nog voordat er ook maar één dag onderhandeld is met rechts.",
+      "tekst": {
+        "normaal": "Deze kabinetscrisis is onnodig en onverantwoord. D66 en CDA gooiden de rechtse deur dicht, zonder één dag onderhandelen.",
+        "makkelijk": "Deze crisis is onnodig. D66 en CDA sloten de deur naar rechts, zonder te onderhandelen."
+      }
+    },
+    {
+      "spreker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+      "emotie": "vastberaden",
+      "citaat": "De Partij voor de Dieren steunt dit amendement, want het is goed voor Nederland … Voor een fooi van miljonairs dreigt de VVD nu zelfs het kabinet op te blazen.",
+      "tekst": {
+        "normaal": "Wij steunen het amendement. Voor een fooi van miljonairs dreigt de VVD het kabinet op te blazen.",
+        "makkelijk": "Wij steunen het voorstel. Voor een fooi dreigt de VVD het kabinet op te blazen."
+      }
+    },
+    {
+      "spreker_id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+      "emotie": "bezorgd",
+      "citaat": "Daarmee is het landsbelang eigenlijk versmald tot wie het eerst met zijn ogen knippert. Dan is die algehele situatie geen politiek leiderschap, maar politieke verlamming. … laat duidelijk zijn dat het de keuze van de VVD is hoe de VVD stemt.",
+      "tekst": {
+        "normaal": "Het landsbelang is versmald tot wie eerst knippert: politieke verlamming. Hoe de VVD stemt, is haar keuze.",
+        "makkelijk": "Alles draait om wie eerst toegeeft. Dat verlamt de politiek. De VVD kiest zelf."
+      }
+    },
+    {
+      "spreker_id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+      "emotie": "vastberaden",
+      "citaat": "Meneer Brekelmans, doe het. Stap eruit. Stem tegen het Belastingplan. U vindt mij dan trouwens aan uw zijde. Dan zijn we af van dit kabinet en kunnen we echt vooruit.",
+      "tekst": {
+        "normaal": "Meneer Brekelmans, doe het: stap eruit en stem tegen het Belastingplan. Dan zijn we af van dit kabinet.",
+        "makkelijk": "Meneer Brekelmans, stap eruit. Stem tegen. Dan zijn we af van dit kabinet."
+      }
+    },
+    {
+      "spreker_id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+      "emotie": "boos",
+      "citaat": "Het CDA en D66 hebben gekozen voor PRO en daarmee Nederland in de steek gelaten. … Dat is geen casinopolitiek. Het is veel erger: het is Russische roulette.",
+      "tekst": {
+        "normaal": "CDA en D66 kozen voor PRO en lieten Nederland in de steek. Dit is geen casinopolitiek, maar Russische roulette.",
+        "makkelijk": "CDA en D66 kozen PRO en lieten Nederland in de steek. Dit is Russische roulette."
+      }
+    },
+    {
+      "spreker_id": "78bfadde-92e9-4200-9324-ec3ff790a712",
+      "emotie": "bezorgd",
+      "citaat": "Nou, die deal is nu gewoon van tafel. … Twee schijven in box 3 kan de Belastingdienst toch niet aan? Ik wil graag duidelijkheid.",
+      "tekst": {
+        "normaal": "Onze deal met het kabinet is van tafel. Twee schijven in box 3 kan de Belastingdienst toch niet aan?",
+        "makkelijk": "Onze afspraak met het kabinet is van tafel. Kan de Belastingdienst dit wel aan?"
+      }
+    },
+    {
+      "spreker_id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+      "emotie": "vastberaden",
+      "citaat": "volgens mij moet dit geen eindpunt zijn en geen instabiel kabinet of kabinetscrisis tot gevolg hebben. … Dit moet een vertrekpunt zijn: een vertrekpunt waarbij we laten zien dat samenwerken en bruggen bouwen iets is wat iedereen mag verwachten",
+      "tekst": {
+        "normaal": "Volgens mij moet dit geen kabinetscrisis tot gevolg hebben. Het moet een vertrekpunt zijn voor samenwerken.",
+        "makkelijk": "Dit moet volgens mij geen crisis worden, maar een begin van samenwerking."
+      }
+    }
+  ]
+}
