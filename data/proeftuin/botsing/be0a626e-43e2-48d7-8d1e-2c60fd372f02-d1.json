@@ -1,0 +1,65 @@
+{
+ "debat": "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1",
+ "kop": "Plenair debat · 12 nov 2026",
+ "vraag": "Stemmen de drie coalitiepartijen samen voor het Belastingplan 2027?",
+ "vraag_bron": "Kamerstuk/agendapunt 'Pakket Belastingplan 2027' (voorzitter: 'Aan de orde is het Pakket Belastingplan 2027. Het betreft de derde termijn.') plus de vraag van Van Baarle (DENK) in beurt 78. De voorzitter noemt geen reden voor de derde termijn; de vraagzin steunt dus op een spreker, niet op de voorzitter.",
+ "partijen_totaal": 16,
+ "afloop": "Over dit deel van het debat zijn geen moties ingediend. De stemming over het Belastingplan staat nog niet in onze data.",
+ "versies": {
+  "a": {
+   "regel": "Langste wisseling tussen twee sprekers (meeste beurten over en weer, voorzitter niet meegeteld). Vraag: de vraagzinnen uit de eerste beurt van de vraagsteller. Antwoord: de eerste twee zinnen van het antwoord.",
+   "wisseling": "Van Baarle (DENK) ↔ Paternotte (D66), beurt 78–86, 9 beurten",
+   "afgevallen": [
+    "Klaver (PRO) ↔ Vermeer (BBB), 7 beurten",
+    "Klaver (PRO) ↔ Schenk (FVD), 7 beurten",
+    "Bikker (ChristenUnie) ↔ Klaver (PRO), 7 beurten",
+    "Paternotte (D66) ↔ Wilders (PVV), 7 beurten"
+   ],
+   "citaten": [
+    {
+     "beurt": 78,
+     "naam": "Stephan Van Baarle",
+     "partij": "DENK",
+     "citaat": "Is er binnen de drie coalitiepartijen, in welke situatie dan ook, nog steun voor het Belastingplan? Gaan de drie coalitiepartijen voor het Belastingplan stemmen of gaat men verdeeld stemmen?",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=interrupter2026-11-12T11%3A04%3A19%2B0100",
+     "tijd": "11:04"
+    },
+    {
+     "beurt": 79,
+     "naam": "Jan Paternotte",
+     "partij": "D66",
+     "citaat": "Ik ben woordvoerder van de grootste coalitiepartij; ik ben geen woordvoerder van alle coalitiepartijen. Maar ik denk het wel, omdat dit Belastingplan de basis is voor alle begrotingen en voor alles wat we samen willen doen.",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=speaker2026-11-12T11%3A04%3A59%2B0100",
+     "tijd": "11:04"
+    }
+   ]
+  },
+  "c": {
+   "regel": "De twee sprekers met de meeste spreektijd aan weerszijden. Nummer 1 en 2 zijn Paternotte (D66, 3694 woorden) en Klaver (PRO, 2912), maar die verdedigen samen hetzelfde amendement: geen botsing. Dus: Paternotte tegenover de spreker met de meeste spreektijd die zich tegen hem keerde én een eigen wisseling met hem had: Wilders (PVV, 692 woorden). Zelfde knipregel als a.",
+   "wisseling": "Wilders (PVV) ↔ Paternotte (D66), beurt 56–59, 7 beurten (inclusief voorzitter)",
+   "afgevallen": [
+    "Paternotte ↔ Klaver: zelfde kant",
+    "Van Baarle ↔ Paternotte: lagere spreektijd Van Baarle (621)"
+   ],
+   "citaten": [
+    {
+     "beurt": 56,
+     "naam": "Geert Wilders",
+     "partij": "PVV",
+     "citaat": "D66 heeft gisteren eigenlijk de facto binnen de coalitie — hoe zal ik het noemen? — een machtsgreep, een coup gepleegd. … Als u daarop terugkijkt, denkt u dan: dat heb ik goed gedaan?",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=interrupter2026-11-12T10%3A44%3A22%2B0100",
+     "tijd": "10:44"
+    },
+    {
+     "beurt": 57,
+     "naam": "Jan Paternotte",
+     "partij": "D66",
+     "citaat": "Het is echt totale onzin wat de heer Wilders hier schetst. Laat ik allereerst even de afspraken pakken die wij hebben gemaakt.",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=speaker2026-11-12T10%3A45%3A51%2B0100",
+     "tijd": "10:45"
+    }
+   ]
+  }
+ },
+ "afloop_kort": "Nog geen stemuitslag in onze data; geen moties in dit deel."
+}

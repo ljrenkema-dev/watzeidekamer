@@ -1,0 +1,72 @@
+<title>Botsingskaart proef</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+:root{--b-ink:#1d1b2e;--b-paper:#fbfaf7;--b-muted:#5d5a72;--b-line:#d9d6e4;--b-card:#f4efe4;--b-accent:#3b4cca}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--b-ink:#f1f0f7;--b-paper:#15141f;--b-muted:#a9a6bd;--b-line:#34324a;--b-accent:#8d9bff}}
+:root[data-theme="dark"]{--b-ink:#f1f0f7;--b-paper:#15141f;--b-muted:#a9a6bd;--b-line:#34324a;--b-accent:#8d9bff}
+body{background:var(--b-paper);color:var(--b-ink)}
+.bw{max-width:1100px;margin:0 auto;padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
+.bw h1{font-family:"Zen Maru Gothic",system-ui,sans-serif;font-weight:900;margin:0}
+.bw h2{font-family:"Zen Maru Gothic",system-ui,sans-serif;margin:0}
+.lede,.uitleg{color:var(--b-muted);max-width:75ch;margin:0}
+.rij{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start}
+/* de kaart zelf: altijd licht, zoals hij op sociale media komt */
+.kaart{position:relative;width:min(100%,360px);aspect-ratio:4/5;border-radius:10px;overflow:hidden;background:#f4efe4;color:#1d1b2e;
+  box-shadow:0 2px 10px rgba(0,0,0,.18);font-family:"Atkinson Hyperlegible",system-ui,sans-serif;container-type:inline-size;flex:0 0 auto}
+.kaart .bg{position:absolute;inset:0;opacity:.45}
+.kaart .bg svg{width:100%;height:100%}
+.kaart .in{position:relative;height:100%;box-sizing:border-box;padding:5cqw 5.5cqw 4cqw;display:flex;flex-direction:column;gap:2cqw}
+.kaart .kop{font-size:3.3cqw;letter-spacing:.04em;text-transform:uppercase;color:#4a4660;font-weight:700}
+.kaart .vraag{font-family:"Zen Maru Gothic",system-ui,sans-serif;font-weight:900;font-size:5.8cqw;line-height:1.1;margin:0}
+.kaart .cit{background:#fff;border:2px solid #1d1b2e;border-radius:4cqw;padding:2.4cqw 3.4cqw;font-size:3.25cqw;line-height:1.27}
+.kaart .cit p{margin:0 0 1.6cqw}
+.kaart .wie{font-size:3.4cqw;font-weight:700}
+.kaart .wie span{font-weight:400;color:#4a4660}
+.kaart .ook{font-size:3.4cqw;color:#4a4660;margin-top:auto}
+.kaart .afloop{font-size:3.2cqw;border-top:2px solid #1d1b2e;padding-top:1.8cqw}
+.kaart .voet{display:flex;justify-content:space-between;font-size:3.1cqw;color:#4a4660;gap:2cqw}
+.kaart .voet b{color:#1d1b2e;font-family:"Zen Maru Gothic",system-ui,sans-serif}
+.kaart .groot{font-size:6.4cqw}
+.kaart .nr{position:absolute;top:3cqw;right:4cqw;font-size:3cqw;color:#4a4660}
+.verslag{border:2px solid var(--b-line);border-radius:12px;padding:12px 14px;font-size:14px;max-width:75ch}
+.verslag dt{font-weight:700;margin-top:6px}.verslag dd{margin:0 0 4px 0;color:var(--b-muted)}
+.verslag a{color:var(--b-accent)}
+.strip-huidig{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:10px}
+.strip-huidig svg{width:100%;height:auto;display:block;border-radius:6px}
+</style>
+<div class="bw">
+<header><h1>Botsingskaart: proef</h1>
+<p class="lede">Een lokbeeld voor sociale media: de vraag van het debat en twee letterlijke citaten tegenover elkaar, zonder gezichten. Drie versies voor hetzelfde debat, met de huidige strip eronder ter vergelijking. Bij elke versie staat welke regel de citaten koos.</p></header>
+<section><h2>a. Eén beeld (4:5, Instagram)</h2><div class="rij" id="a"></div></section>
+<section><h2>b. Carrousel van drie dia's</h2><div class="rij" id="b"></div></section>
+<section><h2>c. Eén beeld, andere keuzeregel</h2><div class="rij" id="c"></div></section>
+<section><h2>De huidige strip van dit debat</h2><div class="strip-huidig" id="strip"></div></section>
+</div>
+<script src="strip.js"></script>
+<script>
+const K=__KAART__, S=__STRIP__;
+const esc2=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const bg=()=>`<div class="bg" aria-hidden="true"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">${SCENE.interruptie()}</svg></div>`;
+const voet=`<div class="voet"><b>Wat zei de Kamer?</b><span>citaten uit het verslag</span></div>`;
+const cit=c=>`<div class="cit"><p>“${esc2(c.citaat)}”</p><div class="wie">${esc2(c.naam)} <span>(${esc2(c.partij)})</span></div></div>`;
+const ook=`<div class="ook">Ook aan het woord: ${K.partijen_totaal-2} andere partijen</div>`;
+const afloop=`<div class="afloop"><b>Afloop:</b> ${esc2(K.afloop_kort||K.afloop)}</div>`;
+const kaart=(binnen,nr)=>`<div class="kaart">${bg()}${nr?`<div class="nr">${nr}</div>`:""}<div class="in">${binnen}</div></div>`;
+function verslag(v){const x=K.versies[v];
+  return `<dl class="verslag"><dt>Keuzeregel</dt><dd>${esc2(x.regel)}</dd><dt>Gekozen wisseling</dt><dd>${esc2(x.wisseling)}</dd>
+  <dt>Afgevallen</dt><dd>${x.afgevallen.map(esc2).join("; ")}</dd>
+  <dt>Bron van de vraagzin</dt><dd>${esc2(K.vraag_bron)}</dd>
+  <dt>Videomomenten</dt><dd>${x.citaten.map(c=>c.video?`<a href="${esc2(c.video)}" target="_blank" rel="noopener">▶ ${esc2(c.naam)}, ${esc2(c.tijd)}</a>`:esc2(c.naam)+": geen video").join(" · ")}</dd></dl>`;}
+function een(v){const x=K.versies[v];return kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag">${esc2(K.vraag)}</p>${x.citaten.map(cit).join("")}${ook}${afloop}${voet}`);}
+document.getElementById("a").innerHTML=een("a")+verslag("a");
+const A=K.versies.a;
+document.getElementById("b").innerHTML=
+  kaart(`<div class="kop">${esc2(K.kop)} · Pakket Belastingplan 2027, derde termijn</div><p class="vraag groot" style="font-size:9cqw;margin-top:8cqw">${esc2(K.vraag)}</p><div class="ook">Twee Kamerleden over en weer. Swipe →</div>${voet}`,"1/3")+
+  kaart(`<div class="kop">De botsing</div>${A.citaten.map(cit).join("")}${ook}${voet}`,"2/3")+
+  kaart(`<div class="kop">Hoe liep het af?</div><p class="vraag" style="font-size:6.2cqw">${esc2(K.afloop)}</p><div class="ook">Lees alle standpunten van ${K.partijen_totaal} partijen, de moties en het hele debat op de site.</div>${voet}`,"3/3");
+document.getElementById("c").innerHTML=een("c")+verslag("c");
+const looks={};for(const s of S.strip.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
+document.getElementById("strip").innerHTML=S.strip.strip.map((p0,i)=>{const p={...p0,tekst:p0.tekst.normaal||p0.tekst};return panelSVG(p,i,n=>looks[n]||LOOKS[0]);}).join("");
+</script>
