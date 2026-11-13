@@ -37,9 +37,14 @@ Voor elk vak, in **beide** taalniveaus:
 - Krijgt elke kant van de belangrijkste tegenstelling een stem, met haar sterkste argument?
 - Worden sprekers gelijk behandeld in toon (geen spot bij de één, respect bij de ander)?
 
+### 3b. Is elke ballon op zichzelf te begrijpen en de moeite waard?
+- Zegt elke ballon waaróver het gaat (niet alleen "ik dien een motie in")? Zie "Kies vakken die op zichzelf staan" in `prompts/strip.md`.
+- Laat de strip de botsing zien, met het sterkste moment van elke kant? Is een kant niet aansprekender gemaakt dan de andere?
+- Vervang een procedureel of nietszeggend vak door een sterker letterlijk citaat uit het debat, met dezelfde regels als bij juistheid.
+
 ### 4. Krijgt elke partij eerlijke ruimte?
 Gebruik de uitkomst van `evenwicht.py` als startpunt, niet als oordeel:
-- Iedere fractie die sprak, staat in "Wie vindt wat?".
+- Iedere fractie die sprak, staat bij "Standpunten per partij" (`sprekers`).
 - Een fractie met veel spreektijd en een eigen standpunt hoort een vak te hebben.
 - Geen fractie krijgt meer vakken dan haar rol in het debat rechtvaardigt.
 - Dat een minister veel spreektijd heeft maar minder vakken krijgt, is normaal: hij beantwoordt iedereen. Let er wel op dat zijn antwoord op de belangrijkste vraag in de strip staat.
