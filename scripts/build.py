@@ -165,6 +165,30 @@ def video_link(punt, i):
     return f"{dd['url']}/markeringen?event={urllib.parse.quote(m['soort'] + m['start'], safe='')}"
 
 
+def citaat_na(punt, vak):
+    """Geschat aantal seconden tussen het begin van de spreekbeurt en het citaat, of None.
+    Alleen als de spreekbeurt langer duurt dan 90 seconden (tot de volgende spreekbeurt):
+    de plek van het citaat in de tekst, omgerekend naar tijd."""
+    from check import norm
+    import re as _re
+    from datetime import datetime
+    i = beurt_index(punt, vak)
+    if i is None or i + 1 >= len(punt["beurten"]):
+        return None
+    b, volgende = punt["beurten"][i], punt["beurten"][i + 1]
+    if not b.get("begin") or not volgende.get("begin"):
+        return None
+    duur = (datetime.fromisoformat(volgende["begin"][:19]) - datetime.fromisoformat(b["begin"][:19])).total_seconds()
+    if duur <= 90:
+        return None
+    tekst = norm(b["tekst"])
+    stuk = _re.split(r"\s*(?:…|\.\.\.)\s*", norm(vak.get("citaat", "")))[0]
+    pos = tekst.find(stuk)
+    if pos < 0 or not tekst:
+        return None
+    return round(duur * pos / len(tekst))
+
+
 def video_knop(punt, i):
     url = video_link(punt, i)
     return (f'<a class="video" href="{e(url)}" target="_blank" rel="noopener" '
@@ -325,6 +349,7 @@ def debat(punt, strip):
                        "emotie": p["emotie"], "citaat": p["citaat"], "interruptie": is_interruptie(punt, p),
                        "beurt": beurt_index(punt, p) if p["spreker_id"] else None,
                        "video": video_link(punt, beurt_index(punt, p)) if p["spreker_id"] else None,
+                       "video_na": citaat_na(punt, p) if p["spreker_id"] else None,
                        "tekst": {"normaal": niv(p["tekst"], "normaal"), "makkelijk": niv(p["tekst"], "makkelijk")}})
     status = (f'<span class="tag warn">Voorlopig verslag</span>' if v["status"] in VOORLOPIG
               else '<span class="tag">Gecorrigeerd verslag</span>')
