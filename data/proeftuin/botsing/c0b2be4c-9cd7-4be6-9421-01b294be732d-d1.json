@@ -46,8 +46,6 @@
   "c": {
    "regel": "Hoofdtegenstelling van dit debatdeel: de Nederlandse opstelling tegenover Israël. Israël/Gaza kreeg de meeste spreektijd (Stoffer, Teunissen, Ceder en Dobbe besteedden er een groot deel van hun inbreng aan; Oekraïne kwam daarna, lng was één vraag van Stoffer). Stoffer (SGP) en Teunissen (PvdD) staan tegenover elkaar, maar reageerden niet direct op elkaar: beide citaten komen uit hun eigen inbreng. 'Genocide' is de bewering van Teunissen, alleen in haar citaat en niet in de vraag; 'in de ogen van Israël' bij Stoffer blijft staan (L1).",
    "wisseling": "Chris Stoffer (SGP) en Christine Teunissen (PvdD), beurt 4 en 11, geen directe wisseling",
-   "vraag": "Welke koers moet Nederland varen tegenover Israël?",
-   "vraag_bron": "Stoffer (beurt 4): \"wat gaat deze minister komend jaar doen om het vertrouwen van deze belangrijke partner te herwinnen?\"; Teunissen (beurt 11): \"Nederland kan veel meer en moet veel meer doen\".",
    "afgevallen": [
     "Dobbe (SP, beurt 15) over het Genocideverdrag: zelfde kant als Teunissen, minder concreet over wat Nederland moet doen",
     "Stoffer over BDS en een Hamas-netwerk bij demonstraties: gaat over beïnvloeding in Nederland, niet over het beleid tegenover Israël",
@@ -104,7 +102,9 @@
    "inkorten": [
     "Stoffer (beurt 4): zonder weglating, past.",
     "Teunissen (beurt 11): weggelaten de economische en politieke maatregelen (nederzettingen, erkenning Palestijnse Staat); geen voorbehoud, de strekking (Nederland moet meer doen) blijft. Past."
-   ]
+   ],
+   "vraag_oud": "Welke koers moet Nederland varen tegenover Israël?",
+   "vraag_bron_oud": "Stoffer (beurt 4): \"wat gaat deze minister komend jaar doen om het vertrouwen van deze belangrijke partner te herwinnen?\"; Teunissen (beurt 11): \"Nederland kan veel meer en moet veel meer doen\"."
   }
  },
  "partijen_totaal": 9,

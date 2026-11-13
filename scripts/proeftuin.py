@@ -34,7 +34,7 @@ def lees_strip(versie, pid):
 
 def debat_data(pid, strip):
     punt = json.loads((ROOT / "data" / "agendapunten" / f"{pid}.json").read_text())
-    html_, sprekers = build.debat(punt, strip)
+    html_, sprekers = build.debat(punt, strip, met_strip=True)
     data = json.loads(re.search(r"window\.STRIP=(\{.*?\});renderStrip", html_, re.S).group(1).replace("<\\/", "</"))
     bekend = {b["spreker"]["id"]: b["spreker"] for b in punt["beurten"]}
     tw = lambda x: x if isinstance(x, dict) else {"normaal": x, "makkelijk": x}

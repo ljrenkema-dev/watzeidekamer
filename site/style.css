@@ -152,3 +152,20 @@ table.standpunten tr.onderwerp th{background:#f3f1ea;font-size:15px;padding-top:
 .onderwerp-kop{font-size:1.05rem;margin:12px 0 4px}
 .summary p{margin:.3em 0}.summary ul.points{margin:.4em 0}
 .moties .motie p{margin:.3em 0}.moties .uitslag{font-size:15px}.moties details summary{cursor:pointer;font-weight:700}
+/* Botsingskaart op de debatpagina (richting C: de vraag voorop) */
+.kaart-site{border:2px solid var(--line);border-radius:12px;background:var(--panel);display:flex;flex-direction:column;min-width:0;overflow:hidden}
+.kaart-site .band{background:var(--marker);padding:18px;display:flex;flex-direction:column;gap:10px}
+.kaart-site .band .tag{background:none;padding:0;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
+.kaart-site h2{font-size:clamp(1.5rem,5vw,2.2rem);font-weight:900}
+.kaart-site .rest{padding:18px;display:flex;flex-direction:column;gap:14px}
+.kaart-site .paar{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:18px}
+.kaart-site .c{min-width:0;display:flex;flex-direction:column;gap:6px}
+.kaart-site blockquote{margin:0;font-size:17px;line-height:1.45}
+.kaart-site .w{font-weight:700;font-size:15px;display:flex;align-items:center;gap:10px}.kaart-site .w span{font-weight:400;color:var(--muted)}
+.kaart-site .fg{display:block;flex:0 0 auto;width:76px;aspect-ratio:1/1;box-sizing:border-box;background:#fff;border-radius:50%;border:2px solid var(--ink);overflow:hidden}
+.kaart-site .fg svg{width:100%;height:100%;display:block}
+.kaart-site .vid{font-size:14px}.kaart-site .ookl{color:var(--muted);font-size:15px;margin:0}
+.afloop{border-left:4px solid var(--marker);background:var(--tone);padding:10px 14px;border-radius:0 8px 8px 0;display:flex;flex-direction:column;gap:4px;min-width:0}
+.afloop .lab{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.afloop .bij{font-size:13px;color:var(--muted)}
+.item .vraag{font-family:var(--display);font-weight:700;margin:0}
+.delenlijst .vraag{display:block;font-family:var(--display);font-weight:700}

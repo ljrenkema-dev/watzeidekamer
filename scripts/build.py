@@ -3,7 +3,7 @@
 Gebruik: python3 scripts/build.py
 Alleen strips die door scripts/check.py komen, worden gepubliceerd.
 """
-import html, json, shutil, sys
+import html, json, re, shutil, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -61,6 +61,69 @@ def deel_tag(punt):
     return f'<span class="tag">Deel {d["nummer"]} van {d["van"]}: {e(d["fase"])}</span>' if d else ""
 
 
+# ---------- botsingskaart (vervangt de strip op de site) ----------
+KAART_DIR = ROOT / "data" / "proeftuin" / "botsing"
+
+
+def lees_kaart(pid):
+    f = KAART_DIR / f"{pid}.json"
+    return json.loads(f.read_text()) if f.exists() else None
+
+
+def kaart_versie(K):
+    """Versie a, tenzij het onderwerp van a een bijzaak is (minder dan 10% spreektijd) en er een versie c is."""
+    a = K["versies"]["a"]
+    return "c" if "c" in K["versies"] and re.search("bijzaak", a.get("aandeel_onderwerp") or "", re.I) else "a"
+
+
+def kaart_citaat(c):
+    return ("… " if re.match(r"[a-zà-ÿ]", c["citaat"]) else "") + c["citaat"]
+
+
+def kaart_fig(c, cls="fg"):
+    f = c.get("figuur")
+    if not f:
+        return ""
+    return f'<i class="{cls}" role="img" aria-label="Figuur van {e(c["naam"])}" data-fig="{e(json.dumps(f, ensure_ascii=False))}"></i>'
+
+
+def kaart_afloop(K):
+    a = K.get("afloop_data") or {}
+    bij = ("Vaste toestand: dit verandert niet meer." if a.get("status") == "geen_moties" and re.search("vragenuur", K["kop"], re.I)
+           else f"Bijgewerkt op {datum(a['stand'])}" if a.get("stand") else "")
+    return (f'<div class="afloop"><span class="lab">Afloop</span><span>{e(a.get("lang") or "")}</span>'
+            f'{f"<span class=bij>{e(bij)}</span>" if bij else ""}</div>')
+
+
+def kaart_ook(K, v):
+    x = K["versies"][v]
+    op = len({c["figuur"]["fractie"] for c in x["citaten"] if c.get("figuur") and c["figuur"].get("fractie")})
+    n = (K.get("partijen_totaal") or 0) - op
+    if K.get("ook_tekst") and v == "a":
+        return K["ook_tekst"]
+    return f"Ook aan het woord: {n} andere {'partij' if n == 1 else 'partijen'}" if n > 0 else ""
+
+
+def kaart_site(K):
+    v = kaart_versie(K)
+    x = K["versies"][v]
+    vraag = x.get("vraag") or K["vraag"]
+    paar = "".join(
+        f'<div class="c"><blockquote>“{e(kaart_citaat(c))}”</blockquote>'
+        f'<div class="w">{kaart_fig(c)}<div>{e(c["naam"])} <span>· {e(c["partij"])}</span></div></div>'
+        + (f'<a class="vid" href="{e(c["video"])}" target="_blank" rel="noopener">▶ Bekijk dit moment in de video ({e(c.get("tijd") or "")})</a>' if c.get("video") else "")
+        + f'<a class="vid" href="../v/{e(K["debat"])}.html#b{c["beurt"]}">Lees in het debat</a></div>'
+        for c in x["citaten"])
+    ook = kaart_ook(K, v)
+    return (f'<article class="kaart-site"><div class="band"><span class="tag">{e(K["kop"])}</span><h2>{e(vraag)}</h2></div>'
+            f'<div class="rest"><div class="paar">{paar}</div>'
+            f'<p class="ookl">{e(ook)}{". " if ook else ""}<a href="#standpunten">Lees alle standpunten</a></p>{kaart_afloop(K)}</div></article>')
+
+
+KAART_JS = ('<script src="{root}strip.js"></script><script>document.querySelectorAll("[data-fig]").forEach(el=>{const f=JSON.parse(el.dataset.fig);'
+            'el.innerHTML=\'<svg viewBox="16 6 68 78" preserveAspectRatio="xMidYMin slice">\'+character(makeLook(f.id,f.fractie,f.u),"neutraal")+"</svg>";});</script>')
+
+
 def politici(strips, uiterlijk, koppeling):
     """Pagina per politicus met activiteit uit alle verwerkte agendapunten."""
     mensen = {}
@@ -95,7 +158,9 @@ def politici(strips, uiterlijk, koppeling):
             v = punt["vergadering"]
             kop = (f'<a href="../d/{punt["id"]}.html">{twee(strip["titel"])}</a>' if strip else e(punt["titel"]))
             standpunt = next((x["standpunt"] for x in (strip or {}).get("sprekers", []) if x["id"] in m["ids"]), None)
-            citaten = [x["citaat"] for x in (strip or {}).get("strip", []) if x["spreker_id"] in m["ids"]]
+            K = lees_kaart(punt["id"])
+            citaten = [kaart_citaat(c) for c in K["versies"][kaart_versie(K)]["citaten"]
+                       if (c.get("figuur") or {}).get("id") in m["ids"]] if K else []
             items.append(f"""<li class="item"><div class="meta"><span>{datum(v['datum'])}</span><span class="tag">{e(v['soort'])}</span>
 {deel_tag(punt)}<span>{d['beurten']} keer gesproken{f", {d['interrupties']} interrupties" if d['interrupties'] else ""}</span></div>
 <h3>{kop}</h3>{('<p class="note">Agendapunt: ' + e(punt['titel']) + '</p>') if strip else '<p class="note">Nog geen samenvatting voor dit debat.</p>'}
@@ -262,7 +327,8 @@ def verslag_pagina(punt, strip):
     bron = f"https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Verslag({v['verslag_id']})/resource"
     status = ("Dit is het <b>ongecorrigeerde</b> verslag: sprekers kunnen nog kleine correcties doorgeven."
               if v["status"] in VOORLOPIG else "Dit is het gecorrigeerde verslag.")
-    in_strip = {beurt_index(punt, x) for x in strip["strip"] if x.get("spreker_id")}
+    K = lees_kaart(punt["id"])
+    in_strip = {c["beurt"] for c in K["versies"][kaart_versie(K)]["citaten"]} if K else set()
     rijen, vorige_tijd = [], ""
     for i, b in enumerate(punt["beurten"]):
         sp = b["spreker"]
@@ -275,7 +341,7 @@ def verslag_pagina(punt, strip):
         if b["rol"] == "interrumpant":
             tags.append('<span class="tag">interruptie</span>')
         if i in in_strip:
-            tags.append('<span class="tag strip-tag">in de strip</span>')
+            tags.append('<span class="tag strip-tag">op de kaart</span>')
         alineas = "".join(f"<p>{e(a)}</p>" for a in b["tekst"].split("\n") if a.strip())
         kop = (e(naam) if b.get("voorzitter") or not wat
                else f'<a href="../p/{slug(naam)}.html">{e(naam)}</a> <span class="party">({e(wat)})</span>')
@@ -286,12 +352,12 @@ def verslag_pagina(punt, strip):
                      f'<a class="anker" href="#b{i}" aria-label="Link naar deze spreekbeurt">#</a></header>{alineas}</article>')
         vorige_tijd = tijd or vorige_tijd
     body = f"""<main class="out" style="display:flex;flex-direction:column;gap:16px">
-<p><a href="../d/{e(punt['id'])}.html">← Terug naar de samenvatting en de strip</a></p>
+<p><a href="../d/{e(punt['id'])}.html">← Terug naar de samenvatting</a></p>
 <div class="meta"><span>{datum(v['datum'])}</span><span class="tag">{e(v['soort'])}</span></div>
 <h1>Het hele debat</h1>
 <p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
 <p class="note">Hieronder staan alle spreekbeurten, letterlijk en in volgorde uit het verslag van de Tweede Kamer. {status}
-Spreekbeurten die in de strip staan, zijn gemarkeerd.</p>
+{"Spreekbeurten waaruit een citaat op de kaart komt, zijn gemarkeerd." if K else ""}</p>
 <div class="verslag">{"".join(rijen)}</div>
 <p class="note">Bron: <a href="{e(bron)}">officieel verslag van de Tweede Kamer</a> (XML, {e(v['titel'])}). Met ▶ video bekijk je een spreekbeurt in Debat Direct, de videodienst van de Tweede Kamer.</p>
 </main>"""
@@ -328,7 +394,7 @@ def redactie_regel(punt, strip):
     if r.get("onafhankelijk") is False:
         return '<p class="note">Nog niet onafhankelijk nagelezen door de redactie.</p>'
     if r.get("verslag_id") != strip.get("verslag_id"):
-        return '<p class="note">Het verslag is bijgewerkt; de redactie leest deze strip opnieuw na.</p>'
+        return '<p class="note">Het verslag is bijgewerkt; de redactie leest deze pagina opnieuw na.</p>'
     if "onafhankelijke_eerste_lezing" in r:  # de eigen controle van de schrijver telt niet mee
         n = sum(len((r.get(k) or {}).get("bevindingen", [])) for k in ("onafhankelijke_eerste_lezing", "onafhankelijke_tweede_lezing"))
     else:
@@ -353,7 +419,7 @@ def page(title, body, scripts="", root=""):
 </head><body><div class="wrap">
 <header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><a href="{root}p/index.html">Politici</a><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
 {body}
-<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="{root}over.html">Zo werken we</a>.</footer>
+<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="{root}over.html">Zo werken we</a>.</footer>
 </div>{scripts}<script>
 (function(){{const k=document.getElementById("taalknop");
 function zet(t){{document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
@@ -379,7 +445,8 @@ def wie(sp):
     return f"{sp['verslagnaam']}, {sp['functie']}"
 
 
-def debat(punt, strip):
+def debat(punt, strip, met_strip=False):
+    """Debatpagina. Op de site staat de kaart; met_strip=True geeft de oude stripdata mee (voor de proeftuin)."""
     bekend = {b["spreker"]["id"]: b["spreker"] for b in punt["beurten"]}
     v = punt["vergadering"]
     def lees(naam):
@@ -424,7 +491,7 @@ def debat(punt, strip):
             eerste_vak_nr[p_["spreker_id"]] = nr
     def naar_vak(sid):
         nr = eerste_vak_nr.get(sid)
-        return f'<a class="naar-vak" href="#vak{nr}">Zie vak {nr} in de strip</a>' if nr else ""
+        return ""
     def rij(s):
         return (f'<tr><th scope="row">{e(s["fractie"] or "Kabinet")}</th>'
                 f'<td><a href="../p/{slug(s["naam"])}.html">{e(s["naam"])}</a>{"" if s["fractie"] else ", " + e(s["functie"])}</td>'
@@ -489,6 +556,8 @@ def debat(punt, strip):
         if sid not in per_id:
             sprekers.append({"id": sid, **bekend[sid], "standpunt": "", "label": bekend[sid]["verslagnaam"],
                              "uiterlijk": kenmerken(sid), "alleen_strip": True})
+    K = lees_kaart(punt["id"])
+    kaart_html = kaart_site(K) if K else ""
     kp = strip["kernpunten"]
     kp = kp if isinstance(kp, dict) else {"normaal": kp, "makkelijk": kp}
     lijst = lambda xs: "".join(f"<li>{e(k)}</li>" for k in xs)
@@ -507,19 +576,20 @@ def debat(punt, strip):
 <h1>{twee(strip['titel'])}</h1>
 <p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
 {tekstblok(strip['samenvatting'], "summary")}
-<h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>
-{('<p class="note keuze">' + twee(strip['keuze_onderwerp']) + ' <a href="../over.html#onderwerp">Hoe kiezen we?</a></p>') if strip.get('keuze_onderwerp') else ''}
-<p class="note">Elk vak toont een letterlijk citaat uit het verslag. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a> · <a href="../over.html">Zo werken we</a></p>
-<h2>Standpunten per partij</h2>
-<p class="note">{aantal_partijen} {"partij" if aantal_partijen == 1 else "partijen"}{" en het kabinet" if heeft_kabinet else ""} in dit debat. Niet elke partij staat in de strip; hier staan ze allemaal.</p>
+{kaart_html}
+<p class="note">{"De citaten op de kaart zijn letterlijk en automatisch gecontroleerd op het verslag. " if kaart_html else ""}<a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a> · <a href="../over.html#kaart">Zo werken we</a></p>
+<h2 id="standpunten">Standpunten per partij</h2>
+<p class="note">{aantal_partijen} {"partij" if aantal_partijen == 1 else "partijen"}{" en het kabinet" if heeft_kabinet else ""} in dit debat.{" Niet elke partij staat op de kaart; hier staan ze allemaal." if kaart_html else ""}</p>
 <div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{standpunten}</tbody></table></div>
 {moties_blok(punt)}
 <h2>Belangrijk om te weten</h2>{kern}
 {'<h2>Moeilijke woorden</h2><div class="words">' + woorden + '</div>' if woorden else ''}
-{redactie_regel(punt, strip)}<p class="note">De strip laat alleen zien wat in het verslag staat. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a>, of bekijk het <a href="{e(bron)}">officiële verslag van de Tweede Kamer</a> (XML).</p>
+{redactie_regel(punt, strip)}<p class="note">Deze pagina laat alleen zien wat in het verslag staat. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a>, of bekijk het <a href="{e(bron)}">officiële verslag van de Tweede Kamer</a> (XML).</p>
 </main>"""
-    data = json.dumps({"sprekers": sprekers, "strip": vakken, "verslag": f"../v/{punt['id']}.html"}, ensure_ascii=False).replace("</", "<\\/")
-    scripts = f'<script src="../strip.js"></script><script>window.STRIP={data};renderStrip(window.STRIP);</script>'
+    scripts = KAART_JS.replace("{root}", "../") if kaart_html else ""
+    if met_strip:
+        data = json.dumps({"sprekers": sprekers, "strip": vakken, "verslag": f"../v/{punt['id']}.html"}, ensure_ascii=False).replace("</", "<\\/")
+        scripts = f'<script src="../strip.js"></script><script>window.STRIP={data};renderStrip(window.STRIP);</script>'
     return page(f"{niv(strip['titel'], 'normaal')} – Wat zei de Kamer?", body, scripts, root="../"), sprekers
 
 
@@ -551,12 +621,12 @@ def item_html(it):
     delen = ""
     if it.get("delen"):
         delen = '<ol class="delenlijst">' + "".join(
-            f'<li><a href="d/{x["id"]}.html">Deel {x["deel"]["nummer"]}: {e(x["deel"]["fase"])}</a> — {twee(x["titel"])}</li>'
+            f'<li><a href="d/{x["id"]}.html">Deel {x["deel"]["nummer"]}: {e(x["deel"]["fase"])}</a> — {twee(x["titel"])}{(" <span class=vraag>" + e(x["vraag"]) + "</span>") if x.get("vraag") else ""}</li>'
             for x in it["delen"]) + "</ol>"
     return (f'<li class="item" data-zoek="{e(it["zoek"].lower())}" data-fracties="{e("|".join(it["fracties"]))}">'
             f'<div class="meta"><span>{datum(it["datum"])}</span><span class="tag">{e(it["soort"])}</span>'
             f'{"<span class=\"tag warn\">Voorlopig</span>" if it["voorlopig"] else ""}</div>'
-            f'<h3>{kop}</h3>{twee(it["lead"], "p")}{delen}'
+            f'<h3>{kop}</h3>{("<p class=vraag>" + e(it["vraag"]) + "</p>") if it.get("vraag") else ""}{twee(it["lead"], "p")}{delen}'
             f'<div class="chips">{"".join(f"<span class=chip>{e(f)}</span>" for f in it["fracties"])}</div></li>')
 
 
@@ -567,7 +637,7 @@ def index(items):
     opties = "".join(f'<option value="{e(p)}">{e(p)}</option>' for p in partijen)
     body = f"""<main style="display:flex;flex-direction:column;gap:20px">
 <h1>Wat zei de <mark>Kamer?</mark></h1>
-<p class="lede">Debatten uit de Tweede Kamer in normale taal, met een strip. Elk plaatje laat zien wat er echt gezegd is.</p>
+<p class="lede">Debatten uit de Tweede Kamer in normale taal. Bovenaan elk debat de vraag waar het om draaide, met twee letterlijke citaten van wie er tegenover elkaar stonden.</p>
 <div class="filters"><label for="q" class="visually-hidden" style="position:absolute;left:-9999px">Zoeken</label>
 <input id="q" type="search" placeholder="Zoek op onderwerp of naam, bijvoorbeeld 'belasting'">
 <label for="partij" style="position:absolute;left:-9999px">Partij</label>
@@ -614,6 +684,7 @@ def main():
         v = punt["vergadering"]
         items.append({
             "id": pid, "deel": punt.get("deel"), "titel": strip["titel"] if isinstance(strip["titel"], dict) else {"normaal": strip["titel"]}, "datum": v["datum"], "soort": v["soort"], "begin": punt["begin"],
+            "vraag": (lambda K: (K["versies"][kaart_versie(K)].get("vraag") or K["vraag"]) if K else "")(lees_kaart(pid)),
             "voorlopig": v["status"] in VOORLOPIG, "lead": {n: niv(strip["samenvatting"], n).split(". ")[0].rstrip(".") + "." for n in ("normaal", "makkelijk")},
             "fracties": sorted({s["fractie"] for s in sprekers if s["fractie"]}),
             "zoek": " ".join([niv(strip["titel"], "normaal"), niv(strip["titel"], "makkelijk"), punt["titel"],
