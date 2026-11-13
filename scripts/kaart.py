@@ -111,17 +111,44 @@ def voor(pid):
               f"PARTIJEN DIE SPRAKEN ({len(partijen(p))}): {', '.join(partijen(p))}",
               f"AFLOOP (alleen ter informatie; het script vult de afloop zelf in en werkt hem bij): {afloop(pid)}", ""]
     w = wisselingen(p)
+    totaal = sum(len(b["tekst"].split()) for b in B if not is_vz(b)) or 1
+    regels.append(f"TOTALE SPREEKTIJD (woorden, zonder voorzitter): {totaal}. Bijzaak = onderwerp met minder dan 10% daarvan "
+                  f"({totaal // 10} woorden). Per beurt staat hieronder het aantal woorden.")
     if not w or len(w[0]) < 3:
         regels.append("GEEN ECHTE WISSELING (minder dan 3 beurten over en weer).")
     for n, c in enumerate(w[:3], 1):
         namen = " ↔ ".join(sorted({wie(B[i]) for i, _ in c}))
-        regels.append(f"=== WISSELING {n}: {namen}, {len(c)} beurten (beurt {c[0][0]}–{c[-1][0]}) ===")
+        wn = sum(len(B[i]["tekst"].split()) for i, _ in c)
+        regels.append(f"=== WISSELING {n}: {namen}, {len(c)} beurten (beurt {c[0][0]}–{c[-1][0]}), {wn} woorden = {100 * wn // totaal}% van de spreektijd ===")
         for i, _ in c:
-            regels.append(f"[{i}] {wie(B[i])} | {B[i]['rol']}\n{B[i]['tekst']}\n")
+            regels.append(f"[{i}] {wie(B[i])} | {B[i]['rol']} | {len(B[i]['tekst'].split())} woorden\n{B[i]['tekst']}\n")
+    regels.append("\nALLE BEURTEN (nummer, spreker, woorden, eerste regel) om de spreektijd per onderwerp te tellen:")
+    for i, b in enumerate(B):
+        if not is_vz(b):
+            regels.append(f"[{i}] {wie(b)} | {len(b['tekst'].split())} w | {b['tekst'][:110]}")
     uit = ROOT / "data" / "compact" / f"kaart_{pid}.txt"
     uit.parent.mkdir(parents=True, exist_ok=True)
     uit.write_text("\n".join(regels))
     print(f"{uit}: {len(uit.read_text().split())} woorden, {len(w)} wisselingen")
+
+
+def aandeel(pid, patroon):
+    """Aandeel spreektijd van een onderwerp: woorden in de zinnen die het onderwerp noemen (regex, hoofdletterongevoelig),
+    gedeeld door alle woorden zonder de voorzitter. Op zinsniveau, omdat één beurt vaak meer onderwerpen heeft."""
+    p = laad(pid)
+    tot = sum(len(b["tekst"].split()) for b in p["beurten"] if not is_vz(b)) or 1
+    rx = re.compile(patroon, re.I)
+    w, beurten = 0, []
+    for i, b in enumerate(p["beurten"]):
+        if is_vz(b):
+            continue
+        zinnen = [z for z in re.split(r"(?<=[.?!])\s+", b["tekst"]) if rx.search(z)]
+        if zinnen:
+            w += sum(len(z.split()) for z in zinnen); beurten.append(i)
+    pct = round(100 * w / tot)
+    print(f"{pct}% ({w} van {tot} woorden) in beurten {beurten[:12]}{'…' if len(beurten) > 12 else ''}"
+          + (" → BIJZAAK (onder 10%)" if pct < 10 else ""))
+    return pct, beurten
 
 
 def check(pid):
@@ -137,6 +164,11 @@ def check(pid):
     koppeling = json.loads((ROOT / "data" / "sprekers.json").read_text())
     for naam, v in (k.get("versies") or {}).items():
         cs = v.get("citaten") or []
+        if not v.get("aandeel_onderwerp"):
+            fouten.append(f"versie {naam}: 'aandeel_onderwerp' ontbreekt (geschat % spreektijd van het onderwerp, met de beurten waarop dat steunt)")
+        beurten = [c.get("beurt") for c in cs]
+        if len(beurten) == 2 and all(isinstance(x, int) for x in beurten) and beurten[0] > beurten[1]:
+            fouten.append(f"versie {naam}: wie het eerst sprak staat bovenaan (beurt {beurten[1]} komt vóór {beurten[0]})")
         if not 1 <= len(cs) <= 2:
             fouten.append(f"versie {naam}: 1 of 2 citaten nodig")
         for c in cs:
@@ -146,7 +178,7 @@ def check(pid):
             for s in [x.strip() for x in c["citaat"].split(" … ")]:
                 if len(s.split()) < 5 or norm(s) not in norm(B[i]["tekst"]):
                     fouten.append(f"versie {naam}, beurt {i}: niet letterlijk of korter dan 5 woorden: {s[:60]}")
-            zinnen = len(re.findall(r"[.?!](?:\s|$)", c["citaat"]))
+            zinnen = len(re.findall(r"[.?!](?:\s+(?![—–-])|$)", c["citaat"]))  # "? —" midden in een zin telt niet
             if zinnen > 2:
                 fouten.append(f"versie {naam}, beurt {i}: {zinnen} zinnen, hooguit 2")
             sp = B[i]["spreker"]
@@ -171,5 +203,7 @@ def check(pid):
 if __name__ == "__main__":
     if sys.argv[1] == "bijwerken":
         bijwerken()
+    elif sys.argv[1] == "aandeel":
+        aandeel(sys.argv[2], sys.argv[3])
     else:
         {"voor": voor, "check": check}[sys.argv[1]](sys.argv[2])

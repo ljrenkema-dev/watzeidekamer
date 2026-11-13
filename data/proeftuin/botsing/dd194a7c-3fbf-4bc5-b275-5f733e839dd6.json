@@ -24,7 +24,27 @@
      "partij": "PRO",
      "citaat": "Minister Kamp heeft willens en wetens een praktijk toegestaan waarvan hij wist dat die juridisch omstreden was. … Mijn eerste vraag aan de minister is dan ook: acht hij het ministerie aansprakelijk?",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=speaker2026-11-10T14%3A00%3A23%2B0100",
-     "tijd": "14:00"
+     "tijd": "14:00",
+     "figuur": {
+      "id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+      "fractie": "PRO",
+      "u": {
+       "gezicht": "v",
+       "haarkleur": "blond",
+       "kapsel": "half-lang",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "gezichtsvorm": "rond",
+       "wenkbrauw": "dun",
+       "kleding": "colbert-top",
+       "onder": "donker",
+       "oorbel": "ring",
+       "manga": "3dd43fe1-c99a-4826-b08f-4ed3fc0dd9ba"
+      }
+     }
     },
     {
      "beurt": 3,
@@ -32,9 +52,28 @@
      "partij": "minister van SZW",
      "citaat": "Naar mijn mening, als ik er goed naar kijk, is er niets gebeurd wat juridisch niet door de beugel kon. … Ik ga hier nu ook geen uitspraken doen over wie daar dan verantwoordelijk voor is en niet.",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=speaker2026-11-10T14%3A01%3A19%2B0100",
-     "tijd": "14:01"
+     "tijd": "14:01",
+     "figuur": {
+      "id": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+      "fractie": "",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "grijs",
+       "kapsel": "kort-dun",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "ouder",
+       "spiegel": false,
+       "gezichtsvorm": "rond",
+       "wenkbrauw": "dun",
+       "kleding": "colbert-open",
+       "manga": "19c8d0fb-66ca-4b45-be82-057cb36e1e61"
+      }
+     }
     }
-   ]
+   ],
+   "aandeel_onderwerp": "niet van toepassing: vragenuur, onderwerp volgt de vraagvolgorde en de spreidingsregel (uitzendkrachten: 10% van het hele vragenuur, uitzend|gelijk loon|gelijkwaardig|richtlijn|flexwerk)"
   },
   "c": {
    "regel": "Zelfde wisseling, maar de laatste ronde in plaats van de eerste: waar de twee het verschil zelf benoemen ('gelijkwaardig' of 'gelijk' in de wet). Laat zien dat de keuze van de ronde de kaart sterk bepaalt: a gaat over schuld in het verleden, c over de wet van nu.",
@@ -50,7 +89,27 @@
      "partij": "PRO",
      "citaat": "Het gaat erom dat er in die sector zo'n construct bedacht wordt om mensen minder te kunnen betalen. … dit gebeurt doordat er \"gelijkwaardig\" in de wet staat en niet \"gelijk\".",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=interrupter2026-11-10T14%3A09%3A45%2B0100",
-     "tijd": "14:09"
+     "tijd": "14:09",
+     "figuur": {
+      "id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+      "fractie": "PRO",
+      "u": {
+       "gezicht": "v",
+       "haarkleur": "blond",
+       "kapsel": "half-lang",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "gezichtsvorm": "rond",
+       "wenkbrauw": "dun",
+       "kleding": "colbert-top",
+       "onder": "donker",
+       "oorbel": "ring",
+       "manga": "3dd43fe1-c99a-4826-b08f-4ed3fc0dd9ba"
+      }
+     }
     },
     {
      "beurt": 13,
@@ -58,9 +117,28 @@
      "partij": "minister van SZW",
      "citaat": "Ik zeg het toch nog één keer: de Kamer heeft in meerderheid gekozen voor \"gelijkwaardig\" en niet voor \"gelijk\". Daar was een reden voor, namelijk dat je uitzendarbeid op dezelfde flexibele manier wil kunnen blijven inzetten als dat je nu doet.",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=speaker2026-11-10T14%3A10%3A11%2B0100",
-     "tijd": "14:10"
+     "tijd": "14:10",
+     "figuur": {
+      "id": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+      "fractie": "",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "grijs",
+       "kapsel": "kort-dun",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "ouder",
+       "spiegel": false,
+       "gezichtsvorm": "rond",
+       "wenkbrauw": "dun",
+       "kleding": "colbert-open",
+       "manga": "19c8d0fb-66ca-4b45-be82-057cb36e1e61"
+      }
+     }
     }
-   ]
+   ],
+   "aandeel_onderwerp": "niet van toepassing: vragenuur, onderwerp volgt de vraagvolgorde en de spreidingsregel (uitzendkrachten: 10% van het hele vragenuur, uitzend|gelijk loon|gelijkwaardig|richtlijn|flexwerk)"
   }
  },
  "afloop_data": {

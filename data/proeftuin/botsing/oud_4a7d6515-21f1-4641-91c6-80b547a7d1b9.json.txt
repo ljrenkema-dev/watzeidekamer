@@ -64,7 +64,8 @@
       }
      }
     }
-   ]
+   ],
+   "aandeel_onderwerp": "ca. 3% (beurten 6–13, 3 beurten; geteld door de hoofdsessie)"
   }
  },
  "partijen_totaal": 10,

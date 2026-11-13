@@ -22,7 +22,21 @@
      "partij": "DENK",
      "citaat": "Is er binnen de drie coalitiepartijen, in welke situatie dan ook, nog steun voor het Belastingplan? Gaan de drie coalitiepartijen voor het Belastingplan stemmen of gaat men verdeeld stemmen?",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=interrupter2026-11-12T11%3A04%3A19%2B0100",
-     "tijd": "11:04"
+     "tijd": "11:04",
+     "figuur": {
+      "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "fractie": "DENK",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "zwart",
+       "kapsel": "kort-kort",
+       "bril": "geen",
+       "baard": "kort",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": false
+      }
+     }
     },
     {
      "beurt": 79,
@@ -30,9 +44,27 @@
      "partij": "D66",
      "citaat": "Ik ben woordvoerder van de grootste coalitiepartij; ik ben geen woordvoerder van alle coalitiepartijen. Maar ik denk het wel, omdat dit Belastingplan de basis is voor alle begrotingen en voor alles wat we samen willen doen.",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=speaker2026-11-12T11%3A04%3A59%2B0100",
-     "tijd": "11:04"
+     "tijd": "11:04",
+     "figuur": {
+      "id": "c284355b-902b-4073-a057-24daec031e39",
+      "fractie": "D66",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "bruin",
+       "kapsel": "kort-scheiding",
+       "bril": "geen",
+       "baard": "stoppel",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-das",
+       "manga": "2690bccc-5463-459a-b1df-cb93e222b348"
+      }
+     }
     }
-   ]
+   ],
+   "aandeel_onderwerp": "21% (coalitie|belastingplan|amendement)"
   },
   "c": {
    "regel": "De twee sprekers met de meeste spreektijd aan weerszijden. Nummer 1 en 2 zijn Paternotte (D66, 3694 woorden) en Klaver (PRO, 2912), maar die verdedigen samen hetzelfde amendement: geen botsing. Dus: Paternotte tegenover de spreker met de meeste spreektijd die zich tegen hem keerde én een eigen wisseling met hem had: Wilders (PVV, 692 woorden). Zelfde knipregel als a.",
@@ -48,7 +80,22 @@
      "partij": "PVV",
      "citaat": "D66 heeft gisteren eigenlijk de facto binnen de coalitie — hoe zal ik het noemen? — een machtsgreep, een coup gepleegd. … Als u daarop terugkijkt, denkt u dan: dat heb ik goed gedaan?",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=interrupter2026-11-12T10%3A44%3A22%2B0100",
-     "tijd": "10:44"
+     "tijd": "10:44",
+     "figuur": {
+      "id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+      "fractie": "PVV",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "platinablond",
+       "kapsel": "kort-kuif",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "ouder",
+       "spiegel": true,
+       "manga": "6d33b9bc-7d3a-4a60-b2d7-c2b70cd11ab1"
+      }
+     }
     },
     {
      "beurt": 57,
@@ -56,9 +103,27 @@
      "partij": "D66",
      "citaat": "Het is echt totale onzin wat de heer Wilders hier schetst. Laat ik allereerst even de afspraken pakken die wij hebben gemaakt.",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=speaker2026-11-12T10%3A45%3A51%2B0100",
-     "tijd": "10:45"
+     "tijd": "10:45",
+     "figuur": {
+      "id": "c284355b-902b-4073-a057-24daec031e39",
+      "fractie": "D66",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "bruin",
+       "kapsel": "kort-scheiding",
+       "bril": "geen",
+       "baard": "stoppel",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-das",
+       "manga": "2690bccc-5463-459a-b1df-cb93e222b348"
+      }
+     }
     }
-   ]
+   ],
+   "aandeel_onderwerp": "21% (coalitie|belastingplan|amendement)"
   }
  },
  "afloop_kort": "Geen moties in dit debat.",
