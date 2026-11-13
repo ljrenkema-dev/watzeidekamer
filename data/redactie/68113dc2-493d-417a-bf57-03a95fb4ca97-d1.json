@@ -122,5 +122,95 @@
       "nieuw": "Volgens hem zit er bij box 3 een gat van 17,5 miljard.",
       "waarom": "Het 'ongedekt bedrag van 17,5 miljard euro' is de bewering van Dijk."
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "onafhankelijk": true,
+    "deel_gecontroleerd": "Alle teksten gaan over dit deel (inbreng Brekelmans en Eerdmans, beurten 12.46-13.34 uur); geen inhoud uit andere delen gevonden. Alleen de uitleg van 'derde termijn' (moties toegestaan, op verzoek van de Kamer) komt uit de opening van het debat in een ander deel; die klopt en is uitleg, geen samenvatting.",
+    "bevindingen": [
+      {
+        "waar": "standpunt Keijzer normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L6",
+        "oud": "Keijzer vraagt of het denkbaar is dat de VVD-minister van Financiën een Belastingplan met het amendement uitvoert. / … of de VVD-minister het plan met het voorstel van PRO wil uitvoeren.",
+        "nieuw": "Wordt het Belastingplan met het amendement aangenomen, dan moet de VVD-minister van Financiën het uitvoeren; Keijzer vraagt of het denkbaar is dat de VVD dat meemaakt. / Komt het voorstel van PRO erdoor, dan moet de VVD-minister het uitvoeren. Kan de VVD dat meemaken, vraagt Keijzer.",
+        "waarom": "Keijzer: 'moet deze minister van Financiën dat wel uitvoeren. Het is toch niet denkbaar dat de VVD dat gaat meemaken?'; haar vraag gaat over de VVD, en 'moet' is niet 'wil'."
+      },
+      {
+        "waar": "standpunt Jimmy Dijk normaal",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L1",
+        "oud": "Hij vindt het vreemd dat de VVD wel instemt met de box 3-novelle, die volgens hem 17,5 miljard euro ongedekt laat.",
+        "nieuw": "Hij wijst erop dat de VVD wel zou instemmen met een novelle over box 3, waarbij het volgens hem gaat om een ongedekt bedrag van 17,5 miljard euro.",
+        "waarom": "Citaat: 'de partij zou zelf instemmen met een zogenaamde novelle'; 'zou' viel weg en 'vreemd' zei hij niet ('Het is maar wat je onverantwoord noemt')."
+      },
+      {
+        "waar": "standpunt Jimmy Dijk makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L2",
+        "oud": "Nu wil de VVD zelf tegenstemmen.",
+        "nieuw": "Nu stemt de VVD zelf tegen, als het voorstel van PRO erdoor komt.",
+        "waarom": "Dijk: 'als er zo meteen een meerderheid is voor het voorstel … de VVD gaat tegenstemmen'; de voorwaarde hoort erbij."
+      },
+      {
+        "waar": "kernpunten normaal 2 en makkelijk 2",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "… Wat er daarna gebeurt, wil Brekelmans niet op vooruitlopen. / (zonder uitweg)",
+        "nieuw": "… Op wat er daarna gebeurt, wil Brekelmans niet vooruitlopen. Wil een meerderheid langer doorpraten, dan staat de VVD open voor later stemmen. / Later stemmen vindt de VVD ook goed, als een meerderheid dat wil.",
+        "waarom": "Brekelmans noemt zelf de uitweg: 'kijken of er later gestemd kan worden … staan wij daar ook voor open'; ook de zin klopte taalkundig niet."
+      },
+      {
+        "waar": "samenvatting makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "(zonder fundamentele reset)",
+        "nieuw": "Een reset is volgens hem sowieso nodig.",
+        "waarom": "De normale samenvatting noemt 'sowieso een fundamentele reset nodig'; die viel bij de herschrijving door de eerste lezing in makkelijk weg."
+      },
+      {
+        "waar": "standpunt Eerdmans normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "volgens hem gooit het amendement van PRO en Volt die route over rechts definitief dicht.",
+        "nieuw": "volgens hem is het amendement van PRO en Volt inhoudelijk slecht en dom, en gooit het die route over rechts definitief dicht.",
+        "waarom": "De makkelijke versie zegt 'vindt het voorstel slecht', de normale niet; citaat: 'niet alleen inhoudelijk slecht en dom'."
+      },
+      {
+        "waar": "standpunt Wilders normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "dat de kiezers keihard van de VVD wegrennen",
+        "nieuw": "dat haar kiezers keihard van de VVD wegrennen",
+        "waarom": "Wilders: 'dan rennen uw kiezers keihard van u weg'; het gaat om VVD-kiezers, niet 'de kiezers'."
+      },
+      {
+        "waar": "standpunt Van Baarle makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "te weinig doet voor kleine ondernemers",
+        "nieuw": "veel te weinig doet voor kleine ondernemers",
+        "waarom": "Van Baarle: 'doet volstrekt onvoldoende'; 'te weinig' is zwakker."
+      },
+      {
+        "waar": "standpunt Markuszower normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1",
+        "oud": "en of D66 en CDA daar gretig aan meewerkten.",
+        "nieuw": "en of D66 en CDA daar misschien gretig aan meewerkten.",
+        "waarom": "Markuszower: 'dat D66 en CDA daar misschien wel gretig aan hebben meegewerkt'; het voorbehoud 'misschien' hoort erbij."
+      }
+    ],
+    "afgewezen": [],
+    "wijzigingen_eerste_lezing": "Alle 13 wijzigingen gecontroleerd tegen de bron; alle juist. Eén aangevuld: de herschreven makkelijke samenvatting miste de reset (zie bevinding). Niet gewijzigd: vak 3 makkelijk 'Vertrouwt u ze nog?' (verwijswoord zonder naam, maar 'uw partners' past niet binnen 14 woorden; vak 2 noemt de coalitiepartners)."
+  }
 }

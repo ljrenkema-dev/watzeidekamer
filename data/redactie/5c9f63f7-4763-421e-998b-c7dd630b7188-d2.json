@@ -5,44 +5,212 @@
   "oordeel": "aangepast",
   "onafhankelijk": true,
   "bevindingen": [
-    {"waar": "sprekers Bertram normaal en makkelijk; kernpunt 6 makkelijk", "soort": "juistheid", "ernst": "middel", "les": "L6",
-     "oud": "Ook belooft hij in het voorjaar een voorstel … / In het voorjaar komt hij met plannen.", "nieuw": "… zij beloofde in het voorjaar een voorstel. / In het voorjaar komt zij met een plan.",
-     "waarom": "Staatssecretaris Annet Bertram is een vrouw; Klos spreekt over haar als 'zij'."},
-    {"waar": "sprekers Bertram normaal en makkelijk", "soort": "juistheid", "ernst": "middel", "les": "L6",
-     "oud": "Ook belooft hij in het voorjaar een voorstel voor goedkoper ov voor huishoudens voor wie het ov duur blijft.", "nieuw": "Bij het dalurenticket wil zij oog hebben voor huishoudens voor wie het ov duur blijft; zij beloofde in het voorjaar een voorstel.",
-     "waarom": "Het beloofde voorstel gaat over het 'dalurenticket'; 'goedkoper ov' als inhoud van het voorstel staat er niet."},
-    {"waar": "vak 3 normaal en makkelijk", "soort": "juistheid", "ernst": "middel", "les": "L3",
-     "oud": "Nul zou te weinig ambitie zijn. / Is het nul, dan is dat te weinig.", "nieuw": "Nul zou iets te weinig ambitie zijn. / Is het nul, dan is dat wat te weinig.",
-     "waarom": "Klos zegt 'iets te weinig ambitie'; 'iets' viel weg, wat de uitspraak sterker maakte."},
-    {"waar": "vak 3 citaat", "soort": "juistheid", "ernst": "klein", "les": "L2",
-     "oud": "… maar je uiteindelijk nul megaton blijkt te realiseren …", "nieuw": "… als het burgerberaad wereldwijd iets tussen de 5 en 17 megaton op zou kunnen leveren, maar je uiteindelijk nul megaton blijkt te realiseren …",
-     "waarom": "De voorwaarde 'als het burgerberaad wereldwijd iets tussen de 5 en 17 megaton' hoort bij het fragment; citaat letterlijk verlengd."},
-    {"waar": "kernpunt 5 normaal en makkelijk; Müller makkelijk", "soort": "juistheid", "ernst": "middel", "les": "L4",
-     "oud": "Müller (VVD) wil liever geen nieuwe nationale wet. / De VVD wil liever geen nieuwe wet. / Ze wil liever geen nieuwe wet tegen weggooien van eten.", "nieuw": "Müller (VVD) wijst op een stichting die geen nieuwe nationale wet wil, maar de vrijwillige aanpak wil versterken. (makkelijk: idem kort)",
-     "waarom": "Müller geeft weer wat 'de stichting die zich bezighoudt met voedselverspilling' zei ('voer nou weer geen nieuwe nationale wetten in'); zij zegt het niet zelf als eigen standpunt."},
-    {"waar": "samenvatting normaal; minister normaal", "soort": "juistheid", "ernst": "klein", "les": "L3",
-     "oud": "… bespreekt of er ook verplichtingen tegen voedselverspilling kunnen komen.", "nieuw": "… te bespreken dat er bij voedselverspilling niet alleen naar vrijblijvende maatregelen wordt gekeken, maar ook naar verplichtingen.",
-     "waarom": "De toezegging is 'bespreken dat er niet alleen gekeken wordt naar de vrijblijvende maatregelen, maar ook naar de verplichtingen', niet of verplichtingen 'kunnen komen'."},
-    {"waar": "Klos makkelijk; Teunissen makkelijk", "soort": "juistheid", "ernst": "klein", "les": "L5",
-     "oud": "Hij wil ook verplichte regels tegen weggooien van eten. / Teunissen (PvdD) wil langere garantie en een plicht om te repareren.", "nieuw": "Hij wil dat het kabinet ook kijkt naar verplichte regels … / Teunissen (PvdD) wil weten hoe lang garantie kan zijn. En of repareren verplicht kan.",
-     "waarom": "Klos vraagt dat er 'ook naar de verplichtingen' gekeken wordt en Teunissen vraagt te 'onderzoeken welke … verplichtingen haalbaar zijn'; geen eis van de regels zelf."},
-    {"waar": "Heerma normaal en makkelijk; kernpunt 7", "soort": "juistheid", "ernst": "klein", "les": "L1",
-     "oud": "Minister Heerma vindt een burgerberaad een goede aanvulling … / In het voorjaar stuurt hij een brief …", "nieuw": "Minister Heerma denkt dat een burgerberaad de democratie kan aanvullen. / Hij is van plan in het voorjaar een brief te sturen …",
-     "waarom": "Heerma zegt 'Ik denk dat het burgerberaad daarbij een zeer kansrijke vorm is' en 'Ik ben voornemens'."},
-    {"waar": "kernpunt 2 normaal en makkelijk", "soort": "evenwicht", "ernst": "klein", "les": "L9",
-     "oud": "(alleen het antwoord van de minister)", "nieuw": "Van Oosterhout (PRO) vraagt om meer dan een overzicht: een concreet afbouwplan.",
-     "waarom": "Van Oosterhout wil 'niet alleen inzichtelijk maken' maar 'een concreet afbouwplan'; die kant ontbrak bij het antwoord."},
-    {"waar": "kernpunt 8 normaal", "soort": "taal", "ernst": "klein", "les": "L10",
-     "oud": "Moties 1592, 1593, 1594 en 1595 krijgen oordeel Kamer. De motie van Kops (1596) wordt ontraden.", "nieuw": "De minister geeft moties 1592, 1593 en 1594 oordeel Kamer, de staatssecretaris motie 1595 over het dalurenticket. De minister ontraadt motie 1596 van Kops (PVV).",
-     "waarom": "Zeg wie het doet: de minister 'laat' 1595 'aan de staatssecretaris', die geeft 'Oordeel Kamer'."},
-    {"waar": "samenvatting makkelijk", "soort": "juistheid", "ernst": "klein", "les": "L10",
-     "oud": "Het kabinet nam de helft van de adviezen over. … De minister praat nog eens met Landbouw over regels tegen weggooien van eten.", "nieuw": "Volgens de minister nam het kabinet de helft van de adviezen over. De minister praat nog eens met Landbouw over verplichte regels tegen weggooien van eten.",
-     "waarom": "Gelijk getrokken met de normale versie ('Volgens de minister', 'verplichtingen')."},
-    {"waar": "vak 7 makkelijk", "soort": "juistheid", "ernst": "klein", "les": "L3",
-     "oud": "Treinen naar het buitenland zijn belangrijk. In het voorjaar kom ik met een plan.", "nieuw": "Treinen naar het buitenland moeten belangrijker worden. In het voorjaar komt mijn plan.",
-     "waarom": "Citaat: 'een belangrijkere plek geven'; dat is een wens tot verandering, niet een vaststelling."},
-    {"waar": "titel makkelijk", "soort": "taal", "ernst": "klein", "les": "L10",
-     "oud": "Kabinet antwoordt op vragen over advies van burgerberaad", "nieuw": "Kabinet antwoordt over burgerberaad: subsidies, weggooien van eten en treinen",
-     "waarom": "Dezelfde onderwerpen in de titel als in de normale versie ('fossiele subsidies, voedselverspilling en treinen')."}
-  ]
+    {
+      "waar": "sprekers Bertram normaal en makkelijk; kernpunt 6 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L6",
+      "oud": "Ook belooft hij in het voorjaar een voorstel … / In het voorjaar komt hij met plannen.",
+      "nieuw": "… zij beloofde in het voorjaar een voorstel. / In het voorjaar komt zij met een plan.",
+      "waarom": "Staatssecretaris Annet Bertram is een vrouw; Klos spreekt over haar als 'zij'."
+    },
+    {
+      "waar": "sprekers Bertram normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L6",
+      "oud": "Ook belooft hij in het voorjaar een voorstel voor goedkoper ov voor huishoudens voor wie het ov duur blijft.",
+      "nieuw": "Bij het dalurenticket wil zij oog hebben voor huishoudens voor wie het ov duur blijft; zij beloofde in het voorjaar een voorstel.",
+      "waarom": "Het beloofde voorstel gaat over het 'dalurenticket'; 'goedkoper ov' als inhoud van het voorstel staat er niet."
+    },
+    {
+      "waar": "vak 3 normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L3",
+      "oud": "Nul zou te weinig ambitie zijn. / Is het nul, dan is dat te weinig.",
+      "nieuw": "Nul zou iets te weinig ambitie zijn. / Is het nul, dan is dat wat te weinig.",
+      "waarom": "Klos zegt 'iets te weinig ambitie'; 'iets' viel weg, wat de uitspraak sterker maakte."
+    },
+    {
+      "waar": "vak 3 citaat",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L2",
+      "oud": "… maar je uiteindelijk nul megaton blijkt te realiseren …",
+      "nieuw": "… als het burgerberaad wereldwijd iets tussen de 5 en 17 megaton op zou kunnen leveren, maar je uiteindelijk nul megaton blijkt te realiseren …",
+      "waarom": "De voorwaarde 'als het burgerberaad wereldwijd iets tussen de 5 en 17 megaton' hoort bij het fragment; citaat letterlijk verlengd."
+    },
+    {
+      "waar": "kernpunt 5 normaal en makkelijk; Müller makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L4",
+      "oud": "Müller (VVD) wil liever geen nieuwe nationale wet. / De VVD wil liever geen nieuwe wet. / Ze wil liever geen nieuwe wet tegen weggooien van eten.",
+      "nieuw": "Müller (VVD) wijst op een stichting die geen nieuwe nationale wet wil, maar de vrijwillige aanpak wil versterken. (makkelijk: idem kort)",
+      "waarom": "Müller geeft weer wat 'de stichting die zich bezighoudt met voedselverspilling' zei ('voer nou weer geen nieuwe nationale wetten in'); zij zegt het niet zelf als eigen standpunt."
+    },
+    {
+      "waar": "samenvatting normaal; minister normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "… bespreekt of er ook verplichtingen tegen voedselverspilling kunnen komen.",
+      "nieuw": "… te bespreken dat er bij voedselverspilling niet alleen naar vrijblijvende maatregelen wordt gekeken, maar ook naar verplichtingen.",
+      "waarom": "De toezegging is 'bespreken dat er niet alleen gekeken wordt naar de vrijblijvende maatregelen, maar ook naar de verplichtingen', niet of verplichtingen 'kunnen komen'."
+    },
+    {
+      "waar": "Klos makkelijk; Teunissen makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L5",
+      "oud": "Hij wil ook verplichte regels tegen weggooien van eten. / Teunissen (PvdD) wil langere garantie en een plicht om te repareren.",
+      "nieuw": "Hij wil dat het kabinet ook kijkt naar verplichte regels … / Teunissen (PvdD) wil weten hoe lang garantie kan zijn. En of repareren verplicht kan.",
+      "waarom": "Klos vraagt dat er 'ook naar de verplichtingen' gekeken wordt en Teunissen vraagt te 'onderzoeken welke … verplichtingen haalbaar zijn'; geen eis van de regels zelf."
+    },
+    {
+      "waar": "Heerma normaal en makkelijk; kernpunt 7",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1",
+      "oud": "Minister Heerma vindt een burgerberaad een goede aanvulling … / In het voorjaar stuurt hij een brief …",
+      "nieuw": "Minister Heerma denkt dat een burgerberaad de democratie kan aanvullen. / Hij is van plan in het voorjaar een brief te sturen …",
+      "waarom": "Heerma zegt 'Ik denk dat het burgerberaad daarbij een zeer kansrijke vorm is' en 'Ik ben voornemens'."
+    },
+    {
+      "waar": "kernpunt 2 normaal en makkelijk",
+      "soort": "evenwicht",
+      "ernst": "klein",
+      "les": "L9",
+      "oud": "(alleen het antwoord van de minister)",
+      "nieuw": "Van Oosterhout (PRO) vraagt om meer dan een overzicht: een concreet afbouwplan.",
+      "waarom": "Van Oosterhout wil 'niet alleen inzichtelijk maken' maar 'een concreet afbouwplan'; die kant ontbrak bij het antwoord."
+    },
+    {
+      "waar": "kernpunt 8 normaal",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "Moties 1592, 1593, 1594 en 1595 krijgen oordeel Kamer. De motie van Kops (1596) wordt ontraden.",
+      "nieuw": "De minister geeft moties 1592, 1593 en 1594 oordeel Kamer, de staatssecretaris motie 1595 over het dalurenticket. De minister ontraadt motie 1596 van Kops (PVV).",
+      "waarom": "Zeg wie het doet: de minister 'laat' 1595 'aan de staatssecretaris', die geeft 'Oordeel Kamer'."
+    },
+    {
+      "waar": "samenvatting makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "Het kabinet nam de helft van de adviezen over. … De minister praat nog eens met Landbouw over regels tegen weggooien van eten.",
+      "nieuw": "Volgens de minister nam het kabinet de helft van de adviezen over. De minister praat nog eens met Landbouw over verplichte regels tegen weggooien van eten.",
+      "waarom": "Gelijk getrokken met de normale versie ('Volgens de minister', 'verplichtingen')."
+    },
+    {
+      "waar": "vak 7 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Treinen naar het buitenland zijn belangrijk. In het voorjaar kom ik met een plan.",
+      "nieuw": "Treinen naar het buitenland moeten belangrijker worden. In het voorjaar komt mijn plan.",
+      "waarom": "Citaat: 'een belangrijkere plek geven'; dat is een wens tot verandering, niet een vaststelling."
+    },
+    {
+      "waar": "titel makkelijk",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "Kabinet antwoordt op vragen over advies van burgerberaad",
+      "nieuw": "Kabinet antwoordt over burgerberaad: subsidies, weggooien van eten en treinen",
+      "waarom": "Dezelfde onderwerpen in de titel als in de normale versie ('fossiele subsidies, voedselverspilling en treinen')."
+    }
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "onafhankelijk": true,
+    "bevindingen": [
+      {
+        "waar": "sprekers Müller normaal en makkelijk; kernpunt 5 makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L6",
+        "oud": "Bij voedselverspilling wijst zij op een stichting die geen nieuwe nationale wet wil, maar de vrijwillige aanpak wil versterken. / De VVD wijst op een stichting …",
+        "nieuw": "Bij voedselverspilling wijst zij op de stichting die zich daarmee bezighoudt: die zei bij een rondetafel geen nieuwe nationale wet in te voeren, maar de vrijwillige aanpak te versterken. (+ 'het liefst regelt zij dingen Europees') / Müller (VVD) wijst op een stichting …",
+        "waarom": "Wijziging van de eerste lezing verbeterd: het is 'de stichting die zich bezighoudt met voedselverspilling' die dit 'tijdens de rondetafel' zei; Müllers eigen 'Het liefst regelen we dingen op Europees niveau' ontbrak, en in makkelijk stond 'De VVD' waar normaal 'Müller (VVD)' heeft."
+      },
+      {
+        "waar": "vak 4 normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L3",
+        "oud": "Het burgerberaad wil langere garantie en reparatieverplichtingen. / … en een reparatieplicht.",
+        "nieuw": "Het burgerberaad wil langere garantie, en kijken naar reparatieplicht. / … en kijken naar reparatieplicht. Onderzoekt het kabinet wat kan?",
+        "waarom": "Citaat: 'bepleit … langere garantieperiodes en zegt het: kijk ook naar reparatieverplichtingen'; 'kijk ook naar' is zwakker dan 'wil'."
+      },
+      {
+        "waar": "vak 2 normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L2",
+        "oud": "Gaat het werk daardoor naar de buren, dan is dat niet slim.",
+        "nieuw": "Krijgen de buren nog wel subsidie, dan gaat het werk daarheen.",
+        "waarom": "De voorwaarde 'Stel dat de buren … wel nog die subsidie krijgen' viel weg; 'daardoor' leek het afbouwen zelf de oorzaak."
+      },
+      {
+        "waar": "vak 1 normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "Wil de minister bij de Voorjaarsnota een plan geven …",
+        "nieuw": "Komt de minister, bijvoorbeeld bij de Voorjaarsnota, met een plan …",
+        "waarom": "Citaat: 'bijvoorbeeld bij de Voorjaarsnota'; zonder 'bijvoorbeeld' werd de vraag strakker."
+      },
+      {
+        "waar": "kernpunt 2 normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1",
+        "oud": "… wat internationaal moet en wat Nederland zelf kan.",
+        "nieuw": "… wat internationaal moet en waarover misschien al bij de Voorjaarsnota een besluit kan vallen.",
+        "waarom": "De minister zegt 'zaken … waar we misschien ook wel met de Voorjaarsnota een besluit over kunnen nemen'; het voorbehoud 'misschien' viel weg."
+      },
+      {
+        "waar": "vak 3 makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Is het nul, dan is dat wat te weinig.",
+        "nieuw": "Nul zou wat te weinig ambitie zijn.",
+        "waarom": "Wijziging van de eerste lezing verbeterd: 'te weinig' zonder 'ambitie' zegt niet waarvan; gelijk aan normaal."
+      },
+      {
+        "waar": "sprekers Teunissen makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Teunissen (PvdD) wil weten hoe lang garantie kan zijn.",
+        "nieuw": "Teunissen (PvdD) wil dat het kabinet onderzoekt of langere garantie kan.",
+        "waarom": "Wijziging van de eerste lezing verbeterd: zij vraagt te 'onderzoeken welke langere garantie- … verplichtingen haalbaar zijn', niet hoe lang garantie 'kan zijn'; nu gelijk aan normaal."
+      },
+      {
+        "waar": "sprekers Klos makkelijk; Heerma makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "(voorjaar 2027 bij Klos en 'in het voorjaar' bij Heerma ontbraken)",
+        "nieuw": "Wat Nederland zelf kan, wil hij in het voorjaar van 2027. / Hij wil in het voorjaar een brief schrijven …",
+        "waarom": "Normaal noemt 'in het voorjaar van 2027' (Klos) en 'in het voorjaar' (Heerma: 'voorjaar van aankomend jaar'); makkelijk nu gelijk."
+      }
+    ],
+    "gecontroleerd_zonder_wijziging": [
+      "Bertram overal 'zij': klopt (Annet Bertram; Klos: 'Wat heeft zij nou geleerd'); geen 'hij' meer over.",
+      "Vak 3 citaat verlengd: letterlijk, check.py OK.",
+      "Toezegging aan Klos, Heerma 'denkt'/'voornemens', moties 1592–1596, 'juni 2027', Bertram-dalurenticket: kloppen met de bron.",
+      "Kernpunt 2 aanvulling Van Oosterhout ('concreet afbouwplan') klopt."
+    ],
+    "afgewezen": [
+      {
+        "waar": "sprekers Müller normaal (eerste lezing)",
+        "waarom": "Niet helemaal afgewezen maar verbeterd: 'een stichting … die geen wet wil' was vager dan de bron ('de stichting die zich bezighoudt met voedselverspilling', 'tijdens de rondetafel'); zie bevinding 1."
+      }
+    ]
+  }
 }

@@ -122,5 +122,81 @@
    "nieuw": "niet gewijzigd",
    "waarom": "Er zijn al 8 vakken; het abortuspunt (SGP) en de crisis (SP, Keijzer) hebben een vak, en BBB, ChristenUnie en JA21 staan met hun eigen punt in 'Wie vindt wat?'."
   }
- ]
+ ],
+ "tweede_lezing": {
+  "datum": "2026-11-13",
+  "onafhankelijk": true,
+  "bevindingen": [
+   {
+    "waar": "samenvatting normaal, standpunt Paternotte normaal, kernpunt 5 normaal",
+    "soort": "juistheid",
+    "ernst": "middel",
+    "les": "L3",
+    "oud": "Paternotte ziet geen crisis",
+    "nieuw": "Paternotte neemt het woord crisis niet over",
+    "waarom": "Paternotte zegt 'Ik neem uw termen niet over'; zijn 'Nee' op 'stelt dat er geen sprake is van een crisis?' is dubbelzinnig, dus 'ziet geen crisis' maakt het stelliger dan hij zei (wijziging van de eerste lezing verbeterd)."
+   },
+   {
+    "waar": "samenvatting makkelijk, standpunt Paternotte makkelijk, kernpunt makkelijk",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L10",
+    "oud": "Paternotte ziet geen crisis. / Hij ziet geen crisis. / Paternotte niet.",
+    "nieuw": "Paternotte noemt het geen crisis.",
+    "waarom": "Gelijk aan de normale versie: hij neemt de 'termen' crisis niet over (toevoeging van de eerste lezing verbeterd)."
+   },
+   {
+    "waar": "vak 5 makkelijk",
+    "soort": "juistheid",
+    "ernst": "middel",
+    "les": "L3",
+    "oud": "Per box 2-ondernemer gaat het om €42 per jaar. Het voordeel is groter.",
+    "nieuw": "Per box 2-belastingbetaler gaat het om €42 per jaar. Het voordeel is veel groter.",
+    "waarom": "Citaat: 'staat dus in geen verhouding tot de enorm forse lastenverlichting', dus 'groter' is te zwak; en 'aanmerkelijkbelanghouder' staat in het citaat, 'ondernemer' niet (wijziging van de eerste lezing verbeterd)."
+   },
+   {
+    "waar": "standpunt Eerdmans makkelijk",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L1",
+    "oud": "Hij vindt: geef je partners tijd.",
+    "nieuw": "Het lijkt hem goed om partners tijd te geven.",
+    "waarom": "Eerdmans zegt 'Het lijkt mij dat je dan in ieder geval de tijd neemt'; de eerste lezing paste alleen de normale versie aan (L10)."
+   },
+   {
+    "waar": "kernpunt 4 normaal",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L1",
+    "oud": "…wat erin stond, rond 13.00 uur op 11 november.",
+    "nieuw": "…wat erin stond; de exacte tijd weet hij niet, maar volgens hem was het ergens rond 13.00 uur op 11 november.",
+    "waarom": "Paternotte: 'Ik weet de exacte tijd niet … volgens mij was dat gisteren ergens rond 13.00 uur'."
+   },
+   {
+    "waar": "standpunt Keijzer normaal",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L6",
+    "oud": "voor zijn vertrek uit het kabinet-Schoof",
+    "nieuw": "voor zijn vertrek uit de coalitie van het kabinet-Schoof",
+    "waarom": "Keijzer zegt 'het terugtreden van de heer Wilders uit de coalitie'; Wilders zat zelf niet in het kabinet."
+   },
+   {
+    "waar": "kernpunten makkelijk",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L10",
+    "oud": "(alleen: FVD vindt het plan slecht voor ondernemers.)",
+    "nieuw": "Toegevoegd: Paternotte zegt: het gaat om €42 per jaar per box 2-belastingbetaler.",
+    "waarom": "De normale versie geeft het antwoord van Paternotte ('Per aanmerkelijkbelanghouder gaat het om €42 in een jaar'); makkelijk miste die kant (L9)."
+   }
+  ],
+  "afgewezen": [
+   {
+    "waar": "vak 5 makkelijk (eerste lezing)",
+    "waarom": "Het schrappen van 'veel' in 'Het voordeel is veel groter' is teruggedraaid: Paternotte spreekt van 'in geen verhouding' en 'enorm forse lastenverlichting'."
+   }
+  ],
+  "gecontroleerd_zonder_wijziging": "Overige wijzigingen van de eerste lezing (Markuszower als informatieverzoek, kernpunt 1 Stoffer/Vermeer apart, Dijk 'vanaf de start', Schenk 'ongeveer', Markuszower/De Telegraaf, Eerdmans normaal, emotie vak 4, vak 7 'misschien', woord aanmerkelijkbelanghouder, evenwicht) kloppen met de bron."
+ }
 }
