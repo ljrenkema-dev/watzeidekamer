@@ -4,8 +4,8 @@
  "geen_botsing": true,
  "vraag": "Moet de minister opnieuw met aanbevelingen komen over de rol van religie in het buitenlandbeleid?",
  "vraag_bron": "Mijn fractie roept de minister daarom op om opnieuw met aanbevelingen te komen. (Elles Van Ark, CDA, beurt 5)",
- "afloop": "Motie 274 (R. de Roon): nog niet gestemd. Motie 275 (R. de Roon): nog niet gestemd. Motie 276 (A.F.J. van Ark): nog niet gestemd. Motie 277 (D.J.H. (Diederik) van Dijk): nog niet gestemd.",
- "afloop_kort": "Over de 4 moties is nog niet gestemd.",
+ "afloop": "Motie 274 (R. de Roon): uitslag staat (nog) niet in onze gegevens. Motie 275 (R. de Roon): uitslag staat (nog) niet in onze gegevens. Motie 276 (A.F.J. van Ark): uitslag staat (nog) niet in onze gegevens. Motie 277 (D.J.H. (Diederik) van Dijk): uitslag staat (nog) niet in onze gegevens.",
+ "afloop_kort": "Van de 4 moties staat nog geen uitslag in onze gegevens.",
  "versies": {
   "a": {
    "regel": "Geen echte botsing: alle drie de wisselingen hebben 2 beurten en gaan over moties indienen of procedure. Daarom één citaat uit de inbreng van Van Ark (CDA), die een eigen motie toelicht. De Roon (PVV) dient twee moties in die de minister ontraadt (de enige tegenstelling in dit debat), maar de motietekst staat niet in zijn spreekbeurt, dus er is geen letterlijk citaat van zijn kant.",
@@ -61,8 +61,8 @@
  "afloop_data": {
   "status": "open",
   "stand": "2026-11-13",
-  "kort": "Over de 4 moties is nog niet gestemd.",
-  "lang": "Motie 274 (R. de Roon): nog niet gestemd. Motie 275 (R. de Roon): nog niet gestemd. Motie 276 (A.F.J. van Ark): nog niet gestemd. Motie 277 (D.J.H. (Diederik) van Dijk): nog niet gestemd.",
+  "kort": "Van de 4 moties staat nog geen uitslag in onze gegevens.",
+  "lang": "Motie 274 (R. de Roon): uitslag staat (nog) niet in onze gegevens. Motie 275 (R. de Roon): uitslag staat (nog) niet in onze gegevens. Motie 276 (A.F.J. van Ark): uitslag staat (nog) niet in onze gegevens. Motie 277 (D.J.H. (Diederik) van Dijk): uitslag staat (nog) niet in onze gegevens.",
   "moties": [
    {
     "nummer": "274",

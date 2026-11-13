@@ -70,12 +70,12 @@ def afloop_data(pid):
     gestemd = [r for r in rij if r["besluit"]]
     n = len(rij)
     if not gestemd:
-        kort = f"Over {'de motie' if n == 1 else f'de {n} moties'} is nog niet gestemd."
+        kort = f"Van {'de motie' if n == 1 else f'de {n} moties'} staat nog geen uitslag in onze gegevens."
     elif open_:
-        kort = f"{len(gestemd)} van {n} moties gestemd: " + ", ".join(f"{r['nummer']} {r['besluit'].lower()}" for r in gestemd) + "."
+        kort = f"Uitslag bekend van {len(gestemd)} van {n} moties: " + ", ".join(f"{r['nummer']} {r['besluit'].lower()}" for r in gestemd) + "."
     else:
         kort = "; ".join(f"Motie {r['nummer']} {r['besluit'].lower()} ({r['voor']}–{r['tegen']})" for r in gestemd) + "."
-    lang = " ".join(f"Motie {r['nummer']} ({r['wie']}): " + (f"{r['besluit'].lower()}, {r['voor']} zetels voor en {r['tegen']} tegen." if r["besluit"] else "nog niet gestemd.") for r in rij)
+    lang = " ".join(f"Motie {r['nummer']} ({r['wie']}): " + (f"{r['besluit'].lower()}, {r['voor']} zetels voor en {r['tegen']} tegen." if r["besluit"] else "uitslag staat (nog) niet in onze gegevens.") for r in rij)
     return {"status": "gestemd" if not open_ else "open", "stand": stand, "kort": kort, "lang": lang, "moties": rij}
 
 
@@ -183,7 +183,7 @@ def check(pid):
                 fouten.append(f"versie {naam}, beurt {i}: {zinnen} zinnen, hooguit 2")
             sp = B[i]["spreker"]
             c.update({"naam": sp.get("naam") or sp["verslagnaam"],
-                      "partij": sp["fractie"] or (sp.get("functie") or "").replace("minister van Sociale Zaken en Werkgelegenheid", "minister van SZW"),
+                      "partij": sp["fractie"] or (sp.get("functie") or ""),  # voluit; de sociale beelden korten zelf in
                       "video": build.video_link(p, i), "tijd": (B[i].get("begin") or "")[11:16]})
             sl = koppeling.get(sp["id"]); u = uiterlijk.get(sl or "")
             kk = {x: u[x] for x in build.KENMERKEN if x in u} if u else None

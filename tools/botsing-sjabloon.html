@@ -3,81 +3,144 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="style.css">
 <style>
-:root{--b-ink:#1d1b2e;--b-paper:#fbfaf7;--b-muted:#5d5a72;--b-line:#d9d6e4;--b-card:#f4efe4;--b-accent:#3b4cca}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--b-ink:#f1f0f7;--b-paper:#15141f;--b-muted:#a9a6bd;--b-line:#34324a;--b-accent:#8d9bff}}
-:root[data-theme="dark"]{--b-ink:#f1f0f7;--b-paper:#15141f;--b-muted:#a9a6bd;--b-line:#34324a;--b-accent:#8d9bff}
-body{background:var(--b-paper);color:var(--b-ink)}
-.bw{max-width:1100px;margin:0 auto;padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
-.bw h1{font-family:"Zen Maru Gothic",system-ui,sans-serif;font-weight:900;margin:0}
-.bw h2{font-family:"Zen Maru Gothic",system-ui,sans-serif;margin:0}
-.lede,.uitleg{color:var(--b-muted);max-width:75ch;margin:0}
-.rij{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start}
-/* de kaart zelf: altijd licht, zoals hij op sociale media komt */
-.kaart{position:relative;width:min(100%,360px);aspect-ratio:4/5;border-radius:10px;overflow:hidden;background:#f4efe4;color:#1d1b2e;
-  box-shadow:0 2px 10px rgba(0,0,0,.18);font-family:"Atkinson Hyperlegible",system-ui,sans-serif;container-type:inline-size;flex:0 0 auto}
-.kaart .bg{position:absolute;inset:0;opacity:.45}
-.kaart .bg svg{width:100%;height:100%}
-.kaart .in{position:relative;height:100%;box-sizing:border-box;padding:5cqw 5.5cqw 4cqw;display:flex;flex-direction:column;gap:2cqw}
-.kaart .kop{font-size:3.3cqw;letter-spacing:.04em;text-transform:uppercase;color:#4a4660;font-weight:700}
-.kaart .vraag{font-family:"Zen Maru Gothic",system-ui,sans-serif;font-weight:900;font-size:5.8cqw;line-height:1.1;margin:0}
-.kaart .cit{position:relative;padding-right:15cqw !important;background:#fff;border:2px solid #1d1b2e;border-radius:4cqw;padding:2.4cqw 3.4cqw;font-size:3.25cqw;line-height:1.27}
-.kaart .cit p{margin:0 0 1.6cqw}
-.kaart .fig{position:absolute;right:-2.5cqw;bottom:-3cqw;width:15cqw;height:17cqw;border-radius:50% 50% 8% 8%;overflow:hidden;background:#fff;border:2px solid #1d1b2e}
-.kaart .fig svg{width:100%;height:100%;display:block}
-.kaart .wie{font-size:3.4cqw;font-weight:700}
-.kaart .wie span{font-weight:400;color:#4a4660}
-.kaart .ook{font-size:3.4cqw;color:#4a4660;margin-top:auto}
-.kaart .afloop{font-size:3.2cqw;border-top:2px solid #1d1b2e;padding-top:1.8cqw}
-.kaart .voet{display:flex;justify-content:space-between;font-size:3.1cqw;color:#4a4660;gap:2cqw}
-.kaart .voet b{color:#1d1b2e;font-family:"Zen Maru Gothic",system-ui,sans-serif}
-.kaart .groot{font-size:6.4cqw}
-.kaart .nr{position:absolute;top:3cqw;right:4cqw;font-size:3cqw;color:#4a4660}
-.verslag{border:2px solid var(--b-line);border-radius:12px;padding:12px 14px;font-size:14px;max-width:75ch}
-.verslag dt{font-weight:700;margin-top:6px}.verslag dd{margin:0 0 4px 0;color:var(--b-muted)}
-.verslag a{color:var(--b-accent)}
-.strip-huidig{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:10px}
-.strip-huidig svg{width:100%;height:auto;display:block;border-radius:6px}
+/* Pagina volgt het thema; de kaarten zelf hebben een vaste kleurwereld (richting C: de vraag voorop, geel vlak). */
+:root{--paper:#fbfaf7;--ink:#1d1b2e;--muted:#5d5a72;--line:#d9d6e4;--marker:#ffe066;--accent:#3b4cca;--panel:#fff;--tone:#e9e7f1;--warn:#9a3a00;
+  --display:"Zen Maru Gothic",system-ui,sans-serif;--body:"Atkinson Hyperlegible",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#15141f;--ink:#f1f0f7;--muted:#a9a6bd;--line:#34324a;--marker:#8a6d00;--accent:#8d9bff;--panel:#1f1d2c;--tone:#2a2840;--warn:#ffb68a;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#15141f;--ink:#f1f0f7;--muted:#a9a6bd;--line:#34324a;--marker:#8a6d00;--accent:#8d9bff;--panel:#1f1d2c;--tone:#2a2840;--warn:#ffb68a;color-scheme:dark}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap2{max-width:1120px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:34px}
+h1,h2,h3{font-family:var(--display);margin:0;line-height:1.2;text-wrap:balance}
+h1{font-size:clamp(1.8rem,5vw,2.4rem);font-weight:900}h2{font-size:1.35rem}
+.lede,.uitleg{max-width:68ch;color:var(--muted);margin:6px 0 0}
+section{display:flex;flex-direction:column;gap:14px}
+.balk{display:flex;flex-wrap:wrap;gap:8px;align-items:center;position:sticky;top:0;z-index:5;background:var(--paper);padding-block:10px;border-bottom:2px solid var(--line)}
+button.t{font:inherit;font-weight:700;font-size:15px;border-radius:999px;padding:6px 14px;cursor:pointer;border:2px solid var(--ink);background:transparent;color:var(--ink)}
+button.t[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+button.t:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.rij{display:flex;flex-wrap:wrap;gap:22px;align-items:flex-start}
+figure{margin:0;display:flex;flex-direction:column;gap:8px;min-width:0;max-width:100%}
+figcaption{font-size:14px;color:var(--muted);max-width:40ch}figcaption b{color:var(--ink);display:block;font-family:var(--display)}
+.fit{font-size:13px}.fit.klein{color:var(--warn);font-weight:700}
+a{color:var(--accent)}
+
+/* ---------- kaart ---------- */
+.k{position:relative;container-type:inline-size;overflow:hidden;border-radius:8px;color:#1d1b2e;background:#ffe066;box-shadow:0 2px 10px rgba(0,0,0,.2);
+  font-family:var(--body);max-width:100%;--q:1;--vm:1.18}
+.f45{aspect-ratio:4/5;width:330px;--c:4.1;--v:6.1;--kp:3}
+.f916{aspect-ratio:9/16;width:270px;--c:5;--v:8.2;--kp:3.6}
+.f11{aspect-ratio:1/1;width:330px;--c:3.9;--v:5.8;--kp:3}
+.f191{aspect-ratio:1.91/1;width:560px;--c:2.3;--v:4.5;--kp:1.9;--du:15;--vm:1.1}
+.k.d1{--vm:1.35}
+.k .in{position:absolute;inset:0;box-sizing:border-box;padding:5cqw;display:grid;gap:2.6cqw;grid-template-rows:auto auto auto auto 1fr;grid-template-areas:"kop" "vraag" "cits" "ook" "voet"}
+.f916 .in{padding-block:17cqw}
+.f191 .in{padding:3.4cqw;gap:1.6cqw 3.4cqw;grid-template-columns:52% 1fr;grid-template-rows:auto 1fr auto;grid-template-areas:"kop cits" "vraag cits" "voet ook"}
+.d2 .in{grid-template-rows:auto 1fr auto;grid-template-areas:"kop" "cits" "voet"}.d2{--c:4.6}.d2 .cits{align-self:center}
+.d3 .in{grid-template-rows:auto 1fr auto;grid-template-areas:"kop" "ook" "voet"}
+.d3 .ook{align-self:center;font-size:5.4cqw !important;color:#1d1b2e !important;font-family:var(--display);font-weight:700;line-height:1.25}
+.d3 .ook small{display:block;margin-top:4cqw;font-family:var(--body);font-weight:400;font-size:4.2cqw;color:#3a3410}
+.k .kop{grid-area:kop;font-size:calc(var(--kp)*1cqw);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#3a3410;line-height:1.2}
+.k .vraag{grid-area:vraag;font-family:var(--display);font-weight:900;font-size:calc(var(--v)*var(--vm)*1cqw);line-height:1.1;margin:0;text-wrap:balance}
+.k .cits{grid-area:cits;display:flex;flex-direction:column;gap:calc(var(--c)*.7cqw);min-width:0}
+.k .cit{min-width:0;background:#fffdf3;border-radius:1.6cqw;padding:calc(var(--c)*.55cqw) calc(var(--c)*.75cqw);display:flex;align-items:center;gap:calc(var(--c)*.7cqw)}
+.k .cit:nth-child(2){flex-direction:row-reverse}
+.k .cit p{font-size:calc(var(--c)*var(--q)*1cqw);line-height:1.28;margin:0}
+.k .wie{font-size:calc(var(--c)*var(--q)*.84cqw);font-weight:700;margin-top:calc(var(--c)*.3cqw)}
+.k .wie span{font-weight:400;color:#3a3410}
+.k .tx{min-width:0;flex:1}
+.k .ook{grid-area:ook;font-size:calc(var(--kp)*1.05cqw);color:#3a3410;line-height:1.3}
+.k .voet{grid-area:voet;align-self:end;display:flex;justify-content:space-between;gap:2cqw;font-size:calc(var(--kp)*.95cqw);color:#3a3410;line-height:1.2}
+.k .voet b{font-family:var(--display);color:#1d1b2e}
+.fg{display:block;flex:0 0 auto;aspect-ratio:1/1;box-sizing:border-box;background:#fff;border-radius:50%;border:.4cqw solid #1d1b2e;overflow:hidden}
+.fg svg{width:100%;height:100%;display:block}
+.k .cit .fg{width:calc(var(--c)*3.2cqw)}
+.k .duo{grid-area:cits;display:grid;grid-template-columns:1fr 1fr;gap:3cqw;align-self:center}
+.k .du{display:flex;flex-direction:column;align-items:center;text-align:center;gap:1.4cqw;min-width:0}
+.k .duo .fg{width:calc(var(--du,22)*1cqw)}
+.k .nm{font-weight:700;font-size:calc(var(--kp)*1.3cqw);line-height:1.2}.k .nm span{display:block;font-weight:400;color:#3a3410}
+
+/* ---------- op de site (volgt het thema) ---------- */
+.site{border:2px solid var(--line);border-radius:12px;background:var(--panel);display:flex;flex-direction:column;max-width:760px;min-width:0;overflow:hidden}
+.site .band{background:var(--marker);padding:18px;display:flex;flex-direction:column;gap:10px}
+.tag{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
+.site h3{font-size:clamp(1.5rem,5vw,2.2rem);font-weight:900}
+.site .rest{padding:18px;display:flex;flex-direction:column;gap:14px}
+.site .paar{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px}
+.site .c{min-width:0;display:flex;flex-direction:column;gap:6px}
+.site blockquote{margin:0;font-size:17px;line-height:1.45}
+.site .w{font-weight:700;font-size:15px;display:flex;align-items:center;gap:10px}.site .w span{font-weight:400;color:var(--muted)}
+.site .fg{width:76px;border-width:2px}
+.site .vid{font-size:14px}.site .ookl{color:var(--muted);font-size:15px}
+.afloop{border-left:4px solid var(--marker);background:var(--tone);padding:10px 14px;border-radius:0 8px 8px 0;display:flex;flex-direction:column;gap:4px;min-width:0}
+.afloop .lab{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.afloop .bij{font-size:13px;color:var(--muted)}
+.lijst{border:2px solid var(--line);border-radius:12px;background:var(--panel);padding:14px 16px;max-width:520px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.lijst h3{font-size:1.15rem}.lijst h3 a{color:var(--ink);text-decoration:none}.lijst p{color:var(--muted);font-size:15px}
+.lijst .fg{width:38px;border-width:2px}.tweetal{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0}
+.chip{display:inline-block;font-size:13px;font-weight:700;border:1.5px solid var(--line);border-radius:999px;padding:1px 10px;color:var(--muted)}
+dl.bron{margin:0;max-width:72ch;display:grid;gap:4px;font-size:15px}dl.bron dt{font-weight:700;margin-top:8px}dl.bron dd{margin:0;color:var(--muted)}
 </style>
-<div class="bw">
-<header><h1>Botsingskaart: proef</h1>
-<p class="lede">Een lokbeeld voor sociale media: de vraag van het debat en twee letterlijke citaten tegenover elkaar, zonder gezichten. Per debat drie versies, met de huidige strip eronder ter vergelijking. Bij elke versie staat welke regel de citaten koos.</p></header>
-<nav class="rij" id="tabs" role="tablist"></nav>
-<div id="debat" style="display:flex;flex-direction:column;gap:22px"></div>
+<div class="wrap2">
+<header><h1>Botsingskaart · richting C</h1>
+<p class="lede">De vraag van het debat op het gele vlak, twee letterlijke citaten eronder, met het figuur van elke spreker even groot naast het citaat. Op de sociale beelden staan alleen vaste feiten; de afloop staat alleen op de site, uit de actuele stemgegevens.</p></header>
+<nav class="balk" id="tabs" aria-label="Debat"></nav>
+<div id="versies" class="rij" style="gap:8px"></div>
+<section><h2>Sociale beelden</h2><div class="rij" id="sociaal"></div></section>
+<section><h2>Carrousel</h2><div class="rij" id="carrousel"></div></section>
+<section><h2>Op de site</h2><div id="sitekaart"></div><h3 style="font-size:1rem;margin-top:8px">In een lijst</h3><div id="lijstkaart"></div></section>
+<section><h2>Hoe deze kaart tot stand kwam</h2><dl class="bron" id="bron"></dl></section>
+<section><h2>De huidige strip van dit debat</h2><div class="strip-huidig" id="strip" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:10px"></div></section>
 </div>
 <script src="strip.js"></script>
 <script>
-const D=__DATA__;let actief=0;try{actief=Number(localStorage.getItem("bots-tab"))||0}catch(e){}
+const D=__DATA__;let actief=0,versie=null;try{actief=Number(localStorage.getItem("bots-tab"))||0}catch(e){}
 const esc2=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const bg=()=>`<div class="bg" aria-hidden="true"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">${SCENE.interruptie()}</svg></div>`;
-const voet=`<div class="voet"><b>Wat zei de Kamer?</b><span>citaten uit het verslag</span></div>`;
-const fig=c=>{if(!c.figuur)return "";const L=makeLook(c.figuur.id,c.figuur.fractie,c.figuur.u);
-  return `<div class="fig" aria-hidden="true"><svg viewBox="16 6 68 78" preserveAspectRatio="xMidYMin slice">${character(L,"neutraal")}</svg></div>`;};
-const cit=c=>`<div class="cit"><p>“${/^[a-zà-ÿ]/.test(c.citaat)?"… ":""}${esc2(c.citaat)}”</p><div class="wie">${esc2(c.naam)} <span>(${esc2(c.partij)})</span></div>${fig(c)}</div>`;
-const kaart=(binnen,nr)=>`<div class="kaart">${bg()}${nr?`<div class="nr">${nr}</div>`:""}<div class="in">${binnen}</div></div>`;
+const $=id=>document.getElementById(id);
+const datumNL=s=>{try{return new Date(s).toLocaleDateString("nl-NL",{day:"numeric",month:"long",year:"numeric"})}catch(e){return s}};
+const kortFunctie=p=>String(p||"").replace(/^minister van Sociale Zaken en Werkgelegenheid$/,"minister van SZW").replace(/^minister van Volksgezondheid, Welzijn en Sport$/,"minister van VWS").replace(/^minister van Buitenlandse Zaken$/,"minister van BuZa");
+function fg(c){if(!c.figuur)return "";const L=makeLook(c.figuur.id,c.figuur.fractie,c.figuur.u);
+  return `<i class="fg" role="img" aria-label="Figuur van ${esc2(c.naam)}"><svg viewBox="16 6 68 78" preserveAspectRatio="xMidYMin slice">${character(L,"neutraal")}</svg></i>`;}
+const citaat=c=>`${/^[a-zà-ÿ]/.test(c.citaat)?"… ":""}${c.citaat}`;
+function kiesVersie(K){if(versie&&K.versies[versie])return versie;const a=K.versies.a;return K.versies.c&&/bijzaak/i.test(a.aandeel_onderwerp||"")?"c":"a";}
+function ctx(){const K=D[actief].kaart,v=kiesVersie(K),x=K.versies[v];
+  const op=new Set(x.citaten.map(c=>c.figuur&&c.figuur.fractie).filter(Boolean)).size,n=K.partijen_totaal-op;
+  const ook=K.ook_tekst&&v==="a"?K.ook_tekst:(n>0?`Ook aan het woord: ${n} andere ${n===1?"partij":"partijen"}`:"");
+  return {K,v,x,vraag:x.vraag||K.vraag,ook};}
+function cits(C){return '<div class="cits">'+C.x.citaten.map(c=>`<div class="cit">${fg(c)}<div class="tx"><p>“${esc2(citaat(c))}”</p><div class="wie">${esc2(c.naam)} <span>· ${esc2(kortFunctie(c.partij))}</span></div></div></div>`).join("")+'</div>';}
+const duo=C=>'<div class="duo">'+C.x.citaten.map(c=>`<div class="du">${fg(c)}<div class="nm">${esc2(c.naam)}<span>${esc2(kortFunctie(c.partij))}</span></div></div>`).join("")+'</div>';
+const voet=t=>`<div class="voet"><b>watzeidekamer.nl</b><span>${t||"Letterlijke citaten · afloop op de site"}</span></div>`;
+function kaart(fmt,deel){const C=ctx(),kop=`<div class="kop">${esc2(C.K.kop)}</div>`,vr=`<p class="vraag">${esc2(C.vraag)}</p>`;let inh;
+  if(deel===1)inh=kop+vr+duo(C)+voet("1 / 3");
+  else if(deel===2)inh=kop+cits(C)+voet("2 / 3");
+  else if(deel===3)inh=kop+`<div class="ook">${esc2(C.ook||"Alle partijen die spraken")}.<small>Afloop, alle standpunten en de video op watzeidekamer.nl</small></div>`+voet("3 / 3");
+  else inh=kop+vr+(fmt==="f191"?duo(C):cits(C))+`<div class="ook">${esc2(C.ook)}</div>`+voet();
+  return `<div class="k ${fmt}${deel?" d"+deel:""}"><div class="in">${inh}</div></div>`;}
+const fig=(html,titel,tekst,fit)=>`<figure>${html}<figcaption><b>${titel}</b>${tekst||""}${fit?'<div class="fit"></div>':""}</figcaption></figure>`;
+function afloopSite(K){const a=K.afloop_data||{};const bij=a.status==="geen_moties"&&/vragenuur/i.test(K.kop)?"Vaste toestand: dit verandert niet meer.":`Bijgewerkt op ${datumNL(a.stand)}`;
+  return `<div class="afloop"><span class="lab">Afloop</span><span>${esc2(a.lang||K.afloop||"")}</span><span class="bij">${esc2(bij)}</span></div>`;}
+function sitekaart(){const C=ctx();
+  const paar='<div class="paar">'+C.x.citaten.map(c=>`<div class="c"><blockquote>“${esc2(citaat(c))}”</blockquote><div class="w">${fg(c)}<div>${esc2(c.naam)} <span>· ${esc2(c.partij)}</span></div></div>${c.video?`<a class="vid" href="${esc2(c.video)}" target="_blank" rel="noopener">Bekijk dit moment in de video (${esc2(c.tijd)})</a>`:""}</div>`).join("")+'</div>';
+  return `<article class="site"><div class="band"><span class="tag">${esc2(C.K.kop)}</span><h3>${esc2(C.vraag)}</h3></div><div class="rest">${paar}<p class="ookl">${esc2(C.ook)}${C.ook?". ":""}<a href="#">Lees alle standpunten</a></p>${afloopSite(C.K)}</div></article>`;}
+function lijst(){const C=ctx(),a=C.K.afloop_data||{};
+  return `<article class="lijst"><span class="tag">${esc2(C.K.kop)}</span><h3><a href="#">${esc2(C.vraag)}</a></h3><p class="tweetal">${C.x.citaten.map(fg).join("")}<span>${esc2(C.x.citaten.map(c=>c.naam).join(" en "))}</span></p><div><span class="chip">${esc2(a.kort||"")}</span></div></article>`;}
+function bron(){const C=ctx(),x=C.x,K=C.K;const r=[["Keuzeregel",x.regel],["Gekozen wisseling",x.wisseling],["Aandeel spreektijd van het onderwerp",x.aandeel_onderwerp],["Afgevallen",(x.afgevallen||[]).join("; ")],["Bron van de vraagzin",x.vraag_bron||K.vraag_bron],
+  ["Lezing",K.lezing?`${K.lezing.oordeel}: ${(K.lezing.bevindingen||[]).join(" · ")}`:""],["Figuren",x.citaten.map(c=>`${c.naam}: ${c.figuur&&c.figuur.u&&c.figuur.u.manga?"manga-beeld":"getekend figuur (nog geen manga-beeld)"}`).join("; ")]];
+  return r.filter(z=>z[1]).map(z=>`<dt>${esc2(z[0])}</dt><dd>${esc2(z[1])}</dd>`).join("");}
+function pas(){document.querySelectorAll(".k").forEach(k=>{const inn=k.querySelector(".in");let q=1;k.style.setProperty("--q",q);
+  while(inn.scrollHeight>inn.clientHeight+1&&q>0.46){q-=0.04;k.style.setProperty("--q",q.toFixed(2));}
+  const f=k.parentElement.querySelector(".fit");if(!f)return;const c=parseFloat(getComputedStyle(k).getPropertyValue("--c")),px=Math.round(c*q*3.9),over=inn.scrollHeight>inn.clientHeight+1;
+  f.className="fit"+(px<12||over?" klein":"");f.textContent=over?"Past niet: het citaat is te lang voor dit format.":"Citaatletter op een telefoon: ongeveer "+px+" px"+(px<12?" (te klein om prettig te lezen)":"");});}
 function render(){
-  document.getElementById("tabs").innerHTML=D.map((d,i)=>`<button type="button" role="tab" aria-selected="${i===actief}" data-i="${i}" style="font:inherit;font-weight:700;border-radius:999px;padding:6px 14px;cursor:pointer;border:2px solid currentColor;background:${i===actief?"var(--b-ink)":"transparent"};color:${i===actief?"var(--b-paper)":"var(--b-ink)"}">${esc2(d.kaart.kop.split(" · ")[0])} · ${esc2(d.strip.agendapunt.slice(0,30))}</button>`).join("");
-  const K=D[actief].kaart,S=D[actief].strip;
-  const opKaart=new Set(K.versies.a.citaten.map(c=>c.figuur&&c.figuur.fractie).filter(Boolean)).size;
-  const n=K.partijen_totaal-opKaart;
-  const ook=`<div class="ook">${esc2(K.ook_tekst||(n>0?`Ook aan het woord: ${n} andere ${n===1?"partij":"partijen"}`:""))}</div>`;
-  const stand=K.afloop_data&&K.afloop_data.status!=="geen_moties"?new Date(K.afloop_data.stand).toLocaleDateString("nl-NL",{day:"numeric",month:"short"}):"";
-  const afloop=`<div class="afloop"><b>${K.afloop_data&&K.afloop_data.status==="open"?"Wordt vervolgd":"Afloop"}${stand?` (stand ${esc2(stand)})`:""}:</b> ${esc2(K.afloop_kort||K.afloop)}</div>`;
-  const verslag=v=>{const x=K.versies[v];return `<dl class="verslag"><dt>Keuzeregel</dt><dd>${esc2(x.regel)}</dd><dt>Gekozen wisseling</dt><dd>${esc2(x.wisseling)}</dd>
-    <dt>Afgevallen</dt><dd>${x.afgevallen.map(esc2).join("; ")}</dd><dt>Bron van de vraagzin</dt><dd>${esc2(x.vraag_bron||K.vraag_bron)}</dd>${K.lezing?`<dt>Lezing</dt><dd>${esc2(K.lezing.oordeel)}: ${(K.lezing.bevindingen||[]).map(esc2).join(" · ")}</dd>`:""}
-    ${x.kosten?`<dt>Kosten</dt><dd>${esc2(x.kosten)}</dd>`:""}<dt>Videomomenten</dt><dd>${x.citaten.map(c=>c.video?`<a href="${esc2(c.video)}" target="_blank" rel="noopener">▶ ${esc2(c.naam)}, ${esc2(c.tijd)}</a>`:esc2(c.naam)+": geen video").join(" · ")}</dd></dl>`;};
-  const een=v=>kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag">${esc2(K.versies[v].vraag||K.vraag)}</p>${K.versies[v].citaten.map(cit).join("")}${ook}${afloop}${voet}`);
-  const A=K.versies.a;
-  const looks={};for(const s of S.strip.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
-  document.getElementById("debat").innerHTML=
-   `<section><h2>a. Eén beeld (4:5, Instagram)</h2><div class="rij">${een("a")+verslag("a")}</div></section>
-    <section><h2>b. Carrousel van drie dia's</h2><div class="rij">${
-     kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag" style="font-size:8.6cqw;margin-top:8cqw">${esc2(K.vraag)}</p><div class="ook">Twee kanten, in hun eigen woorden. Swipe →</div>${voet}`,"1/3")+
-     kaart(`<div class="kop">De botsing</div>${A.citaten.map(cit).join("")}${ook}${voet}`,"2/3")+
-     kaart(`<div class="kop">Hoe liep het af?${stand?` · stand ${esc2(stand)}`:""}</div><p class="vraag" style="font-size:6.2cqw">${esc2(K.afloop_kort||K.afloop)}</p>${K.afloop_data&&K.afloop_data.status==="open"?`<div class="ook">Wordt vervolgd: de uitslag staat op de site zodra er gestemd is.</div>`:""}<div class="ook">Lees alle standpunten van ${K.partijen_totaal} partijen en het hele debat op de site.</div>${voet}`,"3/3")}</div></section>
-    ${K.versies.c?`<section><h2>c. Eén beeld, andere keuzeregel</h2><div class="rij">${een("c")+verslag("c")}</div></section>`:""}
-    ${K.geen_botsing?`<p class="uitleg"><b>Geen echte botsing in dit debat:</b> de kaart toont de vraag met één citaat.</p>`:""}
-    <section><h2>De huidige strip van dit debat</h2><div class="strip-huidig">${S.strip.strip.map((p0,i)=>{const p={...p0,tekst:p0.tekst.normaal||p0.tekst};return panelSVG(p,i,n=>looks[n]||LOOKS[0]);}).join("")}</div></section>`;
-}
-document.addEventListener("click",e=>{const t=e.target.closest("[role=tab]");if(t){actief=Number(t.dataset.i);try{localStorage.setItem("bots-tab",actief)}catch(x){};render();}});
-render();
+  $("tabs").innerHTML=D.map((d,i)=>`<button type="button" class="t" aria-pressed="${i===actief}" data-i="${i}">${esc2(d.kaart.kop.split(" · ")[0])} · ${esc2(d.strip.agendapunt.slice(0,26))}</button>`).join("");
+  const K=D[actief].kaart,v=kiesVersie(K);
+  $("versies").innerHTML=Object.keys(K.versies).length>1?Object.keys(K.versies).map(k=>`<button type="button" class="t" data-v="${k}" aria-pressed="${k===v}">Versie ${k}${k===kiesVersie({versies:K.versies})&&!versie?" (standaard)":""}</button>`).join(""):"";
+  $("sociaal").innerHTML=fig(kaart("f45"),"4:5 · Instagram-feed","1080 × 1350.",true)+fig(kaart("f916"),"9:16 · story, TikTok, Shorts","1080 × 1920; boven en onder ruimte voor de knoppen van de app.",true)
+    +fig(kaart("f11"),"1:1 · vierkant","1080 × 1080.",true)+fig(kaart("f191"),"1,91:1 · WhatsApp en LinkedIn","1200 × 628. Alleen de vraag en de twee sprekers; te klein voor citaten.");
+  $("carrousel").innerHTML=fig(kaart("f45",1),"Dia 1 · de vraag","De vraag met de twee sprekers.")+fig(kaart("f45",2),"Dia 2 · de botsing","Meer ruimte voor de citaten.",true)+fig(kaart("f45",3),"Dia 3 · naar de site","Geen afloop op het beeld; die staat op de site.");
+  $("sitekaart").innerHTML=sitekaart();$("lijstkaart").innerHTML=lijst();$("bron").innerHTML=bron();
+  const S=D[actief].strip,looks={};for(const s of S.strip.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
+  $("strip").innerHTML=S.strip.strip.map((p0,i)=>panelSVG({...p0,tekst:p0.tekst.normaal||p0.tekst},i,n=>looks[n]||LOOKS[0])).join("");
+  pas();}
+document.addEventListener("click",e=>{const t=e.target.closest("[data-i]");if(t){actief=Number(t.dataset.i);versie=null;try{localStorage.setItem("bots-tab",actief)}catch(x){};render();return;}
+  const b=e.target.closest("[data-v]");if(b){versie=b.dataset.v;render();}});
+render();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(pas);window.addEventListener("resize",pas);
 </script>
