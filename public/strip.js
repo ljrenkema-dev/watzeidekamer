@@ -165,7 +165,7 @@ function renderStrip(d){
     el.innerHTML=el.dataset.emo?`<g>${character(L,el.dataset.emo)}</g>`:avatar(L);
     const k=el.closest(".kaart");if(k)k.style.setProperty("--partij",L.outfit);});
   const taal=document.documentElement.dataset.taal==="makkelijk"?"makkelijk":"normaal";
-  document.getElementById("strip").innerHTML=d.strip.map(p0=>({...p0,tekst:typeof p0.tekst==="object"?(p0.tekst[taal]||p0.tekst.normaal||p0.tekst.makkelijk):p0.tekst})).map((p,i)=>`<figure class="panel" style="margin:0">${panelSVG(p,i,lookOf)}<figcaption class="src"><b>Echt gezegd${p.spreker==="Verteller"?"":" door "+esc(p.wie)}:</b> “${esc(p.citaat)}”${p.beurt!=null&&d.verslag?` <a class="indebat" href="${d.verslag}#b${p.beurt}">Lees in het debat</a>`:""}</figcaption></figure>`).join("");
+  document.getElementById("strip").innerHTML=d.strip.map(p0=>({...p0,tekst:typeof p0.tekst==="object"?(p0.tekst[taal]||p0.tekst.normaal||p0.tekst.makkelijk):p0.tekst})).map((p,i)=>`<figure class="panel" style="margin:0">${panelSVG(p,i,lookOf)}<figcaption class="src"><b>Echt gezegd${p.spreker==="Verteller"?"":" door "+esc(p.wie)}:</b> “${esc(p.citaat)}”${p.beurt!=null&&d.verslag?` <a class="indebat" href="${d.verslag}#b${p.beurt}">Lees in het debat</a>`:""}${p.video?` <a class="indebat" href="${esc(p.video)}" target="_blank" rel="noopener">▶ Bekijk dit moment</a>`:""}</figcaption></figure>`).join("");
 }
 
 /* Figuur getekend naar kenmerken uit het officiële portret (data/uiterlijk.json).

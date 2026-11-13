@@ -1,0 +1,66 @@
+{
+ "id": "92b8a5d5-f8a7-4c3e-af9e-824e7b1bc145",
+ "datum": "2026-11-12",
+ "categorie": "stemmingen",
+ "zaal": "plenaire-zaal",
+ "slug": "stemmingen-13-30",
+ "naam": "Stemmingen",
+ "url": "https://debatdirect.tweedekamer.nl/2026-11-12/stemmingen/plenaire-zaal/stemmingen-13-30",
+ "momenten": [
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-12T21:05:23+0100"
+  },
+  {
+   "persoon": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+   "soort": "interrupter",
+   "start": "2026-11-12T21:05:55+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-12T21:05:56+0100"
+  },
+  {
+   "persoon": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+   "soort": "speaker",
+   "start": "2026-11-12T21:05:59+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-12T21:07:10+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-12T21:12:35+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-12T21:13:02+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-12T21:13:31+0100"
+  },
+  {
+   "persoon": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+   "soort": "speaker",
+   "start": "2026-11-12T21:13:35+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-12T21:14:33+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-12T21:14:52+0100"
+  }
+ ]
+}

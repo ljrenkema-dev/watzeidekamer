@@ -6,7 +6,7 @@ Site: watzeidekamer.nl. Debatten uit de Tweede Kamer in normale taal (standaard)
 - Werk en push op `claude/fase-1-proef`. **Push niet naar `main`** tot de eigenaar zegt dat de site live mag; `main` is de productiebranch van Cloudflare Pages.
 
 ## Nachtelijke run
-1. `python3 scripts/fetch.py <vandaag-7-dagen> <vandaag>` en `python3 scripts/parse.py`.
+1. `python3 scripts/fetch.py <vandaag-7-dagen> <vandaag>` en `python3 scripts/parse.py`. Daarna `python3 scripts/debatdirect.py`: haalt per debat de spreekmomenten uit Debat Direct op (`data/debatdirect/`), zodat elk citaat linkt naar het moment in de video. Lukt dat niet, ga dan door; de strip werkt ook zonder videolink.
 2. `python3 scripts/koppel.py` — koppelt sprekers aan figuren. Sprekers zonder figuur krijgen een neutraal figuur; noem ze in het verslag van de run (een figuur maken gebeurt apart, met keuring door de eigenaar).
 3. `python3 scripts/todo.py 10` — de agendapunten voor deze nacht (plenair eerst, nieuwste eerst; hooguit 10). `parse.py` knipt debatten boven 16.000 woorden al in delen (`<id>-d1`, `-d2`, …) langs spreekbeurten en fases (inbreng Kamer, antwoord kabinet, tweede termijn); elk deel krijgt een eigen strip. Delen van één debat staan in `todo.py` bij elkaar; maak ze bij voorkeur in dezelfde nacht.
 4. Maak per agendapunt een strip volgens `prompts/strip.md` (beide taalniveaus). Gebruik per agendapunt een eigen subagent, hooguit 5 tegelijk.

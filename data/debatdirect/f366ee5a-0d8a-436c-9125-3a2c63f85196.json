@@ -1,0 +1,171 @@
+{
+ "id": "f366ee5a-0d8a-436c-9125-3a2c63f85196",
+ "datum": "2026-11-10",
+ "categorie": "financien",
+ "zaal": "plenaire-zaal",
+ "slug": "pakket-belastingplan-2027-voortzetting-16-15",
+ "naam": "Pakket Belastingplan 2027 (voortzetting)",
+ "url": "https://debatdirect.tweedekamer.nl/2026-11-10/financien/plenaire-zaal/pakket-belastingplan-2027-voortzetting-16-15",
+ "momenten": [
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:32:06+0100"
+  },
+  {
+   "persoon": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:33:12+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:33:27+0100"
+  },
+  {
+   "persoon": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:33:37+0100"
+  },
+  {
+   "persoon": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:34:29+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:35:18+0100"
+  },
+  {
+   "persoon": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:35:41+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:36:26+0100"
+  },
+  {
+   "persoon": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:36:46+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:37:05+0100"
+  },
+  {
+   "persoon": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:37:15+0100"
+  },
+  {
+   "persoon": "75e07581-7770-48b1-926c-a1cc5c008774",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:37:40+0100"
+  },
+  {
+   "persoon": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:38:11+0100"
+  },
+  {
+   "persoon": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:38:31+0100"
+  },
+  {
+   "persoon": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:38:39+0100"
+  },
+  {
+   "persoon": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:38:50+0100"
+  },
+  {
+   "persoon": "247cd142-7220-4f25-aa32-8e1801169e9f",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:38:59+0100"
+  },
+  {
+   "persoon": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:39:01+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:39:02+0100"
+  },
+  {
+   "persoon": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:39:05+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:39:06+0100"
+  },
+  {
+   "persoon": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:39:07+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:39:08+0100"
+  },
+  {
+   "persoon": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:39:18+0100"
+  },
+  {
+   "persoon": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:39:23+0100"
+  },
+  {
+   "persoon": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:39:29+0100"
+  },
+  {
+   "persoon": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:39:33+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:39:44+0100"
+  },
+  {
+   "persoon": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:39:47+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:39:48+0100"
+  },
+  {
+   "persoon": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+   "soort": "interrupter",
+   "start": "2026-11-10T16:39:50+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T16:39:51+0100"
+  }
+ ]
+}

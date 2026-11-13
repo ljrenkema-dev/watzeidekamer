@@ -142,3 +142,5 @@ html[data-taal="makkelijk"] .lv-n{display:none}
 .strip-tag{background:#ffe066;color:#1d1b2e}
 .indebat{white-space:nowrap;font-weight:700}
 @media (max-width:600px){.beurt.int{margin-left:10px}}
+.beurt header a.video{font-size:13px;font-weight:700;text-decoration:none;border:2px solid currentColor;border-radius:999px;padding:0 8px;color:#3b4cca}
+.beurt header time+a.video,.beurt header a.video{margin-left:4px}

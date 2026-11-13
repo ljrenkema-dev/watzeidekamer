@@ -1,0 +1,406 @@
+{
+ "id": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
+ "datum": "2026-11-10",
+ "categorie": "overig",
+ "zaal": "plenaire-zaal",
+ "slug": "vragenuur-14-01",
+ "naam": "Vragenuur",
+ "url": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01",
+ "momenten": [
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:00:07+0100"
+  },
+  {
+   "persoon": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:00:23+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:01:15+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:01:19+0100"
+  },
+  {
+   "persoon": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:03:49+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:04:44+0100"
+  },
+  {
+   "persoon": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:06:08+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:07:03+0100"
+  },
+  {
+   "persoon": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:07:50+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:07:52+0100"
+  },
+  {
+   "persoon": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:07:54+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:08:27+0100"
+  },
+  {
+   "persoon": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:09:45+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:10:11+0100"
+  },
+  {
+   "persoon": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:11:18+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:11:35+0100"
+  },
+  {
+   "persoon": "94b57459-7e34-46f8-834a-da04c53a02d6",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:11:39+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:12:06+0100"
+  },
+  {
+   "persoon": "00d76c77-5747-4519-a846-5fc28b793dc7",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:13:00+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:13:42+0100"
+  },
+  {
+   "persoon": "00d76c77-5747-4519-a846-5fc28b793dc7",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:14:39+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:15:08+0100"
+  },
+  {
+   "persoon": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:15:42+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:16:30+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:17:34+0100"
+  },
+  {
+   "persoon": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+   "soort": "speaker",
+   "start": "2026-11-10T14:17:39+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:17:40+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:17:46+0100"
+  },
+  {
+   "persoon": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "soort": "speaker",
+   "start": "2026-11-10T14:18:03+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:19:30+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:19:36+0100"
+  },
+  {
+   "persoon": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:22:01+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:22:40+0100"
+  },
+  {
+   "persoon": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:23:43+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:24:55+0100"
+  },
+  {
+   "persoon": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:26:04+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:26:55+0100"
+  },
+  {
+   "persoon": "80a5d70b-e932-493d-90b4-d45fe2be522f",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:27:47+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:28:26+0100"
+  },
+  {
+   "persoon": "80a5d70b-e932-493d-90b4-d45fe2be522f",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:28:27+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:28:51+0100"
+  },
+  {
+   "persoon": "75e07581-7770-48b1-926c-a1cc5c008774",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:30:10+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:30:53+0100"
+  },
+  {
+   "persoon": "6ee6a4b6-3523-4806-b784-a669f6fa8c10",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:32:09+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:32:45+0100"
+  },
+  {
+   "persoon": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:33:28+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:34:11+0100"
+  },
+  {
+   "persoon": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:34:56+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:35:21+0100"
+  },
+  {
+   "persoon": "9d5e0865-b8a6-4952-8126-c3e27b08ef33",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:35:38+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:36:17+0100"
+  },
+  {
+   "persoon": "43f571a7-1136-42f0-9a88-7b404b8e43b9",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:37:28+0100"
+  },
+  {
+   "persoon": "1fb5fbfe-6ffc-44de-a7c7-cc8776776199",
+   "soort": "speaker",
+   "start": "2026-11-10T14:38:12+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:38:45+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:38:57+0100"
+  },
+  {
+   "persoon": "78bfadde-92e9-4200-9324-ec3ff790a712",
+   "soort": "speaker",
+   "start": "2026-11-10T14:39:08+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:40:46+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:40:52+0100"
+  },
+  {
+   "persoon": "78bfadde-92e9-4200-9324-ec3ff790a712",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:42:40+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:44:14+0100"
+  },
+  {
+   "persoon": "78bfadde-92e9-4200-9324-ec3ff790a712",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:45:52+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:46:27+0100"
+  },
+  {
+   "persoon": "ad2d74ac-2b93-494b-8587-ec1084c9eaa0",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:46:41+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:47:13+0100"
+  },
+  {
+   "persoon": "b5363002-d06e-4813-9c05-86fe74185a56",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:48:08+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:48:50+0100"
+  },
+  {
+   "persoon": "49473613-31b4-4fa3-9f2b-12646b918ecf",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:49:49+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:50:13+0100"
+  },
+  {
+   "persoon": "75e07581-7770-48b1-926c-a1cc5c008774",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:50:36+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:51:23+0100"
+  },
+  {
+   "persoon": "b119b226-8fb6-4888-829f-0ccd02d6dee6",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:51:42+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:52:24+0100"
+  },
+  {
+   "persoon": "b119b226-8fb6-4888-829f-0ccd02d6dee6",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:52:25+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:52:35+0100"
+  },
+  {
+   "persoon": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:52:47+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:53:24+0100"
+  },
+  {
+   "persoon": "ad2d74ac-2b93-494b-8587-ec1084c9eaa0",
+   "soort": "interrupter",
+   "start": "2026-11-10T14:54:17+0100"
+  },
+  {
+   "persoon": "64124acb-ae06-4aa9-8cdc-642f233f5b5a",
+   "soort": "speaker",
+   "start": "2026-11-10T14:54:33+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T14:54:46+0100"
+  }
+ ]
+}

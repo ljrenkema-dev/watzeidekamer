@@ -136,6 +136,41 @@ def beurt_index(punt, vak):
     return None
 
 
+def video_link(punt, i):
+    """Link naar het moment in Debat Direct waarop spreekbeurt i begint, of None.
+    Debat Direct heeft dezelfde id's als de agendapunten; het spreekmoment moet dezelfde persoon hebben
+    en hooguit 90 seconden van de begintijd in het verslag afliggen."""
+    if i is None:
+        return None
+    import urllib.parse
+    from datetime import datetime
+    f = ROOT / "data" / "debatdirect" / f"{punt['id'][:36]}.json"
+    if not f.exists():
+        return None
+    dd = json.loads(f.read_text())
+    b = punt["beurten"][i]
+    if not b.get("begin"):
+        return None
+    t = datetime.fromisoformat(b["begin"][:19])
+    beste = None
+    for m in dd["momenten"]:
+        if m["persoon"] != b["spreker"]["id"]:
+            continue
+        verschil = abs((datetime.fromisoformat(m["start"][:19]) - t).total_seconds())
+        if verschil <= 90 and (beste is None or verschil < beste[0]):
+            beste = (verschil, m)
+    if not beste:
+        return None
+    m = beste[1]
+    return f"{dd['url']}/markeringen?event={urllib.parse.quote(m['soort'] + m['start'], safe='')}"
+
+
+def video_knop(punt, i):
+    url = video_link(punt, i)
+    return (f'<a class="video" href="{e(url)}" target="_blank" rel="noopener" '
+            f'aria-label="Bekijk dit moment in Debat Direct (opent in een nieuw venster)">▶ video</a>') if url else ""
+
+
 def verslag_pagina(punt, strip):
     """Leesbare weergave van alle spreekbeurten van dit agendapunt (of deel), met een anker per beurt.
     De tekst komt ongewijzigd uit het verslag; onderaan de link naar de officiële bron."""
@@ -163,6 +198,7 @@ def verslag_pagina(punt, strip):
         rijen.append(f'<article class="beurt{" vz" if b.get("voorzitter") else ""}{" int" if b["rol"] == "interrumpant" else ""}" id="b{i}">'
                      f'<header><b>{kop}</b> {"".join(tags)}'
                      f'{f"<time>{tijd}</time>" if tijd and tijd != vorige_tijd else ""}'
+                     f'{video_knop(punt, i)}'
                      f'<a class="anker" href="#b{i}" aria-label="Link naar deze spreekbeurt">#</a></header>{alineas}</article>')
         vorige_tijd = tijd or vorige_tijd
     body = f"""<main class="out" style="display:flex;flex-direction:column;gap:16px">
@@ -173,7 +209,7 @@ def verslag_pagina(punt, strip):
 <p class="note">Hieronder staan alle spreekbeurten, letterlijk en in volgorde uit het verslag van de Tweede Kamer. {status}
 Spreekbeurten die in de strip staan, zijn gemarkeerd.</p>
 <div class="verslag">{"".join(rijen)}</div>
-<p class="note">Bron: <a href="{e(bron)}">officieel verslag van de Tweede Kamer</a> (XML, {e(v['titel'])}).</p>
+<p class="note">Bron: <a href="{e(bron)}">officieel verslag van de Tweede Kamer</a> (XML, {e(v['titel'])}). Met ▶ video bekijk je een spreekbeurt in Debat Direct, de videodienst van de Tweede Kamer.</p>
 </main>"""
     return page(f"Het hele debat: {punt['titel']} – Wat zei de Kamer?", body, root="../")
 
@@ -288,6 +324,7 @@ def debat(punt, strip):
         vakken.append({"spreker": sp["verslagnaam"] if sp else "Verteller", "wie": wie(sp) if sp else "",
                        "emotie": p["emotie"], "citaat": p["citaat"], "interruptie": is_interruptie(punt, p),
                        "beurt": beurt_index(punt, p) if p["spreker_id"] else None,
+                       "video": video_link(punt, beurt_index(punt, p)) if p["spreker_id"] else None,
                        "tekst": {"normaal": niv(p["tekst"], "normaal"), "makkelijk": niv(p["tekst"], "makkelijk")}})
     status = (f'<span class="tag warn">Voorlopig verslag</span>' if v["status"] in VOORLOPIG
               else '<span class="tag">Gecorrigeerd verslag</span>')

@@ -1,0 +1,31 @@
+{
+ "id": "5a6ef5fe-3ef9-4859-884a-a2436454ab62",
+ "datum": "2026-11-10",
+ "categorie": "stemmingen",
+ "zaal": "plenaire-zaal",
+ "slug": "stemmingen-21-56",
+ "naam": "Stemmingen",
+ "url": "https://debatdirect.tweedekamer.nl/2026-11-10/stemmingen/plenaire-zaal/stemmingen-21-56",
+ "momenten": [
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T22:43:27+0100"
+  },
+  {
+   "persoon": "247cd142-7220-4f25-aa32-8e1801169e9f",
+   "soort": "speaker",
+   "start": "2026-11-10T22:43:39+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T22:44:04+0100"
+  },
+  {
+   "persoon": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "soort": "chairman",
+   "start": "2026-11-10T22:44:20+0100"
+  }
+ ]
+}

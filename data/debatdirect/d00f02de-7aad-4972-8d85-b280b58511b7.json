@@ -1,0 +1,101 @@
+{
+ "id": "d00f02de-7aad-4972-8d85-b280b58511b7",
+ "datum": "2026-11-11",
+ "categorie": "overig",
+ "zaal": "plenaire-zaal",
+ "slug": "tweeminutendebat-sahelregio-cd-1-10-10-15",
+ "naam": "Sahelregio",
+ "url": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/tweeminutendebat-sahelregio-cd-1-10-10-15",
+ "momenten": [
+  {
+   "persoon": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "soort": "chairman",
+   "start": "2026-11-11T10:16:17+0100"
+  },
+  {
+   "persoon": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
+   "soort": "speaker",
+   "start": "2026-11-11T10:16:30+0100"
+  },
+  {
+   "persoon": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
+   "soort": "speaker",
+   "start": "2026-11-11T10:17:34+0100"
+  },
+  {
+   "persoon": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
+   "soort": "speaker",
+   "start": "2026-11-11T10:18:02+0100"
+  },
+  {
+   "persoon": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "soort": "chairman",
+   "start": "2026-11-11T10:18:07+0100"
+  },
+  {
+   "persoon": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
+   "soort": "speaker",
+   "start": "2026-11-11T10:18:22+0100"
+  },
+  {
+   "persoon": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
+   "soort": "speaker",
+   "start": "2026-11-11T10:19:35+0100"
+  },
+  {
+   "persoon": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "soort": "chairman",
+   "start": "2026-11-11T10:20:27+0100"
+  },
+  {
+   "persoon": "3e045e18-daa2-48d2-8310-2999e2a47020",
+   "soort": "speaker",
+   "start": "2026-11-11T10:21:05+0100"
+  },
+  {
+   "persoon": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "soort": "chairman",
+   "start": "2026-11-11T10:21:53+0100"
+  },
+  {
+   "persoon": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "soort": "chairman",
+   "start": "2026-11-11T10:27:44+0100"
+  },
+  {
+   "persoon": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+   "soort": "speaker",
+   "start": "2026-11-11T10:28:08+0100"
+  },
+  {
+   "persoon": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "soort": "chairman",
+   "start": "2026-11-11T10:29:07+0100"
+  },
+  {
+   "persoon": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+   "soort": "speaker",
+   "start": "2026-11-11T10:29:12+0100"
+  },
+  {
+   "persoon": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "soort": "chairman",
+   "start": "2026-11-11T10:29:21+0100"
+  },
+  {
+   "persoon": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+   "soort": "speaker",
+   "start": "2026-11-11T10:29:24+0100"
+  },
+  {
+   "persoon": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "soort": "chairman",
+   "start": "2026-11-11T10:29:29+0100"
+  },
+  {
+   "persoon": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "soort": "chairman",
+   "start": "2026-11-11T10:29:49+0100"
+  }
+ ]
+}
