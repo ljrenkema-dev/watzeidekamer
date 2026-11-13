@@ -1,0 +1,118 @@
+{
+  "agendapunt": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
+  "verslag_id": "0b4535e0-4257-48c9-9cd3-764382181d49",
+  "datum": "2026-11-13",
+  "oordeel": "aangepast",
+  "onafhankelijk": true,
+  "bevindingen": [
+    {
+      "waar": "vak 1 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L5",
+      "oud": "In 2011 bleef gelijk loon bewust uit de wet. Is het ministerie aansprakelijk, minister?",
+      "nieuw": "Gelijk loon bleef in 2011 bewust uit de wet. Vindt u het ministerie aansprakelijk?",
+      "waarom": "Patijn vraagt 'acht hij het ministerie aansprakelijk?': een vraag naar het oordeel van de minister, niet naar de feiten (precies het voorbeeld uit L5)."
+    },
+    {
+      "waar": "vak 3 normaal+makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L6",
+      "oud": "Er staat 'gelijkwaardig' in de wet, niet 'gelijk'. Daardoor bedenkt de sector constructies om mensen minder te betalen.",
+      "nieuw": "Nu staat 'gelijkwaardig' in de wet, niet 'gelijk'. Zo bedenkt de sector constructies om mensen minder te betalen. (makkelijk: De wet zegt nu 'gelijkwaardig', niet 'gelijk'. …)",
+      "waarom": "Na twee vakken over 2011 leek 'de wet' de wet van 2011; het citaat zegt 'staat' (nu), en volgens de minister stond 'gelijkwaardig' er in 2011 juist niet in."
+    },
+    {
+      "waar": "vak 6 normaal+makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "… Ik geef ze steun. / Een steunpunt is goed. Dat regelt de vakbond, denk ik. Ik help ze.",
+      "nieuw": "… Ik help ze daarbij. / Een steunpunt is geen probleem. De vakbond regelt dat, denk ik. Ik help ze.",
+      "waarom": "Citaat: 'heb geen enkel probleem met' en 'een steuntje in de rug'; 'is goed' en 'steun' zijn iets sterker."
+    },
+    {
+      "waar": "vak 0 normaal",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "zij kregen jaren minder dan collega's",
+      "nieuw": "zij kregen jaren minder betaald dan collega's",
+      "waarom": "Citaat: 'kregen jaren minder betaald dan hun collega's'; zonder 'betaald' is onduidelijk waarvan minder."
+    },
+    {
+      "waar": "vak 2 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Volgens mij mocht het.",
+      "nieuw": "Volgens mij mocht het juridisch.",
+      "waarom": "Citaat: 'niets gebeurd wat juridisch niet door de beugel kon'; de minister oordeelt juridisch, niet in het algemeen."
+    },
+    {
+      "waar": "kernpunt 3 normaal+makkelijk",
+      "soort": "evenwicht",
+      "ernst": "middel",
+      "les": "L9",
+      "oud": "… is volgens hem een taak voor de vakbeweging; hij geeft ze een steuntje in de rug.",
+      "nieuw": "… Hij vindt het 'een beetje gek' als hij zelf mensen oproept om te procederen tegen de overheid waar hij ook van is, en tegen een wet die volgens hem juridisch kon.",
+      "waarom": "Het sterkste argument van de minister ('Het wordt een beetje gek om een steunpunt te gaan maken waarbij ik mensen ga oproepen om te procederen tegen de overheid') ontbrak."
+    },
+    {
+      "waar": "kernpunt 2 normaal+makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "nieuw",
+      "oud": "(geen voorbeeld)",
+      "nieuw": "Als voorbeeld zegt PRO te horen van scholingsvouchers van €1.000 die op papier worden toegekend aan mensen die ze nooit gebruiken, en die kunnen worden weggestreept tegen een deel van de eindejaarsuitkering.",
+      "waarom": "Concreet voorbeeld van Patijn ('Ik hoor nu dat er scholingsvouchers ter waarde van bijvoorbeeld €1.000 …') maakt 'constructies' begrijpelijk; met 'hoort' als voorbehoud (L1)."
+    },
+    {
+      "waar": "kernpunt 7 normaal+makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L1",
+      "oud": "De minister herkent de versnippering niet, maar zegt een gesprek toe. / De minister wil daarover praten.",
+      "nieuw": "De minister herkent de versnippering 'niet als zodanig', maar zegt een gesprek toe als duidelijk is met wie. / De minister ziet het probleem niet zo. Ze wil wel praten, als duidelijk is met wie.",
+      "waarom": "Hermans: 'Dit herken ik niet als zodanig' en 'laat ik dat toezeggen, maar dan wil ik wel graag even heel specifiek duidelijk krijgen met wie'."
+    },
+    {
+      "waar": "standpunt Van der Burg normaal+makkelijk, kernpunt 12 normaal+makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "erkent dat kleine gemeenten de kosten … niet kunnen dragen: 'als er een taak overgaat, moet er ook een knaak overgaan'.",
+      "nieuw": "… 'als er een taak overgaat, moet er ook een knaak overgaan'. Maar het gebruik van jeugdzorg is sinds de overgang naar gemeenten enorm gestegen, dus moet je volgens hem kijken naar een verdeling tussen Rijk en gemeenten.",
+      "waarom": "Direct na de knaak-zin volgt 'maar sinds de overgang naar de gemeenten zien we natuurlijk een enorme stijging van het gebruik'; die nuance viel weg. Makkelijk: 'wacht op het advies' werd 'wijst op het advies'."
+    },
+    {
+      "waar": "standpunt Van Brenk normaal+makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L4",
+      "oud": "volgens de VNG komen gemeenten 728 miljoen tekort / Volgens de gemeenten komen ze 728 miljoen tekort.",
+      "nieuw": "na een noodkreet van de VNG komen gemeenten volgens haar eigenlijk 728 miljoen tekort / Volgens haar komen gemeenten 728 miljoen tekort.",
+      "waarom": "'Nu komen ze eigenlijk die 728 miljoen tekort' is de conclusie van Van Brenk zelf, niet een letterlijke uitspraak van de VNG."
+    },
+    {
+      "waar": "kernpunt 5 makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "Volgens JA21 kregen honderden, misschien duizenden vrouwen onnodig chemo.",
+      "nieuw": "Volgens JA21 kregen elk jaar honderden, misschien duizenden vrouwen onnodig chemo.",
+      "waarom": "Normaal en citaat zeggen 'jaarlijks'; makkelijk liet dat weg, waardoor het aantal anders leest."
+    },
+    {
+      "waar": "woorden: Gelijk en gelijkwaardig loon",
+      "soort": "neutraliteit",
+      "ernst": "klein",
+      "les": "L9",
+      "oud": "… PRO wilde 'gelijk' loon: volgens PRO geeft 'gelijkwaardig' ruimte om mensen minder te betalen.",
+      "nieuw": "… Volgens de minister koos de Kamer in meerderheid voor 'gelijkwaardig', zodat uitzendwerk op dezelfde flexibele manier inzetbaar blijft.",
+      "waarom": "De uitleg gaf alleen de kant van PRO; de minister: 'dat je uitzendarbeid op dezelfde flexibele manier wil kunnen blijven inzetten'."
+    }
+  ],
+  "opmerking": "Strip gaat over onderwerp 0 (uitzendkrachten). Evenwicht binnen dat onderwerp: PRO (vraagsteller) 2 vakken + Verteller, minister 3, SP 1; D66 (Neijenhuis) en FVD (Van Houwelingen) hebben geen vak maar staan bij de standpunten en kernpunten. Een FVD-vak met het antwoord van de minister erbij zou 9 vakken geven; daarom niet toegevoegd. Andere fracties zonder vak horen bij andere onderwerpen (redacteur.md punt 4)."
+}
