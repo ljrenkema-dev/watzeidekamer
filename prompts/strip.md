@@ -37,6 +37,8 @@ Bij een vragenuur, mondelinge vragen of een debat waarin achter elkaar losse ond
 - `woorden` legt vaktermen uit. Gebruik zo veel mogelijk de uitleg uit het debat zelf; algemene kennis alleen als die vaststaat en neutraal is.
 
 ## Strip
+**Waar de strip voor is.** De strip is het uithangbord van de site: hij moet de interesse wekken van een breed publiek, mensen die niet elke dag politiek volgen. Wie de strip leest, moet denken "hé, hier wil ik meer van weten" en dan verder lezen in de samenvatting, de standpunten en het hele debat. Daarom is de strip **accuraat én aansprekend**: elke ballon klopt met het citaat, en samen vertellen de vakken een verhaal met een spanning, een botsing of een verrassing. Twijfel je tussen een correct maar saai vak en een correct en pakkend vak, kies dan het pakkende. Twijfel je tussen pakkend en correct, kies altijd correct.
+
 De strip is het hart van de pagina: hij staat direct onder de samenvatting, en daaronder de standpunten van álle partijen (uit `sprekers`). De strip hoeft dus niet elke partij te tonen, wel de kern van het debat.
 - 4 tot 8 vakken, in de volgorde van het debat.
 - `tekst`: wat de spreker in dat vak zegt, in de ik-vorm, normaal hooguit 18 woorden, makkelijk hooguit 14.

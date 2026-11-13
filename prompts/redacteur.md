@@ -37,7 +37,8 @@ Voor elk vak, in **beide** taalniveaus:
 - Krijgt elke kant van de belangrijkste tegenstelling een stem, met haar sterkste argument?
 - Worden sprekers gelijk behandeld in toon (geen spot bij de één, respect bij de ander)?
 
-### 3b. Is elke ballon op zichzelf te begrijpen en de moeite waard?
+### 3b. Wekt de strip interesse, en is elke ballon op zichzelf te begrijpen?
+- De strip is het uithangbord van de site (zie "Waar de strip voor is" in `prompts/strip.md`): zou iemand die niet elke dag politiek volgt na deze strip verder willen lezen? Zo niet, vervang dan het zwakste vak door een pakkender letterlijk citaat. Juistheid gaat altijd voor.
 - Zegt elke ballon waaróver het gaat (niet alleen "ik dien een motie in")? Zie "Kies vakken die op zichzelf staan" in `prompts/strip.md`.
 - Laat de strip de botsing zien, met het sterkste moment van elke kant? Is een kant niet aansprekender gemaakt dan de andere?
 - Vervang een procedureel of nietszeggend vak door een sterker letterlijk citaat uit het debat, met dezelfde regels als bij juistheid.
