@@ -1,6 +1,6 @@
 {
  "debat": "c0b2be4c-9cd7-4be6-9421-01b294be732d-d1",
- "kop": "Begrotingsdebat Buitenlandse Zaken · 11 nov 2026 · inbreng van de Kamer",
+ "kop": "Begroting Buitenlandse Zaken · 11 nov 2026",
  "geen_botsing": true,
  "vraag": "Lopen er na 1 januari 2027 nog contracten voor Russisch lng door?",
  "vraag_bron": "Stoffer (SGP) vroeg 'hoeveel Russisch lng Nederland nog importeert en tot wanneer deze langetermijncontracten doorlopen' met het oog op het Europese importverbod per 1 januari 2027.",
@@ -38,7 +38,74 @@
      }
     }
    ]
+  },
+  "c": {
+   "regel": "Hoofdtegenstelling van dit debatdeel: de Nederlandse opstelling tegenover Israël. Israël/Gaza kreeg de meeste spreektijd (Stoffer, Teunissen, Ceder en Dobbe besteedden er een groot deel van hun inbreng aan; Oekraïne kwam daarna, lng was één vraag van Stoffer). Stoffer (SGP) en Teunissen (PvdD) staan tegenover elkaar, maar reageerden niet direct op elkaar: beide citaten komen uit hun eigen inbreng. 'Genocide' is de bewering van Teunissen, alleen in haar citaat en niet in de vraag; 'in de ogen van Israël' bij Stoffer blijft staan (L1).",
+   "wisseling": "Chris Stoffer (SGP) en Christine Teunissen (PvdD), beurt 4 en 11, geen directe wisseling",
+   "vraag": "Welke koers moet Nederland varen tegenover Israël?",
+   "vraag_bron": "Stoffer (beurt 4): \"wat gaat deze minister komend jaar doen om het vertrouwen van deze belangrijke partner te herwinnen?\"; Teunissen (beurt 11): \"Nederland kan veel meer en moet veel meer doen\".",
+   "afgevallen": [
+    "Dobbe (SP, beurt 15) over het Genocideverdrag: zelfde kant als Teunissen, minder concreet over wat Nederland moet doen",
+    "Stoffer over BDS en een Hamas-netwerk bij demonstraties: gaat over beïnvloeding in Nederland, niet over het beleid tegenover Israël",
+    "Oekraïne (Stoffer, Teunissen, Dobbe): wel verschil in nadruk (vredesonderhandelingen), maar minder spreektijd en minder scherp"
+   ],
+   "citaten": [
+    {
+     "beurt": 4,
+     "citaat": "Nederland maakt in de ogen van Israël sinds 7 oktober een behoorlijk aantal bokkensprongen. Daarom heb ik eigenlijk maar één vraag: wat gaat deze minister komend jaar doen om het vertrouwen van deze belangrijke partner te herwinnen?",
+     "naam": "Chris Stoffer",
+     "partij": "SGP",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/begroting-buitenlandse-zaken-37020-v-1e-tk-voortzetting-14-45/markeringen?event=speaker2026-11-11T14%3A44%3A55%2B0100",
+     "tijd": "14:44",
+     "figuur": {
+      "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+      "fractie": "SGP",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "grijs",
+       "kapsel": "kort",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true
+      }
+     }
+    },
+    {
+     "beurt": 11,
+     "citaat": "Nederland kan veel meer en moet veel meer doen om een einde te maken aan de genocide. … Op militair vlak kunnen we alle directe en indirecte wapenhandel met Israël stopzetten.",
+     "naam": "Christine Teunissen",
+     "partij": "PvdD",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/begroting-buitenlandse-zaken-37020-v-1e-tk-voortzetting-14-45/markeringen?event=speaker2026-11-11T14%3A50%3A42%2B0100",
+     "tijd": "14:50",
+     "figuur": {
+      "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+      "fractie": "PvdD",
+      "u": {
+       "gezicht": "v",
+       "haarkleur": "rood",
+       "kapsel": "lang-krul",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": true,
+       "manga": "7564c685-2691-4796-9159-ebd5df4fdc8d"
+      }
+     }
+    }
+   ]
   }
  },
- "partijen_totaal": 9
+ "partijen_totaal": 9,
+ "lezing": {
+  "oordeel": "aangepast",
+  "bevindingen": [
+   "Versie a klopt op zich (Stoffer en Klos zijn het eens over lng, geen botsing; citaat letterlijk; kop en afloop kloppen), maar geeft een vertekend beeld: lng was één vraag in Stoffers inbreng, terwijl Israël/Gaza de meeste spreektijd had (Stoffer, Teunissen, Ceder, Dobbe) en de duidelijkste tegenstelling.",
+   "Versie c toegevoegd: Stoffer (SGP, vertrouwen van Israël herwinnen) tegenover Teunissen (PvdD, veel meer doen, wapenhandel stopzetten), uit hun eigen inbreng, niet uit een directe wisseling (staat in 'regel'). Eigen neutrale vraag zonder beladen woorden; 'genocide' alleen als woord van Teunissen in haar citaat.",
+   "Advies aan de eigenaar: versie c is voor dit debatdeel het eerlijkere lokbeeld; 'geen_botsing' geldt alleen voor de wisselingen (versie a).",
+   "Hoofdsessie: kop ingekort; 'Zoals ook de eisen van de Rode Lijndemonstratie luiden:' weggelaten uit Teunissens citaat om op de kaart te passen (zij maakt die eis zelf)."
+  ]
+ }
 }

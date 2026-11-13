@@ -6,9 +6,10 @@ Je krijgt `data/compact/kaart_<id>.txt`: het debat, de partijen, de afloop uit d
 
 ## Wat je kiest
 1. **De wisseling.** Neem de langste, tenzij die geen echte tegenstelling heeft (twee sprekers die het eens zijn, of alleen procedure); kies dan de volgende. Is geen enkele wisseling een echte botsing, forceer er dan geen: geef één versie met één citaat en zet `"geen_botsing": true`.
+   Gaat de langste wisseling over een bijzaak (bijvoorbeeld één vraag over lng in een debat dat vooral over Israël en Oekraïne ging), kijk dan welk onderwerp de meeste spreektijd en de duidelijkste tegenstelling had, en zet twee sprekers van verschillende kanten over dát onderwerp tegenover elkaar, ook als ze niet direct op elkaar reageerden. Zeg dat in `regel`.
    Bij een vragenuur: het onderwerp van de eerste vraag, tenzij `python3 scripts/reeks.py --voor <datum>` die fractie op de grens zet.
 2. **De vraag**: één neutrale zin, als echte vraag ("Moet …?", "Is …?", "Stemmen …?"), nooit sturend ("Waarom faalt …?"). Hij steunt op het onderwerp dat de voorzitter, het Kamerstuk of de vraagsteller zelf noemt. Schrijf in `vraag_bron` op welke zin uit de bron hij steunt.
-3. **Twee citaten**, één per spreker, uit die wisseling, eerst wie het eerst sprak. Per citaat hooguit **twee zinnen**, de zinnen die de vraag en het antwoord dragen (geen aanhef, geen beleefdheden). Letterlijk; stukken van minstens 5 woorden mag je verbinden met " … ", zolang de betekenis niet verandert. Samen moeten ze zonder voorkennis te begrijpen zijn.
+3. **Twee citaten**, één per spreker, uit die wisseling, eerst wie het eerst sprak. Per citaat hooguit **twee zinnen en ongeveer 35 woorden** (anders past de kaart niet), de zinnen die de vraag en het antwoord dragen (geen aanhef, geen beleefdheden). Letterlijk; stukken van minstens 5 woorden mag je verbinden met " … ", zolang de betekenis niet verandert. Samen moeten ze zonder voorkennis te begrijpen zijn.
 4. **Versie c** (optioneel, alleen als het iets toevoegt): een tweede paar citaten uit een andere ronde of wisseling, zodat de eigenaar ziet wat een andere keuze doet.
 
 ## Uitvoer

@@ -8,7 +8,7 @@
  "afloop_kort": "Over de vier moties is nog niet gestemd.",
  "versies": {
   "a": {
-   "regel": "Geen echte botsing: alle drie de wisselingen hebben 2 beurten en gaan over moties indienen of procedure. Daarom één citaat uit de inbreng van Van Ark (CDA), die een eigen motie toelicht.",
+   "regel": "Geen echte botsing: alle drie de wisselingen hebben 2 beurten en gaan over moties indienen of procedure. Daarom één citaat uit de inbreng van Van Ark (CDA), die een eigen motie toelicht. De Roon (PVV) dient twee moties in die de minister ontraadt (de enige tegenstelling in dit debat), maar de motietekst staat niet in zijn spreekbeurt, dus er is geen letterlijk citaat van zijn kant.",
    "wisseling": "Elles Van Ark (CDA), beurt 5, geen wisseling",
    "afgevallen": [
     "Wisseling 1: De Roon (PVV) zegt alleen 'De tweede motie luidt als volgt.'",
@@ -18,7 +18,7 @@
    "citaten": [
     {
      "beurt": 5,
-     "citaat": "In tijden van toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister daarom op om opnieuw met aanbevelingen te komen.",
+     "citaat": "Religieuze leiders zijn eigenlijk een soort influencers, maar dan zonder TikTokaccount, maar religie kan ook een bron zijn van desinformatie en worden gebruikt om geweld te legitimeren. Voor een effectief buienlandbeleid moet je dus heel goed begrijpen wat de rol van religie is.",
      "naam": "Elles Van Ark",
      "partij": "CDA",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/tweeminutendebat-sahelregio-cd-1-10-10-15/markeringen?event=speaker2026-11-11T10%3A18%3A22%2B0100",
@@ -47,5 +47,14 @@
    ]
   }
  },
- "partijen_totaal": 3
+ "partijen_totaal": 3,
+ "lezing": {
+  "oordeel": "aangepast",
+  "bevindingen": [
+   "Geen botsing klopt: er zijn geen wisselingen van meer dan procedure; de enige tegenstelling (moties 274 en 275 van De Roon, ontraden) heeft geen citeerbare tekst van De Roon in het verslag.",
+   "Citaat aangepast zodat beide kanten van haar standpunt erin staan (L9: religieuze leiders als 'influencers' én religie als bron van desinformatie) en het zonder voorkennis te begrijpen is: 'opnieuw met aanbevelingen' volgt nu op een zin die zegt waarover het gaat. 'daarom' verwijst in het origineel naar de veranderende rol van religie; in haar betoog volgt dat uit hetzelfde punt (religie doet ertoe in het buitenlandbeleid), dus de betekenis blijft gelijk.",
+   "Vraag is neutraal en steunt op haar eigen oproep en de motie (276: 'met concrete aanbevelingen te komen'); kop en afloop kloppen met de bron en de motiedata.",
+   "Hoofdsessie: citaat vervangen door twee aaneengesloten zinnen, omdat 'daarom' na inkorten naar een andere zin verwees dan in het verslag ('buienlandbeleid' staat zo in het verslag)."
+  ]
+ }
 }
