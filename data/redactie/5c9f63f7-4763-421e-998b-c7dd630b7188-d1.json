@@ -140,5 +140,67 @@
       "nieuw": "Uitgangspunten voor eerlijk klimaatbeleid.",
       "waarom": "Het gaat om 'principes', geen regels."
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "onafhankelijk": true,
+    "bevindingen": [
+      {
+        "waar": "samenvatting normaal",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L14",
+        "oud": "D66, PRO, PvdD en CDA willen dat het kabinet meer doet met het advies, onder meer bij voedselverspilling, fossiele subsidies, reparatie en langere garantie.",
+        "nieuw": "… elk met eigen punten: alle vier over voedselverspilling, PRO en PvdD over fossiele subsidies, D66, PvdD en CDA over langere garantie.",
+        "waarom": "Niet elke partij noemde elk punt: alleen Van Oosterhout en Teunissen vragen naar fossiele subsidies, Van Oosterhout noemt geen garantie; de verzamelzin koppelde alle vier aan alle punten."
+      },
+      {
+        "waar": "samenvatting normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L5",
+        "oud": "Kops vraagt de minister de adviezen naar de prullenbak te verwijzen",
+        "nieuw": "Kops vraagt of de minister de adviezen alsnog naar de prullenbak kan verwijzen",
+        "waarom": "Het was een vraag: 'Kan de minister alsnog dat hele zwikkie met adviezen naar de prullenbak verwijzen?'"
+      },
+      {
+        "waar": "standpunt Klos normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L2",
+        "oud": "Klos vindt dat het kabinet het advies serieus moet nemen: …",
+        "nieuw": "Klos vindt dat het advies serieus genomen moet worden, al hoeft niet elk voorstel letterlijk te worden overgenomen. … (makkelijk: 'Niet elk voorstel hoeft letterlijk te worden overgenomen.')",
+        "waarom": "Direct na 'serieus nemen' zegt Klos: 'Dat betekent niet dat ieder voorstel letterlijk moet worden overgenomen'; die nuancering viel weg."
+      },
+      {
+        "waar": "standpunt Jumelet normaal en makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L2",
+        "oud": "… en afspraken tegen voedselverspilling.",
+        "nieuw": "… en afspraken tegen voedselverspilling; de precieze invulling mag volgens hem best iets anders zijn dan het burgerberaad voorstelt. (makkelijk: 'Het mag wel iets anders dan het burgerberaad zegt.')",
+        "waarom": "Jumelet: 'De precieze invulling mag best iets anders zijn dan het burgerberaad voorstelt'."
+      },
+      {
+        "waar": "standpunt Teunissen makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10, L3",
+        "oud": "Teunissen (PvdD) vindt dat het kabinet te weinig doet.",
+        "nieuw": "Teunissen (PvdD) vindt dat het kabinet vooral vrijwillige maatregelen overneemt.",
+        "waarom": "Normaal en het citaat zeggen 'vooral de vrijwillige en minder ingrijpende opties'; 'te weinig doet' is algemener dan wat ze zei."
+      },
+      {
+        "waar": "vak 8 normaal en makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "Ze zijn als het ware misbruikt … / Ze zijn als het ware misbruikt. Besluiten waren al genomen.",
+        "nieuw": "De deelnemers zijn als het ware misbruikt … / Deelnemers zijn als het ware misbruikt. Besluiten waren al genomen.",
+        "waarom": "'Ze' volgde op het VVD-vak en was onduidelijk; het citaat zegt 'deze mensen' (de deelnemers)."
+      }
+    ],
+    "afgewezen": [],
+    "gecontroleerd_eerste_lezing": "Alle 15 wijzigingen van de eerste lezing nagelezen tegen de bron; alle juist, geen afgewezen of verbeterd. Het door de eerste lezer genoemde punt (verzamelzin samenvatting, L14) is nu opgelost."
+  }
 }
