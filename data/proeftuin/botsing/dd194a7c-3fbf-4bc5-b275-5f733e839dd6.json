@@ -50,7 +50,7 @@
      "beurt": 3,
      "naam": "Hans Vijlbrief",
      "partij": "minister van Sociale Zaken en Werkgelegenheid",
-     "citaat": "Naar mijn mening, als ik er goed naar kijk, is er niets gebeurd wat juridisch niet door de beugel kon. … Ik ga hier nu ook geen uitspraken doen over wie daar dan verantwoordelijk voor is en niet.",
+     "citaat": "Het staat mensen vrij om daarover alsnog in beroep te gaan en naar de rechter te gaan, maar er is volgens mij niets gebeurd wat niet door de beugel kon. Ik ga hier nu ook geen uitspraken doen over wie daar dan verantwoordelijk voor is en niet.",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=speaker2026-11-10T14%3A01%3A19%2B0100",
      "tijd": "14:01",
      "figuur": {
@@ -73,7 +73,11 @@
      }
     }
    ],
-   "aandeel_onderwerp": "niet van toepassing: vragenuur, onderwerp volgt de vraagvolgorde en de spreidingsregel (uitzendkrachten: 10% van het hele vragenuur, uitzend|gelijk loon|gelijkwaardig|richtlijn|flexwerk)"
+   "aandeel_onderwerp": "niet van toepassing: vragenuur, onderwerp volgt de vraagvolgorde en de spreidingsregel (uitzendkrachten: 10% van het hele vragenuur, uitzend|gelijk loon|gelijkwaardig|richtlijn|flexwerk)",
+   "inkorten": [
+    "Patijn (beurt 1): weggelaten 'Het is een risico voor de huidige minister.'; geen voorbehoud, past.",
+    "Vijlbrief (beurt 3): het eerdere citaat liet 'Het staat mensen vrij om … naar de rechter te gaan' weg, een voorbehoud. Uitgeweken naar twee aaneengesloten zinnen uit dezelfde beurt, zonder weglating, met het voorbehoud en 'volgens mij'."
+   ]
   },
   "c": {
    "regel": "Zelfde wisseling, maar de laatste ronde in plaats van de eerste: waar de twee het verschil zelf benoemen ('gelijkwaardig' of 'gelijk' in de wet). Laat zien dat de keuze van de ronde de kaart sterk bepaalt: a gaat over schuld in het verleden, c over de wet van nu.",
@@ -138,7 +142,11 @@
      }
     }
    ],
-   "aandeel_onderwerp": "niet van toepassing: vragenuur, onderwerp volgt de vraagvolgorde en de spreidingsregel (uitzendkrachten: 10% van het hele vragenuur, uitzend|gelijk loon|gelijkwaardig|richtlijn|flexwerk)"
+   "aandeel_onderwerp": "niet van toepassing: vragenuur, onderwerp volgt de vraagvolgorde en de spreidingsregel (uitzendkrachten: 10% van het hele vragenuur, uitzend|gelijk loon|gelijkwaardig|richtlijn|flexwerk)",
+   "inkorten": [
+    "Patijn (beurt 12): weggelaten een tussenzin over 'sjoemelen' en 'niet eens om dit voorbeeld'; geen voorbehoud over haar standpunt, past.",
+    "Vijlbrief (beurt 13): zonder weglating, past."
+   ]
   }
  },
  "afloop_data": {
@@ -147,5 +155,7 @@
   "kort": "Bij een vragenuur wordt niet gestemd.",
   "lang": "Bij een vragenuur wordt niet gestemd en worden geen moties ingediend.",
   "moties": []
- }
+ },
+ "vraag_bron_soort": 1,
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag) bestaat en past: de eerste vraag van het vragenuur."
 }

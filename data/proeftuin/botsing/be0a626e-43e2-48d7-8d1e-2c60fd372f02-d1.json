@@ -1,8 +1,8 @@
 {
  "debat": "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1",
  "kop": "Plenair debat · 12 nov 2026",
- "vraag": "Stemmen de drie coalitiepartijen samen voor het Belastingplan 2027?",
- "vraag_bron": "Kamerstuk/agendapunt 'Pakket Belastingplan 2027' (voorzitter: 'Aan de orde is het Pakket Belastingplan 2027. Het betreft de derde termijn.') plus de vraag van Van Baarle (DENK) in beurt 78. De voorzitter noemt geen reden voor de derde termijn; de vraagzin steunt dus op een spreker, niet op de voorzitter.",
+ "vraag": "Komt er via een amendement een miljonairsbelasting in het Belastingplan?",
+ "vraag_bron": "Bron 3, het verzoek om de derde termijn (regeling van werkzaamheden 11 nov, 294c2585, verzoek ChristenUnie, meerderheid). De reden in dat verzoek: Bikker (ChristenUnie): 'omdat er waarschijnlijk een amendement volgt waarover we moeten spreken'; Krul (CDA): 'er zijn nieuwe politieke ontwikkelingen omdat er eventueel nog amendementen worden ingediend die het Belastingplan al dan niet ingrijpend veranderen'; voorzitter Van Campen: 'er zijn nieuwe amendementen ingediend'. 'Miljonairsbelasting' uit het debat: Klaver (PRO, beurt 22) 'de introductie van een miljonairsbelasting', Wilders (PVV, beurt 56) 'die miljonairsbelasting'.",
  "partijen_totaal": 16,
  "afloop": "In dit debat zijn geen moties ingediend.",
  "versies": {
@@ -64,7 +64,10 @@
      }
     }
    ],
-   "aandeel_onderwerp": "21% (coalitie|belastingplan|amendement)"
+   "aandeel_onderwerp": "21% (coalitie|belastingplan|amendement)",
+   "inkorten": [
+    "Van Baarle (beurt 78) en Paternotte (beurt 79): zonder weglating; Paternottes voorbehoud 'ik ben geen woordvoerder van alle coalitiepartijen' staat erin. Past."
+   ]
   },
   "c": {
    "regel": "De twee sprekers met de meeste spreektijd aan weerszijden. Nummer 1 en 2 zijn Paternotte (D66, 3694 woorden) en Klaver (PRO, 2912), maar die verdedigen samen hetzelfde amendement: geen botsing. Dus: Paternotte tegenover de spreker met de meeste spreektijd die zich tegen hem keerde én een eigen wisseling met hem had: Wilders (PVV, 692 woorden). Zelfde knipregel als a.",
@@ -123,7 +126,11 @@
      }
     }
    ],
-   "aandeel_onderwerp": "21% (coalitie|belastingplan|amendement)"
+   "aandeel_onderwerp": "21% (coalitie|belastingplan|amendement)",
+   "inkorten": [
+    "Wilders (beurt 56): weggelaten een lange tussenpassage (D66 en CDA zouden met PRO willen regeren; Klaver 'de baas van Nederland'); geen voorbehoud, de strekking (verwijt aan D66) blijft. Past.",
+    "Paternotte (beurt 57): zonder weglating, past."
+   ]
   }
  },
  "afloop_kort": "Geen moties in dit debat.",
@@ -133,5 +140,7 @@
   "kort": "Geen moties in dit debat.",
   "lang": "In dit debat zijn geen moties ingediend.",
   "moties": []
- }
+ },
+ "vraag_bron_soort": 3,
+ "vraag_bron_toetsing": "Bron 2 (titel: 'Pakket Belastingplan 2027') bestaat, maar past niet bij dit deel: de derde termijn ging over het nieuwe amendement en de verhoudingen in de coalitie. Bron 3 bestaat en past. Bron 5 is ter vergelijking getoetst: vragen over de coalitie kwamen van PVV, JA21, Groep Markuszower, DENK en PvdD, maar niet van een coalitiepartij (CDA en VVD spraken in dit deel alleen over een procedurevoorstel; D66 antwoordde), dus de drempel werd niet gehaald."
 }

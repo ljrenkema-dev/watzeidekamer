@@ -1,8 +1,8 @@
 {
  "debat": "4a7d6515-21f1-4641-91c6-80b547a7d1b9",
  "kop": "Plenair debat · 10 nov 2026 · novelle box 3",
- "vraag": "Is de dekking van de novelle voor box 3 voldoende?",
- "vraag_bron": "Luc Stultiens (PRO): \"We komen zo te spreken over de dekking\"; Pieter Grinwis (ChristenUnie): \"financieel geen degelijk verhaal\"; minister Heinen: \"De dekking ziet toe op een structurele dekking.\"",
+ "vraag": "Moet de vermogenswinstbelasting in box 3 worden uitgebreid?",
+ "vraag_bron": "Titel van het wetsvoorstel: 'Novelle uitbreiding vermogenswinstbelasting box 3 (37053)'.",
  "versies": {
   "a": {
    "regel": "Dekking was het onderwerp met de meeste spreektijd. Grinwis en Heinen reageren er direct op elkaar over (ronde 2); beurt 61 en 62 zijn de kern: Grinwis vraagt waarom er geen dekking is gekozen die breder wordt gedragen, Heinen verwijst naar de steun die hij in de Eerste Kamer nodig heeft.",
@@ -38,7 +38,7 @@
     },
     {
      "beurt": 62,
-     "citaat": "neemt u mij niet kwalijk dat ik ook in de Eerste Kamer koffiedrink en naar meerderheden zoek en dat de partijen op wier steun ik reken voor deze hele operatie daar hebben aangegeven dat met erf- en schenkbelasting hun steun vervalt.",
+     "citaat": "Ik snap de reflectie die de heer Grinwis daarop doet, maar neemt u mij niet kwalijk dat ik ook in de Eerste Kamer koffiedrink en naar meerderheden zoek en dat de partijen op wier steun ik reken voor deze hele operatie daar hebben aangegeven dat met erf- en schenkbelasting hun steun vervalt.",
      "naam": "Eelco Heinen",
      "partij": "minister van Financiën",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-10/financien/plenaire-zaal/novelle-uitbreiding-vermogenswinstbelasting-box-3-37053-plenaire-afronding-2e-termijn-regering-16-30/markeringen?event=speaker2026-11-10T17%3A21%3A34%2B0100",
@@ -63,6 +63,10 @@
       }
      }
     }
+   ],
+   "inkorten": [
+    "Grinwis (beurt 61): weggelaten ', ook in deze Kamer, met steun van rechts en van links,' en ', want ik ken de gevoeligheid van deze discussie.'; geen voorbehoud of ontkenning, past.",
+    "Heinen (beurt 62): het eerdere citaat begon midden in de zin en liet 'Ik snap de reflectie die de heer Grinwis daarop doet, maar' weg, een tegemoetkoming aan Grinwis. Hersteld tot de hele zin (48 woorden); geen ander citaat uit deze beurt geeft zijn antwoord op de vraag waarom."
    ]
   }
  },
@@ -81,5 +85,7 @@
   "bevindingen": [
    "Hoofdsessie: in Heinens citaat viel 'in de Eerste Kamer' weg, waardoor 'daar' nergens naar verwees; nu het doorlopende stuk van de zin (41 woorden). Kop aangevuld met het onderwerp. Aandeel 12% nagemeten (dekking|gedekt|dekken)."
   ]
- }
+ },
+ "vraag_bron_soort": 2,
+ "vraag_bron_toetsing": "Bron 2 bestaat en past: het debat ging over de novelle; de gekozen wisseling over de dekking hoort daarbij. De vorige vraag ('Is de dekking … voldoende?') steunde op sprekers en zou bron 5 nodig hebben; dekkingsvragen kwamen van ChristenUnie en PRO, geen derde fractie en geen coalitiepartij."
 }

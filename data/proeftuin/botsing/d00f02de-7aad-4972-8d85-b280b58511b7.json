@@ -2,8 +2,8 @@
  "debat": "d00f02de-7aad-4972-8d85-b280b58511b7",
  "kop": "Tweeminutendebat · 11 nov 2026 · Sahelregio",
  "geen_botsing": true,
- "vraag": "Moet de minister opnieuw met aanbevelingen komen over de rol van religie in het buitenlandbeleid?",
- "vraag_bron": "Mijn fractie roept de minister daarom op om opnieuw met aanbevelingen te komen. (Elles Van Ark, CDA, beurt 5)",
+ "vraag": "Wat moet Nederland doen in de Sahelregio?",
+ "vraag_bron": "Agendatitel 'Sahelregio (CD d.d. 01/10)'; voorzitter: 'Aan de orde is het tweeminutendebat over de Sahelregio.'",
  "afloop": "Motie 274 (R. de Roon): uitslag staat (nog) niet in onze gegevens. Motie 275 (R. de Roon): uitslag staat (nog) niet in onze gegevens. Motie 276 (A.F.J. van Ark): uitslag staat (nog) niet in onze gegevens. Motie 277 (D.J.H. (Diederik) van Dijk): uitslag staat (nog) niet in onze gegevens.",
  "afloop_kort": "Van de 4 moties staat nog geen uitslag in onze gegevens.",
  "versies": {
@@ -45,7 +45,10 @@
      }
     }
    ],
-   "aandeel_onderwerp": "29% (religi)"
+   "aandeel_onderwerp": "29% (religi)",
+   "inkorten": [
+    "Van Ark (beurt 5): zonder weglating, past."
+   ]
   }
  },
  "partijen_totaal": 3,
@@ -85,5 +88,7 @@
     "besluit": null
    }
   ]
- }
+ },
+ "vraag_bron_soort": 4,
+ "vraag_bron_toetsing": "Bron 1–3 bestaan niet (geen vragenuur, geen wetsvoorstel, het tweeminutendebat is in de commissie aangevraagd). Bron 4 bestaat en past. De vorige vraag steunde op één deelnemer (Van Ark) en mag niet meer."
 }

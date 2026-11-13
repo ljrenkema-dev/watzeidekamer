@@ -2,8 +2,8 @@
  "debat": "c0b2be4c-9cd7-4be6-9421-01b294be732d-d1",
  "kop": "Begroting Buitenlandse Zaken · 11 nov 2026",
  "geen_botsing": true,
- "vraag": "Lopen er na 1 januari 2027 nog contracten voor Russisch lng door?",
- "vraag_bron": "Stoffer (SGP) vroeg 'hoeveel Russisch lng Nederland nog importeert en tot wanneer deze langetermijncontracten doorlopen' met het oog op het Europese importverbod per 1 januari 2027.",
+ "vraag": "Moet de begroting van Buitenlandse Zaken voor 2027 worden aangenomen?",
+ "vraag_bron": "Titel van het wetsvoorstel: 'Begroting Buitenlandse Zaken (37020-V)'.",
  "afloop": "In dit debat zijn geen moties ingediend.",
  "afloop_kort": "Geen moties in dit debat.",
  "versies": {
@@ -38,7 +38,10 @@
      }
     }
    ],
-   "aandeel_onderwerp": "1% (\\blng\\b|Russisch gas) → bijzaak; daarom versie c"
+   "aandeel_onderwerp": "1% (\\blng\\b|Russisch gas) → bijzaak; daarom versie c",
+   "inkorten": [
+    "Stoffer (beurt 7): zonder weglating, past."
+   ]
   },
   "c": {
    "regel": "Hoofdtegenstelling van dit debatdeel: de Nederlandse opstelling tegenover Israël. Israël/Gaza kreeg de meeste spreektijd (Stoffer, Teunissen, Ceder en Dobbe besteedden er een groot deel van hun inbreng aan; Oekraïne kwam daarna, lng was één vraag van Stoffer). Stoffer (SGP) en Teunissen (PvdD) staan tegenover elkaar, maar reageerden niet direct op elkaar: beide citaten komen uit hun eigen inbreng. 'Genocide' is de bewering van Teunissen, alleen in haar citaat en niet in de vraag; 'in de ogen van Israël' bij Stoffer blijft staan (L1).",
@@ -97,7 +100,11 @@
      }
     }
    ],
-   "aandeel_onderwerp": "19% (Israël|Gaza|Palestijn|genocide|7 oktober)"
+   "aandeel_onderwerp": "19% (Israël|Gaza|Palestijn|genocide|7 oktober)",
+   "inkorten": [
+    "Stoffer (beurt 4): zonder weglating, past.",
+    "Teunissen (beurt 11): weggelaten de economische en politieke maatregelen (nederzettingen, erkenning Palestijnse Staat); geen voorbehoud, de strekking (Nederland moet meer doen) blijft. Past."
+   ]
   }
  },
  "partijen_totaal": 9,
@@ -116,5 +123,7 @@
   "kort": "Geen moties in dit debat.",
   "lang": "In dit debat zijn geen moties ingediend.",
   "moties": []
- }
+ },
+ "vraag_bron_soort": 2,
+ "vraag_bron_toetsing": "Terugval: bron 2 bestaat maar past slecht bij het Israël-paar van versie c. Bron 3: geen verzoek waarmee dit debat werd aangevraagd (wel een DENK-verzoek om een brief vooraf; dat ging niet over het aanvragen van dit debat). Bron 5 getoetst voor Israël/Gaza: vragen van SGP, PvdD en SP (ChristenUnie en BBB noemen het zonder vraag); geen coalitiepartij (D66, CDA) stelt er een vraag over, dus drempel niet gehaald."
 }
