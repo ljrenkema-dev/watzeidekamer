@@ -20,7 +20,8 @@ URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateC
 MODEL = "gemini-3.1-flash-image"
 PILOT = ["Geert Wilders", "Jesse Klaver", "Mona Keijzer", "Caroline van der Plas", "Don Ceder"]
 EMOTIES = {
-    "neutraal": "calm, attentive expression, mouth closed",
+    "neutraal": "calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips",
+    "vriendelijk": "calm, friendly expression with the person's natural slight smile",
     "blij": "a warm, genuine smile",
     "boos": "frowning, firm mouth, clearly displeased but not shouting",
     "bezorgd": "inner eyebrows slightly raised, a concerned look",
@@ -140,24 +141,28 @@ def bestaand(map_, emo):
 
 
 def maak(sleutel, u, emoties, log, stijl="zw"):
+    """Volgorde: met portretfoto eerst 'vriendelijk' (naar de foto, met de eigen lichte glimlach), dan 'neutraal'
+    (zelfde figuur, zonder lach) met 'vriendelijk' als voorbeeld; daarna de andere emoties met 'neutraal' als voorbeeld."""
     map_ = ROOT / "data" / "manga" / stijl / sleutel.replace(":", "-")
     map_.mkdir(parents=True, exist_ok=True)
     basis = f"{STIJLEN[stijl]}\n\nCharacter: {beschrijving(u, sleutel)}"
-    for emo in ["neutraal"] + [e for e in emoties if e != "neutraal"]:
-        if emo not in emoties and bestaand(map_, "neutraal"):
+    met_foto = bool(foto_toegestaan(sleutel))
+    eerst = (["vriendelijk"] if met_foto else []) + ["neutraal"]
+    for emo in eerst + [e for e in emoties if e not in eerst]:
+        if emo not in emoties and bestaand(map_, emo):
             continue
         if bestaand(map_, emo):
             continue
         tekst_houding = HOUDINGEN.get(emo)
         tekst = f"{basis}\n{tekst_houding}" if tekst_houding else f"{basis}\nExpression: {EMOTIES[emo]}."
         delen = [{"text": tekst}]
-        foto = foto_toegestaan(sleutel) if emo == "neutraal" else None
+        foto = foto_toegestaan(sleutel) if emo == "vriendelijk" else None
         if foto:
             tekst = FOTO_PROMPT.format(stijl=STIJLEN[stijl], kleur=ACCENT.get(u.get("fractie") or "", "dark grey"))
             delen = [{"text": tekst}, {"inlineData": {"mimeType": "image/jpeg",
                                                       "data": base64.b64encode(foto.read_bytes()).decode()}}]
-        ref = bestaand(map_, "neutraal")
-        if emo != "neutraal" and ref:
+        ref = bestaand(map_, "vriendelijk" if emo == "neutraal" else "neutraal")
+        if not foto and ref:
             mime = "image/jpeg" if ref.suffix == ".jpg" else "image/png"
             delen = [{"text": "Draw exactly the same character as in this reference image, same face, hair, clothes, "
                               "style and framing; only change what is described below.\n\n" + tekst},
