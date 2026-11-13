@@ -86,7 +86,7 @@ def beschrijving(u, sleutel=None):
     """Eigen beschrijving naar het portret (data/manga/beschrijvingen.json) als die er is, anders uit de kenmerken."""
     if sleutel and BESCHRIJVINGEN.exists():
         eigen = json.loads(BESCHRIJVINGEN.read_text()).get(sleutel)
-        if eigen:
+        if eigen and eigen.get("beschrijving"):
             kleur = ACCENT.get(u.get("fractie") or "", "dark grey")
             return "A fictional Dutch politician. " + eigen["beschrijving"].replace("the accent colour", f"{kleur}")
     return beschrijving_kenmerken(u)
@@ -162,10 +162,17 @@ def maak(sleutel, u, emoties, log, stijl="zw"):
             delen = [{"text": tekst}, {"inlineData": {"mimeType": "image/jpeg",
                                                       "data": base64.b64encode(foto.read_bytes()).decode()}}]
         ref = bestaand(map_, "vriendelijk" if emo == "neutraal" else "neutraal")
+        if emo == "neutraal" and ref and ref.stem == "vriendelijk":
+            # Alleen de uitdrukking aanpassen; geen tekstbeschrijving, die kan botsen met het beeld (bijv. een bril toevoegen).
+            tekst = ("Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, "
+                     "clothing, colours, drawing style, framing and white background. Change only the facial expression: "
+                     f"{EMOTIES['neutraal']}. Do not add or remove anything else: no glasses, accessories, text or frame "
+                     "unless they are already in the image.")
         if not foto and ref:
             mime = "image/jpeg" if ref.suffix == ".jpg" else "image/png"
-            delen = [{"text": "Draw exactly the same character as in this reference image, same face, hair, clothes, "
-                              "style and framing; only change what is described below.\n\n" + tekst},
+            delen = [{"text": tekst if tekst.startswith("Edit this image") else
+                      "Draw exactly the same character as in this reference image, same face, hair, clothes, "
+                      "style and framing; only change what is described below.\n\n" + tekst},
                      {"inlineData": {"mimeType": mime, "data": base64.b64encode(ref.read_bytes()).decode()}}]
         try:
             antwoord = vraag(delen)
@@ -192,9 +199,10 @@ def maak(sleutel, u, emoties, log, stijl="zw"):
         time.sleep(2)
 
 
-def main(namen, emoties, stijlen):
+def main(namen, emoties, stijlen, logpad=None):
     uiterlijk = json.loads((ROOT / "data" / "uiterlijk.json").read_text())
     log = []
+    logpad = logpad or ROOT / "data" / "manga" / "log.json"
     for naam in namen:
         sleutel, u = next(((k, v) for k, v in uiterlijk.items() if v["naam"] == naam), (None, None))
         if not u:
@@ -202,14 +210,26 @@ def main(namen, emoties, stijlen):
         print(naam, "→", beschrijving(u, sleutel)[:140])
         for stijl in stijlen:
             maak(sleutel, u, emoties, log, stijl)
-    logpad = ROOT / "data" / "manga" / "log.json"
-    oud = json.loads(logpad.read_text()) if logpad.exists() else []
-    logpad.write_text(json.dumps(oud + log, ensure_ascii=False, indent=1))
+        oud = json.loads(logpad.read_text()) if logpad.exists() else []
+        logpad.write_text(json.dumps(oud + log, ensure_ascii=False, indent=1))
+        log = []
 
 
 if __name__ == "__main__":
     a = sys.argv[1:]
     namen = a[a.index("--namen") + 1].split(",") if "--namen" in a else PILOT
+    if "--alle" in a:  # iedereen met een figuur, behalve de pilot; --deel i/n verdeelt het werk over n processen
+        # alleen wie een lokaal portret en toestemming heeft; de rest wordt gemeld
+        alle_u = json.loads((ROOT / "data" / "uiterlijk.json").read_text())
+        alle = sorted(v["naam"] for k, v in alle_u.items() if foto_toegestaan(k))
+        overgeslagen = sorted(v["naam"] for k, v in alle_u.items() if not foto_toegestaan(k) and v["naam"] not in PILOT)
+        if overgeslagen and ("--deel" not in a or a[a.index("--deel") + 1].startswith("1/")):
+            print("zonder portret of toestemming, overgeslagen:", ", ".join(overgeslagen))
+        namen = [n for n in alle if n not in PILOT]
+        if "--deel" in a:
+            i, n = map(int, a[a.index("--deel") + 1].split("/"))
+            namen = namen[i - 1::n]
+    logpad = Path(a[a.index("--log") + 1]) if "--log" in a else None
     emoties = a[a.index("--emoties") + 1].split(",") if "--emoties" in a else list(EMOTIES) + list(HOUDINGEN)
     stijlen = a[a.index("--stijl") + 1].split(",") if "--stijl" in a else ["zw"]
-    main(namen, emoties, stijlen)
+    main(namen, emoties, stijlen, logpad)
