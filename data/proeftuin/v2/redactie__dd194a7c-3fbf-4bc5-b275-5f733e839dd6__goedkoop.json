@@ -158,5 +158,96 @@
       "nieuw": "verwijderd",
       "waarom": "woord komt niet meer voor in de strip"
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "bevindingen": [
+      {
+        "waar": "vak 4 normaal+makkelijk",
+        "soort": "evenwicht",
+        "ernst": "middel",
+        "les": "nieuw",
+        "oud": "Patijn: 'de interpretatie van gelijkwaardigheid leidt tot ... sjoemelen' (abstract; het concrete voorbeeld was om evenwichtsredenen geschrapt)",
+        "nieuw": "citaat: 'Ik hoor nu dat er scholingsvouchers ter waarde van bijvoorbeeld €1.000 op papier toegekend worden ... ' … 'dit gebeurt doordat er \"gelijkwaardig\" in de wet staat'; tekst: 'Ik hoor dat mensen op papier scholingsvouchers van €1.000 krijgen en nooit gebruiken. Oorzaak: \"gelijkwaardig\" in de wet.'",
+        "waarom": "redacteur.md punt 4: bij een vragenuur geen vakken van het gekozen onderwerp weghalen voor fracties van andere onderwerpen; het voorbeeld 'scholingsvouchers' maakt de ballon op zichzelf te begrijpen (strip.md: concreet voorbeeld), voorbehoud 'Ik hoor' blijft staan"
+      },
+      {
+        "waar": "woorden",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L12",
+        "oud": "Scholingsvoucher verwijderd",
+        "nieuw": "Scholingsvoucher terug: 'Volgens Patijn een soort boekenbon die in de la ligt ... kan worden weggestreept tegen bijvoorbeeld een deel van de eindejaarsuitkering'",
+        "waarom": "woord staat weer in vak 4; uitleg uit het debat: 'een soort boekenbon die in de la ligt', 'kan weggestreept worden'"
+      },
+      {
+        "waar": "kernpunt 3 normaal+makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "voorbeeld van Patijn en reden van Vijlbrief voor monitoren ontbraken",
+        "nieuw": "Patijn zegt te horen over scholingsvouchers ...; volgens Vijlbrief kan niet worden gehandeld op basis van één geval",
+        "waarom": "bron: 'Ik hoor nu dat' en 'We kunnen namelijk ook niet handelen op basis van n=1'; 'kunnen niet' is niet 'wil niet' (L3)"
+      },
+      {
+        "waar": "kernpunt 10 normaal+makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L10",
+        "oud": "gemeenten ... hun reserves verliezen / hun geld kwijtraken",
+        "nieuw": "gemeenten zijn onevenredig veel geld kwijt ...; volgens de VNG raken de reserves op",
+        "waarom": "eerste lezing herstelde dit in het standpunt van Struijs maar niet in kernpunt 10; bron: 'Ook de VNG geeft aan dat de reserves hierdoor opraken'"
+      },
+      {
+        "waar": "kernpunt 2 normaal+makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "makkelijk miste 'geen probleem mee'; reden van Vijlbrief ontbrak",
+        "nieuw": "makkelijk: 'Vijlbrief heeft daar geen probleem mee.'; beide: het is volgens hem een beetje gek als hij oproept te procederen tegen de overheid",
+        "waarom": "bron: 'heb geen enkel probleem met een hulp-, meld- en steunpunt' en 'Het wordt een beetje gek om ... mensen ga oproepen om te procederen tegen de overheid'"
+      },
+      {
+        "waar": "standpunt Vijlbrief normaal+makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L5",
+        "oud": "afspraken maken om gevallen te monitoren / Samen willen ze de gevallen bijhouden",
+        "nieuw": "stelt voor met de bonden afspraken te maken om gevallen te monitoren / Hij stelt voor om met de bonden de gevallen bij te houden",
+        "waarom": "bron: 'Zullen we ... afspreken dat ik met bonden afspraken maak': een voorstel, de bonden stemden niet in"
+      },
+      {
+        "waar": "vak 6 en 7 normaal+makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "20 en 15 woorden (boven 18/14)",
+        "nieuw": "ingekort; 'Wil de minister' en 'denk ik' blijven staan",
+        "waarom": "strip.md: normaal hooguit 18, makkelijk hooguit 14 woorden; voorbehoud 'denk ik' (L1)"
+      },
+      {
+        "waar": "vak 1 normaal",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "Eén onderwerp uit dit vragenuur: ... (19 woorden)",
+        "nieuw": "Eén onderwerp: ... (17 woorden)",
+        "waarom": "strip.md: hooguit 18 woorden"
+      }
+    ],
+    "afgewezen": [
+      {
+        "waar": "eerste lezing, bevinding 'strip vak 4 en 5 ... en vak 8' (evenwicht)",
+        "waarom": "de reden (PRO 4 vakken tegen 0,8 spreektijd over het hele vragenuur) gaat tegen redacteur.md punt 4 in: evenwicht binnen het gekozen onderwerp, waar Patijn de vraagsteller is. Het Dijk-vak en Vijlbriefs antwoord blijven wel staan: Dijk sprak over dit onderwerp en het geeft een tweede kant plus een antwoord. Het voucher-voorbeeld is teruggezet in vak 4; het Patijn-slot en Vijlbriefs n=1-antwoord niet, want de strip zit op 7 vakken en eindigt nu met een antwoord, en het n=1-argument staat in kernpunt 3."
+      },
+      {
+        "waar": "evenwicht.py: PRO 2 vakken, kabinet 3, SP 1; JA21 en 50PLUS 0",
+        "waarom": "geen fout: de strip gaat over het onderwerp uitzendkrachten (strip_onderwerp 0); de andere onderwerpen staan in samenvatting, standpunten en kernpunten"
+      },
+      {
+        "waar": "sprekers: Vliegenthart, Westerveld (PRO) en Boelsma-Hoekstra (CDA) ontbreken",
+        "waarom": "geen fout: per fractie één hoofdspreker (strip.md); hun punten staan in kernpunten (Vliegenthart) of zijn klein"
+      }
+    ]
+  }
 }
