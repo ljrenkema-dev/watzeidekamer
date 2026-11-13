@@ -1,0 +1,225 @@
+{
+  "agendapunt": "4a7d6515-21f1-4641-91c6-80b547a7d1b9",
+  "verslag_id": "0b4535e0-4257-48c9-9cd3-764382181d49",
+  "titel": {
+    "normaal": "Box 3-novelle: is de overstap naar vermogenswinstbelasting goed gedekt?",
+    "makkelijk": "Is er genoeg geld voor de nieuwe box 3-belasting?"
+  },
+  "samenvatting": {
+    "normaal": "Minister Heinen van Financiën verdedigt in de Kamer een novelle die de vermogenswinstbelasting in box 3 uitbreidt. Daarmee vallen spaargeld, vastgoed en aandelenbeleggingen onder een belasting op werkelijk behaalde winst. Het kabinet koerst op invoering in 2029; overige bezittingen zoals goud en crypto wil het kabinet in 2030 met een nieuwe wet laten volgen. Het debat gaat vooral over de dekking: PRO, ChristenUnie en Volt noemen het plan ongedekt. De minister zegt dat het plan in de kabinetsperiode en structureel gedekt is.",
+    "makkelijk": "De Kamer praat met minister Heinen over een novelle voor box 3. Daardoor vallen spaargeld, vastgoed en aandelen onder de vermogenswinstbelasting. De minister mikt op 2029. Hij wil dat goud en crypto in 2030 volgen. Daarvoor wil hij een nieuwe wet. Het debat gaat vooral over de dekking: is het plan wel betaald? PRO, ChristenUnie en Volt zeggen van niet. De minister zegt dat het wel gedekt is."
+  },
+  "sprekers": [
+    {
+      "id": "d55afb85-f47f-469e-a8a1-a37f8296d0b0",
+      "standpunt": {
+        "normaal": "Heinen zegt dat de oude wet, met een belasting op papieren winst, geen meerderheid had in de Eerste Kamer. Volgens hem is het plan gedekt in deze kabinetsperiode en is het structurele tekort per saldo afgerond nul.",
+        "makkelijk": "De minister zegt dat de oude wet geen meerderheid had in de Eerste Kamer. Volgens hem is het plan gedekt in deze kabinetsperiode. Het blijvende tekort is per saldo ongeveer nul, zegt hij."
+      }
+    },
+    {
+      "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+      "standpunt": {
+        "normaal": "Stultiens vindt dat de minister zelf de steun introk voor de wet die al bij de Eerste Kamer lag. Hij noemt het plan ongedekt: 17,5 miljard, betaald door de rest van Nederland en toekomstige generaties.",
+        "makkelijk": "Stultiens vindt dat de minister zelf de steun voor de oude wet introk. Hij noemt het plan ongedekt: 17,5 miljard, betaald door de rest van Nederland."
+      }
+    },
+    {
+      "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+      "standpunt": {
+        "normaal": "Grinwis vindt dat de minister onderdeel is geworden van de controverse over box 3, terwijl hij eerlijk bemiddelaar had moeten zijn. Volgens hem heeft de minister een kans laten liggen op een betere dekking.",
+        "makkelijk": "Grinwis vindt dat de minister deel is geworden van de discussie over box 3. Hij had eerlijk moeten bemiddelen. Volgens Grinwis was een betere dekking mogelijk geweest."
+      }
+    },
+    {
+      "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+      "standpunt": {
+        "normaal": "Ergin wil dat de minister reageert op de samenwerking van het kabinet met Groep Markuszower. Voor zijn fractie is die samenwerking volstrekt onacceptabel.",
+        "makkelijk": "Ergin wil dat de minister reageert op de samenwerking met Groep Markuszower. Dat vindt hij onacceptabel."
+      }
+    },
+    {
+      "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+      "standpunt": {
+        "normaal": "Hoogeveen wil vooruitkijken en zo snel mogelijk naar de vermogenswinstbelasting, ook voor crypto en edelmetalen. JA21 was, is en blijft tegen de vermogensaanwasbelasting.",
+        "makkelijk": "Hoogeveen wil vooruitkijken en snel naar de vermogenswinstbelasting, ook voor crypto en edelmetalen. JA21 blijft tegen de vermogensaanwasbelasting."
+      }
+    },
+    {
+      "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+      "standpunt": {
+        "normaal": "Van Brenk vindt het cruciaal dat er geluisterd wordt naar de signalen van de uitvoering. Zij vraagt of de invoering kan schuiven als de uitvoering het halverwege niet zorgvuldig kan doen.",
+        "makkelijk": "Van Brenk vindt het belangrijkst dat er geluisterd wordt naar de uitvoering. Zij vraagt of de invoering later kan als de uitvoering het niet zorgvuldig kan doen."
+      }
+    },
+    {
+      "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+      "standpunt": {
+        "normaal": "Keijzer vindt dat er geen greep van 17 miljard in de kas wordt gedaan. Zij wil een box 3-belasting die als eerlijk wordt ervaren door wie haar moet betalen.",
+        "makkelijk": "Keijzer vindt dat er geen greep van 17 miljard in de kas wordt gedaan. Zij wil een box 3-belasting die als eerlijk wordt ervaren."
+      }
+    },
+    {
+      "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+      "standpunt": {
+        "normaal": "Dassen ziet een gat van 18 miljard. De belastingkorting in box 2 noemt hij een cadeau voor wie het makkelijkst kan dragen, ten koste van toekomstige generaties.",
+        "makkelijk": "Dassen ziet een gat van 18 miljard. De korting in box 2 is volgens hem een cadeau, ten koste van toekomstige generaties."
+      }
+    },
+    {
+      "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+      "standpunt": {
+        "normaal": "Van Dijk maakt zich zorgen over hoe de bredere hervorming van het belasting- en toeslagenstelsel, waar ook miljarden in omgaan, betaald moet worden.",
+        "makkelijk": "Van Dijk maakt zich zorgen over hoe de grote hervorming van het belastingstelsel betaald moet worden."
+      }
+    },
+    {
+      "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+      "standpunt": {
+        "normaal": "Vermeer wil weten welke begrotingsregels nog als harde regel gelden. Hij benadrukt dat het budgetrecht bij de Kamer ligt.",
+        "makkelijk": "Vermeer wil weten welke begrotingsregels nog hard zijn. Hij benadrukt dat het budgetrecht bij de Kamer ligt."
+      }
+    },
+    {
+      "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+      "standpunt": {
+        "normaal": "Schenk vindt dat de minister \"een beetje met twee maten\" meet: bij het ene voorstel kijkt hij naar de Eerste Kamer, bij het andere niet.",
+        "makkelijk": "Schenk vindt dat de minister een beetje met twee maten meet. Bij het ene plan kijkt hij naar de Eerste Kamer, bij het andere niet."
+      }
+    }
+  ],
+  "kernpunten": {
+    "normaal": [
+      "Met de novelle valt volgens de minister 90% van het vermogen onder de vermogenswinstbelasting: spaargeld, vastgoed en aandelenbeleggingen.",
+      "Het kabinet koerst op invoering in 2029, omdat banken tijd nodig hebben om gegevens goed te verzamelen. Kan het sneller, dan wil de minister eerder invoeren.",
+      "Overige bezittingen, zoals goud en crypto, wil het kabinet in 2030 met een nieuwe wet laten volgen.",
+      "Volgens de minister had de oude wet geen meerderheid in de Eerste Kamer. Als die wet sneuvelt, vallen er volgens hem gaten van 2 tot 3 miljard per jaar in de begroting.",
+      "Een deel van de dekking komt uit een tijdelijk lager tarief in box 2, zodat daar vermogen uit vrijkomt. Daarmee voert hij aangenomen moties uit, zegt de minister.",
+      "De minister voert twee moties over de dekking niet uit: over de erf- en schenkbelasting en over het dekken van het hele gat binnen het vermogensdomein. Volgens hem vervalt dan de steun in de Eerste Kamer, en hij moet in beide Kamers een meerderheid vinden. Grinwis (ChristenUnie) zegt dat de minister \"schermt met de Eerste Kamer\". Volgens Stultiens (PRO) kan dat \"geen argument zijn\" voor een minister van Financiën. Schenk (FVD) vindt dat er \"een beetje met twee maten\" wordt gemeten.",
+      "PRO, ChristenUnie en Volt vinden het plan niet goed gedekt. PRO en ChristenUnie wijzen op een structureel tekort van 86 miljoen; ChristenUnie noemt ook een tekort van 159 miljoen in deze kabinetsperiode. PRO en Volt spreken van een gat van 17,5 en 18 miljard.",
+      "De minister zegt dat het structurele tekort door een overdekking aan de uitgavenkant per saldo afgerond nul is. Ramingen tot 2040 noemt hij zeer onzeker."
+    ],
+    "makkelijk": [
+      "Met de novelle valt volgens de minister 90% van het vermogen onder vermogenswinst: spaargeld, vastgoed en aandelen.",
+      "De minister mikt op 2029, omdat banken tijd nodig hebben voor gegevens. Kan het sneller, dan wil hij eerder.",
+      "De minister wil dat goud en crypto in 2030 volgen. Daarvoor wil hij een nieuwe wet.",
+      "Volgens de minister had de oude wet geen meerderheid in de Eerste Kamer. Sneuvelt die wet, dan ontstaan volgens hem gaten van 2 tot 3 miljard per jaar.",
+      "Een deel van het plan wordt betaald door tijdelijk minder belasting in box 2. Moties van de Kamer vroegen daarom, zegt de minister.",
+      "De minister voert twee moties over de dekking niet uit. Dan steunt de Eerste Kamer het plan niet meer, zegt hij. Hij moet in beide Kamers een meerderheid hebben. ChristenUnie en PRO vinden dat geen goede reden. FVD vindt dat de minister een beetje met twee maten meet.",
+      "PRO, ChristenUnie en Volt vinden het plan niet goed gedekt. PRO en ChristenUnie noemen een blijvend tekort van 86 miljoen. ChristenUnie noemt ook een tekort van 159 miljoen in deze kabinetsperiode. PRO en Volt spreken van een gat van 17,5 en 18 miljard.",
+      "De minister zegt: er is een blijvend tekort van 86 miljoen. Maar bij de uitgaven is juist geld over. Samen is dat ongeveer nul. Hij wijst op onzekere ramingen tot 2040."
+    ]
+  },
+  "woorden": [
+    {
+      "woord": "box 3",
+      "uitleg": "Het deel van de inkomstenbelasting voor spaargeld en beleggingen."
+    },
+    {
+      "woord": "box 2",
+      "uitleg": "Het deel van de inkomstenbelasting voor mensen met een aanmerkelijk belang: minstens 5% van de aandelen in een bedrijf."
+    },
+    {
+      "woord": "novelle",
+      "uitleg": "Een wijziging van een wetsvoorstel dat al bij de Eerste Kamer ligt."
+    },
+    {
+      "woord": "vermogenswinstbelasting",
+      "uitleg": "Belasting op winst die je echt maakt op je bezit."
+    },
+    {
+      "woord": "vermogensaanwasbelasting",
+      "uitleg": "Belasting op de waardestijging van je bezit, ook als je niets verkoopt. In het debat ook 'belasting op papieren winst' genoemd."
+    },
+    {
+      "woord": "dekking",
+      "uitleg": "Waar het geld vandaan komt om een plan te betalen."
+    },
+    {
+      "woord": "tegenbewijsregeling",
+      "uitleg": "Een tijdelijke regel. Je laat zien dat je echte rendement lager was dan de Belastingdienst rekent."
+    },
+    {
+      "woord": "uitvoering",
+      "uitleg": "De organisaties die de regels echt moeten uitvoeren, zoals de Belastingdienst."
+    },
+    {
+      "woord": "Eerste Kamer",
+      "uitleg": "De Senaat. Die stemt als laatste over een wet."
+    }
+  ],
+  "strip": [
+    {
+      "spreker_id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+      "emotie": "vastberaden",
+      "tekst": {
+        "normaal": "Met dit voorstel heeft de minister zichzelf deel van de discussie gemaakt. Hij had eerlijk bemiddelaar moeten zijn.",
+        "makkelijk": "De minister maakte zichzelf deel van de discussie. Hij had eerlijk moeten bemiddelen."
+      },
+      "citaat": "Met dit voorstel heeft de minister zichzelf onderdeel gemaakt van een discussie, waarin hij eigenlijk oorspronkelijk de honest broker had moeten zijn."
+    },
+    {
+      "spreker_id": "d55afb85-f47f-469e-a8a1-a37f8296d0b0",
+      "emotie": "vastberaden",
+      "tekst": {
+        "normaal": "Sneuvelt die wet, dan vallen er gaten van 2 tot 3 miljard per jaar. Met de novelle: 90% naar vermogenswinst.",
+        "makkelijk": "Sneuvelt die wet, dan krijgt de begroting elk jaar gaten van miljarden."
+      },
+      "citaat": "Nogmaals, als die wet sneuvelt, gebeuren er namelijk twee dingen. Er vallen acute gaten in de begroting. Dat gaat om twee tot drie miljard per jaar. … laten we nou in ieder geval via de novelle de stap nú maken. Dan heb je 90% van de vermogensbestanddelen al in vermogenswinst zitten: dus spaargeld, vastgoed, aandelenbeleggingen."
+    },
+    {
+      "spreker_id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+      "emotie": "vastberaden",
+      "tekst": {
+        "normaal": "Ik kijk graag vooruit. Voor alle duidelijkheid: JA21 was, is en blijft tegen de vermogensaanwasbelasting.",
+        "makkelijk": "Ik kijk graag vooruit. JA21 blijft tegen belasting op papieren winst."
+      },
+      "citaat": "Ik kijk dus graag vooruit. … Even duidelijk: JA21 was, is en blijft tegen vermogensaanwasbelasting."
+    },
+    {
+      "spreker_id": "75e07581-7770-48b1-926c-a1cc5c008774",
+      "emotie": "vastberaden",
+      "tekst": {
+        "normaal": "Voor ons is het cruciaal dat er geluisterd wordt naar de signalen van de uitvoering.",
+        "makkelijk": "Voor ons is het heel belangrijk dat er naar de uitvoering geluisterd wordt."
+      },
+      "citaat": "Voor ons is het cruciaal dat er geluisterd wordt naar de signalen van de uitvoering."
+    },
+    {
+      "spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+      "emotie": "denkend",
+      "tekst": {
+        "normaal": "We doen allemaal alsof er 17 miljard uit de kas gaat. Dat is niet aan de orde.",
+        "makkelijk": "We doen alsof er 17 miljard uit de kas gaat. Dat is niet zo."
+      },
+      "citaat": "het punt is dat we met z'n allen net doen alsof er hier een greep in de kas wordt gedaan van 17 miljard, terwijl dat dus gewoon niet aan de orde is."
+    },
+    {
+      "spreker_id": "d55afb85-f47f-469e-a8a1-a37f8296d0b0",
+      "emotie": "vastberaden",
+      "tekst": {
+        "normaal": "Het is gedekt in de kabinetsperiode. De 86 miljoen structureel wordt bij de uitgaven overdekt: per saldo afgerond nul.",
+        "makkelijk": "Het is gedekt in deze kabinetsperiode. Het blijvende tekort is per saldo ongeveer nul."
+      },
+      "citaat": "als het gaat om die twee peilstokken van de overheidsfinanciën is het, nogmaals, een gedekt pakket in de kabinetsperiode. … Het klopt, er staat 86 miljoen in de structurele situatie. … aan de uitgavenkant ook weer een overdekking zit en per saldo is dat afgerond nul."
+    },
+    {
+      "spreker_id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+      "emotie": "boos",
+      "tekst": {
+        "normaal": "Dit is niet gedekt: 17,5 miljard, een blanco cheque naar vermogenden, betaald door de rest van Nederland.",
+        "makkelijk": "17,5 miljard is niet gedekt. De rest van Nederland betaalt voor vermogenden."
+      },
+      "citaat": "Iedereen die een tabel kan lezen, weet: dit is niet gedekt. Er is 17,5 miljard ongedekt: een blanco cheque naar vermogenden, betaald door de rest van Nederland en toekomstige generaties."
+    },
+    {
+      "spreker_id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+      "emotie": "bezorgd",
+      "tekst": {
+        "normaal": "Dit is een cadeau voor box 2, voor wie het makkelijkst kan dragen. Toekomstige generaties moeten het dekken.",
+        "makkelijk": "Dit is een cadeau voor box 2. Toekomstige generaties betalen de rekening."
+      },
+      "citaat": "Dat betekent dus dat toekomstige generaties dit moeten dekken. … uiteindelijk is dit toch een cadeau voor de mensen in box 2, voor de mensen die het het makkelijkste kunnen dragen, ten koste van toekomstige generaties."
+    }
+  ]
+}

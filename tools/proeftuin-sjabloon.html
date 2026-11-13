@@ -1,0 +1,102 @@
+<title>Proeftuin strips</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+:root{--pt-line:#d9d6e4;--pt-muted:#5d5a72;--pt-good:#1f7a4d;--pt-bad:#b3261e;--pt-mark:#ffe066;--pt-panel:#fff;--pt-paper:#fbfaf7;--pt-ink:#1d1b2e}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--pt-line:#34324a;--pt-muted:#a9a6bd;--pt-good:#6fd39c;--pt-bad:#ffb4ab;--pt-mark:#8a6d00;--pt-panel:#1f1d2c;--pt-paper:#15141f;--pt-ink:#f1f0f7}}
+:root[data-theme="dark"]{--pt-line:#34324a;--pt-muted:#a9a6bd;--pt-good:#6fd39c;--pt-bad:#ffb4ab;--pt-mark:#8a6d00;--pt-panel:#1f1d2c;--pt-paper:#15141f;--pt-ink:#f1f0f7}
+body{background:var(--pt-paper);color:var(--pt-ink)}
+.pt{max-width:1000px;margin:0 auto;padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:18px}
+.pt h1{font-family:"Zen Maru Gothic",system-ui,sans-serif;font-weight:900;margin:0}
+.lede{color:var(--pt-muted);max-width:70ch;margin:4px 0 0}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;position:sticky;top:0;z-index:5;background:var(--pt-paper);padding-block:10px;border-bottom:2px solid var(--pt-line)}
+.tabs button,.fb button,.bar button{font:inherit;font-weight:700;border-radius:999px;padding:6px 14px;cursor:pointer;border:2px solid var(--pt-ink);background:transparent;color:var(--pt-ink)}
+.tabs button[aria-selected="true"]{background:var(--pt-ink);color:var(--pt-paper)}
+.tabs .n{font-weight:400;font-size:13px;opacity:.8}
+.blok{background:var(--pt-panel);border:2px solid var(--pt-line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.blok.goed{border-color:var(--pt-good)}.blok.beter{border-color:var(--pt-bad)}
+.blok h3{margin:0;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--pt-muted)}
+.vakken{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:14px}
+.vak figure{margin:0}.vak svg{display:block;width:100%;height:auto;border-radius:6px}
+.src{font-size:14px;color:var(--pt-muted)}
+.fb{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start}
+.fb button.ok[aria-pressed="true"]{background:var(--pt-good);border-color:var(--pt-good);color:var(--pt-paper)}
+.fb button.no[aria-pressed="true"]{background:var(--pt-bad);border-color:var(--pt-bad);color:var(--pt-paper)}
+.fb textarea{flex:1 1 260px;min-width:0;font:inherit;font-size:14px;min-height:40px;border:2px solid var(--pt-line);border-radius:8px;padding:6px 8px;background:var(--pt-paper);color:var(--pt-ink);resize:vertical}
+.fb .st{font-size:12px;color:var(--pt-muted);align-self:center;min-width:5em}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.warn{background:var(--pt-mark);color:#1d1b2e;padding:8px 12px;border-radius:8px;font-size:14px}
+.vorige{border-left:4px solid var(--pt-line);padding-left:10px;color:var(--pt-muted);font-size:14px}
+table.st2{width:100%;border-collapse:collapse}table.st2 td,table.st2 th{text-align:left;vertical-align:top;padding:6px 8px;border-top:1px solid var(--pt-line)}
+@media (max-width:600px){table.st2 th,table.st2 td{display:block;padding:4px 0}}
+</style>
+<div class="pt">
+  <header>
+    <h1>Proeftuin strips <span style="font-weight:400;font-size:.6em">versie __VERSIE__</span></h1>
+    <p class="lede">Vijf vaste testdebatten om de strips tot in de puntjes te verbeteren. Geef bij elk onderdeel 👍 of 👎 en schrijf erbij wat beter kan. Je feedback wordt meteen bewaard. Zeg in de chat "klaar met feedback", dan verwerk ik alles in de schrijfopdracht, maak de vijf strips opnieuw en zet hier de nieuwe versie neer, met de vorige ernaast.</p>
+  </header>
+  <div id="store" class="warn" hidden></div>
+  <div class="bar"><button type="button" id="taal" aria-pressed="false">Toon makkelijke taal</button><span id="telling" class="src"></span></div>
+  <nav class="tabs" id="tabs" role="tablist"></nav>
+  <main id="debat" style="display:flex;flex-direction:column;gap:14px"></main>
+</div>
+<script src="strip.js"></script>
+<script>
+const VERSIE="__VERSIE__";
+const D=__DATA__;
+const $=id=>document.getElementById(id);
+let taal="normaal",actief=0,db=null;const fb={};
+try{actief=Number(localStorage.getItem("pt-tab"))||0}catch(e){}
+function esc2(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+const sleutel=(d,o)=>`${VERSIE}__${d}__${o}`.replace(/[^A-Za-z0-9_\-.~:@+]/g,"_");
+function fbHTML(d,o){const k=sleutel(d,o),f=fb[k]||{};
+  return `<div class="fb" data-k="${k}" data-d="${d}" data-o="${o}"><button type="button" class="ok" aria-pressed="${f.oordeel==="goed"}" aria-label="Goed">👍</button><button type="button" class="no" aria-pressed="${f.oordeel==="beter"}" aria-label="Kan beter">👎</button><textarea placeholder="Wat kan beter?" aria-label="Opmerking">${esc2(f.opmerking||"")}</textarea><span class="st">${f.oordeel||f.opmerking?"bewaard":""}</span></div>`;}
+function cls(d,o){const f=fb[sleutel(d,o)];return f&&f.oordeel?f.oordeel:"";}
+function blok(d,o,kop,inhoud){return `<section class="blok ${cls(d,o)}"><h3>${kop}</h3>${inhoud}${fbHTML(d,o)}</section>`;}
+function vorig(d,f){return d.vorige?`<div class="vorige"><b>Vorige versie:</b> ${f(d.vorige)}</div>`:"";}
+function render(){
+  const T=x=>x?(x[taal]||x.normaal):"";
+  $("tabs").innerHTML=D.map((d,i)=>{const n=Object.keys(fb).filter(k=>k.startsWith(sleutel(d.id,"").replace(/_+$/,""))&&(fb[k].oordeel||fb[k].opmerking)).length;
+    return `<button type="button" role="tab" aria-selected="${i===actief}" data-i="${i}">${esc2(d.agendapunt.slice(0,28))}${d.agendapunt.length>28?"…":""} <span class="n">${n?`(${n})`:""}</span></button>`}).join("");
+  const d=D[actief];if(!d)return;
+  const looks={};for(const s of d.strip.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
+  const lookOf=n=>looks[n]||LOOKS[0];
+  const vakken=d.strip.strip.map((p0,i)=>{const p={...p0,tekst:T(p0.tekst)};
+    return `<section class="blok vak ${cls(d.id,"vak"+(i+1))}"><h3>Vak ${i+1}${p.interruptie?" · interruptie":""}</h3><figure>${panelSVG(p,i,lookOf)}<figcaption class="src"><b>Citaat${p.spreker==="Verteller"?"":" van "+esc2(p.wie)}:</b> “${esc2(p.citaat)}”</figcaption></figure>
+    ${d.vorige&&d.vorige.strip.strip[i]?`<div class="vorige"><b>Vorige versie:</b> ${esc2(d.vorige.strip.strip[i].spreker)}: “${esc2(T(d.vorige.strip.strip[i].tekst))}”</div>`:""}${fbHTML(d.id,"vak"+(i+1))}</section>`}).join("");
+  $("debat").innerHTML=
+    `<p class="src">${esc2(d.datum)} · ${esc2(d.soort)} · ${esc2(d.agendapunt)}</p>`+
+    blok(d.id,"titel","Titel",`<p style="font-size:1.4rem;font-weight:700;margin:0">${esc2(T(d.titel))}</p>${vorig(d,v=>esc2(T(v.titel)))}`)+
+    blok(d.id,"samenvatting","Samenvatting",`<p style="margin:0">${esc2(T(d.samenvatting))}</p>${vorig(d,v=>esc2(T(v.samenvatting)))}`)+
+    blok(d.id,"strip","De strip als geheel",`<p class="src" style="margin:0">Hieronder elk vak apart. Hier je oordeel over de strip als geheel: keuze van de momenten, de botsing, de volgorde.</p>`)+
+    `<div class="vakken">${vakken}</div>`+
+    blok(d.id,"standpunten","Standpunten per partij",`<table class="st2"><tbody>${d.standpunten.map(s=>`<tr><th scope="row">${esc2(s.partij)}<br><span class="src">${esc2(s.naam)}</span></th><td>${esc2(T(s.tekst))}</td></tr>`).join("")}</tbody></table>`)+
+    blok(d.id,"kernpunten","Belangrijk om te weten",`<ul style="margin:0">${(T(d.kernpunten)||[]).map(k=>`<li>${esc2(k)}</li>`).join("")}</ul>`)+
+    blok(d.id,"algemeen","Algemeen over dit debat","");
+  const n=Object.values(fb).filter(f=>f.oordeel||f.opmerking).length;$("telling").textContent=n?`${n} onderdelen met feedback`:"";
+}
+async function bewaar(el,patch){
+  const k=el.dataset.k;fb[k]={...(fb[k]||{}),...patch};const st=el.querySelector(".st");if(st)st.textContent="bewaren…";
+  if(!db){if(st)st.textContent="niet bewaard";return;}
+  try{await db.collection("feedback").doc(k).set({versie:VERSIE,debat:el.dataset.d,onderdeel:el.dataset.o,taal,oordeel:fb[k].oordeel||"",opmerking:fb[k].opmerking||"",tijd:new Date().toISOString()});
+    const st2=document.querySelector(`.fb[data-k="${k}"] .st`);if(st2)st2.textContent="bewaard";}
+  catch(e){if(st)st.textContent="mislukt ("+(e.code||"fout")+")";}
+}
+document.addEventListener("click",ev=>{
+  const t=ev.target.closest("[role=tab]");if(t){actief=Number(t.dataset.i);try{localStorage.setItem("pt-tab",actief)}catch(e){};render();window.scrollTo(0,0);return;}
+  const b=ev.target.closest(".fb button");if(b){const el=b.closest(".fb");const cur=(fb[el.dataset.k]||{}).oordeel;const nieuw=b.classList.contains("ok")?"goed":"beter";
+    bewaar(el,{oordeel:cur===nieuw?"":nieuw,opmerking:el.querySelector("textarea").value}).then(()=>{render();if(nieuw==="beter"&&cur!==nieuw)document.querySelector(`.fb[data-k="${el.dataset.k}"] textarea`)?.focus();});}
+});
+document.addEventListener("change",ev=>{if(ev.target.matches(".fb textarea")){bewaar(ev.target.closest(".fb"),{opmerking:ev.target.value});}});
+$("taal").onclick=()=>{taal=taal==="normaal"?"makkelijk":"normaal";$("taal").textContent=taal==="normaal"?"Toon makkelijke taal":"Toon normale taal";$("taal").setAttribute("aria-pressed",taal==="makkelijk");render();};
+render();
+(async()=>{
+  const timer=setTimeout(()=>{if(!db){$("store").hidden=false;$("store").textContent="De opslag reageert niet; feedback wordt misschien niet bewaard.";}},10000);
+  db=window.claude?.use?await window.claude.use("db"):null;clearTimeout(timer);
+  if(!db){$("store").hidden=false;$("store").textContent="Feedback bewaren werkt alleen als je bent ingelogd op claude.ai.";return;}
+  $("store").hidden=true;
+  db.collection("feedback").onSnapshot(snap=>{for(const x of snap.docs){const v=x.data();if(v&&v.versie===VERSIE)fb[x.id]={oordeel:v.oordeel,opmerking:v.opmerking};}
+    const a=document.activeElement;if(!(a&&a.tagName==="TEXTAREA"))render();},e=>{$("store").hidden=false;$("store").textContent="Kon eerdere feedback niet laden ("+(e.code||"fout")+").";});
+})();
+</script>
