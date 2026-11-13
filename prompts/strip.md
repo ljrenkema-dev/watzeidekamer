@@ -18,8 +18,9 @@ Heeft het agendapunt een veld `deel`, dan is het één deel van een lang debat (
 - "Standpunten per partij" (`sprekers`) bevat de fracties die in dit deel spraken. Een antwoord van het kabinet staat in een ander deel als het hier niet voorkomt; schrijf dan niet dat het ontbreekt.
 - Bij een antwoord van het kabinet: noem aan wie de bewindspersoon antwoordt.
 
-## Debat met losse onderwerpen (vragenuur e.d.)
-Bij een vragenuur, mondelinge vragen of een debat waarin achter elkaar losse onderwerpen langskomen:
+## Debat met losse onderwerpen of een lijst (vragenuur e.d.)
+Bij een vragenuur, mondelinge vragen of een debat waarin achter elkaar losse onderwerpen of een duidelijke lijst met punten langskomen (**altijd** bij een vragenuur; ook bij een tweeminutendebat waarin moties worden ingediend, een debat dat de agendapunten van een Raad of overleg afloopt, stemmingen en een regeling van werkzaamheden):
+- **Tweeminutendebat met moties**: één inleidende zin (wie diende hoeveel moties in), dan per motie een regel die begint met "- ": nummer, indiener(s), wat de motie vraagt (uit de verzoekt-zin in `data/moties/`) en het oordeel van het kabinet. Een kernpunt dat alleen een motie herhaalt, hoeft niet. Een `onderwerpen`-indeling is hier niet nodig.
 - **Titel** begint met het soort debat en een dubbele punt: "Vragenuur: …". De rest noemt de onderwerpen of het belangrijkste onderwerp.
 - **Samenvatting**: één inleidende zin, dan per onderwerp een regel die begint met "- " (de site maakt er een opsomming van). Zelfde opbouw in normaal en makkelijk.
 - **`onderwerpen`**: per onderwerp, in de volgorde van het debat, `{"titel": {"normaal": "...", "makkelijk": "..."}, "sprekers": [ids van wie over dit onderwerp sprak], "kernpunten": [nummers van de kernpunten over dit onderwerp, vanaf 0]}`. De site zet de standpunten en de kernpunten dan per onderwerp onder een subkop. Zet de kernpunten in `kernpunten` op volgorde van onderwerp; normaal en makkelijk hebben evenveel kernpunten in dezelfde volgorde. Spreekt iemand over twee onderwerpen, zet hem bij het onderwerp waar hij het meest over zei en noem het andere in zijn standpunt.
