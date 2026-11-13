@@ -60,9 +60,9 @@ function render(){
   const ook=`<div class="ook">${esc2(K.ook_tekst||`Ook aan het woord: ${K.partijen_totaal-2} andere partijen`)}</div>`;
   const afloop=`<div class="afloop"><b>Afloop:</b> ${esc2(K.afloop_kort||K.afloop)}</div>`;
   const verslag=v=>{const x=K.versies[v];return `<dl class="verslag"><dt>Keuzeregel</dt><dd>${esc2(x.regel)}</dd><dt>Gekozen wisseling</dt><dd>${esc2(x.wisseling)}</dd>
-    <dt>Afgevallen</dt><dd>${x.afgevallen.map(esc2).join("; ")}</dd><dt>Bron van de vraagzin</dt><dd>${esc2(K.vraag_bron)}</dd>
+    <dt>Afgevallen</dt><dd>${x.afgevallen.map(esc2).join("; ")}</dd><dt>Bron van de vraagzin</dt><dd>${esc2(x.vraag_bron||K.vraag_bron)}</dd>${K.lezing?`<dt>Lezing</dt><dd>${esc2(K.lezing.oordeel)}: ${(K.lezing.bevindingen||[]).map(esc2).join(" · ")}</dd>`:""}
     ${x.kosten?`<dt>Kosten</dt><dd>${esc2(x.kosten)}</dd>`:""}<dt>Videomomenten</dt><dd>${x.citaten.map(c=>c.video?`<a href="${esc2(c.video)}" target="_blank" rel="noopener">▶ ${esc2(c.naam)}, ${esc2(c.tijd)}</a>`:esc2(c.naam)+": geen video").join(" · ")}</dd></dl>`;};
-  const een=v=>kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag">${esc2(K.vraag)}</p>${K.versies[v].citaten.map(cit).join("")}${ook}${afloop}${voet}`);
+  const een=v=>kaart(`<div class="kop">${esc2(K.kop)}</div><p class="vraag">${esc2(K.versies[v].vraag||K.vraag)}</p>${K.versies[v].citaten.map(cit).join("")}${ook}${afloop}${voet}`);
   const A=K.versies.a;
   const looks={};for(const s of S.strip.sprekers)looks[s.label]=makeLook(s.id,s.fractie,s.uiterlijk);
   document.getElementById("debat").innerHTML=

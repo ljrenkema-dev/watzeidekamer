@@ -1,0 +1,44 @@
+{
+ "debat": "c0b2be4c-9cd7-4be6-9421-01b294be732d-d1",
+ "kop": "Begrotingsdebat Buitenlandse Zaken · 11 nov 2026 · inbreng van de Kamer",
+ "geen_botsing": true,
+ "vraag": "Lopen er na 1 januari 2027 nog contracten voor Russisch lng door?",
+ "vraag_bron": "Stoffer (SGP) vroeg 'hoeveel Russisch lng Nederland nog importeert en tot wanneer deze langetermijncontracten doorlopen' met het oog op het Europese importverbod per 1 januari 2027.",
+ "afloop": "Geen moties in dit debat in onze data; geen stemuitslag.",
+ "afloop_kort": "Geen moties in onze data; geen stemuitslag.",
+ "versies": {
+  "a": {
+   "regel": "Geen echte botsing: in alle drie de langste wisselingen (SGP-D66 over Russisch lng, BBB-SP over energiearmoede en BBB-SP over de zaak-Insiya) zijn de sprekers het eens of vult de ander aan. Gekozen is de langste wisseling, waarin de interruptie het meest verheldert; één citaat.",
+   "wisseling": "Chris Stoffer (SGP) ↔ Felix Klos (D66), beurt 4–9, 5 beurten",
+   "afgevallen": [
+    "BBB-SP over energiearmoede en wintersteun Oekraïne (beurt 15–19): BBB en SP zijn het eens",
+    "BBB-SP over Insiya (beurt 23–27): BBB en SP zijn het eens"
+   ],
+   "citaten": [
+    {
+     "beurt": 7,
+     "citaat": "Ik heb gevraagd wat er nog speelt op 1 januari. Wat mij betreft moeten we er dan ook vanaf zijn, maar je weet nooit wat een contract bevat.",
+     "naam": "Chris Stoffer",
+     "partij": "SGP",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/begroting-buitenlandse-zaken-37020-v-1e-tk-voortzetting-14-45/markeringen?event=speaker2026-11-11T14%3A49%3A55%2B0100",
+     "tijd": "14:49",
+     "figuur": {
+      "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+      "fractie": "SGP",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "grijs",
+       "kapsel": "kort",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true
+      }
+     }
+    }
+   ]
+  }
+ },
+ "partijen_totaal": 9
+}

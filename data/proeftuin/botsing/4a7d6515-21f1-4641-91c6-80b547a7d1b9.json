@@ -1,0 +1,71 @@
+{
+ "debat": "4a7d6515-21f1-4641-91c6-80b547a7d1b9",
+ "kop": "Plenair debat · 10 nov 2026",
+ "vraag": "Heeft de minister van Financiën zich in het box 3-dossier opgesteld als honest broker?",
+ "vraag_bron": "Grinwis (beurt 6): \"zijn rol als honest broker onder druk is komen te staan\" in de controverse over box 3, de Wet werkelijk rendement en de novelle.",
+ "afloop": "Geen moties in dit debat in onze data; geen stemuitslag.",
+ "afloop_kort": "Geen moties of stemuitslag in onze data.",
+ "versies": {
+  "a": {
+   "regel": "Langste wisseling, en een echte tegenstelling: Grinwis vraagt of de minister als honest broker onderdeel van de controverse is geworden, de minister wijst dat deels af.",
+   "wisseling": "Pieter Grinwis (ChristenUnie) ↔ Eelco Heinen (minister van Financiën), beurt 4–14, 9 beurten",
+   "afgevallen": [
+    "Wisseling 2: dekking en moties, zelfde sprekers",
+    "Wisseling 3: Stultiens (PRO) over zelfreflectie, valt deels samen met wisseling 1"
+   ],
+   "citaten": [
+    {
+     "beurt": 6,
+     "citaat": "Is hij het ook met mij eens dat hij onderdeel is geworden van de controverse inzake box 3, de Wet werkelijk rendement, de novelle erop en het dekkingsvraagstuk daaromheen en dat daarmee ook zijn rol als honest broker onder druk is komen te staan? Hoe reflecteert hij daarop?",
+     "naam": "Pieter Grinwis",
+     "partij": "ChristenUnie",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/financien/plenaire-zaal/novelle-uitbreiding-vermogenswinstbelasting-box-3-37053-plenaire-afronding-2e-termijn-regering-16-30/markeringen?event=interrupter2026-11-10T16%3A44%3A19%2B0100",
+     "tijd": "16:44",
+     "figuur": {
+      "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+      "fractie": "ChristenUnie",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "donkerbruin",
+       "kapsel": "kort-scheiding",
+       "bril": "rechthoek",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "manga": "d38ca3cf-9803-48dc-8592-c67c4430168e"
+      }
+     }
+    },
+    {
+     "beurt": 7,
+     "citaat": "Maar met het eerste deel van de vraag van de heer Grinwis ben ik het eens en met het tweede deel niet. … Als de ene kant zegt \"u buigt te veel naar links\" en de andere kant zegt \"u buigt te veel naar rechts\", dan staat mijn kompas nog steeds in het midden.",
+     "naam": "Eelco Heinen",
+     "partij": "minister van Financiën",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/financien/plenaire-zaal/novelle-uitbreiding-vermogenswinstbelasting-box-3-37053-plenaire-afronding-2e-termijn-regering-16-30/markeringen?event=speaker2026-11-10T16%3A45%3A02%2B0100",
+     "tijd": "16:45",
+     "figuur": {
+      "id": "d55afb85-f47f-469e-a8a1-a37f8296d0b0",
+      "fractie": "",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "bruin",
+       "kapsel": "kort-kuif",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": true,
+       "gezichtsvorm": "hoekig",
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-das",
+       "volume": "plat",
+       "manga": "a3b17348-54cf-4bca-82d4-e62bd46c2fbc"
+      }
+     }
+    }
+   ]
+  }
+ },
+ "partijen_totaal": 10
+}
