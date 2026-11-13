@@ -1,0 +1,144 @@
+{
+  "agendapunt": "5c9f63f7-4763-421e-998b-c7dd630b7188-d1",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
+  "datum": "2026-11-13",
+  "oordeel": "aangepast",
+  "onafhankelijk": true,
+  "bevindingen": [
+    {
+      "waar": "titel makkelijk",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "Zeven partijen over het advies van het burgerberaad klimaat",
+      "nieuw": "Zeven partijen over wat het kabinet met het burgerberaad doet",
+      "waarom": "De normale titel gaat over wat het kabinet met het advies doet; de makkelijke titel nu ook."
+    },
+    {
+      "waar": "samenvatting normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "… om besluiten die al vaststonden draagvlak te geven.",
+      "nieuw": "… om besluiten die al vaststonden draagvlak te geven; hij wil een referendum.",
+      "waarom": "Het referendum ('Dat betekent een referendum') stond wel in makkelijk, niet in normaal."
+    },
+    {
+      "waar": "samenvatting makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "D66, PRO, PvdD en CDA willen dat het kabinet meer advies overneemt. De VVD is blij dat het kabinet niet alles overneemt.",
+      "nieuw": "D66, PRO, PvdD en CDA willen dat het kabinet meer doet met het advies. De VVD is blij dat het kabinet niet alles overneemt. Ze wil geen hogere vliegbelasting alleen in Nederland.",
+      "waarom": "Normaal zegt 'meer doet met het advies' (Jumelet: 'De precieze invulling mag best iets anders zijn'), en het vliegbelastingpunt van de VVD ontbrak in makkelijk."
+    },
+    {
+      "waar": "standpunt Van Oosterhout normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L5",
+      "oud": "Ook wil ze een echt besluit over reparatie in het voorjaar van 2027 en betere internationale treinen.",
+      "nieuw": "Ook vraagt ze of de minister toezegt dat er in het voorjaar van 2027 echt een besluit over reparatie ligt, en wat het kabinet doet voor betere internationale treinen.",
+      "waarom": "Het waren vragen: 'Kan de minister toezeggen dat er in het voorjaar van 2027 ook echt een besluit ligt'."
+    },
+    {
+      "waar": "standpunt Van Oosterhout makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L5, L6",
+      "oud": "…soms maar beperkt overneemt. Ze vraagt om een plan om fossiele subsidies af te bouwen. Daarin moeten jaartallen en bedragen staan.",
+      "nieuw": "…soms smal uitlegt. Ze vraagt om een plan om eigen fossiele subsidies af te bouwen. Met jaartallen en bedragen.",
+      "waarom": "Ze sprak van een 'smalle interpretatie', niet van beperkt overnemen; de vraag ging over subsidies 'die we nationaal zelf in de hand hebben' en was een vraag, geen 'moeten'."
+    },
+    {
+      "waar": "standpunt Teunissen normaal",
+      "soort": "neutraliteit",
+      "ernst": "middel",
+      "les": "L4",
+      "oud": "Ze zegt dat Kops ten onrechte beweert dat er tolken zijn ingehuurd.",
+      "nieuw": "Ze spreekt Kops tegen: volgens haar zijn er geen tolken ingehuurd.",
+      "waarom": "'ten onrechte' leest als oordeel van de site; Kops verwees naar de voortgangsrapportage, Teunissen zegt 'Dat klopt gewoon niet'."
+    },
+    {
+      "waar": "standpunt Teunissen makkelijk en vak 4 normaal/makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L1, L6",
+      "oud": "Volgens CE Delft: niet eens de helft van de klimaatwinst. / Die halen volgens CE Delft niet de helft.",
+      "nieuw": "Volgens CE Delft: niet eens de helft van mogelijke klimaatwinst. / Volgens CE Delft: niet de helft van mogelijke winst.",
+      "waarom": "Het citaat zegt 'de helft van de potentiële klimaatimpact'; zonder 'mogelijke' (en in makkelijk zonder 'van wat') is onduidelijk waar de helft van is."
+    },
+    {
+      "waar": "standpunt Jumelet normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Volgens TNO let het kabinet vooral op 'de vervuiler betaalt';",
+      "nieuw": "Volgens TNO heeft het kabinet veel aandacht voor 'de vervuiler betaalt' en minder voor twee andere principes;",
+      "waarom": "TNO: 'veel aandacht heeft voor het principe dat de vervuiler betaalt', niet 'vooral'."
+    },
+    {
+      "waar": "vak 6 normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Volgens TNO let het kabinet vooral op 'de vervuiler betaalt', …",
+      "nieuw": "Volgens TNO let het kabinet veel op 'de vervuiler betaalt', …",
+      "waarom": "Citaat: 'veel aandacht heeft voor'."
+    },
+    {
+      "waar": "vak 6 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L3",
+      "oud": "Volgens TNO kijkt het kabinet te weinig naar wat mensen kunnen betalen.",
+      "nieuw": "Volgens TNO let het kabinet minder op wat mensen kunnen betalen.",
+      "waarom": "Citaat: 'minder aandacht krijgen'; 'te weinig' is een oordeel dat TNO volgens het citaat niet geeft."
+    },
+    {
+      "waar": "vak 2 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L6",
+      "oud": "Besluit uiterlijk komend voorjaar over de rest.",
+      "nieuw": "Besluit uiterlijk komend voorjaar over de 18 uitgestelde.",
+      "waarom": "'de rest' omvat ook de 23 afgewezen voorstellen; Klos vraagt een besluit over 'de voorstellen die in de wachtkamer staan' (18)."
+    },
+    {
+      "waar": "vak 8 (citaat en tekst)",
+      "soort": "evenwicht",
+      "ernst": "klein",
+      "les": "L9",
+      "oud": "citaat eindigde bij 'als het ware zijn misbruikt'; tekst: 'Deze mensen zijn, ondanks goede bedoelingen, als het ware misbruikt.'",
+      "nieuw": "citaat verlengd met 'om destructief beleid, besluiten die al genomen zijn, achteraf wit te wassen als het ware'; tekst: 'Ze zijn als het ware misbruikt om genomen besluiten achteraf wit te wassen. Wij willen een referendum.'",
+      "waarom": "Zonder 'besluiten die al genomen zijn' ontbrak de kern van het argument van FVD."
+    },
+    {
+      "waar": "standpunt Van Meijeren makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1, L3",
+      "oud": "vindt dat de deelnemers zijn gebruikt.",
+      "nieuw": "vindt dat de deelnemers als het ware zijn misbruikt.",
+      "waarom": "Citaat: 'als het ware zijn misbruikt'; 'gebruikt' is zwakker en het voorbehoud viel weg."
+    },
+    {
+      "waar": "woorden: fossiele subsidies",
+      "soort": "neutraliteit",
+      "ernst": "middel",
+      "les": "L12",
+      "oud": "… Een voorbeeld uit het debat is de vrijstelling voor kerosine.",
+      "nieuw": "Voordelen van de overheid, zoals belastingkortingen of vrijstellingen, voor wie olie, gas of kolen gebruikt of maakt.",
+      "waarom": "Niemand noemt de kerosinevrijstelling in het debat een fossiele subsidie (Van Oosterhout noemt haar bij 'verschil in belasting'); wat meetelt als fossiele subsidie is politiek omstreden."
+    },
+    {
+      "waar": "woorden: rechtvaardigheidsprincipes",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "L12",
+      "oud": "Regels voor eerlijk klimaatbeleid.",
+      "nieuw": "Uitgangspunten voor eerlijk klimaatbeleid.",
+      "waarom": "Het gaat om 'principes', geen regels."
+    }
+  ]
+}

@@ -3,32 +3,32 @@
   "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
   "titel": {
     "normaal": "Kabinet antwoordt over burgerberaad: fossiele subsidies, voedselverspilling en treinen",
-    "makkelijk": "Kabinet antwoordt op vragen over advies van burgerberaad"
+    "makkelijk": "Kabinet antwoordt over burgerberaad: subsidies, weggooien van eten en treinen"
   },
   "samenvatting": {
-    "normaal": "In dit deel van het debat over het advies van het Nationaal Burgerberaad Klimaat antwoorden minister Van Veldhoven-van der Meer (Klimaat en Groene Groei), staatssecretaris Bertram (Infrastructuur en Waterstaat) en minister Heerma (Binnenlandse Zaken) op vragen van Van Oosterhout (PRO), Klos (D66), Teunissen (PvdD), Müller (VVD) en Jumelet (CDA). Daarna volgt de tweede termijn van de Kamer, met moties. Volgens de minister nam het kabinet op 29 mei de helft van de aanbevelingen over en blijft het met een open blik naar de rest kijken. Zij zegt toe dat zij met de collega van Landbouw bespreekt of er ook verplichtingen tegen voedselverspilling kunnen komen. De minister en de staatssecretaris laten het oordeel over vier moties aan de Kamer; de motie van Kops (PVV) ontraadt de minister.",
-    "makkelijk": "Dit deel gaat over het advies van het Nationaal Burgerberaad Klimaat. Drie bewindspersonen antwoorden op vragen van de Kamer. Daarna dienen Kamerleden moties in. Het kabinet nam de helft van de adviezen over. Over de rest denkt het nog na. De minister praat nog eens met Landbouw over regels tegen weggooien van eten."
+    "normaal": "In dit deel van het debat over het advies van het Nationaal Burgerberaad Klimaat antwoorden minister Van Veldhoven-van der Meer (Klimaat en Groene Groei), staatssecretaris Bertram (Infrastructuur en Waterstaat) en minister Heerma (Binnenlandse Zaken) op vragen van Van Oosterhout (PRO), Klos (D66), Teunissen (PvdD), Müller (VVD) en Jumelet (CDA). Daarna volgt de tweede termijn van de Kamer, met moties. Volgens de minister nam het kabinet op 29 mei de helft van de aanbevelingen over en blijft het met een open blik naar de rest kijken. Zij zegt Klos toe met de collega van Landbouw te bespreken dat er bij voedselverspilling niet alleen naar vrijblijvende maatregelen wordt gekeken, maar ook naar verplichtingen. De minister en de staatssecretaris laten het oordeel over vier moties aan de Kamer; de motie van Kops (PVV) ontraadt de minister.",
+    "makkelijk": "Dit deel gaat over het advies van het Nationaal Burgerberaad Klimaat. Drie bewindspersonen antwoorden op vragen. Daarna dienen Kamerleden moties in. Volgens de minister nam het kabinet de helft van de adviezen over. De minister praat nog eens met Landbouw over verplichte regels tegen weggooien van eten."
   },
   "sprekers": [
     {
       "id": "1a43ac2a-2bf3-4fb5-90eb-02a098b140f4",
       "standpunt": {
-        "normaal": "Minister Van Veldhoven-van der Meer wil van fossiele subsidies af waar dat kan, maar zonder dat bedrijven en banen naar de buurlanden verdwijnen. Zij zegt toe met de collega van Landbouw te bespreken of er naast vrijwillige maatregelen ook verplichtingen tegen voedselverspilling kunnen komen.",
-        "makkelijk": "De minister wil af van fossiele subsidies waar het kan. Banen moeten wel in Nederland blijven. Ze praat met Landbouw over regels tegen weggooien van eten."
+        "normaal": "Minister Van Veldhoven-van der Meer wil van fossiele subsidies af waar dat kan, maar zonder dat bedrijven en banen naar de buurlanden verdwijnen. Zij zegt toe met de collega van Landbouw te bespreken dat er bij voedselverspilling niet alleen naar vrijblijvende maatregelen wordt gekeken, maar ook naar verplichtingen.",
+        "makkelijk": "De minister wil af van fossiele subsidies waar het kan. Banen moeten wel in Nederland blijven. Ze praat met Landbouw ook over verplichte regels tegen weggooien van eten."
       }
     },
     {
       "id": "5d0132f1-e8ab-4a32-b8af-3e8beff8ba5f",
       "standpunt": {
-        "normaal": "Staatssecretaris Bertram wil internationale treinen een belangrijkere plek geven en komt in het voorjaar met een nota over het internationale treinverkeer. Ook belooft hij in het voorjaar een voorstel voor goedkoper ov voor huishoudens voor wie het ov duur blijft.",
-        "makkelijk": "De staatssecretaris wil meer ruimte voor treinen naar het buitenland. In het voorjaar komt hij met plannen. Ook voor goedkoper ov."
+        "normaal": "Staatssecretaris Bertram wil internationale treinen een belangrijkere plek geven en komt in het voorjaar met een nota over het internationale treinverkeer. Bij het dalurenticket wil zij oog hebben voor huishoudens voor wie het ov duur blijft; zij beloofde in het voorjaar een voorstel.",
+        "makkelijk": "De staatssecretaris wil meer ruimte voor treinen naar het buitenland. In het voorjaar komt zij met een plan. Ook komt zij met een voorstel over het dalurenticket."
       }
     },
     {
       "id": "4457a9f0-8688-459b-b4f5-77157bbb9e1d",
       "standpunt": {
-        "normaal": "Minister Heerma vindt het burgerberaad een zeer kansrijke vorm om de representatieve democratie aan te vullen. In het voorjaar stuurt hij een brief over de lessen voor toekomstige burgerberaden, ook over geschikte onderwerpen.",
-        "makkelijk": "Minister Heerma vindt een burgerberaad een goede aanvulling op de democratie. Hij schrijft een brief over wat we ervan leren."
+        "normaal": "Minister Heerma denkt dat het burgerberaad een zeer kansrijke vorm is om de representatieve democratie aan te vullen. Hij is van plan in het voorjaar een brief te sturen over de lessen voor toekomstige burgerberaden, ook over geschikte onderwerpen.",
+        "makkelijk": "Minister Heerma denkt dat een burgerberaad de democratie kan aanvullen. Hij wil een brief schrijven over wat we ervan leren."
       }
     },
     {
@@ -42,21 +42,21 @@
       "id": "f09712b3-2e50-472e-99f4-4210f5d18710",
       "standpunt": {
         "normaal": "Klos (D66) wil weten hoeveel CO2-reductie de overgenomen voorstellen opleveren. Hij vindt dat het kabinet bij voedselverspilling ook naar verplichtingen moet kijken, en wil dat wat nationaal kan in het voorjaar van 2027 gebeurt.",
-        "makkelijk": "Klos (D66) wil weten hoeveel CO2 de plannen besparen. Hij wil ook verplichte regels tegen weggooien van eten."
+        "makkelijk": "Klos (D66) wil weten hoeveel CO2 de plannen besparen. Hij wil dat het kabinet ook kijkt naar verplichte regels tegen weggooien van eten."
       }
     },
     {
       "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
       "standpunt": {
         "normaal": "Teunissen (PvdD) wil dat het kabinet onderzoekt welke langere garantie- en reparatieverplichtingen haalbaar zijn, ook nationaal. Zij wil het zomerticket uitbreiden naar tram, bus en metro.",
-        "makkelijk": "Teunissen (PvdD) wil langere garantie en een plicht om te repareren. Ze wil ook goedkoop reizen met tram, bus en metro."
+        "makkelijk": "Teunissen (PvdD) wil weten hoe lang garantie kan zijn. En of repareren verplicht kan. Ze wil het zomerticket ook voor tram, bus en metro."
       }
     },
     {
       "id": "e3a027eb-acac-4242-8b8d-533365ce3366",
       "standpunt": {
         "normaal": "Müller (VVD) wil niet alle aanbevelingen zomaar overnemen, omdat er naast klimaat andere belangen zijn. Bij voedselverspilling wijst zij op een stichting die geen nieuwe nationale wet wil, maar de vrijwillige aanpak wil versterken. Ook in Nederland is volgens haar winst te halen bij de einde-afvalstatus.",
-        "makkelijk": "Müller (VVD) wil niet alle adviezen zomaar overnemen. Er zijn ook andere belangen. Ze wil liever geen nieuwe wet tegen weggooien van eten."
+        "makkelijk": "Müller (VVD) wil niet alle adviezen zomaar overnemen. Er zijn ook andere belangen. Ze wijst op een stichting die geen nieuwe wet tegen weggooien van eten wil."
       }
     },
     {
@@ -77,22 +77,22 @@
   "kernpunten": {
     "normaal": [
       "Het kabinet nam op 29 mei de helft van de aanbevelingen over, zoals reparaties makkelijker maken, minder voedselverspilling en elektrisch rijden toegankelijker maken. In 2027 en 2028 krijgen de Kamer en het burgerberaad een update.",
-      "De minister wil fossiele subsidies afbouwen waar het kan, vaak samen met andere landen. Bij het voorjaarspakket wil zij inzichtelijk maken wat internationaal moet en wat Nederland zelf kan.",
+      "De minister wil fossiele subsidies afbouwen waar het kan, vaak samen met andere landen. Bij het voorjaarspakket wil zij inzichtelijk maken wat internationaal moet en wat Nederland zelf kan. Van Oosterhout (PRO) vraagt om meer dan een overzicht: een concreet afbouwplan.",
       "Hoeveel CO2 de overgenomen voorstellen in Nederland besparen, kan de minister niet zeggen: de doorrekening van CE Delft gaat over wereldwijde besparingen. Het voorjaarspakket wordt wel doorgerekend.",
       "De Autoriteit Consument & Markt werkt aan een levensduurtabel voor producten. Daarna kijkt het kabinet naar het Nederlandse garantiestelsel; de onderzoeken zijn volgens de minister in juni 2027 klaar.",
-      "Bij voedselverspilling is de Spaanse wet volgens de minister inspiratie. Zij zegt Klos toe om ook verplichtingen met de collega van Landbouw te bespreken. Müller (VVD) wil liever geen nieuwe nationale wet.",
+      "Bij voedselverspilling is de Spaanse wet volgens de minister inspiratie. Zij zegt Klos toe om ook verplichtingen met de collega van Landbouw te bespreken. Müller (VVD) wijst op een stichting die geen nieuwe nationale wet wil, maar de vrijwillige aanpak wil versterken.",
       "Staatssecretaris Bertram wil ruimte voor internationale treinen op het spoor en makkelijker kaartjes kopen, en komt in het voorjaar met een nota. Voor doorfietsroutes is 24 miljoen uitgetrokken.",
-      "Minister Heerma stuurt in het voorjaar een brief over lessen voor toekomstige burgerberaden, zoals een meer afgebakende vraag.",
-      "Moties 1592, 1593, 1594 en 1595 krijgen oordeel Kamer. De motie van Kops (1596) wordt ontraden."
+      "Minister Heerma is van plan in het voorjaar een brief te sturen over lessen voor toekomstige burgerberaden, zoals een meer afgebakende vraag.",
+      "De minister geeft moties 1592, 1593 en 1594 oordeel Kamer, de staatssecretaris motie 1595 over het dalurenticket. De minister ontraadt motie 1596 van Kops (PVV)."
     ],
     "makkelijk": [
       "Het kabinet nam de helft van de adviezen over. Bijvoorbeeld: makkelijker spullen laten repareren.",
-      "De minister wil fossiele subsidies stoppen waar het kan. Vaak moet dat samen met andere landen.",
-      "Hoeveel CO2 de plannen besparen, weet de minister nog niet.",
+      "De minister wil fossiele subsidies stoppen waar het kan. Vaak moet dat samen met andere landen. Van Oosterhout (PRO) wil een echt plan.",
+      "Hoeveel CO2 de plannen in Nederland besparen, kan de minister nu niet zeggen.",
       "De ACM onderzoekt hoe lang producten mee moeten gaan. Daarna kijkt het kabinet naar garantie.",
-      "De minister praat met Landbouw over regels tegen weggooien van eten. De VVD wil liever geen nieuwe wet.",
-      "De staatssecretaris wil betere treinen naar het buitenland. In het voorjaar komt hij met een plan.",
-      "Minister Heerma schrijft een brief over wat we leren van het burgerberaad.",
+      "De minister praat met Landbouw over verplichte regels tegen weggooien van eten. De VVD wijst op een stichting die geen nieuwe wet wil.",
+      "De staatssecretaris wil meer ruimte voor treinen naar het buitenland. In het voorjaar komt zij met een plan.",
+      "Minister Heerma wil een brief schrijven over wat we leren van het burgerberaad.",
       "De minister en de staatssecretaris laten de keuze over vier moties aan de Kamer. De minister raadt de motie van Kops af."
     ]
   },
@@ -148,10 +148,10 @@
     {
       "spreker_id": "f09712b3-2e50-472e-99f4-4210f5d18710",
       "emotie": "denkend",
-      "citaat": "Van die 82 deelvoorstellen zijn er 41 overgenomen, maar heeft het kabinet een doorrekening gemaakt van wat dat wereldwijd dan wel nationaal aan CO2-besparing oplevert? … maar je uiteindelijk nul megaton blijkt te realiseren omdat je de helft overneemt, dan blijken we toch iets te weinig ambitie getoond te hebben.",
+      "citaat": "Van die 82 deelvoorstellen zijn er 41 overgenomen, maar heeft het kabinet een doorrekening gemaakt van wat dat wereldwijd dan wel nationaal aan CO2-besparing oplevert? … als het burgerberaad wereldwijd iets tussen de 5 en 17 megaton op zou kunnen leveren, maar je uiteindelijk nul megaton blijkt te realiseren omdat je de helft overneemt, dan blijken we toch iets te weinig ambitie getoond te hebben.",
       "tekst": {
-        "normaal": "Van 82 voorstellen zijn er 41 overgenomen. Hoeveel CO2 bespaart dat? Nul zou te weinig ambitie zijn.",
-        "makkelijk": "Hoeveel CO2 besparen de overgenomen voorstellen? Is het nul, dan is dat te weinig."
+        "normaal": "Van 82 voorstellen zijn er 41 overgenomen. Hoeveel CO2 bespaart dat? Nul zou iets te weinig ambitie zijn.",
+        "makkelijk": "Hoeveel CO2 besparen de overgenomen voorstellen? Is het nul, dan is dat wat weinig."
       }
     },
     {
@@ -187,7 +187,7 @@
       "citaat": "We moeten de internationale treinen een belangrijkere plek geven in het hele stelsel van het openbaar vervoer. … Ik kom binnenkort, in het voorjaar, met een nota over het internationale treinverkeer.",
       "tekst": {
         "normaal": "Internationale treinen moeten een belangrijkere plek krijgen in het ov. In het voorjaar kom ik met een nota.",
-        "makkelijk": "Treinen naar het buitenland zijn belangrijk. In het voorjaar kom ik met een plan."
+        "makkelijk": "Treinen naar het buitenland moeten belangrijker worden. In het voorjaar komt mijn plan."
       }
     },
     {

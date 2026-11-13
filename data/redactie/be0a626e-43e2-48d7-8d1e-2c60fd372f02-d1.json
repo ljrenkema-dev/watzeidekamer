@@ -1,0 +1,198 @@
+{
+  "agendapunt": "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
+  "datum": "2026-11-13",
+  "oordeel": "aangepast",
+  "onafhankelijk": true,
+  "bevindingen": [
+    {
+      "waar": "titel normaal",
+      "soort": "neutraliteit",
+      "ernst": "middel",
+      "les": "L8",
+      "oud": "Klaver en Paternotte verdedigen miljonairsbelasting in derde termijn Belastingplan",
+      "nieuw": "Klaver en Paternotte verdedigen amendement voor extra belasting op grote vermogens",
+      "waarom": "'miljonairsbelasting' is Klavers eigen naam, die Vermeer (BBB) 'framet' noemt; de titel neemt die naam niet over, zoals de makkelijke titel al deed."
+    },
+    {
+      "waar": "samenvatting normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "In dit deel van het debat over het Belastingplan 2027, de derde termijn op 12 november 2026, geven Klaver (PRO) en Paternotte (D66) hun inbreng. Vooraf wil DENK vicepremier Yeşilgöz bij het debat halen; daarvoor is geen meerderheid. Klaver verdedigt het amendement van PRO en Volt, waarover PRO sprak met D66 en het CDA: met een miljonairsbelasting wordt volgens hem 1 miljard euro bij vermogen opgehaald voor werkende mensen. Volgens Paternotte gaan modale inkomens er volgend jaar ongeveer €100 op vooruit. FVD, BBB, PVV, JA21 en Groep Markuszower hebben kritiek op het amendement en op hoe D66 de afspraak maakte; PvdD en DENK richten hun kritiek juist op de VVD.",
+      "nieuw": "In dit deel van het debat over het Belastingplan 2027, de derde termijn op 12 november 2026, geven Klaver (PRO) en Paternotte (D66) hun inbreng. Vooraf wil DENK vicepremier Yeşilgöz bij het debat halen; daarvoor is geen meerderheid. Klaver verdedigt het amendement van PRO en Volt, waarover PRO sprak met D66 en het CDA: volgens hem komt er een extra tarief in box 3, dat hij miljonairsbelasting noemt, en wordt in totaal 1 miljard euro bij vermogen opgehaald voor werkende mensen. Volgens Paternotte gaan modale inkomens er volgend jaar ongeveer €100 op vooruit ten opzichte van het Belastingplan dat er lag, en hielden de coalitiepartijen elkaar steeds op de hoogte. FVD, BBB, PVV, JA21 en Groep Markuszower hebben kritiek op het amendement en op hoe D66 de afspraak maakte; PvdD en DENK richten hun kritiek juist op de VVD.",
+      "waarom": "De €100 is volgens Paternotte 'ten opzichte van het Belastingplan dat er lag'; de 1 miljard is 'in totaal' (niet alleen uit de miljonairsbelasting); en Paternottes antwoord op de kritiek ('elkaar alle drie op de hoogte gehouden') ontbrak (L9)."
+    },
+    {
+      "waar": "samenvatting makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Dit is een deel van het debat over het Belastingplan 2027. Klaver (PRO) en Paternotte (D66) spreken. DENK wil eerst minister Yeşilgöz erbij halen. Daar is geen meerderheid voor. PRO en Volt willen een extra belasting voor miljonairs. Klaver sprak daarover met D66 en het CDA. Volgens Paternotte gaan gewone werkenden er ongeveer €100 op vooruit. Andere partijen hebben kritiek op het plan of op de VVD.",
+      "nieuw": "Dit is een deel van het debat over het Belastingplan 2027. Klaver (PRO) en Paternotte (D66) spreken. DENK wil eerst minister Yeşilgöz erbij halen. Daar is geen meerderheid voor. PRO en Volt willen een extra belasting voor mensen met veel vermogen. Klaver sprak daarover met D66 en het CDA. Volgens Paternotte gaan gewone werkenden er ongeveer €100 op vooruit. Dat is meer dan in het oude plan. Andere partijen hebben kritiek op het plan of op de VVD.",
+      "waarom": "Ook hier ontbrak dat de €100 'ten opzichte van het Belastingplan dat er lag' is; 'miljonairs' vervangen door de neutrale omschrijving uit de titel (L8)."
+    },
+    {
+      "waar": "sprekers Klaver normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "Klaver is blij met de miljonairsbelasting en zegt dat 1 miljard euro bij vermogen wordt opgehaald voor werkende mensen. Hij noemt het amendement een compromis: PRO haalde de maatregelen in box 2 eruit en accepteert dat het basistarief in box 3 met 0,5% omlaaggaat.",
+      "nieuw": "Klaver is blij met de miljonairsbelasting en zegt dat in totaal 1 miljard euro bij vermogen wordt opgehaald voor werkende mensen. Hij noemt het amendement een compromis: PRO haalde de maatregelen in box 2 eruit en accepteert dat het basistarief in box 3 met 0,5% omlaaggaat.",
+      "waarom": "Klaver zegt 'in totaal 1 miljard euro wordt opgehaald bij vermogen'; 'in totaal' hoort erbij omdat een deel nog uit het bredere vermogensdomein moet komen."
+    },
+    {
+      "waar": "sprekers Paternotte normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Volgens Paternotte gaan modale inkomens er volgend jaar ongeveer €100 op vooruit en betalen 68.000 mensen met de grootste vermogens meer. Hij zegt dat de coalitiepartijen elkaar steeds op de hoogte hielden en dat het tweede tarief in box 3 pas vanaf 2029 komt.",
+      "nieuw": "Volgens Paternotte gaan modale inkomens er volgend jaar ongeveer €100 op vooruit ten opzichte van het Belastingplan dat er lag, en betalen 68.000 mensen met de grootste vermogens meer. Hij zegt dat de coalitiepartijen elkaar steeds op de hoogte hielden en dat het tweede tarief in box 3 pas vanaf 2029 komt.",
+      "waarom": "Paternotte: '€100 op vooruitgaan ten opzichte van het Belastingplan dat er lag'; zonder die vergelijking lijkt het een absolute lastenverlichting."
+    },
+    {
+      "waar": "sprekers Paternotte makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Paternotte (D66) zegt: gewone werkenden gaan er ongeveer €100 op vooruit. 68.000 mensen met veel vermogen betalen meer.",
+      "nieuw": "Paternotte (D66) zegt: gewone werkenden gaan er ongeveer €100 op vooruit, tegenover het oude plan. 68.000 mensen met veel vermogen betalen meer.",
+      "waarom": "Zelfde voorwaarde: 'ten opzichte van het Belastingplan dat er lag'."
+    },
+    {
+      "waar": "sprekers Wilders makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "Wilders (PVV) vindt D66 en CDA onbetrouwbaar. Volgens hem gaven ze Klaver de macht. De PVV steunt het plan niet.",
+      "nieuw": "Wilders (PVV) vindt D66 en CDA onbetrouwbaar. Volgens hem gaf D66 Klaver de macht. De PVV steunt het plan niet.",
+      "waarom": "Wilders zegt tegen D66: 'u gaat de heer Klaver de macht geven'; 'ze' koppelde dat ook aan het CDA."
+    },
+    {
+      "waar": "sprekers Schenk makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Schenk (FVD) zegt: een werkende krijgt maar zo'n €8 per maand. Hij vreest dat ondernemers geraakt worden.",
+      "nieuw": "Schenk (FVD) zegt: een werkende betaalt maar zo'n €8 per maand minder. Volgens hem raakt het plan ondernemers.",
+      "waarom": "Schenk: '€8 minder per maand dat aan belasting betaald zal moeten worden' (niet 'krijgt') en 'raakt het wel ondernemers' (geen 'vreest')."
+    },
+    {
+      "waar": "sprekers Struijs normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L1",
+      "oud": "Struijs steunt het verzoek van DENK niet. Hij vraagt of 900.000 mensen met alleen AOW, meestal weduwen, iets van het amendement merken; volgens een berekening van 50PLUS niet. Klaver kent die berekening niet.",
+      "nieuw": "Struijs steunt het verzoek van DENK niet. Hij vraagt of 900.000 mensen met alleen AOW, meestal weduwen, iets van het amendement merken; volgens een berekening die 50PLUS liet maken niet, maar misschien klopt die berekening niet. Klaver kent die berekening niet.",
+      "waarom": "Struijs zegt 'wij denken' en 'maar misschien klopt de berekening niet'; dat voorbehoud viel weg."
+    },
+    {
+      "waar": "sprekers Teunissen normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L5",
+      "oud": "Volgens Teunissen gaat de deal over nog geen 0,3% van de begroting, \"een fooi\", en zet de VVD daarvoor het kabinet op het spel. Ze vraagt D66 te kiezen voor partijen die wél constructief zijn.",
+      "nieuw": "Teunissen steunt het verzoek van DENK. Volgens haar gaat de deal over nog geen 0,3% van de begroting, \"een fooi\", en zet de VVD daarvoor het kabinet op het spel. Ze vraagt of D66 niet beter kan samenwerken met partijen die wél constructief zijn.",
+      "waarom": "Teunissen stelt een vraag ('Kan de heer Paternotte niet veel beter zijn pijlen richten op …?'), geen verzoek; ook haar 'Steun' voor DENK ontbrak."
+    },
+    {
+      "waar": "sprekers Eerdmans normaal",
+      "soort": "evenwicht",
+      "ernst": "klein",
+      "les": "L9",
+      "oud": "Volgens Eerdmans gaat D66 steeds naar links en staat een nieuw toptarief haaks op het coalitieakkoord. Hij noemt het ongekend dat de VVD pas vlak voor de persconferentie werd ingelicht.",
+      "nieuw": "Eerdmans vindt het niet nodig om de minister van Defensie uit te nodigen. Volgens hem gaat D66 steeds naar links en staat een nieuw toptarief haaks op het coalitieakkoord. Hij noemt het ongekend dat de VVD pas vlak voor de persconferentie werd ingelicht.",
+      "waarom": "Eerdmans' 'Niet nodig' over het verzoek van DENK ontbrak, terwijl dat bij de andere fracties wel staat."
+    },
+    {
+      "waar": "kernpunten normaal 4",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Volgens Paternotte betalen kleine spaarders en beleggers minder en gaan modale inkomens er volgend jaar ongeveer €100 op vooruit.",
+      "nieuw": "Volgens Paternotte betalen kleine spaarders en beleggers minder en gaan modale inkomens er volgend jaar ongeveer €100 op vooruit ten opzichte van het Belastingplan dat er lag.",
+      "waarom": "'ten opzichte van het Belastingplan dat er lag' hoort bij de €100."
+    },
+    {
+      "waar": "kernpunten makkelijk 2",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L1",
+      "oud": "PRO steunt het Belastingplan als het voorstel van PRO en Volt doorgaat.",
+      "nieuw": "PRO kan het Belastingplan steunen als het voorstel van PRO en Volt doorgaat.",
+      "waarom": "Klaver: 'het Belastingplan zouden kunnen steunen'; 'steunt' was te stellig en anders dan normaal (L10)."
+    },
+    {
+      "waar": "kernpunten makkelijk 4",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Volgens Paternotte gaan gewone werkenden er volgend jaar ongeveer €100 op vooruit.",
+      "nieuw": "Volgens Paternotte gaan gewone werkenden er volgend jaar ongeveer €100 op vooruit, tegenover het oude plan.",
+      "waarom": "'ten opzichte van het Belastingplan dat er lag' hoort bij de €100."
+    },
+    {
+      "waar": "kernpunten makkelijk 5",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "Klaver haalde de plannen voor box 2 uit het voorstel.",
+      "nieuw": "Klaver haalde de plannen voor box 2 uit het voorstel. De regel voor familiebedrijven is er ook uit. Het gewone tarief in box 3 gaat volgens Klaver iets omlaag.",
+      "waarom": "De normale versie noemt ook de doorschuifregeling en het lagere basistarief in box 3; de makkelijke versie niet."
+    },
+    {
+      "waar": "kernpunten makkelijk 6",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L6",
+      "oud": "Volgens Schenk is ruim 400 miljoen nog niet betaald. Klaver zegt: dat komt dit voorjaar.",
+      "nieuw": "Volgens Schenk is voor ruim 400 miljoen nog geen dekking gevonden. Klaver zegt: dat komt dit voorjaar.",
+      "waarom": "'ongedekt' betekent dat nog niet bekend is waar het geld vandaan komt, niet dat het 'niet betaald' is."
+    },
+    {
+      "waar": "kernpunten makkelijk 7",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L4",
+      "oud": "Markuszower zegt: dit kan niet. Paternotte zegt: het begint pas in 2029, en dan kan het.",
+      "nieuw": "Markuszower zegt: volgens de staatssecretaris kan dit niet. Paternotte zegt: het begint pas in 2029, en dan kan het.",
+      "waarom": "Markuszower beroept zich op de staatssecretaris ('zegt in een Kamerbrief dat dat niet kan'), zoals de normale versie ook zegt."
+    },
+    {
+      "waar": "woorden miljonairsbelasting",
+      "soort": "neutraliteit",
+      "ernst": "klein",
+      "les": "L12",
+      "oud": "In dit debat: een extra tarief in box 3. Volgens Paternotte betalen mensen met meer dan €60.000 winst op vermogen 2,5% meer belasting over die winst.",
+      "nieuw": "In dit debat: zo noemt Klaver (PRO) het extra tarief in box 3 uit het amendement; Vermeer (BBB) noemt die naam 'framen'. Volgens Paternotte betalen mensen met meer dan €60.000 winst op vermogen 2,5% meer belasting over die winst.",
+      "waarom": "De naam komt van Klaver ('dat is de miljonairsbelasting'); Vermeer noemt het 'framet als een miljonairsbelasting'."
+    },
+    {
+      "waar": "vak 5 normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Wat Wilders schetst, is echt totale onzin. Modale inkomens gaan er volgend jaar ongeveer €100 op vooruit.",
+      "nieuw": "Wilders schetst totale onzin. Modale inkomens gaan er volgend jaar ongeveer €100 op vooruit tegenover het oude plan.",
+      "waarom": "Het citaat zegt '€100 op vooruitgaan ten opzichte van het Belastingplan dat er lag'."
+    },
+    {
+      "waar": "vak 5 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Wat Wilders zegt, is onzin. Gewone werkenden krijgen volgend jaar ongeveer €100 meer.",
+      "nieuw": "Wilders zegt onzin. Gewone inkomens krijgen volgend jaar ongeveer €100 meer dan eerst gepland.",
+      "waarom": "Zelfde voorwaarde 'ten opzichte van het Belastingplan dat er lag'; 'modaal inkomen' is preciezer dan 'gewone werkenden'."
+    },
+    {
+      "waar": "strip (evenwicht)",
+      "soort": "evenwicht",
+      "ernst": "klein",
+      "les": "nieuw",
+      "oud": "BBB (6%), JA21 (4%) en ChristenUnie (4%) hebben geen vak",
+      "nieuw": "niet gewijzigd",
+      "waarom": "De strip heeft al 8 vakken; de kritiek op het amendement staat bij FVD ('€8'), PVV en Groep Markuszower, en BBB, JA21 en ChristenUnie staan met hun eigen punten in 'Wie vindt wat?'."
+    }
+  ]
+}
