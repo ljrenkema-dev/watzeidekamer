@@ -185,5 +185,146 @@
       "nieuw": "Ik wilde het stikstofplan niet fors veranderen. Het kiest volgens mij het goede midden.",
       "waarom": "Citaat: \"precies het goede midden heeft bewandeld\"; \"het plan is goed\" is een ander, breder oordeel."
     }
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "onafhankelijk": true,
+    "bevindingen": [
+      {
+        "waar": "samenvatting normaal",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L3",
+        "oud": "Met JA21, SGP en BBB lukte dat volgens hem niet",
+        "nieuw": "Met JA21, SGP en BBB kwam hij er volgens hem inhoudelijk niet uit",
+        "waarom": "Zelfde punt als de grote fout die de eerste lezing in het standpunt herstelde: Bontenbal zegt \"we kwamen er inhoudelijk niet uit\" en \"het is dus niet zo dat het niet over rechts had gekund\"; de samenvatting bleef \"lukte niet\" zeggen."
+      },
+      {
+        "waar": "kernpunt 3 makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L10",
+        "oud": "Met rechtse partijen lukte een afspraak volgens hem niet.",
+        "nieuw": "Met rechtse partijen kwam hij er volgens hem inhoudelijk niet uit. Volgens BBB en JA21 kon een rechtse meerderheid wel.",
+        "waarom": "Zelfde punt (\"inhoudelijk\"); en normaal noemt het tegenargument van BBB en JA21 (\"had wel geleid tot een zekere meerderheid\"), makkelijk niet (L9)."
+      },
+      {
+        "waar": "kernpunt 2 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Werk wordt minder belast. Grote vermogens betalen iets meer.",
+        "nieuw": "… Volgens Bontenbal gaan bijna alle spaarders erop vooruit.",
+        "waarom": "Normaal noemt \"97% … gaat er iets op vooruit\"; makkelijk liet dat punt weg."
+      },
+      {
+        "waar": "standpunt Markuszower makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L1",
+        "oud": "Volgens hem kan de Belastingdienst het plan niet aan.",
+        "nieuw": "Volgens hem zeggen minister en staatssecretaris: de Belastingdienst kan het plan niet aan.",
+        "waarom": "Markuszower: \"Dat zeg ik niet; dat zeggen de minister van Financiën en de staatssecretaris van Financiën\" — de bron van de bewering viel weg, normaal heeft hem wel."
+      },
+      {
+        "waar": "standpunt Bontenbal makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Met PRO en Volt wel. Hij zegt: …",
+        "nieuw": "Met PRO en Volt wel. Familiebedrijven raakt het plan volgens hem niet. Hij zegt: …",
+        "waarom": "Normaal noemt \"raakt familiebedrijven niet meer\" (citaat: \"zonder dat dit familiebedrijven raakt\"); makkelijk niet."
+      },
+      {
+        "waar": "standpunt Vermeer normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "(stikstof ontbrak)",
+        "nieuw": "Over stikstof vraagt hij waarop Bontenbal baseert dat het toekomstperspectief voor boeren geregeld is; volgens Vermeer is meer dan de helft van de agrarische sector nooit gevraagd om aan tafel te komen. / Hij vraagt waarom Bontenbal denkt dat boeren met het stikstofplan toekomst hebben.",
+        "waarom": "Stikstof was volgens Bontenbal het struikelpunt met BBB; Vermeers eigen argument (\"Waar baseert de heer Bontenbal dat op?\", \"meer dan de helft van de agrarische sector nooit is gevraagd\") ontbrak."
+      },
+      {
+        "waar": "standpunt Stoffer normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "Volgens hem waren SGP en JA21 met de minister van Financiën een heel eind op weg.",
+        "nieuw": "… een heel eind op weg, en was die route voor ondernemers en gewone mensen beter geweest. / Volgens hem was dat beter voor ondernemers en gewone mensen.",
+        "waarom": "Stoffers sterkste argument: \"Dat was voor ondernemers namelijk echt stukken beter geweest … Voor gewone mensen was dat ook beter geweest.\""
+      },
+      {
+        "waar": "standpunt Dijk normaal en makkelijk",
+        "soort": "evenwicht",
+        "ernst": "klein",
+        "les": "L9",
+        "oud": "Dijk vraagt of iets in het coalitieakkoord botst …",
+        "nieuw": "Dijk noemt het terecht dat volgens bijna alle economen de belasting op arbeid omlaag moet en die op vermogen omhoog. Hij vraagt … / Volgens Dijk (SP) vinden bijna alle economen: minder belasting op werk, meer op vermogen.",
+        "waarom": "Dijk: \"zei net heel terecht dat bijna alle economen stellen dat het noodzakelijk is dat je de belasting op arbeid verlaagt en die op vermogen vergroot\" — zijn eigen inhoudelijke standpunt ontbrak."
+      },
+      {
+        "waar": "woorden omslagpunt",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L12",
+        "oud": "Volgens Bontenbal ligt dat bij 1,23 miljoen euro. Hij gebruikt het woord ook voor het tarief van ongeveer 38,9% waarboven mensen vermogen van box 3 naar box 2 kunnen brengen.",
+        "nieuw": "Volgens Bontenbal ligt dat bij 1,23 miljoen euro, als je 6% rendement maakt. Hij gebruikt het woord ook voor het tarief waarbij mensen hun vermogen van box 3 naar box 2 kunnen gaan brengen; dat ligt volgens hem rond de 38,9%.",
+        "waarom": "Bontenbal: \"1,23 miljoen in aandelen … 6% rendement … Dat is het omslagpunt\" (de voorwaarde viel weg, L2); en \"Ik meen dat het ergens rond de 38,9% ligt\" — het voorbehoud uit de toevoeging van de eerste lezing hoort erbij (L1)."
+      },
+      {
+        "waar": "vak 1 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Afspraak met PRO en Volt: minder belasting op werk, meer op vermogen.",
+        "nieuw": "Afspraak met PRO en Volt: werk minder belast, vermogen meer. Familiebedrijven niet geraakt.",
+        "waarom": "Citaat: \"zonder dat dit familiebedrijven raakt\"; normaal noemt dat, makkelijk (ook na de eerste lezing) niet."
+      },
+      {
+        "waar": "vak 3 makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L6",
+        "oud": "We vroegen het na: het kan vanaf 2029. Grote vermogens zijn minder dan 3%.",
+        "nieuw": "Nagevraagd: het kan vanaf 2029. Minder dan 3% heeft een groot vermogen.",
+        "waarom": "De tekst van de eerste lezing zegt dat vermogens een percentage zijn; citaat: \"de mensen met die grote vermogens vormen minder dan 3%\"."
+      },
+      {
+        "waar": "vak 5 makkelijk",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Partners hoorden onze stappen. Alles vertellen kon niet: er was nog geen afspraak.",
+        "nieuw": "We vertelden partners onze stappen. Alles vertellen kon niet: er was nog geen afspraak.",
+        "waarom": "Actieve vorm, zoals in het citaat: \"hebben wij de coalitiepartners op de hoogte gebracht\"."
+      },
+      {
+        "waar": "vak 7 normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "De brief kiest volgens mij het goede midden.",
+        "nieuw": "De nieuwe brief kiest volgens mij precies het goede midden.",
+        "waarom": "Citaat: \"er net een brief lag die, denk ik, precies het goede midden heeft bewandeld\"; \"net\" en \"precies\" vielen weg."
+      }
+    ],
+    "afgewezen": [],
+    "verbeterd": [
+      {
+        "waar": "vak 3 makkelijk",
+        "waarom": "Wijziging eerste lezing ('Grote vermogens zijn minder dan 3%') was onduidelijk; herschreven."
+      },
+      {
+        "waar": "vak 5 makkelijk",
+        "waarom": "Wijziging eerste lezing in lijdende vorm ('Partners hoorden'); actief gemaakt."
+      },
+      {
+        "waar": "woorden omslagpunt",
+        "waarom": "Toevoeging eerste lezing liet 'ik meen' weg; voorbehoud terug."
+      }
+    ],
+    "niet_opgelost": [
+      "De strip eindigt met de vraag van Eerdmans of Bontenbal zeker weet dat er een meerderheid is; het antwoord ('We gaan het vanavond zien') staat in kernpunt 5, niet in een vak (al 8 vakken, CDA heeft er 4)."
+    ]
+  }
 }

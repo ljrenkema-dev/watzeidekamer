@@ -1,0 +1,181 @@
+{
+  "agendapunt": "68113dc2-493d-417a-bf57-03a95fb4ca97-d4",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
+  "datum": "2026-11-13",
+  "oordeel": "aangepast",
+  "onafhankelijk": true,
+  "bevindingen": [
+    {
+      "waar": "kernpunt 1 normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L6, L1",
+      "oud": "het kabinet ... hoorde dat er overeenstemming was / het kabinet hoorde ongeveer een uur van tevoren van de deal",
+      "nieuw": "hij en de twee vicepremiers 'ongeveer een uur, denk ik' ... 'zeker niet het hele kabinet' / ik en de vicepremiers hoorden ...",
+      "waarom": "Jetten zegt in [0] en [5] dat hij en de twee vicepremiers het hoorden, 'zeker niet het hele kabinet', en 'denk ik' bij het uur viel weg."
+    },
+    {
+      "waar": "kernpunt 2 normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "Wilders, Keijzer, Schenk en Markuszower vragen wat de premier zelf deed om de crisis te voorkomen",
+      "nieuw": "Wilders, Keijzer en Schenk vragen wat de premier zelf deed om deze situatie te voorkomen",
+      "waarom": "Markuszower vroeg 'wanneer wist de premier' en hoe het verder moet, niet wat hij deed; Wilders sprak van 'ellende', niet van crisis."
+    },
+    {
+      "waar": "kernpunt 8 normaal en makkelijk; standpunt Eerenberg normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L6",
+      "oud": "Op een vraag van Eerdmans (JA21) ... antwoordt Eerenberg vóór de stemmingen / wil hij zorgvuldig en vóór de stemmingen antwoorden",
+      "nieuw": "Eerenberg stemt in met een schriftelijk antwoord vóór de stemmingen / ... vóór de stemmingen op papier",
+      "waarom": "Op tijdstip gelezen volgt [238] 'Laten we het zo doen' (18:01:37) op de vraag van de voorzitter 'Kunt u dat schriftelijk voor de stemmingen toezeggen?' (18:01:35); [237] (18:02:59) staat verkeerd in de bron. Het antwoord is toegezegd, nog niet gegeven, en is schriftelijk."
+    },
+    {
+      "waar": "standpunt Eerenberg normaal",
+      "soort": "evenwicht",
+      "ernst": "klein",
+      "les": "L9",
+      "oud": "(ontbrak)",
+      "nieuw": "Over andere contacten doet hij geen uitspraken; volgens hem trekt Markuszower conclusies die niet aan zijn woorden te verbinden zijn.",
+      "waarom": "Zijn reactie op de kern van de kritiek hoort erbij: 'dat ik daar geen uitspraken over doe' en 'conclusies ... die daar wat mij betreft niet aan te verbinden zijn'."
+    },
+    {
+      "waar": "kernpunt 7 normaal en makkelijk; samenvatting normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Jetten zegt een brief toe.",
+      "nieuw": "Jetten zegt een brief toe, maar die zal volgens hem 'niet iets anders zijn' dan wat hij mondeling zei.",
+      "waarom": "Jetten: 'Ik wil het best nog een keer op schrift zetten ... maar dat zal dus niet iets anders zijn dan wat ik net al heb toegelicht.'"
+    },
+    {
+      "waar": "samenvatting makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L4",
+      "oud": "Die brief komt.",
+      "nieuw": "Jetten zegt die brief toe.",
+      "waarom": "Het is een toezegging van Jetten, geen vaststaand feit."
+    },
+    {
+      "waar": "samenvatting normaal",
+      "soort": "evenwicht",
+      "ernst": "klein",
+      "les": "L9",
+      "oud": "op vragen van onder anderen Wilders (PVV), ...",
+      "nieuw": "op vragen van onder anderen Stoffer (SGP), Wilders (PVV), ...",
+      "waarom": "Stoffer heeft een vak en stelde de vraag over het gerucht waar Jetten op antwoordt, maar ontbrak in het rijtje."
+    },
+    {
+      "waar": "vak 5 citaat en tekst, beide niveaus",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Dat gebeurt regelmatig / Er zijn wel technische checkvragen gesteld; dat gebeurt regelmatig.",
+      "nieuw": "citaat verlengd met 'maar daar wordt niet alleen door het Bureau Wetgeving, maar ook door ambtelijke ondersteuning op de departementen antwoord op gegeven.' / Technische checkvragen beantwoorden Bureau Wetgeving en ambtenaren op de departementen.",
+      "waarom": "De 'maar' direct na de kern zegt wie de vragen beantwoordt; zonder die nuance lijkt het alsof het kabinet ze beantwoordde."
+    },
+    {
+      "waar": "vak 1 makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2",
+      "oud": "Uw kabinet staat op springen.",
+      "nieuw": "Staat uw kabinet op springen?",
+      "waarom": "Wilders zegt 'Als uw kabinet op springen staat'; de voorwaarde werd een stelling."
+    },
+    {
+      "waar": "vak 3 normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L4",
+      "oud": "De deal werd op de ochtend van 11 november gemaakt.",
+      "nieuw": "We weten inmiddels: op de ochtend van 11 november is een deal gemaakt.",
+      "waarom": "Keijzer brengt het als 'We weten inmiddels dat ...'; die inleiding houdt het als haar bewering herkenbaar."
+    },
+    {
+      "waar": "standpunt Markuszower makkelijk",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L3",
+      "oud": "Hij vertrouwt Eerenberg niet.",
+      "nieuw": "Hij denkt dat hij van Eerenberg geen eerlijk antwoord krijgt.",
+      "waarom": "Citaat: 'ik vertrouw er gewoon niet op dat ik een eerlijk antwoord krijg'; dat is smaller dan algemeen wantrouwen."
+    },
+    {
+      "waar": "standpunt Markuszower normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "Hij vindt dat Eerenberg 'wegglibbert' van de vragen",
+      "nieuw": "Volgens hem glibbert Eerenberg weg van de vragen en vertrouwt hij er niet op dat hij een eerlijk antwoord krijgt",
+      "waarom": "Het woord tussen aanhalingstekens stond niet zo in de bron ('glibbert weg'); de reden voor de motie ('eerlijk antwoord') is toegevoegd."
+    },
+    {
+      "waar": "standpunt Wilders normaal",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L6",
+      "oud": "om de crisis te voorkomen",
+      "nieuw": "om 'de ellende waar we nu in zitten' te voorkomen en te corrigeren",
+      "waarom": "Wilders gebruikt 'ellende', niet 'crisis'."
+    },
+    {
+      "waar": "standpunt Keijzer normaal",
+      "soort": "juistheid",
+      "ernst": "middel",
+      "les": "L2, L5",
+      "oud": "Ze vindt dat motie 84 (Struijs/Bikker) problemen geeft bij de uitvoering ... en wil dat de Kamer zich uitspreekt over haar motie 85.",
+      "nieuw": "Wordt het amendement van PRO en Volt aangenomen, het amendement-Struijs/Bikker niet en motie 84 wel, dan ontstaat volgens haar een gigantisch probleem ...; ze vindt het goed als de Kamer zich uitspreekt over motie 85.",
+      "waarom": "Keijzer: 'Als dan het amendement-Struijs/Bikker niet wordt aangenomen en deze motie wel'; en 'dan is het denk ik goed dat de Kamer een uitspraak doet'."
+    },
+    {
+      "waar": "standpunt Klaver makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L3",
+      "oud": "Er was overleg met de fractieleiders.",
+      "nieuw": "Er waren onderhandelingen met de fractieleiders.",
+      "waarom": "Klaver: 'Voor de rest hebben we onderhandelingen gehad met de fractievoorzitters'."
+    },
+    {
+      "waar": "standpunt Bikker normaal en makkelijk",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L5, L10",
+      "oud": "Bij de reset moet hij volgens haar ook naar de grote thema's kijken / Ze wil dat het land weer bestuurbaar wordt.",
+      "nieuw": "Ze vraagt hem bij de reset ook naar de grote thema's te kijken / Ze vraagt: hoe besturen we weer op een gedragen manier?",
+      "waarom": "Bikker: 'Ik zou de premier toch willen vragen'; en haar vraag is 'hoe komen we weer tot een gedragen manier van besturen?'."
+    },
+    {
+      "waar": "kernpunt 6 makkelijk",
+      "soort": "taal",
+      "ernst": "klein",
+      "les": "L10",
+      "oud": "(ontbrak)",
+      "nieuw": "Het eerste voorstel ging volgens hem tegen het coalitieakkoord in.",
+      "waarom": "Dit punt stond in normaal maar niet in makkelijk."
+    },
+    {
+      "waar": "woorden: vierde termijn",
+      "soort": "juistheid",
+      "ernst": "klein",
+      "les": "L12",
+      "oud": "om een motie in te dienen",
+      "nieuw": "om een motie van wantrouwen in te dienen",
+      "waarom": "Markuszower: 'een motie van wantrouwen kunnen indienen'."
+    },
+    {
+      "waar": "vakken (evenwicht)",
+      "soort": "evenwicht",
+      "ernst": "klein",
+      "les": "nieuw",
+      "oud": "FVD 6% van de woorden, 0 vakken",
+      "nieuw": "niet gewijzigd",
+      "waarom": "FVD heeft meer spreektijd dan PVV en SGP maar geen vak; de strip heeft al 8 vakken en elk vak draagt een kernmoment (Stoffer stelt de vraag waar Jetten op antwoordt), dus niet opgelost; Schenk staat wel volledig in 'Wie vindt wat?'."
+    }
+  ],
+  "opmerkingen": "Deel en fase gecontroleerd: alle vakken en teksten komen uit dit deel (antwoord van Jetten en Eerenberg, [0]-[242]); de samenvatting noemt aan wie zij antwoorden. Volgorde [236]-[238] op tijdstip gelezen: Eerenberg stemt in met een schriftelijk antwoord vóór de stemmingen. Vierde termijn: voor zijn FVD (Schenk) en BBB (Vermeer); tegen PRO, D66, 50PLUS, Volt, CDA, ChristenUnie, JA21, Keijzer en PVV (Wilders, wel antwoord per brief); VVD (Brekelmans) geeft geen ja of nee; SP en SGP reageren niet; de voorzitter stelt geen uitkomst vast. Dat klopt met de strip."
+}
