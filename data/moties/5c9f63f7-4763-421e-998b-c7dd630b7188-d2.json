@@ -1,0 +1,110 @@
+{
+ "agendapunt": "5c9f63f7-4763-421e-998b-c7dd630b7188-d2",
+ "moties": [
+  {
+   "nummer": "1592",
+   "document": "2026D57776",
+   "id": "c22ee0d9-a82c-4b0e-88b8-d5b9971d07ff",
+   "dossier": "32813",
+   "dossier_titel": "Kabinetsaanpak Klimaatbeleid",
+   "onderwerp": "Motie van het lid Van Oosterhout over inzicht in de stand van zaken van elke deelaanbeveling ",
+   "indieners": [
+    {
+     "naam": "A.S. van Oosterhout",
+     "fractie": "PRO",
+     "rol": "Eerste ondertekenaar"
+    }
+   ],
+   "tekst": "",
+   "oordeel_kabinet": "oordeel Kamer",
+   "uitslag": null,
+   "bron": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(c22ee0d9-a82c-4b0e-88b8-d5b9971d07ff)/resource"
+  },
+  {
+   "nummer": "1593",
+   "document": "2026D57777",
+   "id": "b750b49c-4dc6-4430-a192-259c8d8496ca",
+   "dossier": "32813",
+   "dossier_titel": "Kabinetsaanpak Klimaatbeleid",
+   "onderwerp": "Motie van het lid Van Oosterhout over bij de voorjaarsbesluitvorming de deelaanbevelingen meenemen waarover later wordt besloten ",
+   "indieners": [
+    {
+     "naam": "A.S. van Oosterhout",
+     "fractie": "PRO",
+     "rol": "Eerste ondertekenaar"
+    }
+   ],
+   "tekst": "",
+   "oordeel_kabinet": "oordeel Kamer",
+   "uitslag": null,
+   "bron": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(b750b49c-4dc6-4430-a192-259c8d8496ca)/resource"
+  },
+  {
+   "nummer": "1594",
+   "document": "2026D57778",
+   "id": "8812cf3a-d54e-4d6e-9a19-e931e152f496",
+   "dossier": "32813",
+   "dossier_titel": "Kabinetsaanpak Klimaatbeleid",
+   "onderwerp": "Motie van de leden Teunissen en Klos over per productcategorie uitwerken welke langere garantie- en reparatieverplichtingen haalbaar zijn ",
+   "indieners": [
+    {
+     "naam": "C. Teunissen",
+     "fractie": "PvdD",
+     "rol": "Eerste ondertekenaar"
+    },
+    {
+     "naam": "F.C.O. Klos",
+     "fractie": "D66",
+     "rol": "Mede ondertekenaar"
+    }
+   ],
+   "tekst": "",
+   "oordeel_kabinet": "oordeel Kamer",
+   "uitslag": null,
+   "bron": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(8812cf3a-d54e-4d6e-9a19-e931e152f496)/resource"
+  },
+  {
+   "nummer": "1595",
+   "document": "2026D57779",
+   "id": "5869ca4d-9817-42a4-adfe-c228a5128062",
+   "dossier": "32813",
+   "dossier_titel": "Kabinetsaanpak Klimaatbeleid",
+   "onderwerp": "Motie van de leden Teunissen en Van Oosterhout over binnen zes maanden komen met een tijdpad voor beter openbaar vervoer en een structureel dalurenticket ",
+   "indieners": [
+    {
+     "naam": "C. Teunissen",
+     "fractie": "PvdD",
+     "rol": "Eerste ondertekenaar"
+    },
+    {
+     "naam": "A.S. van Oosterhout",
+     "fractie": "PRO",
+     "rol": "Mede ondertekenaar"
+    }
+   ],
+   "tekst": "",
+   "oordeel_kabinet": "oordeel Kamer",
+   "uitslag": null,
+   "bron": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(5869ca4d-9817-42a4-adfe-c228a5128062)/resource"
+  },
+  {
+   "nummer": "1596",
+   "document": "2026D57780",
+   "id": "ff2401d1-0de2-431d-a15b-2b86929782c0",
+   "dossier": "32813",
+   "dossier_titel": "Kabinetsaanpak Klimaatbeleid",
+   "onderwerp": "Motie van het lid Kops over de adviezen naar de prullenbak verwijzen en nooit meer een klimaatberaad organiseren ",
+   "indieners": [
+    {
+     "naam": "A. Kops",
+     "fractie": "PVV",
+     "rol": "Eerste ondertekenaar"
+    }
+   ],
+   "tekst": "",
+   "oordeel_kabinet": "ontraden",
+   "uitslag": null,
+   "bron": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(ff2401d1-0de2-431d-a15b-2b86929782c0)/resource"
+  }
+ ]
+}

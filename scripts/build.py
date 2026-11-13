@@ -220,6 +220,41 @@ def video_knop(punt, i):
             f'aria-label="Bekijk dit moment in Debat Direct (opent in een nieuw venster)">▶ video</a>') if url else ""
 
 
+def moties_blok(punt):
+    """Moties die in dit debat genoemd werden: indieners, wat ze vragen, oordeel kabinet en (als bekend) de uitslag."""
+    import re as _re
+    f = ROOT / "data" / "moties" / f"{punt['id']}.json"
+    if not f.exists():
+        return ""
+    ms = json.loads(f.read_text()).get("moties") or []
+    if not ms:
+        return ""
+    items = []
+    for m in ms:
+        wie = ", ".join(f'{i["naam"]} ({i["fractie"]})' if i.get("fractie") else i["naam"] for i in m["indieners"]) or "onbekend"
+        over = _re.sub(r"^Motie van (?:het lid|de leden) .*? over ", "", m.get("onderwerp") or "")
+        verzoek = ""
+        t = m.get("tekst") or ""
+        k = t.find("verzoekt de regering")
+        if k >= 0:
+            verzoek = " ".join(t[k:].replace("en gaat over tot de orde van de dag.", "").split()).rstrip(",")
+        oordeel = f'<span class="tag">kabinet: {e(m["oordeel_kabinet"])}</span>' if m.get("oordeel_kabinet") else ""
+        u = m.get("uitslag")
+        uit = ""
+        if u:
+            uit = (f'<p class="uitslag"><b>{e(u["besluit"].rstrip("."))}</b> met {u["zetels_voor"]} zetels voor en {u["zetels_tegen"]} tegen. '
+                   f'Voor: {e(", ".join(u["voor"]))}. Tegen: {e(", ".join(u["tegen"]))}.</p>')
+        else:
+            uit = '<p class="note">Nog niet over gestemd, of de uitslag is nog niet bekend.</p>'
+        items.append(f'<li class="motie"><div class="meta"><b>Motie {e(m["nummer"])}</b> {oordeel}</div>'
+                     f'<p>{e(wie)}: {e(over)}</p>'
+                     + (f'<details><summary>Wat vraagt de motie?</summary><p>“{e(verzoek)}”</p><p class="note">'
+                        f'<a href="{e(m["bron"])}">Lees de hele motie</a> (Kamerstuk {e(m["dossier"])}, nr. {e(m["nummer"])})</p></details>' if verzoek else "")
+                     + uit + "</li>")
+    return (f'<h2>Moties</h2><p class="note">In dit debat genoemde moties, uit de open data van de Tweede Kamer. '
+            f'Het oordeel van het kabinet komt uit het verslag.</p><ul class="list moties">{"".join(items)}</ul>')
+
+
 def verslag_pagina(punt, strip):
     """Leesbare weergave van alle spreekbeurten van dit agendapunt (of deel), met een anker per beurt.
     De tekst komt ongewijzigd uit het verslag; onderaan de link naar de officiële bron."""
@@ -478,6 +513,7 @@ def debat(punt, strip):
 <h2>Standpunten per partij</h2>
 <p class="note">{aantal_partijen} {"partij" if aantal_partijen == 1 else "partijen"}{" en het kabinet" if heeft_kabinet else ""} in dit debat. Niet elke partij staat in de strip; hier staan ze allemaal.</p>
 <div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{standpunten}</tbody></table></div>
+{moties_blok(punt)}
 <h2>Belangrijk om te weten</h2>{kern}
 {'<h2>Moeilijke woorden</h2><div class="words">' + woorden + '</div>' if woorden else ''}
 {redactie_regel(punt, strip)}<p class="note">De strip laat alleen zien wat in het verslag staat. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a>, of bekijk het <a href="{e(bron)}">officiële verslag van de Tweede Kamer</a> (XML).</p>

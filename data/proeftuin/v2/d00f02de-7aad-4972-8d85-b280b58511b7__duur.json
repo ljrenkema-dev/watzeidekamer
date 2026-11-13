@@ -3,12 +3,12 @@
   "verslag_id": "03bc3bab-ac36-4ed9-a9eb-bc19f1551b97",
   "_opzet": "duur",
   "titel": {
-    "normaal": "Kort debat over de Sahel: desinformatie en de rol van religie",
-    "makkelijk": "Kort debat over de Sahel: desinformatie en religie"
+    "normaal": "Russische desinformatie in de Sahel? Minister noemt aanwijzingen, CDA wijst op religie",
+    "makkelijk": "Russische desinformatie in de Sahel? En de rol van religie"
   },
   "samenvatting": {
     "normaal": "In een tweeminutendebat over de Sahelregio op 11 november 2026 dienden PVV, CDA en SGP in totaal vier moties in. De Roon (PVV) wachtte nog op de toegezegde toelichting over de aanwijzingen voor desinformatie vanuit de Sahel richting Europa. Van Ark (CDA) vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen: religieuze leiders zijn volgens haar een soort influencers, maar religie kan ook een bron van desinformatie zijn. Zij roept de minister op opnieuw met aanbevelingen te komen. Minister Berendsen zei dat de diensten aanwijzingen zien dat desinformatie in de Sahel deel is van een bredere Russische campagne, en wees op een programma van 40 miljoen voor lokale onafhankelijke journalistiek. Hij ontraadde de moties 274 en 275 en liet het oordeel over de moties 276 en 277 aan de Kamer.",
-    "makkelijk": "Op 11 november 2026 was er een kort debat over de Sahel. De PVV wacht nog op uitleg over desinformatie uit de Sahel. Het CDA vraagt de minister om nieuwe aanbevelingen over religie. De minister zegt: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. De minister ontraadt twee moties en laat twee moties aan de Kamer over."
+    "makkelijk": "Op 11 november 2026 was er een kort debat over de Sahel. De PVV wacht nog op uitleg over aanwijzingen voor desinformatie uit de Sahel. Het CDA vraagt de minister om nieuwe aanbevelingen over religie. De minister zegt: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. De minister ontraadt twee moties en laat twee moties aan de Kamer over."
   },
   "sprekers": [
     {
@@ -22,7 +22,7 @@
       "id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
       "standpunt": {
         "normaal": "Van Ark (CDA) vindt dat je voor effectief buitenlandbeleid de rol van religie goed moet begrijpen. Religieuze leiders zijn volgens haar een soort influencers, zoals bij ebola bleek, maar religie kan ook een bron van desinformatie zijn en worden gebruikt om geweld te legitimeren; ze roept de minister op opnieuw met aanbevelingen te komen.",
-        "makkelijk": "Van Ark (CDA) zegt: religieuze leiders zijn een soort influencers. Maar religie kan ook een bron van desinformatie zijn. Ze vraagt de minister om nieuwe aanbevelingen."
+        "makkelijk": "Van Ark (CDA) zegt: religieuze leiders zijn een soort influencers. Maar religie kan ook een bron van desinformatie zijn, en geweld goedpraten. Ze vraagt de minister om nieuwe aanbevelingen."
       }
     },
     {
@@ -36,7 +36,7 @@
       "id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
       "standpunt": {
         "normaal": "Minister Berendsen zegt dat de diensten aanwijzingen zien dat desinformatie in de Sahel deel is van een bredere Russische campagne om de regio te beïnvloeden en ook de zuidflank van Europa te destabiliseren; daarom startte het kabinet in oktober 2026 een programma van 40 miljoen voor lokale onafhankelijke journalistiek. Motie 274 ontraadt hij omdat Nederland gelooft dat engagement onze belangen het best dient; ook motie 275 ontraadt hij, en omdat Nederland nationaal iets minder gaat doen, vindt hij het goed dat de EU daar aanwezig is en de inzet zo doorgaat. De moties 276 en 277 geeft hij oordeel Kamer.",
-        "makkelijk": "Minister Berendsen zegt: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. Die campagne wil ook de zuidkant van Europa ontwrichten. Het kabinet geeft 40 miljoen voor lokale onafhankelijke journalistiek. Hij ontraadt twee moties. Nederland gaat zelf iets minder doen. Daarom is het goed dat de EU er is. Over twee moties laat hij de Kamer kiezen."
+        "makkelijk": "Minister Berendsen zegt: diensten zien aanwijzingen voor Russische desinformatie in de Sahel. Die campagne wil ook de zuidkant van Europa ontwrichten. Het kabinet geeft 40 miljoen voor lokale onafhankelijke journalistiek. Hij ontraadt twee moties. Nederland gaat zelf iets minder doen. Daarom is het goed dat de EU er is. Zo gaat de inzet door. Over twee moties laat hij de Kamer kiezen."
       }
     }
   ],
@@ -50,10 +50,10 @@
       "De minister ontraadt de moties 274 en 275 en geeft de moties 276 en 277 oordeel Kamer. Omdat Nederland nationaal iets minder gaat doen, vindt hij het goed dat de EU daar aanwezig is en de inzet zo doorgaat."
     ],
     "makkelijk": [
-      "De PVV wacht op uitleg van de minister over desinformatie uit de Sahel.",
+      "De PVV wacht op uitleg van de minister over aanwijzingen voor desinformatie uit de Sahel.",
       "De minister zegt: diensten zien aanwijzingen voor een Russische campagne met desinformatie in de Sahel. Die wil ook de zuidkant van Europa ontwrichten.",
       "Volgens de minister startte het kabinet in oktober een programma van 40 miljoen. Dat moet lokale onafhankelijke journalistiek sterker maken.",
-      "Het CDA zegt: religieuze leiders zijn een soort influencers. Bij ebola lieten ze zich vaccineren. Zo overtuigden ze anderen. Maar religie kan ook een bron van desinformatie zijn.",
+      "Het CDA zegt: religieuze leiders zijn een soort influencers. Bij ebola lieten ze zich vaccineren. Zo overtuigden ze anderen. Maar religie kan ook een bron van desinformatie zijn, en geweld goedpraten.",
       "Het CDA wijst op een brief uit 2018 over kennis van religie. Het CDA vraagt de minister om nieuwe aanbevelingen.",
       "De minister ontraadt de moties 274 en 275. Over de moties 276 en 277 laat hij de Kamer kiezen. Nederland gaat zelf iets minder doen. Daarom vindt hij het goed dat de EU er is. Zo gaat de inzet door."
     ]
@@ -124,8 +124,8 @@
       "emotie": "vastberaden",
       "citaat": "maar religie kan ook een bron zijn van desinformatie en worden gebruikt om geweld te legitimeren. … In tijden van toenemende conflicten verandert de rol van religie. Mijn fractie roept de minister daarom op om opnieuw met aanbevelingen te komen.",
       "tekst": {
-        "normaal": "Religie kan ook bron van desinformatie zijn. Bij toenemende conflicten verandert haar rol. Wij vragen nieuwe aanbevelingen.",
-        "makkelijk": "Religie kan ook desinformatie verspreiden. Bij conflicten verandert haar rol. Wij vragen nieuwe aanbevelingen."
+        "normaal": "Religie kan ook bron van desinformatie zijn en gebruikt worden om geweld te legitimeren. Wij vragen nieuwe aanbevelingen.",
+        "makkelijk": "Religie kan ook bron van desinformatie zijn, en geweld goedpraten. Wij vragen nieuwe aanbevelingen."
       }
     },
     {
@@ -160,8 +160,8 @@
       "emotie": "neutraal",
       "citaat": "De motie op stuk nr. 275 ontraden we ook. En in aanvulling op wat ik net zei: omdat we nationaal iets minder gaan doen, is het goed dat de EU daar aanwezig is en we dus zo de inzet blijven voortzetten.",
       "tekst": {
-        "normaal": "Ook motie 275 ontraden we. Nationaal doen we iets minder; via de EU zetten we de inzet voort.",
-        "makkelijk": "Ik ontraad motie 275. We doen iets minder. De EU zet het werk voort."
+        "normaal": "Motie 275 ontraden we. Nationaal gaan we iets minder doen; via de EU zetten we de inzet voort.",
+        "makkelijk": "Ik ontraad motie 275. Nederland doet iets minder. Via de EU gaan we door."
       }
     },
     {

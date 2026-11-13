@@ -151,3 +151,4 @@ html[data-taal="makkelijk"] .lv-n{display:none}
 table.standpunten tr.onderwerp th{background:#f3f1ea;font-size:15px;padding-top:10px}
 .onderwerp-kop{font-size:1.05rem;margin:12px 0 4px}
 .summary p{margin:.3em 0}.summary ul.points{margin:.4em 0}
+.moties .motie p{margin:.3em 0}.moties .uitslag{font-size:15px}.moties details summary{cursor:pointer;font-weight:700}

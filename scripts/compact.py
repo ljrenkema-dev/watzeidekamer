@@ -23,8 +23,17 @@ def compact(pid):
         sprekers[sp["id"]] = f"{sp.get('naam') or sp['verslagnaam']} ({sp['fractie'] or sp.get('functie', '')})"
         rol = "VOORZITTER" if b.get("voorzitter") else ("INTERRUPTIE" if b["rol"] == "interrumpant" else "")
         regels.append(f"\n[{i}] {sp['verslagnaam']} | {sp['fractie'] or sp.get('functie', '')} | id {sp['id']}{' | ' + rol if rol else ''}\n{b['tekst']}")
+    mf = ROOT / "data" / "moties" / f"{pid}.json"
+    moties = json.loads(mf.read_text()).get("moties", []) if mf.exists() else []
     kop.append("SPREKERS: " + "; ".join(f"{n} id {i}" for i, n in sprekers.items()))
-    return "\n".join(kop + regels)
+    extra = []
+    if moties:
+        extra.append("\n\nMOTIES (uit de open data; NIET citeren in de strip, wel gebruiken voor samenvatting, kernpunten en standpunten):")
+        for m in moties:
+            wie = ", ".join(f"{i['naam']} ({i.get('fractie') or ''})" for i in m["indieners"])
+            extra.append(f"- Motie {m['nummer']} van {wie} | oordeel kabinet: {m.get('oordeel_kabinet') or 'onbekend'}"
+                         f" | uitslag: {(m.get('uitslag') or {}).get('besluit', 'nog niet bekend')}\n  {m['tekst']}")
+    return "\n".join(kop + regels + extra)
 
 
 if __name__ == "__main__":

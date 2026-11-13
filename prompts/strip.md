@@ -26,6 +26,12 @@ Bij een vragenuur, mondelinge vragen of een debat waarin achter elkaar losse ond
 - **Strip**: kies één onderwerp en belicht het van beide kanten: de vraag, het antwoord van de bewindspersoon en de vervolgvragen of tegenwerpingen van andere partijen. Zet in `strip_onderwerp` het nummer van dat onderwerp (vanaf 0). Kies het onderwerp met de duidelijkste botsing of het meeste belang voor gewone mensen.
 - **Spreiding over de reeks**: draai vóór je keuze `python3 scripts/reeks.py --voor <datum van het debat>`. Staat de fractie die de vraag stelde op of boven de grens (een fractie is in de laatste 10 vragenuren hooguit max(2, afgerond 2 × haar zetelaandeel × 10) keer de vraagsteller van het onderwerp in de strip), kies dan een ander onderwerp, tenzij dat geen echte botsing heeft. Schrijf in `keuze_onderwerp` (normaal en makkelijk, één zin) waarom je dit onderwerp koos, zonder oordeel over partijen; de site toont die zin onder de strip. Voorbeeld: "De strip gaat over het loon van uitzendkrachten: hier botsten vraag en antwoord het duidelijkst." De andere onderwerpen staan in de samenvatting, de kernpunten en de standpunten. Het eerste vak (Verteller) zegt dat de strip over dit ene onderwerp gaat; het mag een letterlijk stuk uit de vraag of de inleiding zijn.
 
+## Moties
+Staat er een bestand `data/moties/<id>.json` (of een blok MOTIES onderaan de compacte bron), dan weet je per motie de indieners, de volledige tekst, het oordeel van het kabinet en eventueel de uitslag.
+- Gebruik dat in de samenvatting, de kernpunten, de standpunten en `woorden`: zeg wat een motie vraagt en van wie ze is ("De Roon (PVV) vraagt in een motie de ontwikkelingshulp aan de Sahel te stoppen; de minister ontraadt die").
+- Citaten in de strip komen alleen uit de spreekbeurten, niet uit de motietekst. Wil je een motie in een vak, kies dan het moment in het debat waarop de indiener haar toelicht of de bewindspersoon er een oordeel over geeft, en zeg in de ballon waar de motie over gaat als het citaat dat toelaat.
+- Een uitslag noem je alleen als die in het bestand staat. De site toont de moties en uitslagen zelf ook in een eigen blok.
+
 ## Juistheid (belangrijkst)
 - Gebruik ALLEEN wat in de spreekbeurten staat. Verzin niets. Geen eigen mening. Neutraal naar alle partijen.
 - Getallen, data en standpunten precies zoals in de tekst, in beide versies.

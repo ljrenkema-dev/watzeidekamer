@@ -117,5 +117,100 @@
   "niet_opgelost": [
     "Samenvatting makkelijk noemt het programma van 40 miljoen niet (maximaal 5 zinnen); het staat wel in kernpunt 3 makkelijk en in het standpunt van de minister.",
     "De inhoud van de vier moties en wie welke motie (274-277) indiende staat niet in de bron; de strip koppelt de nummers terecht niet aan partijen. Vakken 6-8 blijven daardoor wat procedureel; er is geen sterker letterlijk citaat van een ondervertegenwoordigde partij (SGP zei alleen 'Ik heb één motie')."
-  ]
+  ],
+  "tweede_lezing": {
+    "datum": "2026-11-13",
+    "onafhankelijk": true,
+    "bevindingen": [
+      {
+        "waar": "vak 3 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Religie kan ook desinformatie verspreiden. Bij conflicten verandert haar rol. Wij vragen nieuwe aanbevelingen.",
+        "nieuw": "Religie kan ook bron van desinformatie zijn, en geweld goedpraten. Wij vragen nieuwe aanbevelingen.",
+        "waarom": "De eerste lezing herstelde 'een bron zijn van desinformatie' in normaal, standpunt en kernpunt, maar niet in dit vak."
+      },
+      {
+        "waar": "vak 3 normaal",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L9",
+        "oud": "Religie kan ook bron van desinformatie zijn. Bij toenemende conflicten verandert haar rol. Wij vragen nieuwe aanbevelingen.",
+        "nieuw": "Religie kan ook bron van desinformatie zijn en gebruikt worden om geweld te legitimeren. Wij vragen nieuwe aanbevelingen.",
+        "waarom": "Het citaat noemt de tweede kant van religie, 'worden gebruikt om geweld te legitimeren'; dat is het sterkste deel van het vak en viel weg."
+      },
+      {
+        "waar": "standpunt Van Ark makkelijk, kernpunt 4 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Maar religie kan ook een bron van desinformatie zijn.",
+        "nieuw": "Maar religie kan ook een bron van desinformatie zijn, en geweld goedpraten.",
+        "waarom": "Normaal noemt 'worden gebruikt om geweld te legitimeren', makkelijk niet."
+      },
+      {
+        "waar": "vak 7 normaal",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L3",
+        "oud": "Ook motie 275 ontraden we. Nationaal doen we iets minder; via de EU zetten we de inzet voort.",
+        "nieuw": "Motie 275 ontraden we. Nationaal gaan we iets minder doen; via de EU zetten we de inzet voort.",
+        "waarom": "Citaat: 'omdat we nationaal iets minder gaan doen'; het is een plan, nog geen feit."
+      },
+      {
+        "waar": "vak 7 makkelijk",
+        "soort": "juistheid",
+        "ernst": "middel",
+        "les": "L6",
+        "oud": "Ik ontraad motie 275. We doen iets minder. De EU zet het werk voort.",
+        "nieuw": "Ik ontraad motie 275. Nederland doet iets minder. Via de EU gaan we door.",
+        "waarom": "Citaat: 'we dus zo de inzet blijven voortzetten': Nederland zet de inzet voort via de EU, niet de EU zelf; en 'nationaal' viel weg, zodat 'we doen iets minder' nergens op sloeg (deze tekst kwam van de eerste lezing)."
+      },
+      {
+        "waar": "standpunt minister makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L10",
+        "oud": "Nederland gaat zelf iets minder doen. Daarom is het goed dat de EU er is.",
+        "nieuw": "Nederland gaat zelf iets minder doen. Daarom is het goed dat de EU er is. Zo gaat de inzet door.",
+        "waarom": "De eerste lezing voegde 'en de inzet zo doorgaat' toe in normaal en in kernpunt 6, niet in dit standpunt."
+      },
+      {
+        "waar": "samenvatting makkelijk, kernpunt 1 makkelijk",
+        "soort": "juistheid",
+        "ernst": "klein",
+        "les": "L1",
+        "oud": "De PVV wacht (nog) op uitleg (van de minister) over desinformatie uit de Sahel.",
+        "nieuw": "... op uitleg (van de minister) over aanwijzingen voor desinformatie uit de Sahel.",
+        "waarom": "Citaat: 'zijn uitlating dat er aanwijzingen zijn'; de eerste lezing herstelde dit in normaal, niet in makkelijk."
+      },
+      {
+        "waar": "titel (beide)",
+        "soort": "taal",
+        "ernst": "klein",
+        "les": "nieuw",
+        "oud": "Kort debat over de Sahel: desinformatie en de rol van religie / Kort debat over de Sahel: desinformatie en religie",
+        "nieuw": "Russische desinformatie in de Sahel? Minister noemt aanwijzingen, CDA wijst op religie / Russische desinformatie in de Sahel? En de rol van religie",
+        "waarom": "De titel besteedde woorden aan de vorm ('kort debat') en noemde het opvallendste punt niet: de minister zegt dat de diensten 'aanwijzingen' zien voor een 'Russische campagne'; als open vraag blijft het neutraal en blijft het voorbehoud staan (L1, L4, L8)."
+      }
+    ],
+    "afgewezen": [
+      {
+        "waar": "eerste lezing, vak 7 makkelijk ('De EU zet het werk voort.')",
+        "waarom": "Maakt de EU tot onderwerp, terwijl de minister zegt dat 'we' de inzet voortzetten doordat de EU daar aanwezig is; vervangen (zie bevinding vak 7 makkelijk)."
+      },
+      {
+        "waar": "overwogen: moties 276 en 277 toeschrijven aan CDA en SGP (volgorde van indienen)",
+        "waarom": "De bron zegt niet welke motie van wie is; de nummering afleiden zou inhoud verzinnen. Niet gedaan, zoals de eerste lezing al opmerkte."
+      },
+      {
+        "waar": "overwogen: vak 8 (Verteller, oordeel Kamer) vervangen door een pakkender citaat",
+        "waarom": "Na de minister komt in het debat geen inhoudelijk citaat meer; een eerder citaat (bijvoorbeeld Van Arks 'wie de Sahel wil begrijpen …') kan niet als laatste vak zonder de volgorde te breken. Het vak geeft de uitkomst en blijft staan."
+      }
+    ],
+    "niet_opgelost": [
+      "Vakken 6 tot 8 blijven procedureel omdat de inhoud van de moties niet in de bron staat; de inhoudelijke zinnen van de minister (engagement, minder nationaal, via de EU) staan er wel in."
+    ]
+  }
 }

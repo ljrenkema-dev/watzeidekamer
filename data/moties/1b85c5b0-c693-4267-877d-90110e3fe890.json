@@ -1,0 +1,98 @@
+{
+ "agendapunt": "1b85c5b0-c693-4267-877d-90110e3fe890",
+ "moties": [
+  {
+   "nummer": "81",
+   "document": "2026D57676",
+   "id": "bb3c9f3a-e95e-48d1-a535-00f10cd4ada2",
+   "dossier": "37022",
+   "dossier_titel": "Wijziging van enkele belastingwetten en enige andere wetten (Belastingplan 2027)",
+   "onderwerp": "Motie van het lid Jimmy Dijk over de verruiming van de hypotheekrenteaftrek ongedaan maken ",
+   "indieners": [
+    {
+     "naam": "J.P. (Jimmy) Dijk",
+     "fractie": "SP",
+     "rol": "Eerste ondertekenaar"
+    }
+   ],
+   "tekst": "",
+   "oordeel_kabinet": null,
+   "uitslag": {
+    "besluit": "Verworpen.",
+    "voor": [
+     "ChristenUnie",
+     "DENK",
+     "PRO",
+     "PvdD",
+     "SP",
+     "Volt"
+    ],
+    "tegen": [
+     "50PLUS",
+     "BBB",
+     "CDA",
+     "D66",
+     "FVD",
+     "Groep Markuszower",
+     "JA21",
+     "Keijzer",
+     "PVV",
+     "SGP",
+     "VVD"
+    ],
+    "zetels_voor": 33,
+    "zetels_tegen": 117
+   },
+   "bron": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(bb3c9f3a-e95e-48d1-a535-00f10cd4ada2)/resource"
+  },
+  {
+   "nummer": "84",
+   "document": "2026D57700",
+   "id": "395e0784-b1a9-43d9-9be3-fe73e245d04e",
+   "dossier": "37022",
+   "dossier_titel": "Wijziging van enkele belastingwetten en enige andere wetten (Belastingplan 2027)",
+   "onderwerp": "Motie van de leden Struijs en Bikker over indien de amendementen onder 37 022 nr. 78 en nr. 80 beide worden aangenomen, alleen de modernisering van de waarderingsregels en de actualisering van de rekenrente inzake papieren schenkingen uitvoeren conform amendement nr. 78",
+   "indieners": [
+    {
+     "naam": "J.A. Struijs",
+     "fractie": "50PLUS",
+     "rol": "Eerste ondertekenaar"
+    },
+    {
+     "naam": "M.H. Bikker",
+     "fractie": "ChristenUnie",
+     "rol": "Mede ondertekenaar"
+    }
+   ],
+   "tekst": "",
+   "oordeel_kabinet": null,
+   "uitslag": {
+    "besluit": "Aangenomen.",
+    "voor": [
+     "50PLUS",
+     "CDA",
+     "ChristenUnie",
+     "D66",
+     "DENK",
+     "FVD",
+     "PRO",
+     "PVV",
+     "PvdD",
+     "Volt"
+    ],
+    "tegen": [
+     "BBB",
+     "Groep Markuszower",
+     "JA21",
+     "Keijzer",
+     "SGP",
+     "SP",
+     "VVD"
+    ],
+    "zetels_voor": 102,
+    "zetels_tegen": 48
+   },
+   "bron": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(395e0784-b1a9-43d9-9be3-fe73e245d04e)/resource"
+  }
+ ]
+}
