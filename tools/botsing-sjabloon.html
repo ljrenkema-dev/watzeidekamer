@@ -52,7 +52,7 @@ const bg=()=>`<div class="bg" aria-hidden="true"><svg viewBox="0 0 400 300" pres
 const voet=`<div class="voet"><b>Wat zei de Kamer?</b><span>citaten uit het verslag</span></div>`;
 const fig=c=>{if(!c.figuur)return "";const L=makeLook(c.figuur.id,c.figuur.fractie,c.figuur.u);
   return `<div class="fig" aria-hidden="true"><svg viewBox="16 6 68 78" preserveAspectRatio="xMidYMin slice">${character(L,"neutraal")}</svg></div>`;};
-const cit=c=>`<div class="cit"><p>“${esc2(c.citaat)}”</p><div class="wie">${esc2(c.naam)} <span>(${esc2(c.partij)})</span></div>${fig(c)}</div>`;
+const cit=c=>`<div class="cit"><p>“${/^[a-zà-ÿ]/.test(c.citaat)?"… ":""}${esc2(c.citaat)}”</p><div class="wie">${esc2(c.naam)} <span>(${esc2(c.partij)})</span></div>${fig(c)}</div>`;
 const kaart=(binnen,nr)=>`<div class="kaart">${bg()}${nr?`<div class="nr">${nr}</div>`:""}<div class="in">${binnen}</div></div>`;
 function render(){
   document.getElementById("tabs").innerHTML=D.map((d,i)=>`<button type="button" role="tab" aria-selected="${i===actief}" data-i="${i}" style="font:inherit;font-weight:700;border-radius:999px;padding:6px 14px;cursor:pointer;border:2px solid currentColor;background:${i===actief?"var(--b-ink)":"transparent"};color:${i===actief?"var(--b-paper)":"var(--b-ink)"}">${esc2(d.kaart.kop.split(" · ")[0])} · ${esc2(d.strip.agendapunt.slice(0,30))}</button>`).join("");
