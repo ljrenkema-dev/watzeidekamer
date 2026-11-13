@@ -120,6 +120,99 @@
    }
   },
   {
+   "past_bij_zetels": "n.v.t.",
+   "datum": "2026-11-12",
+   "procedure": "a8b04ae3-71c5-4d1a-a498-16bbe5598dcb",
+   "nr": 1,
+   "verzoeker": "Jan Paternotte",
+   "fractie": "D66",
+   "soort": "stemmingen",
+   "onderwerp": "Eerst stemmen over de overige moties bij het Belastingplan, daarna over de amendementen",
+   "uitkomst": "onbekend",
+   "zetels": {
+    "steun": 26,
+    "geen_steun": 1,
+    "onduidelijk": 0,
+    "geen_reactie": 123
+   },
+   "fracties": {
+    "D66": "steun",
+    "Lid Keijzer": "geen_steun"
+   }
+  },
+  {
+   "past_bij_zetels": "ja",
+   "datum": "2026-11-12",
+   "procedure": "a8b04ae3-71c5-4d1a-a498-16bbe5598dcb",
+   "nr": 2,
+   "verzoeker": "Stephan Van Baarle",
+   "fractie": "DENK",
+   "soort": "stemmingen",
+   "onderwerp": "Stemmingen een halfuur uitstellen voor beraad in de fractie",
+   "uitkomst": "meerderheid",
+   "zetels": {
+    "steun": 129,
+    "geen_steun": 0,
+    "onduidelijk": 0,
+    "geen_reactie": 21
+   },
+   "fracties": {
+    "DENK": "steun",
+    "PRO": "steun",
+    "CDA": "steun",
+    "Volt": "steun",
+    "D66": "steun",
+    "ChristenUnie": "steun",
+    "SP": "steun",
+    "PVV": "steun",
+    "PvdD": "steun",
+    "VVD": "steun",
+    "50PLUS": "steun",
+    "JA21": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "n.v.t.",
+   "datum": "2026-11-12",
+   "procedure": "a8b04ae3-71c5-4d1a-a498-16bbe5598dcb",
+   "nr": 3,
+   "verzoeker": "Henk Vermeer",
+   "fractie": "BBB",
+   "soort": "anders",
+   "onderwerp": "Kabinet vragen het informatieverzoek alsnog uiterlijk morgen 8.00 uur te beantwoorden",
+   "uitkomst": "anders",
+   "zetels": {
+    "steun": 3,
+    "geen_steun": 0,
+    "onduidelijk": 0,
+    "geen_reactie": 147
+   },
+   "fracties": {
+    "BBB": "steun"
+   }
+  },
+  {
+   "past_bij_zetels": "n.v.t.",
+   "datum": "2026-11-12",
+   "procedure": "a8b04ae3-71c5-4d1a-a498-16bbe5598dcb",
+   "nr": 4,
+   "verzoeker": "Pieter Grinwis",
+   "fractie": "ChristenUnie",
+   "soort": "stemmingen",
+   "onderwerp": "Na het amendement op stuk nr. 42 eerst stemmen over het amendement op stuk nr. 78",
+   "uitkomst": "anders",
+   "zetels": {
+    "steun": 3,
+    "geen_steun": 0,
+    "onduidelijk": 18,
+    "geen_reactie": 129
+   },
+   "fracties": {
+    "ChristenUnie": "steun",
+    "CDA": "onduidelijk"
+   }
+  },
+  {
    "past_bij_zetels": "ja",
    "datum": "2026-11-10",
    "procedure": "cc170a82-7643-4e98-9e90-ee529760b06f",
@@ -675,38 +768,39 @@
  ],
  "per_fractie": {
   "50PLUS": {
-   "steun": 9,
+   "steun": 10,
    "geen_steun": 1
   },
   "BBB": {
-   "steun": 11,
+   "steun": 12,
    "onduidelijk": 3,
+   "verzoeken": 4,
    "geen_steun": 6,
-   "verzoeken": 3,
    "gehaald": 2
   },
   "CDA": {
-   "steun": 4,
+   "steun": 5,
    "geen_steun": 11,
-   "onduidelijk": 4
+   "onduidelijk": 5
   },
   "ChristenUnie": {
-   "steun": 5,
+   "steun": 7,
    "onduidelijk": 1,
    "geen_steun": 3,
-   "verzoeken": 1,
-   "gehaald": 1
-  },
-  "D66": {
-   "steun": 5,
-   "geen_steun": 13,
-   "onduidelijk": 2,
    "verzoeken": 2,
    "gehaald": 1
   },
-  "DENK": {
-   "steun": 12,
+  "D66": {
+   "steun": 7,
+   "geen_steun": 13,
    "verzoeken": 3,
+   "onduidelijk": 2,
+   "gehaald": 1
+  },
+  "DENK": {
+   "steun": 13,
+   "verzoeken": 4,
+   "gehaald": 1,
    "geen_steun": 3
   },
   "FVD": {
@@ -719,16 +813,16 @@
    "verzoeken": 3
   },
   "JA21": {
-   "steun": 12,
+   "steun": 13,
    "geen_steun": 3
   },
   "Lid Keijzer": {
-   "geen_steun": 3,
+   "geen_steun": 4,
    "steun": 6,
    "onduidelijk": 2
   },
   "PRO": {
-   "steun": 11,
+   "steun": 12,
    "verzoeken": 1,
    "gehaald": 1,
    "onduidelijk": 4,
@@ -736,13 +830,13 @@
   },
   "PVV": {
    "geen_steun": 4,
-   "steun": 13,
+   "steun": 14,
    "verzoeken": 5,
    "gehaald": 2,
    "onduidelijk": 2
   },
   "PvdD": {
-   "steun": 11,
+   "steun": 12,
    "onduidelijk": 2,
    "verzoeken": 2,
    "gehaald": 1,
@@ -753,13 +847,16 @@
    "geen_steun": 1
   },
   "SP": {
-   "steun": 13,
+   "steun": 14,
    "verzoeken": 3,
    "gehaald": 1
   },
   "VVD": {
+   "steun": 2,
    "geen_steun": 11,
-   "onduidelijk": 3,
+   "onduidelijk": 3
+  },
+  "Volt": {
    "steun": 1
   }
  }

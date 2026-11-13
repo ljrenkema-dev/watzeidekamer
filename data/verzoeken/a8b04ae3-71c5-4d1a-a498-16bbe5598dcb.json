@@ -1,0 +1,66 @@
+{
+  "procedure": "a8b04ae3-71c5-4d1a-a498-16bbe5598dcb",
+  "datum": "2026-11-12",
+  "verzoeken": [
+    {
+      "verzoeker_id": "c284355b-902b-4073-a057-24daec031e39",
+      "soort": "stemmingen",
+      "onderwerp": "Eerst stemmen over de overige moties bij het Belastingplan, daarna over de amendementen",
+      "bewindspersoon": null,
+      "citaat": "ik vraag om agendapunt 1 en agendapunt 2 op de stemmingslijst om te draaien.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {"spreker_id": "bb57944e-5a38-4899-be48-9b635a5bf1e4", "oordeel": "geen_steun", "citaat": "Ik steun dit dus niet."}
+      ],
+      "uitkomst": "onbekend",
+      "uitkomst_citaat": null
+    },
+    {
+      "verzoeker_id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "soort": "stemmingen",
+      "onderwerp": "Stemmingen een halfuur uitstellen voor beraad in de fractie",
+      "bewindspersoon": null,
+      "citaat": "ik zou voor de zorgvuldigheid willen vragen om het moment van stemmen een halfuur uit te stellen, om nog beraad te kunnen hebben in de fractie.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {"spreker_id": "457964c8-b4ba-4fa8-ad80-d2dea54e7c94", "oordeel": "steun", "citaat": "Als er een fractie is die nog even wat meer tijd nodig heeft, zou ik die ruimte graag willen geven."},
+        {"spreker_id": "d3232999-f7dc-43ab-93a1-1e191b217321", "oordeel": "steun", "citaat": "Steun voor dit verzoek."},
+        {"spreker_id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "c284355b-902b-4073-a057-24daec031e39", "oordeel": "steun", "citaat": "Met frisse tegenzin: steun, voorzitter."},
+        {"spreker_id": "b5593cee-7c4f-4414-942b-6a8abb8c6543", "oordeel": "steun", "citaat": "Steun met tegenzin, maar oké."},
+        {"spreker_id": "a7d583c5-c521-49f7-99be-35bd470fbf35", "oordeel": "steun", "citaat": "Het kan echt nog wel een halfuurtje langer duren."},
+        {"spreker_id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d", "oordeel": "steun", "citaat": "Steun."},
+        {"spreker_id": "ad93f400-387d-4506-96e8-6926f478e063", "oordeel": "steun", "citaat": "Ook steun."},
+        {"spreker_id": "78bfadde-92e9-4200-9324-ec3ff790a712", "oordeel": "steun", "citaat": "Steun en eerst de moties."},
+        {"spreker_id": "56a43503-f031-4cec-bced-29ef74caa676", "oordeel": "steun", "citaat": "Steun."}
+      ],
+      "uitkomst": "meerderheid",
+      "uitkomst_citaat": "Er is een meerderheid. We schorsen een halfuur, tot 19.35 uur."
+    },
+    {
+      "verzoeker_id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+      "soort": "anders",
+      "onderwerp": "Kabinet vragen het informatieverzoek alsnog uiterlijk morgen 8.00 uur te beantwoorden",
+      "bewindspersoon": null,
+      "citaat": "Ik wil het kabinet echt verzoeken om uiterlijk morgen 8.00 uur alsnog aan dit informatieverzoek te voldoen.",
+      "brief_gevraagd": false,
+      "reacties": [],
+      "uitkomst": "anders",
+      "uitkomst_citaat": "Dat verzoek zal ik inderdaad doorgeleiden naar het kabinet."
+    },
+    {
+      "verzoeker_id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+      "soort": "stemmingen",
+      "onderwerp": "Na het amendement op stuk nr. 42 eerst stemmen over het amendement op stuk nr. 78",
+      "bewindspersoon": null,
+      "citaat": "Ik zou graag nadat we over het amendement op stuk nr. 42 hebben gestemd, eerst over het amendement op stuk nr. 78 stemmen.",
+      "brief_gevraagd": false,
+      "reacties": [
+        {"spreker_id": "d3232999-f7dc-43ab-93a1-1e191b217321", "oordeel": "onduidelijk", "citaat": "Kunt u dat heel langzaam in stemming brengen, zodat er geen fouten worden gemaakt?"}
+      ],
+      "uitkomst": "anders",
+      "uitkomst_citaat": "Ik zie dat daar geen bezwaar tegen is."
+    }
+  ]
+}
