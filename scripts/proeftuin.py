@@ -44,7 +44,8 @@ def debat_data(pid, strip):
     return {"id": pid, "agendapunt": punt["titel"], "datum": punt["vergadering"]["datum"], "soort": punt["vergadering"]["soort"],
             "titel": tw(strip["titel"]), "samenvatting": tw(strip["samenvatting"]), "kernpunten": tw(strip["kernpunten"]),
             "standpunten": standpunten, "strip": data, "onderwerpen": strip.get("onderwerpen") or [],
-            "strip_onderwerp": strip.get("strip_onderwerp"), "opzet": strip.get("_opzet", "")}
+            "strip_onderwerp": strip.get("strip_onderwerp"), "opzet": strip.get("_opzet", ""),
+            "keuze": tw(strip["keuze_onderwerp"]) if strip.get("keuze_onderwerp") else None}
 
 
 def main(versie="v1", vorige=None):

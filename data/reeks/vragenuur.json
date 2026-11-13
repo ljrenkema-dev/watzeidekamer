@@ -1,0 +1,13 @@
+{
+ "reeks": 10,
+ "debatten": [
+  {
+   "id": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
+   "datum": "2026-11-10",
+   "fractie": null,
+   "onderwerp": null
+  }
+ ],
+ "per_fractie": {},
+ "regel": "Een fractie is in de laatste 10 vragenuren hooguit max(2, afgerond 2 × zetelaandeel × 10) keer de vraagsteller van het onderwerp in de strip."
+}

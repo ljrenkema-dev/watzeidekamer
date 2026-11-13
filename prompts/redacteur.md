@@ -47,7 +47,7 @@ Gebruik de uitkomst van `evenwicht.py` als startpunt, niet als oordeel:
 - Iedere fractie die sprak, staat bij "Standpunten per partij" (`sprekers`).
 - Een fractie met veel spreektijd en een eigen standpunt hoort een vak te hebben.
 - Geen fractie krijgt meer vakken dan haar rol in het debat rechtvaardigt.
-- Bij een debat met losse onderwerpen (vragenuur, zie `prompts/strip.md`) gaat de strip over één onderwerp. Beoordeel het evenwicht dan binnen dat onderwerp (vraagsteller, bewindspersoon, wie daarover vervolgvragen stelde) en in de standpunten per onderwerp; dat andere fracties geen vak hebben, is dan geen fout. Haal geen vakken van het gekozen onderwerp weg om fracties van andere onderwerpen ruimte te geven.
+- Bij een debat met losse onderwerpen (vragenuur, zie `prompts/strip.md`) gaat de strip over één onderwerp. Beoordeel het evenwicht dan binnen dat onderwerp (vraagsteller, bewindspersoon, wie daarover vervolgvragen stelde) en in de standpunten per onderwerp; dat andere fracties geen vak hebben, is dan geen fout. Haal geen vakken van het gekozen onderwerp weg om fracties van andere onderwerpen ruimte te geven. Controleer wel de spreiding over de reeks met `python3 scripts/reeks.py --voor <datum>`: is de vraagsteller van het gekozen onderwerp een fractie die op of boven de grens zat, en had een ander onderwerp een even duidelijke botsing, kies dan dat onderwerp en pas de strip aan. Controleer dat `keuze_onderwerp` klopt en neutraal is.
 - Dat een minister veel spreektijd heeft maar minder vakken krijgt, is normaal: hij beantwoordt iedereen. Let er wel op dat zijn antwoord op de belangrijkste vraag in de strip staat.
 
 ## Wat je mag doen

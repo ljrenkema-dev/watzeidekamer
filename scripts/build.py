@@ -318,7 +318,7 @@ def page(title, body, scripts="", root=""):
 </head><body><div class="wrap">
 <header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><a href="{root}p/index.html">Politici</a><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
 {body}
-<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer.</footer>
+<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat in de strip is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="{root}over.html">Zo werken we</a>.</footer>
 </div>{scripts}<script>
 (function(){{const k=document.getElementById("taalknop");
 function zet(t){{document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
@@ -473,7 +473,8 @@ def debat(punt, strip):
 <p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
 {tekstblok(strip['samenvatting'], "summary")}
 <h2>De strip</h2><div class="strip" id="strip"><p style="color:#fff;padding:12px">De strip laadt…</p></div>
-<p class="note">Elk vak toont een letterlijk citaat uit het verslag. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a></p>
+{('<p class="note keuze">' + twee(strip['keuze_onderwerp']) + ' <a href="../over.html#onderwerp">Hoe kiezen we?</a></p>') if strip.get('keuze_onderwerp') else ''}
+<p class="note">Elk vak toont een letterlijk citaat uit het verslag. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a> · <a href="../over.html">Zo werken we</a></p>
 <h2>Standpunten per partij</h2>
 <p class="note">{aantal_partijen} {"partij" if aantal_partijen == 1 else "partijen"}{" en het kabinet" if heeft_kabinet else ""} in dit debat. Niet elke partij staat in de strip; hier staan ze allemaal.</p>
 <div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{standpunten}</tbody></table></div>
@@ -553,6 +554,9 @@ def main():
     (OUT / "d").mkdir(parents=True)
     for f in ("style.css", "strip.js"):
         shutil.copy(ROOT / "site" / f, OUT / f)
+    over = ROOT / "site" / "over.html"
+    if over.exists():
+        (OUT / "over.html").write_text(page("Zo werken we – Wat zei de Kamer?", over.read_text(), root=""))
     if (ROOT / "site" / "manga").exists():
         shutil.copytree(ROOT / "site" / "manga", OUT / "manga")
     items = []

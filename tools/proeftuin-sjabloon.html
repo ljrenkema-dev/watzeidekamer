@@ -71,7 +71,7 @@ function render(){
     `<p class="src">${esc2(d.datum)} · ${esc2(d.soort)} · ${esc2(d.agendapunt)}${d.opzet?` · opzet: <b>${esc2(d.opzet)}</b>`:""}</p>`+
     blok(K(d),"titel","Titel",`<p style="font-size:1.4rem;font-weight:700;margin:0">${esc2(T(d.titel))}</p>${vorig(d,v=>esc2(T(v.titel)))}`)+
     blok(K(d),"samenvatting","Samenvatting",`${tekstblok(T(d.samenvatting))}${vorig(d,v=>tekstblok(T(v.samenvatting)))}`)+
-    blok(K(d),"strip","De strip als geheel",`<p class="src" style="margin:0">Hieronder elk vak apart. Hier je oordeel over de strip als geheel: keuze van de momenten, de botsing, de volgorde.</p>`)+
+    blok(K(d),"strip","De strip als geheel",`${d.keuze?`<p style="margin:0"><b>Waarom dit onderwerp:</b> ${esc2(T(d.keuze))}</p>`:""}<p class="src" style="margin:0">Hieronder elk vak apart. Hier je oordeel over de strip als geheel: keuze van de momenten, de botsing, de volgorde.</p>`)+
     `<div class="vakken">${vakken}</div>`+
     blok(K(d),"standpunten","Standpunten per partij",standHTML(d,T))+
     blok(K(d),"kernpunten","Belangrijk om te weten",kernHTML(d,T))+
