@@ -87,5 +87,128 @@
    "waarom": "Afrika staat niet in het verslag; 'aanbevelingen' is het woord van Van Ark"
   }
  ],
- "afgewezen_opmerking": "Geen vak voor SGP (Van Dijk zei alleen dat hij een motie heeft) en geen vak voor motie 275 (max. evenwicht: kabinet al 4 van 7 vakken)."
+ "afgewezen_opmerking": "Geen vak voor SGP (Van Dijk zei alleen dat hij een motie heeft) en geen vak voor motie 275 (max. evenwicht: kabinet al 4 van 7 vakken).",
+ "tweede_lezing": {
+  "datum": "2026-11-13",
+  "onafhankelijk": true,
+  "bevindingen": [
+   {
+    "waar": "vak 4 normaal+makkelijk",
+    "soort": "juistheid",
+    "ernst": "middel",
+    "les": "L9",
+    "oud": "Er zijn aanwijzingen bij de diensten dat desinformatie in de Sahel onderdeel is van een bredere Russische campagne.",
+    "nieuw": "Diensten zien aanwijzingen: desinformatie in de Sahel hoort bij een Russische campagne om ook Europa's zuidflank te destabiliseren. (makkelijk: ... ook in tegen Europa's zuidkant)",
+    "waarom": "De Roon vroeg naar desinformatie 'richting Europa'; het antwoord daarop ('ook de zuidflank van Europa te destabiliseren') ontbrak in het vak en in standpunt en samenvatting"
+   },
+   {
+    "waar": "samenvatting normaal, standpunt minister, kernpunt 1 makkelijk",
+    "soort": "juistheid",
+    "ernst": "middel",
+    "les": "L10",
+    "oud": "Russische campagne (zonder Europa)",
+    "nieuw": "toegevoegd: ook om de zuidflank van Europa te destabiliseren / ook tegen de zuidkant van Europa",
+    "waarom": "zelfde herstel overal doorgevoerd ('zuidflank van Europa', niet 'Europa' of 'Zuid-Europa', L6)"
+   },
+   {
+    "waar": "kernpunt 4 normaal+makkelijk",
+    "soort": "juistheid",
+    "ernst": "middel",
+    "les": "L14",
+    "oud": "Ook motie 275 ontraadt hij: omdat Nederland nationaal iets minder gaat doen, is het goed dat de EU er aanwezig is.",
+    "nieuw": "Ook motie 275 ontraadt hij; in aanvulling daarop zegt hij dat het goed is dat de EU daar aanwezig is, omdat Nederland nationaal iets minder gaat doen, zodat de inzet wordt voortgezet.",
+    "waarom": "wijziging eerste lezing te stellig: de minister zegt 'in aanvulling op wat ik net zei', dus de EU-reden komt bovenop de eerdere uitleg en staat er niet los van"
+   },
+   {
+    "waar": "samenvatting makkelijk, standpunt De Roon makkelijk",
+    "soort": "juistheid",
+    "ernst": "middel",
+    "les": "L1",
+    "oud": "uitleg over nepnieuws dat naar Europa komt / uitleg over nepnieuws uit de Sahel naar Europa",
+    "nieuw": "uitleg over aanwijzingen voor nepnieuws uit de Sahel naar Europa",
+    "waarom": "De Roon spreekt over de uitlating 'dat er aanwijzingen zijn'; makkelijk bracht het als feit"
+   },
+   {
+    "waar": "samenvatting makkelijk",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L10",
+    "oud": "(40 miljoen ontbrak)",
+    "nieuw": "Het kabinet is een programma van 40 miljoen gestart voor lokale journalistiek.",
+    "waarom": "normaal noemt het programma van 40 miljoen, makkelijk niet"
+   },
+   {
+    "waar": "samenvatting normaal",
+    "soort": "juistheid",
+    "ernst": "klein",
+    "les": "L5",
+    "oud": "De Roon vraagt om een toelichting",
+    "nieuw": "De Roon wijst op de toegezegde toelichting",
+    "waarom": "De Roon zegt 'had ... toegezegd' en 'Ik zie uit naar die toelichting', geen nieuwe vraag"
+   },
+   {
+    "waar": "standpunt Van Ark normaal+makkelijk",
+    "soort": "evenwicht",
+    "ernst": "klein",
+    "les": "L9",
+    "oud": "alleen: rol van religie begrijpen + oproep aanbevelingen",
+    "nieuw": "ook: religieuze leiders een soort influencers, maar religie kan ook een bron van desinformatie zijn en geweld legitimeren",
+    "waarom": "haar standpunt heeft twee kanten ('maar religie kan ook een bron zijn van desinformatie'); die horen allebei in het standpunt"
+   },
+   {
+    "waar": "vak 3 makkelijk",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "L6",
+    "oud": "Blok wilde in 2018 meer kennis over religie. We vragen nu nieuwe aanbevelingen.",
+    "nieuw": "Minister Blok wilde in 2018 meer kennis over religie. Wij vragen nieuwe aanbevelingen.",
+    "waarom": "vak staat op zichzelf: 'Blok' zonder 'minister' zegt de lezer niets (citaat: 'VVD-minister Stef Blok')"
+   },
+   {
+    "waar": "vak 7 normaal",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "L10",
+    "oud": "Ik geef de moties 276 en 277 oordeel Kamer.",
+    "nieuw": "De moties 276 en 277 laat ik aan het oordeel van de Kamer.",
+    "waarom": "'oordeel Kamer' is jargon; slotvak moet voor een breed publiek leesbaar zijn (3b)"
+   },
+   {
+    "waar": "titel normaal",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "L8",
+    "oud": "Tweeminutendebat Sahelregio: desinformatie en de rol van religie",
+    "nieuw": "Sahelregio: desinformatie en de rol van religie",
+    "waarom": "'Tweeminutendebat' is procedure; titel moet het onderwerp naar voren halen (3b)"
+   },
+   {
+    "waar": "woorden",
+    "soort": "taal",
+    "ernst": "klein",
+    "les": "L12",
+    "oud": "(geen uitleg)",
+    "nieuw": "Religieuze geletterdheid: kennis van religie en religieuze tradities, met citaat van Blok uit het debat",
+    "waarom": "term staat in vak 3; uitleg komt uit het debat zelf ('adequate kennis van religie en religieuze tradities')"
+   }
+  ],
+  "afgewezen": [
+   {
+    "waar": "vak 6 (motie 274) vervangen door vak over motie 275/EU",
+    "waarom": "overwogen voor 3b, maar dan sluit de strip zonder de 'oordeel Kamer'-uitkomst en lijkt het alsof alle moties ontraden zijn; kabinet heeft al 4 van 7 vakken"
+   },
+   {
+    "waar": "vak 2 aanvullen met 'geweld te legitimeren'",
+    "waarom": "past niet binnen 18 woorden; de nuancering 'religie kan ook een bron van desinformatie zijn' staat er al, en geweld staat in kernpunt 3 en het standpunt"
+   },
+   {
+    "waar": "moties aan indieners koppelen (274/275 aan PVV, enz.)",
+    "waarom": "het verslag noemt niet welke motie van wie is; niet invullen"
+   },
+   {
+    "waar": "eerste lezing: vak 7 van Verteller naar Berendsen, vak 4 'aanwijzingen bij de diensten', vak 3 verlengd, emoties neutraal, samenvatting makkelijk zonder 'Afrika'",
+    "waarom": "gecontroleerd tegen de bron: klopt, blijft staan"
+   }
+  ]
+ }
 }
