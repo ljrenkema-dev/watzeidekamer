@@ -10,11 +10,11 @@
  "vergadering": {
   "id": "1609f035-ccb4-466f-996c-6de4ceba89a3",
   "datum": "2026-11-12",
-  "gewijzigd": "2026-11-12T19:05:02.9730358+01:00",
+  "gewijzigd": "2026-11-13T01:04:35.5961596+01:00",
   "soort": "Plenair",
   "status": "Ongecorrigeerd",
   "titel": "24e vergadering, donderdag 12 november 2026",
-  "verslag_id": "880a11c7-4125-41b5-a199-5e37393ecf34",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
   "verslag_soort": "Tussenpublicatie"
  },
  "woorden": 8527,
@@ -1402,18 +1402,19 @@
  ],
  "deel": {
   "nummer": 2,
-  "van": 5,
+  "van": 6,
   "fase": "Inbreng van de Kamer",
   "sprekers": "Paternotte, Wilders",
   "ouder_id": "debat-2026A08376-2026-11-12",
   "ouder_titel": "Pakket Belastingplan 2027",
-  "woorden_totaal": 54317,
+  "woorden_totaal": 66993,
   "ids": [
    "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1",
    "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d2",
    "68113dc2-493d-417a-bf57-03a95fb4ca97-d1",
    "68113dc2-493d-417a-bf57-03a95fb4ca97-d2",
-   "68113dc2-493d-417a-bf57-03a95fb4ca97-d3"
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d3",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d4"
   ]
  }
 }

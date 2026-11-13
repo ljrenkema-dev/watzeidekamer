@@ -1,0 +1,3685 @@
+{
+ "id": "68113dc2-493d-417a-bf57-03a95fb4ca97-d4",
+ "titel": "Pakket Belastingplan 2027",
+ "onderwerp": "Pakket Belastingplan 2027",
+ "parlisid": "2026A08376",
+ "voortzetting": true,
+ "soort_activiteit": "Plenair debat",
+ "begin": "2026-11-12T16:37:14",
+ "eind": "2026-11-12T19:03:12",
+ "vergadering": {
+  "id": "1609f035-ccb4-466f-996c-6de4ceba89a3",
+  "datum": "2026-11-12",
+  "gewijzigd": "2026-11-13T01:04:35.5961596+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "24e vergadering, donderdag 12 november 2026",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "woorden": 14402,
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:37:14",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat zit in mijn beantwoording, maar dat kan ik dan nu meteen zeggen. Ik had een overleg met de drie fractievoorzitters en de twee vicepremiers, waarin we hiervan gelijktijdig op de hoogte zijn gesteld.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:37:30",
+   "spreker": {
+    "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Stoffer",
+    "verslagnaam": "Stoffer",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat was niet mijn vraag. De vraag was of de minister-president voordat er een persconferentie was op de hoogte was van de heer Klaver.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:37:39",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat was kort daarvoor.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T16:37:47",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:37:48",
+   "spreker": {
+    "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Stoffer",
+    "verslagnaam": "Stoffer",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Moet ik dan concluderen dat het hele kabinet voordat de persconferentie plaatsvond op de hoogte was?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:37:52",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Nee, zeker niet het hele kabinet, nee.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T16:37:55",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voordat ik de minister-president het woord geef, nog even concluderend op het vorige. We gaan dus straks na de beantwoording van de minister-president eerst een uur schorsen voor fractievergadering, dan stemmen over moties en amendementen, dan schorsen — voor de dinerpauze, denk ik, maar wie weet hoelang het duurt; in ieder geval zal er een schorsing plaatsvinden — en dan op het einde stemmen over alle wetten. Aldus besloten. Meneer Markuszower?",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:38:18",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "In navolging van de heer Stoffer, nu we toch zo'n ondervragingsrondje doen: wanneer wist de premier dat de heer Paternotte en de heer Bontenbal met de heer Klaver bezig waren met een amendement? Wanneer wist hij hoe het amendement eruitzag?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:38:46",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "In de afgelopen dagen, dus ruim een week, hebben de drie fractievoorzitters van de coalitie verschillende gesprekken gevoerd met verschillende oppositiepartijen om te kijken of er bredere steun voor het Belastingplan en de novelle box 3 te organiseren was. Dat waren hele moeizame gesprekken. Daarover zijn we regelmatig geïnformeerd en hebben we elkaar bijgepraat. Nog tot een dag voordat het akkoord is bereikt, zag het er vooral naar uit dat het heel moeizaam was en dat het wellicht niet zou gaan lukken. Ongeveer een uur, denk ik, voordat de heer Klaver en de heer Dassen naar buiten bekendmaakten dat zij een gewijzigd amendement zouden indienen, werden wij geïnformeerd dat er overeenstemming was bereikt. Toen vond er nog een gesprek plaats in de coalitie. Zoals net door verschillende fractievoorzitters is aangegeven, was dat gesprek nog gaande toen de heer Klaver de pers te woord stond.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:39:40",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Laat ik het dan misschien over een iets andere boeg gooien. Er is dus een amendement gemaakt door onder anderen een partijgenoot van de heer Jetten, meneer Paternotte, en door meneer Bontenbal. Datzelfde amendement krijgt geen positieve appreciatie van het kabinet-Jetten. Hoe verenigt de minister-president die twee dingen, dus dat zijn rechterhand, de heer Paternotte, een amendement maakt, hopend op een deal, en dat partijgenoot Jetten, ook premier, zegt: het is een slecht amendement?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:40:16",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Het kabinet heeft alle amendementen van een appreciatie voorzien. Die is ook per brief met uw Kamer gedeeld. Daarin ziet u dat we volgens mij 85% van de amendementen ontraden, vaak vanwege technische redenen of vanwege de dekking, en ook omdat we als kabinet met drie nota's van wijziging al een aantal behoorlijke stappen hebben gezet op de Miljoenennota en het Belastingplan, waarvan wij als kabinet in de overtuiging zijn dat wij daarmee recht hebben gedaan aan een heleboel wensen, verzoeken en voorstellen die vanuit de Kamer zijn gekomen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T16:40:47",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:40:52",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dacht de heer Jetten, de premier, dan niet: \"Jan Paternotte en Henri, waarom doen jullie dit nou? Waarom maken jullie mijn leven nou zo moeilijk? Waarom sluiten jullie een deal die helemaal geen goede deal is, een deal waardoor mijn coalitiegenoot VVD van tafel gaat, een deal waar ik\" — dat blijkt — \"niet goed van op de hoogte ben gebracht, een deal die mij meer complicaties oplevert dan plezier?\"",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:41:15",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik was hier vorige week ook te gast bij de eerste termijn van de behandeling van het Belastingplan. Toen heb ik aangegeven dat het voorliggende Belastingplan wat het kabinet betreft een goed Belastingplan is. Wij zien dus eigenlijk nog weinig noodzaak tot amendering en aanpassing. Dat hebben we namelijk al met drie nota's van wijziging gedaan. Tegelijkertijd streeft het kabinet, en ook de coalitie, al vanaf het begin naar een voorspelbare meerderheid in beide Kamers van het parlement. Vorige week werd tijdens dat deel van het debat duidelijk dat die meerderheid in de Eerste Kamer nog niet in zicht was en dat de drie coalitiefracties zich extra zouden gaan inspannen om te kijken of die meerderheid wel te organiseren is. Vandaar dat er met verschillende partijen is gesproken, bijvoorbeeld over de financiële wensen die in dit amendement zijn geland. Maar er zijn ook vervolggesprekken geweest die onder andere gingen over stikstof en migratie.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:42:09",
+   "spreker": {
+    "id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+    "soort": "Tweede Kamerlid",
+    "naam": "Geert Wilders",
+    "verslagnaam": "Wilders",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het maakt mij niet zo veel uit wanneer de premier wat wist; het gaat om de vraag waarom hij niks heeft gedaan. Bij het zijn van premier hoort dat je leiding neemt, dat je initiatief neemt, dat je zorgt dat je een premier bent van alle partijen in je coalitie en kabinet en dat het niet, zoals vandaag, uit de klauwen loopt. Ik hoor het van alle kanten en je kan het ook zien: als er iemand onzichtbaar was, als er iemand niets heeft gedaan om de ellende waar we nu in zitten te voorkomen, dan is het wel de premier. Ik was nooit een grote fan van Mark Rutte — het is een aardige man, maar ik was geen fan van hem — maar dit zou hem niet zijn overkomen. Het zou hem niet zijn overkomen dat wij nu, na maanden, op de dag van de stemmingen het moment hebben dat niemand hier weet of we aan het einde van de avond nog een Belastingplan of een kabinet hebben. Dat weet niemand. Dat kunt u de partijen allemaal verwijten, en misschien is dat voor een deel ook wel terecht, maar u bent de minister-president van Nederland en u heeft zich niet zo gedragen. Ik zou u dus willen vragen: wat heeft u de afgelopen dagen en de afgelopen week gedaan? En geef alstublieft niet het antwoord: \"Ja, het was aan de fractievoorzitters. Wij hebben het Belastingplan neergelegd, dus het is nu aan de Kamer.\" Als uw kabinet op springen staat, wordt u als minister-president geacht in te grijpen en te zorgen dat het niet uit de hand loopt. Nogmaals, van mij mag u morgen weg, vandaag weg, gisteren weg, maar wat heeft u vanuit uw functie gedaan om de afgelopen dagen de ellende waar we nu in zitten te corrigeren?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:43:54",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "De afgelopen maanden, weken en dagen is de inzet van het kabinet heel helder geweest. Dat geldt voor mij persoonlijk en voor de twee collega's die hier met mij in vak K zitten, maar ook voor een hele hoop andere collega's die zich vanaf het voorjaar hebben ingespannen om heel serieus te luisteren naar de kritiek vanuit de oppositie, bijvoorbeeld op afspraken in het coalitieakkoord en op de plannen die we op Prinsjesdag hebben gepresenteerd. Daar zijn zeer intensieve gesprekken over gevoerd, in de zomer, in september en ook in de afgelopen dagen en weken. Die hebben ook daadwerkelijk ergens toe geleid: het Belastingplan is op talloze punten aangepast, van het voortzetten van accijnsverlagingen en verbeteringen in de koopkracht tot extra geld voor onder andere veiligheid en een hardere aanpak van migratie. Het kabinet heeft die inspanning gepleegd om recht te doen aan de gevoelens in deze Kamer en om tot een zo breed mogelijke steun te komen. We hebben ook een nieuwe novelle over box 3 naar de Kamer gestuurd. Dat waren geen makkelijke gesprekken, maar die zijn gevoerd vanuit de overtuiging dat een meerderheid van deze Kamer zo snel mogelijk naar die vermogenswinstbelasting wil en dat we daarvoor als kabinet onze plannen grondig moesten aanpassen ten opzichte van de afspraken uit het coalitieakkoord. Dus wat hebben we gedaan? Kortom, we hebben goed en serieus geluisterd en onze voorstellen gewijzigd waar dat moest. Die voorstellen staan we hier met verve en overtuiging te verdedigen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:45:22",
+   "spreker": {
+    "id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+    "soort": "Tweede Kamerlid",
+    "naam": "Geert Wilders",
+    "verslagnaam": "Wilders",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik vraag niet wat wé hebben gedaan, maar wat ú heeft gedaan. De minister-president is nog niet van koninklijken bloede. U kunt dus wel in pluralis, in het meervoud, spreken, maar daar bedoelt u blijkbaar het kabinet mee. Wat heeft de minister-president zelf gedaan? Heeft u de afgelopen dagen, toen u zag dat het fout ging, gezegd: \"Kom eens naar mijn Kamer op het ministerie van AZ, meneer Bontenbal en de collega van D66. Kom eens hier, meneer Brekelmans. Kom erbij, vicepremiers\"? Heeft u zelf initiatief genomen om hen naar u toe te halen en te zeggen: jongens, dit gaat mis? Heeft u gisteren, toen u zag dat dat kwam, een telefoontje gepleegd en gezegd: \"Dit gaat niet lukken. Ons kabinet gaat naar de haaien op deze manier. Kom nu of ik kom nu naar jullie en ga ervoor zorgen dat het opgelost wordt\"? Heeft u de afgelopen dagen zelf dat initiatief genomen?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:46:14",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Zeker. We hebben daar ook de afgelopen dagen heel intensief over gesproken met elkaar. Je ziet in dit debat ook dat deze afgelopen paar weken echt wat hebben gedaan met de onderlinge verhoudingen en het vertrouwen in de coalitie en in het kabinet. Dat is klip-en-klaar. Tegelijkertijd zie ik ook dat er drie coalitiefracties zijn die begin dit jaar aan dit kabinet zijn begonnen vanuit de overtuiging dat we een aantal echt vastgelopen dossiers met elkaar moeten lostrekken. Dat is niet makkelijk en ook deze drie partijen moeten daarvoor regelmatig over hun eigen schaduw heen stappen en bereid zijn om ook hun eigen plannen en ideeën daarvoor bij te stellen. Daarom ben ik het ook, ongeacht de uitkomst van de stemmingen van vanavond, met iedereen eens die zegt dat deze coalitie met elkaar een heel serieuze doorstart zal moeten maken, om met elkaar nog beter te doorleven waar het in de onderlinge verhoudingen nog niet goed gaat en waar we kansen zien om op de inhoud nog beter zaken te doen met de rest van de Kamer. Dat vraagt reflecties op de samenwerking in het kabinet en in de coalitie en op hoe je je als minderheidscombinatie op een effectieve manier tot het parlement kan verhouden. Ik zal ook het initiatief nemen om de komende tijd daar rustig met elkaar over door te spreken.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T16:47:29",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:47:30",
+   "spreker": {
+    "id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+    "soort": "Tweede Kamerlid",
+    "naam": "Geert Wilders",
+    "verslagnaam": "Wilders",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "U heeft daarin gefaald. Of u heeft het gedaan, wat ik zeer betwijfel. Ik betwijfel zeer dat u gisteren en eergisteren iedereen bij u heeft geroepen, want dat was mijn vraag, en heeft gezegd: \"Vrienden, zo gaan we het niet doen. We gaan niet met twee partijen met de oppositie praten. Als dat gebeurt, komt dat rustig in het coalitieoverleg en daarna misschien nog in de ministerraad, maar we gaan het niet zo doen.\" Als je ziet dat je kabinet aan het vallen is of dat het fout gaat, neem je de leiding. Volgens mij heeft u dat niet gedaan. U heeft hier in ieder geval niet een antwoord op gegeven. U zegt weer: wíj hebben dit en dit en dit de afgelopen maanden … Mijn vraag is: wat heeft u precies gedaan? Heeft u het initiatief genomen, naar u toe getrokken? Volgens mij heeft u dat niet gedaan, maar misschien kunt u er nog op antwoorden. En als u dat wel heeft gedaan, heeft u gefaald. Het is allebei erg. Of u heeft het niet gedaan, of u heeft het wel gedaan met dit als resultaat. In beide gevallen bent u niet geschikt voor uw functie.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:48:24",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik heb vanuit mijn rol die gesprekken regelmatig georganiseerd. Dat doe ik met de collega's in het kabinet die primair verantwoordelijk zijn voor het begrotingsproces, dat doe ik met de vicepremiers, dat doe ik met de fractievoorzitters van de coalitiepartijen en met iedereen die daarbij nodig is. Dat is ook de manier waarop wij de samenwerking met elkaar hebben gevonden. Dit zijn drie partijen die ook in het verleden vaak verantwoordelijkheid hebben gedragen en daarbij ook medeverantwoordelijkheid dragen voor bijvoorbeeld een stikstofdossier dat is vastgelopen. Daarvan hebben ze nu gezegd: in deze combinatie zoeken wij die samenwerking met elkaar op om een aantal zaken los te trekken, en dat blijven we ook doen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:49:00",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dit is zó onecht. Dit is zó onecht. We weten inmiddels dat er gisterochtend gesproken is. Er is toen een deal gemaakt. Daarna is die doorgesproken met de drie fractieleiders van de coalitiepartijen. Toen dat gesprek nog gaande was, stond Klaver onderaan de roltrap. Waar in dit proces is deze minister-president aanwezig geweest?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:49:27",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik ga niet over de externe communicatie van een oppositiepartij.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:49:34",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "En?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:49:37",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ja, daar ga ik niet over.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:49:38",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat was mijn vraag niet. Mijn vraag was: waar is de minister-president bij betrokken geweest, gisterochtend? Op welk moment en met wie? Als het antwoord gewoon nee is of als er direct een ander debattrucje komt — dat kan, hè? — dan bevestigt deze minister-president namelijk alleen maar hoe ongeschikt hij is voor deze functie. Het doet mij zeer om dat te zeggen. Ik heb — dat zit in mij ingebakken — ondanks alles wat er misgegaan is, houvast aan instituties. Dat is namelijk wat tussen ons en volledige chaos staat. Dus nu graag een antwoord op deze vraag.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:50:18",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Wij hebben altijd gezegd dat we streven naar een meerderheid in allebei de Kamers van het parlement. Daar hebben wij als kabinet en ikzelf als minister-president de afgelopen maanden alles aan gedaan. Daardoor zijn het Belastingplan en de Miljoenennota voor vele miljarden verbouwd, om daarmee recht te doen aan de inzet van een groot aantal oppositiepartijen die bereid waren en nog steeds zijn om medeverantwoordelijkheid te dragen, om een aantal oplossingen voor Nederlanders voor elkaar te boksen. Ik heb vorige week, in dit debat en richting mevrouw Keijzer, heel duidelijk gemaakt dat mede vanwege de deadline van de stemmingen van vandaag, het kabinet vorige week de derde en laatste nota van wijziging van het Belastingplan met uw Kamer heeft gedeeld. Daarmee is het aan de Kamer om een oordeel te vellen over zowel de novelle over box 3, die de vermogenswinstbelasting dichterbij brengt, als het Belastingplan dat nu voorligt. Ik ben net als een paar andere mensen heel intensief betrokken gebleven bij alle inspanningen van drie coalitiefractievoorzitters om de hand te reiken naar andere partijen om hieruit te komen. Gister bleek dat twee fracties een nieuw amendement hebben ingediend dat in ieder geval op steun kan rekenen van twee coalitiefracties. Dat is een mogelijkheid om die meerderheid daadwerkelijk in allebei de Kamers dichterbij te brengen, maar dat neemt niet weg dat we nog altijd ook graag met de andere partijen zaken blijven doen, want ook hun zorgen hebben wij gehoord en blijven wij heel serieus nemen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:51:45",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen antwoord op de vraag. Hoe meer woorden deze minister-president spreekt, hoe meer ik moet denken aan de reclamespotjes van Defensie: krrr-krrr-krrr-krrr-krrr, ongeschikt. Heeft deze minister-president al excuses aangeboden aan zijn minister van Financiën, onze minister van Financiën, omdat hij tijdens een debat, waarin hij kritisch bevraagd werd over samenwerking, hij zo, met uitgestoken duim, naar de minister van Financiën wees? Zijn daar al excuses voor aangeboden? En nu gewoon graag … Eigenlijk is hier maar één oplossing: \"Ja, ik heb daar excuses voor aangeboden, want dat was volstrekt ongepast en niet passend bij mijn functie.\"",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:52:29",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Volgens mij hebben wij daar beiden al wat over gezegd. Dat gebeurde namelijk vorige week in een debat. Het was gewoon een reactie op iets wat hier aan de interruptiemicrofoon werd gezegd over een bijeenkomst die niet had plaatsgevonden. Dat hebben we daar meteen even gecorrigeerd.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:52:42",
+   "spreker": {
+    "id": "56a43503-f031-4cec-bced-29ef74caa676",
+    "soort": "Tweede Kamerlid",
+    "naam": "Joost Eerdmans",
+    "verslagnaam": "Eerdmans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nog even. Heeft de premier, of een andere minister, specifiek bij het amendement-Klaver een rol gespeeld, ja of nee?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:52:55",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Nee, want dat waren gesprekken tussen fracties in de Kamer.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:53:01",
+   "spreker": {
+    "id": "56a43503-f031-4cec-bced-29ef74caa676",
+    "soort": "Tweede Kamerlid",
+    "naam": "Joost Eerdmans",
+    "verslagnaam": "Eerdmans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dus ook niet bij het opstellen van het amendement? En daarbij heeft een minister, vicepremier of wie dan ook van het kabinet geen rol gespeeld bij de totstandkoming van het amendement en/of de deal met PRO die werd gemaakt door twee van de coalitiepartijen?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:53:20",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat klopt, want dat is ook de consequentie van de afspraken die we hier vorige week in het plenaire debat met elkaar hebben gemaakt. Ik heb daar namens het kabinet de derde nota van wijziging en de novelle box 3 verdedigd, en daarbij aangegeven dat er vanwege de deadline van vandaag geen ruimte meer was voor het kabinet om wijzigingsvoorstellen te doen; dat dat echt aan de Kamer is. We zien ook dat vele Kamerfracties in de afgelopen week tijd en moeite hebben gestoken in moties en amendementen, in de hoop daarmee vandaag tot een goede oplossing te komen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T16:53:52",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:54:00",
+   "spreker": {
+    "id": "457964c8-b4ba-4fa8-ad80-d2dea54e7c94",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jesse Klaver",
+    "verslagnaam": "Klaver",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik wil gewoon iets verduidelijken, als dat mag.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T16:54:03",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We hebben eerst nog meneer Schenk. Daarna krijgt u het woord, meneer Klaver.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:54:04",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank, voorzitter. Tja, hoe je het ook wendt of keert, dat amendement van PRO en Volt hangt toch als een soort zwaard van Damocles boven deze coalitie, boven dit kabinet en boven de toekomst van de heer Jetten als premier van Nederland. De heer Jetten wist dat dat amendement in wording was. Er lag al een eerste versie. Die vond het kabinet \"vrij ruig\" — zo werd het volgens mij genoemd. Wat heeft de premier precies gedaan om ervoor te zorgen dat deze situatie, dus coalitiepartijen die met elkaar overhoop liggen, een kabinetscrisis, zou worden voorkomen? Dus in de totstandkoming van dit amendement? Want de premier wíst dat dat eraan zat te komen.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:54:42",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik heb vorige week ook in dit debat al gezegd, en dat heb ik de afgelopen week herhaald, dat dat oorspronkelijke amendement ook voor het kabinet veel te ruig was en is, omdat we dat echt onverstandig vonden zowel qua type maatregelen als qua maatvoering. Daar ben ik vorige week klip-en-klaar over geweest en dat heb ik ook richting de coalitiefracties heel duidelijk gemaakt in de afgelopen week.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:55:03",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, maar de premier wist dat, als dit amendement er zou komen, mogelijk aangepast, er een grote kans zou zijn dat D66 en CDA daarin mee zouden gaan. Hoe je het ook wendt of keert, dat zou een probleem gaan worden voor dit kabinet, want het zou betekenen dat de VVD enerzijds en D66 en CDA anderzijds met elkaar in de clinch zouden komen te liggen. Dan kan de premier hier nu toch niet zoiets vertellen van: ik heb het gewoon aan de Kamer gelaten en het zal allemaal wel? Ik neem aan dat hij zijn eigen baan ook leuk vindt. Dan doe je er toch alles aan, door te bellen: \"Hé, hoe staat het ervoor? Misschien kunnen we dit en dit doen, en kunnen we er toch uit komen\"? Hebt u dan helemaal niets gedaan, zo van: nou, het zal wel; we zien wel wat de uitkomst wordt? Dat kan toch niet waar zijn?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:55:43",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Zeker niet. We hebben echt tot het laatste moment met elkaar gekeken of er mogelijkheden zouden zijn om bijvoorbeeld JA21 nog tegemoet te komen op zijn inzet op migratie. Dat hebben we al op drie van de vier voorstellen gedaan. En: waren er mogelijkheden om op stikstof nader tot elkaar te komen, zoals daar ook de afgelopen tijd gesprekken zijn gevoerd? Heel eerlijk, op basis van de terugkoppelingen die wij kregen van de drie coalitiefracties was mijn beeld tot dinsdagochtend eigenlijk dat er, ondanks al die inspanningen, met geen enkele van de fracties een grote stap te zetten was in aanloop naar de afronding van het Belastingplan.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T16:56:19",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:56:21",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is geen antwoord op mijn vraag. Ik vroeg niet naar de inzet van het kabinet voor zijn eigen Belastingplan. Ik vroeg naar de inzet van het kabinet bij de totstandkoming van het amendement. Daar vroeg ik naar. Dan kan de premier zeggen \"met JA21 op asiel\", maar dat was niet mijn vraag. Ik concludeer dat de heer Jetten het gewoon allemaal maar heeft laten gebeuren. Hij wist dat er frictie aan het ontstaan was in de coalitie tussen de VVD enerzijds en CDA en D66 anderzijds. Hij stond erbij en hij keek ernaar. Dan kan er maar één conclusie zijn: stap lekker op; nieuwe verkiezingen.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:56:57",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Wij hebben de afgelopen tijd, sinds Prinsjesdag, op tientallen punten onze plannen bijgesteld. Daarmee — dat blijf ik ook herhalen — zijn we er als kabinet van overtuigd dat het voorliggende Belastingplan en de box 3-novelle, die ook voorligt, waar u vandaag over gaat stemmen, recht doen aan de gevoelens in de Kamer en dat die ook ongeamendeerd eigenlijk op hele brede steun zouden moeten kunnen rekenen. Die box 3-novelle zou vandaag met rechts aan een meerderheid geholpen kunnen worden. Het Belastingplan lijkt met partijen vanuit het centrum en centrumlinks aan een meerderheid te kunnen komen. Daarmee heb je twee onwijs belangrijke voorstellen, die goed zijn voor Nederland, die goed zijn voor investeringen in de economie, in veiligheid, in koopkracht, die je hier vandaag met elkaar zou kunnen afronden.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:57:41",
+   "spreker": {
+    "id": "457964c8-b4ba-4fa8-ad80-d2dea54e7c94",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jesse Klaver",
+    "verslagnaam": "Klaver",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wil eigenlijk alleen iets ophelderen voor mensen die niet weten hoe amendementen, wijzigingsvoorstellen, tot stand komen. Hier in de Tweede Kamer hebben we een fantastisch Bureau Wetgeving. Zij hebben tot op het allerlaatste moment gewerkt met deadlines die onmogelijk zijn. Hulde en heel veel dank. Maar ook is er de amendementenservice op het ministerie van Financiën. Dat is een service die beschikbaar is voor ieder Kamerlid dat een amendement indient. Wij hebben heel veel hulp gehad van het departement van Financiën. Ook veel dank aan alle ambtenaren op dat departement die daaraan hebben meegewerkt. Dat is een service zonder politieke sturing en dat moet ook vooral zo blijven. Dat is de wijze waarop wij aan dit amendement hebben gewerkt en dat is de betrokkenheid van het ministerie van Financiën geweest. Voor de rest hebben we onderhandelingen gehad met de fractievoorzitters, onder anderen met de heer Bontenbal. Ik had het graag anders gezien; hij heeft me nog net niet kopje-onder geduwd, maar dit is wel hoe het is gegaan.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T16:58:35",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Minister-president, wenst u daar nog op te reflecteren? Het was namelijk een interruptie.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:58:36",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Nee.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T16:58:40",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is wel apart dat de minister-president zegt \"box 3 kan via rechts\" en \"het Belastingplan kan via links\", terwijl het amendement van links ontraden wordt. Ik snap het allemaal maar niet. Als je op een rotonde zowel links als rechts wilt afslaan, ga je rechtdoor en dan knal je meestal tegen een of ander beeld of plantsoentje op. Ik vrees dat dat hier ook gaat gebeuren.\nDe minister-president zegt: ik heb er alles aan gedaan. Maar als dit kabinet, deze minister-president, echt vindt dat alles gedaan is, is dat echt zwaar teleurstellend, om de meest milde uitdrukking te gebruiken. Er is voor de zomer namelijk geen enkel overleg geweest over hoe we richting de augustusbesluitvorming zouden kunnen gaan met de oppositie. Daar is geen enkele poging toe gedaan. Zelfs op de laatste zaterdag waarop we nog een overleg hebben gehad — dat is anderhalve week geleden — gingen we uit elkaar met: \"We gaan verder praten. U hoort nog van ons.\" Vervolgens krijgen wij hier op woensdagavond te horen dat het klaar is en dat de coalitie het maar uit moet zoeken. Processen worden niet eens afgehecht. De heer Eerdmans heeft gisteren nog een telefoontje van de minister-president gehad. Wij hebben helemaal niets meer gehoord sinds de laatste keer dat we overleg hebben gehad. Dan kun je toch niet zeggen dat er alles aan gedaan is? Of je kunt niet meer, of je snapt niet wat er nodig is. Dat werkt toch niet? Dat is toch niet wat een leider hoort te doen?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:00:05",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Al voor de zomer hebben de minister van Financiën en ik deels gezamenlijk en deels afzonderlijk van elkaar gesprekken gevoerd met heel veel fracties in dit huis, ook met de BBB-fractie. Volgens mij waren er twee fracties die na het eerste gesprek zeiden: het was gezellig, maar u hoeft niet meer langs te komen. Met heel veel andere fracties zijn er wel degelijk meerdere gesprekken geweest. In de zomer werden die heel intensief gevoerd met een aantal partijen, in aanloop naar de besluitvorming voor Prinsjesdag. Ook in de afgelopen twee maanden waren er gesprekken over de aanpassingen die we hebben doorgevoerd. Neem bijvoorbeeld de extra miljarden die we hebben vrijgemaakt voor koopkracht, de doorgetrokken korting op de brandstofaccijnzen of de verlaging van de vliegbelasting, om die meer in balans te brengen met de landen om ons heen, een maximale onbelaste reiskostenvergoeding die wordt verhoogd, zodat forenzen minder geld kwijt zijn aan hun woon-werkverkeer, een aanpassing aan de motorrijtuigenbelasting en de vrachtwagenheffing, een verlaging van de glastuinbouwtarieven, uitstel van de btw-verhoging voor de sierteelt.\nZo kan ik nog wel even doorgaan. Dat zijn geen voorstellen die in het coalitieakkoord zaten; dat zijn voorstellen die in de Miljoenennota en in het Belastingplan zijn verwerkt, onder andere omdat de heer Vermeer zich daar heel hard voor heeft ingezet. Dat is ook de reden waarom wij als kabinet aan de Kamer vragen: beoordeel dit Belastingplan, met drie nota's van wijziging, op z'n merites. Het is een belastingplan dat misschien voor niemand perfect is, maar wel een belastingplan dat ons het komende jaar in staat stelt om fors te investeren in koopkracht, economie en veiligheid. Dat zijn precies de prioriteiten die ook de Kamer heeft aangegeven.\nDat neemt niet weg dat we over de stikstofaanpak, de medische ethiek, meer grip op migratie of de manier waarop je de economische groei aanjaagt, nog heel wat debatten te voeren hebben met elkaar. We zullen daar ook vervolggesprekken over voeren, omdat duidelijk is dat onder andere de partij van de heer Vermeer daar nog heel kritisch over is, ondanks de aanpassingen die we in het stikstofbeleid hebben gedaan, na overleg met LTO en NAJK. Beoordeel het Belastingplan en de novelle over box 3 op de inhoud die vandaag voorligt. Wij zijn heel erg bereid om de komende tijd met elkaar te blijven zoeken naar breed draagvlak.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:02:22",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tijdens een van die overleggen heb ik zelfs nog een gehoortest moeten doen om na te gaan of hetgeen wij zeiden, daadwerkelijk gehoord was en begrepen werd. Dit is precies het punt. Nu krijgen we weer het hele riedeltje van wat hier allemaal zo fantastisch aan is. Neem bijvoorbeeld de btw op sierteelt. Die verhoging was er nooit; die is ingevoerd. Vervolgens moeten wij blij zijn dat die is teruggedraaid. In de kleine letters moeten we er dan achter komen dat die slechts voor één kwartaal is teruggedraaid en dat de discussie erover daarna weer begint. Er ís niet eens onderhandeld met ons. We hebben steeds alleen maar dingen uitgewisseld en zijn nooit tot een onderhandeling gekomen. Dan kan de minister-president toch gewoon toegeven dat het nooit tot een onderhandeling gekomen is en dat er hier en daar wat weggegeven is in de verwachting \"dan vinden ze het wel goed\"? Nou, ik kan de minister-president één ding vertellen. Ik hoop dat hij ooit onderhandeld heeft over meer dan zijn salaris en zijn hypotheek, maar als hij dat gedaan heeft, dan weet hij toch dat je, als je in een onderhandeling begint met dingen weggeven, tot helemaal niks komt en dat dat niet automatisch leidt tot een akkoord?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:03:29",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik vind het oprecht spijtig dat de heer Vermeer die nasmaak heeft overgehouden aan die gesprekken, want wij hebben echt met de beste intenties deze wijzigingen op het Belastingplan en de Miljoenennota doorgevoerd. De heer Vermeer heeft zich bijvoorbeeld ook, en dat was echt wel een kantelpunt in het debat, heel stevig achter de eisen van de vakbonden geschaard om de voorgenomen hervormingen op de SZW-begroting eruit te halen. Daardoor zou er echter ruimte zijn ontstaan voor overleg met de sociale polder om te kijken of werkgevers, werknemers en het kabinet de komende jaren tot gezamenlijke afspraken kunnen komen over economische groei en hervormingen van de sociale zekerheid.\nAls de BBB die stellingname niet had ingenomen, weet ik niet of we als kabinet tot zo'n grote aanpassing van onze plannen waren gekomen. 6 miljard aan bezuinigingen hebben we uitgesteld, uit de boeken gehaald, om recht te doen aan de eisen van de polder, gesteund door onder anderen de heer Vermeer. Dat hebben wij nooit lichtzinnig opgevat. Dat hebben we heel bewust gedaan, onder andere vanwege uw inzet, meneer Vermeer. Ik vind het spijtig dat we dat niet goed genoeg met de heer Vermeer hebben afgehecht en dat hij het gevoel heeft dat hij soms tegen een muur heeft zitten praten, terwijl wij wel heel serieus naar hem hebben geluisterd.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:04:40",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:04:41",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Volgens mij trekt de minister-president de juiste conclusie, want dat gevoel is er inderdaad. Weet je, we stonden daar op een podium met de FNV om te laten zien dat wij heel verschillend denken over hoe dingen gedekt moeten worden en hoe ze betaald moet worden, maar ook dat we het over één ding keihard eens zijn. Dat is dat mensen die er niets aan kunnen doen dat ze in de WIA zitten, omdat ze ziek zijn of een beperking hebben, niet gepakt moeten worden. Je moet niet beginnen met bezuinigingen, maar met systeemwijzigingen. De systemen zijn verrot en niet de mensen. En dát moet aandacht hebben.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:05:20",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat heeft de heer Vermeer dus ook heel helder gemaakt de afgelopen tijd. Als ik het zelf heb over een serieuze doorstart van deze coalitie en dit kabinet, dan bedoel ik, nogmaals, dus niet alleen de samenwerking in de ministerraad of tussen de coalitiefracties, maar zeker ook de samenwerking met oppositiepartijen, want we hebben elkaar nodig. Wij steunen op 66 zetels in het parlement. We hebben dat de afgelopen maanden, of het nou gaat om de migratiewetten, de versnelling van de woningbouw of een aantal andere zaken, met heel brede steun kunnen doen. Maar zeker, bij de onderhandelingen over de financiën is dat gewoon niet goed genoeg gegaan.\nDus een serieuze doorstart vraagt ook om een andere kijk op hoe je als minderheidscombinatie samenwerkt. Dat heeft uw parlement onlangs ook in Denemarken en Noorwegen gezien. U bent daar geweest om inspiratie op te doen over hoe je zo'n minderheidscombinatie goed kunt laten functioneren. Dat zullen we dus zeker betrekken bij de gesprekken die over die doorstart gaan plaatsvinden.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:06:22",
+   "spreker": {
+    "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Stoffer",
+    "verslagnaam": "Stoffer",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat amendement van PRO en Volt, waarover CDA en D66 een deal hebben gesloten, sloeg gisteren in als een bom. Het betekent ook dat we vandaag in een situatie zitten die zeer precair is. Nu gaat het gerucht dat staatssecretaris Eerenberg mee heeft gewerkt en mee heeft geschreven aan dat amendement. Mijn vraag is: kan de premier dat gerucht ontkrachten?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:06:47",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Kabinetsleden schrijven niet mee aan amendementen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:06:50",
+   "spreker": {
+    "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Stoffer",
+    "verslagnaam": "Stoffer",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er is dus geen betrokkenheid geweest van de staatssecretaris bij het maken van het amendement dat tot deze deal heeft geleid?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:07:00",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat klopt. De vraag die daarstraks werd gesteld over ... Er zijn technische checkvragen gesteld. Dat gebeurt regelmatig, maar daar wordt niet alleen door het Bureau Wetgeving, maar ook door ambtelijke ondersteuning op de departementen antwoord op gegeven.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:07:17",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:07:18",
+   "spreker": {
+    "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Stoffer",
+    "verslagnaam": "Stoffer",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We kunnen dus concluderen dat deze hele deal is gesloten zonder enige betrokkenheid vanuit het kabinet.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:07:26",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Kabinetsleden hadden niet de taak om nog aan amendementen te klussen. Wij staan hier om een Belastingplan met drie nota's van wijziging te verdedigen. En dat is een Belastingplan waarvan wij zeggen: dat is goed voor Nederland. De oproep aan uw Kamer is: steun dat, zodat we dit de komende jaren kunnen inzetten voor forse investeringen in koopkracht, veiligheid en welvaart. Vandaar willen we met elkaar verder kunnen bouwen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:07:47",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zie en ik hoor dat de premier goed voorbereid naar dit debat is gekomen en al deze teksten klinken in theorie natuurlijk allemaal prima. Laten we daarom even terug naar de praktijk gaan. We hebben de situatie dat de VVD vandaag heeft aangeven dat ze niet voor het Belastingplan gaat stemmen als het amendement van PRO wordt aangenomen. Hoe ziet de premier dan nog zijn kabinet? Het zou een uitzonderlijke situatie zijn dat een coalitiegenoot tegen het eigen Belastingplan stemt en dat een minister van Financiën eigenlijk wordt gedwongen om dat plan uit te gaan uitvoeren. En het gaat dan nota bene ook nog eens om een amendement dat het kabinet niet positief apprecieert.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:08:26",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Laat ik allereerst nogmaals benadrukken dat het kabinet echt hoopt dat zowel de novelle box 3 als het Belastingplan dat nu voorligt, op steun in deze Kamer kan rekenen. Dat is namelijk een verstandige manier om die langslepende discussie over vermogenswinstbelasting op te lossen en vele miljarden extra vrij te maken voor koopkracht en allerlei investeringen die goed zijn voor Nederland. Ongeacht wat de uitkomst van de stemmingen is, is duidelijk dat het proces van de afgelopen weken en maanden iets heeft gedaan met de verhoudingen en het vertrouwen binnen de coalitie. Daar zullen we heel serieus mee aan de slag moeten. Dat vraagt een serieuze doorstart in hoe je met elkaar samenwerkt, waar je de inhoudelijke prioriteiten legt en hoe je daar ook de oppositie bij betrekt, omdat we in die minderheidscombinatie zitten. Ik ben het wat dat betreft volstrekt eens met wat ik vandaag ook van de drie fractievoorzitters heb gehoord, namelijk dat die wil om dat met elkaar beter te doen, er heel duidelijk is.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:09:27",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik hoor weer allemaal mooie woorden en ik kan het ook allemaal wel ondersteunen wat er wordt gezegd. Maar gewoon even praktisch: hoe gaat dat dan? Als straks de VVD tegen het eigen Belastingplan stemt, hoe ziet de premier dan de voortgang van zijn kabinet? Het is namelijk ongekend in de geschiedenis dat een coalitiegenoot tegen het eigen Belastingplan stemt. Dat is nog nooit gebeurd. Ik hoor graag de mening of de visie daarop van de premier. Hoe gaat hij daarmee om? Hoe ziet hij het dan voor zich? Wat gaat er dan gebeuren in de praktijk?",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:09:59",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De minister-president.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:10:00",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dan ga ik terug naar de vraag waarom deze drie partijen in dit kabinet zijn gestapt. In een zeer gefragmenteerd parlement waren er geen meerderheidscombinaties mogelijk. Deze drie partijen zijn geen fusie met elkaar aangegaan, maar wel een bloedserieuze samenwerking om op een aantal dossiers te zeggen: daarin verdient Nederland een doorbraak. Snellere woningbouw voor betaalbare huizen; meer grip op migratie, zodat er minder instroom is en de opvang beter wordt georganiseerd; een forse investering in economische groei, omdat die nodig is om onze uitgaven aan defensie, onderwijs en zorg te betalen. We zijn het niet altijd met elkaar eens en dat leidt in die coalitie ook af en toe tot stevige debatten. Dat mag en dat móét zelfs ook. Ik heb nog steeds de overtuiging dat deze drie partijen elkaar in die grote opgaven kunnen vinden en dat we met een serieuze doorstart daar ook echt werk van kunnen maken.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:10:51",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:10:52",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, maar de premier geeft geen antwoord. Hoe gaat dat nou straks in de praktijk als de VVD dat Belastingplan afstemt? Dat is nog nooit gebeurd in de geschiedenis van coalities in Nederland. Ik heb geen voorbeeld. Het is in 100 jaar, 150 jaar nog nooit gebeurd dat je een coalitiepartner hebt die zegt: dit Belastingplan, daar stemmen wij tegen. Dat is net wel aangegeven. Ik wil gewoon van de premier weten ... Dus niet: daar moeten we over nadenken, de processen, de doorstart en de reset. Dat zijn allemaal woorden, maar hoe gaat dat nou in de praktijk? Laat ik de premier helpen. Een normaal antwoord zou zijn: \"O jee, mijn coalitiegenoot stemt niet voor ons eigen Belastingplan; ik zie het niet meer zitten, ik treed af\". Dat zou denk ik het meest logische antwoord zijn dat je in zo'n situatie zou verwachten.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:11:42",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "We zitten inderdaad in een bijzondere situatie. Dat zitten we al vanaf de start van dit kabinet, want het is een kabinet dat altijd op zoek moet naar meerderheden in Tweede en Eerste Kamer. Dat hebben we vanaf dag één ook bloedserieus genomen. We hebben als kabinet onze voorstellen nu een aantal keren gewijzigd om daarmee recht te doen aan gevoelens in de Kamer. Dat leidde nog niet tot zicht op die meerderheid, ook in de senaat. Er zijn vandaag meerdere amendementen en moties door de oppositie ingediend om te kijken of die mogelijkheid er wel is. Dan is het ook aan de drie coalitiefracties om voor henzelf af te wegen hoe ze zich daartoe verhouden.\nOngeacht de uitkomst van vandaag zullen wij als kabinet en als coalitie die serieuze doorstart moeten maken. Dat verdient Nederland ook, want Nederlanders die de afgelopen weken naar Den Haag hebben gekeken, begrijpen er nu namelijk — werkelijk waar — helemaal niks meer van. Dat wij hier op een begroting waar we 400 miljard aan belasting innen, elkaar nog aan het doodvechten zijn op de laatste paar honderd miljoen ... 400 miljard aan inning van belastingen en premies, en hier gaat het laatste debat over een paar honderd miljoen. Dat kún je niet uitleggen aan het land, terwijl er zo veel geopolitieke onrust is en er zo veel opgaven liggen in Nederland. Wij zijn het aan onze stand verplicht om te kijken hoe we hier uitkomen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:12:57",
+   "spreker": {
+    "id": "56a43503-f031-4cec-bced-29ef74caa676",
+    "soort": "Tweede Kamerlid",
+    "naam": "Joost Eerdmans",
+    "verslagnaam": "Eerdmans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Kan die serieuze doorstart van het kabinet ook zonder VVD-bewindslieden?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:13:05",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Wat mij betreft is die doorstart gericht op hoe je met deze drie partijen de samenwerking in kabinet en coalitie verbetert en op hoe je je beter kan verhouden tot de verschillende meerderheden die hier in de Kamer te vinden zijn. Maar dat doen we altijd vanuit de vraag: hoe doen we recht aan onze belofte om een aantal grote doorbraken te forceren op migratie, veiligheid, het aanjagen van de economie en meer betaalbare woningen?",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:13:30",
+   "spreker": {
+    "id": "56a43503-f031-4cec-bced-29ef74caa676",
+    "soort": "Tweede Kamerlid",
+    "naam": "Joost Eerdmans",
+    "verslagnaam": "Eerdmans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het antwoord is dus ja? Er kan morgen dus een kabinet zijn zonder de VVD?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:13:33",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Nee, wat mij betreft niet. Deze drie partijen zijn hieraan begonnen. We erkennen dat het moeizaam is gegaan in de afgelopen weken en maanden, vooral op het financiële deel, want ondertussen hebben we ontzettend veel wetgeving en nieuw beleid erdoorheen kunnen krijgen, onder andere met steun van JA21. Dat is geweldig, maar op deze manier de financiële besluitvorming doen is niet goed voor Nederland. Dat moet beter. Dat vraagt van deze drie partijen gezamenlijk een andere en betere aanpak.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:13:59",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:14:01",
+   "spreker": {
+    "id": "56a43503-f031-4cec-bced-29ef74caa676",
+    "soort": "Tweede Kamerlid",
+    "naam": "Joost Eerdmans",
+    "verslagnaam": "Eerdmans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het amendement-Klaver/Dassen wordt ontraden door het kabinet. Even voor de duidelijkheid na alle warme woorden: dat wordt gewoon keihard ontraden. Het is onuitvoerbaar, te duur, slecht voor de economie enzovoorts, maar is het amendement-Klaver/Dassen ook in strijd met het coalitieakkoord?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:14:17",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat was sowieso het geval bij het amendement dat vorige week was ingediend. Daar zaten ook een aantal maatregelen in die expliciet zijn uitgesloten in het coalitieakkoord. Het amendement dat nu voorligt, vraagt meer om een politieke weging op de maatvoering die daarin zit. We hebben het amendement inderdaad ontraden. Dat geldt voor een heel groot deel van de amendementen die zijn ingediend. Voor veel van die amendementen geldt dat het kabinet gewoon zorgen of kritiek heeft met betrekking tot de dekking die bij het amendement is aangedragen. Dat geldt voor ongeveer driekwart van de amendementen die nu voorliggen. Het is echt aan uw Kamer om dat te wegen bij de stemmingen, later vandaag.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:14:57",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We stemmen straks over de amendementen en daarna over het Belastingplan. Met het aannemen van het amendement-PRO/Volt stemt de VVD tegen. Dan heb je dus een flink aantal kleinere partijen nodig, waarvan de meeste al hebben aangegeven dat ze tegen het Belastingplan zullen stemmen. Betekent dit feitelijk niet gewoon dat het kabinet op zijn gat ligt?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:15:27",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik heb net ook al richting de heer Eerdmans en de heer Markuszower geantwoord dat dit kabinet zich heel serieus zal moeten herbezinnen op hoe de samenwerking beter kan, omdat je tot vlottere besluitvorming wil kunnen komen, juist ook op de financiële thema's. Die zijn namelijk de basis van de grote ambities die we hebben voor al die grote doorbraken die in het coalitieakkoord zijn afgesproken.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:15:54",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mooi rond antwoord, maar het is geen antwoord op de vraag. Dit kabinet steunt niet meer op 66 zetels, want de VVD stemt straks tegen het Belastingplan. Dat betekent feitelijk dat het ver voorbij een doorstart is. Het is gewoon volledig opnieuw beginnen. Als de sfeer zo verziekt is, is het dan niet gewoon eerlijk om dat te zeggen in plaats van als een soort manager te zeggen: we gaan gewoon met elkaar weer eens praten over hoe we het anders gaan doen?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:16:30",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "De Kamer stemt straks eerst over de amendementen. Dan zullen we zien welke amendementen een meerderheid hebben gehaald en welke niet. Daarna stemt uw Kamer over het al dan niet geamendeerde Belastingplan. Tot de uitslag van die stemming zal ook het kabinet zich moeten verhouden.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:16:46",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:16:48",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maar als je gewoon kijkt naar de stemverhoudingen, zie je het volgende. Je hebt de SP nodig bij een gewijzigd Belastingplan. Die was duidelijk. De Partij voor de Dieren heb je nodig. Die was ook duidelijk. Van DENK kan ik me niet voorstellen dat ze het steunen na de inbreng, hoe relevant de partij zich inmiddels ook voelt. Van de Groep Markuszower weten we helemaal niet wat daar gaat gebeuren. Feitelijk heb je straks toch gewoon geen meerderheid voor het Belastingplan? Deze minister-president heeft toch een gigantisch probleem?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:17:22",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Het spijt me, zeg ik richting mevrouw Keijzer, dat ik weer in herhaling ga vallen, maar nogmaals: dit kabinet heeft hier een Belastingplan voorliggen waarvan wij zeggen dat het een heel goed Belastingplan is. Er zitten namelijk forse koopkrachtverbeteringen in. Er zitten allerlei extra investeringen in die goed zijn voor de economie, voor de veiligheid, voor een hardere aanpak op migratie. Van het kabinet hoeven die amendementen sowieso niet. Dat is dus nogmaals de oproep: beoordeel het Belastingplan dat voorligt, net als de novelle op box 3, op de inhoud, en doe met ons mee om dat over de streep te trekken, zodat we voor Nederland aan de slag kunnen daarmee. Dat er daarnaast een grote opdracht ligt voor mij als minister-president en de andere leiders van de coalitie om die goede doorstart voor elkaar te krijgen, is klip-en-klaar.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:18:12",
+   "spreker": {
+    "id": "ad93f400-387d-4506-96e8-6926f478e063",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ruben Brekelmans",
+    "verslagnaam": "Brekelmans",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heb in mijn bijdrage gezegd dat er een fundamentele reset nodig is. De minister-president spreekt iets eufemistischer, denk ik, over een doorstart. Maar het is wel een politiek feit dat als het Belastingplan niet aangenomen zou worden, je er niet van kan spreken dat er slechts een doorstart mogelijk is. Nu zou het kunnen dat met de voorkeuren die er nu liggen en met wat er is aangegeven over wat er nu ligt, het Belastingplan het vanavond niet haalt. Zegt de minister-president dan ook: geef mij de mogelijkheid om een doorstart te maken, en dan in dat geval de stemmingen liever uitstellen naar volgende week, zodat er in ieder geval nog tijd is om tot een oplossing te komen?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:18:54",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat kan altijd, afhankelijk ook van de stemmingen over de amendementen straks. Er zijn volgens mij twee manieren om naar zo'n doorstart te kijken. Wij zijn het als kabinet aan onze stand verplicht om er in alle gevallen voor te zorgen dat er een Belastingplan komt voor het komende jaar. Mocht dat vandaag niet lukken, dan zullen we zo snel mogelijk een heel kaal Belastingplan moeten maken om er in ieder geval voor te zorgen dat dit land het komende jaar in ieder geval op minimale basis goed door kan functioneren. Maar ik denk dat dit debat ook heeft aangetoond dat die reset, zoals de heer Brekelmans het noemt, of de doorstart, zoals ik het noem, over meer gaat dan alleen dit Belastingplan. Wij hebben met elkaar de verantwoordelijkheid om tot een goed Belastingplan te komen, maar we hebben met elkaar ook de verantwoordelijkheid om lessen te trekken uit de samenwerking van de afgelopen acht maanden. We moeten kijken: hoe kun je de verhoudingen en het vertrouwen in de coalitie weer versterken en hoe kun je in een minderheidscombinatie de samenwerking met het parlement verbeteren?\nIk zie dus een kortetermijnopdracht om tot een goed Belastingplan te komen, dat op steun in deze Kamer en in de Eerste Kamer kan rekenen. En ik zie een opdracht die wat langer zal duren, namelijk om nog veel fundamenteler te kijken: hoe werk je samen en hoe krijg je de komende tijd een aantal hele grote inhoudelijke hervormingen met een breed draagvlak door beide Kamers?",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:20:14",
+   "spreker": {
+    "id": "ad93f400-387d-4506-96e8-6926f478e063",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ruben Brekelmans",
+    "verslagnaam": "Brekelmans",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ben dat met de minister-president eens. Ik heb in mijn bijdrage ook gezegd: vandaag hebben we het met name over het Belastingplan, maar die fundamentele reset staat daar los van, want die is hoe dan ook nodig. Alleen, het is natuurlijk wel zo dat als het Belastingplan niet wordt aangenomen, dat een stuk ingewikkelder wordt. De minister-president deed een oproep: \"Er ligt namens het kabinet een goed Belastingplan. Dat heeft het kabinet al eerder aangepast en naar de Kamer gestuurd. Stem daarvoor.\" Dat vind ik een hele logische oproep. Maar mijn vraag aan de minister-president is: stel nou dat we erop afstevenen dat er een amendement wordt aangenomen en het Belastingplan dan geen meerderheid heeft, doet hij dan ook de oproep om de stemmingen uit te stellen, zodat hij ook de komende dagen nog de regie kan pakken om tot een oplossing te komen?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:21:00",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik wil er alles aan doen om met elkaar tot een oplossing te komen. Ik zie wel, ook na dit debat, dat meerdere fracties nog aan het afwegen zijn hoe ze zich straks überhaupt tot de amendementen gaan verhouden. Ik denk dat we na de stemmingen over die amendementen goed met elkaar moeten wegen wat wijsheid is ten aanzien van de stemmingen van later vanavond.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:21:20",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Allereerst een informatieverzoek. Ik zou heel graag voor 17.00 uur vandaag nog ...",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:21:36",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat wordt héél ingewikkeld.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:21:40",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Sorry! De tijd vliegt.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:21:43",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik sta altijd aan de kant van de Kamer, maar dit gaat ze echt niet lukken!",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:21:47",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Maak er dan maar 19.00 uur van. Ik zou graag alle informatie willen hebben over wat er gewisseld is over het amendement van PRO en Volt met een of meerdere kabinetsleden, want wij krijgen toch echt signalen dat er gewoon actief meegewerkt is aan de samenstelling daarvan en dat dat over meer gaat dan alleen informeren over of iets technisch wel of niet kan.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:22:02",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik geleid het formeel door naar het kabinet.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:22:07",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is punt één. Punt twee. Moet ik uit het interruptiedebatje net tussen de heer Brekelmans en de minister-president opmaken dat er sinds gisteravond gewoon helemaal geen contact geweest is tussen kabinet en VVD-fractie?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:22:26",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat contact is er geweest.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:22:27",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:22:30",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Wel. Dus dit wordt een soort relatietherapie na de scheiding of hoe moet ik dit opvatten?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:22:38",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik zie een aantal mensen die gewoon op zoek zijn naar hoe we op een beetje een verantwoordelijke manier deze debatten over het Belastingplan en de novelle box 3 tot een goed einde kunnen brengen, omdat Nederland er niet mee geholpen is als we volgende week geen Belastingplan hebben aangenomen voor 2027 en omdat dat ook een gemiste kans is gezien alles wat er in dit Belastingplan, in de drie nota's van wijzigingen en in een aantal amendementen voor Nederland wordt voorgesteld.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:23:02",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat is meer een mening dan een feit, want volgens sommigen die daarmee aan het rekenen geweest zijn, is het huidige Belastingplan eigenlijk prima en beter voor burgers en ondernemers dan hetgeen voorligt. En als we geen nieuw Belastingplan aannemen, dan houden we het oude. Dan hoeft de staatssecretaris alleen maar een beleidsbesluit te nemen over €0,18 korting op de benzine en dan kunnen we gewoon verder met z'n allen.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:23:28",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat is nou echt de politieke weging die de Kamer moet maken in zo'n geval, maar dit Belastingplan en ook de verschillende begrotingen bevatten natuurlijk enorme intensiveringen in een hele hoop beleidskeuzes. Het gaat om miljarden aan verbouwingen die goed zijn voor het Nederlandse bedrijfsleven, die goed zijn voor werkenden en die ook goed zijn voor een aantal investeringen die we doen, bijvoorbeeld in het aanjagen van economische groei. Het zou dus echt een gemiste kans zijn om dit Belastingplan weg te stemmen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:23:58",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het kabinet heeft het amendement van de heer Klaver en de heer Dassen, waar de partij van de premier nota bene voor lijkt te gaan stemmen, ontraden. Zou de premier mij kunnen vertellen wat de exacte inhoudelijke en technische redenen zijn voor het ontraden van het amendement?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:24:14",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat staat in de brief die naar de Kamer is gestuurd met de appreciatie van alle amendementen. Daar staat vrij uitgebreid zowel de inhoudelijke als de technische onderbouwing bij het oordeel \"ontraden\".",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:24:26",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan kunnen alle kijkers thuis, die misschien heel benieuwd waren wat dat precies is, die brief even opzoeken. Een beetje flauw dat dat dan hier niet even verteld kan worden. Ik heb hem inderdaad gelezen. Waar het op neerkomt, is dat als het amendement een meerderheid haalt en het daadwerkelijk in een door de Kamer goedgekeurd Belastingplan terechtkomt, het kabinet in feite een Belastingplan zal moeten uitvoeren waar het het zelf mee oneens is. En dat niet alleen. Het is ook nog eens onuitvoerbaar, omdat er een blanco cheque van 400 miljoen ligt. Hoe ziet de premier dit voor zich? Gaat hij dan samen met zijn minister van Financiën, die nota bene van de VVD is, die het daar helemaal niet mee eens zijn, een plan uitvoeren dat ten eerste onuitvoerbaar is en ten tweede ook nog eens tegen de prioriteiten en de richting die het kabinet ziet, indruist?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:25:15",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Bij elke wetgeving kan de Kamer voorstellen tot wijziging indienen. Dat heten amendementen. Bij elk amendement geeft het kabinet aan wat zijn oordeel daarop is. Dat hebben we gedaan op alle amendementen bij dit Belastingplan. Net als in voorgaande jaren zullen er nu waarschijnlijk amendementen worden aangenomen waarvan het kabinet heeft gezegd \"het is overbodig\" of \"we ontraden het\" en noem het maar op. Wij zullen uiteindelijk dan een totale weging maken over het Belastingplan dat in de Eerste Kamer komt te liggen en door het kabinet moet worden verdedigd. Ik heb net al aangegeven dat we als Nederlandse overheid elk jaar ruim 400 miljard aan belastingen en premies innen en dat de discussie zich nu toespitst op enkele honderden miljoenen. In die proporties zou ik ook echt hiernaar willen kijken.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:26:03",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:26:05",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De premier kan mij hier op een soort belerend toontje — excuses dat ik het zeg — gaan vertellen wat een amendement is. Ik neem aan dat iedereen hier dat weet.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:26:13",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Voor de kijker thuis.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:26:14",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ho, ho, ho, ho, ho, ho.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:26:17",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ah, we gaan het nu wel voor de kijker thuis vertellen. Fijn dat dat zelfinzicht is gekomen. Het is zo dat het specifieke amendement om een deel van de rijksbegroting gaat, maar dan slaat de premier het veel te plat. Het gaat namelijk over het verdienvermogen van Nederland, over de economie van Nederland, over het investeringsklimaat in Nederland, over het feit of ondernemers hier wel of niet willen zijn. Dan kan de premier dat nu afdoen met: ja, maar het is maar zo'n ding. Als hij dat daadwerkelijk vindt, dan moet hij het oordeel Kamer geven. Het is toch gewoon zo dat Nederland voor een groot probleem komt te staan met dit amendement, dat het kabinet dan een groot probleem heeft, dat het onuitvoerbaar is en dat de Nederlanders aan het kortste eind trekken?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:26:52",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Het amendement heeft een aantal dekkingen in zich, onder andere een taakstelling en een stelpost, waarbij het kabinet in de appreciatie heeft geformuleerd waarom we dat onverstandig vinden. Het amendement leidt ertoe, als het zou worden aangenomen, dat de lasten op vermogen iets worden verhoogd. Daar kan je een politiek oordeel over vellen. De opbrengst daarvan wordt ingezet voor een verlaging van de lasten op arbeid en dat is een verbetering van de koopkracht voor alle werkenden en een groot deel van de ib-ondernemers. De politieke vraag die daarboven hangt, is: vind je het signaal dat hiervan uitgaat verstandig of onverstandig voor het vestigingsklimaat? Ik heb vandaag heel duidelijk gehoord dat er in het parlement hele verschillende politieke oordelen over worden geveld. Dat is nou ook precies de rol die u als Kamer heeft op het moment dat er over amendementen wordt gestemd.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:27:38",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Vindt de minister-president dat er sprake is van een politieke crisis in zijn kabinet als een van zijn coalitiepartijen tegen het Belastingplan stemt?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:27:49",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Het is een ongekende situatie, die zich in alle jaren dat ik hier in Den Haag rondloop niet eerder heeft voorgedaan. Dat is dus een hele serieuze situatie. Die neem ik heel serieus. Dat geldt ook voor de vicepremiers en de drie fractievoorzitters. Zij hebben allemaal aangegeven dat ze zijn begonnen aan een hele serieuze klus. Het gaat goed als je kijkt naar de hervormingen op stikstof, de economie en de woningmarkt en als je kijkt naar het feit dat we de grootste wetswijziging op migratie in decennia erdoorheen hebben geloodst. Het gaat niet goed op de financiële besluitvorming en dat vraagt om een hele serieuze herbezinning.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:28:23",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik hoor de woorden \"reset\", \"herstart\" en \"herbezinning\". Betekent dat dat dit kabinet het programma dan ook inhoudelijk gaat veranderen?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:28:38",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Gisteravond heeft de partijleider van de VVD gezegd dat zij denkt dat dat nodig is als bepaalde amendementen worden aangenomen. Je moet dan heel serieus onderzoeken met elkaar wat daarvoor nodig is. Voor een deel gaat dat over de onderlinge samenwerking binnen kabinet en coalitie en over hoe je zakendoet met de oppositie. Als dat leidt tot inhoudelijke aanpassingen of bijstellingen, dan zul je dat met de drie coalitiepartijen moeten bespreken en dan zul je daar natuurlijk ook heel transparant over moeten zijn richting de Kamer en het land.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:29:14",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:29:15",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan concludeer ik dus dat de plannen van dit kabinet bij een herstart nog verder zullen worden aangepast in de richting van de VVD, terwijl de VVD een blokkade heeft opgeworpen richting PRO, een blokkade heeft opgeworpen om echt iets te doen aan de genocide die plaatsvindt in Palestina en een blokkade heeft opgeworpen als het gaat om het zwaarder belasten van vermogen en om ervoor te zorgen dat werkende mensen minder belasting hoeven te betalen. Dat zijn nogal wat blokkades. U gaat zo meteen dus eigenlijk een herstart doen om ervoor te zorgen dat de VVD nog meer haar zin krijgt. Dat gaat wat beloven voor het komende programma. Ik denk niet dat er dan meer steun in deze Kamer komt.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:29:55",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik ga er niet op vooruitlopen. Ik zeg alleen dat je er met open vizier in moet gaan op het moment dat je met elkaar heel serieus zegt dat je een herstart wil maken om de samenwerking te verbeteren. Daar ben ik toe bereid.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:30:11",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik hoorde de minister-president net iets zeggen over het bewuste, gewraakte, beruchte amendement, namelijk dat het geen dekking heeft, dat het lastig uitvoerbaar is en dat je een politiek oordeel over de inhoud kan hebben. Wat is dan het politieke oordeel van de minister-president daarover? Volgens mij is het nivellerend, slecht voor het vestigingsklimaat en daarmee in strijd met het regeerakkoord.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:30:36",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Het politieke oordeel van het kabinet is dat we het amendement ontraden.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:30:43",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dus het is niet zo dat je daar een politiek oordeel over kan hebben en dat dat aan de Kamer is, maar dat het politieke oordeel van de minister-president is dat het een slecht amendement is vanwege de redenen die ik net aangaf en dat hij daarmee afstand neemt van zijn eigen partij. Begrijp ik dat goed?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:30:58",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik deel niet de hele analyse die mevrouw Keijzer hierover geeft. Ik deel wel — dat heb ik net ook al gezegd — dat het kabinet dit amendement, net als vele andere amendementen, heeft ontraden, omdat wij van mening zijn dat de combinatie van het Belastingplan en de novelle over box 3 die voorligt een goede aanpassing is van een aantal belastingwetten in Nederland om daarmee de komende jaren te investeren in economische groei, veiligheid en het verbeteren van de koopkracht.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:31:26",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:31:27",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Duidelijk. Dan stel ik dus vast dat ook het kabinet zich niet herkent in wat de fracties van het CDA en D66 gedaan hebben de afgelopen tijd, zowel procedureel, want het is een zooitje, als inhoudelijk, want het is politiek ontraden.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:31:49",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Omdat het kabinet met de derde nota van wijziging de laatste wijzigingsvoorstellen naar het parlement heeft gestuurd, hebben we wel degelijk afgesproken dat het dan ook echt aan de Kamer is en dat alle drie de fractievoorzitters van de coalitie zich zouden inspannen om in de Tweede Kamer, maar zeker ook in de Eerste Kamer, te kijken wat er nodig is om een meerderheid voor dit voorstel voor elkaar te krijgen. We geloven namelijk dat dat beter is voor Nederland.\nDan nog een paar aanvullende vragen die aan mij zijn gesteld. Ik heb de meeste al beantwoord, dus het kan snel gaan. De heer Van Baarle met name had nog een paar vragen openstaan. Hij zei: dit Belastingplan bevat een aantal zaken, zoals accijnsverlagingen, maar ook breder in de Miljoenennota natuurlijk het Noodfonds Energie, die het een en ander doen voor meer geld in de portemonnee voor mensen met een lager inkomen of een middeninkomen, maar ook voor ondernemers in het midden- en kleinbedrijf. Hij spoort het kabinet aan: doe meer, omdat dit niet voldoende is. Dat is een aansporing die het kabinet heel serieus neemt, zeker ook richting de Voorjaarsnota. We hebben al aangegeven dat het kabinet een ambitieuze hervormingsagenda inzake de fiscaliteit wil presenteren, waarbij we nog gerichter gaan kijken hoe je een hele hoop belemmeringen kan wegwerken om ondernemen in dit land makkelijker te maken. Onder andere wat betreft de hoge boodschappenprijzen die de heer Van Baarle noemde, zijn we ons in Brussel zwaar aan het inspannen, omdat er een aantal Europese regels zijn die het Nederlandse bedrijven heel moeilijk maken om tegen de laagst mogelijke prijs in te kopen. Dat betaalt de Nederlandse consument elke dag aan de kassa.\nWe kijken dus niet alleen op het gebied van de fiscaliteit en de koopkracht, maar ook in wet- en regelgeving op andere gebieden heel serieus naar wat er mogelijk is om mensen echt te helpen om meer geld over te houden in de portemonnee. De fractie van DENK heeft daar in een aantal andere debatten voorstellen voor gedaan via amendementen en moties, die de komende tijd in stemming zullen komen. Maar wij zullen ons daar sowieso richting het voorjaar maximaal voor inspannen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:33:46",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Bent u daarmee aan het einde gekomen van uw beantwoording?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:33:48",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Volgens mij wel. Ik zie onder anderen mevrouw Bikker nog staan, dus ik heb misschien iets vergeten.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:33:53",
+   "spreker": {
+    "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mirjam Bikker",
+    "verslagnaam": "Bikker",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat valt mee. Ik wil de minister-president danken voor zijn beantwoording, maar ook wel markeren wat een spannend moment dit is. Ik vraag de minister-president of hij kan schetsen wat de gevolgen zouden zijn als het Belastingplan zou worden verworpen.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:34:10",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Als het Belastingplan wordt verworpen, vervallen heel veel van de intensiveringen die in dit Belastingplan zitten. Daarbij gaat het om forse verbeteringen van de koopkracht door het schrappen van de voorgenomen vrijheidsbijdrage, en een paar andere zaken. Het gaat om een verlenging van de korting op de brandstofaccijnzen. Dan gaat het echt om concrete euro's die mensen aan de pomp moeten afrekenen. Ik noem verder een aantal voorstellen op het gebied van reiskosten, de motorrijtuigenbelasting en de vrachtwagenheffing. Het betreft zeker ook een aantal extra stappen die we met onder andere de ChristenUnie en 50PLUS hebben besproken. Die zijn geland in voorstellen van die twee partijen ten aanzien van de ouderenkorting, de arbeidskorting en de specifieke zorgkosten, om er echt voor te zorgen dat concrete doelgroepen in een bepaalde leeftijdscategorie, of mensen die te maken hebben met chronische ziekte, het komende jaar er financieel op vooruitgaan.\nHet gaat dus niet alleen maar over het wegstemmen van het Belastingplan dat het kabinet aan de Kamer heeft voorgelegd, maar ook over een hele hoop verbetervoorstellen die door verschillende oppositiefracties zijn ingediend. Het zou echt zonde zijn als ook dat harde werk van mevrouw Bikker en de heer Struijs vanavond strandt, omdat het Belastingplan het eventueel niet haalt. Het kabinet heeft met volle overtuiging gezegd dat die voorstellen van 50PLUS en ChristenUnie gewoon echt betere voorstellen zijn dan wat er destijds in het coalitieakkoord is afgesproken.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:35:39",
+   "spreker": {
+    "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mirjam Bikker",
+    "verslagnaam": "Bikker",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mijn zorg is eigenlijk breder, namelijk dat we hier als politiek nog meer uitstralen dat we mogelijk allemaal zelf enorm gelijk hebben, maar dat de burger thuis dit najaar de rekening ziet oplopen door ons gedrag hier. Ik hoop dus heel erg dat we elkaar ook vanavond toch nog kunnen vinden op dat punt.\nDaarop vervolgend: dit slaat ook wel diepe wonden in het vervolg, schat ik in, als ik luister naar wat ik nu zo hoor. Het kabinet heeft nogal wat uitdagingen liggen, ook voor het komende jaar. Ik zou de minister-president ook willen vragen om daarop te reflecteren en dus niet alleen op de reset van het kabinet of de coalitie, maar ook op de vraag: hoe komen we weer tot een gedragen manier van besturen? Want de bestuurbaarheid van ons land komt steeds meer onder druk te staan.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:36:32",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat ben ik met mevrouw Bikker eens. We zijn nu in een politieke situatie waarbij er in de Tweede Kamer zeventien fracties zijn en in de huidige Eerste Kamer twintig fracties. Niemand heeft de meerderheid; ik zou zelfs zeggen: bij lange na niet. We zullen het dus met elkaar moeten doen. Waar mijn diepe overtuiging zit, is dat wij, zeker ook met deze politieke generatie, kunnen laten zien dat we weer geloven in die oer-Hollandse gedachte dat polderen en compromissen sluiten beter is voor dit land. Dit land is daar groot mee geworden. Daarmee hebben we ons kunnen wapenen in de strijd tegen het water. Het is mijn overtuiging dat we daarmee als klein land een van de sterkste economieën ter wereld hebben gebouwd en dat daar de komende tijd voor ons ook een hele grote opdracht ligt, bijvoorbeeld door met werkgevers en werknemers samen afspraken te maken over 2% economische groei per jaar en een hervorming van de sociale zekerheid, zodat veel meer mensen aan een goede baan kunnen komen.\nDat zijn geen hervormingen die de coalitie met z'n drieën moet maken of die je alleen maar in de polder kan maken; ik hoop dat we heel veel partijen in de Kamer daar actief bij kunnen betrekken om ervoor te zorgen dat we daar vijf, tien of vijftien jaar mee vooruit kunnen. Datzelfde geldt voor ons nieuwe nationale investeringsinstituut of de extra middelen die we vrijmaken voor Defensie. Daar moeten we komende tijd met elkaar nog een paar behoorlijke noten over kraken. Waar geven we dat geld aan uit? Hoe zorgen we ervoor dat dat echt leidt tot meer economische groei, het eerlijk delen van de welvaart en het beter beschermen van ons land? Dat zijn hele grote vragen in een turbulente wereld. Nederlanders verlangen daarom van ons: u bent voor vier jaar gekozen, dus probeer dan ook vier jaar een beetje fatsoenlijk samen te werken en een paar problemen op te lossen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:38:17",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Afrondend.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:38:18",
+   "spreker": {
+    "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mirjam Bikker",
+    "verslagnaam": "Bikker",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mooie woorden van de premier, ook zeer terecht, maar dat zal ook echt om doordenken vragen. Hoe komen we weer uit de groef en de schuttersputjes die aan alle kanten zijn ingenomen? Zodra één partij wat indient, wordt de ander al boos omdat het naar links of naar rechts ruikt. We zijn allemaal bevangen door een verkiezingskoorts. Ik zou de premier toch willen vragen: als hij bezig gaat met de reset, bekijk het dan breder, ook op de grotere thema's die er liggen. Voorkom dat we, zoals in de afgelopen maanden, telkens ontwikkelingen krijgen uit het kabinet waarbij ik verschillende richtingwijzers zie, maar geen koers. Als we die les niet leren, denk ik echt dat het Belastingplan nooit meer \"saai\" en \"van de nerds\" wordt. Het zou toch beter zijn als we daar weer landen.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:39:06",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Daar ben ik het volledig mee eens.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:39:10",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nog even over het informatieverzoek. Ik heb daar een tijdstip aan gehangen, maar het kan zo zijn dat we hier al eerder klaar zijn en dan kan ik het kabinet niet meer bevragen over die informatie. Dat is wel nodig om het goed te kunnen controleren. Is het een idee dat er na de derde termijn gewoon voor een uur geschorst wordt voor het overleg over de amendementen en dat we daarna, als die brief er is, even kijken of we het nog noodzakelijk vinden om het kabinet daarover te bevragen? Of kunt u tegen het kabinet zeggen: het moet binnen zijn voordat ik met de hamer sla voor het einde van de derde termijn?",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:39:47",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Als iemand dat doet, dan bent u dat, op grond van artikel 68 over informatie. Ik ben slechts uw postduif. Wellicht kunnen we even vragen wat de minister-president kan bieden en hoe hij kijkt naar het informatieverzoek van de heer Vermeer. Om nou het hele debat weer een uur te schorsen en daarna nog een uur te schorsen voor fractievergaderingen …",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:40:05",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, ik dacht dat …",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:40:06",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "… over moties en amendementen, en daarna nog weer een uur te schorsen voor de stemmingen over de wet, vind ik wat ruig — dat is het woord van de week. Wellicht kunnen we eerst even horen hoe de minister-president naar uw informatieverzoek kijkt?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:40:18",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik ben heel even aan het spieken, sorry daarvoor. De staatssecretaris heeft zo meteen volgens mij nog een paar vragen om te beantwoorden. Hij kan, denk ik, nog een keer herhalen wat ik net al heb gezegd, namelijk dat het kabinet niet meeschrijft aan amendementen, want daarvoor kan Bureau Wetgeving van de Tweede Kamer technische bijstand verlenen, net als vakambtenaren op de departementen, die veelvuldig ter beschikking zijn gesteld aan de Kamer om allerlei vragen te beantwoorden om tot goede amendementen te komen. Dat is wat ik daarover kan mededelen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:40:58",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het informatieverzoek ging niet over of er meegeschreven is. Het informatieverzoek gaat heel duidelijk over alle communicatie. Het maakt mij niet uit of dat nou per whatsapp, e-mail of postduif is. Ik wil weten: welke communicatie is er geweest tussen het kabinet en de partijen die bezig waren met dat amendement? Ik zeg dus niet dat ze meegeschreven hebben. Ik snap dat dat niet gebeurt. Maar is er meegedacht, is er informatie over uitgewisseld en wat is dat dan? We willen gewoon weten wat de rol van een of meerdere kabinetsleden geweest is bij de totstandkoming van dat amendement. Dat hoeft niet op schrift te zijn; het gaat ook om praten. Het hoe interesseert me niet. Volgens mij is de vraag knetterduidelijk en moet die niet verengd worden.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:41:44",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Die rol is dus niet anders dan ik net heb toegelicht, net zoals de heer Vermeer ook met allerlei leden van het kabinet contact heeft gehad over wat hij belangrijk vindt voor het Belastingplan en novelle box 3. Daarover wissel je politiek van gedachten. Ik heb zelfs een keer op zondagochtend met de heer Vermeer en de minister van Financiën koffie mogen drinken op het departement van AZ. Zo zijn er vele contacten geweest. Als het echt gaat om het maken van de voorstellen: dat is de afgelopen dagen gedaan door twee coalitiefracties met twee oppositiefracties.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:42:17",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:42:18",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik houd mijn informatieverzoek overeind, want volgens mij is dit geen antwoord op mijn informatieverzoek.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:42:24",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik kan op papier echt niks anders zeggen dan wat ik nu mondeling heb gedaan. Daarmee heb ik ... Ik moet nog even de moties appreciëren.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:42:32",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, ja, ja. Ho, wacht even, eerst even mevrouw Keijzer, of?",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:42:35",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Als de minister-president zegt \"er is helemaal niets\", dan wil ik dat graag in een brief hebben, dus dat er helemaal niets is, en niet op deze manier. Echt, serieus, zo gaan we niet met informatieverzoeken om.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:43:01",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Kan de minister-president op basis van het informatieverzoek iets van tekst toezeggen voor 18.30 uur, ook al is dat wat hij zojuist mondeling heeft gezegd? Om de heer Vermeer tegemoet te komen?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:43:03",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Ik wil het best nog een keer op schrift zetten, voorzitter, maar dat zal dus niet iets anders zijn dan wat ik net al heb toegelicht.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:43:08",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het gaat erom dat óf de berichten naar de Kamer gestuurd worden, óf het bericht dat er geen bericht is.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:43:15",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "18.30 uur zit er iets in uw inbox, heb ik gehoord. Mevrouw Keijzer had nog een interruptie?",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:43:21",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik zat daar net al naar te luisteren. Ik heb aan die kant gezeten. Het is vrij uitzonderlijk dat er geen bemoeienis van een bewindspersoon is bij de totstandkoming van een amendement. Ik denk dat het verstandig om gewoon duidelijk aan te geven hoe dat verlopen is, want zo gaat dat.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:43:42",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, maar dan denk ik dat de minister-president in herhaling valt.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:43:46",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Nee, ik heb het informatieverzoek van de heer Vermeer net gehoord, voorzitter.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:43:49",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan doe ik boven op het informatieverzoek van de heer Vermeer, in navolging van mijn eerdere vraag aan de staatssecretaris nog een verzoek. Kan in die brief die naar de Kamer wordt gestuurd duidelijk worden gespecificeerd wie van de bewindslieden wanneer met welk Kamerlid contact heeft gehad over de amendementen en wat de inhoud van die contacten was? Gewoon een tijdslijn: welk bewindspersoon met welk Kamerlid? Graag ook specifiek geënt op de fractie van PRO, maar voor alle Kamerleden. Met welk Kamerlid heeft de staatssecretaris wanneer contact gehad over ...",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:44:30",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, het is helder.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:44:33",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "... welk amendement en wat was de aard van het contact?",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:44:35",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is helder.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:44:38",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Dat is wel echt een andersoortige vraag. Daarvan heeft uw Kamer meermaals duidelijk gemaakt dat u als Kamer ook uw werk moet kunnen doen. Als we hieraan zouden gaan beginnen, kan ik ook van een paar andere Kamerleden hele lijsten gaan maken, en dat is volgens mij ook niet de bedoeling.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:44:48",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Neenee, minister-president, nou gaat u weer ...",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:44:50",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Nee, maar ik heb het informatieverzoek van de heer Vermeer zojuist gehoord en daarover ontvangt u zo meteen een brief.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:44:57",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja. Meneer Markuszower nog één keer en dan gaan we echt naar de moties, hoor.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:45:00",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Sorry. De minister-president, zeg ik met alle respect, is een handige harry, want hij zegt nu dat hij het informatieverzoek van de heer Vermeer heeft gehoord, maar ik heb daarbovenop een ander informatieverzoek gedaan. Ik krijg graag een bevestiging dat die informatie ook naar de Kamer wordt gestuurd.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:45:19",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Volgens mij hangen die twee informatieverzoeken helemaal met elkaar samen. Ik zal dat in één brief ...",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:45:26",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Meneer Vermeer, nog één keer en dan gaan we echt verder.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:45:28",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Echt voorzitter, dit is heel flauw. De minister-president probeert steeds af te dwalen van wat het verzoek is. Het verzoek is gewoon: alle communicatie, met die communicatie erbij, over dit amendement. De heer Markuszower verbreedt het nog naar andere amendementen, maar mijn informatieverzoek is helder: dat amendement met PRO en Volt, wat is daarover uitgewisseld? En dan met de berichten erbij.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:45:53",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We geleiden het door naar het kabinet.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:45:54",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Voorzitter, de moties. De motie op stuk nr. 81, van de heer Dijk, moet ik ontraden. Het verlagen van de tweede schijf kost geld en levert geen geld op. De motie is daarmee ongedekt en ook in strijd met de scheiding van inkomsten en uitgaven.\nDe motie op stuk nr. 82, van de heer Dijk, ontraad ik. De expatregeling is namelijk positief beoordeeld op doelmatigheid en doeltreffendheid en is ook in het belang van het vestigingsklimaat. We hebben in het verleden gezien dat een versobering hiervan echt een negatief effect heeft op bedrijven die zich hier willen vestigen. Die motie ontraad ik dus.\nDe motie op stuk nr. 83 van de heer Dijk ontraad ik met dezelfde toelichting, omdat die motie dezelfde dekking voorstelt.\nDan de motie op stuk nr. 84, van de leden Struijs en Bikker. Ik begrijp de intentie van die motie, omdat er twee amendementen zijn ingediend die nauw met elkaar samenhangen. Beide amendementen zijn ontraden, dus daarom moet ik zeggen dat deze motie ontijdig is. Dat is dus de motie op stuk nr. 84.\nDe motie op stuk nr. 85 ontraad ik. We hebben al uitgebreide plannen aangekondigd ten aanzien van een slagvaardige overheid. Daar zit ook een reductie van het adviesstelsel in, zoals mevrouw Keijzer in deze motie vraagt. Volgens mij zal het kabinet al in december en in februari met voorstellen komen. Daarmee zijn we dus eigenlijk al bezig met de uitvoering van deze motie, dus ik zou 'm nu ook overbodig kunnen noemen.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:47:25",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is fijn dat de motie overbodig is, want dan past die in het beleid en kan die oordeel Kamer krijgen. Mijn vraag gaat over de motie op stuk nr. 84, van de leden Struijs en Bikker. \"Ontijdig\" is een handig oordeel, omdat de twee amendementen waar dit op ziet, ontraden zijn. Het ene amendement, dat van PRO en Volt, gaat aangenomen worden. Als dan het amendement-Struijs/Bikker niet wordt aangenomen en deze motie wel, hebben we een gigantisch probleem in de uitvoering voor de Belastingdienst. Wat de minister-president hier doet, kan dus eigenlijk niet. Dit maakt de chaos alleen maar groter.",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:48:10",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Nee. We hebben bij de verwerking van een aantal zaken in het amendement nog tijd richting de invoeringsdatum. Als deze motie dus aangenomen wordt, kan de staatssecretaris die meenemen bij de verdere uitwerking.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:48:23",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Amendementen zijn wijzigingen van wetten. Je kunt niet bij motie een aangenomen wet niet uitvoeren. Dat gaat niet. Ik zou zo direct dus graag nog even van de staatssecretaris horen hoe dit nou allemaal zit, voordat we hier weer een handigheidje wegrommelen in de chaos die er toch al is.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:48:45",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Zullen we de staatssecretaris het woord geven?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:48:46",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Voorzitter, ik kan er ook meteen op antwoorden. De heer Struijs heeft het zelf namelijk al goed toegelicht toen hij achter de katheder stond. Het zal moeten leiden tot een wijzigingsvoorstel van het kabinet aan uw Kamer. Mevrouw Keijzer heeft natuurlijk gelijk: als het wetsvoorstel geamendeerd wordt aangenomen in de Eerste Kamer, is dat het wetsvoorstel. Maar als deze motie ook wordt aangenomen, hebben we komend jaar de tijd om een aanvullende wijziging naar uw Kamer te zenden.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:49:13",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dus dan krijgen we weer een novelle, neem ik aan, of een heel apart wetsvoorstel. Ja, dat is wat je dan krijgt: een apart wetsvoorstel om de chaos die gecreëerd is weer te stroomlijnen. Kan de Belastingdienst dat uitvoeren? Is dit nog navolgbaar voor het bedrijfsleven?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:49:34",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "We kunnen het op een regulier besluitvormingsmoment verwerken, bijvoorbeeld bij de Voorjaarsnota of de Miljoenennota.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:49:43",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voor de administratie: de minister-president heeft de motie op stuk nr. 85 als overbodig geapprecieerd. Het woord is aan de …",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:49:50",
+   "spreker": {
+    "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+    "soort": "Minister",
+    "naam": "Rob Jetten",
+    "verslagnaam": "Jetten",
+    "fractie": "",
+    "functie": "minister-president, minister van Algemene Zaken"
+   },
+   "tekst": "Voorzitter, door de vele vragen die zijn gesteld, heb ik misschien inmiddels alles al beantwoord. Ik hoor dat dat het geval is. De vragen zijn beantwoord.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:49:58",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Daarmee zijn we aan het einde gekomen van de … O nee, meneer Markuszower.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:50:03",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik was eigenlijk van plan om het helemaal te laten gaan, maar het wordt zo schimmig. Ik wil het gewoon even van de staatssecretaris zelf horen. Dan kunnen we ook kijken wat er in de brief staat. Ik wil even de staatssecretaris zelf …",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:50:13",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Als u de vraag nog één keer kort en bondig kunt formuleren, mag het.",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:50:17",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "… een korte en bondige vraag stellen, inderdaad. Dat lijkt me gewoon …",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:50:18",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Gaat uw gang. Wat is uw vraag?",
+   "deel": 17
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:50:22",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Heeft de staatssecretaris de afgelopen week of twee weken contact gehad met Kamerleden, dus zelf en niet via de ambtenaren, om te spreken over onder andere het amendement van PRO?",
+   "deel": 17
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:50:44",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Ik heb eigenlijk niks anders te zeggen dan wat de minister-president daarover zei. Het hoort bij mijn vak om doorlopend met Kamerleden, van welke kleur dan ook, contact te hebben over het Belastingplan, wat er speelt en allemaal andere dossiers. Heb ik meegewerkt aan een amendement? Nee.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:50:54",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Het is de …",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:50:55",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, nee, nee, nee, meneer Markuszower.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:50:57",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We doen toch in drieën?",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:50:58",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Jazeker, maar ik geef u het woord; u neemt het niet.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:50:59",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oké, dank voor de eerlijkheid. De staatssecretaris geeft toe: ja, ik heb contact gehad met Kamerleden over dat amendement. Kan de staatssecretaris ...",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:51:08",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Meneer Markuszower, stelt u uw vraag aan de staatssecretaris.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:51:09",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Mevrouw Piri zit nog niet in vak K.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:51:10",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, meneer Markuszower. Uw vraag aan de staatssecretaris.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:51:23",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De staatssecretaris geeft dus toe — met zoveel woorden, zeg ik tegen mevrouw Piri: ja, ik heb de afgelopen twee weken contact gehad met Kamerleden over dat amendement, onder andere van PRO. Kan de staatssecretaris aan de Kamer vertellen hoe dat contact over dat amendement eruitzag? Kan hij ook gelijk aangeven of hij zijn baas, minister Heinen, de baas van zijn ministerie, daarover heeft ingelicht?",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:51:48",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Ik zei, en dat herhaal ik, dat ik al negen maanden lang met heel veel Kamerleden, en overigens ook met senatoren, contact heb over van alles wat er in mijn portefeuille speelt. Dat zijn interessante gesprekken. In die gesprekken zijn er soms vragen. Die krijgen soms een antwoord. Dat hoort bij mijn werk. Het hoort bij mijn taakopvatting om dat fatsoenlijk te doen. Ik doe dat zonder aanzien des persoons of der partij. Om dat goed te kunnen doen, is dat ook het antwoord dat ik geef.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:52:14",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:52:16",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, de staatssecretaris glibbert weg. Sorry dat ik dat woord moet gebruiken. Hij glibbert weg van de vragen, van de kern van dit probleem, van deze kwestie, want er is nu weer onduidelijkheid of de staatssecretaris contact heeft gehad over dat amendement. De staatssecretaris wil daar blijkbaar geen helder antwoord op geven, dus ik ga ervan uit dat de staatssecretaris contact heeft gehad over dat amendement, met onder andere PRO, en zijn baas, minister Heinen daar niet over heeft ingelicht. Dat maakt dit spel schimmig, nog oncollegialer naar de VVD toe. Ik vraag me af of er dan voldoende vertrouwen is op dat ministerie tussen de staatssecretaris en zijn baas. Ik moet me beraden op wat ik met deze informatie ga doen.",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:53:07",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "De heer Markuszower trekt allemaal conclusies uit de woorden die ik heb uitgesproken die daar wat mij betreft niet aan te verbinden zijn.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:53:15",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat hele informatieverzoek gaat erom boven tafel te krijgen of het kabinet actief heeft meegedacht, meegewerkt, meegeschreven aan dat amendement, en wellicht zelfs nog met voorstellen is gekomen over dekking, percentages en dat soort dingen. Dát willen we boven tafel hebben. Eigenlijk hoor ik de staatssecretaris hier net zeggen: ja, dat doe ik met alles en iedereen, dus dat is hier ook gebeurd. Klopt dat?",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:53:49",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Bij het ministerie van Financiën is er een amendementenservice. Daar kunnen technische vragen ingediend worden. Daarmee loopt gewoon fatsoenlijk ambtelijk contact. Ik heb u net gezegd wat mijn rolopvatting is; die zit overigens diep in mij. Ik sta ten dienste van uw hele Kamer. Als u, meneer Vermeer, zo zeg ik via de voorzitter, een keer met mij een gesprek heeft, dan kan u er ook op rekenen dat dit een gesprek is dat wij echt samen hebben met elkaar. Dat betekent het ook.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:54:14",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dan nog heel concreet: heeft deze staatssecretaris gisteren nog bijvoorbeeld contact gehad met de fractie van PRO, Volt, D66 of het CDA over de inhoud van het amendement dat nu voorligt? Heeft hij daar persoonlijk contact over gehad, ja of nee?",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:54:36",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Ik ga enorm in herhaling vallen, maar als u mij vraagt of ik gister eerder dan bijvoorbeeld u wist wat er in dit amendement stond: absoluut niet.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:54:49",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:54:51",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, ik hoop dat u als voorzitter deze staatssecretaris hier niet mee weg laat komen, want dit is geen antwoord op mijn vraag. De vraag is \"wist ik eerder dan u dat dit amendement er was?\", maar daar gaat het niet om. De vraag die beantwoord moet worden, is gewoon: heeft deze staatssecretaris gisteren met PRO, Volt, D66 of het CDA contact gehad over de inhoud van dit amendement voordat daarover hier een persconferentie was en een deal was gesloten?",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:55:23",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Het hoort bij ons vak dat wij Kamerleden ondersteunen. Dat betekent dat ik dat in brede zin doe en dat ik daar geen uitspraken over doe. De formele contacten over technische vragen over amendementen lopen gewoon via de formele lijn, en voor de rest probeer ik hier netjes mijn werk te doen.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:55:42",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, ik heb geen vraag meer aan deze staatssecretaris, want hij geeft geen antwoord. Ik wil graag een vierde termijn. Kijk, ik heb eergisteren al geconcludeerd — toen was de Kamer er nog niet klaar voor — dat we als Kamer geen vertrouwen kunnen hebben in dit kabinet. De heer Wilders en de heer Vlottes hebben een motie van wantrouwen ingediend. Die gaat onze fractie steunen, maar ik wil een vierde termijn aanvragen, want deze staatssecretaris glibbert weg van de directe vragen die hem worden gesteld. Ik wil specifiek tegen deze staatssecretaris een motie van wantrouwen kunnen indienen, want ik vertrouw er gewoon niet op dat ik een eerlijk antwoord krijg. Er zijn zeven vragen aan hem gesteld en we krijgen zeven keer geen antwoord.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:56:20",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik constateer dat al een motie van wantrouwen tegen het kabinet in stemming zal worden gebracht.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:56:39",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, die is tegen het hele kabinet. Prima, die steun ik ook, maar mocht die niet worden aangenomen, dan vind ik deze belangrijk, ook voor de positie van de Kamer. We worden hier gewoon door de staatssecretaris …",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:56:40",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, u heeft het gezegd. En dan wenst u een vierde termijn vanavond?",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:56:41",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, zo snel mogelijk, zodat ik even een motie van wantrouwen kan indienen tegen deze staatssecretaris.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:56:43",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik ga gewoon kijken of daar een meerderheid voor is. Meneer Klaver, heeft u behoefte aan een vierde termijn?",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:56:48",
+   "spreker": {
+    "id": "457964c8-b4ba-4fa8-ad80-d2dea54e7c94",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jesse Klaver",
+    "verslagnaam": "Klaver",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, voorzitter, absoluut niet. Als ik het goed begrijp, is er een motie van wantrouwen tegen het hele kabinet en moet daarbovenop nog een motie van wantrouwen tegen deze staatssecretaris worden ingediend. Ik snap heel goed dat er allerlei vragen zijn. Stel ze vooral aan de staatssecretaris, maar een vierde termijn houden om het circus van de heer Markuszower groter te maken, gaan we wat mij betreft niet doen.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:07",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De aap komt nu wel uit de mouw. De staatssecretaris draait op elke mogelijke manier om de vraag heen. Dat heeft er alle schijn van dat hij of ambtenaren die dicht bij hem staan hebben meegeschreven aan het amendement dat het kabinet vervolgens ontraadt.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:57:19",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Heeft u behoefte aan een vierde termijn?",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:21",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dus ja, ik ben voor die vierde termijn. Wat mij betreft schorsen we ook het debat en gaan we dan maar gewoon kijken of alle correspondentie …",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:57:26",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik constateer bij u steun voor een vierde termijn. Meneer Paternotte, heeft u behoefte aan een vierde termijn?",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:32",
+   "spreker": {
+    "id": "c284355b-902b-4073-a057-24daec031e39",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jan Paternotte",
+    "verslagnaam": "Paternotte",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:57:33",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Meneer Vermeer, heeft u behoefte aan een vierde termijn?",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:36",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Jazeker, want het is duidelijk dat er meegeschreven is, zoals nu blijkt. En dan worden er allerlei woorden aan gegeven, maar ik kan het niet anders maken.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:45",
+   "spreker": {
+    "id": "78bfadde-92e9-4200-9324-ec3ff790a712",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jan Struijs",
+    "verslagnaam": "Struijs",
+    "fractie": "50PLUS",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:48",
+   "spreker": {
+    "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Laurens Dassen",
+    "verslagnaam": "Dassen",
+    "fractie": "Volt",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Niet nodig, voorzitter.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:53",
+   "spreker": {
+    "id": "d3232999-f7dc-43ab-93a1-1e191b217321",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henri Bontenbal",
+    "verslagnaam": "Bontenbal",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen behoefte aan een vierde termijn.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:55",
+   "spreker": {
+    "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mirjam Bikker",
+    "verslagnaam": "Bikker",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:57",
+   "spreker": {
+    "id": "56a43503-f031-4cec-bced-29ef74caa676",
+    "soort": "Tweede Kamerlid",
+    "naam": "Joost Eerdmans",
+    "verslagnaam": "Eerdmans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:57:58",
+   "spreker": {
+    "id": "ad93f400-387d-4506-96e8-6926f478e063",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ruben Brekelmans",
+    "verslagnaam": "Brekelmans",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De staatssecretaris kan nu antwoorden. Ik ga ervan uit dat hij transparant is.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:58:02",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun, voorzitter.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:58:05",
+   "spreker": {
+    "id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+    "soort": "Tweede Kamerlid",
+    "naam": "Geert Wilders",
+    "verslagnaam": "Wilders",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun, maar er moet wel een antwoord komen. Dus als dat nu niet gegeven wordt, dan met een brief nog voor de stemmingen.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:58:16",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er ligt een informatieverzoek om dat de Kamer te doen toekomen.\nEr was nog één interruptie van mevrouw Keijzer. Dan ga ik echt een uur schorsen.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:58:23",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja, dat is goed, voorzitter. O ja, de heer Eerdmans stond er ook.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T17:58:26",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De heer Eerdmans stond er ook nog. Maar u stond ook in de rij.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:58:29",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja. Ik heb nog één vraag. In de consternatie over de motie-Struijs ging ik wat te snel over het \"overbodig\" ten aanzien van mijn motie en het plan van aanpak slagvaardige overheid. Ik heb van de staatssecretaris begrepen dat daarin niet opgenomen wordt de door mij voorgestelde halvering van taken en fte van adviesraden en adviescommissies. Dus dit zit er óf wel in, en dan zou het in de perceptie van de minister-president overbodig zijn, óf het zit er niet in, en dan is het gewoon duidelijk dat de Kamer daar een uitspraak over doet.",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:59:01",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Er is reeds een toezegging gedaan aan de heer Brekelmans. Daar komt een forse opgave achter weg.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:59:14",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dit oordeel is dan het oordeel, maar dat is dan niet correct en dan is het denk ik goed dat de Kamer een uitspraak doet.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:59:19",
+   "spreker": {
+    "id": "ad93f400-387d-4506-96e8-6926f478e063",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ruben Brekelmans",
+    "verslagnaam": "Brekelmans",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heb nog wel even een technische vraag, ook voor het beoordelen van de moties. Er is de motie-Struijs. Als ik het goed begrijp, zei de minister-president dat we daar bij de Voorjaarsnota nog iets aan kunnen doen. Alleen, op het moment dat het Belastingplan ingaat, is dat een wet, dus op dat moment is die wet van kracht. Dit om dat even op te helderen. Je kunt dan nog met moties en allerlei andere dingen wat doen, maar in de tussentijd is die wet gewoon van kracht. Dat we dit dus even opgehelderd hebben voor als we zo meteen als fracties de moties beoordelen.",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T17:59:47",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "De lezing van de heer Brekelmans is correct. De motie ziet natuurlijk ook op een aantal dingen die wat later in de tijd staan. De route zou daar passend bij kunnen zijn, zoals de heer Struijs zelf heeft gezegd. Maar na stemming is de wet gewoon van kracht.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T18:00:02",
+   "spreker": {
+    "id": "56a43503-f031-4cec-bced-29ef74caa676",
+    "soort": "Tweede Kamerlid",
+    "naam": "Joost Eerdmans",
+    "verslagnaam": "Eerdmans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heb een technische, maar wel belangrijke vraag. Het gaat om de samenloop tussen het amendement-Klaver/Dassen en dat van onze Michiel Hoogeveen. Als het amendement-Klaver/Dassen wordt aangenomen, dan worden er twee tariefschijven ingebracht in box 3. Tegelijkertijd zegt het amendement van collega Hoogeveen dat dat tarief met 3 procentpunt wordt verlaagd. De bedoeling is natuurlijk dat als dat amendement van Klaver wordt aangenomen, dan die twee tarieven ook met 3 procentpunt omlaaggaan. Mijn vraag aan de staatssecretaris is daarom: kunnen die amendementen, als ze beide worden aangenomen, juridisch überhaupt naast elkaar bestaan? En zo ja, welk tarief geldt dan? En acht de staatssecretaris het verantwoord om vandaag over beide wetsvoorstellen te stemmen zonder dat die samenloop juridisch en uitvoeringstechnisch is opgehelderd?",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T18:00:48",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Meestal ben ik van het hier direct antwoorden geven, maar als het gaat over de precisie van juridische besluitvorming, wil ik dat echt heel graag even zeer zorgvuldig doen. Dus hoe het met de samenloop van die twee amendementen zit ... Ik snap de vraag helemaal. Ik kijk ook even de voorzitter aan, want ik wil daar nu niet à l'improviste iets op zeggen wat daarna ...",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T18:01:08",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De Kamer wordt verzocht, volgens de planning, om straks te stemmen. Dus ik denk toch dat het logisch is dat de heer Eerdmans antwoord krijgt op de vraag die hij u nu stelt.",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T18:01:16",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Mag ik daar dan nu twee minuten ruggespraak over houden?",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T18:01:21",
+   "spreker": {
+    "id": "56a43503-f031-4cec-bced-29ef74caa676",
+    "soort": "Tweede Kamerlid",
+    "naam": "Joost Eerdmans",
+    "verslagnaam": "Eerdmans",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nou, heel eerlijk, het mag ook wel voor de stemmingen zijn. Ik begrijp dit heel erg goed en ik heb liever een goed antwoord dan een snel en slecht antwoord. Prima dus als dat iets langer duurt en dat de staatssecretaris ernaar kijkt, maar dat we dit wel weten voordat we gaan stemmen.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T18:01:35",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Kunt u dat schriftelijk voor de stemmingen toezeggen?",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T18:02:59",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Daarna gaan we stemmen over moties en amendementen. Dan schorsen we drie kwartier, waarna we dan zullen stemmen over de wetten. De vergadering is een uur geschorst.",
+   "deel": 18
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T18:01:37",
+   "spreker": {
+    "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+    "soort": "Staatssecretaris",
+    "naam": "Eelco Eerenberg",
+    "verslagnaam": "Eerenberg",
+    "fractie": "",
+    "functie": "staatssecretaris van Financiën"
+   },
+   "tekst": "Laten we het zo doen, voorzitter.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T18:01:39",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik wilde even checken of de brief waar de heer Wilders om vroeg, niet mijn informatieverzoek overrulet over dat wij alle berichten naar de Kamer willen hebben.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T18:01:48",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Nee, ieder informatieverzoek wordt los doorgeleid naar het kabinet. Wat er vervolgens mee gebeurt, is aan het kabinet.\nDe heer Markuszower, tot slot. Dan gaan we schorsen.",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T18:01:56",
+   "spreker": {
+    "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+    "soort": "Tweede Kamerlid",
+    "naam": "Gidi Markuszower",
+    "verslagnaam": "Markuszower",
+    "fractie": "Groep Markuszower",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ja. Aan al die informatieverzoeken zou ik nog deze informatie willen toevoegen: wat de staatssecretaris heeft teruggekoppeld van die gesprekken over dat amendement-PRO, en ook andere amendementen die tijdens dit Belastingplan zijn ingediend, aan zijn baas, de minister. Is er een terugkoppeling geweest van de staatssecretaris aan de minister? Zo ja, wanneer is die er geweest en wat is die terugkoppeling dan geweest?",
+   "deel": 18
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T18:02:30",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We geleiden uw informatieverzoek door naar het kabinet. Ik schors een uur.",
+   "deel": 18
+  }
+ ],
+ "deel": {
+  "nummer": 6,
+  "van": 6,
+  "fase": "Antwoord van het kabinet",
+  "sprekers": "Jetten, Eerenberg",
+  "ouder_id": "debat-2026A08376-2026-11-12",
+  "ouder_titel": "Pakket Belastingplan 2027",
+  "woorden_totaal": 66993,
+  "ids": [
+   "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1",
+   "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d2",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d1",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d2",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d3",
+   "68113dc2-493d-417a-bf57-03a95fb4ca97-d4"
+  ]
+ }
+}

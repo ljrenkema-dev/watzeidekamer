@@ -6,11 +6,11 @@
  "vergadering": {
   "id": "1609f035-ccb4-466f-996c-6de4ceba89a3",
   "datum": "2026-11-12",
-  "gewijzigd": "2026-11-12T19:05:02.9730358+01:00",
+  "gewijzigd": "2026-11-13T01:04:35.5961596+01:00",
   "soort": "Plenair",
   "status": "Ongecorrigeerd",
   "titel": "24e vergadering, donderdag 12 november 2026",
-  "verslag_id": "880a11c7-4125-41b5-a199-5e37393ecf34",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
   "verslag_soort": "Tussenpublicatie"
  },
  "beurten": [
@@ -32,6 +32,1105 @@
  ],
  "aanwezig": [
   {
+   "id": "6f18e01d-4b99-4181-8430-421848a18846",
+   "naam": "Ismail El Abassi",
+   "verslagnaam": "El Abassi",
+   "fractie": "DENK",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5855593f-f06c-42e5-950c-02762b7941bc",
+   "naam": "Fatihya Abdi",
+   "verslagnaam": "Abdi",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
+   "naam": "Elles Van Ark",
+   "verslagnaam": "Van Ark",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1d261520-aa04-4f6e-9dae-6ccb54a13472",
+   "naam": "Etkin Armut",
+   "verslagnaam": "Armut",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+   "naam": "Robert Van Asten",
+   "verslagnaam": "Van Asten",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+   "naam": "Stephan Van Baarle",
+   "verslagnaam": "Van Baarle",
+   "fractie": "DENK",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b52579f-6343-4936-afac-9582ece0b33e",
+   "naam": "Mpanzu Bamenga",
+   "verslagnaam": "Bamenga",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0930aaf6-3abd-4007-9f25-9ca17693474e",
+   "naam": "Bente Becker",
+   "verslagnaam": "Becker",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+   "naam": "Sandra Beckerman",
+   "verslagnaam": "Beckerman",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6ef78ce2-0a4d-4b04-9f53-5400685606dc",
+   "naam": "Martin De Beer",
+   "verslagnaam": "De Beer",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a931b63b-22ba-4c71-ab34-20e02a9107af",
+   "naam": "Fatimazhra Belhirch",
+   "verslagnaam": "Belhirch",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+   "naam": "Daniël Van den Berg",
+   "verslagnaam": "Van den Berg",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+   "naam": "Anouschka Biekman",
+   "verslagnaam": "Biekman",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+   "naam": "Mirjam Bikker",
+   "verslagnaam": "Bikker",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1e232189-83d7-42d4-a048-c0c437b8b84f",
+   "naam": "Bart Bikkers",
+   "verslagnaam": "Bikkers",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "94487bf2-db65-4c2b-bcac-eac80408e642",
+   "naam": "Iem Al Biyati",
+   "verslagnaam": "Al Biyati",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "49473613-31b4-4fa3-9f2b-12646b918ecf",
+   "naam": "Luciënne Boelsma-Hoekstra",
+   "verslagnaam": "Boelsma-Hoekstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b0009d03-b835-4494-aedd-7c1a23e7a8e4",
+   "naam": "Wimar Bolhuis",
+   "verslagnaam": "Bolhuis",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d3232999-f7dc-43ab-93a1-1e191b217321",
+   "naam": "Henri Bontenbal",
+   "verslagnaam": "Bontenbal",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "25c491b9-286e-48a6-9149-b8bef3cc62f5",
+   "naam": "Diederik Boomsma",
+   "verslagnaam": "Boomsma",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8071992f-b2fd-4c10-b930-10fe697b4b19",
+   "naam": "Maikel Boon",
+   "verslagnaam": "Boon",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8d044503-5b3b-45bc-9067-ffdfcf626464",
+   "naam": "Martin Martin Bosma",
+   "verslagnaam": "Martin Bosma",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b8aae23-8a8a-40bb-b070-f3a47cc73d3f",
+   "naam": "Sarah El Boujdaini",
+   "verslagnaam": "El Boujdaini",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ad93f400-387d-4506-96e8-6926f478e063",
+   "naam": "Ruben Brekelmans",
+   "verslagnaam": "Brekelmans",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+   "naam": "Corrie Van Brenk",
+   "verslagnaam": "Van Brenk",
+   "fractie": "50PLUS",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ba367666-3350-47d0-b6e7-7beb82bee6fc",
+   "naam": "Tijs Tijs van den Brink",
+   "verslagnaam": "Tijs van den Brink",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a33f6a7f-db72-4090-b68d-7c9bb1e45ba8",
+   "naam": "Laura Bromet",
+   "verslagnaam": "Bromet",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "89b88198-39eb-4b3b-98ca-7197d01fdbd5",
+   "naam": "Judith Bühler",
+   "verslagnaam": "Bühler",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e5f249c3-2506-4eb8-84af-ffe0ae152bf4",
+   "naam": "Julian Bushoff",
+   "verslagnaam": "Bushoff",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "naam": "Thom Van Campen",
+   "verslagnaam": "Van Campen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1951a14e-78db-446c-bb5a-fb1461033854",
+   "naam": "Don Ceder",
+   "verslagnaam": "Ceder",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+   "naam": "Simon Ceulemans",
+   "verslagnaam": "Ceulemans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+   "naam": "René Claassen",
+   "verslagnaam": "Claassen",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ea89e68c-3fb9-4464-9299-acffd8589517",
+   "naam": "Ranjith Clemminck",
+   "verslagnaam": "Clemminck",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "naam": "Ingrid Coenradie",
+   "verslagnaam": "Coenradie",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+   "naam": "Laurens Dassen",
+   "verslagnaam": "Dassen",
+   "fractie": "Volt",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8988c769-aa74-4c5f-8483-2df20987c922",
+   "naam": "Ralf Dekker",
+   "verslagnaam": "Dekker",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "923021c0-b8e9-4324-af71-a45be6c5cd11",
+   "naam": "Tony Tony van Dijck",
+   "verslagnaam": "Tony van Dijck",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "43b8197c-02bf-4a65-87cf-75ebd26aef1d",
+   "naam": "Heera Heera Dijk",
+   "verslagnaam": "Heera Dijk",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+   "naam": "Jimmy Jimmy Dijk",
+   "verslagnaam": "Jimmy Dijk",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "3e045e18-daa2-48d2-8310-2999e2a47020",
+   "naam": "Diederik Diederik van Dijk",
+   "verslagnaam": "Diederik van Dijk",
+   "fractie": "SGP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+   "naam": "Emiel Emiel van Dijk",
+   "verslagnaam": "Emiel van Dijk",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+   "naam": "Inge Inge van Dijk",
+   "verslagnaam": "Inge van Dijk",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b5363002-d06e-4813-9c05-86fe74185a56",
+   "naam": "Sarah Dobbe",
+   "verslagnaam": "Dobbe",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7d378bec-34c2-4c47-8917-bbb2ff5aeedc",
+   "naam": "Peter Van Duijvenvoorde",
+   "verslagnaam": "Van Duijvenvoorde",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "56a43503-f031-4cec-bced-29ef74caa676",
+   "naam": "Joost Eerdmans",
+   "verslagnaam": "Eerdmans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "66570c9d-affa-4fb4-8dc3-19549cadc319",
+   "naam": "Eelco Eerenberg",
+   "verslagnaam": "Eerenberg",
+   "fractie": "",
+   "functie": "staatssecretaris van Financiën"
+  },
+  {
+   "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+   "naam": "Wendy Van Eijk",
+   "verslagnaam": "Van Eijk",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "9eba48a5-acfb-4efc-93c2-e895a075e7d6",
+   "naam": "Ulysse Ellian",
+   "verslagnaam": "Ellian",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+   "naam": "Doğukan Ergin",
+   "verslagnaam": "Ergin",
+   "fractie": "DENK",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+   "naam": "Marjolein Faber",
+   "verslagnaam": "Faber",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+   "naam": "André Flach",
+   "verslagnaam": "Flach",
+   "fractie": "SGP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a328982e-4075-4f77-b80c-0b9d37d23605",
+   "naam": "Maarten Goudzwaard",
+   "verslagnaam": "Goudzwaard",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8e1a5f2e-cc83-4a85-a90b-c6989f01b02b",
+   "naam": "Dion Graus",
+   "verslagnaam": "Graus",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+   "naam": "Pieter Grinwis",
+   "verslagnaam": "Grinwis",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2fd16f33-95fe-4d06-b2c1-ad984ee08200",
+   "naam": "Peter Peter de Groot",
+   "verslagnaam": "Peter de Groot",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+   "naam": "Sarath Hamstra",
+   "verslagnaam": "Hamstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d55afb85-f47f-469e-a8a1-a37f8296d0b0",
+   "naam": "Eelco Heinen",
+   "verslagnaam": "Heinen",
+   "fractie": "",
+   "functie": "minister van Financiën"
+  },
+  {
+   "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+   "naam": "Hidde Heutink",
+   "verslagnaam": "Heutink",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bab21bc5-8703-4fe7-96f4-c0364573adfc",
+   "naam": "Renate Den Hollander",
+   "verslagnaam": "Den Hollander",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+   "naam": "Michiel Hoogeveen",
+   "verslagnaam": "Hoogeveen",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d0cdfb97-8bc1-4ad6-b14e-a77809c90012",
+   "naam": "Habtamu De Hoop",
+   "verslagnaam": "De Hoop",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "00d76c77-5747-4519-a846-5fc28b793dc7",
+   "naam": "Pepijn Van Houwelingen",
+   "verslagnaam": "Van Houwelingen",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d8e7ee39-89a3-445d-a86c-1c630b1fb17d",
+   "naam": "Tamara Ten Hove",
+   "verslagnaam": "Ten Hove",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7e53192b-955f-4896-88e1-6df73b488f78",
+   "naam": "Dion Huidekooper",
+   "verslagnaam": "Huidekooper",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "646190dd-ab3c-4477-9b6c-b9098618ad1b",
+   "naam": "Renilde Huizenga",
+   "verslagnaam": "Huizenga",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "01b2907a-9289-44f6-af64-84c47c8f537c",
+   "naam": "Michelle Jagtenberg",
+   "verslagnaam": "Jagtenberg",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+   "naam": "Chris Chris Jansen",
+   "verslagnaam": "Chris Jansen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "f7e039ba-5bdf-4499-9368-cbc1c2453766",
+   "naam": "Rob Jetten",
+   "verslagnaam": "Jetten",
+   "fractie": "",
+   "functie": "minister-president, minister van Algemene Zaken"
+  },
+  {
+   "id": "c9327241-92ea-43c7-9195-f658880d1d42",
+   "naam": "Henk Jumelet",
+   "verslagnaam": "Jumelet",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+   "naam": "Barbara Kathmann",
+   "verslagnaam": "Kathmann",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+   "naam": "Mona Keijzer",
+   "verslagnaam": "Keijzer",
+   "fractie": "Lid Keijzer",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "baa84dc9-e299-4062-a626-048ca51ecaa7",
+   "naam": "Arend Kisteman",
+   "verslagnaam": "Kisteman",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "457964c8-b4ba-4fa8-ad80-d2dea54e7c94",
+   "naam": "Jesse Klaver",
+   "verslagnaam": "Klaver",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "f09712b3-2e50-472e-99f4-4210f5d18710",
+   "naam": "Felix Klos",
+   "verslagnaam": "Klos",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6248d84b-04f8-4389-b510-63e653f61cea",
+   "naam": "Jan Arie Koorevaar",
+   "verslagnaam": "Koorevaar",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "73822989-cf80-4cc9-a76f-a76549e2dd24",
+   "naam": "Alexander Kops",
+   "verslagnaam": "Kops",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "4112258f-1343-42de-af27-2a46fd622d90",
+   "naam": "Daan De Kort",
+   "verslagnaam": "De Kort",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2e48c0b6-c75e-4a23-ad96-10df214121c7",
+   "naam": "Ulaş Köse",
+   "verslagnaam": "Köse",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d66383ca-deef-4470-8807-924313ae15e6",
+   "naam": "Ines Kostić",
+   "verslagnaam": "Kostić",
+   "fractie": "PvdD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8eaa8995-7e34-47e6-bd85-250e60452b3f",
+   "naam": "Suzanne Kröger",
+   "verslagnaam": "Kröger",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "45b7e3af-3671-438d-9e72-7048593b903a",
+   "naam": "Harmen Krul",
+   "verslagnaam": "Krul",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "3876b571-4ee2-4bb4-ab7e-901e00243ef4",
+   "naam": "Annelotte Lammers",
+   "verslagnaam": "Lammers",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e1faad36-a61e-46af-b8ed-42fb086749af",
+   "naam": "Maes Van Lanschot",
+   "verslagnaam": "Van Lanschot",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e8e45b3b-e17a-40b1-a000-fb7167a0685f",
+   "naam": "Tom Van der Lee",
+   "verslagnaam": "Van der Lee",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c54c3403-9085-452c-80e1-d7b0709d859d",
+   "naam": "Robin Van Leijen",
+   "verslagnaam": "Van Leijen",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b8b0528-e4cf-4b03-8db6-202b9dde1655",
+   "naam": "Joris Lohman",
+   "verslagnaam": "Lohman",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "18eee6c6-6cc3-4977-80be-5d75eff9af5f",
+   "naam": "Erik Van der Maas",
+   "verslagnaam": "Van der Maas",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "43f571a7-1136-42f0-9a88-7b404b8e43b9",
+   "naam": "Vicky Maeijer",
+   "verslagnaam": "Maeijer",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8facda55-b928-4086-87a2-5105b6aeb6e1",
+   "naam": "Nicole Maes",
+   "verslagnaam": "Maes",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+   "naam": "Gidi Markuszower",
+   "verslagnaam": "Markuszower",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b0beef17-ef06-4cb0-8967-8f623f098b29",
+   "naam": "Claire Martens-America",
+   "verslagnaam": "Martens-America",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d69850d9-031a-4916-a596-19b7bf456fc0",
+   "naam": "Mahjoub Mathlouti",
+   "verslagnaam": "Mathlouti",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "31bb24e9-cc1f-4622-a4fb-b9c5afbcf25f",
+   "naam": "Rachel Van Meetelen",
+   "verslagnaam": "Van Meetelen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5086e857-c6b3-4e20-bb69-fb769d40128f",
+   "naam": "Gideon Van Meijeren",
+   "verslagnaam": "Van Meijeren",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "799bb30d-da26-429a-b10a-f801fcf07659",
+   "naam": "Wim Meulenkamp",
+   "verslagnaam": "Meulenkamp",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c73e6f8a-05c9-4d13-945f-71dfb9c730f0",
+   "naam": "Ingrid Michon-Derkzen",
+   "verslagnaam": "Michon-Derkzen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b64bfe4-94b9-418c-b457-bbfbf9becced",
+   "naam": "Mohammed Mohandis",
+   "verslagnaam": "Mohandis",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e6644457-89a4-476a-a401-fe66ccd30c5e",
+   "naam": "Nicole Moinat",
+   "verslagnaam": "Moinat",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "18702d3e-02c2-4c96-8a9b-ee5aba584ae4",
+   "naam": "Jeremy Mooiman",
+   "verslagnaam": "Mooiman",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "9e34bdd3-3ddb-4f04-b416-746552e5658b",
+   "naam": "Marjolein Moorman",
+   "verslagnaam": "Moorman",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "17d59922-1009-4a0c-a6c4-e51e76d510ea",
+   "naam": "Edgar Edgar Mulder",
+   "verslagnaam": "Edgar Mulder",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e3a027eb-acac-4242-8b8d-533365ce3366",
+   "naam": "Alisha Müller",
+   "verslagnaam": "Müller",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8ef2beca-4c5f-4706-92c8-1dcdd8683d62",
+   "naam": "Songül Mutluer",
+   "verslagnaam": "Mutluer",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b030e5ad-e650-476b-bdc4-94d53c281040",
+   "naam": "Annabel Nanninga",
+   "verslagnaam": "Nanninga",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "94b57459-7e34-46f8-834a-da04c53a02d6",
+   "naam": "Stephan Neijenhuis",
+   "verslagnaam": "Neijenhuis",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d24b17b4-8e3a-4bed-818e-5d61dcc9f534",
+   "naam": "Jurgen Nobel",
+   "verslagnaam": "Nobel",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "432729d4-fd5e-4e53-aba8-9bc981949713",
+   "naam": "Sjoukje Van Oosterhout",
+   "verslagnaam": "Van Oosterhout",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+   "naam": "Henk-Jan Oosterhuis",
+   "verslagnaam": "Oosterhuis",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8f8756c6-5768-4e86-86a2-d242d1c4083d",
+   "naam": "Ouafa Oualhadj",
+   "verslagnaam": "Oualhadj",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0eeb4f4a-771a-49d2-979d-68c2b4895f0e",
+   "naam": "Esther Ouwehand",
+   "verslagnaam": "Ouwehand",
+   "fractie": "PvdD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c284355b-902b-4073-a057-24daec031e39",
+   "naam": "Jan Paternotte",
+   "verslagnaam": "Paternotte",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+   "naam": "Mariëtte Patijn",
+   "verslagnaam": "Patijn",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "80a5d70b-e932-493d-90b4-d45fe2be522f",
+   "naam": "Wieke Paulusma",
+   "verslagnaam": "Paulusma",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1",
+   "naam": "Kati Piri",
+   "verslagnaam": "Piri",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+   "naam": "Caroline Van der Plas",
+   "verslagnaam": "Van der Plas",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "337901dc-6804-4399-a2ab-18f8af5042e4",
+   "naam": "Anne-Marijke Podt",
+   "verslagnaam": "Podt",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6ee6a4b6-3523-4806-b784-a669f6fa8c10",
+   "naam": "André Poortman",
+   "verslagnaam": "Poortman",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c0bfbae7-5c03-49e1-8bb6-a9ca2a4157ec",
+   "naam": "Erwin Prickaertz",
+   "verslagnaam": "Prickaertz",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "15342ca7-bffc-4d20-bcc1-be5ab9d6530c",
+   "naam": "Annette Raijer",
+   "verslagnaam": "Raijer",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "35caab67-2b49-4c45-a5c6-af0f110425c7",
+   "naam": "Queeny Rajkowski",
+   "verslagnaam": "Rajkowski",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ecddb7dd-9bf7-4bbf-916b-18dc9a9b443e",
+   "naam": "Ilana Rooderkerk",
+   "verslagnaam": "Rooderkerk",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
+   "naam": "Raymond De Roon",
+   "verslagnaam": "De Roon",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5d09a944-d2e0-4792-a8ae-8b2ac325e23a",
+   "naam": "Tom Russcher",
+   "verslagnaam": "Russcher",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+   "naam": "Milan Schenk",
+   "verslagnaam": "Schenk",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "61c70d39-f0fb-4fc8-88e4-66b935ecf7d5",
+   "naam": "Shanna Schilder",
+   "verslagnaam": "Schilder",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c635129f-ee99-4c9a-a898-79eafa8cbf3b",
+   "naam": "Jan Schoonis",
+   "verslagnaam": "Schoonis",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "fb37be5e-962f-4303-805d-3d5b3414e3e8",
+   "naam": "Björn Schutz",
+   "verslagnaam": "Schutz",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "db1b4703-2be0-4a80-9299-559323138625",
+   "naam": "Joost Sneller",
+   "verslagnaam": "Sneller",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2bddf0e3-4312-4d39-ab17-a6837e24b5d8",
+   "naam": "Hanneke Steen",
+   "verslagnaam": "Steen",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+   "naam": "Chris Stoffer",
+   "verslagnaam": "Stoffer",
+   "fractie": "SGP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "fccf681b-e1de-45d0-afb6-7812c1efcd43",
+   "naam": "Sebastiaan Stöteler",
+   "verslagnaam": "Stöteler",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5f3700f2-4268-4378-bb91-2d5908a8da43",
+   "naam": "Jeltje Straatman",
+   "verslagnaam": "Straatman",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "78bfadde-92e9-4200-9324-ec3ff790a712",
+   "naam": "Jan Struijs",
+   "verslagnaam": "Struijs",
+   "fractie": "50PLUS",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+   "naam": "Luc Stultiens",
+   "verslagnaam": "Stultiens",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d32fb18f-d853-425e-b0f2-ead5232c75eb",
+   "naam": "Marijke Synhaeve",
+   "verslagnaam": "Synhaeve",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+   "naam": "Christine Teunissen",
+   "verslagnaam": "Teunissen",
+   "fractie": "PvdD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7fb75c9e-97b7-40ce-99e2-4f37fcde70f4",
+   "naam": "Eveline Tijmstra",
+   "verslagnaam": "Tijmstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "78926a24-407d-45aa-b50f-1abb330fce12",
+   "naam": "Mikal Tseggai",
+   "verslagnaam": "Tseggai",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0e47df31-d7a4-4f7f-b85a-dc699003f8a0",
+   "naam": "Marieke Vellinga-Beemsterboer",
+   "verslagnaam": "Vellinga-Beemsterboer",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ad2d74ac-2b93-494b-8587-ec1084c9eaa0",
+   "naam": "Ruud Verkuijlen",
+   "verslagnaam": "Verkuijlen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+   "naam": "Henk Vermeer",
+   "verslagnaam": "Vermeer",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "23c91de2-22d8-4bea-b06a-b4aa9c423fd3",
+   "naam": "Marc Vervuurt",
+   "verslagnaam": "Vervuurt",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "9d5e0865-b8a6-4952-8126-c3e27b08ef33",
+   "naam": "Lisa Vliegenthart",
+   "verslagnaam": "Vliegenthart",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "247cd142-7220-4f25-aa32-8e1801169e9f",
+   "naam": "Elmar Vlottes",
+   "verslagnaam": "Vlottes",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d9f97940-cffb-4a3c-b370-335ce2b09f63",
+   "naam": "Marina Vondeling",
+   "verslagnaam": "Vondeling",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "f9b55c38-c420-4b6a-96a7-ae00f4ec3918",
+   "naam": "Hilde Wendel",
+   "verslagnaam": "Wendel",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "fcf713d0-8b9e-4199-83bf-6088f485fffc",
+   "naam": "Hanneke Van der Werf",
+   "verslagnaam": "Van der Werf",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b119b226-8fb6-4888-829f-0ccd02d6dee6",
+   "naam": "Lisa Westerveld",
+   "verslagnaam": "Westerveld",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "4cd5cc64-ec2f-4317-917b-a8be65884c6e",
+   "naam": "Femke Marije Wiersma",
+   "verslagnaam": "Wiersma",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+   "naam": "Geert Wilders",
+   "verslagnaam": "Wilders",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "4af5269c-e0f8-4ab5-8d5f-f6cbeea3df27",
+   "naam": "Ani Zalinyan",
+   "verslagnaam": "Zalinyan",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "naam": "Jantine Zwinkels",
+   "verslagnaam": "Zwinkels",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5d0132f1-e8ab-4a32-b8af-3e8beff8ba5f",
+   "naam": "Annet Bertram",
+   "verslagnaam": "Bertram",
+   "fractie": "",
+   "functie": "staatssecretaris van Infrastructuur en Waterstaat"
+  },
+  {
+   "id": "4457a9f0-8688-459b-b4f5-77157bbb9e1d",
+   "naam": "Pieter Heerma",
+   "verslagnaam": "Heerma",
+   "fractie": "",
+   "functie": "minister van Binnenlandse Zaken en Koninkrijksrelaties"
+  },
+  {
+   "id": "1a43ac2a-2bf3-4fb5-90eb-02a098b140f4",
+   "naam": "Stientje Van Veldhoven-van der Meer",
+   "verslagnaam": "Van Veldhoven-van der Meer",
+   "fractie": "",
+   "functie": "minister van Klimaat en Groene Groei"
+  },
+  {
+   "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "naam": "Thom Van Campen",
+   "verslagnaam": "Van Campen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
    "naam": "Thom Van Campen",
    "verslagnaam": "Van Campen",
@@ -39,8 +1138,1065 @@
    "functie": "lid Tweede Kamer"
   }
  ],
- "aantal_aanwezig_volgens_verslag": null,
+ "aantal_aanwezig_volgens_verslag": 150,
  "kamerleden_aanwezig": [
+  {
+   "id": "6f18e01d-4b99-4181-8430-421848a18846",
+   "naam": "Ismail El Abassi",
+   "verslagnaam": "El Abassi",
+   "fractie": "DENK",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5855593f-f06c-42e5-950c-02762b7941bc",
+   "naam": "Fatihya Abdi",
+   "verslagnaam": "Abdi",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "3fe14035-2f9c-461e-94d4-56b8c9a019e1",
+   "naam": "Elles Van Ark",
+   "verslagnaam": "Van Ark",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1d261520-aa04-4f6e-9dae-6ccb54a13472",
+   "naam": "Etkin Armut",
+   "verslagnaam": "Armut",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "487a82a7-8648-458d-8c3f-9377c6b24742",
+   "naam": "Robert Van Asten",
+   "verslagnaam": "Van Asten",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+   "naam": "Stephan Van Baarle",
+   "verslagnaam": "Van Baarle",
+   "fractie": "DENK",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b52579f-6343-4936-afac-9582ece0b33e",
+   "naam": "Mpanzu Bamenga",
+   "verslagnaam": "Bamenga",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0930aaf6-3abd-4007-9f25-9ca17693474e",
+   "naam": "Bente Becker",
+   "verslagnaam": "Becker",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0da16b5e-9af5-44df-91cd-30788cac19dd",
+   "naam": "Sandra Beckerman",
+   "verslagnaam": "Beckerman",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6ef78ce2-0a4d-4b04-9f53-5400685606dc",
+   "naam": "Martin De Beer",
+   "verslagnaam": "De Beer",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a931b63b-22ba-4c71-ab34-20e02a9107af",
+   "naam": "Fatimazhra Belhirch",
+   "verslagnaam": "Belhirch",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "84027a7e-ebec-4f38-a89b-c56913ab2ac2",
+   "naam": "Daniël Van den Berg",
+   "verslagnaam": "Van den Berg",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c24d18c5-3ba3-435a-842a-109cd14938c9",
+   "naam": "Anouschka Biekman",
+   "verslagnaam": "Biekman",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+   "naam": "Mirjam Bikker",
+   "verslagnaam": "Bikker",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1e232189-83d7-42d4-a048-c0c437b8b84f",
+   "naam": "Bart Bikkers",
+   "verslagnaam": "Bikkers",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "94487bf2-db65-4c2b-bcac-eac80408e642",
+   "naam": "Iem Al Biyati",
+   "verslagnaam": "Al Biyati",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "49473613-31b4-4fa3-9f2b-12646b918ecf",
+   "naam": "Luciënne Boelsma-Hoekstra",
+   "verslagnaam": "Boelsma-Hoekstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b0009d03-b835-4494-aedd-7c1a23e7a8e4",
+   "naam": "Wimar Bolhuis",
+   "verslagnaam": "Bolhuis",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d3232999-f7dc-43ab-93a1-1e191b217321",
+   "naam": "Henri Bontenbal",
+   "verslagnaam": "Bontenbal",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "25c491b9-286e-48a6-9149-b8bef3cc62f5",
+   "naam": "Diederik Boomsma",
+   "verslagnaam": "Boomsma",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8071992f-b2fd-4c10-b930-10fe697b4b19",
+   "naam": "Maikel Boon",
+   "verslagnaam": "Boon",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8d044503-5b3b-45bc-9067-ffdfcf626464",
+   "naam": "Martin Martin Bosma",
+   "verslagnaam": "Martin Bosma",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b8aae23-8a8a-40bb-b070-f3a47cc73d3f",
+   "naam": "Sarah El Boujdaini",
+   "verslagnaam": "El Boujdaini",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ad93f400-387d-4506-96e8-6926f478e063",
+   "naam": "Ruben Brekelmans",
+   "verslagnaam": "Brekelmans",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "75e07581-7770-48b1-926c-a1cc5c008774",
+   "naam": "Corrie Van Brenk",
+   "verslagnaam": "Van Brenk",
+   "fractie": "50PLUS",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ba367666-3350-47d0-b6e7-7beb82bee6fc",
+   "naam": "Tijs Tijs van den Brink",
+   "verslagnaam": "Tijs van den Brink",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a33f6a7f-db72-4090-b68d-7c9bb1e45ba8",
+   "naam": "Laura Bromet",
+   "verslagnaam": "Bromet",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "89b88198-39eb-4b3b-98ca-7197d01fdbd5",
+   "naam": "Judith Bühler",
+   "verslagnaam": "Bühler",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e5f249c3-2506-4eb8-84af-ffe0ae152bf4",
+   "naam": "Julian Bushoff",
+   "verslagnaam": "Bushoff",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "naam": "Thom Van Campen",
+   "verslagnaam": "Van Campen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1951a14e-78db-446c-bb5a-fb1461033854",
+   "naam": "Don Ceder",
+   "verslagnaam": "Ceder",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "09de78bf-9203-41e1-a120-3ae68d3f4e17",
+   "naam": "Simon Ceulemans",
+   "verslagnaam": "Ceulemans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7d8ec005-0616-4c47-8676-57f249f5ea33",
+   "naam": "René Claassen",
+   "verslagnaam": "Claassen",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ea89e68c-3fb9-4464-9299-acffd8589517",
+   "naam": "Ranjith Clemminck",
+   "verslagnaam": "Clemminck",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a8fb4f42-df25-42e6-9323-f19859c7eb42",
+   "naam": "Ingrid Coenradie",
+   "verslagnaam": "Coenradie",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+   "naam": "Laurens Dassen",
+   "verslagnaam": "Dassen",
+   "fractie": "Volt",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8988c769-aa74-4c5f-8483-2df20987c922",
+   "naam": "Ralf Dekker",
+   "verslagnaam": "Dekker",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "923021c0-b8e9-4324-af71-a45be6c5cd11",
+   "naam": "Tony Tony van Dijck",
+   "verslagnaam": "Tony van Dijck",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "43b8197c-02bf-4a65-87cf-75ebd26aef1d",
+   "naam": "Heera Heera Dijk",
+   "verslagnaam": "Heera Dijk",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+   "naam": "Jimmy Jimmy Dijk",
+   "verslagnaam": "Jimmy Dijk",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "3e045e18-daa2-48d2-8310-2999e2a47020",
+   "naam": "Diederik Diederik van Dijk",
+   "verslagnaam": "Diederik van Dijk",
+   "fractie": "SGP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "1115461b-70df-4ec4-a8e8-d3a9a0c542aa",
+   "naam": "Emiel Emiel van Dijk",
+   "verslagnaam": "Emiel van Dijk",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "583356ea-56bd-43d4-aeeb-dd237db5c20f",
+   "naam": "Inge Inge van Dijk",
+   "verslagnaam": "Inge van Dijk",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b5363002-d06e-4813-9c05-86fe74185a56",
+   "naam": "Sarah Dobbe",
+   "verslagnaam": "Dobbe",
+   "fractie": "SP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7d378bec-34c2-4c47-8917-bbb2ff5aeedc",
+   "naam": "Peter Van Duijvenvoorde",
+   "verslagnaam": "Van Duijvenvoorde",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "56a43503-f031-4cec-bced-29ef74caa676",
+   "naam": "Joost Eerdmans",
+   "verslagnaam": "Eerdmans",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0440bd22-6457-44a4-8ef4-c1b73004cffb",
+   "naam": "Wendy Van Eijk",
+   "verslagnaam": "Van Eijk",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "9eba48a5-acfb-4efc-93c2-e895a075e7d6",
+   "naam": "Ulysse Ellian",
+   "verslagnaam": "Ellian",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+   "naam": "Doğukan Ergin",
+   "verslagnaam": "Ergin",
+   "fractie": "DENK",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "cd4f12f5-5cc5-4c02-b433-cb600bf6b6be",
+   "naam": "Marjolein Faber",
+   "verslagnaam": "Faber",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "60b927f9-0d42-40f3-921d-54d4696d7a1c",
+   "naam": "André Flach",
+   "verslagnaam": "Flach",
+   "fractie": "SGP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a328982e-4075-4f77-b80c-0b9d37d23605",
+   "naam": "Maarten Goudzwaard",
+   "verslagnaam": "Goudzwaard",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8e1a5f2e-cc83-4a85-a90b-c6989f01b02b",
+   "naam": "Dion Graus",
+   "verslagnaam": "Graus",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+   "naam": "Pieter Grinwis",
+   "verslagnaam": "Grinwis",
+   "fractie": "ChristenUnie",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2fd16f33-95fe-4d06-b2c1-ad984ee08200",
+   "naam": "Peter Peter de Groot",
+   "verslagnaam": "Peter de Groot",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ade7cbda-59cd-4cf0-a87a-5600d23ac258",
+   "naam": "Sarath Hamstra",
+   "verslagnaam": "Hamstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5f565096-1d49-4dc8-ad59-02a5a64f2cb0",
+   "naam": "Hidde Heutink",
+   "verslagnaam": "Heutink",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bab21bc5-8703-4fe7-96f4-c0364573adfc",
+   "naam": "Renate Den Hollander",
+   "verslagnaam": "Den Hollander",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+   "naam": "Michiel Hoogeveen",
+   "verslagnaam": "Hoogeveen",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d0cdfb97-8bc1-4ad6-b14e-a77809c90012",
+   "naam": "Habtamu De Hoop",
+   "verslagnaam": "De Hoop",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "00d76c77-5747-4519-a846-5fc28b793dc7",
+   "naam": "Pepijn Van Houwelingen",
+   "verslagnaam": "Van Houwelingen",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d8e7ee39-89a3-445d-a86c-1c630b1fb17d",
+   "naam": "Tamara Ten Hove",
+   "verslagnaam": "Ten Hove",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7e53192b-955f-4896-88e1-6df73b488f78",
+   "naam": "Dion Huidekooper",
+   "verslagnaam": "Huidekooper",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "646190dd-ab3c-4477-9b6c-b9098618ad1b",
+   "naam": "Renilde Huizenga",
+   "verslagnaam": "Huizenga",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "01b2907a-9289-44f6-af64-84c47c8f537c",
+   "naam": "Michelle Jagtenberg",
+   "verslagnaam": "Jagtenberg",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bc4c2df1-d8d3-4b47-be5b-3ad36854b21d",
+   "naam": "Chris Chris Jansen",
+   "verslagnaam": "Chris Jansen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c9327241-92ea-43c7-9195-f658880d1d42",
+   "naam": "Henk Jumelet",
+   "verslagnaam": "Jumelet",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "f0d495ee-e422-4d4a-9f12-9e1ad3fa934d",
+   "naam": "Barbara Kathmann",
+   "verslagnaam": "Kathmann",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+   "naam": "Mona Keijzer",
+   "verslagnaam": "Keijzer",
+   "fractie": "Lid Keijzer",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "baa84dc9-e299-4062-a626-048ca51ecaa7",
+   "naam": "Arend Kisteman",
+   "verslagnaam": "Kisteman",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "457964c8-b4ba-4fa8-ad80-d2dea54e7c94",
+   "naam": "Jesse Klaver",
+   "verslagnaam": "Klaver",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "f09712b3-2e50-472e-99f4-4210f5d18710",
+   "naam": "Felix Klos",
+   "verslagnaam": "Klos",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6248d84b-04f8-4389-b510-63e653f61cea",
+   "naam": "Jan Arie Koorevaar",
+   "verslagnaam": "Koorevaar",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "73822989-cf80-4cc9-a76f-a76549e2dd24",
+   "naam": "Alexander Kops",
+   "verslagnaam": "Kops",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "4112258f-1343-42de-af27-2a46fd622d90",
+   "naam": "Daan De Kort",
+   "verslagnaam": "De Kort",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2e48c0b6-c75e-4a23-ad96-10df214121c7",
+   "naam": "Ulaş Köse",
+   "verslagnaam": "Köse",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d66383ca-deef-4470-8807-924313ae15e6",
+   "naam": "Ines Kostić",
+   "verslagnaam": "Kostić",
+   "fractie": "PvdD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8eaa8995-7e34-47e6-bd85-250e60452b3f",
+   "naam": "Suzanne Kröger",
+   "verslagnaam": "Kröger",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "45b7e3af-3671-438d-9e72-7048593b903a",
+   "naam": "Harmen Krul",
+   "verslagnaam": "Krul",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "3876b571-4ee2-4bb4-ab7e-901e00243ef4",
+   "naam": "Annelotte Lammers",
+   "verslagnaam": "Lammers",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e1faad36-a61e-46af-b8ed-42fb086749af",
+   "naam": "Maes Van Lanschot",
+   "verslagnaam": "Van Lanschot",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e8e45b3b-e17a-40b1-a000-fb7167a0685f",
+   "naam": "Tom Van der Lee",
+   "verslagnaam": "Van der Lee",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c54c3403-9085-452c-80e1-d7b0709d859d",
+   "naam": "Robin Van Leijen",
+   "verslagnaam": "Van Leijen",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b8b0528-e4cf-4b03-8db6-202b9dde1655",
+   "naam": "Joris Lohman",
+   "verslagnaam": "Lohman",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "18eee6c6-6cc3-4977-80be-5d75eff9af5f",
+   "naam": "Erik Van der Maas",
+   "verslagnaam": "Van der Maas",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "43f571a7-1136-42f0-9a88-7b404b8e43b9",
+   "naam": "Vicky Maeijer",
+   "verslagnaam": "Maeijer",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8facda55-b928-4086-87a2-5105b6aeb6e1",
+   "naam": "Nicole Maes",
+   "verslagnaam": "Maes",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+   "naam": "Gidi Markuszower",
+   "verslagnaam": "Markuszower",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b0beef17-ef06-4cb0-8967-8f623f098b29",
+   "naam": "Claire Martens-America",
+   "verslagnaam": "Martens-America",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d69850d9-031a-4916-a596-19b7bf456fc0",
+   "naam": "Mahjoub Mathlouti",
+   "verslagnaam": "Mathlouti",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "31bb24e9-cc1f-4622-a4fb-b9c5afbcf25f",
+   "naam": "Rachel Van Meetelen",
+   "verslagnaam": "Van Meetelen",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5086e857-c6b3-4e20-bb69-fb769d40128f",
+   "naam": "Gideon Van Meijeren",
+   "verslagnaam": "Van Meijeren",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "799bb30d-da26-429a-b10a-f801fcf07659",
+   "naam": "Wim Meulenkamp",
+   "verslagnaam": "Meulenkamp",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c73e6f8a-05c9-4d13-945f-71dfb9c730f0",
+   "naam": "Ingrid Michon-Derkzen",
+   "verslagnaam": "Michon-Derkzen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2b64bfe4-94b9-418c-b457-bbfbf9becced",
+   "naam": "Mohammed Mohandis",
+   "verslagnaam": "Mohandis",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e6644457-89a4-476a-a401-fe66ccd30c5e",
+   "naam": "Nicole Moinat",
+   "verslagnaam": "Moinat",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "18702d3e-02c2-4c96-8a9b-ee5aba584ae4",
+   "naam": "Jeremy Mooiman",
+   "verslagnaam": "Mooiman",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "9e34bdd3-3ddb-4f04-b416-746552e5658b",
+   "naam": "Marjolein Moorman",
+   "verslagnaam": "Moorman",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "17d59922-1009-4a0c-a6c4-e51e76d510ea",
+   "naam": "Edgar Edgar Mulder",
+   "verslagnaam": "Edgar Mulder",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e3a027eb-acac-4242-8b8d-533365ce3366",
+   "naam": "Alisha Müller",
+   "verslagnaam": "Müller",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8ef2beca-4c5f-4706-92c8-1dcdd8683d62",
+   "naam": "Songül Mutluer",
+   "verslagnaam": "Mutluer",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b030e5ad-e650-476b-bdc4-94d53c281040",
+   "naam": "Annabel Nanninga",
+   "verslagnaam": "Nanninga",
+   "fractie": "JA21",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "94b57459-7e34-46f8-834a-da04c53a02d6",
+   "naam": "Stephan Neijenhuis",
+   "verslagnaam": "Neijenhuis",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d24b17b4-8e3a-4bed-818e-5d61dcc9f534",
+   "naam": "Jurgen Nobel",
+   "verslagnaam": "Nobel",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "432729d4-fd5e-4e53-aba8-9bc981949713",
+   "naam": "Sjoukje Van Oosterhout",
+   "verslagnaam": "Van Oosterhout",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "cb0813ab-e50e-4854-ba1c-fbadab821b1a",
+   "naam": "Henk-Jan Oosterhuis",
+   "verslagnaam": "Oosterhuis",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8f8756c6-5768-4e86-86a2-d242d1c4083d",
+   "naam": "Ouafa Oualhadj",
+   "verslagnaam": "Oualhadj",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0eeb4f4a-771a-49d2-979d-68c2b4895f0e",
+   "naam": "Esther Ouwehand",
+   "verslagnaam": "Ouwehand",
+   "fractie": "PvdD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c284355b-902b-4073-a057-24daec031e39",
+   "naam": "Jan Paternotte",
+   "verslagnaam": "Paternotte",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+   "naam": "Mariëtte Patijn",
+   "verslagnaam": "Patijn",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "80a5d70b-e932-493d-90b4-d45fe2be522f",
+   "naam": "Wieke Paulusma",
+   "verslagnaam": "Paulusma",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "8eb7fc23-b013-43f3-b9c7-29d5ccd10db1",
+   "naam": "Kati Piri",
+   "verslagnaam": "Piri",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "e8c889ae-35e2-4d2a-83e5-9d15f30a6591",
+   "naam": "Caroline Van der Plas",
+   "verslagnaam": "Van der Plas",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "337901dc-6804-4399-a2ab-18f8af5042e4",
+   "naam": "Anne-Marijke Podt",
+   "verslagnaam": "Podt",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6ee6a4b6-3523-4806-b784-a669f6fa8c10",
+   "naam": "André Poortman",
+   "verslagnaam": "Poortman",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c0bfbae7-5c03-49e1-8bb6-a9ca2a4157ec",
+   "naam": "Erwin Prickaertz",
+   "verslagnaam": "Prickaertz",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "15342ca7-bffc-4d20-bcc1-be5ab9d6530c",
+   "naam": "Annette Raijer",
+   "verslagnaam": "Raijer",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "35caab67-2b49-4c45-a5c6-af0f110425c7",
+   "naam": "Queeny Rajkowski",
+   "verslagnaam": "Rajkowski",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ecddb7dd-9bf7-4bbf-916b-18dc9a9b443e",
+   "naam": "Ilana Rooderkerk",
+   "verslagnaam": "Rooderkerk",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
+   "naam": "Raymond De Roon",
+   "verslagnaam": "De Roon",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5d09a944-d2e0-4792-a8ae-8b2ac325e23a",
+   "naam": "Tom Russcher",
+   "verslagnaam": "Russcher",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+   "naam": "Milan Schenk",
+   "verslagnaam": "Schenk",
+   "fractie": "FVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "61c70d39-f0fb-4fc8-88e4-66b935ecf7d5",
+   "naam": "Shanna Schilder",
+   "verslagnaam": "Schilder",
+   "fractie": "Groep Markuszower",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "c635129f-ee99-4c9a-a898-79eafa8cbf3b",
+   "naam": "Jan Schoonis",
+   "verslagnaam": "Schoonis",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "fb37be5e-962f-4303-805d-3d5b3414e3e8",
+   "naam": "Björn Schutz",
+   "verslagnaam": "Schutz",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "db1b4703-2be0-4a80-9299-559323138625",
+   "naam": "Joost Sneller",
+   "verslagnaam": "Sneller",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "2bddf0e3-4312-4d39-ab17-a6837e24b5d8",
+   "naam": "Hanneke Steen",
+   "verslagnaam": "Steen",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+   "naam": "Chris Stoffer",
+   "verslagnaam": "Stoffer",
+   "fractie": "SGP",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "fccf681b-e1de-45d0-afb6-7812c1efcd43",
+   "naam": "Sebastiaan Stöteler",
+   "verslagnaam": "Stöteler",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5f3700f2-4268-4378-bb91-2d5908a8da43",
+   "naam": "Jeltje Straatman",
+   "verslagnaam": "Straatman",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "78bfadde-92e9-4200-9324-ec3ff790a712",
+   "naam": "Jan Struijs",
+   "verslagnaam": "Struijs",
+   "fractie": "50PLUS",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+   "naam": "Luc Stultiens",
+   "verslagnaam": "Stultiens",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d32fb18f-d853-425e-b0f2-ead5232c75eb",
+   "naam": "Marijke Synhaeve",
+   "verslagnaam": "Synhaeve",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+   "naam": "Christine Teunissen",
+   "verslagnaam": "Teunissen",
+   "fractie": "PvdD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "7fb75c9e-97b7-40ce-99e2-4f37fcde70f4",
+   "naam": "Eveline Tijmstra",
+   "verslagnaam": "Tijmstra",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "78926a24-407d-45aa-b50f-1abb330fce12",
+   "naam": "Mikal Tseggai",
+   "verslagnaam": "Tseggai",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "0e47df31-d7a4-4f7f-b85a-dc699003f8a0",
+   "naam": "Marieke Vellinga-Beemsterboer",
+   "verslagnaam": "Vellinga-Beemsterboer",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ad2d74ac-2b93-494b-8587-ec1084c9eaa0",
+   "naam": "Ruud Verkuijlen",
+   "verslagnaam": "Verkuijlen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+   "naam": "Henk Vermeer",
+   "verslagnaam": "Vermeer",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "23c91de2-22d8-4bea-b06a-b4aa9c423fd3",
+   "naam": "Marc Vervuurt",
+   "verslagnaam": "Vervuurt",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "9d5e0865-b8a6-4952-8126-c3e27b08ef33",
+   "naam": "Lisa Vliegenthart",
+   "verslagnaam": "Vliegenthart",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "247cd142-7220-4f25-aa32-8e1801169e9f",
+   "naam": "Elmar Vlottes",
+   "verslagnaam": "Vlottes",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "d9f97940-cffb-4a3c-b370-335ce2b09f63",
+   "naam": "Marina Vondeling",
+   "verslagnaam": "Vondeling",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "f9b55c38-c420-4b6a-96a7-ae00f4ec3918",
+   "naam": "Hilde Wendel",
+   "verslagnaam": "Wendel",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "fcf713d0-8b9e-4199-83bf-6088f485fffc",
+   "naam": "Hanneke Van der Werf",
+   "verslagnaam": "Van der Werf",
+   "fractie": "D66",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "b119b226-8fb6-4888-829f-0ccd02d6dee6",
+   "naam": "Lisa Westerveld",
+   "verslagnaam": "Westerveld",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "4cd5cc64-ec2f-4317-917b-a8be65884c6e",
+   "naam": "Femke Marije Wiersma",
+   "verslagnaam": "Wiersma",
+   "fractie": "BBB",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+   "naam": "Geert Wilders",
+   "verslagnaam": "Wilders",
+   "fractie": "PVV",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "4af5269c-e0f8-4ab5-8d5f-f6cbeea3df27",
+   "naam": "Ani Zalinyan",
+   "verslagnaam": "Zalinyan",
+   "fractie": "PRO",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "ea3409ba-cd01-4d82-abce-b2fc031aecb8",
+   "naam": "Jantine Zwinkels",
+   "verslagnaam": "Zwinkels",
+   "fractie": "CDA",
+   "functie": "lid Tweede Kamer"
+  },
+  {
+   "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+   "naam": "Thom Van Campen",
+   "verslagnaam": "Van Campen",
+   "fractie": "VVD",
+   "functie": "lid Tweede Kamer"
+  },
   {
    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
    "naam": "Thom Van Campen",
@@ -54,6 +2210,19 @@
  "fragmenten": [
   {
    "soort": "Voorzitter selectie",
+   "tekst": "",
+   "personen": [
+    {
+     "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+     "naam": "Thom Van Campen",
+     "verslagnaam": "Van Campen",
+     "fractie": "VVD",
+     "functie": "lid Tweede Kamer"
+    }
+   ]
+  },
+  {
+   "soort": "Wisseling voorzitter",
    "tekst": "",
    "personen": [
     {

@@ -1,0 +1,188 @@
+{
+ "id": "92b8a5d5-f8a7-4c3e-af9e-824e7b1bc145",
+ "titel": "Stemmingen",
+ "onderwerp": "Stemmingen",
+ "parlisid": "",
+ "voortzetting": false,
+ "soort_activiteit": "Stemmingen",
+ "begin": "2026-11-12T21:05:20",
+ "eind": "2026-11-12T21:23:18",
+ "vergadering": {
+  "id": "1609f035-ccb4-466f-996c-6de4ceba89a3",
+  "datum": "2026-11-12",
+  "gewijzigd": "2026-11-13T01:04:35.5961596+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "24e vergadering, donderdag 12 november 2026",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "woorden": 563,
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T21:05:23",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik heropen de vergadering. Aan de orde is de stemming in verband met de Wijziging van enkele belastingwetten en enige andere wetten, het Belastingplan 2027. Mevrouw Keijzer verzoekt om een hoofdelijke stemming over het wetsvoorstel, maar voordat we gaan stemmen, geef ik het woord aan mevrouw Teunissen voor een stemverklaring. Het woord is aan mevrouw Teunissen. Mag ik een beetje orde in de zaal? Joost! Eh, meneer Eerdmans.",
+   "deel": 0
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T21:05:55",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Oei voorzitter, wat doet u nu?",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T21:05:56",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We vallen allemaal weleens uit onze rol. Mevrouw Teunissen, ga uw gang.",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T21:05:59",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Het zijn historische tijden, want het gaat om grote keuzes waar de fracties voor staan. Allereerst de keuze wie gaat betalen, rijke mensen of werkende mensen. Het gaat ook om de keuze tussen partijbelang en landsbelang, tussen chaos of samenwerken. In een wereld waarin rijken steeds rijker worden en waarin werkende mensen steeds zwaarder worden belast, zullen partijen moeten samenwerken om dat tij te keren. In dit Belastingplan gaan miljonairs meer betalen. Het is niet perfect, het is een begin. Wie in dit Belastingplan ook meer gaan betalen, zijn de mensen die het nodig vinden om met privéjets te vliegen. Wie minder gaan betalen, zijn treinreizigers. De aangekondigde verhoging van 5% voor treintickets gaat van tafel. Dat zijn twee stappen voor het klimaat. Er komt geld voor alternatieven voor dierproeven om het leed van dieren zo snel mogelijk te stoppen.\nAlles afwegende kan de Partij voor de Dieren dit Belastingplan met de hakken over de sloot steunen. Het is niet perfect, maar het is wel een begin.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T21:07:10",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel, mevrouw Teunissen. Eerder vandaag heeft de Kamer reeds over de ingediende amendementen en de artikelen gestemd. Het wetsvoorstel komt nu hoofdelijk in stemming. Het betreft wetsvoorstel 37022. Ik verzoek de griffier de namenlijst op te lezen. Ik verzoek de leden tot stilte. Wilt u zich luid uitspreken? Het woord is aan de griffier.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T21:12:35",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Eerder vandaag heeft de Kamer reeds over de ingediende amendementen en de artikelen gestemd. Het wetsvoorstel komt nu in stemming.",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T21:13:02",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Eerder vandaag heeft de Kamer reeds over de ingediende amendementen en de artikelen gestemd. Het wetsvoorstel komt nu in stemming.",
+   "deel": 5
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T21:13:31",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Er is een stemverklaring van de heer Hoogeveen. Gaat uw gang.",
+   "deel": 7
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T21:13:35",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Op 12 februari 2026 stemde deze Kamer, ondanks al onze waarschuwingen, voor een fundamenteel slecht en oneerlijk box 3-stelsel gebaseerd op een vermogensaanwasbelasting. Als een van de weinige landen ter wereld zouden wij belasting gaan heffen op papieren winsten. Deze historische fout kunnen en móéten wij vanavond herstellen. Dankzij onze zojuist aangenomen motie moet er uiterlijk op Prinsjesdag 2027 een wetsvoorstel in de Kamer liggen voor een volledige vermogenswinstbelasting die ook geldt voor edelmetalen en cryptomunten. 25 jaar na de invoering van het als tijdelijk bedoelde forfaitaire box 3-stelsel doet zich vanavond een unieke kans voor om eindelijk over te gaan op een belastingheffing over daadwerkelijk behaalde en gerealiseerde rendementen. Dat is belangrijk voor spaarders, beleggers, vastgoedondernemers en het mkb. Mede namens de SGP en BBB spreken wij daarom onze steun uit voor deze novelle.",
+   "deel": 8
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T21:14:33",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Eerder vandaag heeft de Kamer reeds over de ingediende amendementen en de artikelen gestemd. Het wetsvoorstel komt nu in stemming.",
+   "deel": 8
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T21:14:52",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Daarmee zijn we aan het einde gekomen van de stemmingen. Ik schors een enkele minuut, een enkel ogenblik, waarna we zullen beginnen met het hoofdprogramma: het debat over het advies van het Nationaal Burgerberaad Klimaat. Fijn dat u er nog bent! De vergadering is kort geschorst.",
+   "deel": 10
+  }
+ ]
+}

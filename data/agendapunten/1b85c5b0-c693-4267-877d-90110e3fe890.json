@@ -1,0 +1,638 @@
+{
+ "id": "1b85c5b0-c693-4267-877d-90110e3fe890",
+ "titel": "Stemmingen",
+ "onderwerp": "Stemmingen",
+ "parlisid": "",
+ "voortzetting": false,
+ "soort_activiteit": "Stemmingen",
+ "begin": "2026-11-12T19:37:18",
+ "eind": "2026-11-12T21:05:20",
+ "vergadering": {
+  "id": "1609f035-ccb4-466f-996c-6de4ceba89a3",
+  "datum": "2026-11-12",
+  "gewijzigd": "2026-11-13T01:04:35.5961596+01:00",
+  "soort": "Plenair",
+  "status": "Ongecorrigeerd",
+  "titel": "24e vergadering, donderdag 12 november 2026",
+  "verslag_id": "2cdb5f46-1349-45c7-97c6-9b995af2f36b",
+  "verslag_soort": "Tussenpublicatie"
+ },
+ "woorden": 997,
+ "beurten": [
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:37:21",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We beginnen dus met de stemmingen onder 2, de moties. Dat doen we naar aanleiding van een verzoek dat met een meerderheid is aangenomen.\nDe heer Wilders verzoekt om een hoofdelijke stemming over de motie op stuk nr. 53. Daar gaan we zo mee beginnen, maar er zijn eerst drie stemverklaringen. Ik geef als eerste het woord aan mevrouw Keijzer.",
+   "deel": 0
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T19:37:47",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Mijn stemverklaring gaat over de motie op stuk nr. 53, de motie-Vlottes/Wilders, waarin het vertrouwen in het kabinet wordt opgezegd. Vroeger op de basisschool kreeg je altijd stickers in je schriftje en op dezelfde manier gaat meneer Wilders om met het indienen van moties van wantrouwen. Dat is eigenlijk een slechte zaak, want het is een zwaar instrument. Je moet het vervolgens elke keer weer wegen en dat heb ik nu ook gedaan. Ik kijk naar een kabinet en een minister-president die er een ongelofelijke bende van gemaakt hebben. Ook vandaag was hij in zijn oordeel over de motie op stuk nr. 84 niet in staat om te zeggen wat er nodig is om leiding te geven aan dit hele proces. Hiermee is hij wat mij betreft gezakt voor het examen. Dat laat onverlet dat er in dit kabinet ook bewindspersonen zitting hebben die ik bijzonder waardeer. Maar alles afwegend en zeker gezien het optreden van de minister-president, moet ik het vertrouwen opzeggen. Daarom steun ik de motie van de heer Wilders.",
+   "deel": 1
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:38:53",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. De heer Stoffer krijgt het woord voor zijn stemverklaring.",
+   "deel": 1
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T19:39:12",
+   "spreker": {
+    "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Stoffer",
+    "verslagnaam": "Stoffer",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Mijn stemverklaring gaat over de motie op stuk nr. 84, de motie-Struijs/Bikker. Deze motie benoemt terecht dat het amendement-Klaver/Dassen onwenselijke gevolgen heeft, een reden dus om tegen dat amendement te stemmen. De oplossing om de gevreesde gevolgen van het amendement ongedaan te maken is staatsrechtelijk gezien bedenkelijk. Bij de overlap tussen de amendementen-Grinwis/Van Brenk en -Klaver/Dassen is geen sprake van technische problemen of onduidelijkheid. Het gaat om inhoudelijke politieke keuzes. De Kamer maakt keuzes in de wetgeving door te stemmen over amendementen. Dat kan niet per motie, laat staan op voorhand. Het is ongerijmd om bij motie te vragen om andere keuzes dan die de Kamer in de stemming over de amendementen maakt en daarom kan de SGP niet anders dan tegen deze motie stemmen.",
+   "deel": 2
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:40:02",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Tot slot een stemverklaring van de heer Vermeer namens de BBB.",
+   "deel": 2
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": false,
+   "begin": "2026-11-12T19:40:11",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Goed verhaal van de heer Stoffer net; daar sluit ik mij bij aan.\nMaar ik heb nog een stemverklaring bij de moties op de stukken nrs. 60 en 62 van de heer Ergin en bij de moties op de stukken nrs. 81, 82 en 83 van de heer Jimmy Dijk. Ook wij willen de belastingen op brandstoffen en boodschappen omlaag, de rente op studieleningen maximeren is beloofd en tandartscontrole levert meer op dan die kost. Maar er staan bij deze moties dekkingen als hypotheekrenteaftrek en expatregeling, en die kunnen we niet accepteren, niet voor de burgers en evenmin voor de bedrijven.\nDank u wel.",
+   "deel": 3
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:40:46",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dank u wel. Wij gaan hoofdelijk stemmen over de motie-Vlottes/Wilders op stuk nr. 53 (37022). Ik verzoek de griffier om de namenlijst op te lezen. Ik verzoek de leden om stilte, zodat we het in één keer kunnen doen. Spreek u ook luid uit, zodat we het goed kunnen noteren.",
+   "deel": 3
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:46:03",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Meneer Ergin. Gaat uw gang.",
+   "deel": 5
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T19:46:06",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, ik zou graag de moties op de stukken nrs. 60 en 62 willen aanhouden.",
+   "deel": 5
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:46:07",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Sorry, de moties op de stukken nrs. 60 en 61?",
+   "deel": 5
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T19:46:08",
+   "spreker": {
+    "id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Doğukan Ergin",
+    "verslagnaam": "Ergin",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Stukken nrs. 60 en 62.",
+   "deel": 5
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:46:28",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We gaan stemmen.",
+   "deel": 5
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:52:09",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "We gaan terug naar punt 1, de amendementen. In deze stemmingsronde zullen wij alleen stemmen over de ingediende amendementen en de artikelen. De eindstemming over het wetsvoorstel volgt later vandaag.",
+   "deel": 26
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:55:48",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "In afwijking van de artikelvolgorde van het wetsvoorstel stemmen wij nu eerst over het amendement op stuk nr. 44, dat onverenigbaar is met de amendementen op de stukken nrs. 74 en 15 en dat van verdergaande strekking is.",
+   "deel": 42
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T19:59:08",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "In deze stemmingsronde zullen wij alleen stemmen over de ingediende amendementen en de artikelen. De eindstemming over het wetsvoorstel volgt later vandaag.",
+   "deel": 58
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T20:00:00",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "In deze stemmingsronde zullen wij alleen stemmen over de ingediende amendementen en de artikelen. De eindstemming over het wetsvoorstel volgt later vandaag.",
+   "deel": 62
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T20:01:22",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Meneer Hoogeveen, gaat uw gang.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:01:24",
+   "spreker": {
+    "id": "6c06c90e-deae-48ad-a5e4-ee01c981713b",
+    "soort": "Tweede Kamerlid",
+    "naam": "Michiel Hoogeveen",
+    "verslagnaam": "Hoogeveen",
+    "fractie": "JA21",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Even een technisch punt. Nu het amendement-Klaver/Dassen op nr. 80 (37022) is aangenomen, ontstaat er een vreemde juridische situatie. Dit was onderdeel van het Belastingplan. We gaan nu stemmen over de novelle box 3, maar het amendement van de heer Klaver introduceert een gedifferentieerd tarief in box 3, waardoor mijn amendement, dat vraagt om een tariefverlaging, automatisch komt te vervallen. Dat blijkt ook uit de brief van het kabinet. Het is in ieder geval niet zuiver als je op deze manier stemt over wetgeving, over amendementen. Ik zou dus willen vragen om de stemmingen over de novelle box 3 in zijn geheel uit te stellen naar volgende week.",
+   "deel": 67
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T20:02:09",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "De heer Hoogeveen stelt dus voor om de agendapunten 6 en 7 uit te stellen naar volgende week, alsmede de stemming over de wet later vandaag. Ik kijk of daar een meerderheid voor is.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:28",
+   "spreker": {
+    "id": "457964c8-b4ba-4fa8-ad80-d2dea54e7c94",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jesse Klaver",
+    "verslagnaam": "Klaver",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:29",
+   "spreker": {
+    "id": "40e883e0-5a57-4840-b523-7ccf6c7582e2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Chris Stoffer",
+    "verslagnaam": "Stoffer",
+    "fractie": "SGP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:32",
+   "spreker": {
+    "id": "a2744035-96f3-4ac4-b5db-4aae321c6464",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henk Vermeer",
+    "verslagnaam": "Vermeer",
+    "fractie": "BBB",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:34",
+   "spreker": {
+    "id": "c284355b-902b-4073-a057-24daec031e39",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jan Paternotte",
+    "verslagnaam": "Paternotte",
+    "fractie": "D66",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:38",
+   "spreker": {
+    "id": "78bfadde-92e9-4200-9324-ec3ff790a712",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jan Struijs",
+    "verslagnaam": "Struijs",
+    "fractie": "50PLUS",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:41",
+   "spreker": {
+    "id": "d3232999-f7dc-43ab-93a1-1e191b217321",
+    "soort": "Tweede Kamerlid",
+    "naam": "Henri Bontenbal",
+    "verslagnaam": "Bontenbal",
+    "fractie": "CDA",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:43",
+   "spreker": {
+    "id": "1fcef0f3-6932-4721-a32f-7fc6f28e9fe7",
+    "soort": "Tweede Kamerlid",
+    "naam": "Laurens Dassen",
+    "verslagnaam": "Dassen",
+    "fractie": "Volt",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:48",
+   "spreker": {
+    "id": "ad93f400-387d-4506-96e8-6926f478e063",
+    "soort": "Tweede Kamerlid",
+    "naam": "Ruben Brekelmans",
+    "verslagnaam": "Brekelmans",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:49",
+   "spreker": {
+    "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+    "soort": "Tweede Kamerlid",
+    "naam": "Stephan Van Baarle",
+    "verslagnaam": "Van Baarle",
+    "fractie": "DENK",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:52",
+   "spreker": {
+    "id": "5f0f038d-9f57-4053-9f92-3d53aa318904",
+    "soort": "Tweede Kamerlid",
+    "naam": "Milan Schenk",
+    "verslagnaam": "Schenk",
+    "fractie": "FVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:54",
+   "spreker": {
+    "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jimmy Dijk",
+    "verslagnaam": "Jimmy Dijk",
+    "fractie": "SP",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:56",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter. Ik vind dit een lastige, want het is heel belangrijk dat het wetsvoorstel er komt. Betekent het dan dat JA21 tegen dit wetsvoorstel zou stemmen?",
+   "deel": 67
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T20:02:57",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Dat gaan we zien, maar steunt u het voorstel van de heer Hoogeveen?",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:02:58",
+   "spreker": {
+    "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+    "soort": "Tweede Kamerlid",
+    "naam": "Mona Keijzer",
+    "verslagnaam": "Keijzer",
+    "fractie": "Lid Keijzer",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "In dat geval, want daar ben ik een beetje bang voor, steun ik het. Misschien kunnen we het nog redden.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:03:05",
+   "spreker": {
+    "id": "84f2134b-fdb6-4d21-8d30-f9cc3984de8d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Christine Teunissen",
+    "verslagnaam": "Teunissen",
+    "fractie": "PvdD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:03:07",
+   "spreker": {
+    "id": "c7aa0e9d-3370-4c56-a461-682e83bcab4f",
+    "soort": "Tweede Kamerlid",
+    "naam": "Pieter Grinwis",
+    "verslagnaam": "Grinwis",
+    "fractie": "ChristenUnie",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:03:10",
+   "spreker": {
+    "id": "6f5fd7c5-c760-455a-bde6-c9d4737dc5de",
+    "soort": "Tweede Kamerlid",
+    "naam": "Geert Wilders",
+    "verslagnaam": "Wilders",
+    "fractie": "PVV",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Geen steun.",
+   "deel": 67
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T20:03:13",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Meneer Hoogeveen, er is geen meerderheid voor het verzoek.",
+   "deel": 67
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T20:04:17",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "In deze stemmingsronde zullen wij alleen stemmen over de ingediende amendementen en de artikelen. De eindstemming over het wetsvoorstel volgt later vandaag.",
+   "deel": 71
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T20:07:29",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Is een schorsing van 45 minuten nog steeds nodig?",
+   "deel": 86
+  },
+  {
+   "rol": "interrumpant",
+   "voorzitter": false,
+   "begin": "2026-11-12T20:07:37",
+   "spreker": {
+    "id": "457964c8-b4ba-4fa8-ad80-d2dea54e7c94",
+    "soort": "Tweede Kamerlid",
+    "naam": "Jesse Klaver",
+    "verslagnaam": "Klaver",
+    "fractie": "PRO",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Voorzitter, mag het ook een uur zijn, alstublieft? Ik denk dat dat wel goed is.",
+   "deel": 86
+  },
+  {
+   "rol": "woordvoerder",
+   "voorzitter": true,
+   "begin": "2026-11-12T20:07:40",
+   "spreker": {
+    "id": "eb0e02d7-1747-4ad4-9646-d75f6a82f58d",
+    "soort": "Tweede Kamerlid",
+    "naam": "Thom Van Campen",
+    "verslagnaam": "Van Campen",
+    "fractie": "VVD",
+    "functie": "lid Tweede Kamer"
+   },
+   "tekst": "Ik schors de vergadering een uur. Houd u ook rekening met een hoofdelijke stemming. De vergadering is een uur geschorst, tot 21.05 uur.",
+   "deel": 86
+  }
+ ]
+}
