@@ -144,13 +144,34 @@
     ]
   },
   "woorden": [
-    {"woord": "derde termijn", "uitleg": "Een extra ronde in het debat, op verzoek van de Kamer. In deze termijn mogen Kamerleden ook moties indienen."},
-    {"woord": "amendement", "uitleg": "Een voorstel van Kamerleden om een wetsvoorstel te veranderen."},
-    {"woord": "miljonairsbelasting", "uitleg": "In dit debat: een extra tarief in box 3. Volgens Paternotte betalen mensen met meer dan €60.000 winst op vermogen 2,5% meer belasting over die winst."},
-    {"woord": "box 3", "uitleg": "Het deel van de inkomstenbelasting voor sparen en beleggen (vermogen)."},
-    {"woord": "box 2", "uitleg": "Het deel van de inkomstenbelasting voor wie een aanmerkelijk belang heeft: minstens 5% van de aandelen in een bedrijf."},
-    {"woord": "doorschuifregeling bij bedrijfsopvolging", "uitleg": "Een regeling waardoor je bij het overnemen van een bedrijf, zoals een familiebedrijf, de belasting nog niet meteen hoeft te betalen."},
-    {"woord": "jij-bak", "uitleg": "Een reactie waarbij je de kritiek terugkaatst naar de ander, in plaats van op de vraag in te gaan."}
+    {
+      "woord": "derde termijn",
+      "uitleg": "Een extra ronde in het debat, op verzoek van de Kamer. In deze termijn mogen Kamerleden ook moties indienen."
+    },
+    {
+      "woord": "amendement",
+      "uitleg": "Een voorstel van Kamerleden om een wetsvoorstel te veranderen."
+    },
+    {
+      "woord": "miljonairsbelasting",
+      "uitleg": "In dit debat: een extra tarief in box 3. Volgens Paternotte betalen mensen met meer dan €60.000 winst op vermogen 2,5% meer belasting over die winst."
+    },
+    {
+      "woord": "box 3",
+      "uitleg": "Het deel van de inkomstenbelasting voor sparen en beleggen (vermogen)."
+    },
+    {
+      "woord": "box 2",
+      "uitleg": "Het deel van de inkomstenbelasting voor wie een aanmerkelijk belang heeft: minstens 5% van de aandelen in een bedrijf."
+    },
+    {
+      "woord": "doorschuifregeling bij bedrijfsopvolging",
+      "uitleg": "Een regeling waardoor je bij het overnemen van een bedrijf, zoals een familiebedrijf, de belasting nog niet meteen hoeft te betalen."
+    },
+    {
+      "woord": "jij-bak",
+      "uitleg": "Een reactie waarbij je de kritiek terugkaatst naar de ander, in plaats van op de vraag in te gaan."
+    }
   ],
   "strip": [
     {
@@ -158,7 +179,7 @@
       "emotie": "bezorgd",
       "citaat": "Mijn voorstel zou zijn om in ieder geval mevrouw Yeşilgöz, maar wellicht ook de andere vicepremier, uit te nodigen bij dit debat. … Die vraag is: is er nog een kabinet?",
       "tekst": {
-        "normaal": "Ik stel voor om in ieder geval mevrouw Yeşilgöz bij dit debat uit te nodigen. Is er nog een kabinet?",
+        "normaal": "Ik stel voor om in ieder geval mevrouw Yeşilgöz uit te nodigen. Is er nog een kabinet?",
         "makkelijk": "Ik wil mevrouw Yeşilgöz bij dit debat. Is er nog een kabinet?"
       }
     },
@@ -167,7 +188,7 @@
       "emotie": "vastberaden",
       "citaat": "We zijn blij dat er in totaal 1 miljard euro wordt opgehaald bij vermogen en dat we dat geld aan werkende mensen gaan geven. … Wat er ligt, is een compromis.",
       "tekst": {
-        "normaal": "We halen 1 miljard euro op bij vermogen en geven dat aan werkende mensen. Wat er ligt, is een compromis.",
+        "normaal": "We halen 1 miljard euro bij vermogen op voor werkende mensen. Wat er ligt, is een compromis.",
         "makkelijk": "1 miljard euro van vermogen gaat naar werkende mensen. Het is een compromis."
       }
     },
@@ -185,8 +206,8 @@
       "emotie": "boos",
       "citaat": "U bent bewust door de pijngrens van de VVD heen gegaan, want u wist dat zij die miljonairsbelasting niet wilden. … Als u daarop terugkijkt, denkt u dan: dat heb ik goed gedaan?",
       "tekst": {
-        "normaal": "U ging bewust door de pijngrens van de VVD. U wist dat zij geen miljonairsbelasting wilden. Deed u dat goed?",
-        "makkelijk": "U wist dat de VVD dit niet wilde. Toch deed u het. Was dat goed?"
+        "normaal": "U ging bewust door de pijngrens van de VVD. Denkt u dan: dat heb ik goed gedaan?",
+        "makkelijk": "U wist dat de VVD dit niet wilde. Deed u dat goed?"
       }
     },
     {
@@ -203,7 +224,7 @@
       "emotie": "vastberaden",
       "citaat": "Staatssecretaris Eerenberg, die van dezelfde partij als de heer Paternotte is, zegt dat je niet meerdere tarieven kunt invoeren in box 3; de heer Heinen, de minister van Financiën, heeft dat trouwens ook bevestigd. Het kan niet in de uitvoering.",
       "tekst": {
-        "normaal": "Staatssecretaris Eerenberg zegt dat je geen meerdere tarieven in box 3 kunt invoeren. Het kan niet in de uitvoering.",
+        "normaal": "Volgens staatssecretaris Eerenberg kun je geen meerdere tarieven invoeren in box 3. Het kan niet in de uitvoering.",
         "makkelijk": "Volgens de staatssecretaris kunnen er geen meerdere tarieven in box 3 komen."
       }
     },
@@ -212,8 +233,8 @@
       "emotie": "vastberaden",
       "citaat": "De staatssecretaris heeft gezegd dat het niet op korte termijn kan. Dat klopt. Als u het amendement goed leest, ziet u dat het niet volgend jaar wordt ingevoerd, en ook niet het jaar daarna, in 2028, maar pas vanaf 2029. De staatssecretaris heeft ook aangegeven dat het vanaf dat moment kan.",
       "tekst": {
-        "normaal": "Het kan niet op korte termijn, dat klopt. Het amendement begint pas vanaf 2029, en dan kan het wel.",
-        "makkelijk": "Het kan niet snel, dat klopt. Het begint pas in 2029. Dan kan het wel."
+        "normaal": "Het kan niet op korte termijn, dat klopt. Het amendement begint pas vanaf 2029, en dan kan het.",
+        "makkelijk": "Het kan niet snel, dat klopt. Vanaf 2029 kan het wel."
       }
     },
     {
@@ -221,8 +242,8 @@
       "emotie": "verbaasd",
       "citaat": "Die gaan dan met elkaar om tafel en komen tot een deal die nog geen 0,3% van de begroting betreft, wat de rijkste mensen in Nederland een heel klein beetje raakt. … Vervolgens gedraagt de VVD zich zo alsof de hele wereld in brand staat, en zet ze het hele kabinet op het spel.",
       "tekst": {
-        "normaal": "De deal is nog geen 0,3% van de begroting. Toch zet de VVD het hele kabinet op het spel.",
-        "makkelijk": "De deal is nog geen 0,3% van de begroting. Toch zet de VVD het kabinet op het spel."
+        "normaal": "De deal is nog geen 0,3% van de begroting. Toch zet de VVD het kabinet op het spel.",
+        "makkelijk": "De deal is heel klein. Toch zet de VVD het kabinet op het spel."
       }
     }
   ]
