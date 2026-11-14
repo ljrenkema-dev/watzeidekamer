@@ -1,0 +1,63 @@
+{
+ "debat": "f366ee5a-0d8a-436c-9125-3a2c63f85196",
+ "kop": "Plenair debat · 10 nov 2026 · Ordedebat (deel 1 van 6)",
+ "vraag": "Moet de behandeling van de box 3-novelle met de minister eerst worden afgerond, voordat het Belastingplan verder gaat?",
+ "vraag_bron": "Bron 5: de vraag over de volgorde die sprekers van minstens drie fracties in dit ordedebat stellen en waarop coalitie en voorzitter ingaan. Het ordevoorstel van de voorzitter (beurt 9): 'voortzetting in tweede termijn van de behandeling van de novelle aanvangen met de minister. Dan de staatssecretaris, en vervolgens de minister met de beantwoording inzake het Belastingplan.' Formulering neutraal, ontleend aan de voorzitter.",
+ "vraag_bron_soort": 5,
+ "vraag_bron_toetsing": "Bron 1: geen vragenuur. Bron 2: dit deel is een ordedebat over de volgorde van twee behandelingen, niet over de inhoud of het doel van het wetsvoorstel; 'Moet het Belastingplan worden aangenomen?' past niet bij dit deel. Bron 3: in data/verzoeken/ staat geen verzoek om dit ordedebat; verzoek 4 van 11 november (ChristenUnie) gaat over een derde termijn, niet over de volgorde. Bron 4: de agendatitel 'Pakket Belastingplan 2027' omgezet in een vraag past niet bij een deel over de volgorde. Bron 5 past: Ergin (DENK, beurt 4: 'ik zou het daarom juist belangrijk vinden dat de minister van Financiën eerst ingaat op die ontstane politieke situatie'), Grinwis (ChristenUnie, beurt 6: 'Ik zou hem dus inderdaad alle kans willen geven om de vragen die aan zijn adres zijn gesteld, eerst te beantwoorden') en Stultiens (PRO, beurt 12: 'Laten we beginnen met box 3, waar genoeg tijd voor is.'); CDA (Van Dijk, beurt 24: 'Steun voor het voorstel van de heer Grinwis. Ik ga ervan uit dat alle tijd genomen wordt voor de beantwoording.') en de voorzitter (beurt 31) gaan er in hetzelfde debat op in.",
+ "versies": {
+  "a": {
+   "regel": "Geen echte inhoudelijke botsing: de langste wisselingen (Stultiens-Schenk, Schenk-Ergin, Ergin-Grinwis) zijn sprekers die het eens zijn over de volgorde en kritiek hebben op de e-mailprocedure; coalitiepartijen (CDA, D66, VVD) bestrijden dat niet inhoudelijk, alleen VVD-fractie zegt 'Het maakt ons niet uit'. Daarom geen forcering: één citaat van wie het eerst sprak, met de kern van de kritiek. Niet over een bijzaak: orde en volgorde nemen 32% van de spreektijd in.",
+   "wisseling": "Luc Stultiens (PRO) en Milan Schenk (FVD), beurt 1-3; geen botsing",
+   "afgevallen": [
+    "Wisseling 2 (Schenk-Ergin): zelfde kritiek, geen tegenstelling",
+    "Wisseling 3 (Ergin-Grinwis): Ergin en Grinwis willen allebei dat de minister eerst antwoordt",
+    "Schenk-Van Eijk (beurt 24-26): enige directe tegenspraak, maar Van Eijk (VVD) verdedigt de procedure niet inhoudelijk ('Het maakt ons niet uit')"
+   ],
+   "aandeel_onderwerp": "32% (e-mailprocedure|volgorde|oncollegiaal|WGO|ordevoorstel)",
+   "citaten": [
+    {
+     "beurt": 1,
+     "citaat": "We hadden gisteren inderdaad besloten: we doen een los debat over de box 3-novelle met de minister. Dat is vandaag helaas alsnog teruggedraaid via een e-mailprocedure.",
+     "naam": "Luc Stultiens",
+     "partij": "PRO",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/financien/plenaire-zaal/pakket-belastingplan-2027-voortzetting-16-15/markeringen?event=interrupter2026-11-10T16%3A33%3A12%2B0100",
+     "tijd": "16:33",
+     "figuur": {
+      "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+      "fractie": "PRO",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "donkerbruin",
+       "kapsel": "kort-golf",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": true,
+       "gezichtsvorm": "smal",
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-open",
+       "slapen": "bedekt",
+       "manga": "7a727f46-0e36-493f-8779-736d3250fb27"
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Beurt 1: weggelaten: 'Dat vind ik vrij oncollegiaal.' (derde zin; max. twee zinnen), het begin van de beurt na deze zinnen en het verzoek om genoeg tijd. Geen voorbehoud of voorwaarde weggevallen; de spreker zou het herkennen als zijn kritiek."
+   ]
+  }
+ },
+ "geen_botsing": true,
+ "partijen_totaal": 15,
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-14",
+  "kort": "Geen moties in dit debat.",
+  "lang": "In dit debat zijn geen moties ingediend.",
+  "moties": []
+ },
+ "afloop": "In dit debat zijn geen moties ingediend.",
+ "afloop_kort": "Geen moties in dit debat."
+}

@@ -7,13 +7,13 @@
  "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel/doel wetsvoorstel, Pakket Belastingplan 2027): past niet; deze derde termijn werd aangevraagd voor een nieuw amendement en de politieke situatie daaromheen, dus 'Moet het Belastingplan worden aangenomen?' dekt dit deel niet. Bron 3 (verzoek, data/verzoeken/294c2585-add8-4bee-859e-ef6853539cfb.json en het verslag van die regeling): bestaat en past, met als reden het amendement en de nieuwe politieke situatie. Bron 4 en 5 niet nodig.",
  "versies": {
   "a": {
-   "regel": "Wisseling 2 (Paternotte ↔ Keijzer) is de langste (14% van de spreektijd) en een echte botsing: Keijzer vraagt of de koers rond het amendement de gevolgen waard is, Paternotte (D66) verdedigt het amendement. Het onderwerp (amendement, box 3, populisme, 'waard') is met 14% geen bijzaak. De citaten komen uit de tweede ronde (beurt 41 en 42), omdat daar de vraag en het antwoord het duidelijkst naast elkaar staan.",
+   "regel": "Wisseling 1 (Paternotte ↔ Eerdmans, 8 beurten) is volgens het aantal beurten de langste en een echte tegenstelling, maar het onderwerp daarvan (hoe en wanneer D66 de VVD over de afspraken met PRO informeerde) is een bijzaak (4% van de spreektijd). Daarom wisseling 2 (Keijzer ↔ Paternotte, 7 beurten, 1203 woorden, de meeste woorden): Keijzer vraagt of de koers rond het amendement met PRO de gevolgen voor de coalitie waard is, Paternotte (D66) verdedigt het amendement. Dat onderwerp (amendement, afspraken met Klaver en Dassen, box 3) heeft 12% van de spreektijd en is geen bijzaak; het bredere onderwerp van de politieke situatie (crisis, coalitie) zit in versie c. De citaten komen uit de tweede ronde (beurt 41 en 42), omdat daar de vraag en het antwoord het duidelijkst naast elkaar staan; Keijzer opende de wisseling met haar interruptie (beurt 39) en staat bovenaan.",
    "wisseling": "Mona Keijzer (Lid Keijzer) ↔ Jan Paternotte (D66), beurt 38–45, 7 beurten",
    "afgevallen": [
-    "Wisseling 1 (Paternotte ↔ Eerdmans, JA21): gaat over wanneer de VVD werd geïnformeerd over de afspraken met PRO; 6% van de spreektijd, kleiner en meer procedureel.",
+    "Wisseling 1 (Paternotte ↔ Eerdmans, JA21): de langste in beurten, maar over wanneer en hoe de VVD werd geïnformeerd over de afspraken met PRO; dat onderwerp is een bijzaak: 4% (geïnformeerd|informeer|gebeld|Brekelmans|transparant|coalitiepartner|meegenomen|meenemen).",
     "Wisseling 3 (Paternotte ↔ Dijk, SP): over de kabinetscrisis; gebruikt als versie c."
    ],
-   "aandeel_onderwerp": "14% (amendement|box 3|Klaver|Dassen|miljonair|lastenverlichting|populisme|waard; beurten 9, 24, 25, 27, 28, 35, 39, 40, 41, 42, 44, 45)",
+   "aandeel_onderwerp": "12% (amendement|box 3|Klaver|Dassen|PRO\\b|miljonair|lastenverlichting|60\\.000|vermogen|populisme; beurten 24, 25, 27, 28, 40, 41, 42, 44, 45, 47, 50, 56 en later)",
    "citaten": [
     {
      "beurt": 41,
@@ -70,12 +70,12 @@
    ]
   },
   "c": {
-   "regel": "Andere invalshoek binnen het onderwerp politieke situatie: wisseling 3 (Dijk ↔ Paternotte), over de vraag of de kabinetscrisis zijn verantwoordelijkheid is. Het onderwerp (crisis, coalitie, kabinet, vertrouwen, verantwoordelijk) heeft 20% van de spreektijd. Alleen de beurten 63 en 64 uit deze wisseling zijn gebruikt: Dijk sprak eerst, dus bovenaan.",
+   "regel": "Andere invalshoek binnen het onderwerp politieke situatie: wisseling 3 (Dijk ↔ Paternotte), over de vraag of de kabinetscrisis zijn verantwoordelijkheid is. Het onderwerp (crisis, coalitie, verantwoordelijk) heeft 13% van de spreektijd. Alleen de beurten 63 en 64 uit deze wisseling zijn gebruikt: Dijk sprak eerst, dus bovenaan.",
    "wisseling": "Jimmy Dijk (SP) ↔ Jan Paternotte (D66), beurt 62–68, 6 beurten",
    "afgevallen": [
     "Wisseling 2 (Keijzer) is versie a."
    ],
-   "aandeel_onderwerp": "20% (crisis|coalitie|kabinet|vertrouwen|verantwoordelijk; beurten 4, 8, 9, 10, 13, 15, 16, 18, 20, 22, 29, 30 en later)",
+   "aandeel_onderwerp": "13% (crisis|coalitie|verantwoordelijk; beurten 8, 10, 13, 15, 16, 18, 29, 31, 35, 37, 41, 44 en later)",
    "citaten": [
     {
      "beurt": 63,
@@ -140,5 +140,15 @@
   "moties": []
  },
  "afloop": "In dit debat zijn geen moties ingediend.",
- "afloop_kort": "Geen moties in dit debat."
+ "afloop_kort": "Geen moties in dit debat.",
+ "lezing": {
+  "oordeel": "aangepast",
+  "bevindingen": [
+   "Versie a, regel en afgevallen: wisseling 2 is niet 'de langste'; wisseling 1 (Eerdmans, 8 beurten) is volgens het script de langste en een echte tegenstelling. Die valt af omdat het onderwerp (informeren van de VVD) een bijzaak is (4%), niet omdat de wisseling 'kleiner en procedureel' is. Regel en afgevallen aangepast; de keuze zelf blijft (ernst klein).",
+   "Versie a, aandeel_onderwerp: de 14% steunde mede op het trefwoord 'waard' (vooral Keijzers eigen herhaalde vraag, ook in andere contexten). Zonder dat trefwoord en met PRO/€60.000/vermogen: 12%, nog steeds geen bijzaak. Bijgewerkt (ernst klein).",
+   "Versie c, aandeel_onderwerp: 'kabinet' en 'vertrouwen' waren te ruim; met crisis|coalitie|verantwoordelijk 13%. Bijgewerkt (ernst klein).",
+   "Vraag en bron gecontroleerd tegen het verslag van de regeling van 11 november (beurten 36, 43, 71, 83): de citaten in vraag_bron zijn letterlijk; bron 2 past terecht niet bij deze derde termijn, bron 3 is de eerste die past; de vraag is neutraal en steunt op het verzoek, niet op één deelnemer (geen bevinding).",
+   "Citaten letterlijk gecontroleerd; geen voorbehoud, ontkenning of voorwaarde weggevallen. Paternotte (beurt 42) laat zijn vervolg over lastenverlichting voor modale inkomens weg; dat staat in inkorten en past niet binnen twee zinnen met zijn ontkenning erbij. Paternotte (beurt 64) antwoordt op Dijks vraag over de crisis met 'verantwoordelijk voor alles wat raakt aan deze coalitie' en neemt het woord crisis later (beurt 66) niet over; het citaat geeft zijn eigen formulering weer, dus herkenbaar (geen wijziging)."
+  ]
+ }
 }
