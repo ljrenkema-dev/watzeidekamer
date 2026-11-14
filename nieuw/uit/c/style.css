@@ -121,7 +121,8 @@ body{padding-bottom:78px}
 .oog{font-size:17px;font-weight:700;color:var(--kt)}
 .deelkop{font-size:17px;font-weight:700;color:var(--kt);border-left:4px solid var(--geel);padding-left:10px}
 .kdeel{display:flex;justify-content:space-between;gap:8px;font-weight:700;font-size:15px}
-.kdeel a,.kbalk a{padding:6px 0;display:inline-block}
+.kdeel a,.kbalk a{padding:12px 0;display:inline-block;min-height:44px;box-sizing:border-box}
+.knav{display:flex;gap:16px}
 .kaart a:focus-visible{outline-color:var(--geel)}
 html{scroll-padding-bottom:96px}
 .hs>p,.hs li,.hs dd,.wat p{max-width:36em}

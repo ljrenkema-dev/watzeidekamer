@@ -450,7 +450,12 @@ class Debat:
             k = re.search(r"het ([A-Z][^,:]*\d{4})", o)
             if k and "over een motie" in o:
                 return f"Stemming over een motie bij het {k.group(1)}"
-            return f"Stemmingen over het {k.group(1)}" if k else "Stemmingen"
+            if k:
+                return f"Stemmingen over het {k.group(1)}"
+            bij = stemming_debatten(self)
+            if bij:
+                return "Stemmingen, onder meer over stukken bij " + bij[-1].titel_agenda
+            return "Stemmingen"
         if len(self.delen) == 1 and self.delen[0].pagina:
             return self.delen[0].pagina["titel"]
         return self.titel_agenda
@@ -530,7 +535,18 @@ def laad():
             uniek[m["id"]] = m
         d.genoemde_moties = sorted(uniek.values(), key=lambda m: int(re.sub(r"\D", "", m["nummer"]) or 0))
     motie_debat = {mid: d for mid, (d, m) in toegewezen.items()}
-    return {"debatten": debatten, "punten": punten, "motie_debat": motie_debat}
+    # alle moties op (dossier, nummer); de versie met uitslag gaat voor
+    alle = {}
+    for ms in per_punt.values():
+        for m in ms:
+            k = (_dossier_norm(m["dossier"]), str(m["nummer"]))
+            if k not in alle or (m.get("uitslag") and not alle[k].get("uitslag")):
+                alle[k] = m
+    return {"debatten": debatten, "punten": punten, "motie_debat": motie_debat, "alle_moties": alle}
+
+
+def _dossier_norm(x):
+    return re.sub(r"[\s-]+", " ", str(x)).strip().upper()
 
 
 def debatten():
@@ -678,6 +694,36 @@ def stemming_onderwerp(d):
     return ""
 
 
+STUK_RE = re.compile(r"\b(motie|amendement)(?:-([A-Z][\w'’./-]*))? op stuk nr\. (\d+) \((\d{4,6}(?:[ -][A-Z]+)?)\)")
+
+
+def stemming_stukken(d):
+    """Bij een stemmingsronde: de stukken die de voorzitter noemt met nummer én Kamerstuk ('motie op stuk nr. 70 (37022)').
+    Stukken zonder Kamerstuknummer tellen niet mee: dan is niet zeker welk stuk bedoeld is. Elk stuk met de motie uit onze
+    gegevens, of None als die er niet in staat."""
+    if not d.is_stemmingen:
+        return []
+    uit, gezien = [], set()
+    alle = laad()["alle_moties"]
+    for x in d.delen:
+        for b in x.beurten:
+            if not b.get("voorzitter"):
+                continue
+            for k in STUK_RE.finditer(b["tekst"]):
+                soort, naam, nr, dos = k.groups()
+                sleutel = (soort, _dossier_norm(dos), nr)
+                if sleutel in gezien:
+                    continue
+                gezien.add(sleutel)
+                m = alle.get((_dossier_norm(dos), nr)) if soort == "motie" else None
+                uit.append({"soort": soort, "naam": (soort + "-" + naam) if naam else "", "nummer": nr, "dossier": dos, "motie": m})
+    return uit
+
+
+def stemming_dossiers(d):
+    return {_dossier_norm(s["dossier"]) for s in stemming_stukken(d)}
+
+
 def _titelkern(t):
     return re.sub(r"^(?:pakket|voortzetting)\s+", "", t.lower()).strip()
 
@@ -696,4 +742,22 @@ def stemmingen_bij():
                 continue
             if len(_titelkern(d.titel_agenda)) >= 8 and _titelkern(d.titel_agenda) in o:
                 uit.setdefault(d.id, []).append(s)
+    # tweede vaste regel: de voorzitter noemt een stuk met Kamerstuknummer, en het debat heeft moties uit dat Kamerstuk
+    verzamel = {_dossier_norm(x) for x in lees(EIGEN / "verzameldossiers.json")["dossiers"]}
+    for s in debatten():
+        dos = stemming_dossiers(s) - verzamel
+        if not dos:
+            continue
+        for d in debatten():
+            if d.is_stemmingen or d.begin > s.begin or s in uit.get(d.id, []):
+                continue
+            if {_dossier_norm(m["dossier"]) for m in d.moties} & dos:
+                uit.setdefault(d.id, []).append(s)
+    for v in uit.values():
+        v.sort(key=lambda s: s.begin)
     return uit
+
+
+def stemming_debatten(s):
+    """De debatten waar een stemmingsronde bij hoort (omgekeerde van stemmingen_bij), oudste eerst."""
+    return sorted([d for d in debatten() if s in stemmingen_bij().get(d.id, [])], key=lambda d: d.begin)

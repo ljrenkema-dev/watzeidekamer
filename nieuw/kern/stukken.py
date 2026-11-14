@@ -132,7 +132,7 @@ def uitleg_voor(d):
         k.append("plenair")
     if any("ordedebat" in x.fase.lower() for x in d.delen):
         k.append("ordedebat")
-    if d.moties or d.genoemde_moties:
+    if d.moties or M.stemming_stukken(d):
         k += ["motie", "oordeel"]
     if d.over_wet:
         k += ["wet", "amendement", "eerste_kamer"]
@@ -206,9 +206,12 @@ def motie_item(m, root="", met_debat=None, kop="h4"):
         oordeel = '<p class="oordeel"><b>Aangehouden</b> door de indiener: komt voorlopig niet in stemming. Oordeel van het kabinet: niet in onze gegevens.</p>'
     else:
         oordeel = f'<p class="oordeel">Oordeel van het kabinet: {e(ok) if ok else "niet in onze gegevens"}</p>'
-    if M.motie_wantrouwen(m):
-        oordeel = '<p class="oordeel"><b>Motie van wantrouwen</b></p>' + oordeel
     verzoek = M.motie_verzoek(m)
+    if M.motie_wantrouwen(m):
+        kern = re.search(r"zegt (?:daarom )?het vertrouwen[^.;]*?op\b[^.;]*", m.get("tekst") or "", re.S)
+        oordeel = '<p class="oordeel"><b>Motie van wantrouwen</b></p>' + (oordeel if ok else "")
+        if kern:
+            verzoek = re.sub(r"\s+", " ", kern.group(0)).strip() + (";\n" + verzoek if verzoek else "")
     tekst = (f'<details class="motietekst"><summary>Letterlijke tekst van het verzoek</summary><div class="doc">{e(verzoek)}</div>'
              f'<p class="klein"><a href="{e(m["bron"])}" rel="noopener">Hele motie bij de Tweede Kamer</a> (Kamerstuk {e(m["dossier"])}, nr. {e(m["nummer"])})</p></details>') if verzoek else \
         f'<p class="klein"><a href="{e(m["bron"])}" rel="noopener">Hele motie bij de Tweede Kamer</a></p>'
@@ -227,13 +230,38 @@ def moties_telling(ms):
     return a, v, o
 
 
+def stuk_naam(x):
+    """'motie nr. 53 (Kamerstuk 37022), de motie-Vlottes/Wilders'"""
+    return f'{x["soort"]} nr. {x["nummer"]} (Kamerstuk {x["dossier"]})' + (f', de {x["naam"]}' if x["naam"] else "")
+
+
+def stukken_kort(d):
+    """Korte regel over de stukken die de voorzitter met nummer en Kamerstuk noemde, met uitslag als die in onze gegevens staat."""
+    uit = []
+    for x in M.stemming_stukken(d):
+        m = x["motie"]
+        st = motie_status(m) if m else None
+        if st:
+            u = m["uitslag"]
+            uit.append(f'{x["soort"].capitalize()} {x["nummer"]} (Kamerstuk {x["dossier"]}): {st}, {u["zetels_voor"]} zetels voor en {u["zetels_tegen"]} tegen.')
+        elif m:
+            uit.append(f'{x["soort"].capitalize()} {x["nummer"]} (Kamerstuk {x["dossier"]}): uitslag niet in onze gegevens.')
+        else:
+            uit.append(f'{stuk_naam(x)[0].upper() + stuk_naam(x)[1:]}: staat niet in onze gegevens.')
+    return " ".join(uit)
+
+
 def afloop_tekst(d):
     """Korte zin over de moties (zonder verouderende woorden). Bij een wetsvoorstel staat wet_zin() ervoor."""
     if d.is_vragenuur:
         return "Bij een vragenuur worden geen moties ingediend en wordt niet gestemd."
     if d.is_stemmingen:
         o = M.stemming_onderwerp(d)
-        kop = (f"De voorzitter kondigde deze stemming aan als: {d.titel.lower()}. " if o else "In deze vergadering stemde de Kamer. ")
+        kop = (f"De voorzitter kondigde deze stemming aan als: de stemming {o}. " if o else "In deze vergadering stemde de Kamer. ")
+        sk = stukken_kort(d)
+        if sk:
+            return (kop + "Met nummer en Kamerstuk noemde de voorzitter: " + sk + " Over de andere stukken in deze ronde staat de uitslag niet in onze gegevens; "
+                    "lees in het verslag wat er gezegd is.")
         return (kop + "De uitslag staat niet in onze gegevens; lees in het verslag wat er gezegd is. "
                 "De uitslag van een motie staat, als we die hebben, bij het debat waarin ze is ingediend.")
     ms = d.moties
@@ -241,7 +269,7 @@ def afloop_tekst(d):
         return "In onze gegevens staan geen moties bij dit debat."
     a, v, o = moties_telling(ms)
     n = len(ms)
-    zinnen = [f"{n} {'motie' if n == 1 else 'moties'} (verzoeken aan de regering)."]
+    zinnen = [f"{n} {'motie' if n == 1 else 'moties'} in onze gegevens (verzoeken aan de regering); de Kamer kan er meer hebben ingediend."]
     if a or v:
         delen = ([f"{a} aangenomen"] if a else []) + ([f"{v} verworpen"] if v else [])
         zinnen.append("Uitslag: " + " en ".join(delen) + ".")
@@ -272,15 +300,15 @@ def zelfde_titel_regel(d, root=""):
     if not z:
         return ""
     def link(x):
-        return (f'<a href="{root}debat/{x.slug}.html">{M.datum_lang(x.datum, dag=True)}</a>'
-                + (f" ({len(x.moties)} {'motie' if len(x.moties) == 1 else 'moties'})" if x.moties else ""))
+        return f'<a href="{root}debat/{x.slug}.html">{M.datum_lang(x.datum, dag=True)}</a>'
     eerder = [x for x in z if x.begin < d.begin]
     later = [x for x in z if x.begin > d.begin]
     uit = []
     if eerder:
-        uit.append("Eerder over hetzelfde agendapunt: " + ", ".join(link(x) for x in eerder) + ".")
+        uit.append("Eerder over dit onderwerp, met eigen moties: " + ", ".join(link(x) for x in eerder) + "." if any(x.moties for x in eerder) else
+                   "Eerder over dit onderwerp: " + ", ".join(link(x) for x in eerder) + ".")
     if later:
-        uit.append("Later over hetzelfde agendapunt: " + ", ".join(link(x) for x in later) + ".")
+        uit.append("Later over dit onderwerp: " + ", ".join(link(x) for x in later) + ".")
     return f'<p class="zelfde-titel">{" ".join(uit)}</p>'
 
 
@@ -315,16 +343,23 @@ def ook_aan_het_woord(x, root="", anker="#standpunten"):
     kab = any(p.kabinet for p in x.personen())
     if not frs:
         return ""
-    return (f'<p class="ook">Aan het woord in {"dit deel" if x.van > 1 else "dit debat"}: {", ".join(frs)}{" en het kabinet" if kab else ""}. '
+    return (f'<p class="ook">Aan het woord in {("deel " + str(x.nummer) + " van dit debat") if x.van > 1 else "dit debat"}: {", ".join(frs)}{" en het kabinet" if kab else ""}. '
             f'<a href="{anker}">Wat zeiden zij?</a></p>')
 
 
 def moties_lijst(d, root="", kop="h4"):
     ms = d.moties
-    if not ms and not d.genoemde_moties:
-        return ""
     if d.is_stemmingen:
-        return '<ul class="moties">' + "".join(motie_item(m, root, met_debat=M.motie_debat(m["id"]), kop=kop) for m in d.genoemde_moties) + "</ul>"
+        st = M.stemming_stukken(d)
+        if not st:
+            return ""
+        return '<ul class="moties">' + "".join(
+            motie_item(x["motie"], root, met_debat=M.motie_debat(x["motie"]["id"]), kop=kop) if x["motie"] else
+            (f'<li class="motie"><{kop} class="mkop">{e(stuk_naam(x).capitalize())}</{kop}>'
+             f'<p>{"Deze motie" if x["soort"] == "motie" else "Dit amendement"} staat niet in onze gegevens. In het verslag lees je wat de voorzitter erover zei.</p></li>')
+            for x in st) + "</ul>"
+    if not ms:
+        return ""
     # eerst met uitslag (aangenomen, verworpen), dan zonder; binnen een groep op motienummer
     rang = {"aangenomen": 0, "verworpen": 1}
     ms = sorted(ms, key=lambda m: rang.get(motie_status(m), 2))
@@ -750,10 +785,11 @@ def stemmingen_regel(d, root=""):
     ss = M.stemmingen_bij().get(d.id) or []
     if not ss:
         return ""
-    li = "".join(f'<li><a href="{root}debat/{s.slug}.html">Stemmingen van {M.datum_lang(s.datum, dag=True)}, {M.tijd(s.begin).replace(":", ".")} uur</a>: '
-                 f'{"een stemming over een motie bij" if "over een motie" in M.stemming_onderwerp(s) else "de stemming over"} {e(stemming_titel(s).replace("Stemmingen: ", "het "))}</li>' for s in ss)
-    return (f'<div class="stemrondes-d"><p><b>Stemmingen over dit onderwerp</b> (de voorzitter kondigde ze zo aan):</p><ul>{li}</ul>'
-            f'<p class="klein">De uitslag staat niet in onze gegevens; in het verslag lees je wat Kamerleden bij hun stem zeiden.</p></div>')
+    li = "".join(f'<li><a href="{root}debat/{s.slug}.html">{M.datum_lang(s.datum, dag=True)}, {M.tijd(s.begin).replace(":", ".")} uur</a>: '
+                 f'{e(s.titel)}.' + (f' {e(stukken_kort(s))}' if stukken_kort(s) else "") + '</li>' for s in ss)
+    return (f'<div class="stemrondes-d"><p><b>Stemmingsrondes over dit onderwerp</b></p><ul>{li}</ul>'
+            f'<p class="klein">Een ronde hoort hier als de voorzitter de titel van dit debat noemt, of een stuk uit hetzelfde Kamerstuk als een motie uit dit debat. '
+            f'Andere uitslagen uit zo’n ronde staan niet in onze gegevens; in het verslag lees je wat Kamerleden bij hun stem zeiden.</p></div>')
 
 
 def stemming_titel(d):
@@ -780,12 +816,15 @@ def hoe_kort(d):
     if d.is_vragenuur:
         return "Bij een vragenuur wordt niet gestemd."
     if d.is_stemmingen:
-        return "De Kamer stemde. Lees in het verslag wat er gezegd is."
+        sk = stukken_kort(d)
+        if sk and any(x["motie"] and motie_status(x["motie"]) for x in M.stemming_stukken(d)):
+            return sk
+        return (sk + " " if sk else "") + "De uitslagen van deze ronde staan niet in onze gegevens. Lees in het verslag wat er gezegd is."
     t = "Over het wetsvoorstel zelf: uitslag niet in onze gegevens. " if d.over_wet else ""
     if d.moties:
         a, v, o = moties_telling(d.moties)
         delen = [f"{a} aangenomen" if a else "", f"{v} verworpen" if v else "", f"{o} zonder uitslag in onze gegevens" if o else ""]
-        t += f"{len(d.moties)} {'motie' if len(d.moties) == 1 else 'moties'}: " + ", ".join(x for x in delen if x) + "."
+        t += f"{len(d.moties)} {'motie' if len(d.moties) == 1 else 'moties'} in onze gegevens: " + ", ".join(x for x in delen if x) + "."
     else:
         t += "Geen moties in onze gegevens."
     return t
@@ -813,6 +852,28 @@ def hoe_lang(d, deel=False):
 def begin_zin(d):
     return ("Het begin van dit debat valt buiten onze gegevens (bijvoorbeeld de eerste termijn op een eerdere dag); "
             "het staat wel in de verslagen van de Tweede Kamer.") if M.begin_ontbreekt(d) else ""
+
+
+def onderwerp_zin(d):
+    """Waar ging het om zonder samenvatting: bij stemmingen wat de voorzitter aankondigde, anders het onderwerp van de agenda."""
+    if d.is_stemmingen:
+        o = M.stemming_onderwerp(d)
+        if o:
+            return f"De voorzitter kondigde aan: de stemming {o}."
+        sk = M.stemming_stukken(d)
+        if sk:
+            return "De Kamer stemde over moties, amendementen of wetsvoorstellen. De voorzitter noemde onder meer " + ", ".join(stuk_naam(x) for x in sk) + "."
+        return "De Kamer stemde over moties, amendementen of wetsvoorstellen. Welke, staat in het verslag."
+    return d.onderwerp.rstrip(".") + "."
+
+
+def waar_delen(d):
+    """'Waar ging het om' bij een debat in delen (vaste regel): de eerste zin van de samenvatting van het eerste deel dat er een heeft,
+    met het deelnummer erbij; zonder samenvatting het onderwerp van de agenda."""
+    x = next((y for y in d.delen if y.pagina), None)
+    if x:
+        return f"Uit deel {x.nummer} ({x.fase_label.lower()}): " + eerste_zin(x.pagina["samenvatting"])[0]
+    return f"{d.onderwerp}. Voor geen van de delen is een samenvatting geschreven; het verslag staat er wel."
 
 
 def delen_zin(d):

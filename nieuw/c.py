@@ -1,7 +1,7 @@
 """Variant C: de kaart is de pagina. Gebouwd voor iemand die op een telefoon via een gedeelde kaart binnenkomt en de
 voorpagina nooit ziet. Elke debatpagina begint met de kaart op schermvullende hoogte (de vraag, twee citaten, figuren),
 gevolgd door korte genummerde hoofdstukken die elk één vraag beantwoorden, en eindigt met wie dit maakt. Onderaan staat
-een vaste balk met Delen en Volgende debat. Een citaat is altijd een wit kaartje met het label "Letterlijk gezegd"."""
+een vaste balk met Stuur door en Volgende kaart. Een citaat is altijd een wit kaartje met het label "Letterlijk gezegd"."""
 from kern import model as M, stukken as S
 from kern.bouwen import Uitvoer
 import a as A
@@ -23,7 +23,8 @@ body{padding-bottom:78px}
 .oog{font-size:17px;font-weight:700;color:var(--kt)}
 .deelkop{font-size:17px;font-weight:700;color:var(--kt);border-left:4px solid var(--geel);padding-left:10px}
 .kdeel{display:flex;justify-content:space-between;gap:8px;font-weight:700;font-size:15px}
-.kdeel a,.kbalk a{padding:6px 0;display:inline-block}
+.kdeel a,.kbalk a{padding:12px 0;display:inline-block;min-height:44px;box-sizing:border-box}
+.knav{display:flex;gap:16px}
 .kaart a:focus-visible{outline-color:var(--geel)}
 html{scroll-padding-bottom:96px}
 .hs>p,.hs li,.hs dd,.wat p{max-width:36em}
@@ -139,7 +140,7 @@ def shell(titel, beschr, pad, root, inhoud, og=None, knoppen=None, balk=True):
     balk_html = ""
     if balk:
         kn = "".join(f'<a class="{c}" href="{h}">{e(t)}</a>' for h, t, c in (knoppen or [(f"{root}index.html", "Alle debatten", "vol")]))
-        balk_html = (f'<nav class="balk-onder" aria-label="Delen en verder"><button type="button" id="deel">Delen</button>{kn}</nav>'
+        balk_html = (f'<nav class="balk-onder" aria-label="Doorsturen en verder"><button type="button" id="deel">Stuur door</button>{kn}</nav>'
                      '<div class="gekopieerd" id="status" role="status" hidden></div>')
     return (S.head(titel, beschr, pad, root, "style.css", og) +
             f'<body><a class="skip" href="#inhoud">Naar de inhoud</a><div class="wrap">{inhoud}</div>{balk_html}{DEEL_JS if balk else ""}</body></html>')
@@ -167,18 +168,7 @@ def citaat(c, root, video, deel):
 
 
 def afloop_kort(d, root, hier=True):
-    if d.is_vragenuur:
-        t = "Bij een vragenuur wordt niet gestemd."
-    elif d.is_stemmingen:
-        t = "De Kamer stemde; de uitslagen staan bij de debatten waar de moties bij horen."
-    else:
-        t = ("Over de wet zelf: uitslag niet in onze gegevens. " if d.over_wet else "")
-        if d.moties:
-            a, v, o = S.moties_telling(d.moties)
-            delen = [f"{a} aangenomen" if a else "", f"{v} verworpen" if v else "", f"{o} zonder uitslag in onze gegevens" if o else ""]
-            t += f"{len(d.moties)} {'motie' if len(d.moties) == 1 else 'moties'}: " + ", ".join(x for x in delen if x) + "."
-        else:
-            t += "Geen moties in onze gegevens."
+    t = S.hoe_kort(d)
     href = "#afloop" if hier else f"{root}debat/{d.slug}.html#afloop"
     return f'<div class="kafloop"><span>Hoe liep het af?</span><b>{e(t)}</b><a href="{href}">{"Lees verder ↓" if hier else "Lees verder →"}</a></div>'
 
@@ -206,7 +196,7 @@ def kaart(d, x, root, h="h1", link=None):
         if x is None and bron.van > 1:
             inh = f'<p class="knoot">Uit deel {bron.nummer}: {e(bron.fase_label)}</p>' + inh
     else:
-        titel = (x.titel if x else d.titel)
+        titel = d.titel if d.is_stemmingen else (x.titel if x else d.titel)
         ps = (x.personen() if x else d.personen())
         inh = (f'<p class="kwie">Aan het woord: {S.fracties_regel_debat(ps)}.</p>'
                + A.stapel(ps, root, 6))
@@ -220,11 +210,11 @@ def kaart_waar(d, x, root):
     if x and x.pagina:
         waar = S.eerste_zin(x.pagina["samenvatting"])[0]
     elif not x and d.van > 1:
-        waar = S.delen_zin(d)
+        waar = S.waar_delen(d)
     elif x and not x.pagina:
-        waar = f'{d.onderwerp}. Voor {"dit deel" if d.van > 1 else "dit debat"} is geen samenvatting geschreven; het verslag staat er wel.'
+        waar = S.onderwerp_zin(d) + ("" if d.is_stemmingen else f' Voor {"dit deel" if d.van > 1 else "dit debat"} is geen samenvatting geschreven; het verslag staat er wel.')
     else:
-        waar = d.onderwerp
+        waar = S.onderwerp_zin(d)
     return (f'<div class="kkort"><p><b>Waar ging het om?</b> {e(waar)}</p>'
             f'<p><b>Hoe liep het af?</b> {e(S.hoe_kort(d))} <a href="#afloop">Meer</a></p></div>')
 
@@ -234,6 +224,8 @@ def debat_kaart(d, x, root):
     titel_k = d.vraag if (not x and d.kaart) else (x.kaart["vraag"] if x and x.kaart else (x.titel if x else d.titel))
     toon_oog = d.titel_agenda.lower() not in d.soort_label.lower() and d.titel_agenda.lower() != (titel_k or "").lower()
     oog = f'<p class="oog">{e(d.titel_agenda)}</p>' if toon_oog else ""
+    if d.is_vragenuur and d.titel != titel_k:
+        oog = f'<p class="oog">{e(d.titel)}</p>'  # het vragenuur heeft meer onderwerpen; de kaart gaat over één ervan
     deelnav = ""
     if x and d.van > 1:
         i = d.delen.index(x)
@@ -252,7 +244,7 @@ def debat_kaart(d, x, root):
     frac = f'<p class="kwie">Aan het woord: {S.fracties_regel_debat(ps)}.</p>' if (x and x.kaart) or (not x and d.kaart) else ""
     met = " met-cit" if 'class="citpaar"' in inh else ""
     return (f'<div class="kaart{met}"><div class="kbalk"><a class="logo" href="{root}index.html">Wat zei de <i>Kamer?</i></a>'
-            f'<span><a href="{root}index.html">Alle debatten</a> · <a href="#wat-is-dit">Wat is dit?</a></span></div>'
+            f'<span class="knav"><a href="{root}index.html">Alle debatten</a><a href="#wat-is-dit">Wat is dit?</a></span></div>'
             f'{oog}<p class="kmeta">{meta}{" · voorlopig verslag" if d.voorlopig else ""}</p>{deelnav}{h1}{agt}{kaart_waar(d, x, root)}{inh}{frac}</div>')
 
 
@@ -273,9 +265,9 @@ def hoofdstukken(d, x, root):
     if x:
         _, rest = S.eerste_zin(x.pagina["samenvatting"]) if x.pagina else ("", "")
         waar = ((f'<p class="groot">{e(x.titel)}</p>' if d.van > 1 and x.pagina else "") + (S.alineas(rest, x.pagina["woorden"]) if rest else "") + S.zelfde_titel_regel(d, root) + S.oud_verslag(x) + S.nagelezen(x) if x.pagina else S.zelfde_titel_regel(d, root) +
-                f'<p>Voor {"dit deel" if d.van > 1 else "dit debat"} is geen samenvatting geschreven. Op de kaart staan de sprekers; in het verslag lees je alles wat ze zeiden.</p>')
+                f'<p>Voor {"dit deel" if d.van > 1 else "dit debat"} is geen samenvatting geschreven. Bovenaan staan de sprekers; in het verslag lees je alles wat ze zeiden.</p>')
     else:
-        waar = (S.zelfde_titel_regel(d, root) + f'<p>Dit debat is in {d.van} delen geknipt, langs de rondes van het debat. Elk deel heeft een eigen pagina:</p>'
+        waar = (S.zelfde_titel_regel(d, root) + f'<p>{e(S.delen_zin(d))} De delen:</p>'
                 + A.delen_lijst(d, root))
     uit.append(hs(n, "Meer over waar het om ging" if x and x.pagina else "Waar ging het om", waar, "waar") + hs(n + 1, "Hoe liep het af", hoe, "afloop")); n += 2
     if x and x.pagina and x.pagina["sprekers"]:
@@ -310,8 +302,13 @@ def volgende_van(d):
 def debat_pagina(U, d):
     root = "../"
     vol = volgende_van(d)
-    knop_vol = [(f"{root}debat/{vol.slug}.html", "Eerder debat →", "vol")] if vol else [(f"{root}index.html", "Alle debatten", "vol")]
-    titel = f"{d.titel_agenda}: {d.vraag} – {S.NAAM}" if d.vraag and d.titel_agenda.lower() not in d.vraag.lower() else f"{d.vraag or d.titel} – {S.NAAM}"
+    knop_vol = [(f"{root}debat/{vol.slug}.html", "Volgende kaart →", "vol")] if vol else [(f"{root}index.html", "Alle debatten", "vol")]
+    if d.van > 1:  # een debat in delen: de titel noemt het debat, niet de vraag van één deel
+        titel = f"{d.titel_agenda}, {M.datum_lang(d.datum)} – {S.NAAM}"
+    elif d.is_stemmingen or d.is_vragenuur:
+        titel = f"{d.titel}, {M.datum_lang(d.datum)} – {S.NAAM}"
+    else:
+        titel = f"{d.titel_agenda}: {d.vraag} – {S.NAAM}" if d.vraag and d.titel_agenda.lower() not in d.vraag.lower() else f"{d.vraag or d.titel} – {S.NAAM}"
     if len(d.delen) == 1 and d.van == 1:
         x = d.delen[0]
         inhoud = f'<main id="inhoud">{debat_kaart(d, x, root)}{hoofdstukken(d, x, root)}</main>' + wat_is_dit(root)
@@ -354,10 +351,12 @@ def home(U):
             href = f"debat/{d.slug}.html"
             if d.is_stemmingen:
                 kaarten.append(f'<li><a class="klein-k" href="{href}"><span>{A.tijd_nl(d.begin)} uur · Stemmingen</span>'
-                               f'<b>De Kamer stemde. Kamerleden zeiden kort waarom ze voor of tegen stemden.</b></a></li>')
+                               f'<b>{e(d.titel)}</b><span>{e(S.hoe_kort(d))}</span></a></li>')
                 continue
             h, meta, agt, inh = kaart(d, None, "", "h3", href)
-            kaarten.append(f'<li><article class="kaart"><p class="oog">{e(d.titel_agenda)}</p><p class="kmeta">{meta}</p>{h}{agt if False else ""}{inh}{afloop_kort(d, "", hier=False)}</article></li>')
+            meta = f'{A.tijd_nl(d.begin)} uur · {e(d.soort_label)}'  # de dag staat al in de dagkop
+            oog = d.titel if d.is_vragenuur else d.titel_agenda
+            kaarten.append(f'<li><article class="kaart"><p class="oog">{e(oog)}</p><p class="kmeta">{meta}</p>{h}{inh}{afloop_kort(d, "", hier=False)}</article></li>')
         dagen_html.append(f'<section><h2 class="dagkop">{M.datum_lang(datum, dag=True)}</h2><ol class="stapelk">{"".join(kaarten)}</ol></section>')
     inhoud = (f'<header class="top"><h1 class="logo">Wat zei de Kamer?</h1><p>{S.WERKZIN} <span class="langer">Elke kaart is één debat: de vraag, twee letterlijke citaten en hoe het afliep.</span></p>'
               f'<p class="klein"><a href="uitslagen.html">Alle uitslagen</a> · <a href="zo-werken-we.html">Zo werken we</a></p></header>'
@@ -382,7 +381,7 @@ def zo_werken_we(U):
     regels = [("In deze variant", [
         "<b>Elke debatpagina begint met de kaart</b>: de vraag, twee citaten met figuren en in één regel hoe het afliep. Een debat zonder kaart toont de titel en de figuren van de sprekers.",
         "<b>Daarna vaste hoofdstukken</b>, altijd in dezelfde volgorde: waar ging het om, hoe liep het af, wat zeiden de sprekers, de delen, controleer het zelf, wat betekent dat, en de andere debatten van dezelfde dag.",
-        "<b>Eerder debat</b> volgt de volgorde van de voorpagina: nieuwste dag eerst, binnen een dag het laatst begonnen debat eerst. Bij een debat in delen staan in de balk het vorige en het volgende deel; na het laatste deel komt het volgende debat.",
+        "<b>Volgende kaart</b> volgt de volgorde van de voorpagina: nieuwste dag eerst, binnen een dag het laatst begonnen debat eerst. Bij een debat in delen staan in de balk het vorige en het volgende deel; na het laatste deel komt het volgende debat.",
         "<b>Een citaat</b> is altijd een wit kaartje met het label \"Letterlijk gezegd\", met het figuur van de spreker ernaast. Tekst die deze site zelf schrijft, staat nooit in zo'n kaartje.",
     ])]
     inhoud = (f'<header class="top"><a class="logo" href="index.html">Wat zei de Kamer?</a></header>'

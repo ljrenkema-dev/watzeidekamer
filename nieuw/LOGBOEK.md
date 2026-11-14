@@ -102,3 +102,20 @@ Bewust niet overgenomen:
 - H1 van een debat zonder delen blijft de inhoudelijke titel uit de paginadata (de eigenaar vroeg om inhoudelijke titels; bij delen is de kop nu de agendatitel met deelnummer).
 - Kaart met "Waar/Hoe" vóór de citaten maakt in C het eerste scherm iets voller; toch zo gelaten, omdat eis 2 (afloop direct onder de kop) en eis 1 anders botsen.
 - B: Kamerstuk XIII als enige dossier bij het digitaliserings-WGO (de moties zitten daar allemaal in); de agendatitel staat erboven als kop.
+
+## Ronde 4 (lezer, interface, politicoloog; controleur volgt)
+
+Overgenomen:
+- Stemmingsrondes: tweede vaste koppelregel via stuknummers met Kamerstuk die de voorzitter noemt ("motie op stuk nr. 70 (37022)"). Gevonden moties tonen hun uitslag (motie 70 verworpen, 33–117); ontbrekende staan als "niet in onze gegevens" (motie 53, Vlottes/Wilders). Ronde 12 nov 19.37 hangt nu aan het Belastingplan en heeft een titel. Stuknummers zonder Kamerstuk tellen niet mee (onzeker welk stuk).
+- Alle motietellingen zeggen "in onze gegevens"; bij de motieteksten "de Kamer kan er meer hebben ingediend".
+- Motie van wantrouwen: de zin "zegt daarom het vertrouwen … op" staat letterlijk boven het verzoek; geen oordeelregel als die ontbreekt.
+- "Waar ging het om" bij een debat in delen: eerste zin van de samenvatting van het eerste deel met samenvatting, met deelnummer; de uitleg over het knippen staat nu boven de delenlijst. Bij stemmingen: de aankondiging van de voorzitter of de genoemde stukken in plaats van "Stemmingen."
+- "Eerder over hetzelfde agendapunt (12 moties)" → "Eerder over dit onderwerp, met eigen moties: …" zonder aantal.
+- A: regel "eerder over dit onderwerp" onder het citatenpaar i.p.v. in de kolom van één spreker; motierij op de voorpagina eerst aangenomen en met label motie van wantrouwen; paginatitel deel = agendatitel eerst; aria-label "Vraag en twee citaten".
+- B: tijdlijn sorteert alles op datum en tijd (stemming 21.05 stond vóór debat 10.16); citaten naast elkaar vanaf 760px; zijpaneel onder de kaart; uitklapteken terug (summary niet meer inline-block); onderwerp-pagina: vraag van de kaart bovenaan, Kamerstuk klein; voorpagina "Samen over N debatten: … moties in onze gegevens" en "Over het wetsvoorstel zelf: uitslag niet in onze gegevens".
+- C: stemmingen-tegels en -pagina's met titel; vragenuur met "Vragenuur: …" boven de vraag; knop "Stuur door" i.p.v. "Delen"; "Volgende kaart →" i.p.v. "Eerder debat →"; navigatielinks 44px hoog; paginatitel bij delen = agendatitel + datum; dag niet herhaald op voorpagina-tegels.
+
+Niet overgenomen:
+- Lezer: "agendapunt"/"termijn" vervangen door "onderwerp"/"ronde" overal — deels gedaan (regel eerder/later); "termijn" blijft met uitleg, omdat het de term in het verslag is.
+- Lezer: moties.html kopjes inkorten — de toevoeging "in onze gegevens" is juist nodig (politicoloog); blijft.
+- Interface A/B: delen-navigatie onder het Waar-blok — niet gedaan deze ronde; de balk is kort en vorige/volgende moet bovenaan vindbaar zijn.
