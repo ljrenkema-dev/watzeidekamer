@@ -66,7 +66,7 @@ ul.kern{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
 .vmeta,.vdeel{color:var(--muted);font-size:16px}
 .vuitleg{display:flex;flex-direction:column;gap:6px;font-size:16px;color:var(--muted);max-width:62ch}
 .beurten{display:flex;flex-direction:column;gap:2px}
-.beurt{padding:12px 14px;border-left:4px solid transparent;border-radius:6px;max-width:72ch;scroll-margin-top:16px}
+.beurt{padding:12px 14px;border-left:4px solid transparent;border-radius:6px;max-width:38em;scroll-margin-top:16px}
 .beurt header{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:6px}
 .beurt header .rol{font-size:14px;color:var(--muted)}
 .beurt .bt{margin-left:auto;display:flex;gap:10px;align-items:baseline;font-size:14px;color:var(--muted);flex-wrap:wrap}
@@ -93,3 +93,9 @@ div.uitleg{display:flex;flex-direction:column;gap:2px}
 div.uitleg details{border-bottom:1px solid var(--line);padding:6px 0}
 div.uitleg summary{font-size:16px}
 div.uitleg p{color:var(--muted);font-size:16px;margin-top:4px}
+
+.beurt.vz mark.cm{color:var(--ink)}
+.lbl-c{border-color:var(--ink)}
+.ook{font-size:15px}
+h3.sph{font-size:18px;margin-top:6px}
+.lees,.kolommen>.blok>p,.kolommen>.blok>.afloop p{max-width:36em}

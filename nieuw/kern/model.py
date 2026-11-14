@@ -87,7 +87,8 @@ def fracties():
     co = lees(EIGEN / "coalitie.json")
     al = lees(EIGEN / "aliassen.json")["fractie"]
     rij = {k: {"code": k, "naam": v["naam"], "zetels": v["zetels"], "coalitie": k in co["coalitie"]} for k, v in f[stand].items()}
-    return {"stand": stand, "per": rij, "alias": al, "coalitie": co, "totaal": sum(v["zetels"] for v in rij.values())}
+    som_co = sum(v["zetels"] for v in rij.values() if v["coalitie"])
+    return {"stand": stand, "per": rij, "alias": al, "coalitie": co, "totaal": sum(v["zetels"] for v in rij.values()), "coalitie_zetels": som_co}
 
 
 def fractie(code):
@@ -217,11 +218,19 @@ def motie_omschrijving(m):
     """'over de verruiming van de hypotheekrenteaftrek ongedaan maken' (letterlijk uit het onderwerp van de Kamer)."""
     o = (m.get("onderwerp") or "").strip()
     k = re.match(r"^Motie van (?:het lid|de leden) .*? (over .*)$", o)
-    return k.group(1) if k else o
+    t = k.group(1) if k else o
+    w = t.split()
+    for n in range(len(w) // 2, 3, -1):  # bron herhaalt soms het eind van de titel ("... aanwijzen het opzeggen van ...")
+        staart = " ".join(w[-n:])
+        if staart in " ".join(w[:-n]):
+            return " ".join(w[:-n])
+    return t
 
 
 def motie_verzoek(m):
     t = m.get("tekst") or ""
+    if re.search(r"kst-\d|ISSN|’s-Gravenhage 20\d\d", t):
+        return ""  # tekst uit de pdf met paginakoppen erin: alleen de link tonen
     k = t.find("verzoekt de regering")
     if k < 0:
         k = t.find("verzoekt het kabinet")
@@ -289,13 +298,14 @@ class Deel:
                     "sprekers": [{"id": x["id"], "standpunt": tekst(x.get("standpunt"))} for x in s.get("sprekers") or []],
                     "woorden": [{"woord": w["woord"], "uitleg": tekst(w["uitleg"])} for w in s.get("woorden") or []],
                     "actueel": s.get("verslag_id") == self.punt["vergadering"]["verslag_id"],
+                    "onderwerpen": [{"titel": o["titel"], "sprekers": o.get("sprekers") or []} for o in s.get("onderwerpen") or []],
                 }
         return None
 
     def _kaart(self):
         f = DATA / "proeftuin" / "botsing" / f"{self.id}.json"
-        if not f.exists():
-            return None
+        if not f.exists() or "ordedebat" in self.fase.lower():
+            return None  # een ordedebat gaat over de agenda; daar tonen we geen kaart (vaste regel)
         K = lees(f)
         a = K["versies"]["a"]
         v = "c" if "c" in K["versies"] and re.search("bijzaak", a.get("aandeel_onderwerp") or "", re.I) else "a"
@@ -316,8 +326,10 @@ class Deel:
                 "afloop_data": K.get("afloop_data") or {}}
 
     def _redactie(self):
-        f = DATA / "redactie" / f"{self.id}.json"
-        if not f.exists() or not self.pagina:
+        if not self.pagina:
+            return None
+        f = DATA / "redactie" / (f"pagina_{self.id}.json" if self.pagina["bron"].startswith("data/paginas") else f"{self.id}.json")
+        if not f.exists():
             return None
         r = lees(f)
         return {"datum": r.get("datum"), "zelfde_versie": r.get("verslag_id") == self.pagina["verslag_id"],
@@ -399,7 +411,7 @@ class Debat:
     @property
     def over_wet(self):
         """Gaat het debat over een wetsvoorstel? Vaste regel op de titel (begroting, belastingplan, novelle, wet)."""
-        return bool(re.search(r"begroting|belastingplan|novelle|\bwet", self.titel_agenda, re.I))
+        return bool(re.search(r"begroting|belastingplan|novelle|\bwet\b|wetsvoorstel", self.titel_agenda, re.I))
 
     @property
     def kaart(self):
@@ -524,6 +536,14 @@ def bron_verslag(deel):
 
 # ---------------------------------------------------------------- onderwerpen (variant B)
 
+def motie_wantrouwen(m):
+    return bool(re.search(r"zegt (?:daarom )?het vertrouwen .{0,40}op", m.get("tekst") or "", re.I | re.S))
+
+
+def heeft_tweede_termijn(d):
+    return any("tweede termijn" in x.fase.lower() for x in d.delen)
+
+
 class Onderwerp:
     def __init__(self, debatten_):
         self.debatten = sorted(debatten_, key=lambda d: d.begin)  # oudste eerst: een tijdlijn
@@ -560,17 +580,15 @@ def onderwerpen():
     def verbind(a, b):
         ouder[vind(a.id)] = vind(b.id)
 
+    verzamel = set(lees(EIGEN / "verzameldossiers.json")["dossiers"])
     per_titel, per_dossier = {}, {}
     for d in ds:
-        if not d.is_stemmingen:
+        if not d.is_stemmingen and not d.is_vragenuur:
             t = re.sub(r"^voortzetting\s+", "", d.titel_agenda.lower()).strip()
             per_titel.setdefault(t, []).append(d)
         for m in (d.moties if not d.is_stemmingen else []):
-            per_dossier.setdefault(m["dossier"], []).append(d)
-        for m in d.genoemde_moties:
-            h = motie_debat(m["id"])
-            if h:
-                verbind(d, h)
+            if m["dossier"] not in verzamel:
+                per_dossier.setdefault(m["dossier"], []).append(d)
     for groep in list(per_titel.values()) + list(per_dossier.values()):
         for d in groep[1:]:
             verbind(d, groep[0])

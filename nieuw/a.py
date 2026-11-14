@@ -83,7 +83,16 @@ details.st{border:2px solid var(--line);border-radius:12px;background:var(--pane
 .dkop{display:flex;flex-direction:column;gap:8px}
 .dkop h1{font-size:clamp(1.7rem,4.6vw,2.6rem)}
 .dmeta{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;color:var(--muted);font-size:16px}
-.afloop{display:grid;grid-template-columns:1fr;gap:16px;border:2px solid var(--ink);border-radius:14px;padding:16px 18px;background:var(--panel)}
+.afloop{display:grid;grid-template-columns:1fr;gap:16px;border-top:6px solid var(--ink);border-radius:0;padding:14px 18px;background:var(--tone)}
+.afloop ul{margin:6px 0 0;padding-left:1.2em}
+.bk a:focus-visible{outline-color:#1d1b2e}
+.links a{padding:6px 0}
+.links{gap:4px 16px}
+.ook{color:#3a3410}
+.ook a{font-weight:700}
+.st ul.moties{padding:0 14px 14px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .bk{background:#e8cf5a}}
+:root[data-theme="dark"] .bk{background:#e8cf5a}
 .afloop>div{display:flex;flex-direction:column;gap:8px;min-width:0}
 .afloop h2{font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .afloop .groot{font-size:19px;font-weight:700;line-height:1.35}
@@ -120,6 +129,7 @@ ol.delen li[aria-current] a{color:var(--ink);font-weight:700}
   .werk{font-size:14px;flex-basis:100%;order:3}
   .kop nav{font-size:15px;gap:12px}
   .intro p{font-size:15px}
+  .intro .langer{display:none}
   main{gap:20px;padding-top:12px}
   .ballon p{font-size:17px}
   .wieb .fg{width:56px;height:56px}
@@ -161,18 +171,21 @@ def ballon(c, root, video, deel):
             f'<div class="links">{"".join(links)}</div></div>')
 
 
-def kaart_blok(x, root, kop="h3", link=None, toon_meta=None, noot=True):
+def kaart_blok(x, root, kop="h3", link=None, toon_meta=None, noot=True, ook_anker=None):
     """De botsing: vraag en twee ballonnen. x = het deel met de kaart."""
     k = x.kaart
     duo = "".join(ballon(c, root, k["video"], x) for c in k["citaten"])
     vraag = f'<a href="{link}">{e(k["vraag"])}</a>' if link else e(k["vraag"])
-    geen = "" if not noot else ('<p class="geenb">In dit debat stonden geen twee sprekers duidelijk tegenover elkaar; daarom één citaat.</p>'
+    geen = ('<p class="geenb">In dit debat stonden geen twee sprekers duidelijk tegenover elkaar; daarom één citaat.</p>'
             if len(k["citaten"]) < 2 else
             '<p class="geenb">Deze twee sprekers waren het niet duidelijk oneens; ze lieten elk een eigen kant van het onderwerp zien.</p>' if k["geen_botsing"] else "")
     voet = '<span>Videolinks openen Debat Direct, de site van de Tweede Kamer.</span>' if k["video"] else ""
+    ond = S.onderwerpen_regel(x)
+    ook = S.ook_aan_het_woord(x, root, ook_anker) if ook_anker else ""
     return (f'{toon_meta or ""}<{kop} class="vraag">{vraag}</{kop}>'
+            + (f'<p class="geenb">{e(ond)}</p>' if ond else "") +
             f'<div class="duo{" een" if len(k["citaten"]) < 2 else ""}">{duo}</div>{geen}'
-            + (f'<div class="bkvoet">{voet}</div>' if voet else ""))
+            + (f'<div class="bkvoet">{voet}</div>' if voet else "") + ook)
 
 
 def stapel(personen, root, n=6):
@@ -189,15 +202,18 @@ def rmeta(d):
 
 
 def stemrij(d, root):
-    ms = [m for m in d.moties if S.motie_status(m)]
-    if not ms:
+    if not d.moties:
         return ""
+    ms = [m for m in d.moties if S.motie_status(m)]
     a, v, o = S.moties_telling(d.moties)
-    sam = f"{a} aangenomen, {v} verworpen" + (f", {o} zonder uitslag in onze gegevens" if o else "")
+    sam = ", ".join(x for x in (f"{a} aangenomen" if a else "", f"{v} verworpen" if v else "",
+                                 f"{o} zonder uitslag in onze gegevens" if o else "") if x)
     items = "".join(
         f'<li><span>Motie {e(m["nummer"])} {e(M.motie_omschrijving(m))}: <b class="uitslag-{S.motie_status(m)}">{S.motie_status(m)}</b> '
-        f'({m["uitslag"]["zetels_voor"]} voor, {m["uitslag"]["zetels_tegen"]} tegen)</span></li>' for m in ms)
-    return (f'<div class="rij stem"><span class="tijd"></span><details class="st"><summary><span>Moties bij dit debat: <b>{len(d.moties)} ingediend</b> · {sam}</span>'
+        f'({m["uitslag"]["zetels_voor"]} zetels voor, {m["uitslag"]["zetels_tegen"]} tegen)</span></li>' for m in ms)
+    if not ms:
+        items = '<li>Van deze moties staat geen uitslag in onze gegevens.</li>'
+    return (f'<div class="rij stem"><span class="tijd"></span><details class="st"><summary><span>Moties (verzoeken aan de regering) bij dit debat: <b>{len(d.moties)}</b> · {sam}</span>'
             f'<span class="pm" aria-hidden="true">+</span></summary><ul>{items}</ul>'
             f'<p class="meer"><a href="{root}debat/{d.slug}.html#moties">Wie stemde voor en tegen, en wat vroegen de moties?</a></p></details></div>')
 
@@ -213,7 +229,7 @@ def rij(d, root):
     elif d.is_stemmingen:
         n = len(d.genoemde_moties)
         sub = (f"In stemverklaringen genoemd: " + ", ".join(f"motie {e(m['nummer'])} ({S.motie_status(m) or 'geen uitslag in onze gegevens'})" for m in d.genoemde_moties)
-               if n else "Korte stemverklaringen van Kamerleden.")
+               if n else "De Kamer stemde. Kamerleden zeiden kort waarom ze voor of tegen stemden.")
         hoofd = (f'<div class="rij">{tijd_}<div class="rin"><a class="tv" href="{href}"><div>{rmeta(d)}<span class="ttl">Stemmingen</span>'
                  f'<span class="klein">{sub}</span></div>{stapel(d.personen(), root)}</a></div></div>')
     else:
@@ -233,29 +249,23 @@ def home(U):
         blokken.append(f'<section class="dag" aria-labelledby="d{datum}"><h2 class="dat" id="d{datum}"><span class="wd">{wd}</span> <span class="dn">{int(dg)}</span> '
                        f'<span class="mj">{M.MAANDEN[int(m) - 1]} {j}</span></h2><div class="rijen">{"".join(rij(d, "") for d in ds)}</div></section>')
     inhoud = (f'<main id="inhoud"><div class="intro"><h1 class="skip">Agenda van de Tweede Kamer</h1>'
-              f'<p>De debatten van de Tweede Kamer per vergaderdag, nieuwste eerst. Wat letterlijk gezegd is, staat in een witte ballon; klik op een debat voor de samenvatting, alle standpunten en de moties.</p></div>'
+              f'<p>Debatten per vergaderdag, nieuwste eerst. <span class="langer">Wat letterlijk gezegd is, staat in een witte ballon; tik op een vraag of titel voor de samenvatting, alle standpunten en de moties.</span></p></div>'
               + "".join(blokken) + "</main>")
     U.schrijf("index.html", shell(f"{S.NAAM} Debatten uit de Tweede Kamer in gewone taal", S.WERKZIN + " De debatten per vergaderdag, met de moties en hoe erover gestemd is.",
                                   "", "", inhoud, actief="index.html"))
 
 
-def afloop_blok(d, root, waar_html):
-    hoe = f'<p class="groot">{e(S.afloop_tekst(d))}</p>'
-    if d.moties or d.genoemde_moties:
-        hoe += f'<p><a href="{root}debat/{d.slug}.html#moties">Alle moties en wie voor of tegen stemde</a></p>'
-    if S.wet_zin(d):
-        hoe += f'<p class="klein">{e(S.wet_zin(d))}</p>'
-    if d.moties:
-        hoe += '<p class="klein">Een aangenomen motie is een verzoek aan de regering, geen wet of besluit.</p>'
-    return (f'<section class="afloop" aria-label="Waar ging het om en hoe liep het af"><div><h2>Waar ging het om</h2>{waar_html}</div>'
-            f'<div><h2>Hoe liep het af</h2>{hoe}</div></section>')
+def afloop_blok(d, root, waar_html, deel=False):
+    hoe = S.hoe_liep_het_af(d, f"{root}debat/{d.slug}.html#moties" if d.moties else None, deel=deel)
+    return (f'<section class="afloop" aria-label="Waar ging het om en hoe liep het af"><div><h2>{"Waar ging dit deel over" if deel else "Waar ging het om"}</h2>{waar_html}</div>'
+            f'<div><h2>Hoe liep {"het debat" if deel else "het"} af</h2>{hoe}</div></section>')
 
 
 def delen_lijst(d, root, huidig=None):
     rijen = []
     for x in d.delen:
         cur = ' aria-current="page"' if huidig is x else ""
-        tekst_ = "" if x.pagina else ' · nog geen samenvatting'
+        tekst_ = "" if x.pagina else ' · geen samenvatting, wel het verslag'
         rijen.append(f'<li{cur}><span class="dn">{x.nummer}.</span><a href="{root}debat/{x.slug}.html">{e(x.titel)}</a>'
                      f'<span class="df">{e(x.fase)} · {tijd_nl(x.begin)} uur{tekst_}</span></li>')
     for n, i in d.ontbrekend:
@@ -275,12 +285,12 @@ def tekst_deel(x, root, met_kaart=True):
     """Samenvatting, kaart (als dit deel er een heeft), standpunten, woorden en controle van één deel."""
     uit = []
     if x.kaart and met_kaart:
-        uit.append(f'<section class="blok" aria-label="De botsing"><div class="bk">{kaart_blok(x, root, "h2")}</div></section>')
+        uit.append(f'<section class="blok" aria-label="De botsing"><div class="bk">{kaart_blok(x, root, "h2", ook_anker="#standpunten")}</div></section>')
     if x.pagina:
         uit.append(S.oud_verslag(x))
-        uit.append(f'<section class="blok"><h2>Wat de sprekers zeiden</h2><p class="klein">Per spreker, in de volgorde waarin ze spraken. Achter elke fractie het aantal zetels en of ze in de coalitie zit.</p>{S.standpunten(x, root)}</section>')
+        uit.append(f'<section class="blok" id="standpunten"><h2>Wat de sprekers zeiden</h2><p class="klein">Per spreker, in de volgorde waarin ze spraken. Achter elke fractie het aantal zetels en of ze in de coalitie zit.</p>{S.standpunten(x, root)}</section>')
     else:
-        uit.append(f'<section class="blok"><h2>Wie spraken</h2><p>Voor {"dit deel" if x.van > 1 else "dit debat"} is (nog) geen samenvatting geschreven. '
+        uit.append(f'<section class="blok" id="standpunten"><h2>Wie spraken</h2><p>Voor {"dit deel" if x.van > 1 else "dit debat"} is geen samenvatting geschreven. '
                    f'Hieronder staan de sprekers; in het verslag lees je alles wat ze zeiden.</p>{sprekers_lijst(x, root)}</section>')
     return "".join(uit)
 
@@ -321,18 +331,20 @@ def debat_pagina(U, d):
     if len(d.delen) == 1 and d.van == 1:
         x = d.delen[0]
         waar = (S.alineas(x.pagina["samenvatting"], x.pagina["woorden"]) if x.pagina else
-                f'<p>{e(d.onderwerp)}.</p><p class="klein">Voor dit debat is (nog) geen samenvatting geschreven.</p>')
+                f'<p>{e(d.onderwerp)}.</p><p class="klein">Voor dit debat is geen samenvatting geschreven; het verslag staat er wel.</p>')
         hoofd = (kop(d, d.titel, root) +
                  f'<div class="kolommen"><div class="blok">{afloop_blok(d, root, waar)}{tekst_deel(x, root)}{moties_sectie(d, root)}</div>{zijkolom(d, x, root)}</div>')
     else:
         start, eind = tijd_nl(min(x.begin for x in d.delen)), tijd_nl(max(x.eind or x.begin for x in d.delen))
-        waar = (f'<p>Dit debat duurde van {start} tot {eind} uur en is voor de leesbaarheid in {d.van} delen geknipt, langs de rondes van het debat:</p>'
-                + delen_lijst(d, root))
         k = d.kaart
-        kaart = (f'<section class="blok" aria-label="De botsing"><div class="bk"><div class="rmeta"><span>Uit deel {k.nummer}: {e(k.fase)}</span></div>{kaart_blok(k, root, "h2")}</div></section>' if k else "")
+        waar = ((f'<p class="groot">{e(k.kaart["vraag"])}</p>' if k else "") +
+                f'<p>Het debat duurde van {start} tot {eind} uur. Het is in {d.van} delen geknipt, langs de rondes van het debat; '
+                f'<a href="#delen">elk deel heeft een eigen samenvatting</a>.</p>')
+        kaart = (f'<section class="blok" aria-label="De botsing"><div class="bk"><div class="rmeta"><span>Uit deel {k.nummer}: {e(k.fase)}</span></div>{kaart_blok(k, root, "h2", ook_anker="#sprekers")}</div></section>' if k else "")
         hoofd = (kop(d, d.titel_agenda, root) +
-                 f'<div class="kolommen"><div class="blok">{afloop_blok(d, root, waar)}{kaart}{moties_sectie(d, root)}'
-                 f'<section class="blok"><h2>Alle sprekers</h2>{sprekers_lijst_debat(d, root)}</section></div>{zijkolom(d, None, root)}</div>')
+                 f'<div class="kolommen"><div class="blok">{afloop_blok(d, root, waar)}{kaart}'
+                 f'<section class="blok" id="delen"><h2>De delen van dit debat</h2>{delen_lijst(d, root)}</section>{moties_sectie(d, root)}'
+                 f'<section class="blok" id="sprekers"><h2>Alle sprekers</h2>{sprekers_lijst_debat(d, root)}</section></div>{zijkolom(d, None, root)}</div>')
         for x in d.delen:
             deel_pagina(U, d, x)
     U.schrijf(f"debat/{d.slug}.html", shell(f"{d.titel} – {S.NAAM}", S.beschrijving(d), f"debat/{d.slug}.html", root,
@@ -351,15 +363,12 @@ def deel_pagina(U, d, x):
     vorige = d.delen[i - 1] if i > 0 else None
     volgende = d.delen[i + 1] if i + 1 < len(d.delen) else None
     nav = (f'<nav class="deelnav" aria-label="Vorige en volgende deel">'
-           + (f'<a href="{vorige.slug}.html">← Deel {vorige.nummer}</a>' if vorige else "<span></span>")
+           + (f'<a href="{vorige.slug}.html" aria-label="Vorig deel: {e(vorige.titel)}">← Deel {vorige.nummer}</a>' if vorige else "<span></span>")
            + f'<span>Deel {x.nummer} van {x.van}</span>'
-           + (f'<a href="{volgende.slug}.html">Deel {volgende.nummer} →</a>' if volgende else "<span></span>") + "</nav>")
+           + (f'<a href="{volgende.slug}.html" aria-label="Volgend deel: {e(volgende.titel)}">Deel {volgende.nummer} →</a>' if volgende else "<span></span>") + "</nav>")
     waar = (S.alineas(x.pagina["samenvatting"], x.pagina["woorden"]) if x.pagina else
-            '<p>Voor dit deel is (nog) geen samenvatting geschreven. Hieronder staan de sprekers; het verslag staat er wel.</p>')
-    hoe = (f'<p class="groot">{e(S.afloop_tekst(d))}</p><p><a href="{d.slug}.html#moties">Naar de moties van het hele debat</a></p>' if d.moties
-           else f'<p class="groot">{e(S.afloop_tekst(d))}</p>')
-    afloop = (f'<section class="afloop"><div><h2>Waar ging dit deel over</h2>{waar}</div><div><h2>Hoe liep het debat af</h2>{hoe}'
-              + (f'<p class="klein">{e(S.wet_zin(d))}</p>' if S.wet_zin(d) else "") + '</div></section>')
+            '<p>Voor dit deel is geen samenvatting geschreven. Hieronder staan de sprekers; het verslag staat er wel.</p>')
+    afloop = afloop_blok(d, root, waar, deel=True)
     inhoud = (kop(d, x.titel, root, x) + f'<p class="dmeta">Deel {x.nummer} van {x.van} · {e(x.fase)}</p>' + nav +
               f'<div class="kolommen"><div class="blok">{afloop}{tekst_deel(x, root)}'
               f'<section class="blok"><h2>Alle delen van dit debat</h2>{delen_lijst(d, root, x)}</section></div>{zijkolom(d, x, root)}</div>' + nav)
@@ -380,8 +389,8 @@ def moties_pagina(U):
     alle = [m for d in ds for m in d.moties]
     a, v, o = S.moties_telling(alle)
     blokken = "".join(
-        f'<section class="blok"><h2><a href="debat/{d.slug}.html">{e(d.titel_agenda)}</a></h2><p class="klein">{M.datum_lang(d.datum, dag=True)} · {e(d.soort_label)} · {e(S.afloop_tekst(d))}</p>'
-        f'{S.moties_lijst(d, "", "h3")}</section>' for d in ds)
+        f'<section class="blok"><h2><a href="debat/{d.slug}.html">{e(d.titel_agenda)}</a></h2><p class="klein">{M.datum_lang(d.datum, dag=True)} · {e(d.soort_label)}</p>'
+        f'<details class="st"><summary><span>{e(S.afloop_tekst(d))}</span><span class="pm" aria-hidden="true">+</span></summary>{S.moties_lijst(d, "", "h3")}</details></section>' for d in ds)
     inhoud = (f'<main id="inhoud"><header class="dkop"><h1>Moties en uitslagen</h1></header>'
               f'<div class="lees"><p>Alle moties uit de debatten op deze site, per debat, nieuwste debat eerst. Samen {len(alle)} moties: {a} aangenomen, {v} verworpen'
               f'{f", van {o} staat geen uitslag in onze gegevens" if o else ""}.</p>'
@@ -397,7 +406,7 @@ def zo_werken_we(U):
         "<b>Agenda:</b> nieuwste vergaderdag eerst; binnen een dag in de volgorde waarin de debatten begonnen.",
         "<b>Een rij per debat:</b> een lang debat in delen is één rij, op het begintijdstip van het eerste deel.",
         "<b>Botsingsrij:</b> een debat met een kaart toont de vraag en de twee citaten. Andere debatten tonen de titel en de figuren van de eerste zes sprekers, in de volgorde waarin ze spraken.",
-        "<b>Rij met moties:</b> direct onder het debat, alleen als van minstens één motie een uitslag in onze gegevens staat.",
+        "<b>Rij met moties:</b> direct onder elk debat waarin moties zijn ingediend, met de uitslagen die in onze gegevens staan.",
         "<b>Een citaat</b> staat altijd in een witte ballon met een staartje naar het figuur van de spreker. Alles wat deze site zelf schrijft, staat nooit in zo'n ballon.",
     ])]
     inhoud = f'<main id="inhoud" class="zw"><h1>Zo werken we</h1><p class="lees">{S.WERKZIN} Hier lees je wie deze site maakt, hoe een pagina ontstaat en welke vaste regels we volgen.</p>{S.zo_werken_we(regels)}</main>'

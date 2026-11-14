@@ -1,0 +1,5 @@
+{
+  "toelichting": "Kamerstukdossiers die veel losse debatten bundelen (verzameldossiers). Moties in zo'n dossier verbinden debatten in variant B NIET tot één onderwerp. Afgeleid uit dossier_titel in data/moties.",
+  "bron": "data/moties/*.json, veld dossier_titel: 'Raad Algemene Zaken en Raad Buitenlandse Zaken', 'Kabinetsaanpak Klimaatbeleid', 'Afrika-beleid'. De begrotingen (37020 met hoofdstuk) zijn per ministerie één dossier met veel losse onderwerpen.",
+  "dossiers": ["21501 02", "32813", "29237", "37020 VI", "37020 VIII", "37020 XIII"]
+}

@@ -21,9 +21,39 @@
 - **Makkelijke taal**: `MAKKELIJK = False` in `kern/model.py`; teksten worden nu alleen in normale taal getoond.
 
 ## Velden die een variant beter zouden maken (niet gebouwd; site werkt zonder)
-- (wordt aangevuld)
+- **Uitslag van wetsvoorstel en amendementen** (Besluit/Stemming per Zaak in de open data). Geen AI nodig, alleen een uitbreiding van `scripts/moties.py`. Dan kan "Hoe liep het af" zeggen of het Belastingplan is aangenomen. Nu staat er een vaste zin dat die uitslag niet in onze gegevens staat. Kosten per debat: nul (script).
+- **`stemmingen`**: welke moties in welke stemmingsronde, met datum (zie hieronder). Kosten per debat: nul (script).
+- **Gewone titel per motie** (bijvoorbeeld "Hypotheekrenteaftrek terugdraaien"), gevraagd door de lezer met leesmoeite. Vraagt per motie één korte AI-zin plus nalezing: ongeveer 5–30 moties per debat, een paar cent per debat. Niet gebouwd; nu staat de omschrijving uit de Kamerdata er.
+- **Gewone naam per onderwerp** (variant B), bijvoorbeeld "Belasting op spaargeld en beleggingen" in plaats van "Novelle uitbreiding vermogenswinstbelasting box 3". Eén korte zin per nieuw onderwerp; zelden nodig.
+- **Eén zin "waar ging het over"** voor debatten zonder samenvatting (commissiedebatten in de proefperiode). Dat is gewoon de paginatekst die de nachtelijke run in de proefperiode niet maakt.
+- **Coalitie per periode en zetels per datum**: `nieuw/eigen/coalitie.json` heeft nu één stand; bij een kabinetswissel moet een periode (van–tot) erbij, zodat oude debatten de coalitie van toen krijgen. `data/fracties.json` heeft al datums; de site gebruikt nu de nieuwste.
 
 ## Rondes
 ### Ronde 1
 - A gebouwd; eigen kijkronde op 1280/390 licht/donker: ballonnen te smal (blockquote-marge), staartje scheef, logo onleesbaar in donker, afloopblok met lege rechterkolom, lange uitleglijst op telefoon. Hersteld (uitleg inklapbaar, afloop in de leeskolom).
 - **Stemmingen-agendapunten**: de moties die `data/moties/` aan een stemmingen-agendapunt koppelt, zijn op nummer gezocht en daardoor soms fout (10 november: "motie op stuk nr. 40 van de heer Jimmy Dijk" werd motie 40 van Bikker uit het politiedossier). Daarom toont de site bij Stemmingen geen moties, alleen de sprekers, het verslag en de uitleg dat de uitslag bij het debat van de motie staat. Een veld `stemmingen` (welke moties in welke stemmingsronde, met datum) zou dit oplossen; dat staat in de open data (Besluit/Stemming per Zaak) en kost geen AI, alleen een uitbreiding van `scripts/moties.py`.
+
+### Ronde 1: beoordeling (lezer met leesmoeite, interface-expert, politicoloog, controleur)
+Controleur: geen ernstige fouten; alle citaten, uitslagen, zetels, videolinks en ankers kloppen. Wel: nalees-datum fout (er bestaat `data/redactie/pagina_<id>.json` voor `data/paginas`), RSS-tijden een uur verkeerd, "van Baarle" zonder hoofdletter, "Keijzer (Keijzer)", "(nog) geen samenvatting", RSS-beschrijving noemde moties die er niet zijn. Alles hersteld.
+
+Overgenomen (alle varianten):
+- Minderheidskabinet: de uitleg over coalitie wordt nu berekend (D66, CDA en VVD hebben samen 66 zetels) en zegt dat dit een minderheidskabinet is en dat oppositiefracties vaak meestemmen.
+- "Hoe liep het af" zet bij een wetsvoorstel eerst wat er met de wet gebeurt (uitslag niet in onze gegevens, daarna de Eerste Kamer), dan de moties als "verzoeken aan de regering". Lang debat zonder tweede termijn in de data: vaste zin dat die ontbreekt.
+- Geen kaart uit een ordedebat (Belastingplan 10 november had alleen een ordedebatkaart; dat debat toont nu titel en sprekers). De regeltekst op "Zo werken we" beschrijft nu wat echt geldt (ook de oudere kaarten bij tweeminutendebatten).
+- Onder elke kaart: "Aan het woord in dit debat: SP (3), VVD (22), …" met link naar alle standpunten (tegen het arena-beeld en de eenmansfractie die even zwaar oogt).
+- Fracties bij een uitslag in één lijst per kant op zetels, coalitie als label in plaats van twee blokken. "33 zetels voor" in plaats van "33 voor".
+- Motieteksten: "óf en hoe" uitvoeren; stemuitleg zegt dat een Kamerlid kan afwijken; geen algemene bewering meer over "de meeste moties", maar het berekende getal. Pdf-afval in motietekst: dan alleen de link. Motie van wantrouwen krijgt een label. Ontbrekend oordeel: "niet in onze gegevens". Herhaalde staart in motietitel (motie 70) weggehaald.
+- Amendement "verandert het wetsvoorstel"; begrip novelle toegevoegd; regel voor wetsvoorstel matcht niet meer op "wetgevingsoverleg".
+- Vragenuur: de onderwerpen uit de paginadata staan onder de vraag, en de standpunten zijn per onderwerp gegroepeerd.
+- Verslag: "voorlopig" in plaats van "ongecorrigeerd", geen losse "#", regels ~62 tekens, contrast van markering in donker.
+- Figuren: alt leeg als de naam ernaast staat, niet meer lazy (de lezer zag lege rondjes), verkleind naar 180×240 (was 360×480).
+A: afloopblok is geen wit vlak met rand meer (leek op een ballon); focusring op geel donker; geel gedempt in donker thema; moties-pagina per debat ingeklapt; rij met moties nu bij elk debat met moties; intro op telefoon één regel; hoofdpagina van een debat in delen begint met de vraag, delenlijst onder de kaart.
+B: videolinks op de voorpagina; geen tellingen meer op de voorpagina; citaat rechtop met het woord "Letterlijk" (cursief was moeilijk leesbaar); tijdlijn dun gestippeld (botste met de citaatstreep); groeperingsregel aangescherpt: geen koppeling via stemmingen, verzameldossiers (`nieuw/eigen/verzameldossiers.json`) verbinden niets, vragenuur nooit samengevoegd.
+C: elke deelpagina heeft een eigen kop "Deel 3 van 6: …", ← → in de kaart en in de vaste balk ("← Deel 2 · Deel 4 →"), "Volgend debat" alleen tussen debatten; "Waar ging het om" en "Hoe liep het af" zijn de eerste twee hoofdstukken; agendatitel boven de vraag en in de paginatitel; standpunten zonder kaartvlak (leek op citaat); voorpagina met h1 en datums als koppen, stemmingen klein; focus geel op de donkere kaart.
+
+Bewust niet overgenomen:
+- "Nog niet over gestemd" / "Stemming verwacht op dinsdag" (lezer): verboden door de eigenaar (verouderende informatie, datum staat niet in de data).
+- Gewone titels per motie en per onderwerp, korte opsommingen per deel: vraagt nieuwe geschreven inhoud per debat (zie velden hierboven).
+- Vaste deeltitels "<fase>: <sprekers>" in plaats van de inhoudelijke titels (politicoloog): de eigenaar vroeg om inhoudelijke titels; ze komen uit de nagelezen paginadata.
+- Andere regel voor de vraagbron (politicoloog, "coalitiepartij of kabinet"): dat is de schrijfopdracht `prompts/kaart.md`, die deze sessie niet mag wijzigen. Doorgegeven als advies in het eindverslag.
+- Zetelbalk bij elke naam: het zetelaantal staat er al als tekst; een balk per naam maakt de kaart drukker.

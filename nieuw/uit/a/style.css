@@ -66,7 +66,7 @@ ul.kern{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
 .vmeta,.vdeel{color:var(--muted);font-size:16px}
 .vuitleg{display:flex;flex-direction:column;gap:6px;font-size:16px;color:var(--muted);max-width:62ch}
 .beurten{display:flex;flex-direction:column;gap:2px}
-.beurt{padding:12px 14px;border-left:4px solid transparent;border-radius:6px;max-width:72ch;scroll-margin-top:16px}
+.beurt{padding:12px 14px;border-left:4px solid transparent;border-radius:6px;max-width:38em;scroll-margin-top:16px}
 .beurt header{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:6px}
 .beurt header .rol{font-size:14px;color:var(--muted)}
 .beurt .bt{margin-left:auto;display:flex;gap:10px;align-items:baseline;font-size:14px;color:var(--muted);flex-wrap:wrap}
@@ -93,6 +93,12 @@ div.uitleg{display:flex;flex-direction:column;gap:2px}
 div.uitleg details{border-bottom:1px solid var(--line);padding:6px 0}
 div.uitleg summary{font-size:16px}
 div.uitleg p{color:var(--muted);font-size:16px;margin-top:4px}
+
+.beurt.vz mark.cm{color:var(--ink)}
+.lbl-c{border-color:var(--ink)}
+.ook{font-size:15px}
+h3.sph{font-size:18px;margin-top:6px}
+.lees,.kolommen>.blok>p,.kolommen>.blok>.afloop p{max-width:36em}
 
 
 /* ---------- variant A: de vergaderdag ---------- */
@@ -172,7 +178,16 @@ details.st{border:2px solid var(--line);border-radius:12px;background:var(--pane
 .dkop{display:flex;flex-direction:column;gap:8px}
 .dkop h1{font-size:clamp(1.7rem,4.6vw,2.6rem)}
 .dmeta{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;color:var(--muted);font-size:16px}
-.afloop{display:grid;grid-template-columns:1fr;gap:16px;border:2px solid var(--ink);border-radius:14px;padding:16px 18px;background:var(--panel)}
+.afloop{display:grid;grid-template-columns:1fr;gap:16px;border-top:6px solid var(--ink);border-radius:0;padding:14px 18px;background:var(--tone)}
+.afloop ul{margin:6px 0 0;padding-left:1.2em}
+.bk a:focus-visible{outline-color:#1d1b2e}
+.links a{padding:6px 0}
+.links{gap:4px 16px}
+.ook{color:#3a3410}
+.ook a{font-weight:700}
+.st ul.moties{padding:0 14px 14px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .bk{background:#e8cf5a}}
+:root[data-theme="dark"] .bk{background:#e8cf5a}
 .afloop>div{display:flex;flex-direction:column;gap:8px;min-width:0}
 .afloop h2{font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .afloop .groot{font-size:19px;font-weight:700;line-height:1.35}
@@ -209,6 +224,7 @@ ol.delen li[aria-current] a{color:var(--ink);font-weight:700}
   .werk{font-size:14px;flex-basis:100%;order:3}
   .kop nav{font-size:15px;gap:12px}
   .intro p{font-size:15px}
+  .intro .langer{display:none}
   main{gap:20px;padding-top:12px}
   .ballon p{font-size:17px}
   .wieb .fg{width:56px;height:56px}

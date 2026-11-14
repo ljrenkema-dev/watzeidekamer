@@ -51,7 +51,9 @@ def schrijf(uit_dir):
             continue
         m = M.manga_map(k)
         if m:
-            shutil.copyfile(M.ROOT / "site" / "manga" / m / "neutraal.webp", fig / f"{m}.webp")
+            from PIL import Image  # verkleind: op de site is een figuur hooguit 120px breed
+            im = Image.open(M.ROOT / "site" / "manga" / m / "neutraal.webp")
+            im.resize((180, 240), Image.LANCZOS).save(fig / f"{m}.webp", "WEBP", quality=82)
         else:
             (fig / f"{k.replace(':', '-')}.svg").write_text(svg[k])
         n += 1

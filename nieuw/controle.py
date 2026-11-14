@@ -146,7 +146,7 @@ def controleer(variant):
                     fouten.append(f"{rel}: afwijking in telling van {mid} niet getoond ({afw})")
             elif k:
                 fouten.append(f"{rel}: uitslag getoond voor {mid} zonder uitslag in de data")
-            for code, z in re.findall(r"([A-Za-z0-9][\w -]*?) \((\d+)\)", t):
+            for code, z in re.findall(r"([A-Za-z0-9][\w -]*?) \((\d+)(?:, coalitie)?\)", t):
                 f = M.fractie(code.strip())
                 if f and f["zetels"] != int(z):
                     fouten.append(f"{rel}: {code} heeft {z} zetels bij {mid}, data zegt {f['zetels']}")
