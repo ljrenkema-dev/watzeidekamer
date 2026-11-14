@@ -5,9 +5,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="../style.css">
-<script>try{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}catch(e){document.documentElement.dataset.taal="normaal"}</script>
+<script>document.documentElement.dataset.taal="normaal"</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
+<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"></nav></header>
 <main style="display:flex;flex-direction:column;gap:20px">
 <div class="person"><svg id="av" viewBox="10 10 80 100" aria-hidden="true"></svg><div style="min-width:0"><h1>Alisha Müller</h1>
 <p class="note">lid Tweede Kamer · VVD</p></div></div>
@@ -23,7 +23,7 @@
 <p class="lv-n ">Müller is blij dat het kabinet niet alle aanbevelingen overneemt, omdat ook economie, regeldruk en weerbaarheid tellen. De VVD steunt een vrijwillige aanpak tegen voedselverspilling, wil Europese afspraken in plaats van een verplicht nationaal reparatiefonds, en wil treinreizen makkelijker maken maar vliegen niet alleen in Nederland zwaarder belasten.</p><p class="lv-m ">Müller (VVD) is blij dat het kabinet niet alles overneemt. Ze wil afspraken in Europa. Ze wil geen hogere vliegbelasting alleen in Nederland.</p><blockquote class="quote">“Ik zal ook eerlijk zeggen dat we bij de VVD ook blij zijn dat het kabinet niet alle aanbevelingen heeft overgenomen, want in de politiek moeten we ook andere belangen beschermen.”</blockquote></li></ul></main>
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="../over.html">Zo werken we</a> · <a href="../p/index.html">Alle politici</a>.</footer>
 </div><script src="../strip.js"></script><script>const P={"id": "e3a027eb-acac-4242-8b8d-533365ce3366", "fractie": "VVD", "u": {"gezicht": "v", "haarkleur": "lichtbruin", "kapsel": "lang", "bril": "geen", "baard": "geen", "huid": "licht", "leeftijd": "jong", "spiegel": true, "gezichtsvorm": "rond", "wenkbrauw": "dun", "oogkleur": null, "kleding": null, "onder": null, "montuur": null, "oorbel": null, "pony": null, "volume": null, "slapen": null, "manga": "3b3c7923-b604-4902-97c1-210aa85182c1", "manga_int": false}};document.getElementById("av").innerHTML=character(makeLook(P.id,P.fractie,P.u),"neutraal");</script><script>
-(function(){const k=document.getElementById("taalknop");
+(function(){const k=document.getElementById("taalknop");if(!k){document.documentElement.dataset.taal="normaal";return;}
 function zet(t){document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
 try{localStorage.setItem("taal",t)}catch(e){};if(window.renderStrip&&window.STRIP)renderStrip(window.STRIP);}
 k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makkelijk"?"normaal":"makkelijk"));zet(document.documentElement.dataset.taal);})();

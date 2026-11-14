@@ -5,9 +5,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="../style.css">
-<script>try{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}catch(e){document.documentElement.dataset.taal="normaal"}</script>
+<script>document.documentElement.dataset.taal="normaal"</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
+<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"></nav></header>
 <main style="display:flex;flex-direction:column;gap:20px">
 <div class="person"><svg id="av" viewBox="10 10 80 100" aria-hidden="true"></svg><div style="min-width:0"><h1>Hanneke Van der Werf</h1>
 <p class="note">lid Tweede Kamer · D66</p></div></div>
@@ -35,7 +35,7 @@
 <p class="lv-n ">Van der Werf wil de steun aan Oekraïne overeind houden en de martelkampen en hun commandanten op de Europese sanctielijst. Ze wil diensten en investeringen onder het handelsverbod brengen, het associatieakkoord echt opschorten en, als een Europees kader niet lukt, naar Frans voorbeeld een Nederlands kader met inreisverboden voor gewelddadige kolonisten. Ze zegt dat D66 het al heel lang een genocide noemt, dat Jetten een minderheidskabinet leidt en dat Nederland zo snel mogelijk van de wapens uit Israël af moet; waar al alternatieven zijn, kan dat volgens haar nu al. Tegen DENK zegt ze dat het kabinet als derde land van Europa een sanctiebesluit instelde, dat dat niet genoeg is en dat D66 er nog precies hetzelfde over denkt als een jaar geleden.</p><p class="lv-m ">Van der Werf (D66) wil dat Nederland Oekraïne blijft steunen. Ze wil strengere maatregelen tegen Israël. D66 noemt het al lang een genocide, zegt ze. Nederland moet zo snel mogelijk stoppen met wapens uit Israël.</p><blockquote class="quote">“De wapens die je nu al ergens anders kunt importeren, zouden wat ons betreft ook ergens anders geïmporteerd moeten worden. We moeten zo snel mogelijk aan de slag met het deel waarvoor er alternatieven moeten worden gevonden.”</blockquote></li></ul></main>
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="../over.html">Zo werken we</a> · <a href="../p/index.html">Alle politici</a>.</footer>
 </div><script src="../strip.js"></script><script>const P={"id": "fcf713d0-8b9e-4199-83bf-6088f485fffc", "fractie": "D66", "u": {"gezicht": "v", "haarkleur": "blond", "kapsel": "lang", "bril": "geen", "baard": "geen", "huid": "licht", "leeftijd": "jong", "spiegel": true, "gezichtsvorm": "rond", "wenkbrauw": "dun", "oogkleur": null, "kleding": "colbert-top", "onder": "wit", "montuur": null, "oorbel": "knopje", "pony": null, "volume": null, "slapen": null, "manga": "6a54c095-9872-4322-81be-114b74233d40", "manga_int": false}};document.getElementById("av").innerHTML=character(makeLook(P.id,P.fractie,P.u),"neutraal");</script><script>
-(function(){const k=document.getElementById("taalknop");
+(function(){const k=document.getElementById("taalknop");if(!k){document.documentElement.dataset.taal="normaal";return;}
 function zet(t){document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
 try{localStorage.setItem("taal",t)}catch(e){};if(window.renderStrip&&window.STRIP)renderStrip(window.STRIP);}
 k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makkelijk"?"normaal":"makkelijk"));zet(document.documentElement.dataset.taal);})();

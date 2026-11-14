@@ -5,9 +5,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="../style.css">
-<script>try{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}catch(e){document.documentElement.dataset.taal="normaal"}</script>
+<script>document.documentElement.dataset.taal="normaal"</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
+<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"></nav></header>
 <main class="out" style="display:flex;flex-direction:column;gap:16px">
 <p><a href="../d/b48091ca-ab96-492a-84a8-14e4d85d4159-d2.html">← Terug naar de samenvatting</a></p>
 <div class="meta"><span>11 november 2026</span><span class="tag">Plenair</span></div>
@@ -20,7 +20,7 @@ Spreekbeurten waaruit een citaat op de kaart komt, zijn gemarkeerd.</p>
 </main>
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="../over.html">Zo werken we</a> · <a href="../p/index.html">Alle politici</a>.</footer>
 </div><script>
-(function(){const k=document.getElementById("taalknop");
+(function(){const k=document.getElementById("taalknop");if(!k){document.documentElement.dataset.taal="normaal";return;}
 function zet(t){document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
 try{localStorage.setItem("taal",t)}catch(e){};if(window.renderStrip&&window.STRIP)renderStrip(window.STRIP);}
 k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makkelijk"?"normaal":"makkelijk"));zet(document.documentElement.dataset.taal);})();

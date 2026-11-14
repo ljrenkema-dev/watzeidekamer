@@ -5,9 +5,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="../style.css">
-<script>try{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}catch(e){document.documentElement.dataset.taal="normaal"}</script>
+<script>document.documentElement.dataset.taal="normaal"</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
+<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"></nav></header>
 <main style="display:flex;flex-direction:column;gap:20px">
 <div class="person"><svg id="av" viewBox="10 10 80 100" aria-hidden="true"></svg><div style="min-width:0"><h1>Ingrid Coenradie</h1>
 <p class="note">lid Tweede Kamer · JA21</p></div></div>
@@ -26,7 +26,7 @@
 <p class="lv-n ">Coenradie (JA21) vindt het onbegrijpelijk dat een gentest die kan bepalen of vrouwen met borstkanker chemotherapie nodig hebben, te weinig wordt ingezet. Ze vraagt of geld daarbij meespeelt, wil snel uitsluitsel uit het onderzoek en vraagt om een duidelijk aanspreekpunt voor diagnostiek bij het ministerie.</p><p class="lv-m ">Coenradie (JA21) vindt het onbegrijpelijk dat de gentest te weinig wordt gebruikt. Ze wil weten of geld een rol speelt. Ze wil meer aandacht voor diagnostiek.</p></li></ul></main>
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="../over.html">Zo werken we</a> · <a href="../p/index.html">Alle politici</a>.</footer>
 </div><script src="../strip.js"></script><script>const P={"id": "a8fb4f42-df25-42e6-9323-f19859c7eb42", "fractie": "JA21", "u": {"gezicht": "v", "haarkleur": "blond", "kapsel": "half-lang", "bril": "geen", "baard": "geen", "huid": "licht", "leeftijd": "midden", "spiegel": false, "gezichtsvorm": null, "wenkbrauw": "dun", "oogkleur": null, "kleding": "colbert-top", "onder": "donker", "montuur": null, "oorbel": "ring", "pony": null, "volume": null, "slapen": null, "manga": "a08790d3-915b-44d3-9556-6c53048917a0", "manga_int": false}};document.getElementById("av").innerHTML=character(makeLook(P.id,P.fractie,P.u),"neutraal");</script><script>
-(function(){const k=document.getElementById("taalknop");
+(function(){const k=document.getElementById("taalknop");if(!k){document.documentElement.dataset.taal="normaal";return;}
 function zet(t){document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
 try{localStorage.setItem("taal",t)}catch(e){};if(window.renderStrip&&window.STRIP)renderStrip(window.STRIP);}
 k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makkelijk"?"normaal":"makkelijk"));zet(document.documentElement.dataset.taal);})();

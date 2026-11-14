@@ -5,9 +5,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="../style.css">
-<script>try{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}catch(e){document.documentElement.dataset.taal="normaal"}</script>
+<script>document.documentElement.dataset.taal="normaal"</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
+<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"></nav></header>
 <main style="display:flex;flex-direction:column;gap:20px">
 <div class="person"><svg id="av" viewBox="10 10 80 100" aria-hidden="true"></svg><div style="min-width:0"><h1>Ingrid Michon-Derkzen</h1>
 <p class="note">lid Tweede Kamer · VVD</p></div></div>
@@ -19,8 +19,8 @@
 <h3>Stemmingen</h3><p class="note">Nog geen samenvatting voor dit debat.</p>
 </li></ul></main>
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="../over.html">Zo werken we</a> · <a href="../p/index.html">Alle politici</a>.</footer>
-</div><script src="../strip.js"></script><script>const P={"id": "c73e6f8a-05c9-4d13-945f-71dfb9c730f0", "fractie": "VVD", "u": {"gezicht": "v", "haarkleur": "blond", "kapsel": "bob", "bril": "geen", "baard": "geen", "huid": "licht", "leeftijd": "midden", "spiegel": true, "gezichtsvorm": null, "wenkbrauw": "dun", "oogkleur": null, "kleding": "colbert-top", "onder": "licht", "montuur": null, "oorbel": "ring", "pony": null, "volume": null, "slapen": null}};document.getElementById("av").innerHTML=character(makeLook(P.id,P.fractie,P.u),"neutraal");</script><script>
-(function(){const k=document.getElementById("taalknop");
+</div><script src="../strip.js"></script><script>const P={"id": "c73e6f8a-05c9-4d13-945f-71dfb9c730f0", "fractie": "VVD", "u": {"gezicht": "v", "haarkleur": "blond", "kapsel": "bob", "bril": "geen", "baard": "geen", "huid": "licht", "leeftijd": "midden", "spiegel": true, "gezichtsvorm": null, "wenkbrauw": "dun", "oogkleur": null, "kleding": "colbert-top", "onder": "licht", "montuur": null, "oorbel": "ring", "pony": null, "volume": null, "slapen": null, "manga": "973da897-66c7-4010-a98d-505e0e97a60c", "manga_int": false}};document.getElementById("av").innerHTML=character(makeLook(P.id,P.fractie,P.u),"neutraal");</script><script>
+(function(){const k=document.getElementById("taalknop");if(!k){document.documentElement.dataset.taal="normaal";return;}
 function zet(t){document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
 try{localStorage.setItem("taal",t)}catch(e){};if(window.renderStrip&&window.STRIP)renderStrip(window.STRIP);}
 k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makkelijk"?"normaal":"makkelijk"));zet(document.documentElement.dataset.taal);})();

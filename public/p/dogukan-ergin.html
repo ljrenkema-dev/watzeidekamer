@@ -5,9 +5,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="../style.css">
-<script>try{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}catch(e){document.documentElement.dataset.taal="normaal"}</script>
+<script>document.documentElement.dataset.taal="normaal"</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
+<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"></nav></header>
 <main style="display:flex;flex-direction:column;gap:20px">
 <div class="person"><svg id="av" viewBox="10 10 80 100" aria-hidden="true"></svg><div style="min-width:0"><h1>Doğukan Ergin</h1>
 <p class="note">lid Tweede Kamer · DENK</p></div></div>
@@ -29,7 +29,7 @@
 <p class="lv-n ">DENK vindt het onacceptabel dat debatten met procedurele spelletjes op één hoop worden gegooid. Volgens DENK is er een nieuwe politieke situatie. DENK wil dat de minister daar eerst op ingaat, en wil het WGO in een apart debat afhandelen.</p><p class="lv-m ">DENK vindt de procedurele spelletjes onacceptabel. Volgens DENK is er een nieuwe politieke situatie. DENK wil dat de minister daar eerst op ingaat. Het WGO wil DENK in een apart debat.</p></li></ul></main>
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="../over.html">Zo werken we</a> · <a href="../p/index.html">Alle politici</a>.</footer>
 </div><script src="../strip.js"></script><script>const P={"id": "8edbc8b9-a51a-4ca5-a3bb-c04cb67c97b7", "fractie": "DENK", "u": {"gezicht": "m", "haarkleur": "zwart", "kapsel": "kort-kort", "bril": "geen", "baard": "kort", "huid": "middel", "leeftijd": "jong", "spiegel": true, "gezichtsvorm": null, "wenkbrauw": "dik", "oogkleur": null, "kleding": "colbert-open", "onder": null, "montuur": null, "oorbel": null, "pony": null, "volume": null, "slapen": null, "manga": "02da66c7-029f-4207-a00d-21babf0d3cc6", "manga_int": false}};document.getElementById("av").innerHTML=character(makeLook(P.id,P.fractie,P.u),"neutraal");</script><script>
-(function(){const k=document.getElementById("taalknop");
+(function(){const k=document.getElementById("taalknop");if(!k){document.documentElement.dataset.taal="normaal";return;}
 function zet(t){document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
 try{localStorage.setItem("taal",t)}catch(e){};if(window.renderStrip&&window.STRIP)renderStrip(window.STRIP);}
 k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makkelijk"?"normaal":"makkelijk"));zet(document.documentElement.dataset.taal);})();

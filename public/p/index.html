@@ -5,9 +5,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="../style.css">
-<script>try{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}catch(e){document.documentElement.dataset.taal="normaal"}</script>
+<script>document.documentElement.dataset.taal="normaal"</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
+<header class="top"><a class="home" href="../index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"></nav></header>
 <main style="display:flex;flex-direction:column;gap:20px"><h1>Politici</h1>
 <p class="lede">Iedereen die sprak in de debatten op deze site, per partij. Klik op een naam voor het overzicht van zijn of haar activiteit.</p>
 <div class="filters"><label for="pq" style="position:absolute;left:-9999px">Zoek een naam</label><input id="pq" type="search" placeholder="Zoek een naam"></div>
@@ -16,7 +16,7 @@
 </div><script>const q=document.getElementById('pq');q.addEventListener('input',()=>{const t=q.value.trim().toLowerCase();
 document.querySelectorAll('.names li').forEach(li=>li.hidden=t&&!li.textContent.toLowerCase().includes(t));
 document.querySelectorAll('.partijen section').forEach(s=>s.hidden=![...s.querySelectorAll('li')].some(li=>!li.hidden));});</script><script>
-(function(){const k=document.getElementById("taalknop");
+(function(){const k=document.getElementById("taalknop");if(!k){document.documentElement.dataset.taal="normaal";return;}
 function zet(t){document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
 try{localStorage.setItem("taal",t)}catch(e){};if(window.renderStrip&&window.STRIP)renderStrip(window.STRIP);}
 k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makkelijk"?"normaal":"makkelijk"));zet(document.documentElement.dataset.taal);})();
