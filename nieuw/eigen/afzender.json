@@ -1,0 +1,6 @@
+{
+  "toelichting": "Invulplek voor de afzender. Zolang 'naam' of 'contact' leeg is, toont de site een duidelijk gemarkeerde lege plek in plaats van een verzonnen naam of adres.",
+  "naam": "",
+  "contact": "",
+  "contact_label": ""
+}

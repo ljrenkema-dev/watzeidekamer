@@ -1,0 +1,5 @@
+{
+  "toelichting": "Fractienamen zoals ze in de stemuitslagen (data/moties) staan, gekoppeld aan de naam in data/fracties.json. Afgeleid door de twee lijsten naast elkaar te leggen: alleen 'Keijzer' wijkt af (in fracties.json 'Lid Keijzer', 1 zetel).",
+  "bron": "data/moties/*.json (uitslag.voor/tegen) en data/fracties.json",
+  "fractie": {"Keijzer": "Lid Keijzer"}
+}

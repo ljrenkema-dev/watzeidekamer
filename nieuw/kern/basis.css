@@ -1,0 +1,95 @@
+/* Gedeelde basis: kleuren (licht en donker), typografie, verslag, moties, uitleg, standpunten. */
+:root{
+  --paper:#fbfaf7; --ink:#1d1b2e; --muted:#58556c; --line:#d9d6e4; --panel:#ffffff; --tone:#efedf5;
+  --marker:#ffe066; --accent:#2f3fb8; --ok:#1d6b3a; --nee:#9a2b20; --mark:#fff0a3;
+  --body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#15141f; --ink:#f1f0f7; --muted:#b2afc6; --line:#3a3852; --panel:#1f1d2c; --tone:#29273b;
+  --marker:#ffe066; --accent:#a3afff; --ok:#7fd49c; --nee:#ffa79c; --mark:#5c4d00; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#15141f; --ink:#f1f0f7; --muted:#b2afc6; --line:#3a3852; --panel:#1f1d2c; --tone:#29273b;
+  --marker:#ffe066; --accent:#a3afff; --ok:#7fd49c; --nee:#ffa79c; --mark:#5c4d00; color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.55}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+h1,h2,h3,h4{line-height:1.2;margin:0;text-wrap:balance}
+p{margin:0}
+img{max-width:100%}
+.skip{position:absolute;left:-9999px;top:0}
+.skip:focus{left:12px;top:12px;background:var(--panel);padding:8px 12px;z-index:9}
+.lees{max-width:62ch}
+.klein{font-size:15px;color:var(--muted)}
+.let{font-size:15px;border-left:4px solid var(--nee);padding:6px 12px;background:var(--tone)}
+.invul{background:#ffd7d2;color:#5a0d06;border:2px dashed #b3261e;padding:0 6px;border-radius:4px;font-weight:700}
+.voorl,.lbl{display:inline-block;font-size:13px;font-weight:700;border:1.5px solid var(--line);border-radius:999px;padding:0 9px;color:var(--muted);white-space:nowrap}
+.voorl{border-color:var(--muted)}
+/* figuren */
+.fg{display:block;aspect-ratio:1/1;object-fit:cover;object-position:50% 0;border-radius:50%;background:#fff;border:2px solid var(--ink);flex:none}
+/* moties */
+ul.moties{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.motie{background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.motie .mkop{font-size:17px;font-weight:700;line-height:1.35}
+.motie .mwie,.motie .oordeel{font-size:16px;color:var(--muted)}
+.uitslag{font-size:17px}
+.uitslag-aangenomen b{color:var(--ok)}
+.uitslag-verworpen b{color:var(--nee)}
+.balk{display:flex;height:12px;border-radius:6px;border:2px solid var(--ink);position:relative;overflow:hidden;max-width:420px}
+.balk .v{background:var(--ink)}
+.balk .t{background:repeating-linear-gradient(135deg,var(--panel) 0 4px,var(--line) 4px 8px)}
+.balk .mid{position:absolute;left:50.33%;top:-2px;bottom:-2px;width:2px;background:var(--accent)}
+.fr{font-size:15px;color:var(--muted)} .fr b{color:var(--ink)}
+.afwijking{font-size:15px;color:var(--nee);font-weight:700}
+details summary{cursor:pointer;font-weight:700}
+.motietekst summary{font-size:15px;color:var(--accent)}
+.doc{font-size:15px;background:var(--tone);border-radius:6px;padding:10px 12px;margin:8px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;line-height:1.5;white-space:pre-wrap}
+/* uitleg en woorden */
+dl.uitleg,dl.woorden{margin:0;display:flex;flex-direction:column;gap:10px}
+dl.uitleg dt,dl.woorden dt{font-weight:700}
+dl.uitleg dd,dl.woorden dd{margin:0;color:var(--muted)}
+dl.woorden div:target{background:var(--mark);border-radius:6px;padding:4px 8px}
+a.woordlink{color:inherit;text-decoration:underline dotted;text-decoration-thickness:2px;text-underline-offset:4px}
+/* standpunten als kaartjes */
+ul.standpunten{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
+.sp{display:flex;gap:12px;background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;min-width:0}
+.sp .fg{width:52px;height:52px}
+.sp>div{min-width:0}
+.spn{margin-bottom:4px}
+.spn span{display:block;font-size:14px;color:var(--muted)}
+ul.kern{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+/* verslag */
+.verslag{display:flex;flex-direction:column;gap:16px}
+.verslag h1{font-size:clamp(1.5rem,5vw,2rem)}
+.vmeta,.vdeel{color:var(--muted);font-size:16px}
+.vuitleg{display:flex;flex-direction:column;gap:6px;font-size:16px;color:var(--muted);max-width:62ch}
+.beurten{display:flex;flex-direction:column;gap:2px}
+.beurt{padding:12px 14px;border-left:4px solid transparent;border-radius:6px;max-width:72ch;scroll-margin-top:16px}
+.beurt header{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:6px}
+.beurt header .rol{font-size:14px;color:var(--muted)}
+.beurt .bt{margin-left:auto;display:flex;gap:10px;align-items:baseline;font-size:14px;color:var(--muted);flex-wrap:wrap}
+.beurt .bt a{font-size:14px}
+.beurt p{margin:0 0 8px;font-size:17px}
+.beurt.vz{color:var(--muted)}
+.beurt.vz p{font-size:16px}
+.beurt.int{margin-left:18px}
+.beurt.gec{border-left-color:var(--marker)}
+.beurt:target{background:var(--tone);border-left-color:var(--accent);outline:2px solid var(--accent)}
+mark.cm{background:var(--mark);color:inherit;padding:1px 2px;border-radius:3px;box-shadow:0 2px 0 var(--marker)}
+.lbl-c{border-color:var(--marker);color:var(--ink)}
+.anker{text-decoration:none;color:var(--muted)}
+.terug{font-size:16px}
+/* fractielijst */
+ul.fractielijst{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:6px 18px}
+ul.fractielijst li{display:flex;flex-wrap:wrap;gap:0 8px;border-bottom:1px solid var(--line);padding:4px 0}
+ul.fractielijst span{color:var(--muted);font-size:15px}
+ul.fractielijst .z{margin-left:auto;color:var(--ink)}
+@media (max-width:600px){body{font-size:17px}.beurt{padding:10px 8px}.beurt.int{margin-left:8px}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+div.uitleg{display:flex;flex-direction:column;gap:2px}
+div.uitleg details{border-bottom:1px solid var(--line);padding:6px 0}
+div.uitleg summary{font-size:16px}
+div.uitleg p{color:var(--muted);font-size:16px;margin-top:4px}
