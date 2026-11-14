@@ -27,8 +27,8 @@ Voor elk vak, in **beide** taalniveaus:
 ### 2. Kloppen samenvatting, standpunten en kernpunten?
 - Elk feit moet in de bron staan. Controleer getallen, data en namen tegen de spreekbeurten.
 - Wordt een bewering van één spreker als feit gebracht? Dat moet "volgens X" of "X zegt" zijn.
-- Komt het standpunt van elke spreker overeen met wat die spreker zelf zei, ook in de makkelijke versie?
-- Zijn de normale en makkelijke versie inhoudelijk gelijk?
+- Komt het standpunt van elke spreker overeen met wat die spreker zelf zei?
+- Makkelijke taal staat tijdelijk uit: `makkelijk` moet gelijk zijn aan `normaal`; lees alleen `normaal` inhoudelijk na.
 - Staat er in `woorden` een uitleg die niet klopt of niet neutraal is?
 
 ### 3. Is de strip neutraal?

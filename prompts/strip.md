@@ -1,14 +1,13 @@
-# Opdracht: agendapunt samenvatten in twee taalniveaus en een strip maken
+# Opdracht: agendapunt samenvatten en een strip maken
 
 Je krijgt één agendapunt uit een debat van de Tweede Kamer (`data/agendapunten/<id>.json`).
 Lees eerst **`prompts/lessen.md`**: fouten die eerder gemaakt zijn en die je niet opnieuw maakt. Controleer je tekst daar aan het eind zelf op.
 
 Schrijf `data/strips/<id>.json`. Draai daarna `python3 scripts/check.py <id>` en los elke fout op tot de check slaagt.
 
-## Twee taalniveaus
-Elke tekst schrijf je twee keer, onder `normaal` en `makkelijk`. Beide versies zeggen inhoudelijk hetzelfde.
-- **normaal** (standaard op de site): heldere, gewone taal zoals een goede nieuwssite. Zinnen tot ongeveer 20 woorden. Houd getallen, nuances en wie-wat-vindt precies. Geen jargon zonder uitleg.
-- **makkelijk**: korte zinnen van hooguit 12 woorden, alledaagse woorden, actieve vorm. Voor laaggeletterden en mensen die Nederlands leren.
+## Taal
+Schrijf in heldere, gewone taal zoals een goede nieuwssite. Zinnen tot ongeveer 20 woorden. Houd getallen, nuances en wie-wat-vindt precies. Geen jargon zonder uitleg.
+**Makkelijke taal staat tijdelijk uit** (besluit eigenaar, 14 nov 2026). Schrijf elke tekst één keer, onder `normaal`, en zet onder `makkelijk` precies dezelfde tekst (de site toont alleen `normaal`; `scripts/check.py` verwacht beide velden). Houd daarom de vaktekst in de strip op hooguit 14 woorden.
 
 ## Een deel van een lang debat
 Heeft het agendapunt een veld `deel`, dan is het één deel van een lang debat (`deel.nummer` van `deel.van`, fase `deel.fase`, zoals "Inbreng van de Kamer" of "Antwoord van het kabinet").
@@ -22,7 +21,7 @@ Heeft het agendapunt een veld `deel`, dan is het één deel van een lang debat (
 Bij een vragenuur, mondelinge vragen of een debat waarin achter elkaar losse onderwerpen of een duidelijke lijst met punten langskomen (**altijd** bij een vragenuur; ook bij een tweeminutendebat waarin moties worden ingediend, een debat dat de agendapunten van een Raad of overleg afloopt, stemmingen en een regeling van werkzaamheden):
 - **Tweeminutendebat met moties**: één inleidende zin (wie diende hoeveel moties in), dan per motie een regel die begint met "- ": nummer, indiener(s), wat de motie vraagt (uit de verzoekt-zin in `data/moties/`) en het oordeel van het kabinet. Een kernpunt dat alleen een motie herhaalt, hoeft niet. Een `onderwerpen`-indeling is hier niet nodig.
 - **Titel** begint met het soort debat en een dubbele punt: "Vragenuur: …". De rest noemt de onderwerpen of het belangrijkste onderwerp.
-- **Samenvatting**: één inleidende zin, dan per onderwerp een regel die begint met "- " (de site maakt er een opsomming van). Zelfde opbouw in normaal en makkelijk.
+- **Samenvatting**: één inleidende zin, dan per onderwerp een regel die begint met "- " (de site maakt er een opsomming van). 
 - **`onderwerpen`**: per onderwerp, in de volgorde van het debat, `{"titel": {"normaal": "...", "makkelijk": "..."}, "sprekers": [ids van wie over dit onderwerp sprak], "kernpunten": [nummers van de kernpunten over dit onderwerp, vanaf 0]}`. De site zet de standpunten en de kernpunten dan per onderwerp onder een subkop. Zet de kernpunten in `kernpunten` op volgorde van onderwerp; normaal en makkelijk hebben evenveel kernpunten in dezelfde volgorde. Spreekt iemand over twee onderwerpen, zet hem bij het onderwerp waar hij het meest over zei en noem het andere in zijn standpunt.
 - **Strip**: kies één onderwerp en belicht het van beide kanten: de vraag, het antwoord van de bewindspersoon en de vervolgvragen of tegenwerpingen van andere partijen. Zet in `strip_onderwerp` het nummer van dat onderwerp (vanaf 0). Kies het onderwerp met de duidelijkste botsing of het meeste belang voor gewone mensen.
 - **Spreiding over de reeks**: draai vóór je keuze `python3 scripts/reeks.py --voor <datum van het debat>`. Staat de fractie die de vraag stelde op of boven de grens (een fractie is in de laatste 10 vragenuren hooguit max(2, afgerond 2 × haar zetelaandeel × 10) keer de vraagsteller van het onderwerp in de strip), kies dan een ander onderwerp, tenzij dat geen echte botsing heeft. Schrijf in `keuze_onderwerp` (normaal en makkelijk, één zin) waarom je dit onderwerp koos, zonder oordeel over partijen; de site toont die zin onder de strip. Voorbeeld: "De strip gaat over het loon van uitzendkrachten: hier botsten vraag en antwoord het duidelijkst." De andere onderwerpen staan in de samenvatting, de kernpunten en de standpunten. Het eerste vak (Verteller) zegt dat de strip over dit ene onderwerp gaat; het mag een letterlijk stuk uit de vraag of de inleiding zijn.
@@ -35,7 +34,7 @@ Staat er een bestand `data/moties/<id>.json` (of een blok MOTIES onderaan de com
 
 ## Juistheid (belangrijkst)
 - Gebruik ALLEEN wat in de spreekbeurten staat. Verzin niets. Geen eigen mening. Neutraal naar alle partijen.
-- Getallen, data en standpunten precies zoals in de tekst, in beide versies.
+- Getallen, data en standpunten precies zoals in de tekst.
 - `citaat` is LETTERLIJK overgenomen uit de tekst van de spreekbeurt(en) van die spreker. Je mag inkorten door stukken te verbinden met " … ". Elk stuk moet minstens 5 woorden zijn en letterlijk in de tekst staan (leestekens en hoofdletters precies zo).
 - De `tekst` in een stripvak zegt niets wat niet in het citaat van dat vak staat.
 - `spreker_id` is de `spreker.id` uit het agendapunt. Gebruik `null` voor de Verteller (inleiding of afsluiting); het citaat van de Verteller mag uit elke spreekbeurt komen.
@@ -48,7 +47,7 @@ Staat er een bestand `data/moties/<id>.json` (of een blok MOTIES onderaan de com
 
 De strip is het hart van de pagina: hij staat direct onder de samenvatting, en daaronder de standpunten van álle partijen (uit `sprekers`). De strip hoeft dus niet elke partij te tonen, wel de kern van het debat.
 - 4 tot 8 vakken, in de volgorde van het debat.
-- `tekst`: wat de spreker in dat vak zegt, in de ik-vorm, normaal hooguit 18 woorden, makkelijk hooguit 14.
+- `tekst`: wat de spreker in dat vak zegt, in de ik-vorm, hooguit 14 woorden (dezelfde tekst onder `normaal` en `makkelijk`).
 - `emotie`: neutraal, blij, boos, bezorgd, verbaasd, denkend of vastberaden — wat past bij de toon van het citaat. Het gezicht van het figuur blijft neutraal; de emotie bepaalt de achtergrond van het vak.
 
 ### Kies vakken die op zichzelf staan en de moeite waard zijn
