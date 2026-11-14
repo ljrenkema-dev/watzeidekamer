@@ -160,7 +160,7 @@ class Persoon:
             return "kabinet"
         if not f:
             return self.fractie_code
-        return f"{f['code']} · {f['zetels']} {'zetel' if f['zetels'] == 1 else 'zetels'} · {'coalitie' if f['coalitie'] else 'oppositie'}"
+        return f"{f['code']} · {f['zetels']} {'zetel' if f['zetels'] == 1 else 'zetels'}" + (" · coalitie" if f["coalitie"] else "")
 
 
 # ---------------------------------------------------------------- video (Debat Direct)
@@ -346,12 +346,21 @@ class Deel:
                 "onafhankelijk": r.get("onafhankelijk")}
 
     @property
+    def fase_label(self):
+        """Fase zoals getoond. Vaste regel: had een eerder debat met dezelfde agendatitel al een tweede termijn,
+        dan is dit de derde termijn (het label in de data zegt dan ten onrechte 'Inbreng van de Kamer')."""
+        d = getattr(self, "debat", None)
+        if d and self.fase and any(heeft_tweede_termijn(x) for x in zelfde_titel(d) if x.begin < d.begin):
+            return "Derde termijn: " + self.fase[0].lower() + self.fase[1:]
+        return self.fase
+
+    @property
     def titel(self):
         """Inhoudelijke titel van dit deel: de paginatitel, anders de fase en de sprekers uit de data."""
         if self.pagina and self.pagina["titel"]:
             return self.pagina["titel"]
         if self.fase:
-            return self.fase + (f": {self.sprekers_kort}" if self.sprekers_kort else "")
+            return self.fase_label + (f": {self.sprekers_kort}" if self.sprekers_kort else "")
         return self.punt["titel"]
 
     def personen(self):
@@ -437,7 +446,13 @@ class Debat:
 
     @property
     def titel(self):
-        """Kop van het debat: bij één deel de paginatitel; bij delen de agendatitel."""
+        """Kop van het debat: bij één deel de paginatitel; bij delen de agendatitel; bij stemmingen het aangekondigde onderwerp."""
+        if self.is_stemmingen:
+            o = stemming_onderwerp(self)
+            k = re.search(r"het ([A-Z][^,:]*\d{4})", o)
+            if k and "over een motie" in o:
+                return f"Stemming over een motie bij het {k.group(1)}"
+            return f"Stemmingen over het {k.group(1)}" if k else "Stemmingen"
         if len(self.delen) == 1 and self.delen[0].pagina:
             return self.delen[0].pagina["titel"]
         return self.titel_agenda
@@ -559,6 +574,22 @@ def motie_wantrouwen(m):
     return bool(re.search(r"zegt (?:daarom )?het vertrouwen .{0,40}op", m.get("tekst") or "", re.I | re.S))
 
 
+def begin_ontbreekt(d):
+    """Vaste regel: het begin van een debat valt buiten onze gegevens als het eerste deel geen inbreng van de Kamer is
+    (en geen ordedebat gevolgd door inbreng), of als de agendatitel met 'Voortzetting' begint."""
+    if d.is_stemmingen or d.is_vragenuur:
+        return False
+    if d.titel_agenda.lower().startswith("voortzetting"):
+        return True
+    fases = [x.fase.lower() for x in d.delen if x.fase]
+    if not fases:
+        return False
+    eerste = next((f for f in fases if "ordedebat" not in f), "")
+    if any(x.begin < d.begin for x in zelfde_titel(d)):
+        return False  # het begin staat op een eerdere dag in onze gegevens
+    return not eerste.startswith("inbreng")
+
+
 def heeft_tweede_termijn(d):
     return any("tweede termijn" in x.fase.lower() for x in d.delen)
 
@@ -568,8 +599,6 @@ class Onderwerp:
         self.debatten = sorted(debatten_, key=lambda d: d.begin)  # oudste eerst: een tijdlijn
         echt = [d for d in self.debatten if not d.is_stemmingen] or self.debatten
         self.titel = echt[0].titel_agenda
-        if self.titel.lower().startswith("voortzetting "):
-            self.titel = self.titel[len("voortzetting "):].capitalize()
         self.laatst = max(d.begin for d in self.debatten)
         self.slug = None
 

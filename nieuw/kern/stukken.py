@@ -98,7 +98,7 @@ UITLEG = {
     "vragenuur": ("Vragenuur", "Elke dinsdag stellen Kamerleden mondelinge vragen aan ministers over actuele onderwerpen. Andere Kamerleden mogen aanvullende vragen stellen. Er worden geen moties ingediend en er wordt niet gestemd."),
     "stemmingen": ("Stemmingen", "Het moment in de plenaire zaal waarop de Kamer stemt over moties, amendementen en wetsvoorstellen. Kamerleden kunnen kort uitleggen waarom ze zo stemmen (een stemverklaring)."),
     "ordedebat": ("Ordedebat", "Een kort debat over de agenda zelf: wat de Kamer wanneer en in welke volgorde bespreekt."),
-    "termijn": ("Eerste en tweede termijn", "Een debat heeft meestal twee rondes. In de eerste termijn spreken de Kamerleden en antwoordt het kabinet. In de tweede termijn reageren de Kamerleden nog kort, vaak met moties, en antwoordt het kabinet opnieuw. Daardoor spreekt een minister vaak als laatste: dat volgt uit de vaste orde van een debat, niet uit wie gelijk heeft."),
+    "termijn": ("Eerste en tweede termijn", "Een debat heeft meestal twee rondes. In de eerste termijn spreken de Kamerleden en antwoordt het kabinet. In de tweede termijn reageren de Kamerleden kort, vaak met moties, en antwoordt het kabinet opnieuw. Soms volgt later een derde termijn, bijvoorbeeld als er iets nieuws is, zoals een amendement. Daardoor spreekt een minister vaak als laatste: dat volgt uit de vaste orde van een debat, niet uit wie gelijk heeft."),
     "voorlopig": ("Voorlopig verslag", "Het verslag van de Kamer verschijnt eerst als ongecorrigeerde versie. Sprekers kunnen daarna kleine verschrijvingen laten verbeteren. Citaten op deze site komen uit de versie die op het moment van bouwen beschikbaar was."),
 }
 
@@ -111,7 +111,7 @@ def coalitie_uitleg():
          f"samen {z} van de {F['totaal']} zetels. De andere fracties heten oppositie.")
     if z < 76:
         t += (" Omdat de coalitie geen 76 zetels heeft, is dit een minderheidskabinet: voor een meerderheid zijn bij elke stemming ook stemmen "
-              "van andere fracties nodig. Oppositiefracties stemmen daarom vaak mee met de coalitiefracties.")
+              "van andere fracties nodig. Daarom verschilt de meerderheid per stemming; bij elke uitslag staat welke fracties voor stemden.")
     return t
 
 
@@ -174,7 +174,7 @@ def indieners(m):
         if n[:1].islower():
             n = n[0].upper() + n[1:]  # 'van Baarle' zonder voornaam wordt 'Van Baarle'
         f = M.fractie(i.get("fractie") or "")
-        fr = f["code"] if f else (i.get("fractie") or "")
+        fr = (f["code"] + (", coalitie" if f["coalitie"] else "")) if f else (i.get("fractie") or "")
         uit.append(f"{e(n)} ({e(fr)})" if fr else e(n))
     return uit
 
@@ -190,7 +190,7 @@ def motie_item(m, root="", met_debat=None, kop="h4"):
     """Eén motie: nummer, indiener, waarover (uit de Kamerdata), oordeel kabinet, uitslag met zetels per fractie."""
     st = motie_status(m)
     ind = indieners(m)
-    wie_ = ind[0] + (f" en {len(ind) - 1} {'ander' if len(ind) == 2 else 'anderen'}" if len(ind) > 1 else "")
+    wie_ = ind[0] if len(ind) == 1 else ", ".join(ind[:-1]) + " en " + ind[-1]
     over = M.motie_omschrijving(m)
     u = m.get("uitslag") or {}
     uitslag = ""
@@ -202,7 +202,11 @@ def motie_item(m, root="", met_debat=None, kop="h4"):
                    f'<p class="fr"><b>Voor</b> — {fracties_regel(u.get("voor") or [])}</p>'
                    f'<p class="fr"><b>Tegen</b> — {fracties_regel(u.get("tegen") or [])}</p>'
                    + (f'<p class="afwijking">Let op: de telling wijkt af ({e(afw)}).</p>' if afw else ""))
-    oordeel = f'<p class="oordeel">Oordeel van het kabinet: {e(m["oordeel_kabinet"]) if m.get("oordeel_kabinet") else "niet in onze gegevens"}</p>'
+    ok = m.get("oordeel_kabinet")
+    if ok and ok.lower() == "aangehouden":
+        oordeel = '<p class="oordeel"><b>Aangehouden</b> door de indiener: komt voorlopig niet in stemming. Oordeel van het kabinet: niet in onze gegevens.</p>'
+    else:
+        oordeel = f'<p class="oordeel">Oordeel van het kabinet: {e(ok) if ok else "niet in onze gegevens"}</p>'
     if M.motie_wantrouwen(m):
         oordeel = '<p class="oordeel"><b>Motie van wantrouwen</b></p>' + oordeel
     verzoek = M.motie_verzoek(m)
@@ -229,8 +233,8 @@ def afloop_tekst(d):
     if d.is_vragenuur:
         return "Bij een vragenuur worden geen moties ingediend en wordt niet gestemd."
     if d.is_stemmingen:
-        return ("In deze vergadering stemde de Kamer over moties, amendementen en wetsvoorstellen. Welke dat waren, kunnen we uit onze "
-                "gegevens niet betrouwbaar afleiden; het verslag laat zien wat Kamerleden bij hun stem zeiden. De uitslag van een motie staat bij het debat waarin ze is ingediend.")
+        return ("In deze vergadering stemde de Kamer. De uitslagen staan niet in onze gegevens; lees in het verslag wat er gezegd is. "
+                "De uitslag van een motie staat, als we die hebben, bij het debat waarin ze is ingediend.")
     ms = d.moties
     if not ms:
         return "In onze gegevens staan geen moties bij dit debat."
@@ -266,9 +270,17 @@ def zelfde_titel_regel(d, root=""):
     z = M.zelfde_titel(d)
     if not z:
         return ""
-    links = ", ".join(f'<a href="{root}debat/{x.slug}.html">{M.datum_lang(x.datum, dag=True)}</a>'
-                      + (f" ({len(x.moties)} {'motie' if len(x.moties) == 1 else 'moties'})" if x.moties else "") for x in z)
-    return f'<p class="zelfde-titel">Ook met de agendatitel “{e(d.titel_agenda)}”: {links}.</p>'
+    def link(x):
+        return (f'<a href="{root}debat/{x.slug}.html">{M.datum_lang(x.datum, dag=True)}</a>'
+                + (f" ({len(x.moties)} {'motie' if len(x.moties) == 1 else 'moties'})" if x.moties else ""))
+    eerder = [x for x in z if x.begin < d.begin]
+    later = [x for x in z if x.begin > d.begin]
+    uit = []
+    if eerder:
+        uit.append("Eerder over hetzelfde agendapunt: " + ", ".join(link(x) for x in eerder) + ".")
+    if later:
+        uit.append("Later over hetzelfde agendapunt: " + ", ".join(link(x) for x in later) + ".")
+    return f'<p class="zelfde-titel">{" ".join(uit)}</p>'
 
 
 def eerste_alinea(t):
@@ -592,11 +604,12 @@ def zo_werken_we(variant_regels, root=""):
 <p>Niets op deze site staat ergens omdat een redacteur het belangrijk vond. Elke keuze volgt een vaste regel:</p>
 <ul>
 <li><b>De vraag bovenaan een debat:</b> één neutrale zin van hooguit twaalf woorden. Hij komt uit de eerste bron die bestaat en past: de mondelinge vraag zelf (bij een vragenuur), de titel of het doel van het wetsvoorstel, het verzoek waarmee het debat werd aangevraagd, de agendatitel, of een vraag die sprekers van minstens drie fracties stelden en waarop een coalitiepartij of het kabinet inging.</li>
+<li><b>Bij een vragenuur:</b> de kaart gaat over de eerste mondelinge vraag, tenzij die fractie in de weken ervoor al vaak op een kaart stond; dan de volgende vraag (spreidingsregel). De andere vragen staan als onderwerpen op de pagina.</li>
 <li><b>Welke twee citaten:</b> uit de langste wisseling tussen twee sprekers die op elkaar reageren, tenzij die geen echte tegenstelling heeft of over een bijzaak gaat (minder dan 10% van de spreektijd); dan de volgende. Per spreker hooguit twee zinnen, zonder een voorbehoud weg te laten. Is er geen echte botsing, dan staat er één citaat en zeggen we dat erbij.</li>
 <li><b>Volgorde van de twee citaten:</b> wie het eerst sprak, staat eerst. Zo kiest niemand wie het laatste woord krijgt. In een debat antwoordt het kabinet op vragen van de Kamer; daarom staat een minister vaak als tweede.</li>
 <li><b>Welke kaart bij een lang debat:</b> lange debatten zijn in delen geknipt langs de rondes van het debat. Bovenaan het debat staat de kaart van het eerste deel waarin twee sprekers tegenover elkaar staan; elk deel heeft daarnaast zijn eigen pagina.</li>
 <li><b>Welke debatten een kaart hebben:</b> een kaart wordt gemaakt bij een debat van meer dan 2.500 gesproken woorden dat geen tweeminutendebat, ordedebat of stemming is, en bij elk vragenuur. In de proefperiode heeft niet elk debat een kaart; kaarten die eerder bij een tweeminutendebat zijn gemaakt, blijven staan. Een kaart bij een ordedebat tonen we niet: dat gaat over de agenda. Een debat zonder kaart krijgt de titel en de figuren van de sprekers.</li>
-<li><b>Standpunten:</b> van elke fractie die sprak, in de volgorde waarin ze spraken, met het aantal zetels en of de fractie in de coalitie zit. Zo is te zien hoe groot een fractie is. Onder elke kaart staan alle fracties die in dat debat spraken, met hun zetels.</li>
+<li><b>Standpunten:</b> van elke fractie die sprak, in de volgorde waarin ze spraken, met het aantal zetels; bij een coalitiefractie staat "coalitie". Zo is te zien hoe groot een fractie is. Onder elke kaart staan alle fracties die in dat debat spraken, met hun zetels.</li>
 <li><b>Moties:</b> een motie staat bij het debat waarin haar eerste indiener sprak. Eerst de aangenomen, dan de verworpen moties, dan die zonder uitslag in onze gegevens; daarbinnen op motienummer. Een uitslag staat er alleen als hij in de open data van de Kamer staat.</li>
 <li><b>Fracties bij een stemming:</b> per kant (voor, tegen) één lijst, de grootste fractie eerst, bij gelijk aantal op naam. Bij een coalitiefractie staat "coalitie". De zetels tellen we na met de lijst hieronder. Klopt de som niet, of komt hij niet op 150 uit, dan staat dat bij de uitslag.</li>
 <li><b>Geen ranglijsten:</b> we tellen niet wie het vaakst of het langst sprak of interrumpeerde. Zulke tellingen zeggen weinig over het werk van een Kamerlid.</li>
@@ -747,3 +760,63 @@ def stemming_titel(d):
     o = M.stemming_onderwerp(d)
     k = re.search(r"het ([A-Z][^,:]*\d{4})", o) or re.search(r"(Belastingplan \d{4})", o)
     return f"Stemmingen: {k.group(1)}" if k else "Stemmingen"
+
+
+def eerste_zin(t):
+    """(eerste zin, rest van de tekst) van een samenvatting."""
+    t = (t or "").strip()
+    if not t:
+        return "", ""
+    eerste_regel, _, overige = t.partition("\n")
+    delen = re.split(r"(?<=[.!?])\s+(?=[A-Z0-9“\"'])", eerste_regel, maxsplit=1)
+    zin = delen[0]
+    rest = ((delen[1] if len(delen) > 1 else "") + ("\n" + overige if overige else "")).strip()
+    return zin, rest
+
+
+def hoe_kort(d):
+    """Eén korte regel voor 'Hoe liep het af' bovenaan (de details staan verderop)."""
+    if d.is_vragenuur:
+        return "Bij een vragenuur wordt niet gestemd."
+    if d.is_stemmingen:
+        return "De Kamer stemde. Lees in het verslag wat er gezegd is."
+    t = "Over het wetsvoorstel zelf: uitslag niet in onze gegevens. " if d.over_wet else ""
+    if d.moties:
+        a, v, o = moties_telling(d.moties)
+        delen = [f"{a} aangenomen" if a else "", f"{v} verworpen" if v else "", f"{o} zonder uitslag in onze gegevens" if o else ""]
+        t += f"{len(d.moties)} {'motie' if len(d.moties) == 1 else 'moties'}: " + ", ".join(x for x in delen if x) + "."
+    else:
+        t += "Geen moties in onze gegevens."
+    return t
+
+
+def hoe_lang(d, deel=False):
+    """De uitleg bij de afloop (zonder de telling te herhalen): wet, termijn, stemmingsrondes, wat een motie is."""
+    uit = []
+    if deel and d.moties:
+        uit.append('<p class="klein">De moties horen bij het hele debat, niet bij één deel.</p>')
+    if wet_zin(d):
+        uit.append(f'<p>{e(wet_zin(d))}</p>')
+    if d.is_stemmingen or d.is_vragenuur:
+        uit.append(f'<p>{e(afloop_tekst(d))}</p>')
+    if termijn_zin(d):
+        uit.append(f'<p class="klein">{e(termijn_zin(d))}</p>')
+    if begin_zin(d) and d.van == 1:
+        uit.append(f'<p class="klein">{e(begin_zin(d))}</p>')
+    uit.append(stemmingen_regel(d, "../"))  # pagina's staan altijd een map diep
+    if d.moties:
+        uit.append('<p>Een aangenomen motie is een verzoek aan de regering, geen wet of besluit. De regering beslist zelf óf en hoe ze het uitvoert.</p>')
+    return "".join(uit)
+
+
+def begin_zin(d):
+    return ("Het begin van dit debat valt buiten onze gegevens (bijvoorbeeld de eerste termijn op een eerdere dag); "
+            "het staat wel in de verslagen van de Tweede Kamer.") if M.begin_ontbreekt(d) else ""
+
+
+def delen_zin(d):
+    n_tekst = sum(1 for y in d.delen if y.pagina)
+    zin = ("Elk deel heeft een eigen pagina met een samenvatting." if n_tekst == d.van else
+           "Voor geen van de delen is een samenvatting geschreven; het verslag staat er wel." if n_tekst == 0 else
+           f"Van {n_tekst} van de {d.van} delen is een samenvatting; van alle delen staat het verslag er.")
+    return f"Het debat is in {d.van} delen geknipt, langs de rondes van het debat. {zin}" + (" " + begin_zin(d) if begin_zin(d) else "")

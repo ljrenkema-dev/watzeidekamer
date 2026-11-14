@@ -155,11 +155,11 @@ def controleer(variant):
     F = M.fracties()
     for rel, p in paginas.items():
         tekst_ = re.sub(r"<[^>]+>", " ", p.read_text())
-        for code, z, rol in re.findall(r"([\w-]+(?: [\w-]+)?) · (\d+) zetels? · (coalitie|oppositie)", tekst_):
+        for code, z, rol in re.findall(r"([\w-]+(?: [\w-]+)?) · (\d+) zetels?( · coalitie)?", tekst_):
             f = M.fractie(code) or M.fractie(code.split(" ")[-1])
             if not f:
                 fouten.append(f"{rel}: onbekende fractie {code}")
-            elif f["zetels"] != int(z) or f["coalitie"] != (rol == "coalitie"):
+            elif f["zetels"] != int(z) or f["coalitie"] != bool(rol.strip()):
                 fouten.append(f"{rel}: {code} · {z} zetels · {rol} klopt niet")
     if F["totaal"] != 150:
         waarsch.append(f"fractielijst telt op tot {F['totaal']}, niet 150 (staat op Zo werken we)")
