@@ -1,0 +1,121 @@
+{
+  "agendapunt": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
+  "verslag_id": "0b4535e0-4257-48c9-9cd3-764382181d49",
+  "datum": "2026-11-14",
+  "onafhankelijk": true,
+  "soort": "pagina+kaart",
+  "oordeel": "aangepast",
+  "bevindingen": [
+    {
+      "waar": "standpunt JA21 (Coenradie)",
+      "ernst": "groot",
+      "les": "L3",
+      "was": "Ze vindt het niet goed dat de zaak nog onderzocht moet worden, verwacht meer van de minister",
+      "nu": "Ze vindt het goed dat dit verder wordt onderzocht, maar verwacht meer van de minister",
+      "bron": "beurt 31: 'Ja, het is heel goed dat dit verder onderzocht wordt, maar ik verwacht wel meer van de minister.'"
+    },
+    {
+      "waar": "standpunt JA21 (Coenradie)",
+      "ernst": "klein",
+      "les": "L3",
+      "was": "vindt het onbegrijpelijk dat een gentest die vergoed wordt te weinig wordt gebruikt",
+      "nu": "vindt het onbegrijpelijk dat behandelingen worden gegeven zonder te testen of ze werken, terwijl de gentest onder de basisverzekering valt",
+      "bron": "beurt 28: 'JA21 vindt het daarom onbegrijpelijk dat er behandelingen worden gegeven waarvan we niet eens testen of ze werken'"
+    },
+    {
+      "waar": "kernpunt 5",
+      "ernst": "middel",
+      "les": "L10",
+      "was": "Coenradie vindt dat de minister meer moet doen dan onderzoek afwachten.",
+      "nu": "Coenradie vindt het goed dat dit verder wordt onderzocht, maar verwacht meer van de minister.",
+      "bron": "beurt 31 (zie boven)"
+    },
+    {
+      "waar": "samenvatting (gentest)",
+      "ernst": "middel",
+      "les": "L2",
+      "was": "Volgens de minister is geen geld de reden, want de test wordt vergoed, en onderzoek moet de oorzaak aantonen.",
+      "nu": "Volgens de minister kan geld geen barrière zijn, want de test wordt vergoed, maar ook dat wordt onderzocht, net als andere oorzaken.",
+      "bron": "beurt 30: 'Er is dus geen sprake van een geldkwestie. … Althans, dat kan geen barrière zijn, maar dat wordt nu wel onderzocht.'"
+    },
+    {
+      "waar": "standpunt minister Hermans",
+      "ernst": "middel",
+      "les": "L2",
+      "was": "Volgens haar is het geen geldkwestie, omdat de test wordt vergoed … Ze zegt toe in gesprek te gaan over diagnostiek.",
+      "nu": "Volgens haar kan geld geen barrière zijn, omdat de test wordt vergoed, maar dat wordt wel onderzocht. … Ze zegt toe in gesprek te gaan over diagnostiek, als duidelijk is met wie.",
+      "bron": "beurt 30 (zie boven); beurt 48: 'laat ik dat toezeggen, maar dan wil ik wel graag even heel specifiek duidelijk krijgen met wie'"
+    },
+    {
+      "waar": "standpunt PRO (Patijn)",
+      "ernst": "middel",
+      "les": "L5",
+      "was": "Patijn vindt dat de minister bagatelliseert wat in 2011 gebeurde en vraagt of het ministerie aansprakelijk is.",
+      "nu": "Patijn vindt dat de minister een beetje bagatelliseert wat in 2011 gebeurde, en vraagt of hij het ministerie aansprakelijk acht.",
+      "bron": "beurt 4: 'een beetje bagatelliseert'; beurt 1: 'acht hij het ministerie aansprakelijk?'"
+    },
+    {
+      "waar": "standpunt CDA (Poortman)",
+      "ernst": "middel",
+      "les": "L6",
+      "was": "Ze vraagt welke drempels …",
+      "nu": "Hij vraagt welke drempels …",
+      "bron": "André Poortman (CDA); figuur in data/uiterlijk.json: gezicht 'm'"
+    },
+    {
+      "waar": "standpunt staatssecretaris Van der Burg + kernpunt 9",
+      "ernst": "middel",
+      "les": "L6",
+      "was": "zegt toe met de VNG te praten … / Hij zegt toe met de VNG te praten en de Kamer op de hoogte te houden",
+      "nu": "zegt dat het kabinet met de VNG in gesprek is, zegt toe de Kamer op de hoogte te houden",
+      "bron": "beurt 59: 'Daarom zijn we in gesprek met de VNG'; beurt 60–61: 'wilt u wel de Kamer op de hoogte houden …?' – 'Uiteraard.'"
+    },
+    {
+      "waar": "standpunt Van der Burg + kernpunt 10",
+      "ernst": "klein",
+      "les": "L3",
+      "was": "Op enkele vragen zegt hij geen antwoord te kunnen geven / Op enkele vragen, onder meer van Van Brenk …",
+      "nu": "Op de vraag van Van Brenk (50PLUS) over de samenwerkingsagenda zegt hij niets zinnigs te kunnen zeggen, omdat hij de zieke minister vervangt.",
+      "bron": "beurt 69: 'Ik kan hier dus gewoon even niks zinnigs op zeggen.' De andere vragen beantwoordde hij wel (beurt 63, 77: 'Ik denk dat het antwoord nee is')."
+    },
+    {
+      "waar": "kernpunt 8 en 9 (evenwicht)",
+      "ernst": "klein",
+      "les": "L9",
+      "was": "CDA (2% van de woorden) en Keijzer kwamen niet voor in samenvatting of kernpunten, terwijl hun vragen een inhoudelijk antwoord kregen.",
+      "nu": "Kernpunt 8: antwoord aan Boelsma-Hoekstra (CDA) over gezamenlijke verantwoordelijkheid BZK/VWS. Kernpunt 9: vraag van Keijzer en 'daar ben ik het volledig mee eens'; ook in standpunt Van der Burg.",
+      "bron": "beurt 67: 'Uiteraard zijn we gezamenlijk verantwoordelijk, waarbij VWS verantwoordelijk is voor de zorginhoudelijke component en BZK juist voor de relatie met de medeoverheden en de financiering daarvan.'; beurt 75: 'Daar ben ik het volledig mee eens.'"
+    },
+    {
+      "waar": "standpunt 50PLUS (Struijs)",
+      "ernst": "klein",
+      "les": "L3",
+      "was": "vindt dat het Rijk verplicht is gemeenten genoeg geld te geven",
+      "nu": "zegt dat het Rijk wettelijk verplicht is gemeenten genoeg geld te geven",
+      "bron": "beurt 55: 'Het Rijk heeft immers een wettelijke verplichting om gemeenten van voldoende financiële middelen te voorzien'"
+    },
+    {
+      "waar": "samenvatting (uitzendkrachten)",
+      "ernst": "klein",
+      "les": "L3",
+      "was": "Hij vindt dat er juridisch niets mis was",
+      "nu": "Volgens hem is er juridisch niets gebeurd wat niet kon.",
+      "bron": "beurt 3: 'is er niets gebeurd wat juridisch niet door de beugel kon'"
+    },
+    {
+      "waar": "woorden: Commissie-Van Ark",
+      "ernst": "klein",
+      "les": "L4",
+      "was": "Een adviescommissie die in januari een nieuw advies uitbrengt over onder meer de kostenverdeling tussen gemeenten en Rijk.",
+      "nu": "… Volgens de staatssecretaris gaat dat ongetwijfeld ook over de kostenverdeling tussen gemeenten en Rijk.",
+      "bron": "beurt 57: 'Dan zal het ongetwijfeld ook gaan over de kostenverdeling tussen gemeenten en het Rijk.'"
+    },
+    {
+      "waar": "kaart",
+      "ernst": "klein",
+      "was": "Vraag 'Is het ministerie aansprakelijk voor het lagere loon van uitzendkrachten?'",
+      "nu": "ongewijzigd",
+      "bron": "Bron 1 (mondelinge vraag, beurt 1) bestaat en past; reeks.py --voor 2026-11-10 geeft geen beperking. De vraag is neutraal als open kaartvraag; ze legt de bewering niet bij Patijn neer, dus L5 is niet geschonden. Citaten beurt 1 en 3 (en 12, 13 in versie c) letterlijk gecontroleerd; voorbehouden 'volgens mij' en 'Het staat mensen vrij … maar' staan erin; wie eerst sprak staat bovenaan. Kaart en pagina spreken elkaar niet tegen. Het citaat van beurt 3 telt ca. 48 woorden, ruim boven de ca. 35; inkorten zou het voorbehoud raken, dus laten staan (kaart.py check OK)."
+    }
+  ]
+}
