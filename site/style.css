@@ -219,3 +219,7 @@ a.woordlink:hover,a.woordlink:focus-visible{color:var(--accent)}
 /* Kort gezegd: het citaat in makkelijke taal */
 .kort{margin:2px 0 0;font-size:15px;line-height:1.45;background:var(--tone);border-radius:8px;padding:6px 10px}
 .kort b{font-family:var(--display)}
+/* Kop met de taalknop blijft zichtbaar tijdens het scrollen */
+.top{position:sticky;top:0;z-index:30;background:var(--paper);align-items:center;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding:10px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line);flex-wrap:nowrap}
+.top a.home{white-space:nowrap}
+html{scroll-padding-top:72px}
