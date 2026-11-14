@@ -1,10 +1,10 @@
 {
  "debat": "68113dc2-493d-417a-bf57-03a95fb4ca97-d2",
  "kop": "Derde termijn Belastingplan · 12 nov 2026 · deel 4 van 6",
- "vraag": "Wat betekent het nieuwe amendement voor het Belastingplan?",
+ "vraag": "Moet het Belastingplan worden aangepast met het amendement van PRO en Volt?",
  "vraag_bron": "Bron 3, het verzoek waarmee deze derde termijn is aangevraagd (regeling van werkzaamheden 11 nov 2026, procedure 294c2585, voorstel van Bikker (ChristenUnie), meerderheid). De reden in het verslag van die regeling: Bikker: 'omdat er waarschijnlijk een amendement volgt waarover we moeten spreken'; Krul (CDA): 'er zijn nieuwe politieke ontwikkelingen omdat er eventueel nog amendementen worden ingediend die het Belastingplan al dan niet ingrijpend veranderen'; voorzitter Van Campen: 'er zijn nieuwe amendementen ingediend'.",
  "vraag_bron_soort": 3,
- "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur, vervalt. Bron 2 (titel of doel van het wetsvoorstel): 'Pakket Belastingplan 2027' zou 'Moet het Belastingplan worden aangenomen?' geven, maar dit is een derde termijn die over nieuwe amendementen ging (zie de reden in het verzoek), dus de bron past niet. Bron 3 bestaat en past: de reden waarom de derde termijn werd aangevraagd is het nieuwe amendement en wat dat voor het Belastingplan betekent. Bronnen 4 en 5 niet nodig. Wilders (PVV) gaf in dezelfde regeling een bredere reden ('het gaat over veel meer dan alleen het amendement'); die is niet gebruikt omdat het verzoek van Bikker is aangenomen.",
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur, vervalt. Bron 2 (titel of doel van het wetsvoorstel): 'Pakket Belastingplan 2027' zou 'Moet het Belastingplan worden aangenomen?' geven, maar dit is een derde termijn die over nieuwe amendementen ging (zie de reden in het verzoek), dus de bron past niet. Bron 3 bestaat en past: de reden waarom de derde termijn werd aangevraagd is het nieuwe amendement en wat dat voor het Belastingplan betekent. Bronnen 4 en 5 niet nodig. Wilders (PVV) gaf in dezelfde regeling een bredere reden ('het gaat over veel meer dan alleen het amendement'); die is niet gebruikt omdat het verzoek van Bikker is aangenomen. Gelijkgetrokken met de andere delen van deze derde termijn: dezelfde bron (het verzoek om de derde termijn vanwege het nieuwe amendement) geeft dezelfde vraag. 'Amendement van PRO en Volt': zo noemen Bikker (ChristenUnie) en Bontenbal (CDA) het; 'miljonairsbelasting' is de benaming van één kant en staat daarom niet in de vraag.",
  "versies": {
   "a": {
    "regel": "Langste wisseling (Markuszower, Groep Markuszower, en Bontenbal, CDA; 7 beurten, 16% van de spreektijd), geen bijzaak. Daaruit de ronde waarin de vraag over het amendement en het Belastingplan het directst terugkomt: Markuszower vraagt wat er gebeurt met de meerderheid in de Eerste Kamer als de VVD het plan niet steunt bij dit amendement, en Bontenbal antwoordt direct daarop. De wisseling begint met Bontenbals eigen termijn (beurt 0), maar van de twee gekozen citaten spreekt Markuszower het eerst, zodat hij bovenaan staat (vaste regel).",
@@ -144,5 +144,6 @@
    "Citaten versie a en c letterlijk gecontroleerd tegen beurten 3, 4, 6 en 7: aaneengesloten hele zinnen, geen voorbehoud, ontkenning of voorwaarde weggevallen ('als dit amendement wordt aangenomen', 'Dat zeg ik niet; dat zeggen …' en 'per 2029' staan erin); beide sprekers zouden hun citaat herkennen. Bontenbals omgeving 'binnen de afspraken … in de coalitie' (beurt 4) valt weg, maar verandert de betekenis van de gekozen zinnen niet. (ernst klein)",
    "Versie c gaat over een bijzaak (3%) en is terecht als vergelijking gemarkeerd; versie a heeft de voorkeur. (ernst klein)"
   ]
- }
+ },
+ "vraag_oud_per_deel": "Wat betekent het nieuwe amendement voor het Belastingplan?"
 }

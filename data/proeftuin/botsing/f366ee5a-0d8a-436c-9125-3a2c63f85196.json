@@ -4,15 +4,53 @@
  "vraag": "Moet de behandeling van de box 3-novelle met de minister eerst worden afgerond, voordat het Belastingplan verder gaat?",
  "vraag_bron": "Bron 5: de vraag over de volgorde die sprekers van minstens drie fracties in dit ordedebat stellen en waarop coalitie en voorzitter ingaan. Het ordevoorstel van de voorzitter (beurt 9): 'voortzetting in tweede termijn van de behandeling van de novelle aanvangen met de minister. Dan de staatssecretaris, en vervolgens de minister met de beantwoording inzake het Belastingplan.' Formulering neutraal, ontleend aan de voorzitter.",
  "vraag_bron_soort": 5,
- "vraag_bron_toetsing": "Bron 1: geen vragenuur. Bron 2: dit deel is een ordedebat over de volgorde van twee behandelingen, niet over de inhoud of het doel van het wetsvoorstel; 'Moet het Belastingplan worden aangenomen?' past niet bij dit deel. Bron 3: in data/verzoeken/ staat geen verzoek om dit ordedebat; verzoek 4 van 11 november (ChristenUnie) gaat over een derde termijn, niet over de volgorde. Bron 4: de agendatitel 'Pakket Belastingplan 2027' omgezet in een vraag past niet bij een deel over de volgorde. Bron 5 past: Ergin (DENK, beurt 4: 'ik zou het daarom juist belangrijk vinden dat de minister van Financiën eerst ingaat op die ontstane politieke situatie'), Grinwis (ChristenUnie, beurt 6: 'Ik zou hem dus inderdaad alle kans willen geven om de vragen die aan zijn adres zijn gesteld, eerst te beantwoorden') en Stultiens (PRO, beurt 12: 'Laten we beginnen met box 3, waar genoeg tijd voor is.'); CDA (Van Dijk, beurt 24: 'Steun voor het voorstel van de heer Grinwis. Ik ga ervan uit dat alle tijd genomen wordt voor de beantwoording.') en de voorzitter (beurt 31) gaan er in hetzelfde debat op in.",
+ "vraag_bron_toetsing": "Bron 1: geen vragenuur. Bron 2: dit deel is een ordedebat over de volgorde van twee behandelingen, niet over de inhoud of het doel van het wetsvoorstel; 'Moet het Belastingplan worden aangenomen?' past niet bij dit deel. Bron 3: in data/verzoeken/ staat geen verzoek om dit ordedebat; verzoek 4 van 11 november (ChristenUnie) gaat over een derde termijn, niet over de volgorde. Bron 4: de agendatitel 'Pakket Belastingplan 2027' omgezet in een vraag past niet bij een deel over de volgorde. Bron 5 past: Vermeer (BBB, beurt 10: 'dus heel graag eerst dat WGO afronden'), Grinwis (ChristenUnie, beurt 6: 'Ik zou hem dus inderdaad alle kans willen geven om de vragen die aan zijn adres zijn gesteld, eerst te beantwoorden') en Stultiens (PRO, beurt 12: 'Laten we beginnen met box 3, waar genoeg tijd voor is.'); CDA (Van Dijk, beurt 24: 'Steun voor het voorstel van de heer Grinwis. Ik ga ervan uit dat alle tijd genomen wordt voor de beantwoording.') D66 (Oosterhuis, beurt 25: 'Ja, prima om het op die manier te doen.') en de voorzitter (beurt 31) gaan er in hetzelfde debat op in. (Lezing: Ergin, DENK, beurt 4, vervangen door Vermeer, BBB: Ergin wilde dat de minister eerst op de politieke situatie inging en het WGO in een apart debat, niet dat de novelle eerst werd afgerond; ook JA21, beurt 13, en PVV, beurt 16, steunen 'eerst het WGO af te ronden'.)",
  "versies": {
   "a": {
+   "regel": "Alternatief: hetzelfde Kamerlid (Stultiens, PRO) over de vraag zelf, de volgorde. Versie a toont de kritiek op de e-mailprocedure maar geeft geen antwoord op de vraag; deze versie wel. Geen botsing: vrijwel alle fracties, ook CDA en D66, steunen eerst box 3. (Omgewisseld met de eerdere versie a: dit citaat gaat over de volgorde, waar de vraag over gaat; het citaat over de e-mailprocedure staat nu als versie c.)",
+   "wisseling": "Luc Stultiens (PRO), beurt 12; geen botsing",
+   "afgevallen": [],
+   "aandeel_onderwerp": "27% (eerst|volgorde|ordevoorstel|voorstel van|WGO af|beginnen)",
+   "citaten": [
+    {
+     "beurt": 12,
+     "citaat": "Laten we beginnen met box 3, waar genoeg tijd voor is. Dit is de grote hamvraag: het budgettaire gat van 7,5 miljard.",
+     "naam": "Luc Stultiens",
+     "partij": "PRO",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/financien/plenaire-zaal/pakket-belastingplan-2027-voortzetting-16-15/markeringen?event=interrupter2026-11-10T16%3A38%3A11%2B0100",
+     "tijd": "16:38",
+     "figuur": {
+      "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+      "fractie": "PRO",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "donkerbruin",
+       "kapsel": "kort-golf",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": true,
+       "gezichtsvorm": "smal",
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-open",
+       "slapen": "bedekt",
+       "manga": "7a727f46-0e36-493f-8779-736d3250fb27"
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Beurt 12: weggelaten: het begin (compliment aan Vermeer, 'geen dank aan de rest', 'ik ben het eens met de heer Grinwis') en de slotzin 'Daar moeten we goed over praten.' Geen voorbehoud, ontkenning of voorwaarde weggevallen; zijn kritiek op de andere partijen valt weg, zijn standpunt over de volgorde blijft precies staan."
+   ]
+  },
+  "c": {
    "regel": "Geen echte inhoudelijke botsing: de langste wisselingen (Stultiens-Schenk, Schenk-Ergin, Ergin-Grinwis) zijn sprekers die het eens zijn over de volgorde en kritiek hebben op de e-mailprocedure; coalitiepartijen (CDA, D66, VVD) bestrijden dat niet inhoudelijk, alleen VVD-fractie zegt 'Het maakt ons niet uit'. Daarom geen forcering: één citaat van wie het eerst sprak, met de kern van de kritiek. Niet over een bijzaak: orde en volgorde nemen 32% van de spreektijd in.",
    "wisseling": "Luc Stultiens (PRO) en Milan Schenk (FVD), beurt 1-3; geen botsing",
    "afgevallen": [
     "Wisseling 2 (Schenk-Ergin): zelfde kritiek, geen tegenstelling",
     "Wisseling 3 (Ergin-Grinwis): Ergin en Grinwis willen allebei dat de minister eerst antwoordt",
-    "Schenk-Van Eijk (beurt 24-26): enige directe tegenspraak, maar Van Eijk (VVD) verdedigt de procedure niet inhoudelijk ('Het maakt ons niet uit')"
+    "Schenk-Van Eijk (beurt 23–26): enige directe tegenspraak, maar Van Eijk (VVD) verdedigt de procedure niet inhoudelijk ('Het maakt ons niet uit')"
    ],
    "aandeel_onderwerp": "32% (e-mailprocedure|volgorde|oncollegiaal|WGO|ordevoorstel)",
    "citaten": [
@@ -45,7 +83,7 @@
     }
    ],
    "inkorten": [
-    "Beurt 1: weggelaten: 'Dat vind ik vrij oncollegiaal.' (derde zin; max. twee zinnen), het begin van de beurt na deze zinnen en het verzoek om genoeg tijd. Geen voorbehoud of voorwaarde weggevallen; de spreker zou het herkennen als zijn kritiek."
+    "Beurt 1: weggelaten: de derde zin 'Dat vind ik vrij oncollegiaal.' (max. twee zinnen; zonder de eerste zin is 'Dat is … teruggedraaid' niet te begrijpen) en de rest van de beurt (het verzoek om genoeg tijd). Geen voorbehoud, ontkenning of voorwaarde weggevallen. Het oordeel 'oncollegiaal' valt weg, maar 'helaas' houdt zijn afkeuring zichtbaar; de spreker zou het als zijn kritiek herkennen, wel milder dan hij het zei."
    ]
   }
  },
@@ -59,5 +97,15 @@
   "moties": []
  },
  "afloop": "In dit debat zijn geen moties ingediend.",
- "afloop_kort": "Geen moties in dit debat."
+ "afloop_kort": "Geen moties in dit debat.",
+ "lezing": {
+  "oordeel": "aangepast",
+  "bevindingen": [
+   "Bron 5: Ergin (DENK) dekte de vraagzin niet; hij wilde de minister eerst over de politieke situatie en het WGO in een apart debat. Vervangen door Vermeer (BBB, beurt 10); D66 (beurt 25) toegevoegd als coalitiepartij die erop ingaat. Bronvolgorde 1–4 terecht overgeslagen (geen verzoek in data/verzoeken/ of data/procedure/ voor dit ordedebat). (ernst middel)",
+   "Citaat beurt 1 zonder 'Dat vind ik vrij oncollegiaal': geen voorbehoud of voorwaarde weggevallen en 'helaas' houdt de afkeuring zichtbaar, dus eerlijk, maar milder dan gezegd; met het oordeel erbij worden het drie zinnen en zonder de eerste zin is het niet te begrijpen. In inkorten vastgelegd. (ernst klein)",
+   "Het citaat in versie a gaat over de e-mailprocedure en beantwoordt de vraag over de volgorde niet; versie c toegevoegd met Stultiens (beurt 12) over de volgorde, zodat de eigenaar kan kiezen. (ernst middel)",
+   "Afgevallen: 'Schenk-Van Eijk (beurt 24-26)' verbeterd naar beurt 23–26 (Van Eijk sprak in beurt 23). (ernst klein)",
+   "Onderwerp geen bijzaak: volgorde 27%, procedurekritiek 17%, samen 32% (zelf gemeten). Vraag neutraal, ontleend aan de voorzitter (beurten 7 en 9). Geen veld 'vraag' binnen een versie. (geen fout)"
+  ]
+ }
 }

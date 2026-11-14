@@ -1,10 +1,10 @@
 {
  "debat": "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d2",
- "kop": "Derde termijn Pakket Belastingplan 2027 · 12 nov 2026 · inbreng Kamer",
- "vraag": "Wat betekent het amendement op het Belastingplan voor de politieke situatie?",
+ "kop": "Derde termijn Belastingplan · 12 nov 2026 · deel 2 van 6",
+ "vraag": "Moet het Belastingplan worden aangepast met het amendement van PRO en Volt?",
  "vraag_bron": "Verzoek om de derde termijn (regeling van werkzaamheden 11 november 2026): Bikker (ChristenUnie): \"ik stel voor dat er morgenochtend om 10.15 uur een derde termijn wordt geopend\", omdat \"er waarschijnlijk een amendement volgt waarover we moeten spreken\"; Wilders (PVV) wilde praten \"over de nieuwe politieke situatie\"; voorzitter Van Campen: \"er zijn nieuwe amendementen ingediend\".",
  "vraag_bron_soort": 3,
- "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel/doel wetsvoorstel, Pakket Belastingplan 2027): past niet; deze derde termijn werd aangevraagd voor een nieuw amendement en de politieke situatie daaromheen, dus 'Moet het Belastingplan worden aangenomen?' dekt dit deel niet. Bron 3 (verzoek, data/verzoeken/294c2585-add8-4bee-859e-ef6853539cfb.json en het verslag van die regeling): bestaat en past, met als reden het amendement en de nieuwe politieke situatie. Bron 4 en 5 niet nodig.",
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel/doel wetsvoorstel, Pakket Belastingplan 2027): past niet; deze derde termijn werd aangevraagd voor een nieuw amendement en de politieke situatie daaromheen, dus 'Moet het Belastingplan worden aangenomen?' dekt dit deel niet. Bron 3 (verzoek, data/verzoeken/294c2585-add8-4bee-859e-ef6853539cfb.json en het verslag van die regeling): bestaat en past, met als reden het amendement en de nieuwe politieke situatie. Bron 4 en 5 niet nodig. Gelijkgetrokken met de andere delen van deze derde termijn: dezelfde bron (het verzoek om de derde termijn vanwege het nieuwe amendement) geeft dezelfde vraag. 'Amendement van PRO en Volt': zo noemen Bikker (ChristenUnie) en Bontenbal (CDA) het; 'miljonairsbelasting' is de benaming van één kant en staat daarom niet in de vraag.",
  "versies": {
   "a": {
    "regel": "Wisseling 1 (Paternotte ↔ Eerdmans, 8 beurten) is volgens het aantal beurten de langste en een echte tegenstelling, maar het onderwerp daarvan (hoe en wanneer D66 de VVD over de afspraken met PRO informeerde) is een bijzaak (4% van de spreektijd). Daarom wisseling 2 (Keijzer ↔ Paternotte, 7 beurten, 1203 woorden, de meeste woorden): Keijzer vraagt of de koers rond het amendement met PRO de gevolgen voor de coalitie waard is, Paternotte (D66) verdedigt het amendement. Dat onderwerp (amendement, afspraken met Klaver en Dassen, box 3) heeft 12% van de spreektijd en is geen bijzaak; het bredere onderwerp van de politieke situatie (crisis, coalitie) zit in versie c. De citaten komen uit de tweede ronde (beurt 41 en 42), omdat daar de vraag en het antwoord het duidelijkst naast elkaar staan; Keijzer opende de wisseling met haar interruptie (beurt 39) en staat bovenaan.",
@@ -150,5 +150,6 @@
    "Vraag en bron gecontroleerd tegen het verslag van de regeling van 11 november (beurten 36, 43, 71, 83): de citaten in vraag_bron zijn letterlijk; bron 2 past terecht niet bij deze derde termijn, bron 3 is de eerste die past; de vraag is neutraal en steunt op het verzoek, niet op één deelnemer (geen bevinding).",
    "Citaten letterlijk gecontroleerd; geen voorbehoud, ontkenning of voorwaarde weggevallen. Paternotte (beurt 42) laat zijn vervolg over lastenverlichting voor modale inkomens weg; dat staat in inkorten en past niet binnen twee zinnen met zijn ontkenning erbij. Paternotte (beurt 64) antwoordt op Dijks vraag over de crisis met 'verantwoordelijk voor alles wat raakt aan deze coalitie' en neemt het woord crisis later (beurt 66) niet over; het citaat geeft zijn eigen formulering weer, dus herkenbaar (geen wijziging)."
   ]
- }
+ },
+ "vraag_oud_per_deel": "Wat betekent het amendement op het Belastingplan voor de politieke situatie?"
 }

@@ -1,10 +1,10 @@
 {
  "debat": "68113dc2-493d-417a-bf57-03a95fb4ca97-d1",
- "kop": "Pakket Belastingplan 2027 · 12 nov 2026 · derde termijn, deel 1",
- "vraag": "Moet het Belastingplan 2027 worden aangepast met het amendement van PRO?",
+ "kop": "Derde termijn Belastingplan · 12 nov 2026 · deel 3 van 6",
+ "vraag": "Moet het Belastingplan worden aangepast met het amendement van PRO en Volt?",
  "vraag_bron": "Bron 3. Verzoek van Mirjam Bikker (ChristenUnie) in de regeling van 11 november 2026: 'ik stel voor dat er morgenochtend om 10.15 uur een derde termijn wordt geopend.' Reden in de regeling: Bikker (CU): 'Het lijkt me logisch dat we een derde termijn houden, omdat er waarschijnlijk een amendement volgt waarover we moeten spreken.' Krul (CDA): 'er zijn nieuwe politieke ontwikkelingen omdat er eventueel nog amendementen worden ingediend die het Belastingplan al dan niet ingrijpend veranderen.' De vraag is daarvan afgeleid; 'amendement van PRO' is de benaming van Brekelmans (VVD) in dit debat (beurt 40, 'dit amendement van PRO'); Schenk (FVD) noemt het amendement van de heer Klaver (beurt 36).",
  "vraag_bron_soort": 3,
- "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen, geen vragenuur. Bron 2 (titel of doel van het wetsvoorstel, 'Moet het Belastingplan worden aangenomen?'): past niet, want deze derde termijn werd geopend vanwege het nieuwe amendement en niet voor de behandeling van het hele pakket. Bron 3 bestaat (verzoek van Bikker, meerderheid, met reden) en past; daarom bron 4 en 5 niet nodig.",
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen, geen vragenuur. Bron 2 (titel of doel van het wetsvoorstel, 'Moet het Belastingplan worden aangenomen?'): past niet, want deze derde termijn werd geopend vanwege het nieuwe amendement en niet voor de behandeling van het hele pakket. Bron 3 bestaat (verzoek van Bikker, meerderheid, met reden) en past; daarom bron 4 en 5 niet nodig. Gelijkgetrokken met de andere delen van deze derde termijn: dezelfde bron (het verzoek om de derde termijn vanwege het nieuwe amendement) geeft dezelfde vraag. 'Amendement van PRO en Volt': zo noemen Bikker (ChristenUnie) en Bontenbal (CDA) het; 'miljonairsbelasting' is de benaming van één kant en staat daarom niet in de vraag.",
  "versies": {
   "a": {
    "regel": "Langste wisseling (7 beurten, 1030 woorden) en een echte tegenstelling: de VVD stemt tegen het Belastingplan als het amendement van PRO wordt aangenomen, DENK noemt dat een crisis voor de belangen van rijken. Onderwerp (amendement, PRO, Klaver, crisis) is geen bijzaak.",
@@ -147,5 +147,6 @@
   "bevindingen": [
    "Geen inhoudelijke fouten. Wisseling Brekelmans (VVD) ↔ Van Baarle (DENK) is een echte tegenstelling; onderwerp zelf gemeten op 21% (amendement|PRO\\b|Klaver|crisis) en 25% met miljonair en tegen het Belastingplan erbij, dus geen bijzaak; Brekelmans (beurt 11) sprak eerst en staat bovenaan. Bron 3 klopt: verzoek Bikker (regeling 11 nov, beurt 71, meerderheid volgens Van Campen beurt 85); bron 2 terecht overgeslagen. Citaten letterlijk, geen voorbehoud weggevallen; Brekelmans herhaalt hetzelfde standpunt in beurt 8, 21 en 23. (ernst klein: de reden in vraag_bron van Bikker staat in haar eerdere beurt 36 in dezelfde regeling, niet in het verzoek zelf; inhoudelijk juist, niet gewijzigd)"
   ]
- }
+ },
+ "vraag_oud_per_deel": "Moet het Belastingplan 2027 worden aangepast met het amendement van PRO?"
 }

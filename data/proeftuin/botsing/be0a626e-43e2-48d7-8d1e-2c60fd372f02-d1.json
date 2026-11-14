@@ -1,7 +1,7 @@
 {
  "debat": "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d1",
- "kop": "Plenair debat · 12 nov 2026",
- "vraag": "Komt er via een amendement een miljonairsbelasting in het Belastingplan?",
+ "kop": "Derde termijn Belastingplan · 12 nov 2026 · deel 1 van 6",
+ "vraag": "Moet het Belastingplan worden aangepast met het amendement van PRO en Volt?",
  "vraag_bron": "Bron 3, het verzoek om de derde termijn (regeling van werkzaamheden 11 nov, 294c2585, verzoek ChristenUnie, meerderheid). De reden in dat verzoek: Bikker (ChristenUnie): 'omdat er waarschijnlijk een amendement volgt waarover we moeten spreken'; Krul (CDA): 'er zijn nieuwe politieke ontwikkelingen omdat er eventueel nog amendementen worden ingediend die het Belastingplan al dan niet ingrijpend veranderen'; voorzitter Van Campen: 'er zijn nieuwe amendementen ingediend'. 'Miljonairsbelasting' uit het debat: Klaver (PRO, beurt 22) 'de introductie van een miljonairsbelasting', Wilders (PVV, beurt 56) 'die miljonairsbelasting'.",
  "partijen_totaal": 16,
  "afloop": "In dit debat zijn geen moties ingediend.",
@@ -142,5 +142,6 @@
   "moties": []
  },
  "vraag_bron_soort": 3,
- "vraag_bron_toetsing": "Bron 2 (titel: 'Pakket Belastingplan 2027') bestaat, maar past niet bij dit deel: de derde termijn ging over het nieuwe amendement en de verhoudingen in de coalitie. Bron 3 bestaat en past, en gaat voor. Ter vergelijking: bron 5 zou nu ook gehaald zijn (vragen over de coalitie van PVV, JA21, Groep Markuszower, DENK en PvdD; D66 gaat erop in, Paternotte beurt 79)."
+ "vraag_bron_toetsing": "Bron 2 (titel: 'Pakket Belastingplan 2027') bestaat, maar past niet bij dit deel: de derde termijn ging over het nieuwe amendement en de verhoudingen in de coalitie. Bron 3 bestaat en past, en gaat voor. Ter vergelijking: bron 5 zou nu ook gehaald zijn (vragen over de coalitie van PVV, JA21, Groep Markuszower, DENK en PvdD; D66 gaat erop in, Paternotte beurt 79). Gelijkgetrokken met de andere delen van deze derde termijn: dezelfde bron (het verzoek om de derde termijn vanwege het nieuwe amendement) geeft dezelfde vraag. 'Amendement van PRO en Volt': zo noemen Bikker (ChristenUnie) en Bontenbal (CDA) het; 'miljonairsbelasting' is de benaming van één kant en staat daarom niet in de vraag.",
+ "vraag_oud_per_deel": "Komt er via een amendement een miljonairsbelasting in het Belastingplan?"
 }
