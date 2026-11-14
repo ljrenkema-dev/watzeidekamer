@@ -53,7 +53,7 @@ dl.uitleg dd,dl.woorden dd{margin:0;color:var(--muted)}
 dl.woorden div:target{background:var(--mark);border-radius:6px;padding:4px 8px}
 a.woordlink{color:inherit;text-decoration:underline dotted;text-decoration-thickness:2px;text-underline-offset:4px}
 /* standpunten als kaartjes */
-ul.standpunten{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
+ul.standpunten{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:12px;max-width:40em}
 .sp{display:flex;gap:12px;background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;min-width:0}
 .sp .fg{width:52px;height:52px}
 .sp>div{min-width:0}
@@ -100,6 +100,10 @@ div.uitleg p{color:var(--muted);font-size:16px;margin-top:4px}
 h3.sph{font-size:18px;margin-top:6px}
 .lees,.kolommen>.blok>p,.kolommen>.blok>.afloop p{max-width:36em}
 
+.zelfde-titel{font-size:16px;font-weight:700}
+.klein a,.beurt .bt a,nav a{padding-block:3px;display:inline-block}
+.let{border-left:0;border-radius:8px}
+
 
 /* ---------- variant C: de kaart is de pagina ---------- */
 :root{--k:#1d1b2e;--kt:#fbfaf7;--geel:#ffe066}
@@ -131,10 +135,27 @@ html{scroll-padding-bottom:96px}
 .kaart .agt{font-size:15px;color:#c9c6dc}
 .cc{display:grid;grid-template-columns:60px minmax(0,1fr);gap:10px;align-items:start}
 .cc .fg{width:60px;height:60px;border-color:var(--kt);border-width:2.5px}
-.ckaart{background:#fff;color:#1d1b2e;border-radius:4px 18px 18px 18px;padding:10px 14px 12px;position:relative;min-width:0}
+.ckaart{background:#fff;color:#1d1b2e;border-radius:18px;padding:12px 14px;position:relative;min-width:0;height:100%;box-sizing:border-box}
+.cc{display:block}
+.citpaar{display:grid;grid-template-columns:1fr;gap:12px}
+@media (min-width:760px){.citpaar{grid-template-columns:1fr 1fr}}
+.cwie{display:flex;align-items:center;gap:10px;margin-top:10px}
+.cwie .fg{width:56px;height:56px;border-color:#1d1b2e}
+.ckaart a:focus-visible{outline-color:#1d1b2e}
+.kwie{font-size:16px}
+.stapel{display:flex;align-items:center}
+.stapel .fg{width:44px;height:44px;margin-right:-9px;border-color:var(--kt)}
+.stapel .meer{margin-left:16px;font-size:14px;font-weight:700}
+.konder{display:grid;gap:10px;margin-top:auto}
+.kwaar{background:rgba(255,255,255,.08);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.kwaar span{font-weight:700;color:var(--geel)}
+.kaart h1.deelkop{font-size:clamp(1.3rem,5.5vw,1.8rem);color:var(--kt);border-left:5px solid var(--geel);padding-left:12px}
+.kaart h2.kvraag{font-size:clamp(1.4rem,6vw,2.1rem);line-height:1.12;color:var(--geel)}
+.vtop{font-size:15px;padding-top:12px}.vtop .logo{font-weight:700;color:var(--ink)}
+@media (min-width:700px){.balk-onder{display:none}body{padding-bottom:0}}
 .ckaart .lab{display:inline-block;background:#1d1b2e;color:#fff;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-radius:4px;padding:1px 8px;margin-bottom:6px}
 .ckaart blockquote{margin:0;font-size:18px;line-height:1.42}
-.ckaart .wie{margin-top:8px;font-size:15px;color:#3c3a50}
+.ckaart .wie{font-size:15px;color:#3c3a50}
 .ckaart .wie b{color:#1d1b2e}
 .ckaart .ln{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:8px;font-size:15px;font-weight:700}
 .ckaart .ln a{color:#2f3fb8}
@@ -143,7 +164,7 @@ html{scroll-padding-bottom:96px}
 .sprekers li{display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;font-size:14px}
 .sprekers .fg{width:64px;height:64px;border-color:var(--kt)}
 .sprekers span{color:#c9c6dc}
-.kafloop{margin-top:auto;background:rgba(255,255,255,.08);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.kafloop{background:rgba(255,255,255,.08);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
 .kafloop b{color:var(--geel)}
 .kafloop a{font-weight:700}
 /* hoofdstukken */

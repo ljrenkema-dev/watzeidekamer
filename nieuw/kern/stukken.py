@@ -49,7 +49,9 @@ def beschrijving(d, deel=None):
     if x and x.pagina and x.pagina["samenvatting"]:
         t = x.pagina["samenvatting"].split("\n")[0]
         zin = re.split(r"(?<=[.!?])\s", t)[0]
-        return zin[:300]
+        if len(zin) > 300:
+            zin = zin[:297].rsplit(" ", 1)[0].rstrip(",;:(") + " …"
+        return zin
     return f"{d.soort_label} op {M.datum_lang(d.datum)}: {d.titel_agenda}. Met het letterlijke verslag" + (" en de moties." if d.moties else ".")
 
 
@@ -97,7 +99,7 @@ UITLEG = {
     "stemmingen": ("Stemmingen", "Het moment in de plenaire zaal waarop de Kamer stemt over moties, amendementen en wetsvoorstellen. Kamerleden kunnen kort uitleggen waarom ze zo stemmen (een stemverklaring)."),
     "ordedebat": ("Ordedebat", "Een kort debat over de agenda zelf: wat de Kamer wanneer en in welke volgorde bespreekt."),
     "termijn": ("Eerste en tweede termijn", "Een debat heeft meestal twee rondes. In de eerste termijn spreken de Kamerleden en antwoordt het kabinet. In de tweede termijn reageren de Kamerleden nog kort, vaak met moties, en antwoordt het kabinet opnieuw. Daardoor spreekt een minister vaak als laatste: dat volgt uit de vaste orde van een debat, niet uit wie gelijk heeft."),
-    "voorlopig": ("Voorlopig verslag", "Het verslag van de Kamer verschijnt eerst als ongecorrigeerde versie. Sprekers kunnen daarna nog kleine verschrijvingen laten verbeteren. Citaten op deze site komen uit de versie die op het moment van bouwen beschikbaar was."),
+    "voorlopig": ("Voorlopig verslag", "Het verslag van de Kamer verschijnt eerst als ongecorrigeerde versie. Sprekers kunnen daarna kleine verschrijvingen laten verbeteren. Citaten op deze site komen uit de versie die op het moment van bouwen beschikbaar was."),
 }
 
 
@@ -284,7 +286,7 @@ def fracties_regel_debat(personen):
         if p.fractie_code and p.fractie_code not in gezien:
             gezien.add(p.fractie_code)
             f = p.fractie
-            frs.append(f"{e(p.fractie_code)} ({f['zetels']})" if f else e(p.fractie_code))
+            frs.append(f"{e(p.fractie_code)} ({f['zetels']}{', coalitie' if f['coalitie'] else ''})" if f else e(p.fractie_code))
     kab = any(p.kabinet for p in personen)
     return ", ".join(frs) + (" en het kabinet" if kab and frs else ("het kabinet" if kab else ""))
 
@@ -296,7 +298,7 @@ def ook_aan_het_woord(x, root="", anker="#standpunten"):
         if p.fractie_code and p.fractie_code not in gezien:
             gezien.add(p.fractie_code)
             f = p.fractie
-            frs.append(f"{e(p.fractie_code)} ({f['zetels']})" if f else e(p.fractie_code))
+            frs.append(f"{e(p.fractie_code)} ({f['zetels']}{', coalitie' if f['coalitie'] else ''})" if f else e(p.fractie_code))
     kab = any(p.kabinet for p in x.personen())
     if not frs:
         return ""
@@ -418,7 +420,7 @@ def nagelezen(x):
     if not x.pagina:
         return ""
     if not r:
-        return '<p class="klein">Tekst geschreven door een AI-model; nog niet nagelezen.</p>'
+        return '<p class="klein">Tekst geschreven door een AI-model; niet nagelezen.</p>'
     if r["zelfde_versie"]:
         return f'<p class="klein">Tekst geschreven door een AI-model en nagelezen op {M.datum_lang(r["datum"])} tegen het verslag.</p>'
     return f'<p class="klein">Tekst geschreven door een AI-model en nagelezen op {M.datum_lang(r["datum"])}, tegen een eerdere versie van het verslag.</p>'
@@ -556,7 +558,7 @@ def figuren_zin():
     s = F.statistiek()
     return (f"De figuren zijn getekend naar portretten: {s['kamerportret']} naar het officiële portret van de Tweede Kamer en "
             f"{s['ander_portret']} naar een andere foto, omdat er geen Kamerportret is (vooral bewindspersonen). "
-            + (f"{s['geen_figuur']} sprekers hebben nog geen goedgekeurd figuur; zij krijgen een neutraal silhouet. " if s["geen_figuur"] else "")
+            + (f"{s['geen_figuur']} sprekers hebben geen goedgekeurd figuur; zij krijgen een neutraal silhouet. Heeft één van de twee sprekers op een kaart geen figuur, dan krijgen beide het silhouet. " if s["geen_figuur"] else "")
             + "Het zijn tekeningen, geen foto's en geen karikaturen. Iedereen heeft hetzelfde neutrale gezicht.")
 
 
@@ -593,7 +595,7 @@ def zo_werken_we(variant_regels, root=""):
 <li><b>Welke twee citaten:</b> uit de langste wisseling tussen twee sprekers die op elkaar reageren, tenzij die geen echte tegenstelling heeft of over een bijzaak gaat (minder dan 10% van de spreektijd); dan de volgende. Per spreker hooguit twee zinnen, zonder een voorbehoud weg te laten. Is er geen echte botsing, dan staat er één citaat en zeggen we dat erbij.</li>
 <li><b>Volgorde van de twee citaten:</b> wie het eerst sprak, staat eerst. Zo kiest niemand wie het laatste woord krijgt. In een debat antwoordt het kabinet op vragen van de Kamer; daarom staat een minister vaak als tweede.</li>
 <li><b>Welke kaart bij een lang debat:</b> lange debatten zijn in delen geknipt langs de rondes van het debat. Bovenaan het debat staat de kaart van het eerste deel waarin twee sprekers tegenover elkaar staan; elk deel heeft daarnaast zijn eigen pagina.</li>
-<li><b>Welke debatten een kaart hebben:</b> een kaart wordt gemaakt bij een debat van meer dan 2.500 gesproken woorden dat geen tweeminutendebat, ordedebat of stemming is, en bij elk vragenuur. In de proefperiode heeft nog niet elk debat een kaart; kaarten die eerder bij een tweeminutendebat zijn gemaakt, blijven staan. Een kaart bij een ordedebat tonen we niet: dat gaat over de agenda. Een debat zonder kaart krijgt de titel en de figuren van de sprekers.</li>
+<li><b>Welke debatten een kaart hebben:</b> een kaart wordt gemaakt bij een debat van meer dan 2.500 gesproken woorden dat geen tweeminutendebat, ordedebat of stemming is, en bij elk vragenuur. In de proefperiode heeft niet elk debat een kaart; kaarten die eerder bij een tweeminutendebat zijn gemaakt, blijven staan. Een kaart bij een ordedebat tonen we niet: dat gaat over de agenda. Een debat zonder kaart krijgt de titel en de figuren van de sprekers.</li>
 <li><b>Standpunten:</b> van elke fractie die sprak, in de volgorde waarin ze spraken, met het aantal zetels en of de fractie in de coalitie zit. Zo is te zien hoe groot een fractie is. Onder elke kaart staan alle fracties die in dat debat spraken, met hun zetels.</li>
 <li><b>Moties:</b> een motie staat bij het debat waarin haar eerste indiener sprak. Eerst de aangenomen, dan de verworpen moties, dan die zonder uitslag in onze gegevens; daarbinnen op motienummer. Een uitslag staat er alleen als hij in de open data van de Kamer staat.</li>
 <li><b>Fracties bij een stemming:</b> per kant (voor, tegen) één lijst, de grootste fractie eerst, bij gelijk aantal op naam. Bij een coalitiefractie staat "coalitie". De zetels tellen we na met de lijst hieronder. Klopt de som niet, of komt hij niet op 150 uit, dan staat dat bij de uitslag.</li>
@@ -601,10 +603,10 @@ def zo_werken_we(variant_regels, root=""):
 </ul>
 {regels_html}
 </section>
-<section id="wat-niet"><h2>Wat deze site (nog) niet laat zien</h2>
+<section id="wat-niet"><h2>Wat deze site niet laat zien</h2>
 <ul>
 <li>Alleen de debatten die in onze gegevens staan: plenaire debatten en een deel van de commissiedebatten. Veel werk van de Kamer gebeurt in commissies, schriftelijke vragen en overleg dat niet op deze site staat.</li>
-<li>Stemmingen over wetsvoorstellen en amendementen, toezeggingen van ministers en de datum van een stemming staan nog niet in onze gegevens.</li>
+<li>Stemmingen over wetsvoorstellen en amendementen, toezeggingen van ministers en de datum van een stemming staan niet in onze gegevens.</li>
 <li>Een debat laat vooral zien waar Kamerleden het oneens zijn. Kijk daarom ook naar de uitslagen: {motietal}</li>
 </ul></section>
 <section id="fracties"><h2>Fracties en zetels</h2>

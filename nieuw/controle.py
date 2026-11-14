@@ -196,6 +196,17 @@ def controleer(variant):
             if n > 1:
                 fouten.append(f"{rel}: tekst {n}× op de pagina: {b[:70]}")
 
+    # 8. aanhalingen in tekst die de site toont (samenvattingen, standpunten): staan ze letterlijk in het debat?
+    for d in M.debatten():
+        for x in d.delen:
+            if not x.pagina:
+                continue
+            tekst_ = x.pagina["samenvatting"] + " " + " ".join(s_["standpunt"] for s_ in x.pagina["sprekers"])
+            alles = M.norm(" ".join(b["tekst"] for y in d.delen for b in y.beurten))
+            for q in re.findall(r"[“\"]([^”\"“]{12,})[”\"]", tekst_):
+                if M.norm(q) not in alles:
+                    waarsch.append(f"debat/{x.slug}.html: aanhaling in de paginadata niet letterlijk in het verslag: '{q[:70]}'")
+
     return fouten, waarsch, {"paginas": len(paginas), "citaten": n_cit, "moties": n_mot}
 
 

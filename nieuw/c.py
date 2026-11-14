@@ -211,9 +211,10 @@ def kaart_waar(d, x, root):
         return f'<div class="kwaar"><span>Waar ging het om?</span>{S.alineas(eerste)}</div>'
     if not x and d.van > 1:
         n_tekst = sum(1 for y in d.delen if y.pagina)
-        return (f'<div class="kwaar"><span>Waar ging het om?</span><p>{e(d.titel_agenda)}. Het debat is in {d.van} delen geknipt'
-                + (f'; van {n_tekst} {"deel" if n_tekst == 1 else "delen"} is een samenvatting' if n_tekst < d.van else "")
-                + '. <a href="#waar">Naar de delen</a></p></div>')
+        zin = ("" if n_tekst == d.van else " Voor geen van de delen is een samenvatting geschreven; het verslag staat er wel." if n_tekst == 0
+               else f" Van {n_tekst} van de {d.van} delen is een samenvatting.")
+        return (f'<div class="kwaar"><span>Waar ging het om?</span><p>Het debat is in {d.van} delen geknipt, langs de rondes van het debat.{zin} '
+                '<a href="#waar">Naar de delen</a></p></div>')
     if x and not x.pagina:
         return f'<div class="kwaar"><span>Waar ging het om?</span><p>{e(d.onderwerp)}. Voor {"dit deel" if d.van > 1 else "dit debat"} is geen samenvatting geschreven.</p></div>'
     return ""
@@ -221,7 +222,8 @@ def kaart_waar(d, x, root):
 
 def debat_kaart(d, x, root):
     h1, meta, agt, inh = kaart(d, x, root)
-    toon_oog = d.titel_agenda.lower() not in d.soort_label.lower()
+    titel_k = d.vraag if (not x and d.kaart) else (x.kaart["vraag"] if x and x.kaart else (x.titel if x else d.titel))
+    toon_oog = d.titel_agenda.lower() not in d.soort_label.lower() and d.titel_agenda.lower() != (titel_k or "").lower()
     oog = f'<p class="oog">{e(d.titel_agenda)}</p>' if toon_oog else ""
     deelnav = ""
     if x and d.van > 1:

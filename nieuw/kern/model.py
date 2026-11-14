@@ -179,11 +179,17 @@ def video_beurt(punt, i):
     if not dd or not b.get("begin"):
         return None
     t = datetime.fromisoformat(b["begin"][:19])
+    # het moment moet vóór de volgende spreekbeurt beginnen (anders hoort het bij een latere beurt)
+    vlg = next((x["begin"] for x in punt["beurten"][i + 1:] if x.get("begin")), None)
+    grens = datetime.fromisoformat(vlg[:19]) if vlg else None
     beste = None
     for m in dd["momenten"]:
         if m["persoon"] != b["spreker"]["id"]:
             continue
-        v = abs((datetime.fromisoformat(m["start"][:19]) - t).total_seconds())
+        ms = datetime.fromisoformat(m["start"][:19])
+        v = abs((ms - t).total_seconds())
+        if grens and ms > grens and ms > t:
+            continue
         if v <= 90 and (beste is None or v < beste[0]):
             beste = (v, m)
     if not beste:
@@ -326,7 +332,7 @@ class Deel:
         alle_video = all(c["video"] for c in cit) and cit
         return {"bron": f"data/proeftuin/botsing/{self.id}.json", "versie": v,
                 "vraag": x.get("vraag") or K["vraag"], "kop": K.get("kop"), "citaten": cit,
-                "video": bool(alle_video), "geen_botsing": bool(K.get("geen_botsing")),
+                "video": bool(alle_video), "geen_botsing": bool(K.get("geen_botsing")) and (v == "a" or len(cit) < 2),
                 "afloop_data": K.get("afloop_data") or {}}
 
     def _redactie(self):

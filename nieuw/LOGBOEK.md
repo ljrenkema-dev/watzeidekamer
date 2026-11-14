@@ -57,3 +57,26 @@ Bewust niet overgenomen:
 - Vaste deeltitels "<fase>: <sprekers>" in plaats van de inhoudelijke titels (politicoloog): de eigenaar vroeg om inhoudelijke titels; ze komen uit de nagelezen paginadata.
 - Andere regel voor de vraagbron (politicoloog, "coalitiepartij of kabinet"): dat is de schrijfopdracht `prompts/kaart.md`, die deze sessie niet mag wijzigen. Doorgegeven als advies in het eindverslag.
 - Zetelbalk bij elke naam: het zetelaantal staat er al als tekst; een balk per naam maakt de kaart drukker.
+
+### Ronde 2: beoordeling (vier nieuwe beoordelaars)
+Controleur: weer geen fout in citaten, uitslagen, zetels, datums, nalees-datums, feed of links (31 unieke citaten, 90 moties, 3.990 beurten nagelopen). Wel: label "niet duidelijk oneens" bij een kaart waarvan versie c wél een botsing is (de vlag `geen_botsing` hoort bij versie a), meta description brak midden in een woord, 7 videolinks bij hele korte beurten wezen naar een later moment, nog enkele "nog"-zinnen, en "D66 (26)" zonder "coalitie" in de regel "Aan het woord". Alles hersteld. Videoregel aangescherpt: het moment moet vóór de volgende spreekbeurt beginnen.
+Controleur vond ook één aanhaling in een samenvatting die niet letterlijk is ("echt iets doen aan de genocide…", in het verslag "echt iets te doen"). Dat zit in `data/strips/68113dc2…-d4.json`; die mag deze sessie niet wijzigen. `controle.py` waarschuwt nu voor aanhalingen tussen dubbele aanhalingstekens in de paginadata die niet letterlijk in het debat staan. Doorgegeven in het eindverslag.
+
+Overgenomen:
+- Belastingplan 10 en 12 november (12 november is de derde termijn): vaste koppeling "Ook met de agendatitel …" tussen debatten met dezelfde agendatitel, in alle varianten. De foute zin "de tweede termijn staat niet in onze gegevens" verschijnt niet meer als het debat moties heeft of een ander debat met dezelfde titel.
+- Delenlijst toont per deel van wie de citaten op de kaart van dat deel zijn (fractie en zetels), zodat ook de botsingen uit latere delen (Wilders–Paternotte, Markuszower–Bontenbal, …) zichtbaar zijn.
+- Debatten zonder kaart: geen rij figuren van de eerste sprekers meer als enige inhoud, maar "Aan het woord: …" met alle fracties en zetels (de coalitie verdween eerder in "+10").
+- Gelijke figuren: heeft één van de twee sprekers op een kaart geen figuur, dan krijgen beide het silhouet (Bertram tegenover Van Oosterhout).
+- Uitleg: oppositie stemt mee "met de coalitiefracties" (niet "met het kabinet"); aanhouden doet de indiener; "overbodig" toegevoegd; meerderheid = meer dan de helft van de uitgebrachte stemmen; een niet-uitgevoerde motie moet de regering uitleggen. Partijgedrag.nl als "site van anderen".
+- Stemmingen-rij zegt dat welke moties in stemming kwamen niet in de gegevens staat en dat de uitslag bij het debat staat.
+- Eerste alinea van de samenvatting in "Waar ging het om"; de rest verderop onder "Meer over dit debat" (kaart eerder in beeld, geen dubbele tekst).
+- Figuren lazy geladen (behalve op de kaart van C), echte maat 180×240; tijden in het verslag als 14.01; standpunten in één kolom (regellengte).
+A: zijkolom niet meer sticky; geel in donker gedempt (#c9b24a); onzichtbare h1 met eigen klasse.
+B: tellingen weer op de voorpagina (politicoloog ronde 2: een uitslagtelling is geen ranglijst; ronde 1 vond het tegendeel, gekozen voor zichtbare besluiten); "Waar ging het om" bij een onderwerp is nu het Kamerstuk met zijn titel uit de data (niet de vraag van één crisisdebat); citaat over de volle breedte met het figuur in de naamregel; eigen tekst heeft geen linkerstreep meer (die is voor citaten); vragen onderstreept als link; vaste adressen (nummeren vanaf het oudste onderwerp, vragenuur met datum).
+C: kaart staat in `main`; elk deel heeft zijn eigen h1 (de titel van het deel), de vraag is dan h2; in de kaart een blok "Waar ging het om?" (eerste alinea) naast "Hoe liep het af?"; citaten naast elkaar vanaf 760px; figuur in de naamregel; focusring in het witte citaatkaartje donker; vaste balk alleen onder 700px; vaste `role=status` voor "Link gekopieerd"; verslagpagina met sitenaam bovenaan; "Volgend debat" volgt de volgorde van de voorpagina.
+
+Bewust niet overgenomen:
+- Kaartcitaten korter maken (interface-expert): de citaten komen uit de data en de schrijfopdracht; doorgegeven als advies voor `prompts/kaart.md`.
+- Lettertype zelf hosten: het artifact staat alleen Google Fonts toe; voor de echte site staan de ttf-bestanden klaar in `nieuw/fonts/` (omzetten naar woff2 en `@font-face` lokaal is een kleine stap).
+- Binnen een dag nieuwste eerst in A (lezer): een agenda leest van ochtend naar avond; de regel staat op "Zo werken we".
+- Dictum van een motie bovenaan in plaats van de titel (lezer): de omschrijving is de officiële titel; de letterlijke tekst staat uitklapbaar eronder.
