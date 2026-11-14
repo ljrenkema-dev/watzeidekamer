@@ -191,3 +191,28 @@ a.woordlink{color:inherit;text-decoration:underline dotted;text-decoration-thick
 a.woordlink:hover,a.woordlink:focus-visible{color:var(--accent)}
 .word:target{outline:3px solid var(--marker);outline-offset:4px;border-radius:6px}
 .words .word{scroll-margin-top:80px}
+/* Voorpagina, strakker (ronde 2) */
+.tagline{font-family:var(--display);font-weight:700;font-size:clamp(1.25rem,3.6vw,1.6rem);line-height:1.3;max-width:34ch;margin:0;text-wrap:balance}
+.weekkop{display:flex;align-items:center;gap:6px 14px;flex-wrap:wrap}
+.weekkop h2{margin-right:auto}
+.weekkop .note{font-size:14px}
+.pijlen{display:flex;align-items:center;gap:6px}
+.pijl{font:inherit;font-size:22px;line-height:1;width:38px;height:38px;border-radius:50%;border:2px solid var(--ink);background:var(--panel);color:var(--ink);cursor:pointer}
+.pijl:hover{background:var(--marker)}.pijl:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.teller{font-size:14px;color:var(--muted);min-width:5.5em;text-align:center}
+.carrousel{align-items:flex-start}
+.carrousel .slide{flex:0 0 min(82%,420px)}
+@media (min-width:900px){.carrousel .slide{flex-basis:calc((100% - 28px)/2.2)}}
+.carrousel .slide .band{padding:14px 16px;gap:6px}
+.carrousel .slide .band .tag{letter-spacing:.02em;text-transform:none;font-size:14px;font-weight:700}
+.carrousel .slide .rest{padding:14px 16px}
+.tag.voorlopig{background:transparent;border:1.5px solid var(--line);color:var(--muted);text-transform:none;letter-spacing:0;font-weight:400}
+.tegen{display:flex;align-items:center;flex-wrap:nowrap}
+.tegen span{flex:1 1 auto;min-width:0}
+.item>.vraag{font-size:1.05rem;margin-top:4px}
+.chip.meer{cursor:help;border-style:dashed}
+#telling:empty{display:none}
+.tagline{max-width:46ch}
+.pijl{display:grid;place-items:center;padding:0}
+.pijl svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.item>.vraag+.delenlijst{margin-top:2px}
