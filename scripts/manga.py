@@ -212,6 +212,52 @@ def maak(sleutel, u, emoties, log, stijl="zw"):
         time.sleep(2)
 
 
+def herstel(log, stijl="manga"):
+    """Afgekeurde neutrale figuren opnieuw maken met het commentaar van de eigenaar (neutraal_aanpassing in
+    beschrijvingen.json). Het afgekeurde beeld blijft bewaard als neutraal.afgekeurd.*; de nieuwe versie moet
+    opnieuw door de eigenaar gekeurd worden."""
+    besch = json.loads((ROOT / "data" / "manga" / "beschrijvingen.json").read_text())
+    uiterlijk = json.loads((ROOT / "data" / "uiterlijk.json").read_text())
+    for sleutel, b in besch.items():
+        if not isinstance(b, dict) or not b.get("neutraal_aanpassing") or b.get("neutraal_goedgekeurd"):
+            continue
+        u = uiterlijk.get(sleutel) or {"naam": sleutel}
+        map_ = ROOT / "data" / "manga" / stijl / sleutel.replace(":", "-")
+        oud = bestaand(map_, "neutraal")
+        if not oud:
+            print(f"  {u['naam']}: geen neutraal beeld om te herstellen"); continue
+        afgekeurd = map_ / f"neutraal.afgekeurd{oud.suffix}"
+        if not afgekeurd.exists():
+            oud.rename(afgekeurd)
+        elif oud.exists():
+            continue  # al hersteld; wacht op keuring
+        vriend = bestaand(map_, "vriendelijk")
+        tekst = ("Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white "
+                 f"background. Keep the expression neutral: {EMOTIES['neutraal']}. Apply only this correction from the "
+                 f"reviewer (in Dutch): \"{b['neutraal_aanpassing']}\". Do not add or remove anything else."
+                 + (" The second image is an earlier, friendlier version of the same character; use it only as a "
+                    "reference where the correction mentions it ('vriendelijke versie')." if vriend else ""))
+        delen = [{"text": tekst}]
+        for ref in [afgekeurd] + ([vriend] if vriend else []):
+            mime = "image/jpeg" if ref.suffix == ".jpg" else "image/png"
+            delen.append({"inlineData": {"mimeType": mime, "data": base64.b64encode(ref.read_bytes()).decode()}})
+        try:
+            antwoord = vraag(delen)
+        except urllib.error.HTTPError as e:
+            if e.code in (402, 429):
+                afgekeurd.rename(oud)  # niets veranderd; later opnieuw
+                raise SystemExit(f"HTTP {e.code}: tegoed of quotum op. Probeer later opnieuw.")
+            print(f"  {u['naam']}: HTTP {e.code}"); afgekeurd.rename(oud); continue
+        beeld, ext = zoek_beeld(antwoord)
+        if not beeld:
+            afgekeurd.rename(oud); print(f"  {u['naam']}: geen afbeelding"); continue
+        (map_ / f"neutraal.{ext}").write_bytes(beeld)
+        log.append({"wie": u["naam"], "emotie": "neutraal", "stijl": stijl, "prompt": tekst, "model": MODEL,
+                    "herstel": b["neutraal_aanpassing"], "portretfoto_meegestuurd": False})
+        print(f"  {u['naam']}: hersteld ({len(beeld) // 1024} kB)")
+        time.sleep(2)
+
+
 def main(namen, emoties, stijlen, logpad=None):
     uiterlijk = json.loads((ROOT / "data" / "uiterlijk.json").read_text())
     log = []
@@ -230,6 +276,14 @@ def main(namen, emoties, stijlen, logpad=None):
 
 if __name__ == "__main__":
     a = sys.argv[1:]
+    if "--herstel" in a:  # afgekeurde neutrale figuren opnieuw, met het commentaar van de eigenaar
+        lg = []
+        try:
+            herstel(lg, a[a.index("--stijl") + 1] if "--stijl" in a else "manga")
+        finally:
+            lp = ROOT / "data" / "manga" / "log-herstel.json"
+            lp.write_text(json.dumps((json.loads(lp.read_text()) if lp.exists() else []) + lg, ensure_ascii=False, indent=1))
+        sys.exit(0)
     namen = a[a.index("--namen") + 1].split(",") if "--namen" in a else PILOT
     if "--alle" in a:  # iedereen met een figuur, behalve de pilot; --deel i/n verdeelt het werk over n processen
         # alleen wie een lokaal portret en toestemming heeft; de rest wordt gemeld
