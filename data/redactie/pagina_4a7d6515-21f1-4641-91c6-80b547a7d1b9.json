@@ -1,0 +1,155 @@
+{
+ "agendapunt": "4a7d6515-21f1-4641-91c6-80b547a7d1b9",
+ "verslag_id": "0b4535e0-4257-48c9-9cd3-764382181d49",
+ "datum": "2026-11-14",
+ "onafhankelijk": true,
+ "soort": "pagina+kaart",
+ "oordeel": "aangepast",
+ "opmerking": "Lezing van de nieuwe pagina (data/paginas/) en de kaart. Het redactieverslag van de oude versie staat in data/redactie/<id>.json. evenwicht.py werkt op de strip, niet op de pagina; aantal teksten (samenvatting + kernpunten) waarin een fractie of haar spreker voorkomt in samenvatting en kernpunten zelf geteld (na wijziging): PRO 5, ChristenUnie 4, Volt 3, FVD 1, Lid Keijzer 2, 50PLUS 1, CDA 1, BBB 1, DENK 0, JA21 0. DENK (3% van de woorden, over de samenwerking met de groep-Markuszower; de voorzitter stuurde terug naar de novelle) en JA21 (1%) staan alleen in de standpunten; dat past bij hun spreektijd en het onderwerp.",
+ "bevindingen": [
+  {
+   "waar": "titel",
+   "ernst": "klein",
+   "les": "L6",
+   "was": "Minister Heinen beantwoordt Kamervragen over novelle box 3 en de dekking",
+   "nu": "Minister Heinen beantwoordt vragen over novelle box 3 en de dekking",
+   "bron": "Het ging om interrupties in het debat, geen (schriftelijke) Kamervragen."
+  },
+  {
+   "waar": "samenvatting",
+   "ernst": "middel",
+   "les": "L14",
+   "was": "PRO, ChristenUnie, Volt en anderen zeggen dat de dekking niet klopt en dat de minister zelf verantwoordelijk is voor de problemen.",
+   "nu": "PRO, ChristenUnie en Volt vinden de dekking niet goed; PRO en ChristenUnie spreken de minister ook aan op zijn eigen rol.",
+   "bron": "Alleen Stultiens (beurt 15, 18) en Grinwis (beurt 6, 10) spraken de minister aan op zijn eigen rol; Dassen (beurt 74) alleen op de dekking. 'en anderen' was vaag."
+  },
+  {
+   "waar": "samenvatting",
+   "ernst": "klein",
+   "les": "L3",
+   "was": "Hij wil de belasting op winst op vermogen in 2029 invoeren",
+   "nu": "Hij koerst op invoering van de vermogenswinstbelasting in 2029",
+   "bron": "beurt 35: 'laten we in ieder geval koersen op 2029'"
+  },
+  {
+   "waar": "standpunt Heinen (kabinet)",
+   "ernst": "middel",
+   "les": "L3",
+   "was": "ook al staat er structureel 86 miljoen tekort in de tabel; dat wordt volgens hem aan de uitgavenkant weggewerkt.",
+   "nu": "tegenover het structurele tekort van 86 miljoen in de tabel staat volgens hem een overdekking aan de uitgavenkant.",
+   "bron": "beurt 54: 'in de tabellen die wij presenteren aan de uitgavenkant ook weer een overdekking zit en per saldo is dat afgerond nul' (een bestaande overdekking, geen toekomstig wegwerken)"
+  },
+  {
+   "waar": "standpunt ChristenUnie",
+   "ernst": "middel",
+   "les": "L3",
+   "was": "...zijn rol als 'honest broker' heeft verzwakt. Hij zegt dat de dekking niet degelijk is, omdat de minister de aangenomen motie over de papieren schenking niet uitvoert",
+   "nu": "...waardoor zijn rol als 'honest broker' onder druk staat. Hij vindt de dekking financieel geen degelijk verhaal, zegt dat de aangenomen motie over de papieren schenking het structurele tekort in een klein overschot had kunnen omzetten",
+   "bron": "beurt 6: 'onder druk is komen te staan'; beurt 59: 'had kunnen zorgen dat het structurele tekort van 86 miljoen was omgeslagen naar een structureel overschot, weliswaar niet zo heel groot'; beurt 64: 'financieel geen degelijk verhaal is, vind ik' (het 'omdat' stond niet in het verslag)"
+  },
+  {
+   "waar": "standpunt BBB",
+   "ernst": "middel",
+   "les": "L6",
+   "was": "nu volgens hem de minister-president bij de dekking van de novelle van de gebruikelijke regels afwijkt",
+   "nu": "zegt dat de minister-president feitelijk erkende dat het kabinet bij de dekking van de novelle afwijkt van de gebruikelijke begrotingsregels",
+   "bron": "beurt 101: 'dat Rob Jetten ... feitelijk erkende dat het kabinet bij de dekking van de box 3-novelle afwijkt van de gebruikelijke begrotingsregels'"
+  },
+  {
+   "waar": "standpunt FVD",
+   "ernst": "klein",
+   "les": "L1",
+   "was": "Hij zegt dat de minister met twee maten meet bij het verwijzen naar de Eerste Kamer",
+   "nu": "Hij zegt dat er bij het verwijzen naar de Eerste Kamer 'een beetje met twee maten gemeten' wordt",
+   "bron": "beurt 137: 'Ik merk wel dat hier een beetje met twee maten gemeten wordt.'"
+  },
+  {
+   "waar": "kernpunt 1",
+   "ernst": "middel",
+   "les": "L13",
+   "was": "Stultiens en Grinwis zeggen dat Heinen zelf onderdeel van de controverse is geworden.",
+   "nu": "Grinwis zegt dat Heinen zelf onderdeel van de controverse is geworden en dat zijn rol als 'honest broker' onder druk staat. Stultiens zegt dat Heinen zelf de steun voor de wet introk.",
+   "bron": "'controverse' is van Grinwis (beurt 6, 10); Stultiens zei iets anders, beurt 15: 'Het was de minister zelf die opeens zei: ik trek de steun in.'"
+  },
+  {
+   "waar": "kernpunt 3",
+   "ernst": "middel",
+   "les": "L9",
+   "was": "...Hij zegt dat de steun in de Eerste Kamer dan zou vervallen. Grinwis en Dassen noemen dit geen goede dekking, omdat het gat later door anderen gedekt moet worden.",
+   "nu": "...Die levert volgens hem om en nabij 150 miljoen op, en dan zou de steun in de Eerste Kamer vervallen. Dassen noemt dit 'natuurlijk geen dekking', omdat toekomstige generaties het gat later moeten dekken. Grinwis vindt het financieel geen degelijk verhaal.",
+   "bron": "beurt 60: 'Om en nabij is dat 150 miljoen. Dat is te weinig om dat hele gat te dekken'; beurt 74/76 (Dassen); beurt 64 (Grinwis). Ook 'zoals aangenomen moties vroegen' toegevoegd (beurt 52). De reden 'later door anderen' was van Dassen, niet van Grinwis."
+  },
+  {
+   "waar": "kernpunt 4 (nieuw)",
+   "ernst": "middel",
+   "les": "L9",
+   "was": "(ontbrak) De wisseling over de motie-Stultiens/Dassen en het argument van de Eerste Kamer (beurt 125–138) stond nergens in de kernpunten; FVD werd nergens genoemd.",
+   "nu": "Stultiens vraagt waarom zijn motie met Dassen om het hele gat binnen het vermogensdomein te dekken niet wordt uitgevoerd. Heinen zegt dat de plannen dan niet meer op steun kunnen rekenen in de Eerste Kamer. Stultiens vraagt of dan niet de hele budgetdiscipline weg is. Schenk (FVD) zegt dat er 'een beetje met twee maten gemeten' wordt.",
+   "bron": "beurt 125: 'een motie ingediend die heel duidelijk zei het hele gat te dekken binnen het vermogensdomein'; beurt 131: 'niet meer op steun kunnen rekenen in de Eerste Kamer'; beurt 130: 'dan is de hele budgetdiscipline toch weg?'; beurt 137"
+  },
+  {
+   "waar": "kernpunt 5 (was 4)",
+   "ernst": "middel",
+   "les": "L4",
+   "was": "Keijzer wijst op de raming van ruim 17 miljard. Heinen zegt dat ramingen na vijf jaar zeer onzeker zijn. Hij vergelijkt kasjaren met cumulatieve bedragen: tot 2040 gaat het volgens hem aan de uitgavenkant om 36 miljard, en per jaar om 1 tot 2 miljard.",
+   "nu": "Keijzer vraagt hoe voorspelbaar de raming van ruim 17 miljard is. Heinen zegt dat ramingen altijd onzeker zijn en dat het kabinet daarom vijf jaar vooruit raamt; ook het CPB noemt ramingen op zo'n termijn volgens hem zeer onzeker. Hij waarschuwt kasjaren en cumulatieve bedragen niet te vergelijken: aan de uitgavenkant gaat het tot 2040 opgeteld om 36 miljard. Teruggebracht tot kasjaren gaat het volgens hem om zo'n 1 tot 2 miljard per jaar.",
+   "bron": "beurt 38/40: 'ramingen altijd onzeker', 'Ook het Centraal Planbureau geeft aan dat ... ramingen zeer onzeker' ('zeer onzeker' is van het CPB, 'na vijf jaar' stond er niet); beurt 44: 'We moeten dus niet appels met peren gaan vergelijken' (hij vergelijkt ze juist niet); de 1 à 2 miljard per jaar hoorde niet bij de 36 miljard uitgaven maar bij 'die 17 miljard ... teruggebracht tot kasjaren'."
+  },
+  {
+   "waar": "kernpunt 6 (was 5)",
+   "ernst": "klein",
+   "les": "L3",
+   "was": "De invoering van de vermogenswinstbelasting is door de uitvoeringstoets verschoven van 2028 naar 2029. ... wil hij in 2030 een nieuwe wet door beide Kamers hebben.",
+   "nu": "Na de uitvoeringstoets koerst het kabinet op invoering in 2029 in plaats van 2028, waar de Eerste Kamer om vroeg. Volgens Heinen gaven de banken aan zo'n achttien maanden nodig te hebben. ... Op vraag van Van Brenk zegt hij toe ... probeert hij in 2030 een nieuwe wet door beide Kamers te hebben.",
+   "bron": "beurt 35: 'Ik geloof dat zij zo'n achttien maanden aangaven', 'koersen op 2029'; beurt 100: 'De Eerste Kamer heeft opgeroepen om dat in 2028 te doen'; beurt 14: 'Wij proberen in 2030 de wet ... door beide Kamers te hebben'"
+  },
+  {
+   "waar": "kernpunt 7 (was 6)",
+   "ernst": "klein",
+   "les": "L6",
+   "was": "Vermeer en Grinwis zeggen dat bij deze dekking van de gebruikelijke begrotingsregels wordt afgeweken.",
+   "nu": "Vermeer zegt dat de minister-president erkende dat het kabinet bij deze dekking afwijkt van de gebruikelijke begrotingsregels. Grinwis zegt dat de dekking niet zoals gebruikelijk op lastenbasis is gepresenteerd. Heinen erkent dat het kabinet vooral naar het EMU-saldo keek ...",
+   "bron": "beurt 101 (Vermeer), beurt 112 (Grinwis: 'afgeweken van de gebruikelijke spelregel om het op lastenbasis netjes te dekken'), beurt 113 (Heinen: 'het is waar: we hebben vooral gekeken naar het EMU-saldo-effect')"
+  },
+  {
+   "waar": "kernpunt 8 (was 7)",
+   "ernst": "klein",
+   "les": "L9",
+   "was": "(tegenargument ontbrak)",
+   "nu": "Volgens Stultiens zegt het CPB dat het nog wacht op informatie van de minister.",
+   "bron": "beurt 96: 'We lezen online dat het CPB aangeeft: we wachten nog op informatie van de minister'"
+  },
+  {
+   "waar": "woorden: vermogenswinstbelasting",
+   "ernst": "klein",
+   "les": "L12",
+   "was": "Een belasting op de winst die iemand echt maakt op zijn vermogen, in plaats van op een vast aangenomen (fictief) rendement.",
+   "nu": "Een belasting op de winst die iemand echt behaalt op zijn vermogen, bijvoorbeeld bij verkoop, in plaats van op een vast aangenomen (fictief) rendement of op winst op papier.",
+   "bron": "Het verschil met de vermogensaanwasbelasting (papieren winst, beurt 11) ontbrak; Grinwis noemt het uitstel van de belastingclaim (beurt 122), wat alleen bij belasting op gerealiseerde winst kan."
+  },
+  {
+   "waar": "kaart: keuze wisseling",
+   "ernst": "middel",
+   "les": "nieuw",
+   "was": "Wisseling 1 (Heinen ↔ Grinwis, beurt 4–14, 15%) afgevallen wegens 'geen inhoudelijke tegenstelling over de novelle zelf'; gekozen is wisseling 2 (beurt 58–68).",
+   "nu": "Niet gewijzigd; voorgelegd aan de hoofdsessie.",
+   "bron": "prompts/kaart.md staat alleen af van de langste wisseling als die geen echte tegenstelling heeft (eens, of alleen procedure) of een bijzaak is. Wisseling 1 heeft wel een tegenstelling (beurt 7: 'met het tweede deel niet'; beurt 13: 'dit is één versie van de geschiedenis en niet dé versie') en is 15% van de spreektijd. Wel ging die ronde over de rol van de minister en de voorgeschiedenis, niet over de novelle of de dekking; de eerdere lezing koos daarom bewust voor de dekking. Ik heb de kaart niet omgegooid; beslissing voor de hoofdsessie of eigenaar."
+  },
+  {
+   "waar": "kaart: citaat beurt 62 (Heinen)",
+   "ernst": "klein",
+   "les": "nieuw",
+   "was": "Citaat van 48 woorden (richtlijn: ongeveer 35); de lezing in het bestand noemt nog 41 woorden.",
+   "nu": "Niet gewijzigd: het voorbehoud 'Ik snap de reflectie ..., maar' moet blijven en kaart.py check is OK. Een kortere optie is het paar beurt 60–61 (Heinen bovenaan): 'Maar terwijl de motie werd aangenomen in de Tweede Kamer kreeg ik bericht uit de Eerste Kamer: als u dát als dekking heeft, dan vervalt onze steun voor het pakket van de novelle, dus doe dat niet.' ↔ Grinwis: 'Dat ergens kritiek klinkt, is nog niet hetzelfde als dat de Eerste Kamer tegen zou gaan stemmen.'",
+   "bron": "beurt 60, 61, 62"
+  },
+  {
+   "waar": "kaart: overig",
+   "ernst": "klein",
+   "les": "-",
+   "was": "Vraag (bron 2, titel wetsvoorstel), volgorde (Grinwis 61 boven Heinen 62), letterlijkheid van beide citaten, aandeel 12% (nagemeten), 'kort' en vraag_makkelijk gecontroleerd.",
+   "nu": "Akkoord. Kaart en pagina spreken elkaar niet tegen (kernpunt 4 en 5 noemen hetzelfde argument van de Eerste Kamer).",
+   "bron": "beurt 61, 62; kaart.py aandeel: 12% (1840 van 14852 woorden)"
+  }
+ ]
+}
