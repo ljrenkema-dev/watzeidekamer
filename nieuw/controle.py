@@ -189,7 +189,7 @@ def controleer(variant):
         gezien = {}
         for b in o.blokken:
             b = re.sub(r"\s+", " ", b)
-            if len(b) < 60:
+            if len(b) < 60 or b.startswith("▶"):
                 continue
             gezien[b] = gezien.get(b, 0) + 1
         for b, n in gezien.items():

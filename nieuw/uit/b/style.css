@@ -1,0 +1,195 @@
+/* Gedeelde basis: kleuren (licht en donker), typografie, verslag, moties, uitleg, standpunten. */
+:root{
+  --paper:#fbfaf7; --ink:#1d1b2e; --muted:#58556c; --line:#d9d6e4; --panel:#ffffff; --tone:#efedf5;
+  --marker:#ffe066; --accent:#2f3fb8; --ok:#1d6b3a; --nee:#9a2b20; --mark:#fff0a3;
+  --body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#15141f; --ink:#f1f0f7; --muted:#b2afc6; --line:#3a3852; --panel:#1f1d2c; --tone:#29273b;
+  --marker:#ffe066; --accent:#a3afff; --ok:#7fd49c; --nee:#ffa79c; --mark:#5c4d00; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#15141f; --ink:#f1f0f7; --muted:#b2afc6; --line:#3a3852; --panel:#1f1d2c; --tone:#29273b;
+  --marker:#ffe066; --accent:#a3afff; --ok:#7fd49c; --nee:#ffa79c; --mark:#5c4d00; color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.55}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+h1,h2,h3,h4{line-height:1.2;margin:0;text-wrap:balance}
+p{margin:0}
+img{max-width:100%}
+.skip{position:absolute;left:-9999px;top:0}
+.skip:focus{left:12px;top:12px;background:var(--panel);padding:8px 12px;z-index:9}
+.lees{max-width:62ch}
+.klein{font-size:15px;color:var(--muted)}
+.let{font-size:15px;border-left:4px solid var(--nee);padding:6px 12px;background:var(--tone)}
+.invul{background:#ffd7d2;color:#5a0d06;border:2px dashed #b3261e;padding:0 6px;border-radius:4px;font-weight:700}
+.voorl,.lbl{display:inline-block;font-size:13px;font-weight:700;border:1.5px solid var(--line);border-radius:999px;padding:0 9px;color:var(--muted);white-space:nowrap}
+.voorl{border-color:var(--muted)}
+/* figuren */
+.fg{display:block;aspect-ratio:1/1;object-fit:cover;object-position:50% 0;border-radius:50%;background:#fff;border:2px solid var(--ink);flex:none}
+/* moties */
+ul.moties{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.motie{background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.motie .mkop{font-size:17px;font-weight:700;line-height:1.35}
+.motie .mwie,.motie .oordeel{font-size:16px;color:var(--muted)}
+.uitslag{font-size:17px}
+.uitslag-aangenomen b{color:var(--ok)}
+.uitslag-verworpen b{color:var(--nee)}
+.balk{display:flex;height:12px;border-radius:6px;border:2px solid var(--ink);position:relative;overflow:hidden;max-width:420px}
+.balk .v{background:var(--ink)}
+.balk .t{background:repeating-linear-gradient(135deg,var(--panel) 0 4px,var(--line) 4px 8px)}
+.balk .mid{position:absolute;left:50.33%;top:-2px;bottom:-2px;width:2px;background:var(--accent)}
+.fr{font-size:15px;color:var(--muted)} .fr b{color:var(--ink)}
+.afwijking{font-size:15px;color:var(--nee);font-weight:700}
+details summary{cursor:pointer;font-weight:700}
+.motietekst summary{font-size:15px;color:var(--accent)}
+.doc{font-size:15px;background:var(--tone);border-radius:6px;padding:10px 12px;margin:8px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;line-height:1.5;white-space:pre-wrap}
+/* uitleg en woorden */
+dl.uitleg,dl.woorden{margin:0;display:flex;flex-direction:column;gap:10px}
+dl.uitleg dt,dl.woorden dt{font-weight:700}
+dl.uitleg dd,dl.woorden dd{margin:0;color:var(--muted)}
+dl.woorden div:target{background:var(--mark);border-radius:6px;padding:4px 8px}
+a.woordlink{color:inherit;text-decoration:underline dotted;text-decoration-thickness:2px;text-underline-offset:4px}
+/* standpunten als kaartjes */
+ul.standpunten{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
+.sp{display:flex;gap:12px;background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;min-width:0}
+.sp .fg{width:52px;height:52px}
+.sp>div{min-width:0}
+.spn{margin-bottom:4px}
+.spn span{display:block;font-size:14px;color:var(--muted)}
+ul.kern{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+/* verslag */
+.verslag{display:flex;flex-direction:column;gap:16px}
+.verslag h1{font-size:clamp(1.5rem,5vw,2rem)}
+.vmeta,.vdeel{color:var(--muted);font-size:16px}
+.vuitleg{display:flex;flex-direction:column;gap:6px;font-size:16px;color:var(--muted);max-width:62ch}
+.beurten{display:flex;flex-direction:column;gap:2px}
+.beurt{padding:12px 14px;border-left:4px solid transparent;border-radius:6px;max-width:72ch;scroll-margin-top:16px}
+.beurt header{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:6px}
+.beurt header .rol{font-size:14px;color:var(--muted)}
+.beurt .bt{margin-left:auto;display:flex;gap:10px;align-items:baseline;font-size:14px;color:var(--muted);flex-wrap:wrap}
+.beurt .bt a{font-size:14px}
+.beurt p{margin:0 0 8px;font-size:17px}
+.beurt.vz{color:var(--muted)}
+.beurt.vz p{font-size:16px}
+.beurt.int{margin-left:18px}
+.beurt.gec{border-left-color:var(--marker)}
+.beurt:target{background:var(--tone);border-left-color:var(--accent);outline:2px solid var(--accent)}
+mark.cm{background:var(--mark);color:inherit;padding:1px 2px;border-radius:3px;box-shadow:0 2px 0 var(--marker)}
+.lbl-c{border-color:var(--marker);color:var(--ink)}
+.anker{text-decoration:none;color:var(--muted)}
+.terug{font-size:16px}
+/* fractielijst */
+ul.fractielijst{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:6px 18px}
+ul.fractielijst li{display:flex;flex-wrap:wrap;gap:0 8px;border-bottom:1px solid var(--line);padding:4px 0}
+ul.fractielijst span{color:var(--muted);font-size:15px}
+ul.fractielijst .z{margin-left:auto;color:var(--ink)}
+@media (max-width:600px){body{font-size:17px}.beurt{padding:10px 8px}.beurt.int{margin-left:8px}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+div.uitleg{display:flex;flex-direction:column;gap:2px}
+div.uitleg details{border-bottom:1px solid var(--line);padding:6px 0}
+div.uitleg summary{font-size:16px}
+div.uitleg p{color:var(--muted);font-size:16px;margin-top:4px}
+
+
+/* ---------- variant B: onderwerpen door de tijd ---------- */
+:root{--b:#0e5f63;--bl:#d8ecec;--cit:#1d1b2e}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--b:#7fd0cf;--bl:#163536;--cit:#f1f0f7}}
+:root[data-theme="dark"]{--b:#7fd0cf;--bl:#163536;--cit:#f1f0f7}
+.wrap{max-width:1000px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left)) 48px max(16px,env(safe-area-inset-right))}
+.kop{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 22px;padding:18px 0 12px}
+.logo{font-weight:700;font-size:22px;color:var(--ink);text-decoration:none}
+.logo span{color:var(--b)}
+.kop nav{display:flex;gap:16px;flex-wrap:wrap;font-weight:700;font-size:16px;margin-left:auto}
+.kop nav a{color:var(--ink);text-decoration:none;border-bottom:3px solid transparent}
+.kop nav a[aria-current]{border-bottom-color:var(--b)}
+.werk{flex-basis:100%;color:var(--muted);font-size:16px}
+main{display:flex;flex-direction:column;gap:26px;padding-top:14px;border-top:1px solid var(--line)}
+footer{margin-top:44px;border-top:1px solid var(--line);padding-top:14px;color:var(--muted);font-size:15px;display:flex;flex-direction:column;gap:6px;max-width:72ch}
+h1{font-size:clamp(1.7rem,4.6vw,2.5rem)}
+.sub{color:var(--muted);font-size:16px}
+.lees p+p{margin-top:8px}
+/* citaatvorm B */
+.cit{display:grid;grid-template-columns:54px minmax(0,1fr);gap:4px 14px;min-width:0}
+.cit .fg{width:54px;height:54px;grid-row:1/3;border-color:var(--cit)}
+.cit blockquote{margin:0;border-left:6px solid var(--cit);padding:2px 0 2px 16px;font-style:italic;font-size:19px;line-height:1.45}
+.cit .wie{grid-column:2;padding-left:22px;font-size:15px}
+.cit .wie b{display:block;font-size:16px}
+.cit .wie span{color:var(--muted)}
+.cit .links{grid-column:2;padding-left:22px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:15px;font-weight:700}
+.paar{display:flex;flex-direction:column;gap:18px}
+.vraag{font-size:clamp(1.3rem,3vw,1.75rem);line-height:1.2}
+.vraag a{color:inherit;text-decoration:none}.vraag a:hover{text-decoration:underline}
+.noot{font-size:15px;color:var(--muted)}
+/* onderwerpkaarten op de voorpagina */
+.lijst{display:flex;flex-direction:column;gap:22px;list-style:none;margin:0;padding:0}
+.ok{border:2px solid var(--line);border-radius:16px;background:var(--panel);overflow:hidden}
+.ok .okop{background:var(--bl);padding:14px 18px;display:flex;flex-direction:column;gap:4px}
+.ok .okop h2{font-size:22px}
+.ok .okop h2 a{color:var(--ink);text-decoration:none}
+.ok .okop h2 a:hover{text-decoration:underline}
+.okin{padding:16px 18px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:20px}
+.okin>div{display:flex;flex-direction:column;gap:12px;min-width:0}
+.mini{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;border-left:3px solid var(--line);padding-left:12px}
+.mini li{font-size:15px}
+.mini b{display:block;font-size:14px;color:var(--muted)}
+.tel{font-size:17px;font-weight:700}
+.verder{font-weight:700}
+/* tijdlijn */
+ol.tijdlijn{list-style:none;margin:0;padding:0 0 0 26px;border-left:4px solid var(--b);display:flex;flex-direction:column;gap:26px}
+.tl{position:relative;display:flex;flex-direction:column;gap:12px;min-width:0}
+.tl::before{content:"";position:absolute;left:-37px;top:4px;width:18px;height:18px;border-radius:50%;background:var(--paper);border:4px solid var(--b)}
+.tl.mot::before{width:12px;height:12px;left:-34px;background:var(--b)}
+.tld{font-size:14px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--b)}
+.tl h3{font-size:21px}
+.tl h3 a{color:var(--ink)}
+.kader{border:2px solid var(--line);border-radius:14px;padding:16px 18px;background:var(--panel);display:flex;flex-direction:column;gap:14px;min-width:0}
+.stand{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start}
+.stand div{background:var(--tone);border-radius:10px;padding:6px 12px;font-size:16px}
+.stand b{font-size:22px}
+details.ml summary{font-size:16px;color:var(--b)}
+details.ml ul.moties{margin-top:10px}
+.afloop{display:flex;flex-direction:column;gap:14px;border-top:5px solid var(--b);background:var(--panel);border-radius:0 0 14px 14px;padding:16px 18px;box-shadow:0 1px 0 var(--line)}
+.afloop h2{font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--b)}
+.afloop>div{display:flex;flex-direction:column;gap:8px}
+.afloop .groot{font-size:19px;font-weight:700}
+.krumel{font-size:15px;color:var(--muted)}
+.dkop{display:flex;flex-direction:column;gap:8px}
+.dmeta{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;color:var(--muted);font-size:16px}
+.blok{display:flex;flex-direction:column;gap:12px;min-width:0}
+.blok>h2{font-size:23px}
+.kolommen{display:grid;grid-template-columns:minmax(0,62ch) minmax(0,1fr);gap:28px;align-items:start}
+.zij{display:flex;flex-direction:column;gap:20px}
+.zij h2{font-size:18px}
+.controle{display:flex;flex-direction:column;gap:6px;background:var(--bl);border-radius:12px;padding:14px 16px}
+ol.delen{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+ol.delen li{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;align-items:baseline}
+ol.delen .dn{font-weight:700;color:var(--muted)}
+ol.delen .df{grid-column:2;font-size:14px;color:var(--muted)}
+ol.delen li[aria-current] a{color:var(--ink);font-weight:700}
+.deelnav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;font-weight:700}
+.stapel{display:flex;align-items:center}
+.stapel .fg{width:38px;height:38px;margin-right:-8px}
+.stapel .meer{margin-left:14px;font-size:14px;font-weight:700;color:var(--muted)}
+.stemrondes{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.stemrondes a{display:inline-block;border:1.5px solid var(--line);border-radius:999px;padding:4px 12px;font-size:15px}
+.zw{display:flex;flex-direction:column;gap:22px;max-width:72ch}
+.zw section{display:flex;flex-direction:column;gap:8px}
+.zw h2{font-size:24px;margin-top:6px}.zw h3{font-size:19px;margin-top:6px}
+.zw ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+@media (max-width:760px){
+  .okin{grid-template-columns:1fr}
+  .kolommen{grid-template-columns:1fr}
+  .kop nav{margin-left:0;font-size:15px}
+  .werk{font-size:14px}
+  .kop{gap:4px 14px}
+  .cit{grid-template-columns:44px minmax(0,1fr);gap:4px 10px}
+  .cit .fg{width:44px;height:44px}
+  .cit blockquote{font-size:17px;padding-left:12px}
+  .cit .wie,.cit .links{padding-left:18px}
+  ol.tijdlijn{padding-left:20px}
+  .tl::before{left:-31px}.tl.mot::before{left:-28px}
+}

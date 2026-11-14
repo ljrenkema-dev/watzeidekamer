@@ -26,3 +26,4 @@
 ## Rondes
 ### Ronde 1
 - A gebouwd; eigen kijkronde op 1280/390 licht/donker: ballonnen te smal (blockquote-marge), staartje scheef, logo onleesbaar in donker, afloopblok met lege rechterkolom, lange uitleglijst op telefoon. Hersteld (uitleg inklapbaar, afloop in de leeskolom).
+- **Stemmingen-agendapunten**: de moties die `data/moties/` aan een stemmingen-agendapunt koppelt, zijn op nummer gezocht en daardoor soms fout (10 november: "motie op stuk nr. 40 van de heer Jimmy Dijk" werd motie 40 van Bikker uit het politiedossier). Daarom toont de site bij Stemmingen geen moties, alleen de sprekers, het verslag en de uitleg dat de uitslag bij het debat van de motie staat. Een veld `stemmingen` (welke moties in welke stemmingsronde, met datum) zou dit oplossen; dat staat in de open data (Besluit/Stemming per Zaak) en kost geen AI, alleen een uitbreiding van `scripts/moties.py`.

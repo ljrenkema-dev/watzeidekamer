@@ -480,7 +480,8 @@ def laad():
         namen = _sprekers_van([x.punt for x in d.delen])
         for m in ms:
             if d.is_stemmingen:
-                d.genoemde_moties.append(m)
+                # Niet gebruikt: de koppeling op motienummer is hier onbetrouwbaar (in de stemmingen van 10 nov werd
+                # "motie op stuk nr. 40 van de heer Jimmy Dijk" gekoppeld aan motie 40 van Bikker uit een ander dossier).
                 continue
             if m["indieners"] and _sprak(m["indieners"][0]["naam"], namen):
                 if m["id"] not in toegewezen:
@@ -519,3 +520,73 @@ def gebouwd_op():
 
 def bron_verslag(deel):
     return f"https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Verslag({deel.punt['vergadering']['verslag_id']})/resource"
+
+
+# ---------------------------------------------------------------- onderwerpen (variant B)
+
+class Onderwerp:
+    def __init__(self, debatten_):
+        self.debatten = sorted(debatten_, key=lambda d: d.begin)  # oudste eerst: een tijdlijn
+        echt = [d for d in self.debatten if not d.is_stemmingen] or self.debatten
+        self.titel = echt[0].titel_agenda
+        if self.titel.lower().startswith("voortzetting "):
+            self.titel = self.titel[len("voortzetting "):].capitalize()
+        self.laatst = max(d.begin for d in self.debatten)
+        self.slug = None
+
+    @property
+    def moties(self):
+        return [m for d in self.debatten for m in d.moties]
+
+    @property
+    def dossiers(self):
+        return sorted({m["dossier"] for m in self.moties})
+
+
+@lru_cache(None)
+def onderwerpen():
+    """Vaste regel: debatten met dezelfde agendatitel horen bij één onderwerp; debatten waarvan moties hetzelfde
+    Kamerstuk (dossiernummer) hebben ook. Stemmingen horen bij het onderwerp van de moties die er genoemd werden.
+    Stemmingen zonder genoemde motie staan los. Nieuwste activiteit eerst."""
+    ds = debatten()
+    ouder = {d.id: d.id for d in ds}
+
+    def vind(x):
+        while ouder[x] != x:
+            ouder[x] = ouder[ouder[x]]
+            x = ouder[x]
+        return x
+
+    def verbind(a, b):
+        ouder[vind(a.id)] = vind(b.id)
+
+    per_titel, per_dossier = {}, {}
+    for d in ds:
+        if not d.is_stemmingen:
+            t = re.sub(r"^voortzetting\s+", "", d.titel_agenda.lower()).strip()
+            per_titel.setdefault(t, []).append(d)
+        for m in (d.moties if not d.is_stemmingen else []):
+            per_dossier.setdefault(m["dossier"], []).append(d)
+        for m in d.genoemde_moties:
+            h = motie_debat(m["id"])
+            if h:
+                verbind(d, h)
+    for groep in list(per_titel.values()) + list(per_dossier.values()):
+        for d in groep[1:]:
+            verbind(d, groep[0])
+    groepen = {}
+    for d in ds:
+        groepen.setdefault(vind(d.id), []).append(d)
+    uit = [Onderwerp(v) for v in groepen.values()]
+    uit.sort(key=lambda o: o.laatst, reverse=True)
+    gezien = {}
+    for o in uit:
+        s = slug(o.titel, 60)
+        if o.titel == "Stemmingen":
+            s = f"stemmingen-{o.debatten[0].datum}-{tijd(o.debatten[0].begin).replace(':', '')}"
+        n = gezien.get(s, 0) + 1
+        gezien[s] = n
+        o.slug = s if n == 1 else f"{s}-{n}"
+        for d in o.debatten:
+            d.onderwerp_obj = o
+    return uit

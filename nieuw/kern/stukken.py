@@ -215,9 +215,8 @@ def afloop_tekst(d):
     if d.is_vragenuur:
         return "Bij een vragenuur worden geen moties ingediend en wordt niet gestemd."
     if d.is_stemmingen:
-        n = len(d.genoemde_moties)
-        return ("In deze vergadering stemde de Kamer." +
-                (f" Kamerleden noemden {n} {'motie' if n == 1 else 'moties'} in hun stemverklaring; die staan hieronder." if n else ""))
+        return ("In deze vergadering stemde de Kamer over moties, amendementen en wetsvoorstellen. Welke dat waren, kunnen we uit onze "
+                "gegevens niet betrouwbaar afleiden; het verslag laat zien wat Kamerleden bij hun stem zeiden. De uitslag van een motie staat bij het debat waarin ze is ingediend.")
     ms = d.moties
     if not ms:
         return "In onze gegevens staan geen moties bij dit debat."
