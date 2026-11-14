@@ -4,7 +4,7 @@
  "vraag": "Moet het amendement van PRO en Volt op het Belastingplan worden aangenomen?",
  "vraag_bron": "Verzoek van Mirjam Bikker (ChristenUnie) in de regeling van werkzaamheden van 11 november 2026: \"ik stel voor dat er morgenochtend om 10.15 uur een derde termijn wordt geopend\", met als reden \"omdat er waarschijnlijk een amendement volgt waarover we moeten spreken\"; de voorzitter (Van Campen) merkte op: \"er zijn nieuwe amendementen ingediend\". Het amendement van PRO en Volt noemt Bikker in dit debat zelf (beurt 24).",
  "vraag_bron_soort": 3,
- "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel of doel van het wetsvoorstel): bestaat (Pakket Belastingplan 2027), maar past niet; dit deel is een derde termijn die over het nieuwe amendement ging, dus 'Moet het Belastingplan worden aangenomen?' dekt het niet. Bron 3 (verzoek, data/verzoeken/294c2585-add8-4bee-859e-ef6853539cfb.json en het verslag van die regeling): bestaat en past; de derde termijn is aangevraagd vanwege het nieuwe amendement. Bron 4 en 5 daarom niet nodig.",
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel of doel van het wetsvoorstel): bestaat (Pakket Belastingplan 2027), maar past niet; dit deel is een derde termijn die over het nieuwe amendement ging, dus 'Moet het Belastingplan worden aangenomen?' dekt het niet. Bron 3 (verzoek, data/verzoeken/294c2585-add8-4bee-859e-ef6853539cfb.json en het verslag van die regeling): bestaat en past; de derde termijn is aangevraagd vanwege het nieuwe amendement. Bron 4 en 5 daarom niet nodig. Lezer: de derde termijn werd volgens de voorzitter toegekend 'met de minister-president', ook vanwege de politieke situatie (Wilders: 'Het gaat over veel meer dan alleen het amendement'); het amendement blijft de aanleiding die in het verzoek en door de voorzitter genoemd wordt en het onderwerp van de gekozen wisseling, dus bron 3 past.",
  "versies": {
   "a": {
    "regel": "Wisseling 1 (Vermeer BBB ↔ Bikker ChristenUnie, de langste) overgeslagen: de interrupties gaan over het tijdstip waarop Bikker over de deal hoorde, een feitelijke vraag zonder inhoudelijke tegenstelling (en beurt 50 is grotendeels een eigen betoog). Gekozen is wisseling 2: Markuszower vraagt herhaaldelijk of de ChristenUnie het PRO-amendement steunt, Bikker legt de keuze bij de VVD. Het onderwerp (amendement, deal, coalitie) is geen bijzaak.",
@@ -13,11 +13,11 @@
     "Wisseling 1 (Vermeer BBB ↔ Bikker): tijdstip waarop Bikker van de deal hoorde, geen inhoudelijke tegenstelling.",
     "Wisseling 3 (Keijzer ↔ Van Baarle DENK): gaat vooral over de relevantie van DENK, kleiner (3%)."
    ],
-   "aandeel_onderwerp": "26% (amendement|PRO|Volt|deal|coalitie|minderheid|kabinetscrisis|casino; beurten 0, 3, 5, 8, 9, 10, 15, 17, 19, 20, 24, 26 e.v.)",
+   "aandeel_onderwerp": "21% (amendement|\\bPRO\\b|\\bVolt\\b|\\bdeal|Klaver|Dassen|coalitie|minderheidskabinet|kabinetscrisis|casino; beurten 0, 3, 5, 9, 10, 15, 17, 19, 20, 24, 26, 27 e.v.)",
    "citaten": [
     {
      "beurt": 31,
-     "citaat": "Er ligt een amendement van PRO. Het kabinet ontraadt dat amendement … Steunt de ChristenUnie dat amendement?",
+     "citaat": "De VVD zegt: als dat amendement wordt aangenomen — ik heb geteld; de ChristenUnie is de beslissende stem — steunt de VVD het Belastingplan niet. … Steunt de ChristenUnie dat amendement?",
      "naam": "Gidi Markuszower",
      "partij": "Groep Markuszower",
      "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-12-49/markeringen?event=interrupter2026-11-12T15%3A20%3A58%2B0100",
@@ -63,7 +63,7 @@
     }
    ],
    "inkorten": [
-    "Beurt 31: weggelaten: de VVD-voorwaarde (steunt het Belastingplan niet als het amendement wordt aangenomen), 'ik heb geteld; de ChristenUnie is de beslissende stem', de instemming met Bikker en 'Ja of nee?'. Geen voorbehoud of ontkenning van de spreker zelf weggevallen; hij blijft vragen om een steun-of-niet-antwoord. Geen uitwijking.",
+    "Beurt 31 (aangepast door lezer): de VVD-voorwaarde met 'ik heb geteld; de ChristenUnie is de beslissende stem' staat er nu in, omdat Bikkers antwoord ('de keuze van de VVD is hoe de VVD stemt') daarop reageert. Weggelaten: de aanhef ('Dat hebben we allemaal gehoord …'), 'Er ligt een amendement van PRO. Het kabinet ontraadt dat amendement.', 'Dat zijn allemaal gegevens …', de instemming met Bikker ('helaas moet het zo …'), 'Maar het komt nu wel aan op een ja of een nee.' en het slot 'Ja of nee?'. Geen voorbehoud, ontkenning of voorwaarde van de spreker weggevallen (de voorwaarde 'als dat amendement wordt aangenomen' staat erin). Twee zinnen, 26 woorden. Geen uitwijking.",
     "Beurt 32: volledige eerste zin, niets weggelaten; voorbehouden ('een aantal zorgen', 'het debat is nog niet afgelopen') staan erin. Tweede en derde zin (constructieve partij, deugdelijk bestuur) weggelaten, geen voorbehoud. Geen uitwijking."
    ]
   }
@@ -77,5 +77,13 @@
   "moties": []
  },
  "afloop": "In dit debat zijn geen moties ingediend.",
- "afloop_kort": "Geen moties in dit debat."
+ "afloop_kort": "Geen moties in dit debat.",
+ "lezing": {
+  "oordeel": "aangepast",
+  "bevindingen": [
+   "Citaat beurt 31 had drie zinnen (regel: hooguit twee) en liet de VVD-voorwaarde weg, waardoor Bikkers antwoord over 'de keuze van de VVD' zonder voorkennis niet te begrijpen was; vervangen door de zin met de VVD-voorwaarde plus de vraag (ernst middel).",
+   "aandeel_onderwerp was te hoog gemeten: 'PRO' zonder woordgrens telt ook 'probleem', 'procent' enz.; opnieuw gemeten met woordgrenzen: 21%, nog steeds geen bijzaak (ernst klein).",
+   "Wisselingkeuze (wisseling 1 overgeslagen: alleen een feitelijke vraag over het tijdstip), volgorde (beurt 31 vóór 32), bron 3 en de neutrale vraag kloppen; citaat beurt 32 letterlijk met voorbehouden ('een aantal zorgen', 'het debat is nog niet afgelopen') (geen bevinding)."
+  ]
+ }
 }
