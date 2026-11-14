@@ -119,3 +119,7 @@ Niet overgenomen:
 - Lezer: "agendapunt"/"termijn" vervangen door "onderwerp"/"ronde" overal — deels gedaan (regel eerder/later); "termijn" blijft met uitleg, omdat het de term in het verslag is.
 - Lezer: moties.html kopjes inkorten — de toevoeging "in onze gegevens" is juist nodig (politicoloog); blijft.
 - Interface A/B: delen-navigatie onder het Waar-blok — niet gedaan deze ronde; de balk is kort en vorige/volgende moet bovenaan vindbaar zijn.
+
+## Keuze eigenaar (14 november 2026)
+
+De eigenaar kiest variant A (de vergaderdag). Vanaf hier gaan de rondes alleen nog over A; B en C blijven staan zoals na ronde 4 en worden niet verder bijgewerkt. De gedeelde code in kern/ blijft voor alle drie bouwbaar.
