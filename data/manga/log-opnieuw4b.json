@@ -1,0 +1,34 @@
+[
+ {
+  "wie": "Tom van der Lee",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Songül Mutluer",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Sebastiaan Stöteler",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Wieke Paulusma",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit this image. Keep exactly the same person, face shape, eyes, hair, glasses or no glasses, facial hair, clothing, colours, drawing style, framing and white background. Change only the facial expression: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Do not add or remove anything else: no glasses, accessories, text or frame unless they are already in the image.",
+  "model": "gemini-3.1-flash-image",
+  "portretfoto_meegestuurd": false
+ }
+]

@@ -137,7 +137,7 @@ def zoek_beeld(antwoord):
 
 
 def bestaand(map_, emo):
-    return next(iter(sorted(map_.glob(f"{emo}.*[gp]"))), None)
+    return next(iter(sorted(p for p in map_.glob(f"{emo}.*[gp]") if ".afgekeurd" not in p.name)), None)
 
 
 def maak(sleutel, u, emoties, log, stijl="zw"):
