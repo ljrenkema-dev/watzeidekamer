@@ -1,0 +1,97 @@
+{
+ "debat": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
+ "kop": "Vragenuur · 10 nov 2026 · vraag 1 van 3",
+ "vraag": "Acht de minister het ministerie aansprakelijk voor jarenlang lager uitzendloon?",
+ "vraag_bron": "Patijn (PRO) in haar mondelinge vraag: \"Mijn eerste vraag aan de minister is dan ook: acht hij het ministerie aansprakelijk?\" (over jarenlang lager loon voor uitzendkrachten dan voor collega's, ondanks een Europese richtlijn).",
+ "vraag_bron_soort": 1,
+ "vraag_bron_toetsing": "Bron 1 (de mondelinge vraag zelf) bestaat en past: dit is de eerste vraag van het vragenuur en de gekozen wisseling gaat daarover.",
+ "versies": {
+  "a": {
+   "regel": "De eerste vraag van het vragenuur (de bijzaakregel geldt niet bij een vragenuur). De langste wisseling (JA21 en minister Hermans over de gentest, 17%) betreft een latere vraag; de tweede wisseling gaat over de eerste vraag en bevat een echte tegenstelling: aansprakelijkheid en juridische houdbaarheid.",
+   "wisseling": "Mariëtte Patijn (PRO) ↔ Hans Vijlbrief (minister van Sociale Zaken en Werkgelegenheid), beurt 1–8, 7 beurten",
+   "afgevallen": [
+    "Wisseling 1 (Coenradie ↔ Hermans, gentest): betreft de tweede vraag van het vragenuur.",
+    "Wisseling 3 (Patijn ↔ Vijlbrief over 'gelijkwaardig' of 'gelijk'): vervolg op dezelfde vraag, maar over de wetstekst, kleiner (7%)."
+   ],
+   "aandeel_onderwerp": "n.v.t. (vragenuur: eerste vraag)",
+   "citaten": [
+    {
+     "beurt": 1,
+     "citaat": "Minister Kamp heeft willens en wetens een praktijk toegestaan waarvan hij wist dat die juridisch omstreden was. … Mijn eerste vraag aan de minister is dan ook: acht hij het ministerie aansprakelijk?",
+     "naam": "Mariëtte Patijn",
+     "partij": "PRO",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=speaker2026-11-10T14%3A00%3A23%2B0100",
+     "tijd": "14:00",
+     "figuur": {
+      "id": "d69d5cc9-9468-43b8-947f-0e9ae255176a",
+      "fractie": "PRO",
+      "u": {
+       "gezicht": "v",
+       "haarkleur": "blond",
+       "kapsel": "half-lang",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "gezichtsvorm": "rond",
+       "wenkbrauw": "dun",
+       "kleding": "colbert-top",
+       "onder": "donker",
+       "oorbel": "ring",
+       "manga": "3dd43fe1-c99a-4826-b08f-4ed3fc0dd9ba"
+      }
+     }
+    },
+    {
+     "beurt": 3,
+     "citaat": "Naar mijn mening, als ik er goed naar kijk, is er niets gebeurd wat juridisch niet door de beugel kon. Het was een interpretatie van een richtlijn.",
+     "naam": "Hans Vijlbrief",
+     "partij": "minister van Sociale Zaken en Werkgelegenheid",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/overig/plenaire-zaal/vragenuur-14-01/markeringen?event=speaker2026-11-10T14%3A01%3A19%2B0100",
+     "tijd": "14:01",
+     "figuur": {
+      "id": "8708ce06-a14f-4c27-bc25-941bf1fd0aa9",
+      "fractie": "",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "grijs",
+       "kapsel": "kort-dun",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "ouder",
+       "spiegel": false,
+       "gezichtsvorm": "rond",
+       "wenkbrauw": "dun",
+       "kleding": "colbert-open",
+       "manga": "19c8d0fb-66ca-4b45-be82-057cb36e1e61"
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    {
+     "beurt": 1,
+     "weggelaten": "Het is een risico voor de huidige minister. (tussenzin)",
+     "uitgeweken": false
+    },
+    {
+     "beurt": 3,
+     "weggelaten": "Niets weggelaten uit deze twee zinnen; het voorbehoud 'naar mijn mening' blijft staan. Het slot van de alinea (mensen kunnen naar de rechter) is weggelaten.",
+     "uitgeweken": false
+    }
+   ]
+  }
+ },
+ "partijen_totaal": 10,
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-14",
+  "kort": "Bij een vragenuur wordt niet gestemd.",
+  "lang": "Bij een vragenuur wordt niet gestemd en worden geen moties ingediend.",
+  "moties": []
+ },
+ "afloop": "Bij een vragenuur wordt niet gestemd en worden geen moties ingediend.",
+ "afloop_kort": "Bij een vragenuur wordt niet gestemd."
+}

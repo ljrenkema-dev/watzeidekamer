@@ -1,0 +1,88 @@
+{
+ "debat": "4a7d6515-21f1-4641-91c6-80b547a7d1b9",
+ "kop": "Wetgevingsdebat · 10 nov 2026 · antwoord kabinet",
+ "vraag": "Moet de vermogenswinstbelasting in box 3 worden uitgebreid?",
+ "vraag_bron": "Titel van het wetsvoorstel: \"Novelle uitbreiding vermogenswinstbelasting box 3\".",
+ "vraag_bron_soort": 2,
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag) bestaat niet: geen vragenuur. Bron 2 bestaat en past: het debat ging over de novelle zelf (de dekking ervan was het hoofdonderwerp van de interrupties); daarom niet verder naar bron 3 tot en met 5.",
+ "versies": {
+  "a": {
+   "regel": "De langste wisselingen (Heinen met Grinwis en met Stultiens over de rol van de minister) gaan over een bijzaak (4% van de spreektijd). Daarom een wisseling over de dekking, het onderwerp met de meeste spreektijd: Stultiens (PRO) en Heinen, beurt 53 en 54, die elkaar direct beantwoorden.",
+   "wisseling": "Luc Stultiens (PRO) ↔ Eelco Heinen (minister), beurt 53–54, 2 beurten",
+   "afgevallen": [
+    "Wisseling 1: Heinen ↔ Grinwis, beurt 4–14 (rol van de minister, 4% van de spreektijd: bijzaak)",
+    "Wisseling 3: Heinen ↔ Stultiens, beurt 14–22 (rol van de minister: bijzaak)",
+    "Wisseling 2: Heinen ↔ Grinwis, beurt 58–68 (dekking; zelfde onderwerp maar minder scherp over de vraag of het gedekt is)"
+   ],
+   "aandeel_onderwerp": "17% (dekking|gedekt|dekken|tekort|gat |miljard|ongedekt|overdekking)",
+   "citaten": [
+    {
+     "beurt": 53,
+     "citaat": "Het is zijn eigen tabel waarin staat: tekort structureel 86 miljoen. … Het is niet gedekt, want er is een structureel tekort van 86 miljoen.",
+     "inkorten": "Weggelaten: de vraag of de tabel opnieuw naar de Kamer moet en zijn oordeel over de dynamiek. Geen voorbehoud weggelaten.",
+     "naam": "Luc Stultiens",
+     "partij": "PRO",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/financien/plenaire-zaal/novelle-uitbreiding-vermogenswinstbelasting-box-3-37053-plenaire-afronding-2e-termijn-regering-16-30/markeringen?event=interrupter2026-11-10T17%3A15%3A30%2B0100",
+     "tijd": "17:15",
+     "figuur": {
+      "id": "5ca71911-c6fe-49f6-b7bb-fd27f9edd9ec",
+      "fractie": "PRO",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "donkerbruin",
+       "kapsel": "kort-golf",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": true,
+       "gezichtsvorm": "smal",
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-open",
+       "slapen": "bedekt",
+       "manga": "7a727f46-0e36-493f-8779-736d3250fb27"
+      }
+     }
+    },
+    {
+     "beurt": 54,
+     "citaat": "Het klopt, er staat 86 miljoen in de structurele situatie. … er in de tabellen die wij presenteren aan de uitgavenkant ook weer een overdekking zit en per saldo is dat afgerond nul.",
+     "inkorten": "Weggelaten: de verwijzing naar wat Stultiens weet en de zin dat hij een beeld wil wekken. Geen voorbehoud weggelaten.",
+     "naam": "Eelco Heinen",
+     "partij": "minister van Financiën",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-10/financien/plenaire-zaal/novelle-uitbreiding-vermogenswinstbelasting-box-3-37053-plenaire-afronding-2e-termijn-regering-16-30/markeringen?event=speaker2026-11-10T17%3A16%3A03%2B0100",
+     "tijd": "17:16",
+     "figuur": {
+      "id": "d55afb85-f47f-469e-a8a1-a37f8296d0b0",
+      "fractie": "",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "bruin",
+       "kapsel": "kort-kuif",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": true,
+       "gezichtsvorm": "hoekig",
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-das",
+       "volume": "plat",
+       "manga": "a3b17348-54cf-4bca-82d4-e62bd46c2fbc"
+      }
+     }
+    }
+   ]
+  }
+ },
+ "partijen_totaal": 10,
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-14",
+  "kort": "Geen moties in dit debat.",
+  "lang": "In dit debat zijn geen moties ingediend.",
+  "moties": []
+ },
+ "afloop": "In dit debat zijn geen moties ingediend.",
+ "afloop_kort": "Geen moties in dit debat."
+}

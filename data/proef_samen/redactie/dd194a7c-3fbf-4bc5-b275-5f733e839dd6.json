@@ -1,0 +1,92 @@
+{
+ "agendapunt": "dd194a7c-3fbf-4bc5-b275-5f733e839dd6",
+ "verslag_id": "0b4535e0-4257-48c9-9cd3-764382181d49",
+ "datum": "2026-11-10",
+ "onafhankelijk": true,
+ "soort": "pagina+kaart",
+ "oordeel": "aangepast",
+ "bevindingen": [
+  {
+   "waar": "kaart vraag",
+   "ernst": "middel",
+   "was": "Is het ministerie aansprakelijk voor te laag uitzendloon in het verleden?",
+   "nu": "Acht de minister het ministerie aansprakelijk voor jarenlang lager uitzendloon?",
+   "bron": "beurt 1: 'Mijn eerste vraag aan de minister is dan ook: acht hij het ministerie aansprakelijk?' (L5: de vraag aan de minister werd een algemene stelvraag; 'lager' sluit aan bij 'kregen jaren minder betaald')"
+  },
+  {
+   "waar": "samenvatting",
+   "ernst": "klein",
+   "was": "Patijn (PRO) vroeg of het ministerie aansprakelijk is",
+   "nu": "Patijn (PRO) vroeg of de minister het ministerie aansprakelijk acht",
+   "bron": "beurt 1: 'acht hij het ministerie aansprakelijk?' (L5)"
+  },
+  {
+   "waar": "samenvatting",
+   "ernst": "middel",
+   "was": "Volgens haar is geld geen barrière.",
+   "nu": "Omdat de test wordt vergoed, kan geld volgens haar geen barrière zijn; dat wordt wel onderzocht.",
+   "bron": "beurt 30: 'Althans, dat kan geen barrière zijn, maar dat wordt nu wel onderzocht.' (L2)"
+  },
+  {
+   "waar": "standpunt PRO (Patijn)",
+   "ernst": "klein",
+   "was": "vindt dat de minister bagatelliseert",
+   "nu": "vindt dat de minister een beetje bagatelliseert",
+   "bron": "beurt 4: 'Ik vind dat de minister toch een beetje bagatelliseert' (L3)"
+  },
+  {
+   "waar": "kernpunt 0",
+   "ernst": "klein",
+   "was": "Mensen staat het vrij naar de rechter te gaan.",
+   "nu": "Volgens hem staat het mensen vrij naar de rechter te gaan.",
+   "bron": "beurt 3: 'Het staat mensen vrij om daarover alsnog in beroep te gaan' (L4)"
+  },
+  {
+   "waar": "kernpunt 3",
+   "ernst": "klein",
+   "was": "vindt dat de vakbeweging dat moet opzetten",
+   "nu": "het is volgens hem aan de vakbeweging om dat op te zetten; plus zijn reden: hij vindt het gek zelf op te roepen tegen de overheid te procederen",
+   "bron": "beurt 23: 'Maar het is dan, denk ik, aan de vakbeweging ... Het wordt een beetje gek om een steunpunt te gaan maken waarbij ik mensen ga oproepen om te procederen tegen de overheid' (L1, L9)"
+  },
+  {
+   "waar": "kernpunt 6",
+   "ernst": "klein",
+   "was": "aan het einde van volgend jaar",
+   "nu": "volgens haar eind 2027",
+   "bron": "beurt 34: 'Die resultaten verwachten we volgend jaar, wel pas aan het einde van het jaar' (L7)"
+  },
+  {
+   "waar": "kernpunt 7",
+   "ernst": "middel",
+   "was": "wil dat de minister financiële prikkels uitsluit; ... ongeveer 15.000 euro",
+   "nu": "vraagt ... of de minister kan uitsluiten dat financiële prikkels meespelen; ... al snel 15.000 euro",
+   "bron": "beurt 28: 'Kan deze minister uitsluiten dat financiële prikkels bij de keuze voor een behandeling meespelen?'; beurt 31: 'Chemotherapie kost al snel €15.000' (L5, L3)"
+  },
+  {
+   "waar": "kernpunt 8",
+   "ernst": "klein",
+   "was": "volgende week op de ledenvergadering bespreekt",
+   "nu": "in de week na het vragenuur op de ledenvergadering onder de aandacht brengt",
+   "bron": "beurt 32: 'dat er volgende week een algemene ledenvergadering is, waar zij dit punt expliciet onder de aandacht zal brengen' (L7)"
+  },
+  {
+   "waar": "kernpunt 14",
+   "ernst": "klein",
+   "was": "een tekort van 728 miljoen",
+   "nu": "een tekort van 728 miljoen dat de VNG volgens haar ziet",
+   "bron": "beurt 68: 'Die zegt namelijk: ... Nu komen ze eigenlijk die 728 miljoen tekort.' (L4)"
+  },
+  {
+   "waar": "woord Commissie-Van Ark",
+   "ernst": "klein",
+   "was": "... in januari een nieuw advies ..., ook over de kostenverdeling tussen gemeenten en Rijk.",
+   "nu": "... in januari 2027 met een nieuw advies komt. Volgens Van der Burg gaat dat ongetwijfeld ook over de kostenverdeling ...",
+   "bron": "beurt 57: 'die in het verleden ook advies heeft uitgebracht, komt inderdaad in januari met een nieuw advies ... Dan zal het ongetwijfeld ook gaan over de kostenverdeling' (L4)"
+  }
+ ],
+ "gecontroleerd_zonder_wijziging": [
+  "Kaart: bron 1 (mondelinge vraag) is juist; reeks.py --voor 2026-11-10 geeft geen beperking, dus de eerste vraag is terecht gekozen. Patijn (beurt 1) sprak eerst en staat bovenaan.",
+  "Kaart citaten letterlijk (beurt 1 en 3); 'Naar mijn mening' blijft staan. Vijlbrief zei in dezelfde alinea ook 'Ik ga hier nu ook geen uitspraken doen over wie daar dan verantwoordelijk voor is'; het citaat eindigt op een zinsgrens en hij zou het als zijn standpunt herkennen, dus niet gewijzigd.",
+  "Alle fracties staan in sprekers, elk standpunt is van de persoon zelf (L13); vorm vragenuur met '- ' en onderwerpen in orde."
+ ]
+}
