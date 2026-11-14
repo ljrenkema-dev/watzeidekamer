@@ -9,6 +9,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from check import check  # noqa: E402
+from check_pagina import check as check_pagina  # noqa: E402
+
+
+def bron_bestand(pid):
+    """De tekst van een debatpagina: data/paginas/<id>.json (nieuw, zonder strip) gaat voor data/strips/<id>.json (oud)."""
+    for map_ in ("paginas", "strips"):
+        f = ROOT / "data" / map_ / f"{pid}.json"
+        if f.exists():
+            return f
+    return None
 
 OUT = ROOT / "public"
 MAANDEN = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus",
@@ -447,7 +457,7 @@ def delen_nav(punt):
     for n, pid in enumerate(d.get("ids") or [f"{d['ouder_id']}-d{k}" for k in range(1, d["van"] + 1)], 1):
         af = ROOT / "data" / "agendapunten" / f"{pid}.json"
         fase = json.loads(af.read_text())["deel"]["fase"] if af.exists() else ""
-        heeft = (ROOT / "public" / "d" / f"{pid}.html").exists() or (ROOT / "data" / "strips" / f"{pid}.json").exists()
+        heeft = (ROOT / "public" / "d" / f"{pid}.html").exists() or bron_bestand(pid) is not None
         tekst = f"Deel {n}: {e(fase)}"
         if n == d["nummer"]:
             items.append(f'<li aria-current="page"><b>{tekst}</b></li>')
@@ -536,7 +546,7 @@ def debat(punt, strip, met_strip=False):
             k_["manga"] = manga(koppeling.get(sid))
             k_["manga_int"] = manga_int(koppeling.get(sid))
         return k_
-    gebruikt = [s["id"] for s in strip["sprekers"]] + [p["spreker_id"] for p in strip["strip"] if p["spreker_id"]]
+    gebruikt = [s["id"] for s in strip["sprekers"]] + [p["spreker_id"] for p in strip.get("strip", []) if p["spreker_id"]]
     sprekers = [{"id": s["id"], **bekend[s["id"]], "standpunt": s["standpunt"],
                  "label": bekend[s["id"]]["verslagnaam"], "uiterlijk": kenmerken(s["id"])} for s in strip["sprekers"]]
     for sid in dict.fromkeys(gebruikt):  # sprekers die alleen in de strip staan (bijv. de voorzitter)
@@ -544,7 +554,7 @@ def debat(punt, strip, met_strip=False):
             sprekers.append({"id": sid, **bekend[sid], "standpunt": "", "label": bekend[sid]["verslagnaam"],
                              "uiterlijk": kenmerken(sid), "alleen_strip": True})
     vakken = []
-    for p in strip["strip"]:
+    for p in strip.get("strip", []):
         sp = bekend.get(p["spreker_id"]) if p["spreker_id"] else None
         vakken.append({"spreker": sp["verslagnaam"] if sp else "Verteller", "wie": wie(sp) if sp else "",
                        "emotie": p["emotie"], "citaat": p["citaat"], "interruptie": is_interruptie(punt, p),
@@ -560,7 +570,7 @@ def debat(punt, strip, met_strip=False):
     # Standpunten per partij: iedereen uit "sprekers" (één per fractie, plus bewindspersonen),
     # met een link naar het eerste vak van die spreker in de strip.
     eerste_vak_nr = {}
-    for nr, p_ in enumerate(strip["strip"], 1):
+    for nr, p_ in enumerate(strip.get("strip", []), 1):
         if p_["spreker_id"] and p_["spreker_id"] not in eerste_vak_nr:
             eerste_vak_nr[p_["spreker_id"]] = nr
     def naar_vak(sid):
@@ -595,7 +605,7 @@ def debat(punt, strip, met_strip=False):
         if not b["voorzitter"]:
             woorden_per[b["spreker"]["id"]] = woorden_per.get(b["spreker"]["id"], 0) + len(b["tekst"].split())
             beurten_per[b["spreker"]["id"]] = beurten_per.get(b["spreker"]["id"], 0) + 1
-    in_strip = list(dict.fromkeys(p["spreker_id"] for p in strip["strip"] if p["spreker_id"] and p["spreker_id"] in woorden_per))
+    in_strip = list(dict.fromkeys(p["spreker_id"] for p in strip.get("strip", []) if p["spreker_id"] and p["spreker_id"] in woorden_per))
     kabinet = [sid for sid in woorden_per if not bekend[sid]["fractie"]]
     rest = sorted(woorden_per, key=lambda sid: -woorden_per[sid])
     gekozen = []
@@ -604,7 +614,7 @@ def debat(punt, strip, met_strip=False):
             gekozen.append(sid)
     per_id = {s["id"]: s for s in sprekers}
     eerste_vak = {}
-    for p_ in strip["strip"]:
+    for p_ in strip.get("strip", []):
         if p_["spreker_id"] and p_["spreker_id"] not in eerste_vak:
             eerste_vak[p_["spreker_id"]] = p_
     def kaart(sid):
@@ -816,12 +826,15 @@ def main():
     if (ROOT / "site" / "manga").exists():
         shutil.copytree(ROOT / "site" / "manga", OUT / "manga")
     items = []
-    for sf in sorted((ROOT / "data" / "strips").glob("*.json")):
-        pid = sf.stem
+    pids = sorted({f.stem for map_ in ("paginas", "strips") for f in (ROOT / "data" / map_).glob("*.json")
+                   if not f.stem.startswith("_")} if (ROOT / "data" / "paginas").exists() else
+                  {f.stem for f in (ROOT / "data" / "strips").glob("*.json")})
+    for pid in pids:
+        sf = bron_bestand(pid)
         if json.loads(sf.read_text()).get("ingetrokken"):
             print(f"ingetrokken {pid}: {json.loads(sf.read_text()).get('reden', '')}")
             continue
-        fouten, _ = check(pid)
+        fouten, _ = (check_pagina if sf.parent.name == "paginas" else check)(pid)
         if fouten:
             print(f"overgeslagen {pid}: {len(fouten)} fout(en)")
             continue
@@ -845,7 +858,7 @@ def main():
                               *[s["naam"] + " " + s["fractie"] for s in sprekers]]),
         })
     items.sort(key=lambda x: x["begin"], reverse=True)
-    goed = {i["id"]: json.loads((ROOT / "data" / "strips" / f"{i['id']}.json").read_text()) for i in items}
+    goed = {i["id"]: json.loads(bron_bestand(i["id"]).read_text()) for i in items}
     def lees(naam):
         f = ROOT / "data" / naam
         return json.loads(f.read_text()) if f.exists() else {}
