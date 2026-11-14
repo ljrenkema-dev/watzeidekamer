@@ -21,6 +21,11 @@ KENMERKEN = ("gezicht", "haarkleur", "kapsel", "bril", "baard", "huid", "leeftij
              "gezichtsvorm", "wenkbrauw", "oogkleur", "kleding", "onder", "montuur", "oorbel", "pony", "volume", "slapen")
 
 
+# Makkelijke taal staat tijdelijk uit (besluit eigenaar, 14 nov 2026): geen knop en geen "Kort gezegd".
+# De makkelijke teksten blijven in de data staan; zet dit op True om ze weer te tonen.
+MAKKELIJK = False
+
+
 def niv(x, n):
     """Tekst voor taalniveau n ('normaal' of 'makkelijk'); oude strips hebben één string."""
     if isinstance(x, dict):
@@ -128,6 +133,8 @@ def kaart_vraag(K, x=None):
 
 
 def kaart_kort(c):
+    if not MAKKELIJK:
+        return ""
     return f'<p class="kort"><b>Kort gezegd:</b> {e(c["kort"])}</p>' if c.get("kort") else ""
 
 
@@ -482,13 +489,13 @@ def page(title, body, scripts="", root=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
 <link rel="stylesheet" href="{root}style.css">
-<script>try{{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}}catch(e){{document.documentElement.dataset.taal="normaal"}}</script>
+<script>{'try{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}catch(e){document.documentElement.dataset.taal="normaal"}' if MAKKELIJK else 'document.documentElement.dataset.taal="normaal"'}</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
+<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav">{'<button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button>' if MAKKELIJK else ''}</nav></header>
 {body}
 <footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="{root}over.html">Zo werken we</a> · <a href="{root}p/index.html">Alle politici</a>.</footer>
 </div>{scripts}<script>
-(function(){{const k=document.getElementById("taalknop");
+(function(){{const k=document.getElementById("taalknop");if(!k){{document.documentElement.dataset.taal="normaal";return;}}
 function zet(t){{document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
 try{{localStorage.setItem("taal",t)}}catch(e){{}};if(window.renderStrip&&window.STRIP)renderStrip(window.STRIP);}}
 k.addEventListener("click",()=>zet(document.documentElement.dataset.taal==="makkelijk"?"normaal":"makkelijk"));zet(document.documentElement.dataset.taal);}})();
