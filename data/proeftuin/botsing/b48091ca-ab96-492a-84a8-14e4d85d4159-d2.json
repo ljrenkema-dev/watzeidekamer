@@ -1,0 +1,139 @@
+{
+ "debat": "b48091ca-ab96-492a-84a8-14e4d85d4159-d2",
+ "kop": "Plenair debat · 11 nov 2026 · deel 2 van 6",
+ "vraag": "Hoe ver moet Nederland gaan in zijn steun aan Oekraïne en de druk op Rusland?",
+ "vraag_bron": "Bron 5: sprekers van vier fracties stellen de vraag in dit debat zelf, en de VVD (coalitie) gaat erop in. FVD (Dekker, beurt 6): 'directe aanvallen, ondersteund door de NAVO, op Russisch grondgebied' zijn iets 'wat wij in het verleden nooit gedurfd zouden hebben'. PVV (De Roon, beurt 7): 'Wij steunen Oekraïne als het gaat om de bescherming van hun land tegen de Russische agressie.' DENK (Van Baarle, beurt 33): 'Ik zou graag willen horen dat Nederland gaat inzetten op vrede, de-escalatie en diplomatie in plaats van alleen maar op escalatie.' SP (Dobbe, beurt 35): 'Nederland zou nog meer kunnen doen.' Antwoord VVD (Rajkowski, beurt 34): 'Ik kan alleen de druk opvoeren op Rusland om te stoppen en ik kan er alleen voor zorgen dat we Oekraïne eindeloos blijven steunen.' De vraag is in neutrale woorden gesteld (niet de formulering van één spreker).",
+ "vraag_bron_soort": 5,
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel of doel van het wetsvoorstel): de begroting Buitenlandse Zaken 2027 (37020-V) bestaat, maar 'Moet de begroting worden aangenomen?' past niet bij dit deel: het is de inbreng van de Kamer in de eerste termijn, er zijn geen moties ingediend en de wisseling gaat over Oekraïne en Rusland, niet over aanname van de begroting. Bron 3 (verzoek waarmee het debat is aangevraagd): in data/verzoeken/ en data/procedure/ staat geen verzoek om dit debat; het debatverzoek over de Rode Lijndemonstratie (procedure cc170a82, 10 november, geen meerderheid) gaat over Israël en een ander debat, en het verzoek om een brief vóór de begroting gaat ook niet over Oekraïne. Bron 4 (agendatitel 'Begroting Buitenlandse Zaken 2027' omgezet in een vraag): te breed ('Wat moet Nederland doen aan buitenlandbeleid?') en past niet bij de wisseling. Bron 5 bestaat en past: vier fracties (FVD, PVV, DENK, SP) raken de vraag, VVD-Kamerlid Rajkowski gaat er in hetzelfde deel op in (beurt 34, 36, 38); Oekraïne/Rusland is met 29% het grootste onderwerp.",
+ "versies": {
+  "a": {
+   "regel": "De langste wisseling (Dekker FVD ↔ De Roon PVV, 7 beurten) is een echte tegenstelling over Rusland en Oekraïne. Het onderwerp Rusland/Oekraïne is geen bijzaak (29% van de spreektijd), dus de bijzaakregel dwingt geen andere keuze af. Dekker vraagt of aanvallen op Russisch grondgebied niet te riskant zijn, De Roon steunt Oekraïne bij zelfverdediging maar zegt niet zelf te vragen om een aanval op Rusland. Dekker sprak eerst (beurt 6) en staat bovenaan.",
+   "wisseling": "Ralf Dekker (FVD) ↔ Raymond De Roon (PVV), beurt 2–11, 7 beurten",
+   "afgevallen": [
+    "Felix Klos (D66) ↔ Raymond De Roon (PVV), nexit en brexit, beurt 15–22: echte botsing, maar over een ander onderwerp (5% van de spreektijd) dan de vraag waar dit deel over ging",
+    "Queeny Rajkowski (VVD) ↔ Ralf Dekker (FVD), werken sancties, beurt 43–50: echte botsing en een goed alternatief, maar niet de langste wisseling; sancties alleen zijn met 9% een bijzaak"
+   ],
+   "aandeel_onderwerp": "29% (Rusland|Russisch|Oekraïne|Poetin|sanctie)",
+   "citaten": [
+    {
+     "beurt": 6,
+     "citaat": "Ik doel op directe aanvallen, ondersteund door de NAVO, op Russisch grondgebied. Wat ook de achtergrond is, dat is iets wat wij in het verleden nooit gedurfd zouden hebben, tegen de grootste kernmacht ter wereld.",
+     "naam": "Ralf Dekker",
+     "partij": "FVD",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/begroting-buitenlandse-zaken-37020-v-1e-tk-11-05/markeringen?event=interrupter2026-11-11T12%3A16%3A26%2B0100",
+     "tijd": "12:16",
+     "figuur": {
+      "id": "8988c769-aa74-4c5f-8483-2df20987c922",
+      "fractie": "FVD",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "wit",
+       "kapsel": "kort-kuif",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "ouder",
+       "spiegel": true,
+       "manga": "08ad50b1-831e-4f50-bed4-97d9d42b0752"
+      }
+     }
+    },
+    {
+     "beurt": 7,
+     "citaat": "Wij steunen Oekraïne als het gaat om de bescherming van hun land tegen de Russische agressie. Dat is heel wat anders dan dat wij zeggen: val alsjeblieft Rusland aan.",
+     "naam": "Raymond De Roon",
+     "partij": "PVV",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/begroting-buitenlandse-zaken-37020-v-1e-tk-11-05/markeringen?event=speaker2026-11-11T12%3A16%3A42%2B0100",
+     "tijd": "12:16",
+     "figuur": {
+      "id": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
+      "fractie": "PVV",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "wit",
+       "kapsel": "kort-dun",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "ouder",
+       "spiegel": true,
+       "manga": "c60c655f-40ba-47b0-8e93-a2c8d1ff4743"
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Dekker (beurt 6): geen weglating; twee volledige zinnen. Niet uitgeweken.",
+    "De Roon (beurt 7): hoogstens twee zinnen; weggelaten zijn de laatste twee zinnen van de beurt ('Maar Oekraïne vindt dat zij dit moeten doen om de Russische aanval te ondermijnen. Dat is heel begrijpelijk en misschien ook wel terecht. Zij staan daarmee in hun recht en dat ga ik hun niet ontkennen.'). Het weggelatene voegt toe dat De Roon het Oekraïense optreden begrijpelijk en misschien terecht vindt; het haalt geen voorbehoud bij de twee geciteerde zinnen weg. De Roon zou de twee zinnen als zijn standpunt herkennen. Niet uitgeweken."
+   ]
+  },
+  "c": {
+   "regel": "Zelfde wisseling, latere ronde: Dekker vraagt of de risico's die het Westen nu neemt in de jaren tachtig ondenkbaar waren, De Roon vindt het een goede zaak niet achterover te leunen als Rusland ons ondermijnt. Dekker sprak eerst (beurt 9).",
+   "wisseling": "Ralf Dekker (FVD) ↔ Raymond De Roon (PVV), beurt 9–11",
+   "afgevallen": [],
+   "aandeel_onderwerp": "29% (Rusland|Russisch|Oekraïne|Poetin|sanctie)",
+   "citaten": [
+    {
+     "beurt": 9,
+     "citaat": "Maar is de heer Van Roon niet van mening dat de risico's die we nu vanuit het Westen nemen, door Rusland te provoceren met allerlei aanvallen, in de jaren tachtig ondenkbaar waren?",
+     "naam": "Ralf Dekker",
+     "partij": "FVD",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/begroting-buitenlandse-zaken-37020-v-1e-tk-11-05/markeringen?event=interrupter2026-11-11T12%3A17%3A06%2B0100",
+     "tijd": "12:17",
+     "figuur": {
+      "id": "8988c769-aa74-4c5f-8483-2df20987c922",
+      "fractie": "FVD",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "wit",
+       "kapsel": "kort-kuif",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "ouder",
+       "spiegel": true,
+       "manga": "08ad50b1-831e-4f50-bed4-97d9d42b0752"
+      }
+     }
+    },
+    {
+     "beurt": 11,
+     "citaat": "De heer De Roon vindt het nog steeds een goede zaak om niet achterover te leunen als Rusland ons begint te ondermijnen en eigenlijk ook dreigt ons aan te vallen.",
+     "naam": "Raymond De Roon",
+     "partij": "PVV",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/begroting-buitenlandse-zaken-37020-v-1e-tk-11-05/markeringen?event=speaker2026-11-11T12%3A17%3A25%2B0100",
+     "tijd": "12:17",
+     "figuur": {
+      "id": "4c07e46b-eb3c-41a5-850a-a1990234fbf3",
+      "fractie": "PVV",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "wit",
+       "kapsel": "kort-dun",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "ouder",
+       "spiegel": true,
+       "manga": "c60c655f-40ba-47b0-8e93-a2c8d1ff4743"
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Dekker (beurt 9): hele beurt, één zin. Niet uitgeweken.",
+    "De Roon (beurt 11): alleen de eerste zin van drie; weggelaten zijn de tweede zin ('Je bent verloren en hebt de strijd verloren voordat die begonnen is als je daarvoor bezwijkt, als je je daar niet tegen verzet en niet met gelijke munt terugbetaalt.', 36 woorden, te lang naast de eerste) en een mededeling over een voorstel aan de minister. De eerste zin is zijn standpunt zonder voorbehoud dat vervalt. Niet uitgeweken."
+   ]
+  }
+ },
+ "partijen_totaal": 10,
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-14",
+  "kort": "Geen moties in dit debat.",
+  "lang": "In dit debat zijn geen moties ingediend.",
+  "moties": []
+ },
+ "afloop": "In dit debat zijn geen moties ingediend.",
+ "afloop_kort": "Geen moties in dit debat."
+}

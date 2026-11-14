@@ -1,0 +1,144 @@
+{
+ "debat": "be0a626e-43e2-48d7-8d1e-2c60fd372f02-d2",
+ "kop": "Derde termijn Pakket Belastingplan 2027 · 12 nov 2026 · inbreng Kamer",
+ "vraag": "Wat betekent het amendement op het Belastingplan voor de politieke situatie?",
+ "vraag_bron": "Verzoek om de derde termijn (regeling van werkzaamheden 11 november 2026): Bikker (ChristenUnie): \"ik stel voor dat er morgenochtend om 10.15 uur een derde termijn wordt geopend\", omdat \"er waarschijnlijk een amendement volgt waarover we moeten spreken\"; Wilders (PVV) wilde praten \"over de nieuwe politieke situatie\"; voorzitter Van Campen: \"er zijn nieuwe amendementen ingediend\".",
+ "vraag_bron_soort": 3,
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel/doel wetsvoorstel, Pakket Belastingplan 2027): past niet; deze derde termijn werd aangevraagd voor een nieuw amendement en de politieke situatie daaromheen, dus 'Moet het Belastingplan worden aangenomen?' dekt dit deel niet. Bron 3 (verzoek, data/verzoeken/294c2585-add8-4bee-859e-ef6853539cfb.json en het verslag van die regeling): bestaat en past, met als reden het amendement en de nieuwe politieke situatie. Bron 4 en 5 niet nodig.",
+ "versies": {
+  "a": {
+   "regel": "Wisseling 2 (Paternotte ↔ Keijzer) is de langste (14% van de spreektijd) en een echte botsing: Keijzer vraagt of de koers rond het amendement de gevolgen waard is, Paternotte (D66) verdedigt het amendement. Het onderwerp (amendement, box 3, populisme, 'waard') is met 14% geen bijzaak. De citaten komen uit de tweede ronde (beurt 41 en 42), omdat daar de vraag en het antwoord het duidelijkst naast elkaar staan.",
+   "wisseling": "Mona Keijzer (Lid Keijzer) ↔ Jan Paternotte (D66), beurt 38–45, 7 beurten",
+   "afgevallen": [
+    "Wisseling 1 (Paternotte ↔ Eerdmans, JA21): gaat over wanneer de VVD werd geïnformeerd over de afspraken met PRO; 6% van de spreektijd, kleiner en meer procedureel.",
+    "Wisseling 3 (Paternotte ↔ Dijk, SP): over de kabinetscrisis; gebruikt als versie c."
+   ],
+   "aandeel_onderwerp": "14% (amendement|box 3|Klaver|Dassen|miljonair|lastenverlichting|populisme|waard; beurten 9, 24, 25, 27, 28, 35, 39, 40, 41, 42, 44, 45)",
+   "citaten": [
+    {
+     "beurt": 41,
+     "citaat": "De coalitie opblazen, de eerste premier van D66-huize van Nederland als volstrekt onbetrouwbaar neerzetten, miljonairs, zogenaamde miljonairs, tegenover mensen met lage inkomens zetten, wat plat populisme is van links: is dit het nou waard geweest?",
+     "naam": "Mona Keijzer",
+     "partij": "Lid Keijzer",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=interrupter2026-11-12T11%3A40%3A31%2B0100",
+     "tijd": "11:40",
+     "figuur": {
+      "id": "bb57944e-5a38-4899-be48-9b635a5bf1e4",
+      "fractie": "Lid Keijzer",
+      "u": {
+       "gezicht": "v",
+       "haarkleur": "grijs",
+       "kapsel": "lang",
+       "bril": "rechthoek",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "ouder",
+       "spiegel": true,
+       "manga": "8c5a8186-8f46-4bca-956d-06d4fa521635"
+      }
+     }
+    },
+    {
+     "beurt": 42,
+     "citaat": "Ik vind niet dat miljonairs daarmee tegenover gewone mensen worden gezet. … Mensen die meer dan €60.000 winst maken op hun vermogen … dragen 2,5% meer bij over die winst.",
+     "naam": "Jan Paternotte",
+     "partij": "D66",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=speaker2026-11-12T11%3A41%3A33%2B0100",
+     "tijd": "11:41",
+     "figuur": {
+      "id": "c284355b-902b-4073-a057-24daec031e39",
+      "fractie": "D66",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "bruin",
+       "kapsel": "kort-scheiding",
+       "bril": "geen",
+       "baard": "stoppel",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-das",
+       "manga": "2690bccc-5463-459a-b1df-cb93e222b348"
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Beurt 41 (Keijzer): weggelaten is de aanloop voor de zin (\"Het is altijd het riedeltje dat je dan krijgt, maar mijn vraag ging over de vraag die daarboven hangt. Is dit het nou waard?\"); de zin zelf staat volledig, en eindigt met dezelfde vraag. Zij zegt \"zogenaamde miljonairs\" en \"plat populisme\" zelf; dat staat erin. De zinnen daarna (start-ups, exitbelasting van 400 miljoen) vielen af. Geen uitwijk naar een andere beurt.",
+    "Beurt 42 (Paternotte): weggelaten is \"Ik denk dat je ook gewoon heel redelijk naar de feiten kan kijken.\" en de bijzin \"— meer dan €60.000 winst: dat is een hele kleine groep Nederlanders —\". De zin met \"Mensen die meer dan €60.000 winst maken\" blijft dus staan met zijn voorwaarde. Weggelaten ook: het vervolg dat modale inkomens lastenverlichting krijgen en bijna 2,5 miljoen spaarders en beleggers iets minder belasting betalen. Het citaat gaat dus alleen over wie meer bijdraagt, niet over wie er op vooruitgaat. Geen uitwijk naar een andere beurt."
+   ]
+  },
+  "c": {
+   "regel": "Andere invalshoek binnen het onderwerp politieke situatie: wisseling 3 (Dijk ↔ Paternotte), over de vraag of de kabinetscrisis zijn verantwoordelijkheid is. Het onderwerp (crisis, coalitie, kabinet, vertrouwen, verantwoordelijk) heeft 20% van de spreektijd. Alleen de beurten 63 en 64 uit deze wisseling zijn gebruikt: Dijk sprak eerst, dus bovenaan.",
+   "wisseling": "Jimmy Dijk (SP) ↔ Jan Paternotte (D66), beurt 62–68, 6 beurten",
+   "afgevallen": [
+    "Wisseling 2 (Keijzer) is versie a."
+   ],
+   "aandeel_onderwerp": "20% (crisis|coalitie|kabinet|vertrouwen|verantwoordelijk; beurten 4, 8, 9, 10, 13, 15, 16, 18, 20, 22, 29, 30 en later)",
+   "citaten": [
+    {
+     "beurt": 63,
+     "citaat": "Er is sprake van een kabinetscrisis. … Ik wil hem graag vragen of hij zich hier verantwoordelijk voor voelt.",
+     "naam": "Jimmy Dijk",
+     "partij": "SP",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=interrupter2026-11-12T11%3A50%3A45%2B0100",
+     "tijd": "11:50",
+     "figuur": {
+      "id": "a7d583c5-c521-49f7-99be-35bd470fbf35",
+      "fractie": "SP",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "donkerbruin",
+       "kapsel": "opgeschoren",
+       "bril": "geen",
+       "baard": "stoppel",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": false,
+       "manga": "990b2d9b-0b83-4dde-ab04-5cd5d8c5c4d3"
+      }
+     }
+    },
+    {
+     "beurt": 64,
+     "citaat": "Ik voel mij volledig verantwoordelijk voor alles wat raakt aan deze coalitie. Ik ben fractievoorzitter van een coalitiepartij.",
+     "naam": "Jan Paternotte",
+     "partij": "D66",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-10-19/markeringen?event=speaker2026-11-12T11%3A51%3A00%2B0100",
+     "tijd": "11:51",
+     "figuur": {
+      "id": "c284355b-902b-4073-a057-24daec031e39",
+      "fractie": "D66",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "bruin",
+       "kapsel": "kort-scheiding",
+       "bril": "geen",
+       "baard": "stoppel",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-das",
+       "manga": "2690bccc-5463-459a-b1df-cb93e222b348"
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Beurt 63 (Dijk): weggelaten is \"Ik moet zeggen dat ik de heer Paternotte hier redelijk laconiek zie staan.\" (zijn waarneming, niet de vraag). Beurt 64 (Paternotte): weggelaten zijn de zinnen over elke dag oplossingen en bruggen zoeken en over \"mooi werk\"; geen voorbehoud of ontkenning viel weg. Geen uitwijk."
+   ]
+  }
+ },
+ "partijen_totaal": 10,
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-14",
+  "kort": "Geen moties in dit debat.",
+  "lang": "In dit debat zijn geen moties ingediend.",
+  "moties": []
+ },
+ "afloop": "In dit debat zijn geen moties ingediend.",
+ "afloop_kort": "Geen moties in dit debat."
+}

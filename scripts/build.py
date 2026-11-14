@@ -120,6 +120,26 @@ def kaart_site(K):
             f'<p class="ookl">{e(ook)}{". " if ook else ""}<a href="#standpunten">Lees alle standpunten</a></p>{kaart_afloop(K)}</div></article>')
 
 
+def kaart_tegen(K):
+    """De twee sprekers van de botsing (of één bij geen botsing)."""
+    return K["versies"][kaart_versie(K)]["citaten"]
+
+
+def kaart_carrousel(K, href):
+    """Grote kaart voor 'Deze week in de Kamer' op de voorpagina."""
+    v = kaart_versie(K)
+    x = K["versies"][v]
+    paar = "".join(
+        f'<div class="c"><blockquote>“{e(kaart_citaat(c))}”</blockquote>'
+        f'<div class="w">{kaart_fig(c)}<div>{e(c["naam"])} <span>· {e(c["partij"])}</span></div></div></div>'
+        for c in x["citaten"])
+    ook = kaart_ook(K, v)
+    return (f'<article class="kaart-site slide"><div class="band"><span class="tag">{e(K["kop"])}</span>'
+            f'<h3><a href="{e(href)}">{e(x.get("vraag") or K["vraag"])}</a></h3></div>'
+            f'<div class="rest"><div class="paar">{paar}</div>'
+            f'<p class="ookl">{e(ook)}{". " if ook else ""}<a href="{e(href)}">Lees het debat en alle standpunten</a></p></div></article>')
+
+
 KAART_JS = ('<script src="{root}strip.js"></script><script>document.querySelectorAll("[data-fig]").forEach(el=>{const f=JSON.parse(el.dataset.fig);'
             'el.innerHTML=\'<svg viewBox="16 6 68 78" preserveAspectRatio="xMidYMin slice">\'+character(makeLook(f.id,f.fractie,f.u),"neutraal")+"</svg>";});</script>')
 
@@ -616,28 +636,79 @@ def groepeer(items):
     return uit
 
 
+def tegen_html(K, figuren=True):
+    cs = kaart_tegen(K)
+    namen = " en ".join(f'<b>{e(c["naam"])}</b> ({e(c["partij"])})' for c in cs)
+    figs = "".join(kaart_fig(c) for c in cs) if figuren else ""
+    label = "Tegenover elkaar" if len(cs) > 1 else "Aan het woord"
+    return f'<p class="tegen">{figs}<span>{label}: {namen}</span></p>'
+
+
+def chips_html(fracties, label):
+    if not fracties:
+        return ""
+    return (f'<div class="chips"><span class="chiplab">{e(label)}</span>'
+            + "".join(f"<span class=chip>{e(f)}</span>" for f in fracties) + "</div>")
+
+
 def item_html(it):
     kop = (f'<a href="d/{it["id"]}.html">{twee(it["titel"])}</a>' if it.get("id") else twee(it["titel"]))
+    K = it.get("kaart")
     delen = ""
     if it.get("delen"):
         delen = '<ol class="delenlijst">' + "".join(
-            f'<li><a href="d/{x["id"]}.html">Deel {x["deel"]["nummer"]}: {e(x["deel"]["fase"])}</a> — {twee(x["titel"])}{(" <span class=vraag>" + e(x["vraag"]) + "</span>") if x.get("vraag") else ""}</li>'
+            f'<li><a href="d/{x["id"]}.html">Deel {x["deel"]["nummer"]}: {e(x["deel"]["fase"])}</a> — {twee(x["titel"])}'
+            + ((" <span class=vraag>" + e(x["vraag"]) + "</span>" + tegen_html(x["kaart"], figuren=False)) if x.get("kaart") else "")
+            + "</li>"
             for x in it["delen"]) + "</ol>"
+        chips = chips_html(it["fracties"], "Aan het woord in dit debat:")
+        vraag = ""
+    elif K:
+        botsing = {(c.get("figuur") or {}).get("fractie") for c in kaart_tegen(K)}
+        ook = [f for f in it["fracties"] if f not in botsing]
+        chips = chips_html(ook, "Ook aan het woord:")
+        vraag = f'<p class="vraag">{e(it["vraag"])}</p>{tegen_html(K)}'
+    else:
+        chips = chips_html(it["fracties"], "Aan het woord:")
+        vraag = ""
     return (f'<li class="item" data-zoek="{e(it["zoek"].lower())}" data-fracties="{e("|".join(it["fracties"]))}">'
             f'<div class="meta"><span>{datum(it["datum"])}</span><span class="tag">{e(it["soort"])}</span>'
             f'{"<span class=\"tag warn\">Voorlopig</span>" if it["voorlopig"] else ""}</div>'
-            f'<h3>{kop}</h3>{("<p class=vraag>" + e(it["vraag"]) + "</p>") if it.get("vraag") else ""}{twee(it["lead"], "p")}{delen}'
-            f'<div class="chips">{"".join(f"<span class=chip>{e(f)}</span>" for f in it["fracties"])}</div></li>')
+            f'<h3>{kop}</h3>{vraag}{twee(it["lead"], "p")}{delen}{chips}</li>')
+
+
+def deze_week(items, n=8):
+    """Carrousel: per debat één kaart (het eerste deel met een kaart), debatten van de laatste 7 dagen, nieuwste eerst."""
+    met = [it for it in items if it.get("kaart")]
+    if not met:
+        return ""
+    from datetime import date, timedelta
+    laatste = max(date.fromisoformat(it["datum"][:10]) for it in met)
+    grens = (laatste - timedelta(days=6)).isoformat()
+    gekozen, gezien = [], set()
+    for it in sorted(met, key=lambda x: ((x.get("deel") or {}).get("nummer", 0))):
+        sleutel = (it.get("deel") or {}).get("ouder_id") or it["id"]
+        if it["datum"][:10] >= grens and sleutel not in gezien:
+            gezien.add(sleutel); gekozen.append(it)
+    gekozen.sort(key=lambda x: x["begin"], reverse=True)
+    kaarten = "".join(kaart_carrousel(it["kaart"], f'd/{it["id"]}.html') for it in gekozen[:n])
+    return (f'<section class="week" aria-labelledby="weekkop"><h2 id="weekkop">Deze week in de Kamer</h2>'
+            f'<p class="note">Per debat de vraag waar het om draaide en twee sprekers die er tegenover elkaar stonden. '
+            f'Nieuwste debat eerst. <a href="over.html#kaart">Hoe kiezen we?</a></p>'
+            f'<div class="carrousel" tabindex="0" aria-label="Kaarten van deze week, veeg opzij">{kaarten}</div></section>')
 
 
 def index(items):
+    week = deze_week(items)
     items = groepeer(items)
     partijen = sorted({f for it in items for f in it["fracties"]})
     lijst = "".join(item_html(it) for it in items)
     opties = "".join(f'<option value="{e(p)}">{e(p)}</option>' for p in partijen)
     body = f"""<main style="display:flex;flex-direction:column;gap:20px">
 <h1>Wat zei de <mark>Kamer?</mark></h1>
-<p class="lede">Debatten uit de Tweede Kamer in normale taal. Bovenaan elk debat de vraag waar het om draaide, met twee letterlijke citaten van wie er tegenover elkaar stonden.</p>
+<p class="lede">Debatten uit de Tweede Kamer in normale taal. Per debat de vraag waar het om draaide, met twee letterlijke citaten van wie er tegenover elkaar stonden, en de standpunten van alle partijen die spraken.</p>
+{week}
+<h2>Alle debatten</h2>
 <div class="filters"><label for="q" class="visually-hidden" style="position:absolute;left:-9999px">Zoeken</label>
 <input id="q" type="search" placeholder="Zoek op onderwerp of naam, bijvoorbeeld 'belasting'">
 <label for="partij" style="position:absolute;left:-9999px">Partij</label>
@@ -650,7 +721,7 @@ const q=document.getElementById('q'),p=document.getElementById('partij'),items=[
 function f(){const t=q.value.trim().toLowerCase();let n=0;for(const it of items){const ok=(!t||it.dataset.zoek.includes(t))&&(!p.value||it.dataset.fracties.split('|').includes(p.value));it.hidden=!ok;n+=ok;}
 document.getElementById('telling').textContent=n+' debat'+(n===1?'':'ten');}
 q.addEventListener('input',f);p.addEventListener('change',f);f();
-</script>"""
+</script>""" + KAART_JS.replace("{root}", "")
     return page("Wat zei de Kamer?", body, js)
 
 
@@ -685,6 +756,7 @@ def main():
         items.append({
             "id": pid, "deel": punt.get("deel"), "titel": strip["titel"] if isinstance(strip["titel"], dict) else {"normaal": strip["titel"]}, "datum": v["datum"], "soort": v["soort"], "begin": punt["begin"],
             "vraag": (lambda K: (K["versies"][kaart_versie(K)].get("vraag") or K["vraag"]) if K else "")(lees_kaart(pid)),
+            "kaart": lees_kaart(pid),
             "voorlopig": v["status"] in VOORLOPIG, "lead": {n: niv(strip["samenvatting"], n).split(". ")[0].rstrip(".") + "." for n in ("normaal", "makkelijk")},
             "fracties": sorted({s["fractie"] for s in sprekers if s["fractie"]}),
             "zoek": " ".join([niv(strip["titel"], "normaal"), niv(strip["titel"], "makkelijk"), punt["titel"],

@@ -169,3 +169,20 @@ table.standpunten tr.onderwerp th{background:#f3f1ea;font-size:15px;padding-top:
 .afloop .lab{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.afloop .bij{font-size:13px;color:var(--muted)}
 .item .vraag{font-family:var(--display);font-weight:700;margin:0}
 .delenlijst .vraag{display:block;font-family:var(--display);font-weight:700}
+/* Voorpagina: Deze week in de Kamer (carrousel) en kaartjes in de lijst */
+.week{display:flex;flex-direction:column;gap:10px;min-width:0}
+.carrousel{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 12px;overscroll-behavior-x:contain}
+.carrousel:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.carrousel .slide{flex:0 0 min(86%,440px);scroll-snap-align:start}
+.carrousel .slide h3{font-family:var(--display);font-size:clamp(1.3rem,4.4vw,1.7rem);font-weight:900}
+.carrousel .slide h3 a{color:var(--ink);text-decoration:none}
+.carrousel .slide h3 a:hover,.carrousel .slide h3 a:focus-visible{text-decoration:underline}
+.carrousel .slide .paar{grid-template-columns:1fr;gap:12px}
+.carrousel .slide blockquote{font-size:16px}
+.carrousel .slide .fg{width:56px}
+.tegen{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:6px 0 0;font-size:15px}
+.tegen .fg{display:block;width:40px;aspect-ratio:1/1;box-sizing:border-box;background:#fff;border-radius:50%;border:2px solid var(--ink);overflow:hidden;flex:0 0 auto}
+.tegen .fg svg{width:100%;height:100%;display:block}
+.tegen span{margin-left:4px}
+.delenlijst .tegen{font-size:14px;margin:2px 0 4px;color:var(--muted)}
+.chiplab{font-size:13px;color:var(--muted);align-self:center;margin-right:2px}

@@ -1,0 +1,79 @@
+{
+ "debat": "c0b2be4c-9cd7-4be6-9421-01b294be732d-d2",
+ "kop": "Begroting Buitenlandse Zaken · 11 nov 2026 · deel 5 van 6 (antwoord van het kabinet)",
+ "vraag": "Moet de begroting van Buitenlandse Zaken voor 2027 worden aangenomen?",
+ "vraag_bron": "Agendatitel en doel van het wetsvoorstel: \"Begroting Buitenlandse Zaken 2027\" (Begroting Buitenlandse Zaken (37020-V) 1e TK), de vaststelling van de begroting, omgezet in een vraag.",
+ "vraag_bron_soort": 2,
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel/doel wetsvoorstel): bestaat en past; dit is het antwoord van het kabinet in het begrotingsdebat (deel 5 van 6) over wetsvoorstel 37020-V. De officiële wettitel staat niet in de data; gebruikt is de agendatitel en het onderwerp 'Begroting Buitenlandse Zaken (37020-V)'. De vraag sluit slechts indirect aan op de gekozen wisseling (Oekraïne-onderhandelingen), want de begroting dekt het hele buitenlandbeleid. Bronnen 3 tot en met 5 daarom niet nodig: in data/verzoeken/ en de regelingen staat geen verzoek om dit debat gezocht, en bron 5 is niet nodig omdat bron 2 bestaat en past.",
+ "versies": {
+  "a": {
+   "regel": "Wisseling 1 (Piri PRO ↔ Berendsen) overgeslagen: het G20-deel is een bijzaak (1% van de spreektijd) en de rest is een lang antwoord over Israël zonder wisseling. Wisseling 3 (Dekker FVD ↔ Berendsen) is een bijzaak (2%). Gekozen is wisseling 2, over Oekraïne, Rusland en de vredesonderhandelingen (24% van de spreektijd, het grootste onderwerp), met een duidelijke tegenstelling: DENK wil dat Europa zelf een tafel neerzet, de minister vindt dat geen zin hebben. Wie het eerst sprak, staat bovenaan: Van Baarle (beurt 14) vóór de minister (beurt 15) in de ronde over de eigen Europese tafel.",
+   "wisseling": "Stephan Van Baarle (DENK) ↔ Tom Berendsen (minister van Buitenlandse Zaken), beurt 11–18, 7 beurten",
+   "afgevallen": [
+    "Wisseling 1 (Piri PRO ↔ minister, beurt 50–60): G20-uitnodiging Poetin is bijzaak (1%); het antwoord over Israël is een monoloog van de minister.",
+    "Wisseling 3 (Dekker FVD ↔ minister, beurt 18–25): bijzaak (2% voor staakt-het-vuren)."
+   ],
+   "aandeel_onderwerp": "24% (Oekraïne|Rusland|Poetin|Abu Dhabi|onderhandel|vredes|staakt-het-vuren; beurten 0, 1, 3–6, 11–15, 17 …); onderwerp van de wisseling (tafel/onderhandelen) alleen: 14% (tafel|onderhandel|vredesproces|vredesbesprekingen|Abu Dhabi|staakt-het-vuren)",
+   "citaten": [
+    {
+     "beurt": 14,
+     "citaat": "Waarom wachten wij af en kijken we of de ander in gesprek wil? Waarom zetten wij die stap niet en zorgen we er niet voor dat er een tafel is, namelijk ónze tafel waar we de belangen vooropstellen?",
+     "naam": "Stephan Van Baarle",
+     "partij": "DENK",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/begroting-buitenlandse-zaken-37020-v-1e-tk-voortzetting-14-45/markeringen?event=interrupter2026-11-11T18%3A45%3A11%2B0100",
+     "tijd": "18:45",
+     "figuur": {
+      "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "fractie": "DENK",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "zwart",
+       "kapsel": "kort-kort",
+       "bril": "geen",
+       "baard": "kort",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": false
+      }
+     }
+    },
+    {
+     "beurt": 15,
+     "citaat": "Zoals ik zojuist ook gezegd heb, is er nu in Abu Dhabi een vredesproces om partijen bij elkaar te krijgen, waar de VS leiding aan geven. … Het heeft geen zin om alternatieve tafels neer te gaan zetten.",
+     "naam": "Tom Berendsen",
+     "partij": "minister van Buitenlandse Zaken",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/begroting-buitenlandse-zaken-37020-v-1e-tk-voortzetting-14-45/markeringen?event=speaker2026-11-11T18%3A45%3A53%2B0100",
+     "tijd": "18:45",
+     "figuur": {
+      "id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+      "fractie": "",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "grijs",
+       "kapsel": "kort-kuif",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": false
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Beurt 14 (Van Baarle): weggelaten zijn de eerdere zinnen (instemming dat Europa geen neutrale partij is, geen illusies over Poetin, Trump voert gesprekken) en de zin 'juist als het in jouw belang is, waarom gaan wij dan niet als Europa zelf in gesprek?'. Geen voorbehoud, ontkenning of voorwaarde weggevallen; twee volledige zinnen, geen uitwijking.",
+    "Beurt 15 (minister): weggelaten zijn 'Daar zijn ook Europese partijen bij betrokken; dat is terecht, want onze belangen staan op het spel. Dat is de tafel waar nu aan gesproken kan worden.' en de slotzin over de duurzame uitkomst en Europese vertegenwoordiging. Zijn standpunt (er is al een proces met Europese partijen erbij; een tweede tafel heeft geen zin) blijft intact; hij zou dit als eigen standpunt herkennen. Geen uitwijking naar een andere beurt."
+   ]
+  }
+ },
+ "partijen_totaal": 6,
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-14",
+  "kort": "Geen moties in dit debat.",
+  "lang": "In dit debat zijn geen moties ingediend.",
+  "moties": []
+ },
+ "afloop": "In dit debat zijn geen moties ingediend.",
+ "afloop_kort": "Geen moties in dit debat."
+}
