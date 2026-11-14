@@ -73,7 +73,7 @@ RANG = r"\d+\s+(spreekbeurten|interrupties|keer gesproken)"
 def controleer(variant):
     root = NIEUW / "uit" / variant
     fouten, waarsch = [], []
-    paginas = {p.relative_to(root).as_posix(): p for p in root.rglob("*.html")}
+    paginas = {p.relative_to(root).as_posix(): p for p in root.rglob("*.html") if p.name != "_artifact.html"}
     ontleed = {}
     for rel, p in paginas.items():
         o = Ontleed()

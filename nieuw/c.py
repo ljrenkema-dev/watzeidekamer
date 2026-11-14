@@ -183,7 +183,10 @@ def hoofdstukken(d, x, root):
     hoe = f'<p class="groot">{e(S.afloop_tekst(d))}</p>'
     if d.moties:
         hoe += '<p class="noot">Een aangenomen motie is een verzoek aan de regering, geen wet of besluit.</p>'
-        hoe += f'<details><summary>Alle {len(d.moties)} moties, met wie voor en tegen stemde</summary>{S.moties_lijst(d, root, "h3")}</details>'
+        if x and d.van > 1:
+            hoe += f'<p><a href="{root}debat/{d.slug}.html#afloop">Alle {len(d.moties)} moties, met wie voor en tegen stemde</a></p>'
+        else:
+            hoe += f'<details><summary>Alle {len(d.moties)} moties, met wie voor en tegen stemde</summary>{S.moties_lijst(d, root, "h3")}</details>'
     if S.wet_zin(d):
         hoe += f'<p class="noot">{e(S.wet_zin(d))}</p>'
     if x and d.van > 1 and d.moties:

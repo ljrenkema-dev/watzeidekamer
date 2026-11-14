@@ -37,3 +37,14 @@ class Uitvoer:
         (self.dir / "feed.xml").write_text(S.rss(rss_items))
         F.schrijf(self.dir)
         S.maak_deelbeelden(self.dir, M.debatten(), {"bg": og_kleur})
+        artifact_start(self.dir)
+
+
+def artifact_start(uit_dir):
+    """Startbestand voor een artifact: de voorpagina zonder eigen doctype/html/head/body (het artifact zet die er zelf omheen)."""
+    import re
+    h = (Path(uit_dir) / "index.html").read_text()
+    head = re.search(r"<head>(.*?)</head>", h, re.S).group(1)
+    head = re.sub(r'<meta charset="utf-8">|<meta name="viewport"[^>]*>', "", head)
+    body = re.search(r"<body>(.*)</body>", h, re.S).group(1)
+    (Path(uit_dir) / "_artifact.html").write_text(head + "\n" + body)
