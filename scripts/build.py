@@ -144,6 +144,34 @@ KAART_JS = ('<script src="{root}strip.js"></script><script>document.querySelecto
             'el.innerHTML=\'<svg viewBox="16 6 68 78" preserveAspectRatio="xMidYMin slice">\'+character(makeLook(f.id,f.fractie,f.u),"neutraal")+"</svg>";});</script>')
 
 
+def woord_id(w):
+    return "w-" + slug(w)
+
+
+def link_woorden(html_, woorden):
+    """Zet moeilijke woorden in lopende tekst om in een link naar hun uitleg (alleen in tekst, niet in tags of links)."""
+    if not woorden:
+        return html_
+    lijst = sorted(woorden, key=lambda w: -len(w["woord"]))
+    pat = re.compile(r"(?<![\w-])(" + "|".join(re.escape(w["woord"]) for w in lijst) + r")(?![\w-])", re.I)
+    uitleg = {w["woord"].lower(): w for w in lijst}
+    delen, in_a = re.split(r"(<[^>]+>)", html_), False
+    for i, d in enumerate(delen):
+        if d.startswith("<"):
+            if re.match(r"<a[\s>]", d): in_a = True
+            elif d.startswith("</a"): in_a = False
+            continue
+        if in_a or not d:
+            continue
+        def vervang(m):
+            w = uitleg.get(m.group(1).lower())
+            if not w:
+                return m.group(0)
+            return (f'<a class="woordlink" href="#{woord_id(w["woord"])}" title="{e(w["uitleg"])}">{m.group(1)}</a>')
+        delen[i] = pat.sub(vervang, d)
+    return "".join(delen)
+
+
 def politici(strips, uiterlijk, koppeling):
     """Pagina per politicus met activiteit uit alle verwerkte agendapunten."""
     mensen = {}
@@ -590,19 +618,20 @@ def debat(punt, strip, met_strip=False):
         kern = "".join(f'<h3 class="onderwerp-kop">{twee(o["titel"])}</h3>{kernlijst(o["kernpunten"])}' for o in onderwerpen)
     else:
         kern = kernlijst()
-    woorden = "".join(f'<div class="word"><b>{e(w["woord"])}</b>{e(w["uitleg"])}</div>' for w in strip.get("woorden", []))
+    woorden = "".join(f'<div class="word" id="{woord_id(w["woord"])}"><b>{e(w["woord"])}</b>{e(w["uitleg"])}</div>' for w in strip.get("woorden", []))
+    lw = lambda h: link_woorden(h, strip.get("woorden", []))
     body = f"""<main class="out" style="display:flex;flex-direction:column;gap:20px">
 <div class="meta"><span>{datum(v['datum'])}</span><span class="tag">{e(v['soort'])}</span>{status}</div>
 <h1>{twee(strip['titel'])}</h1>
 <p class="note">Agendapunt: {e(punt['titel'])}</p>{delen_nav(punt)}
-{tekstblok(strip['samenvatting'], "summary")}
+{lw(tekstblok(strip['samenvatting'], "summary"))}
 {kaart_html}
 <p class="note">{"De citaten op de kaart zijn letterlijk en automatisch gecontroleerd op het verslag. " if kaart_html else ""}<a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a> · <a href="../over.html#kaart">Zo werken we</a></p>
 <h2 id="standpunten">Standpunten per partij</h2>
 <p class="note">{aantal_partijen} {"partij" if aantal_partijen == 1 else "partijen"}{" en het kabinet" if heeft_kabinet else ""} in dit debat.{" Niet elke partij staat op de kaart; hier staan ze allemaal." if kaart_html else ""}</p>
-<div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{standpunten}</tbody></table></div>
+<div class="tabelwrap"><table class="standpunten"><thead><tr><th scope="col">Partij</th><th scope="col">Woordvoerder</th><th scope="col">Standpunt</th></tr></thead><tbody>{lw(standpunten)}</tbody></table></div>
 {moties_blok(punt)}
-<h2>Belangrijk om te weten</h2>{kern}
+<h2>Belangrijk om te weten</h2>{lw(kern)}
 {'<h2>Moeilijke woorden</h2><div class="words">' + woorden + '</div>' if woorden else ''}
 {redactie_regel(punt, strip)}<p class="note">Deze pagina laat alleen zien wat in het verslag staat. <a href="../v/{e(punt['id'])}.html"><b>Lees het hele debat</b></a>, of bekijk het <a href="{e(bron)}">officiële verslag van de Tweede Kamer</a> (XML).</p>
 </main>"""

@@ -186,3 +186,8 @@ table.standpunten tr.onderwerp th{background:#f3f1ea;font-size:15px;padding-top:
 .tegen span{margin-left:4px}
 .delenlijst .tegen{font-size:14px;margin:2px 0 4px;color:var(--muted)}
 .chiplab{font-size:13px;color:var(--muted);align-self:center;margin-right:2px}
+/* Moeilijke woorden: link naar de uitleg onderaan */
+a.woordlink{color:inherit;text-decoration:underline dotted;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:var(--accent);cursor:help}
+a.woordlink:hover,a.woordlink:focus-visible{color:var(--accent)}
+.word:target{outline:3px solid var(--marker);outline-offset:4px;border-radius:6px}
+.words .word{scroll-margin-top:80px}
