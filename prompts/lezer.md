@@ -14,6 +14,9 @@ Lees: `prompts/pagina.md`, `prompts/kaart.md` (vooral "Wat je kiest" en "Lezer")
 ## Kaart
 Controleer de kaart volgens het deel "Lezer" in `prompts/kaart.md`: de bron van de vraag, de keuze van de wisseling (geen bijzaak, wie het eerst sprak bovenaan), letterlijke citaten zonder weggevallen voorbehoud, en of kaart en pagina elkaar niet tegenspreken.
 
+## Lichte verwerking
+Geeft `python3 scripts/zwaarte.py <id>` "licht" (ordedebat, stemmingen, tweeminutendebat of een kort debat), dan is er geen kaart: lees alleen de pagina na, punt 1, 2 en 4 hierboven. Zet in het verslag `"soort": "pagina (licht)"`.
+
 ## Uitvoer
 Verbeter wat niet klopt direct in de bestanden. Draai daarna `python3 scripts/check_pagina.py <id>` en `python3 scripts/kaart.py check <id>` tot beide OK zijn. Schrijf `data/redactie/<id>.json`:
 ```json
