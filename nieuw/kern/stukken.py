@@ -71,24 +71,24 @@ def wie(p, met_fractie=True):
     return e(p.naam), e(rol)
 
 
-def fig(p, cls="fg", alt=False, root=""):
+def fig(p, cls="fg", alt=False, root="", lui=True):
     """Figuur van een spreker. alt is leeg als de naam ernaast staat (anders wordt hij dubbel voorgelezen)."""
     if p is None:
         return f'<img class="{cls}" src="{root}fig/neutraal.svg" alt="" width="80" height="80">'
     a = f'Getekend figuur van {p.naam}' if alt else ""
-    return f'<img class="{cls}" src="{root}{p.fig}" alt="{e(a)}" width="80" height="80" decoding="async">'
+    return f'<img class="{cls}" src="{root}{p.fig}" alt="{e(a)}" width="180" height="240"{" loading=lazy" if lui else ""} decoding="async">'
 
 
 # ------------------------------------------------------------------ vaste uitleg
 
 UITLEG = {
-    "motie": ("Motie", "Een verzoek van de Tweede Kamer aan de regering. Wordt een motie aangenomen, dan vraagt de Kamer de regering iets te doen. Het is geen wet en geen besluit van de regering: de regering beslist zelf óf en hoe ze het verzoek uitvoert. Een motie van wantrouwen is een bijzondere motie: de Kamer zegt daarmee het vertrouwen in een minister of het kabinet op."),
+    "motie": ("Motie", "Een verzoek van de Tweede Kamer aan de regering. Wordt een motie aangenomen, dan vraagt de Kamer de regering iets te doen. Het is geen wet en geen besluit van de regering: de regering beslist zelf óf en hoe ze het verzoek uitvoert. Meestal voert ze een aangenomen motie uit; doet ze dat niet, dan moet ze dat aan de Kamer uitleggen. Een motie van wantrouwen is een bijzondere motie: de Kamer zegt daarmee het vertrouwen in een minister of het kabinet op."),
     "amendement": ("Amendement", "Een voorstel om een wetsvoorstel te veranderen. Wordt een amendement aangenomen, dan verandert de tekst van het wetsvoorstel."),
     "wet": ("Wetsvoorstel", "Een voorstel voor een nieuwe wet of een wijziging van een wet, zoals een begroting of het Belastingplan. De Tweede Kamer stemt erover; daarna stemt de Eerste Kamer. Pas als beide Kamers voor zijn, kan de wet ingaan."),
     "novelle": ("Novelle", "Een wijziging van een wetsvoorstel dat de Tweede Kamer al heeft aangenomen en dat bij de Eerste Kamer ligt. De Tweede Kamer moet zo'n wijziging eerst zelf behandelen en erover stemmen."),
     "eerste_kamer": ("Eerste Kamer", "Na de Tweede Kamer stemt ook de Eerste Kamer over elk wetsvoorstel. De Eerste Kamer kan een wetsvoorstel aannemen of verwerpen, maar niet veranderen. Over moties van de Tweede Kamer stemt de Eerste Kamer niet."),
-    "oordeel": ("Oordeel van het kabinet", "Voor de stemming zegt de minister wat het kabinet van een motie vindt. 'Oordeel Kamer' betekent: het kabinet laat het aan de Kamer over. 'Ontraden' betekent: het kabinet raadt de Kamer aan tegen te stemmen. 'Ontijdig' betekent: het kabinet vindt het te vroeg. Een motie die 'aangehouden' is, komt (nog) niet in stemming."),
-    "stemming": ("Stemming", "De Kamer stemt meestal op dinsdag over de moties uit de week ervoor. Meestal stemt een fractie als geheel en tellen al haar zetels voor of tegen; een Kamerlid kan afwijken, maar onze gegevens tonen alleen de stem per fractie. Een meerderheid is 76 van de 150 zetels."),
+    "oordeel": ("Oordeel van het kabinet", "Voor de stemming zegt de minister wat het kabinet van een motie vindt. 'Oordeel Kamer' betekent: het kabinet laat het aan de Kamer over. 'Ontraden' betekent: het kabinet raadt de Kamer aan tegen te stemmen. 'Ontijdig' betekent: het kabinet vindt het te vroeg. Soms noemt het kabinet een motie 'overbodig', omdat het gevraagde al gebeurt. Een indiener kan een motie ook 'aanhouden': dan komt ze voorlopig niet in stemming."),
+    "stemming": ("Stemming", "De Kamer stemt meestal op dinsdag over de moties uit de week ervoor. Meestal stemt een fractie als geheel en tellen al haar zetels voor of tegen; een Kamerlid kan afwijken, maar onze gegevens tonen alleen de stem per fractie. Een motie is aangenomen als meer dan de helft van de uitgebrachte stemmen voor is; als iedereen meestemt, is dat 76 van de 150."),
     "coalitie": ("Coalitie en oppositie", ""),  # tekst: coalitie_uitleg()
     "plenair": ("Debat in de plenaire zaal", "Een debat in de grote zaal van de Tweede Kamer, waar alle Kamerleden mogen meedoen en waar ook gestemd wordt."),
     "commissie": ("Commissiedebat en wetgevingsoverleg", "Een debat in een kleinere zaal met de Kamerleden die over een onderwerp gaan. Een wetgevingsoverleg gaat over een wetsvoorstel, bijvoorbeeld een deel van de begroting. Hier wordt niet gestemd; moties uit een wetgevingsoverleg komen later in de plenaire zaal in stemming."),
@@ -109,7 +109,7 @@ def coalitie_uitleg():
          f"samen {z} van de {F['totaal']} zetels. De andere fracties heten oppositie.")
     if z < 76:
         t += (" Omdat de coalitie geen 76 zetels heeft, is dit een minderheidskabinet: voor een meerderheid zijn bij elke stemming ook stemmen "
-              "van andere fracties nodig. Oppositiefracties stemmen dus vaak mee met het kabinet.")
+              "van andere fracties nodig. Oppositiefracties stemmen daarom vaak mee met de coalitiefracties.")
     return t
 
 
@@ -254,9 +254,39 @@ def wet_zin(d):
 
 def termijn_zin(d):
     """Lang debat zonder tweede termijn in onze gegevens: zeg dat het debat daar niet af is."""
-    if d.van > 1 and not M.heeft_tweede_termijn(d) and not d.is_stemmingen:
+    if d.van > 1 and not M.heeft_tweede_termijn(d) and not d.is_stemmingen and not d.moties and not M.zelfde_titel(d):
         return "De tweede termijn van dit debat staat niet in onze gegevens; die kan op een andere dag zijn. Moties worden meestal in de tweede termijn ingediend."
     return ""
+
+
+def zelfde_titel_regel(d, root=""):
+    """Vaste koppeling tussen dagen van één debat: andere debatten met dezelfde agendatitel."""
+    z = M.zelfde_titel(d)
+    if not z:
+        return ""
+    links = ", ".join(f'<a href="{root}debat/{x.slug}.html">{M.datum_lang(x.datum, dag=True)}</a>'
+                      + (f" ({len(x.moties)} {'motie' if len(x.moties) == 1 else 'moties'})" if x.moties else "") for x in z)
+    return f'<p class="zelfde-titel">Ook met de agendatitel “{e(d.titel_agenda)}”: {links}.</p>'
+
+
+def eerste_alinea(t):
+    """(eerste alinea, rest) van een samenvatting: de eerste alinea staat bovenaan, de rest verderop."""
+    regels = [r for r in (t or "").split("\n") if r.strip()]
+    if not regels:
+        return "", ""
+    return regels[0], "\n".join(regels[1:])
+
+
+def fracties_regel_debat(personen):
+    """'SP (3), VVD (22), … en het kabinet': alle fracties die spraken, in spreekvolgorde."""
+    gezien, frs = set(), []
+    for p in personen:
+        if p.fractie_code and p.fractie_code not in gezien:
+            gezien.add(p.fractie_code)
+            f = p.fractie
+            frs.append(f"{e(p.fractie_code)} ({f['zetels']})" if f else e(p.fractie_code))
+    kab = any(p.kabinet for p in personen)
+    return ", ".join(frs) + (" en het kabinet" if kab and frs else ("het kabinet" if kab else ""))
 
 
 def ook_aan_het_woord(x, root="", anker="#standpunten"):
@@ -477,7 +507,7 @@ def verslag_body(x, root, terug_href, terug_tekst, cls=""):
     rijen, vorige = [], ""
     for i, b in enumerate(x.beurten):
         p = M.Persoon(b["spreker"])
-        tijd_ = M.tijd(b.get("begin"))
+        tijd_ = M.tijd(b.get("begin")).replace(":", ".")
         vid = M.video_beurt(x.punt, i)
         labels = []
         if b.get("voorzitter"):
@@ -583,6 +613,7 @@ def zo_werken_we(variant_regels, root=""):
 <section id="begrippen"><h2>Begrippen</h2>{uitleg_lijst(list(UITLEG))}</section>
 <section id="bronnen"><h2>Bronnen</h2><ul>
 <li>Verslagen, moties en stemuitslagen: <a href="https://opendata.tweedekamer.nl/" rel="noopener">open data van de Tweede Kamer</a>.</li>
+<li>Wil je per Kamerlid of partij zien hoe er gestemd is? Dat kan op Partijgedrag.nl, een site van anderen (niet van ons en niet van de Kamer).</li>
 <li>Video: <a href="https://debatdirect.tweedekamer.nl/" rel="noopener">Debat Direct</a>, de videosite van de Tweede Kamer.</li>
 <li>Deze site is gebouwd op {M.datum_lang(M.gebouwd_op())}.</li></ul></section>"""
 
@@ -681,8 +712,9 @@ def hoe_liep_het_af(d, link_moties=None, deel=False):
     """Vaste inhoud van 'Hoe liep het af': eerst de wet (als het om een wetsvoorstel ging), dan de moties."""
     uit = []
     if wet_zin(d):
-        uit.append(f'<p class="groot">{e(wet_zin(d))}</p>')
+        uit.append('<p class="groot">Over het wetsvoorstel zelf: uitslag niet in onze gegevens.</p>')
         uit.append(f'<p>{"Moties uit dit debat: " if d.moties else ""}{e(afloop_tekst(d))}</p>')
+        uit.append('<p class="klein">Over het wetsvoorstel en de amendementen stemt de Kamer apart; na de Tweede Kamer stemt de Eerste Kamer.</p>')
     else:
         uit.append(f'<p class="groot">{e(afloop_tekst(d))}</p>')
     if termijn_zin(d):

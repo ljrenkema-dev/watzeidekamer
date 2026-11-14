@@ -319,6 +319,10 @@ class Deel:
                 "naam": weergavenaam(c["naam"]), "partij": c["partij"],
                 "video": c.get("video"), "tijd": c.get("tijd"),
             })
+        if any(c["persoon"] is None or c["persoon"].fig == "fig/neutraal.svg" for c in cit):
+            for c in cit:  # gelijke behandeling: heeft één spreker geen figuur, dan krijgen beide het silhouet
+                if c["persoon"]:
+                    c["persoon"].fig = "fig/neutraal.svg"
         alle_video = all(c["video"] for c in cit) and cit
         return {"bron": f"data/proeftuin/botsing/{self.id}.json", "versie": v,
                 "vraag": x.get("vraag") or K["vraag"], "kop": K.get("kop"), "citaten": cit,
@@ -514,6 +518,15 @@ def debatten():
     return laad()["debatten"]
 
 
+def zelfde_titel(d):
+    """Andere debatten met dezelfde agendatitel (zonder 'Voortzetting'), oudste eerst. Vaste koppeling tussen dagen van één debat."""
+    if d.is_stemmingen or d.is_vragenuur:
+        return []
+    t = re.sub(r"^voortzetting\s+", "", d.titel_agenda.lower()).strip()
+    return sorted([x for x in debatten() if x is not d and not x.is_stemmingen
+                   and re.sub(r"^voortzetting\s+", "", x.titel_agenda.lower()).strip() == t], key=lambda x: x.begin)
+
+
 def motie_debat(mid):
     return laad()["motie_debat"].get(mid)
 
@@ -559,6 +572,13 @@ class Onderwerp:
         return [m for d in self.debatten for m in d.moties]
 
     @property
+    def dossier_titels(self):
+        uit = {}
+        for m in self.moties:
+            uit.setdefault(m["dossier"], (m.get("dossier_titel") or "").strip())
+        return uit
+
+    @property
     def dossiers(self):
         return sorted({m["dossier"] for m in self.moties})
 
@@ -566,8 +586,8 @@ class Onderwerp:
 @lru_cache(None)
 def onderwerpen():
     """Vaste regel: debatten met dezelfde agendatitel horen bij één onderwerp; debatten waarvan moties hetzelfde
-    Kamerstuk (dossiernummer) hebben ook. Stemmingen horen bij het onderwerp van de moties die er genoemd werden.
-    Stemmingen zonder genoemde motie staan los. Nieuwste activiteit eerst."""
+    Kamerstuk (dossiernummer) hebben ook, behalve verzameldossiers. Stemmingen en vragenuren staan altijd los.
+    Nieuwste activiteit eerst."""
     ds = debatten()
     ouder = {d.id: d.id for d in ds}
 
@@ -598,10 +618,10 @@ def onderwerpen():
     uit = [Onderwerp(v) for v in groepen.values()]
     uit.sort(key=lambda o: o.laatst, reverse=True)
     gezien = {}
-    for o in uit:
+    for o in sorted(uit, key=lambda o: o.debatten[0].begin):
         s = slug(o.titel, 60)
-        if o.titel == "Stemmingen":
-            s = f"stemmingen-{o.debatten[0].datum}-{tijd(o.debatten[0].begin).replace(':', '')}"
+        if o.titel in ("Stemmingen", "Vragenuur"):
+            s = f"{slug(o.titel)}-{o.debatten[0].datum}" + ("-" + tijd(o.debatten[0].begin).replace(':', '') if o.titel == "Stemmingen" else "")
         n = gezien.get(s, 0) + 1
         gezien[s] = n
         o.slug = s if n == 1 else f"{s}-{n}"

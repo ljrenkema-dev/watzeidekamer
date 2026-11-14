@@ -26,17 +26,18 @@ h1{font-size:clamp(1.7rem,4.6vw,2.5rem)}
 .sub{color:var(--muted);font-size:16px}
 .lees p+p{margin-top:8px}
 /* citaatvorm B */
-.cit{display:grid;grid-template-columns:54px minmax(0,1fr);gap:4px 14px;min-width:0}
-.cit .fg{width:54px;height:54px;grid-row:1/3;border-color:var(--cit)}
+.cit{display:flex;flex-direction:column;gap:8px;min-width:0}
+.cit .fg{width:52px;height:52px;border-color:var(--cit)}
+.cit .wieb{display:flex;align-items:center;gap:12px;padding-left:23px}
 .cit blockquote{margin:0;border-left:7px solid var(--cit);padding:2px 0 2px 16px;font-size:19px;line-height:1.45}
 .cit blockquote::before{content:"Letterlijk";display:block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
-.cit .wie{grid-column:2;padding-left:22px;font-size:15px}
+.cit .wie{font-size:15px}
 .cit .wie b{display:block;font-size:16px}
 .cit .wie span{color:var(--muted)}
-.cit .links{grid-column:2;padding-left:22px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:15px;font-weight:700}
+.cit .links{padding-left:23px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:15px;font-weight:700}
 .paar{display:flex;flex-direction:column;gap:18px}
 .vraag{font-size:clamp(1.3rem,3vw,1.75rem);line-height:1.2}
-.vraag a{color:inherit;text-decoration:none}.vraag a:hover{text-decoration:underline}
+.vraag a{color:inherit;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
 .noot{font-size:15px;color:var(--muted)}
 /* onderwerpkaarten op de voorpagina */
 .lijst{display:flex;flex-direction:column;gap:22px;list-style:none;margin:0;padding:0}
@@ -49,7 +50,7 @@ h1{font-size:clamp(1.7rem,4.6vw,2.5rem)}
 .ok .okop h2 a:hover{text-decoration:underline}
 .okin{padding:16px 18px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:20px}
 .okin>div{display:flex;flex-direction:column;gap:12px;min-width:0}
-.mini{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;border-left:3px solid var(--line);padding-left:12px}
+.mini{list-style:none;margin:0;padding:10px 12px;display:flex;flex-direction:column;gap:8px;background:var(--tone);border-radius:10px}
 .mini li{font-size:15px}
 .mini b{display:block;font-size:14px;color:var(--muted)}
 .tel{font-size:17px;font-weight:700}
@@ -102,14 +103,13 @@ ol.delen li[aria-current] a{color:var(--ink);font-weight:700}
   .kop nav{margin-left:0;font-size:15px}
   .werk{font-size:14px}
   .kop{gap:4px 14px}
-  .cit{grid-template-columns:52px minmax(0,1fr);gap:4px 10px}
-  .cit .fg{width:52px;height:52px}
+  .cit .fg{width:48px;height:48px}
   .tl .kader{margin-left:-18px}
   .lees .sub{display:none}
   .ok .okop{padding:10px 14px}
   .okin{padding:12px 14px}
   .cit blockquote{font-size:17px;padding-left:12px}
-  .cit .wie,.cit .links{padding-left:18px}
+  .cit .wieb,.cit .links{padding-left:18px}
   ol.tijdlijn{padding-left:20px}
   .tl::before{left:-31px}.tl.mot::before{left:-28px}
 }
@@ -137,8 +137,8 @@ def citaat(c, root, video, deel, kort=False):
     links = [f'<a href="{root}verslag/{deel.slug}.html#b{c["beurt"]}">Lees in het verslag</a>']
     if video:
         links.insert(0, f'<a href="{e(c["video"])}" rel="noopener">▶ {e(c["tijd"].replace(":", "."))} uur · Bekijk dit moment (Debat Direct)</a>')
-    return (f'<figure class="cit" style="margin:0">{S.fig(p, "fg", root=root)}<blockquote data-citaat="{deel.id}#{c["beurt"]}">“{e(S.citaat_weergave(c["citaat"]))}”</blockquote>'
-            f'<figcaption class="wie"><b>{e(c["naam"])}</b><span>{rol}</span></figcaption>'
+    return (f'<figure class="cit" style="margin:0"><blockquote data-citaat="{deel.id}#{c["beurt"]}">“{e(S.citaat_weergave(c["citaat"]))}”</blockquote>'
+            f'<div class="wieb">{S.fig(p, "fg", root=root)}<figcaption class="wie"><b>{e(c["naam"])}</b><span>{rol}</span></figcaption></div>'
             + ("" if kort else f'<p class="links">{"".join(links)}</p>') + "</figure>")
 
 
@@ -183,7 +183,7 @@ def home(U):
                   f'<div><p>{e(o.debatten[-1].titel)}</p>{A.stapel(o.debatten[-1].personen(), "")}</div>')
         mini = "".join(f'<li><b>{M.datum_lang(d.datum)}</b>{e(d.soort_label)}' + (f", {len(d.delen)} delen" if len(d.delen) > 1 else "") + "</li>" for d in o.debatten)
         ms = o.moties
-        mot = (f'<p>{len(ms)} {"motie" if len(ms) == 1 else "moties"} (verzoeken aan de regering); de uitslagen staan op de tijdlijn.</p>' if ms else '<p class="sub">Geen moties in onze gegevens.</p>')
+        mot = (f'<p class="tel">{len(ms)} {"motie" if len(ms) == 1 else "moties"} (verzoeken aan de regering)</p>{stand(ms)}' if ms else '<p class="sub">Geen moties in onze gegevens.</p>')
         kaarten.append(
             f'<li class="ok"><div class="okop"><p class="sub">{periode(o)} · {len(o.debatten)} {"debat" if len(o.debatten) == 1 else "debatten"}</p>'
             f'<h2><a href="{href}">{e(o.titel)}</a></h2></div><div class="okin">{links_}'
@@ -223,8 +223,9 @@ def onderwerp_pagina(U, o):
     if wet:
         hoe = f'<p class="groot">{e(wet)}</p>' + hoe.replace('class="groot"', 'class=""', 1)
     vragen = [(d, d.kaart.kaart["vraag"]) for d in o.debatten if d.kaart]
-    waar = (("<p>De vraag in " + ("het debat" if len(vragen) == 1 else "de debatten") + ":</p><ul>" + "".join(f"<li><b>{e(v)}</b> <span class=sub>({M.datum_lang(d.datum)}, {e(d.soort_label.lower())})</span></li>" for d, v in vragen) + "</ul>") if vragen
-            else f"<p>{e(o.debatten[-1].titel)}</p>")
+    dt = o.dossier_titels
+    waar = ("".join(f'<p>Kamerstuk {e(k)}: {e(t)}.</p>' for k, t in dt.items() if t) if dt else f"<p>{e(o.debatten[-1].titel)}</p>")
+    waar += f'<p class="sub">{len(o.debatten)} {"debat" if len(o.debatten) == 1 else "debatten"} op de tijdlijn hieronder; bij elk debat de vraag waar het om draaide.</p>'
     inhoud = (f'<main id="inhoud"><p class="krumel"><a href="{root}index.html">Onderwerpen</a></p>'
               f'<header class="dkop"><p class="dmeta">{periode(o)} · {len(o.debatten)} {"debat" if len(o.debatten) == 1 else "debatten"}'
               + (f' · Kamerstuk {e(", ".join(o.dossiers))}' if o.dossiers else "") + f'</p><h1>{e(o.titel)}</h1></header>'
@@ -252,10 +253,12 @@ def afloop(d, root, waar, kop_waar="Waar ging het om", kop_hoe="Hoe liep het af"
     return f'<section class="afloop"><div><h2>{kop_waar}</h2>{waar}</div><div><h2>{kop_hoe}</h2>{hoe}</div></section>'
 
 
-def tekst_deel(x, root):
+def tekst_deel(x, root, rest=""):
     uit = []
     if x.kaart:
         uit.append(f'<section class="blok kader">{kaart(x, root, "h2", ook_anker="#standpunten")}</section>')
+    if x.pagina and rest:
+        uit.append(f'<section class="blok"><h2>Meer over {"dit deel" if x.van > 1 else "dit debat"}</h2>{S.alineas(rest, x.pagina["woorden"])}</section>')
     if x.pagina:
         uit.append(S.oud_verslag(x))
         uit.append(f'<section class="blok" id="standpunten"><h2>Wat de sprekers zeiden</h2><p class="noot">Per spreker, in de volgorde waarin ze spraken, met het aantal zetels van de fractie en of die in de coalitie zit.</p>{S.standpunten(x, root)}</section>')
@@ -287,14 +290,13 @@ def debat_pagina(U, d):
     root = "../"
     if len(d.delen) == 1 and d.van == 1:
         x = d.delen[0]
-        waar = (S.alineas(x.pagina["samenvatting"], x.pagina["woorden"]) if x.pagina else
-                f'<p>{e(d.onderwerp)}.</p>')
+        eerste, rest = S.eerste_alinea(x.pagina["samenvatting"]) if x.pagina else ("", "")
+        waar = (S.alineas(eerste, x.pagina["woorden"]) if x.pagina else f'<p>{e(d.onderwerp)}.</p>')
         hoofd = (kop(d, d.titel, root) + buren(d, root) +
-                 f'<div class="kolommen"><div class="blok">{afloop(d, root, waar)}{tekst_deel(x, root)}{moties_sectie(d, root)}</div>{A.zijkolom(d, x, root)}</div>')
+                 f'<div class="kolommen"><div class="blok">{afloop(d, root, waar)}{tekst_deel(x, root, rest)}{moties_sectie(d, root)}</div>{A.zijkolom(d, x, root)}</div>')
     else:
         k = d.kaart
-        waar = ((f'<p class="groot">{e(k.kaart["vraag"])}</p>' if k else "") +
-                f'<p>Dit debat is in {d.van} delen geknipt, langs de rondes van het debat; <a href="#delen">elk deel heeft een eigen samenvatting</a>.</p>')
+        waar = (f'<p>Dit debat is in {d.van} delen geknipt, langs de rondes van het debat; <a href="#delen">elk deel heeft een eigen samenvatting</a>.</p>')
         kk = f'<section class="blok kader"><p class="tld">Uit deel {k.nummer}: {e(k.fase)}</p>{kaart(k, root, "h2", ook_anker="#sprekers")}</section>' if k else ""
         hoofd = (kop(d, d.titel_agenda, root) + buren(d, root) +
                  f'<div class="kolommen"><div class="blok">{afloop(d, root, waar)}{kk}<section class="blok" id="delen"><h2>De delen van dit debat</h2>{A.delen_lijst(d, root)}</section>{moties_sectie(d, root)}'
@@ -312,10 +314,11 @@ def deel_pagina(U, d, x):
     n = d.delen[i + 1] if i + 1 < len(d.delen) else None
     nav = (f'<nav class="deelnav" aria-label="Vorige en volgende deel">' + (f'<a href="{v.slug}.html">← Deel {v.nummer}</a>' if v else "<span></span>")
            + f'<span>Deel {x.nummer} van {x.van}</span>' + (f'<a href="{n.slug}.html">Deel {n.nummer} →</a>' if n else "<span></span>") + "</nav>")
-    waar = (S.alineas(x.pagina["samenvatting"], x.pagina["woorden"]) if x.pagina else
+    eerste, rest = S.eerste_alinea(x.pagina["samenvatting"]) if x.pagina else ("", "")
+    waar = (S.alineas(eerste, x.pagina["woorden"]) if x.pagina else
             '<p>Voor dit deel is geen samenvatting geschreven. Hieronder staan de sprekers; het verslag staat er wel.</p>')
     inhoud = (kop(d, x.titel, root, x) + f'<p class="dmeta">Deel {x.nummer} van {x.van} · {e(x.fase)}</p>' + nav +
-              f'<div class="kolommen"><div class="blok">{afloop(d, root, waar, "Waar ging dit deel over", "Hoe liep het debat af", deel=True)}{tekst_deel(x, root)}'
+              f'<div class="kolommen"><div class="blok">{afloop(d, root, waar, "Waar ging dit deel over", "Hoe liep het debat af", deel=True)}{tekst_deel(x, root, rest)}'
               f'<section class="blok"><h2>Alle delen van dit debat</h2>{A.delen_lijst(d, root, x)}</section></div>{A.zijkolom(d, x, root)}</div>' + nav)
     U.schrijf(f"debat/{x.slug}.html", shell(f"{x.titel} – {d.titel_agenda} (deel {x.nummer}) – {S.NAAM}", S.beschrijving(d, x),
                                             f"debat/{x.slug}.html", root, f'<main id="inhoud">{inhoud}</main>', og=f"og/{d.slug}.png"))
