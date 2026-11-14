@@ -135,5 +135,14 @@
   "moties": []
  },
  "afloop": "In dit debat zijn geen moties ingediend.",
- "afloop_kort": "Geen moties in dit debat."
+ "afloop_kort": "Geen moties in dit debat.",
+ "lezing": {
+  "oordeel": "akkoord",
+  "bevindingen": [
+   "Wisseling Markuszower ↔ Bontenbal is een echte tegenstelling (deal met PRO/Volt buiten de VVD om en de meerderheid in de Eerste Kamer); onderwerp geen bijzaak: zelf gemeten 21% met (amendement|PRO|Volt|deal), 25% met de bredere regex van de schrijver. Markuszower (beurt 3) spreekt van de twee citaten het eerst en staat bovenaan. (ernst klein: regex van de schrijver is wat ruim door VVD en casino, uitkomst blijft ruim boven 10%)",
+   "Vraagbron 3 klopt: bron 1 bestaat niet, bron 2 past niet bij een derde termijn over een nieuw amendement; het verzoek voor de derde termijn (Bikker, ChristenUnie, procedure 294c2585, beurt 71, meerderheid volgens voorzitter beurt 79/85) met de reden van Bikker (beurt 36), Krul (beurt 44) en de voorzitter (beurt 83) is letterlijk juist geciteerd. Vraag is neutraal en steunt niet op één deelnemer. Geen veld 'vraag' binnen een versie.",
+   "Citaten versie a en c letterlijk gecontroleerd tegen beurten 3, 4, 6 en 7: aaneengesloten hele zinnen, geen voorbehoud, ontkenning of voorwaarde weggevallen ('als dit amendement wordt aangenomen', 'Dat zeg ik niet; dat zeggen …' en 'per 2029' staan erin); beide sprekers zouden hun citaat herkennen. Bontenbals omgeving 'binnen de afspraken … in de coalitie' (beurt 4) valt weg, maar verandert de betekenis van de gekozen zinnen niet. (ernst klein)",
+   "Versie c gaat over een bijzaak (3%) en is terecht als vergelijking gemarkeerd; versie a heeft de voorkeur. (ernst klein)"
+  ]
+ }
 }

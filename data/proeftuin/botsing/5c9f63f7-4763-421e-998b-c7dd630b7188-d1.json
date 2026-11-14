@@ -7,15 +7,15 @@
  "vraag_bron_toetsing": "Bron 1 (mondelinge vraag) en 2 (wetsvoorstel) bestaan niet: dit is een plenair debat zonder wetsvoorstel. Bron 3 (verzoek) niet gevonden: in data/verzoeken en in de regeling van 12 november 2026 staat geen verzoek om dit debat met een reden; de regeling noemt het debat alleen bij het welkom aan de publieke tribune. Bron 4 bestaat en past: de agendatitel gaat over het advies zelf, en het debat ging over wat het kabinet ermee doet. Bron 5 is daarom niet nodig.",
  "versies": {
   "a": {
-   "regel": "Wisseling 1 (D66-PRO) is vooral eensgezind over het burgerberaad en gaat over treinen en fossiele subsidies; wisseling 2 (VVD-PRO) en 3 (PvdD-PRO) draaien om treinreizen/vliegbelasting (3% van de spreektijd) en opvolging (eensgezind): bijzaken. Daarom het onderwerp met de duidelijkste tegenstelling over de hoofdvraag, hoe ver het kabinet de aanbevelingen moet overnemen: PvdD (wil dat verplichtende keuzes niet blijven liggen) tegenover coalitiepartij VVD (blij dat niet alles is overgenomen). Ze reageerden niet direct op elkaar; het zijn hun eigen inbreng-beurten.",
+   "regel": "Wisseling 1 (D66-PRO) is vooral eensgezind over het burgerberaad en gaat over treinen en fossiele subsidies; wisseling 2 (VVD-PRO) en 3 (PvdD-PRO) draaien om treinreizen/vliegbelasting (8% van de spreektijd) en opvolging (eensgezind): bijzaken. Daarom het onderwerp met de duidelijkste tegenstelling over de hoofdvraag, hoe ver het kabinet de aanbevelingen moet overnemen: PvdD (wil dat verplichtende keuzes niet blijven liggen) tegenover coalitiepartij VVD (blij dat niet alles is overgenomen). Ze reageerden niet direct op elkaar; het zijn hun eigen inbreng-beurten.",
    "wisseling": "Christine Teunissen (PvdD) en Alisha Müller (VVD), eigen inbreng, beurt 20 en 53 (geen directe wisseling)",
    "afgevallen": [
     "Klos (D66) en Van Oosterhout (PRO), beurt 1-18: grotendeels eensgezind, over treinen en fossiele subsidies",
-    "Müller (VVD) en Van Oosterhout (PRO), beurt 53-61: treinreizen en vliegbelasting is bijzaak (3% van de spreektijd)",
+    "Müller (VVD) en Van Oosterhout (PRO), beurt 53-61: treinreizen en vliegbelasting is bijzaak (8% van de spreektijd met trein|vlieg|kerosine)",
     "Teunissen (PvdD) en Van Oosterhout (PRO), beurt 25-31: eensgezind",
     "Kops (PVV) tegenover Klos (D66): kritiek op het burgerberaad zelf, minder over wat het kabinet moet overnemen"
    ],
-   "aandeel_onderwerp": "11% (overnemen|overgenomen|overneemt|serieus|opvolg|uitvoer|la belanden|voorjaar)",
+   "aandeel_onderwerp": "14% (overnemen|overgenomen|overneemt|over te nemen|voorjaar|uitvoer|opvolg|verplicht|vrijwillig)",
    "citaten": [
     {
      "beurt": 20,
@@ -81,5 +81,14 @@
   "moties": []
  },
  "afloop": "In dit debat zijn geen moties ingediend.",
- "afloop_kort": "Geen moties in dit debat."
+ "afloop_kort": "Geen moties in dit debat.",
+ "lezing": {
+  "oordeel": "aangepast",
+  "bevindingen": [
+   "aandeel_onderwerp: de regex bevatte 'serieus' en 'la belanden' (te ruim/toevallig) en miste 'over te nemen' (Teunissen: 'zegt 41 van de 82 maatregelen over te nemen'); opnieuw gemeten met overnemen|overgenomen|overneemt|over te nemen|voorjaar|uitvoer|opvolg|verplicht|vrijwillig: 14%, geen bijzaak (ernst klein)",
+   "afgevallen/regel: treinreizen en vliegbelasting gemeten met trein|vlieg|kerosine is 8%, niet 3%; nog steeds bijzaak, keuze blijft staan (ernst klein)",
+   "Bron 3 nagelopen: geen verzoek in data/verzoeken; de regeling van 12 november 2026 noemt het debat alleen bij het welkom aan de tribune. Bron 4 (agendatitel) is terecht; vraag neutraal (geen bevinding)",
+   "Citaten letterlijk, volgorde klopt (beurt 20 voor 53), voorbehoud 'zelfs als die soms iets meer pijn doen' en reden 'want ... andere belangen' staan erin; beide sprekers zouden het citaat herkennen. Müller noemt vlak ervoor dat het kabinet 'een heel groot gedeelte' overnam; dat valt buiten het citaat maar haar citaat zegt zelf 'niet alle', dus geen vertekening (geen bevinding)"
+  ]
+ }
 }

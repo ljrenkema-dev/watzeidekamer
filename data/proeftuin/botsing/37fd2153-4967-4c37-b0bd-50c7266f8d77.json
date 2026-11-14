@@ -13,7 +13,7 @@
     "Wisseling 1 (Van Dijk SGP ↔ Van Baarle DENK): onderwerp VAE/Arabische gom is bijzaak (7%).",
     "Wisseling 3 (Van Baarle DENK ↔ minister, RSF-sancties): geen werkelijke tegenstelling over de uitvoering, kleiner aandeel (17% voor Sudan als geheel)."
    ],
-   "aandeel_onderwerp": "23% (Israël|Gaza|Westelijke Jordaanoever|nederzetting|kolonist|E1; beurten 1, 16, 18, 19, 21, 22, 46); E1 alleen: 10%",
+   "aandeel_onderwerp": "23% (Israël|Gaza|Westelijke Jordaanoever|nederzetting|kolonist|E1; beurten 1, 16, 18, 19, 21, 22, 46); E1 alleen: 9% (beurten 1, 16, 18, 21, 22)",
    "citaten": [
     {
      "beurt": 18,
@@ -201,5 +201,14 @@
   ]
  },
  "afloop": "Motie 3499 (S.E.M. Dobbe): verworpen, 36 zetels voor en 114 tegen. Motie 3500 (S.R.T. van Baarle): aangenomen, 123 zetels voor en 27 tegen. Motie 3501 (S.R.T. van Baarle): verworpen, 9 zetels voor en 141 tegen. Motie 3502 (S.R.T. van Baarle): aangenomen, 108 zetels voor en 42 tegen. Motie 3503 (S.R.T. van Baarle): aangenomen, 117 zetels voor en 33 tegen. Motie 3504 (S.R.T. van Baarle): verworpen, 56 zetels voor en 94 tegen. Motie 3505 (D.J.H. (Diederik) van Dijk): aangenomen, 124 zetels voor en 26 tegen.",
- "afloop_kort": "Motie 3499 verworpen (36–114); Motie 3500 aangenomen (123–27); Motie 3501 verworpen (9–141); Motie 3502 aangenomen (108–42); Motie 3503 aangenomen (117–33); Motie 3504 verworpen (56–94); Motie 3505 aangenomen (124–26)."
+ "afloop_kort": "Motie 3499 verworpen (36–114); Motie 3500 aangenomen (123–27); Motie 3501 verworpen (9–141); Motie 3502 aangenomen (108–42); Motie 3503 aangenomen (117–33); Motie 3504 verworpen (56–94); Motie 3505 aangenomen (124–26).",
+ "lezing": {
+  "oordeel": "aangepast",
+  "bevindingen": [
+   "Aandeel E1 alleen stond op 10%; nagemeten met kaart.py aandeel (\"E1\"): 9% (162 van 1828 woorden). Aangepast in aandeel_onderwerp van versie a. Het gekozen onderwerp (Israël/E1, 23%) is geen bijzaak, dus de keuze blijft staan (ernst klein).",
+   "Keuze wisseling klopt: wisseling 1 (SGP ↔ DENK) gaat over druk op de VAE (7%, bijzaak) en de SGP sluit die druk 'zeker niet uit', dus geen duidelijke tegenstelling; wisseling 2 (SP ↔ minister) heeft een echte tegenstelling (concrete maatregelen noemen of niet). Dobbe (beurt 18/21) staat terecht boven de minister (beurt 19/22).",
+   "Vraagbron nagelopen: geen vragenuur, geen wetsvoorstel; in data/verzoeken/ en data/procedure/ geen verzoek om dit tweeminutendebat (alleen agendering en een PVV-reactie op een ander verzoek). Bron 4 (agendatitel) is de eerste die bestaat en past: de minister noemt zelf 'mijn inzet in de Raad'. Vraag is neutraal en steunt niet op één deelnemer.",
+   "Citaten (a: 18, 19; c: 21, 22) letterlijk en aaneengesloten, elk twee zinnen en hooguit 35 woorden; geen voorbehoud, ontkenning of voorwaarde weggevallen ('als het E1-project doorgaat' en 'Het is niet zo dat' staan erin). De weggelaten zin van de minister over meerderheden na de Israëlische verkiezingen is toelichting, geen voorbehoud; beide sprekers zouden hun citaat herkennen. Geen veld 'vraag' binnen een versie."
+  ]
+ }
 }

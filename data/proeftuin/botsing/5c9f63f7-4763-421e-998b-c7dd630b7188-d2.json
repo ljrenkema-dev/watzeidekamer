@@ -7,7 +7,7 @@
  "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel of doel van een wetsvoorstel): geen wetsvoorstel, het is een debat over een advies. Bron 3 (verzoek waarmee het debat is aangevraagd): in data/verzoeken/ en data/procedure/ staat geen verzoek om dit debat; het burgerberaad komt alleen voor in een opmerking van de voorzitter in de regeling van 12 november (a8b04ae3: 'de mensen op de publieke tribune, die gekomen zijn voor het debat over het Nationaal Burgerberaad Klimaat'), niet als verzoek. Bron 4 bestaat en past: de agendatitel gaat over het advies en de reactie van het kabinet daarop. Bron 5 niet nodig.",
  "versies": {
   "a": {
-   "regel": "Alle drie de langste wisselingen in het bronbestand gaan over een bijzaak (fossiele subsidies 2%, eerlijk klimaatbeleid/vervuiler betaalt is vooral eensgezind, CO2-doorrekening 3%). Daarom het onderwerp met de meeste spreektijd gezocht: reizen en openbaar vervoer (12%, het enige onderwerp boven de 10%). Daarbinnen de duidelijkste tegenstelling tussen twee sprekers van verschillende kanten: staatssecretaris Bertram (kabinet, beurt 47) zegt dat vervoerders de prijzen bepalen; Van Oosterhout (PRO, beurt 50) reageert direct dat de overheid via btw en fossiele subsidies kan sturen. Ze reageerden direct op elkaar (Bertram antwoordt daarna nog in beurt 51 met de toezegging van een nota in het voorjaar).",
+   "regel": "Alle drie de langste wisselingen in het bronbestand gaan over een bijzaak (fossiele subsidies 2%, eerlijk klimaatbeleid/vervuiler betaalt is vooral eensgezind, CO2-doorrekening 3%). Daarom het onderwerp met de meeste spreektijd gezocht: reizen en openbaar vervoer (11%, het enige onderwerp boven de 10%). Daarbinnen de duidelijkste tegenstelling tussen twee sprekers van verschillende kanten: staatssecretaris Bertram (kabinet, beurt 47) zegt dat vervoerders de prijzen bepalen; Van Oosterhout (PRO, beurt 50) reageert direct dat de overheid via btw en fossiele subsidies kan sturen. Ze reageerden direct op elkaar (Bertram antwoordt daarna nog in beurt 51 met de toezegging van een nota in het voorjaar).",
    "wisseling": "Annet Bertram (staatssecretaris IenW) ↔ Sjoukje Van Oosterhout (PRO), beurt 47–51, 3 beurten (47, 50, 51)",
    "afgevallen": [
     "Van Oosterhout (PRO) ↔ minister Van Veldhoven, fossiele subsidies, beurt 0–8: onderwerp is bijzaak (2%)",
@@ -15,7 +15,7 @@
     "Klos (D66) ↔ minister Van Veldhoven, CO2-doorrekening, beurt 18–26: bijzaak (3%)",
     "Klos (D66) ↔ minister, voedselverspilling (verplichting of stimulans), beurt 33–37: bijzaak (3%)"
    ],
-   "aandeel_onderwerp": "12% (trein|spoor|vervoer|openbaar|ov\\b|ticket|Eurostar|dalur|fiets|vlieg|reizen)",
+   "aandeel_onderwerp": "11% (trein|spoor|vervoer|\\bov\\b|openbaar vervoer|ticket|Eurostar|dalur|fiets|vlieg), beurten 47, 50, 51, 53, 54, 56, 62, 72, 84",
    "citaten": [
     {
      "beurt": 47,
@@ -99,5 +99,14 @@
   ]
  },
  "afloop": "Motie 1592 (A.S. van Oosterhout): uitslag staat (nog) niet in onze gegevens. Motie 1593 (A.S. van Oosterhout): uitslag staat (nog) niet in onze gegevens. Motie 1594 (C. Teunissen): uitslag staat (nog) niet in onze gegevens. Motie 1595 (C. Teunissen): uitslag staat (nog) niet in onze gegevens. Motie 1596 (A. Kops): uitslag staat (nog) niet in onze gegevens.",
- "afloop_kort": "Van de 5 moties staat nog geen uitslag in onze gegevens."
+ "afloop_kort": "Van de 5 moties staat nog geen uitslag in onze gegevens.",
+ "lezing": {
+  "oordeel": "aangepast",
+  "bevindingen": [
+   "Aandeel onderwerp: de regex telde met 'reizen' en 'openbaar' ook algemene zinnen uit beurt 0 en 60 mee ('eten, spullen gebruiken en reizen'); met een strakkere regex 11% in plaats van 12%, nog steeds het enige onderwerp boven de 10% (gemeten ook: fossiele subsidies/beprijzing 4%, voedsel 4%, circulaire economie/spullen 7%, burgerberaad/participatie 9%). Keuze blijft staan; aandeel_onderwerp en regel bijgewerkt (ernst klein)",
+   "Wisseling is een echte tegenstelling: Bertram legt de prijzen bij de vervoerders, Van Oosterhout zegt dat de overheid via btw en fossiele subsidies kan sturen. Bertram (beurt 47) sprak eerst en staat bovenaan (geen bevinding)",
+   "Vraag: bron 1 en 2 bestaan niet, bron 3 niet (in data/verzoeken/ en data/procedure/ alleen een welkom van de voorzitter in regeling a8b04ae3, geen verzoek); bron 4 (agendatitel) bestaat en past bij het antwoord van het kabinet in deel 2. Neutraal geformuleerd (geen bevinding)",
+   "Citaten letterlijk gecontroleerd tegen beurt 47 en 50. Bij Bertram valt de direct volgende nuance weg ('Dat neemt niet weg dat ik ervan uitga dat het natuurlijk ook iets met je businesscase doet naarmate er meer treinen kunnen rijden'); met die zin wordt het citaat ca. 49 woorden. De nuance blijft voor de lezer zichtbaar via Van Oosterhouts citaat ('de ticketprijs ... misschien wel omlaag gaat als de businesscase maar goed genoeg is'), en Bertram zou het citaat als haar standpunt herkennen; niet aangepast (ernst klein)"
+  ]
+ }
 }
