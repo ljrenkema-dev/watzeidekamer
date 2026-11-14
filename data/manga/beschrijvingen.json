@@ -219,6 +219,10 @@
   "neutraal_aanpassing": {
    "opmerking": "ogen kleiner",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "059453a7-a169-477c-9f89-54dda55b6d40": {
@@ -251,6 +255,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "08ad50b1-831e-4f50-bed4-97d9d42b0752": {
@@ -307,6 +315,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "13d5095e-c5df-4cbb-a2f4-c0bb142e9397": {
@@ -339,6 +351,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "19c8d0fb-66ca-4b45-be82-057cb36e1e61": {
@@ -359,6 +375,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "1b823081-5a38-41cf-9d21-63a635df7b06": {
@@ -383,6 +403,10 @@
   "neutraal_aanpassing": {
    "opmerking": "Iets ouder",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "1ee767b9-67f3-47e5-9e28-045da1c37b05": {
@@ -499,6 +523,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "36ed934d-56c7-4903-a0a8-a9f186d5a96f": {
@@ -631,6 +659,10 @@
   "neutraal_aanpassing": {
    "opmerking": "geen bril",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "4b6348d0-bf6d-4086-983b-48eb3834efff": {
@@ -879,6 +911,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "71653caa-dc3a-4441-80cb-34f6a737ee1e": {
@@ -935,6 +971,11 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_afgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14",
+   "opmerking": ""
   }
  },
  "77c541d2-49e3-483f-869d-134df420c5ea": {
@@ -1039,6 +1080,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "8767e9de-869e-4e8a-940f-1a63d15eab3c": {
@@ -1059,6 +1104,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "8a152678-92d8-41f4-9002-62ee62d2f7b0": {
@@ -1071,6 +1120,10 @@
   "neutraal_aanpassing": {
    "opmerking": "smaller gezicht",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "8f38a474-1b0a-4fcc-a727-28531df173a6": {
@@ -1079,6 +1132,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "9039e7f6-d05b-40a7-b0af-9a4f98fc03ae": {
@@ -1103,6 +1160,10 @@
   "neutraal_aanpassing": {
    "opmerking": "mond zo houden en de rest meer van de vriendelijke versie, vooral de ogen kloppen niet",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "950c21d2-8a14-406d-b3af-877360bbd0ab": {
@@ -1127,6 +1188,10 @@
   "neutraal_aanpassing": {
    "opmerking": "langwerpiger gezicht, iets ouder (zoals de vriendelijke versie)",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "98aa8bde-85b0-49ed-9795-e2eeb206e3b8": {
@@ -1139,6 +1204,10 @@
   "neutraal_aanpassing": {
    "opmerking": "ogen kleiner",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "98f026ef-74d5-4b6e-80ae-4a76e9ec7e81": {
@@ -1171,6 +1240,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "9e16daf1-18e6-4563-b371-aa50c31b79f6": {
@@ -1195,6 +1268,10 @@
   "neutraal_aanpassing": {
    "opmerking": "dunnere lippen",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "9f855643-68a2-409e-b4fe-81b92547212a": {
@@ -1203,6 +1280,11 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_afgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14",
+   "opmerking": ""
   }
  },
  "a08790d3-915b-44d3-9556-6c53048917a0": {
@@ -1235,6 +1317,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "a3b17348-54cf-4bca-82d4-e62bd46c2fbc": {
@@ -1283,6 +1369,10 @@
   "neutraal_aanpassing": {
    "opmerking": "meer lijnen in gezicht zoals de vriendelijker versie",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "a68468b6-51ea-440c-9387-b44ba10ad8b6": {
@@ -1423,6 +1513,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "b8e78559-8f69-4ec6-89ce-17645a5eecdb": {
@@ -1443,6 +1537,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "c055003b-034e-4d30-ae78-dd271b00dcbf": {
@@ -1491,6 +1589,10 @@
   "neutraal_aanpassing": {
    "opmerking": "ogen moeten beter en het brilmontuur ook",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "c7822b58-103f-4612-87ef-648be97192c6": {
@@ -1551,6 +1653,10 @@
   "neutraal_aanpassing": {
    "opmerking": "meer inhammen",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "d0ddd0c4-ece0-4b75-85b7-d2396a05f921": {
@@ -1619,6 +1725,11 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_afgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14",
+   "opmerking": ""
   }
  },
  "d89044ef-b7df-4a15-be10-d342fe381664": {
@@ -1627,6 +1738,11 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_afgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14",
+   "opmerking": ""
   }
  },
  "da9f33b0-80ca-49eb-a1ec-def3b46538d9": {
@@ -1683,6 +1799,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "de44b333-86c1-4af7-9439-a0c186d6f2e3": {
@@ -1719,6 +1839,10 @@
   "neutraal_aanpassing": {
    "opmerking": "iers kalender",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "e5c4753f-d2d8-4a4a-ae9d-62118892a731": {
@@ -1739,6 +1863,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "e70c3ee3-cca2-4521-abea-b124dcec0952": {
@@ -1771,6 +1899,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "ebb3123c-6520-45ad-9045-d78dd5313b30": {
@@ -1827,6 +1959,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "fe1727e3-35bc-4b62-869b-be60b0c861f7": {
@@ -1887,6 +2023,10 @@
   "neutraal_aanpassing": {
    "opmerking": "zonder hoed",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "wiki:rob-jetten": {
@@ -1899,6 +2039,10 @@
   "neutraal_aanpassing": {
    "opmerking": "ogeb meer zoals de vriendelihker versie, iets meer grijze haren",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "wiki:tom-berendsen": {
@@ -1907,6 +2051,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  },
  "wiki:willemijn-aerdts": {
@@ -1915,6 +2063,10 @@
   "toestemming_foto": {
    "door": "eigenaar",
    "datum": "2026-11-13"
+  },
+  "neutraal_goedgekeurd": {
+   "door": "eigenaar",
+   "datum": "2026-11-14"
   }
  }
 }
