@@ -44,7 +44,8 @@
        "oorbel": "ring",
        "manga": "3dd43fe1-c99a-4826-b08f-4ed3fc0dd9ba"
       }
-     }
+     },
+     "kort": "PRO zegt dat oud-minister Kamp bewust toestond wat juridisch omstreden was, en vraagt of de minister het ministerie aansprakelijk vindt."
     },
     {
      "beurt": 3,
@@ -70,7 +71,8 @@
        "kleding": "colbert-open",
        "manga": "19c8d0fb-66ca-4b45-be82-057cb36e1e61"
       }
-     }
+     },
+     "kort": "De minister denkt dat niets gebeurde wat niet mocht; mensen mogen naar de rechter; wie verantwoordelijk is, zegt hij niet."
     }
    ],
    "aandeel_onderwerp": "niet van toepassing: vragenuur, onderwerp volgt de vraagvolgorde en de spreidingsregel (uitzendkrachten: 10% van het hele vragenuur, uitzend|gelijk loon|gelijkwaardig|richtlijn|flexwerk)",
@@ -113,7 +115,8 @@
        "oorbel": "ring",
        "manga": "3dd43fe1-c99a-4826-b08f-4ed3fc0dd9ba"
       }
-     }
+     },
+     "kort": "PRO zegt dat de uitzendsector een manier bedacht om minder te betalen, omdat de wet 'gelijkwaardig' zegt, niet 'gelijk'."
     },
     {
      "beurt": 13,
@@ -139,7 +142,8 @@
        "kleding": "colbert-open",
        "manga": "19c8d0fb-66ca-4b45-be82-057cb36e1e61"
       }
-     }
+     },
+     "kort": "De minister zegt dat een meerderheid in de Kamer koos voor 'gelijkwaardig' en niet 'gelijk', om uitzendwerk flexibel te houden."
     }
    ],
    "aandeel_onderwerp": "niet van toepassing: vragenuur, onderwerp volgt de vraagvolgorde en de spreidingsregel (uitzendkrachten: 10% van het hele vragenuur, uitzend|gelijk loon|gelijkwaardig|richtlijn|flexwerk)",
@@ -157,5 +161,18 @@
   "moties": []
  },
  "vraag_bron_soort": 1,
- "vraag_bron_toetsing": "Bron 1 (mondelinge vraag) bestaat en past: de eerste vraag van het vragenuur."
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag) bestaat en past: de eerste vraag van het vragenuur.",
+ "vraag_makkelijk": "Moet het ministerie opdraaien voor het lagere loon van uitzendkrachten?",
+ "lezing": {
+  "kort_gezegd": {
+   "oordeel": "aangepast",
+   "bevindingen": [
+    "middel: vraag_makkelijk 'schuldig' is sterker dan 'aansprakelijk' (L3); nu 'opdraaien voor', B1 en dezelfde strekking.",
+    "middel: kort beurt 1 maakte van 'acht hij het ministerie aansprakelijk?' de vraag of het ministerie aansprakelijk is; het is de vraag wat de minister vindt (L5). 'oud-minister' toegevoegd zodat Kamp niet met de huidige minister verward wordt (beurt 1: 'Minister Kamp lobbyde in 2011').",
+    "middel: kort beurt 3 'niets misging' is ruimer dan 'niets gebeurd wat niet door de beugel kon', en 'over schuld zegt hij niets' verschoof 'wie daar verantwoordelijk voor is' naar schuld (L3); voorbehoud 'volgens mij' als 'denkt'.",
+    "klein: kort beurt 12 'trucje' kleurde 'construct' en 'en niet gelijk' viel weg, waardoor de zin zonder voorkennis onbegrijpelijk was.",
+    "klein: kort beurt 13 'de Kamer koos' werd 'een meerderheid in de Kamer koos' ('in meerderheid')."
+   ]
+  }
+ }
 }

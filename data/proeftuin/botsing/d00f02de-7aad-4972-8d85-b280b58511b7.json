@@ -42,7 +42,8 @@
        "oorbel": "knopje",
        "manga": "60a80b41-2618-47c0-8212-2feb0f67c221"
       }
-     }
+     },
+     "kort": "Het CDA zegt dat goed buitenlandbeleid religie moet begrijpen: die kan mensen overtuigen, maar ook desinformatie brengen en geweld goedpraten."
     }
    ],
    "aandeel_onderwerp": "29% (religi)",
@@ -59,7 +60,14 @@
    "Citaat aangepast zodat beide kanten van haar standpunt erin staan (L9: religieuze leiders als 'influencers' én religie als bron van desinformatie) en het zonder voorkennis te begrijpen is: 'opnieuw met aanbevelingen' volgt nu op een zin die zegt waarover het gaat. 'daarom' verwijst in het origineel naar de veranderende rol van religie; in haar betoog volgt dat uit hetzelfde punt (religie doet ertoe in het buitenlandbeleid), dus de betekenis blijft gelijk.",
    "Vraag is neutraal en steunt op haar eigen oproep en de motie (276: 'met concrete aanbevelingen te komen'); kop en afloop kloppen met de bron en de motiedata.",
    "Hoofdsessie: citaat vervangen door twee aaneengesloten zinnen, omdat 'daarom' na inkorten naar een andere zin verwees dan in het verslag ('buienlandbeleid' staat zo in het verslag)."
-  ]
+  ],
+  "kort_gezegd": {
+   "oordeel": "aangepast",
+   "bevindingen": [
+    "akkoord: vraag_makkelijk 'Wat moet Nederland doen in de Sahel?' heeft dezelfde strekking.",
+    "middel: kort beurt 5 liet de kern van het citaat weg ('Voor een effectief buitenlandbeleid moet je dus heel goed begrijpen wat de rol van religie is'); 'geweld steunen' is niet 'gebruikt om geweld te legitimeren' (L3). Beide kanten (L9) blijven staan."
+   ]
+  }
  },
  "afloop_data": {
   "status": "open",
@@ -90,5 +98,6 @@
   ]
  },
  "vraag_bron_soort": 4,
- "vraag_bron_toetsing": "Bron 1–3 bestaan niet (geen vragenuur, geen wetsvoorstel, het tweeminutendebat is in de commissie aangevraagd). Bron 4 bestaat en past. De vorige vraag steunde op één deelnemer (Van Ark) en mag niet meer."
+ "vraag_bron_toetsing": "Bron 1–3 bestaan niet (geen vragenuur, geen wetsvoorstel, het tweeminutendebat is in de commissie aangevraagd). Bron 4 bestaat en past. De vorige vraag steunde op één deelnemer (Van Ark) en mag niet meer.",
+ "vraag_makkelijk": "Wat moet Nederland doen in de Sahel?"
 }

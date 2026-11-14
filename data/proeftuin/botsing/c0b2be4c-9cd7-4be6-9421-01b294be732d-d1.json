@@ -35,7 +35,8 @@
        "leeftijd": "midden",
        "spiegel": true
       }
-     }
+     },
+     "kort": "De SGP wil vanaf 1 januari van Russisch vloeibaar gas af zijn, maar je weet nooit wat een contract bevat."
     }
    ],
    "aandeel_onderwerp": "1% (\\blng\\b|Russisch gas) → bijzaak; daarom versie c",
@@ -72,7 +73,8 @@
        "leeftijd": "midden",
        "spiegel": true
       }
-     }
+     },
+     "kort": "De SGP zegt: in Israëls ogen zet Nederland sinds 7 oktober veel rare stappen; hoe wint de minister vertrouwen terug?"
     },
     {
      "beurt": 11,
@@ -95,7 +97,8 @@
        "spiegel": true,
        "manga": "7564c685-2691-4796-9159-ebd5df4fdc8d"
       }
-     }
+     },
+     "kort": "De PvdD zegt dat Nederland veel meer kan en moet doen tegen de genocide, zoals alle wapenhandel met Israël stoppen."
     }
    ],
    "aandeel_onderwerp": "19% (Israël|Gaza|Palestijn|genocide|7 oktober)",
@@ -115,7 +118,16 @@
    "Versie c toegevoegd: Stoffer (SGP, vertrouwen van Israël herwinnen) tegenover Teunissen (PvdD, veel meer doen, wapenhandel stopzetten), uit hun eigen inbreng, niet uit een directe wisseling (staat in 'regel'). Eigen neutrale vraag zonder beladen woorden; 'genocide' alleen als woord van Teunissen in haar citaat.",
    "Advies aan de eigenaar: versie c is voor dit debatdeel het eerlijkere lokbeeld; 'geen_botsing' geldt alleen voor de wisselingen (versie a).",
    "Hoofdsessie: kop ingekort; 'Zoals ook de eisen van de Rode Lijndemonstratie luiden:' weggelaten uit Teunissens citaat om op de kaart te passen (zij maakt die eis zelf)."
-  ]
+  ],
+  "kort_gezegd": {
+   "oordeel": "aangepast",
+   "bevindingen": [
+    "middel: vraag_makkelijk 'doen voor Israël' verschuift 'richting' (tegenover) naar 'ten gunste van'. Nu 'omgaan met'.",
+    "groot: kort beurt 7 ('dat er na 1 januari niets meer speelt') was zonder voorkennis onbegrijpelijk: het gaat om Russisch lng (beurt 4 en 6, importverbod per 1 januari 2027). 'Wat mij betreft' als 'wil'.",
+    "middel: kort beurt 4 'rare sprongen' is een letterlijke vertaling van 'bokkensprongen' en geen B1; 'vindt maken' was krom. 'In de ogen van Israël' blijft staan (L1). 'een behoorlijk aantal' als 'veel'; 'komend jaar' viel weg om binnen 20 woorden te blijven.",
+    "klein: kort beurt 11 'en kan alle wapenhandel stoppen' had geen duidelijk onderwerp; nu een voorbeeld van wat Nederland volgens de PvdD kan doen. 'Genocide' staat binnen 'De PvdD zegt dat' (L4)."
+   ]
+  }
  },
  "afloop_data": {
   "status": "geen_moties",
@@ -125,5 +137,6 @@
   "moties": []
  },
  "vraag_bron_soort": 5,
- "vraag_bron_toetsing": "Bron 2 en 4 (titel en agendatitel: 'Begroting Buitenlandse Zaken') bestaan, maar passen niet bij het gekozen onderwerp (19% van de spreektijd; lng was een bijzaak). Bron 3: geen verzoek waarmee dit debat werd aangevraagd. Bron 5 gehaald. Versie a (lng) blijft alleen ter vergelijking; de vraag hoort bij versie c."
+ "vraag_bron_toetsing": "Bron 2 en 4 (titel en agendatitel: 'Begroting Buitenlandse Zaken') bestaan, maar passen niet bij het gekozen onderwerp (19% van de spreektijd; lng was een bijzaak). Bron 3: geen verzoek waarmee dit debat werd aangevraagd. Bron 5 gehaald. Versie a (lng) blijft alleen ter vergelijking; de vraag hoort bij versie c.",
+ "vraag_makkelijk": "Hoe moet Nederland omgaan met Israël en de Palestijnse gebieden?"
 }

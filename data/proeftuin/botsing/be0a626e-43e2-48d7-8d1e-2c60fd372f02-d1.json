@@ -36,7 +36,8 @@
        "leeftijd": "jong",
        "spiegel": false
       }
-     }
+     },
+     "kort": "DENK vraagt of de drie coalitiepartijen nog achter het Belastingplan staan en of ze samen of verdeeld gaan stemmen."
     },
     {
      "beurt": 79,
@@ -61,7 +62,8 @@
        "kleding": "colbert-das",
        "manga": "2690bccc-5463-459a-b1df-cb93e222b348"
       }
-     }
+     },
+     "kort": "D66 denkt dat de coalitie voor het Belastingplan stemt, maar spreekt niet voor de andere coalitiepartijen."
     }
    ],
    "aandeel_onderwerp": "21% (coalitie|belastingplan|amendement)",
@@ -98,7 +100,8 @@
        "spiegel": true,
        "manga": "6d33b9bc-7d3a-4a60-b2d7-c2b70cd11ab1"
       }
-     }
+     },
+     "kort": "De PVV zegt dat D66 eigenlijk een machtsgreep pleegde in de coalitie, en vraagt of D66 dat goed vindt."
     },
     {
      "beurt": 57,
@@ -123,7 +126,8 @@
        "kleding": "colbert-das",
        "manga": "2690bccc-5463-459a-b1df-cb93e222b348"
       }
-     }
+     },
+     "kort": "D66 vindt wat Wilders zegt totale onzin en wil eerst de gemaakte afspraken noemen."
     }
    ],
    "aandeel_onderwerp": "21% (coalitie|belastingplan|amendement)",
@@ -143,5 +147,16 @@
  },
  "vraag_bron_soort": 3,
  "vraag_bron_toetsing": "Bron 2 (titel: 'Pakket Belastingplan 2027') bestaat, maar past niet bij dit deel: de derde termijn ging over het nieuwe amendement en de verhoudingen in de coalitie. Bron 3 bestaat en past, en gaat voor. Ter vergelijking: bron 5 zou nu ook gehaald zijn (vragen over de coalitie van PVV, JA21, Groep Markuszower, DENK en PvdD; D66 gaat erop in, Paternotte beurt 79). Gelijkgetrokken met de andere delen van deze derde termijn: dezelfde bron (het verzoek om de derde termijn vanwege het nieuwe amendement) geeft dezelfde vraag. 'Amendement van PRO en Volt': zo noemen Bikker (ChristenUnie) en Bontenbal (CDA) het; 'miljonairsbelasting' is de benaming van één kant en staat daarom niet in de vraag.",
- "vraag_oud_per_deel": "Komt er via een amendement een miljonairsbelasting in het Belastingplan?"
+ "vraag_oud_per_deel": "Komt er via een amendement een miljonairsbelasting in het Belastingplan?",
+ "vraag_makkelijk": "Moet het Belastingplan veranderen met het voorstel van PRO en Volt?",
+ "lezing": {
+  "kort_gezegd": {
+   "oordeel": "aangepast",
+   "bevindingen": [
+    "klein: vraag_makkelijk 'het plan van PRO en Volt' is naast 'Belastingplan' verwarrend; een amendement is een voorstel om de wet te veranderen. Nu 'het voorstel van PRO en Volt'.",
+    "klein: kort beurt 56: 'eigenlijk' (de facto) teruggezet (L1). 'gisteren' terecht weggelaten (L7).",
+    "akkoord: kort beurt 78, 79 en 57 zeggen wat in het citaat staat; voorbehoud 'denkt' en 'geen woordvoerder van alle coalitiepartijen' staan in beurt 79."
+   ]
+  }
+ }
 }

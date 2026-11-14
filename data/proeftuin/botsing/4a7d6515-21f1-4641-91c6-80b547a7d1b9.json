@@ -34,7 +34,8 @@
        "spiegel": true,
        "manga": "d38ca3cf-9803-48dc-8592-c67c4430168e"
       }
-     }
+     },
+     "kort": "De ChristenUnie vroeg vaak om het gat te vullen met belasting op vermogen met wat steun, en vraagt waarom niet."
     },
     {
      "beurt": 62,
@@ -61,7 +62,8 @@
        "volume": "plat",
        "manga": "a3b17348-54cf-4bca-82d4-e62bd46c2fbc"
       }
-     }
+     },
+     "kort": "De minister snapt het punt, maar zegt dat zijn steunpartijen in de Eerste Kamer afhaken bij erf- en schenkbelasting."
     }
    ],
    "inkorten": [
@@ -84,8 +86,17 @@
   "oordeel": "aangepast",
   "bevindingen": [
    "Hoofdsessie: in Heinens citaat viel 'in de Eerste Kamer' weg, waardoor 'daar' nergens naar verwees; nu het doorlopende stuk van de zin (41 woorden). Kop aangevuld met het onderwerp. Aandeel 12% nagemeten (dekking|gedekt|dekken)."
-  ]
+  ],
+  "kort_gezegd": {
+   "oordeel": "aangepast",
+   "bevindingen": [
+    "groot: vraag_makkelijk 'groter worden' is een betekenisverschuiving. 'Uitbreiding' betekent hier dat meer soorten bezit onder de vermogenswinstbelasting vallen (beurt 14: 'spaargeld, vastgoed, aandelenbeleggingen'; beurt 32: 'crypto en edelmetalen'), niet een hogere belasting.",
+    "middel: kort beurt 61 gebruikte jargon 'dekking' en liet 'in het vermogensdomein' weg; 'meer steun' maakte van 'nog enigszins wordt gedragen' een vergelijking (L3). Nu 'het gat vullen met belasting op vermogen die wat steun heeft'.",
+    "middel: kort beurt 62 liet 'in de Eerste Kamer' weg, zodat onduidelijk was welke partijen; 'snapt dit' verwees nergens naar."
+   ]
+  }
  },
  "vraag_bron_soort": 2,
- "vraag_bron_toetsing": "Bron 2 bestaat en past: het debat ging over de novelle; de gekozen wisseling over de dekking hoort daarbij. De vorige vraag ('Is de dekking … voldoende?') steunde op sprekers en zou bron 5 nodig hebben; dekkingsvragen kwamen alleen van ChristenUnie en PRO, dus ook met de nieuwe drempel te weinig fracties."
+ "vraag_bron_toetsing": "Bron 2 bestaat en past: het debat ging over de novelle; de gekozen wisseling over de dekking hoort daarbij. De vorige vraag ('Is de dekking … voldoende?') steunde op sprekers en zou bron 5 nodig hebben; dekkingsvragen kwamen alleen van ChristenUnie en PRO, dus ook met de nieuwe drempel te weinig fracties.",
+ "vraag_makkelijk": "Moet de vermogenswinstbelasting in box 3 voor meer soorten bezit gelden?"
 }
