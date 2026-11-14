@@ -216,3 +216,6 @@ a.woordlink:hover,a.woordlink:focus-visible{color:var(--accent)}
 .pijl{display:grid;place-items:center;padding:0}
 .pijl svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
 .item>.vraag+.delenlijst{margin-top:2px}
+/* Kort gezegd: het citaat in makkelijke taal */
+.kort{margin:2px 0 0;font-size:15px;line-height:1.45;background:var(--tone);border-radius:8px;padding:6px 10px}
+.kort b{font-family:var(--display)}

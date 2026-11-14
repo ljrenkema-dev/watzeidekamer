@@ -160,6 +160,8 @@ def check(pid):
     for veld in ("kop", "vraag", "vraag_bron", "versies"):
         if not k.get(veld):
             fouten.append(f"veld '{veld}' ontbreekt")
+    if k.get("vraag_makkelijk") and len(k["vraag_makkelijk"].split()) > 12:
+        fouten.append(f"vraag_makkelijk heeft {len(k['vraag_makkelijk'].split())} woorden, hooguit 12")
     if k.get("vraag") and len(k["vraag"].split()) > 12:
         fouten.append(f"vraag heeft {len(k['vraag'].split())} woorden, hooguit 12")
     for naam, v in (k.get("versies") or {}).items():
@@ -187,6 +189,8 @@ def check(pid):
             zinnen = len(re.findall(r"[.?!](?:\s+(?![—–-])|$)", c["citaat"]))  # "? —" midden in een zin telt niet
             if zinnen > 2:
                 fouten.append(f"versie {naam}, beurt {i}: {zinnen} zinnen, hooguit 2")
+            if c.get("kort") and len(c["kort"].split()) > 20:
+                fouten.append(f"versie {naam}, beurt {i}: 'kort' heeft {len(c['kort'].split())} woorden, hooguit 20")
             sp = B[i]["spreker"]
             c.update({"naam": sp.get("naam") or sp["verslagnaam"],
                       "partij": sp["fractie"] or (sp.get("functie") or ""),  # voluit; de sociale beelden korten zelf in

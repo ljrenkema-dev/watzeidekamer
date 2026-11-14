@@ -110,15 +110,25 @@ def kaart_site(K):
     x = K["versies"][v]
     vraag = x.get("vraag") or K["vraag"]
     paar = "".join(
-        f'<div class="c"><blockquote>“{e(kaart_citaat(c))}”</blockquote>'
+        f'<div class="c"><blockquote>“{e(kaart_citaat(c))}”</blockquote>{kaart_kort(c)}'
         f'<div class="w">{kaart_fig(c)}<div>{e(c["naam"])} <span>· {e(c["partij"])}</span></div></div>'
         + (f'<a class="vid" href="{e(c["video"])}" target="_blank" rel="noopener">▶ Bekijk dit moment in de video ({e(c.get("tijd") or "")})</a>' if c.get("video") else "")
         + f'<a class="vid" href="../v/{e(K["debat"])}.html#b{c["beurt"]}">Lees in het debat</a></div>'
         for c in x["citaten"])
     ook = kaart_ook(K, v)
-    return (f'<article class="kaart-site"><div class="band"><span class="tag">{e(K["kop"])}</span><h2>{e(vraag)}</h2></div>'
+    return (f'<article class="kaart-site"><div class="band"><span class="tag">{e(K["kop"])}</span><h2>{twee(kaart_vraag(K, x))}</h2></div>'
             f'<div class="rest"><div class="paar">{paar}</div>'
             f'<p class="ookl">{e(ook)}{". " if ook else ""}<a href="#standpunten">Lees alle standpunten</a></p>{kaart_afloop(K)}</div></article>')
+
+
+def kaart_vraag(K, x=None):
+    """Vraag in beide taalniveaus (makkelijk valt terug op normaal)."""
+    v = (x or {}).get("vraag") or K["vraag"]
+    return {"normaal": v, "makkelijk": K.get("vraag_makkelijk") or v}
+
+
+def kaart_kort(c):
+    return f'<p class="kort"><b>Kort gezegd:</b> {e(c["kort"])}</p>' if c.get("kort") else ""
 
 
 def kaart_tegen(K):
@@ -139,12 +149,12 @@ def kaart_carrousel(K, href, label=None):
     v = kaart_versie(K)
     x = K["versies"][v]
     paar = "".join(
-        f'<div class="c"><blockquote>“{e(kaart_citaat(c))}”</blockquote>'
+        f'<div class="c"><blockquote>“{e(kaart_citaat(c))}”</blockquote>{kaart_kort(c)}'
         f'<div class="w">{kaart_fig(c)}<div>{e(c["naam"])} <span>· {e(c["partij"])}</span></div></div></div>'
         for c in x["citaten"])
     ook = kaart_ook(K, v)
     return (f'<article class="kaart-site slide"><div class="band"><span class="tag">{e(label or K["kop"])}</span>'
-            f'<h3><a href="{e(href)}">{e(x.get("vraag") or K["vraag"])}</a></h3></div>'
+            f'<h3><a href="{e(href)}">{twee(kaart_vraag(K, x))}</a></h3></div>'
             f'<div class="rest"><div class="paar">{paar}</div>'
             f'<p class="ookl">{e(ook)}{". " if ook else ""}<a href="{e(href)}">Lees het debat en alle standpunten</a></p></div></article>')
 
@@ -474,9 +484,9 @@ def page(title, body, scripts="", root=""):
 <link rel="stylesheet" href="{root}style.css">
 <script>try{{document.documentElement.dataset.taal=localStorage.getItem("taal")||"normaal"}}catch(e){{document.documentElement.dataset.taal="normaal"}}</script>
 </head><body><div class="wrap">
-<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><a href="{root}p/index.html">Politici</a><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
+<header class="top"><a class="home" href="{root}index.html">Wat zei de <mark>Kamer?</mark></a><nav class="topnav"><button type="button" class="taalknop" id="taalknop" aria-pressed="false">Makkelijke taal</button></nav></header>
 {body}
-<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="{root}over.html">Zo werken we</a>.</footer>
+<footer>Gemaakt met open data van de <a href="https://opendata.tweedekamer.nl/">Tweede Kamer</a>. De tekst is door een AI-model in normale taal samengevat. Elk citaat is automatisch gecontroleerd op het verslag. De figuren zijn getekend naar de officiële portretten van de Tweede Kamer; het zijn geen foto's en geen karikaturen. Geen officiële site van de Tweede Kamer. <a href="{root}over.html">Zo werken we</a> · <a href="{root}p/index.html">Alle politici</a>.</footer>
 </div>{scripts}<script>
 (function(){{const k=document.getElementById("taalknop");
 function zet(t){{document.documentElement.dataset.taal=t;k.setAttribute("aria-pressed",t==="makkelijk");k.textContent=t==="makkelijk"?"Normale taal":"Makkelijke taal";
@@ -722,7 +732,7 @@ def item_html(it):
     elif K:
         botsing = {(c.get("figuur") or {}).get("fractie") for c in kaart_tegen(K)}
         chips = chips_html([f for f in it["fracties"] if f not in botsing], "Ook aan het woord:")
-        vraag = f'<p class="vraag">{e(it["vraag"])}</p>{tegen_html(K)}'
+        vraag = f'<p class="vraag">{twee(kaart_vraag(K))}</p>{tegen_html(K)}'
     else:
         chips = chips_html(it["fracties"], "Aan het woord:")
     return (f'<li class="item" data-zoek="{e(it["zoek"].lower())}" data-fracties="{e("|".join(it["fracties"]))}">'
