@@ -49,9 +49,8 @@ def beschrijving(d, deel=None):
     if x and x.pagina and x.pagina["samenvatting"]:
         t = x.pagina["samenvatting"].split("\n")[0]
         zin = re.split(r"(?<=[.!?])\s", t)[0]
-        if len(zin) > 300:
-            zin = zin[:297].rsplit(" ", 1)[0].rstrip(",;:(") + " …"
-        return zin
+        if len(zin) <= 300:
+            return zin
     return f"{d.soort_label} op {M.datum_lang(d.datum)}: {d.titel_agenda}. Met het letterlijke verslag" + (" en de moties." if d.moties else ".")
 
 
@@ -233,7 +232,9 @@ def afloop_tekst(d):
     if d.is_vragenuur:
         return "Bij een vragenuur worden geen moties ingediend en wordt niet gestemd."
     if d.is_stemmingen:
-        return ("In deze vergadering stemde de Kamer. De uitslagen staan niet in onze gegevens; lees in het verslag wat er gezegd is. "
+        o = M.stemming_onderwerp(d)
+        kop = (f"De voorzitter kondigde deze stemming aan als: {d.titel.lower()}. " if o else "In deze vergadering stemde de Kamer. ")
+        return (kop + "De uitslag staat niet in onze gegevens; lees in het verslag wat er gezegd is. "
                 "De uitslag van een motie staat, als we die hebben, bij het debat waarin ze is ingediend.")
     ms = d.moties
     if not ms:

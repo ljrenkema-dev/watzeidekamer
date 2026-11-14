@@ -40,6 +40,8 @@ html{scroll-padding-bottom:96px}
 .cc .fg{width:60px;height:60px;border-color:var(--kt);border-width:2.5px}
 .ckaart{background:#fff;color:#1d1b2e;border-radius:18px;padding:12px 14px;position:relative;min-width:0;height:100%;box-sizing:border-box}
 .cc{display:block}
+.ckaart{display:flex;flex-direction:column}
+.ckaart blockquote{flex:1}
 .citpaar{display:grid;grid-template-columns:1fr;gap:12px}
 @media (min-width:760px){.citpaar{grid-template-columns:1fr 1fr}}
 .cwie{display:flex;align-items:center;gap:10px;margin-top:10px}
@@ -270,7 +272,7 @@ def hoofdstukken(d, x, root):
             hoe += f'<details><summary>Alle {len(d.moties)} moties, met wie voor en tegen stemde</summary>{S.moties_lijst(d, root, "h3")}</details>'
     if x:
         _, rest = S.eerste_zin(x.pagina["samenvatting"]) if x.pagina else ("", "")
-        waar = ((f'<p class="groot">{e(x.titel)}</p>' if d.van > 1 and x.pagina else "") + (S.alineas(rest, x.pagina["woorden"]) if rest else "") + S.zelfde_titel_regel(d, root) + S.oud_verslag(x) + S.nagelezen(x) if x.pagina else
+        waar = ((f'<p class="groot">{e(x.titel)}</p>' if d.van > 1 and x.pagina else "") + (S.alineas(rest, x.pagina["woorden"]) if rest else "") + S.zelfde_titel_regel(d, root) + S.oud_verslag(x) + S.nagelezen(x) if x.pagina else S.zelfde_titel_regel(d, root) +
                 f'<p>Voor {"dit deel" if d.van > 1 else "dit debat"} is geen samenvatting geschreven. Op de kaart staan de sprekers; in het verslag lees je alles wat ze zeiden.</p>')
     else:
         waar = (S.zelfde_titel_regel(d, root) + f'<p>Dit debat is in {d.van} delen geknipt, langs de rondes van het debat. Elk deel heeft een eigen pagina:</p>'

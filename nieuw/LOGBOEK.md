@@ -80,3 +80,25 @@ Bewust niet overgenomen:
 - Lettertype zelf hosten: het artifact staat alleen Google Fonts toe; voor de echte site staan de ttf-bestanden klaar in `nieuw/fonts/` (omzetten naar woff2 en `@font-face` lokaal is een kleine stap).
 - Binnen een dag nieuwste eerst in A (lezer): een agenda leest van ochtend naar avond; de regel staat op "Zo werken we".
 - Dictum van een motie bovenaan in plaats van de titel (lezer): de omschrijving is de officiële titel; de letterlijke tekst staat uitklapbaar eronder.
+
+### Ronde 3: beoordeling (vier nieuwe beoordelaars)
+Controleur: geen feitelijke fout. Middel: coalitielabel ontbrak in de delenlijst; uitleg bij twee stemmingen ("welke, kunnen we niet afleiden") terwijl de voorzitter het onderwerp aankondigt; in C ontbrak de koppeling tussen dagen op deelpagina's; nog een niet-letterlijke aanhaling in `data/strips/68113dc2…-d4.json` ("richtingwijzers zie, maar geen koers"). Klein: video-moment gelijk aan begin volgende beurt (regel nu strikt "vóór"), vijf moties zonder getoonde tekst (zoeken nu op "verzoekt …"/"zegt …"), afgebroken meta descriptions (nu: langer dan 300 tekens → vaste beschrijving). Alles behalve de data-aanhalingen hersteld.
+
+Ernstig volgens lezer, interface-expert en politicoloog, en overgenomen:
+- **Uitslag van het Belastingplan onvindbaar.** Nieuwe vaste regel: een stemmingsronde hoort bij een debat als de voorzitter haar aankondigt met de agendatitel ("Aan de orde is de stemming in verband met … het Belastingplan 2027"). Die rondes staan nu bij "Hoe liep het af" (A, C), op de tijdlijn (B), en stemmingen krijgen die titel ("Stemmingen over het Belastingplan 2027"). Zonder uitslag (staat niet in de data), wel met link naar het verslag.
+- **Kaart te laat in beeld op debatpagina's (A, B) / "Waar en Hoe" na de citaten (C).** Bovenaan nu één zin "Waar ging het om" (de eerste zin van de samenvatting) en één regel "Hoe liep het af"; daarna direct de kaart; de rest van de samenvatting en een eigen sectie "Hoe liep het af" met uitleg en moties verderop. In C staan beide regels in de kaart direct onder de vraag.
+- **Termijnen.** 12 november is de derde termijn; het faselabel uit de data zei "Inbreng van de Kamer". Vaste regel: had een eerder debat met dezelfde agendatitel al een tweede termijn, dan heet de fase "Derde termijn: …". Begrip uitgebreid met de derde termijn.
+- **Begin buiten de gegevens.** Begint een debat niet met inbreng van de Kamer (of heet het "Voortzetting"), en staat het begin niet op een eerdere dag in de data, dan staat er dat het begin buiten onze gegevens valt (Belastingplan 10 november, politie-WGO).
+- **Mede-indieners.** Alle indieners met fractie en "coalitie" (motie 16 van Mutluer werd ook door VVD, CDA en D66 ondertekend).
+- **"Aangehouden"** is geen oordeel van het kabinet: getoond als "Aangehouden door de indiener".
+- **Label "oppositie" weg**; alleen "coalitie" staat erbij (de politicoloog: het label "oppositie" bij 14 fracties versterkt het tweekampenbeeld). Zin "oppositie stemt vaak mee" vervangen door "de meerderheid verschilt per stemming".
+- **Kop van een deel** is nu de agendatitel met het deelnummer (de samenvattende titel met conflicttaal staat boven de samenvatting, niet als kop en niet in de kaart van C).
+- **Fractieregel onder elke kaart**, ook op de voorpagina en in B en C (stond alleen op de debatpagina's van A).
+- C: vaste balk lag op de computer over de voettekst (CSS-volgorde) — hersteld; kaart alleen schermhoog als er citaten in staan; knop heet "Eerder debat →" (de volgorde loopt van nieuw naar oud); tikdoelen in het citaatkaartje 32px; figuren in de twee citaatkaartjes op gelijke hoogte.
+- A/B: "elk deel heeft een eigen samenvatting" alleen als dat waar is; regellengte overal max. 62 tekens; tikdoelen met extra ruimte; moties-pagina met korte inleiding; vraag onderstreept als link; "Botsingsrij" heet "Rij met kaart"; B spreekt van vergaderdagen en houdt "Voortzetting" in de titel, tellingen als tekst in plaats van tegels.
+- Spreidingsregel van het vragenuur staat nu op "Zo werken we".
+
+Bewust niet overgenomen:
+- H1 van een debat zonder delen blijft de inhoudelijke titel uit de paginadata (de eigenaar vroeg om inhoudelijke titels; bij delen is de kop nu de agendatitel met deelnummer).
+- Kaart met "Waar/Hoe" vóór de citaten maakt in C het eerste scherm iets voller; toch zo gelaten, omdat eis 2 (afloop direct onder de kop) en eis 1 anders botsen.
+- B: Kamerstuk XIII als enige dossier bij het digitaliserings-WGO (de moties zitten daar allemaal in); de agendatitel staat erboven als kop.

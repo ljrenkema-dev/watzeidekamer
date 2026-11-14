@@ -188,7 +188,7 @@ def video_beurt(punt, i):
             continue
         ms = datetime.fromisoformat(m["start"][:19])
         v = abs((ms - t).total_seconds())
-        if grens and ms > grens and ms > t:
+        if grens and ms >= grens and ms > t:
             continue
         if v <= 90 and (beste is None or v < beste[0]):
             beste = (v, m)
@@ -237,9 +237,7 @@ def motie_verzoek(m):
     t = m.get("tekst") or ""
     if re.search(r"kst-\d|ISSN|’s-Gravenhage 20\d\d", t):
         return ""  # tekst uit de pdf met paginakoppen erin: alleen de link tonen
-    k = t.find("verzoekt de regering")
-    if k < 0:
-        k = t.find("verzoekt het kabinet")
+    k = next((t.find(w) for w in ("verzoekt ", "zegt ") if t.find(w) >= 0), -1)
     if k < 0:
         return ""
     return " ".join(t[k:].replace("en gaat over tot de orde van de dag.", "").split()).rstrip(",")

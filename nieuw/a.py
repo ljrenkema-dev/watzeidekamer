@@ -276,7 +276,7 @@ def delen_lijst(d, root, huidig=None):
         kaart_ = ""
         if x.kaart and len(x.kaart["citaten"]) >= 1:
             kaart_ = " · citaten van " + " en ".join(
-                f'{e(c["naam"])} ({e(c["persoon"].fractie_code + ", " + str(c["persoon"].fractie["zetels"]) if c["persoon"] and c["persoon"].fractie else (c["persoon"].fractie_code if c["persoon"] and c["persoon"].fractie_code else "kabinet"))})'
+                f'{e(c["naam"])} ({e(c["persoon"].fractie_code + ", " + str(c["persoon"].fractie["zetels"]) + (", coalitie" if c["persoon"].fractie["coalitie"] else "") if c["persoon"] and c["persoon"].fractie else (c["persoon"].fractie_code if c["persoon"] and c["persoon"].fractie_code else "kabinet"))})'
                 for c in x.kaart["citaten"])
         rijen.append(f'<li{cur}><span class="dn">{x.nummer}.</span><a href="{root}debat/{x.slug}.html">{e(x.titel)}</a>'
                      f'<span class="df">{e(x.fase_label)} · {tijd_nl(x.begin)} uur{tekst_}{kaart_}</span></li>')
@@ -286,7 +286,7 @@ def delen_lijst(d, root, huidig=None):
 
 
 def kop(d, titel, root, x=None):
-    meta = [M.datum_lang(d.datum, dag=True), f"{tijd_nl(x.begin if x else d.begin)} uur", d.soort_label] + ([f"deel {x.nummer} van {x.van}: {x.fase_label}"] if x else [])
+    meta = [M.datum_lang(d.datum, dag=True), f"{tijd_nl(x.begin if x else d.begin)} uur", d.soort_label] + ([x.fase_label] if x else [])
     voorl = ' <span class="voorl">voorlopig verslag</span>' if d.voorlopig else ""
     return (f'<p class="krumel"><a href="{root}index.html#d{d.datum}">Agenda van {M.datum_lang(d.datum, dag=True)}</a>'
             + (f' › <a href="{root}debat/{d.slug}.html">{e(d.titel_agenda)}</a>' if x else "") + "</p>"

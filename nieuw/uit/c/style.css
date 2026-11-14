@@ -103,6 +103,7 @@ h3.sph{font-size:18px;margin-top:6px}
 .zelfde-titel{font-size:16px;font-weight:700}
 .klein a,.beurt .bt a,nav a{padding-block:3px;display:inline-block}
 .let{border-left:0;border-radius:8px}
+.vuitleg mark.cm{color:var(--ink)}
 
 
 /* ---------- variant C: de kaart is de pagina ---------- */
@@ -110,7 +111,7 @@ h3.sph{font-size:18px;margin-top:6px}
 body{padding-bottom:78px}
 .wrap{max-width:720px;margin:0 auto;padding:0 max(14px,env(safe-area-inset-left)) 24px max(14px,env(safe-area-inset-right))}
 /* de kaart */
-.kaart{background:var(--k);color:var(--kt);min-height:100svh;margin:0 calc(-1*max(14px,env(safe-area-inset-left)));padding:14px max(14px,env(safe-area-inset-left)) 20px;display:flex;flex-direction:column;gap:14px}
+.kaart{background:var(--k);color:var(--kt);margin:0 calc(-1*max(14px,env(safe-area-inset-left)));padding:14px max(14px,env(safe-area-inset-left)) 20px;display:flex;flex-direction:column;gap:14px}
 @media (min-width:760px){.kaart{min-height:auto;margin:16px 0 0;border-radius:22px;padding:22px 26px}}
 .kaart a{color:var(--kt)}
 .kbalk{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:15px}
@@ -137,6 +138,8 @@ html{scroll-padding-bottom:96px}
 .cc .fg{width:60px;height:60px;border-color:var(--kt);border-width:2.5px}
 .ckaart{background:#fff;color:#1d1b2e;border-radius:18px;padding:12px 14px;position:relative;min-width:0;height:100%;box-sizing:border-box}
 .cc{display:block}
+.ckaart{display:flex;flex-direction:column}
+.ckaart blockquote{flex:1}
 .citpaar{display:grid;grid-template-columns:1fr;gap:12px}
 @media (min-width:760px){.citpaar{grid-template-columns:1fr 1fr}}
 .cwie{display:flex;align-items:center;gap:10px;margin-top:10px}
@@ -152,7 +155,15 @@ html{scroll-padding-bottom:96px}
 .kaart h1.deelkop{font-size:clamp(1.3rem,5.5vw,1.8rem);color:var(--kt);border-left:5px solid var(--geel);padding-left:12px}
 .kaart h2.kvraag{font-size:clamp(1.4rem,6vw,2.1rem);line-height:1.12;color:var(--geel)}
 .vtop{font-size:15px;padding-top:12px}.vtop .logo{font-weight:700;color:var(--ink)}
-@media (min-width:700px){.balk-onder{display:none}body{padding-bottom:0}}
+.kaart.met-cit{min-height:100svh}
+.kkort{display:flex;flex-direction:column;gap:4px;font-size:16px;border-left:4px solid var(--geel);padding-left:12px}
+.kkort b{color:var(--geel)}
+.ckaart .ln a{display:inline-flex;align-items:center;min-height:32px}
+.ckaart .ln{gap:2px 16px}
+.stapelk h3 a{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
+.kaart h1.deelkop{font-size:17px;border-left:0;padding-left:0;font-weight:700}
+.kaart h1.deelkop a{color:var(--kt)}
+main p,main li,main dd,.wat p{max-width:62ch}
 .ckaart .lab{display:inline-block;background:#1d1b2e;color:#fff;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-radius:4px;padding:1px 8px;margin-bottom:6px}
 .ckaart blockquote{margin:0;font-size:18px;line-height:1.42}
 .ckaart .wie{font-size:15px;color:#3c3a50}
@@ -191,6 +202,7 @@ ol.delen li[aria-current] a{color:var(--ink);font-weight:700}
 .balk-onder{position:fixed;left:0;right:0;bottom:0;background:var(--panel);border-top:2px solid var(--ink);padding:8px max(14px,env(safe-area-inset-left)) calc(8px + env(safe-area-inset-bottom));display:flex;gap:10px;justify-content:center;z-index:5}
 .balk-onder a,.balk-onder button{font:inherit;font-weight:700;font-size:16px;border-radius:999px;padding:8px 16px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);text-decoration:none;cursor:pointer;flex:1;max-width:260px;text-align:center}
 .balk-onder .vol{background:var(--ink);color:var(--paper)}
+@media (min-width:700px){.balk-onder{display:none}body{padding-bottom:0}}
 .gekopieerd{position:fixed;bottom:84px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:8px 14px;border-radius:8px;font-size:15px}
 /* voorpagina: stapel kaarten */
 .stapelk{display:flex;flex-direction:column;gap:18px;list-style:none;margin:0;padding:0}

@@ -103,6 +103,7 @@ h3.sph{font-size:18px;margin-top:6px}
 .zelfde-titel{font-size:16px;font-weight:700}
 .klein a,.beurt .bt a,nav a{padding-block:3px;display:inline-block}
 .let{border-left:0;border-radius:8px}
+.vuitleg mark.cm{color:var(--ink)}
 
 
 /* ---------- variant A: de vergaderdag ---------- */
@@ -141,8 +142,7 @@ footer{margin-top:40px;border-top:2px solid var(--line);padding-top:16px;color:v
 .bk .rmeta,.bk .agendat{color:#3a3410}
 .bk .chip{border-color:#1d1b2e;color:#1d1b2e}
 .vraag{font-size:clamp(1.45rem,3.2vw,2rem);font-weight:700;line-height:1.15}
-.vraag a{text-decoration:none}
-.vraag a:hover{text-decoration:underline}
+.vraag a{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
 .duo{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:stretch}
 .duo.een{grid-template-columns:1fr}
 .spr{display:flex;flex-direction:column;min-width:0}
@@ -212,6 +212,8 @@ ol.delen li[aria-current] a{color:var(--ink);font-weight:700}
 .zw section{display:flex;flex-direction:column;gap:8px}
 .zw h2{font-size:24px;margin-top:6px}.zw h3{font-size:19px;margin-top:6px}
 .zw ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+main p,main li,main dd{max-width:62ch}
+.krumel a,ol.delen a,.controle a,details summary,.links a{display:inline-block;padding-block:5px}
 @media (max-width:820px){
   .dag{grid-template-columns:1fr;border-top:0;padding-top:0}
   .dat{display:flex;align-items:baseline;gap:8px;background:var(--tone);margin:0 -16px;padding:8px 16px;top:0;z-index:2}
