@@ -77,7 +77,8 @@ def kaart_versie(K):
 
 
 def kaart_citaat(c):
-    return ("… " if re.match(r"[a-zà-ÿ]", c["citaat"]) else "") + c["citaat"]
+    t = c["citaat"]
+    return ("… " if re.match(r"[a-zà-ÿ]", t) else "") + t
 
 
 def kaart_fig(c, cls="fg"):

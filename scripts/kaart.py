@@ -160,6 +160,11 @@ def check(pid):
     for veld in ("kop", "vraag", "vraag_bron", "versies"):
         if not k.get(veld):
             fouten.append(f"veld '{veld}' ontbreekt")
+    if k.get("vraag") and len(k["vraag"].split()) > 12:
+        fouten.append(f"vraag heeft {len(k['vraag'].split())} woorden, hooguit 12")
+    for naam, v in (k.get("versies") or {}).items():
+        if "vraag" in v:
+            fouten.append(f"versie {naam}: geen eigen 'vraag' in een versie; de vraag staat alleen op kaartniveau")
     uiterlijk = json.loads((ROOT / "data" / "uiterlijk.json").read_text())
     koppeling = json.loads((ROOT / "data" / "sprekers.json").read_text())
     for naam, v in (k.get("versies") or {}).items():
@@ -175,7 +180,8 @@ def check(pid):
             i = c.get("beurt")
             if not isinstance(i, int) or not 0 <= i < len(B):
                 fouten.append(f"versie {naam}: ongeldige beurt {i}"); continue
-            for s in [x.strip() for x in c["citaat"].split(" … ")]:
+            kern = re.sub(r"^…\s*|\s*…$", "", c["citaat"].strip())  # een weglating aan begin of eind mag, zichtbaar met "…"
+            for s in [x.strip() for x in kern.split(" … ")]:
                 if len(s.split()) < 5 or norm(s) not in norm(B[i]["tekst"]):
                     fouten.append(f"versie {naam}, beurt {i}: niet letterlijk of korter dan 5 woorden: {s[:60]}")
             zinnen = len(re.findall(r"[.?!](?:\s+(?![—–-])|$)", c["citaat"]))  # "? —" midden in een zin telt niet

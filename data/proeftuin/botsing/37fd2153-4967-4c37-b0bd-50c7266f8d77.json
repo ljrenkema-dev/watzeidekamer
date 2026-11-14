@@ -1,10 +1,10 @@
 {
  "debat": "37fd2153-4967-4c37-b0bd-50c7266f8d77",
  "kop": "Tweeminutendebat Raad Buitenlandse Zaken · 11 nov 2026",
- "vraag": "Wat moet de Nederlandse inzet zijn in de Raad Buitenlandse Zaken van 16 november?",
+ "vraag": "Wat moet Nederland inbrengen in de Raad Buitenlandse Zaken?",
  "vraag_bron": "Agendatitel: \"Raad Buitenlandse Zaken d.d. 16 november 2026\" (tweeminutendebat na het commissiedebat van 5 november), omgezet in een vraag.",
  "vraag_bron_soort": 4,
- "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (wetsvoorstel): geen wetgevingsdebat. Bron 3 (verzoek): in de regeling van werkzaamheden (data/verzoeken/, data/procedure/) staat geen verzoek om dit tweeminutendebat; de enige vermelding van de Raad Buitenlandse Zaken is een PVV-reactie op een ander verzoek (Sudan-debat). Bron 4 bestaat en past: de sprekers vragen wat de minister in de Raad inbrengt. Bron 5 niet nodig en ook niet haalbaar: alleen SP, DENK en SGP spraken, en de SGP stelde geen vraag over de uitvoering van moties.",
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (wetsvoorstel): geen wetgevingsdebat. Bron 3 (verzoek): in de regeling van werkzaamheden (data/verzoeken/, data/procedure/) staat geen verzoek om dit tweeminutendebat; de enige vermelding van de Raad Buitenlandse Zaken is een PVV-reactie op een ander verzoek (Sudan-debat). Bron 4 bestaat en past: de sprekers vragen wat de minister in de Raad inbrengt. Bron 5 niet nodig en ook niet haalbaar: alleen SP, DENK en SGP spraken, en de SGP stelde geen vraag over de uitvoering van moties. Ingekort tot hooguit 12 woorden (regel van 14 nov 2026); zelfde bron en strekking. Eerder: \"Wat moet de Nederlandse inzet zijn in de Raad Buitenlandse Zaken van 16 november?\"",
  "versies": {
   "a": {
    "regel": "Wisseling 1 (SGP ↔ DENK, over druk op de Verenigde Arabische Emiraten) overgeslagen: dat onderwerp is een bijzaak (7% van de spreektijd) en de SGP is het niet duidelijk oneens. Gekozen is het onderwerp met de meeste spreektijd en de duidelijkste tegenstelling: de druk op Israël en het E1-project (SP tegenover de minister, wisseling 2).",
@@ -210,5 +210,6 @@
    "Vraagbron nagelopen: geen vragenuur, geen wetsvoorstel; in data/verzoeken/ en data/procedure/ geen verzoek om dit tweeminutendebat (alleen agendering en een PVV-reactie op een ander verzoek). Bron 4 (agendatitel) is de eerste die bestaat en past: de minister noemt zelf 'mijn inzet in de Raad'. Vraag is neutraal en steunt niet op één deelnemer.",
    "Citaten (a: 18, 19; c: 21, 22) letterlijk en aaneengesloten, elk twee zinnen en hooguit 35 woorden; geen voorbehoud, ontkenning of voorwaarde weggevallen ('als het E1-project doorgaat' en 'Het is niet zo dat' staan erin). De weggelaten zin van de minister over meerderheden na de Israëlische verkiezingen is toelichting, geen voorbehoud; beide sprekers zouden hun citaat herkennen. Geen veld 'vraag' binnen een versie."
   ]
- }
+ },
+ "vraag_lang": "Wat moet de Nederlandse inzet zijn in de Raad Buitenlandse Zaken van 16 november?"
 }
