@@ -1,0 +1,170 @@
+[
+ {
+  "wie": "Martin Bosma",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'ogen kleiner', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "ogen kleiner",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Esther Ouwehand",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'Iets ouder', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "Iets ouder",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Hanneke Steen",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'geen bril', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "geen bril",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Dion Huidekooper",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'smaller gezicht', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "smaller gezicht",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Henri Bontenbal",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'mond zo houden en de rest meer van de vriendelijke versie, vooral de ogen kloppen niet', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "mond zo houden en de rest meer van de vriendelijke versie, vooral de ogen kloppen niet",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Chris Stoffer",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'ogen kleiner', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "ogen kleiner",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Barbara Kathmann",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'dunnere lippen', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "dunnere lippen",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Annabel Nanninga",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'meer lijnen in gezicht zoals de vriendelijker versie', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "meer lijnen in gezicht zoals de vriendelijker versie",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Joost Eerdmans",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'ogen moeten beter en het brilmontuur ook', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "ogen moeten beter en het brilmontuur ook",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Bart Bikkers",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'meer inhammen', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "meer inhammen",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Erwin Prickaertz",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'iers kalender', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "iers kalender",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Rianne Letschert",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'zonder hoed', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "zonder hoed",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Rob Jetten",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'ogeb meer zoals de vriendelihker versie, iets meer grijze haren', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "ogeb meer zoals de vriendelihker versie, iets meer grijze haren",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ },
+ {
+  "wie": "Ingrid Michon-Derkzen",
+  "emotie": "neutraal",
+  "stijl": "manga",
+  "prompt": "Edit the first image. Keep the same person, drawing style, clothing, colours, framing and plain white background. Keep the expression neutral: calm, attentive, serious expression, mouth closed, no smile, relaxed neutral lips. Apply only this correction from the reviewer (in Dutch): \"{'opmerking': 'langwerpiger gezicht, iets ouder (zoals de vriendelijke versie)', 'datum': '2026-11-13'}\". Do not add or remove anything else. The second image is an earlier, friendlier version of the same character; use it only as a reference where the correction mentions it ('vriendelijke versie').",
+  "model": "gemini-3.1-flash-image",
+  "herstel": {
+   "opmerking": "langwerpiger gezicht, iets ouder (zoals de vriendelijke versie)",
+   "datum": "2026-11-13"
+  },
+  "portretfoto_meegestuurd": false
+ }
+]
