@@ -729,3 +729,21 @@ def hoe_liep_het_af(d, link_moties=None, deel=False):
     if deel and d.moties:
         uit.insert(0, '<p class="klein">De moties horen bij het hele debat, niet bij één deel.</p>')
     return "".join(uit)
+
+
+def stemmingen_regel(d, root=""):
+    """Bij een debat: de stemmingsrondes waarvan de voorzitter de agendatitel van dit debat aankondigde (vaste regel)."""
+    ss = M.stemmingen_bij().get(d.id) or []
+    if not ss:
+        return ""
+    li = "".join(f'<li><a href="{root}debat/{s.slug}.html">Stemmingen van {M.datum_lang(s.datum, dag=True)}, {M.tijd(s.begin).replace(":", ".")} uur</a>: '
+                 f'{"een stemming over een motie bij" if "over een motie" in M.stemming_onderwerp(s) else "de stemming over"} {e(stemming_titel(s).replace("Stemmingen: ", "het "))}</li>' for s in ss)
+    return (f'<div class="stemrondes-d"><p><b>Stemmingen over dit onderwerp</b> (de voorzitter kondigde ze zo aan):</p><ul>{li}</ul>'
+            f'<p class="klein">De uitslag staat niet in onze gegevens; in het verslag lees je wat Kamerleden bij hun stem zeiden.</p></div>')
+
+
+def stemming_titel(d):
+    """Titel van een stemmingen-agendapunt: met het onderwerp uit de aankondiging als dat er is."""
+    o = M.stemming_onderwerp(d)
+    k = re.search(r"het ([A-Z][^,:]*\d{4})", o) or re.search(r"(Belastingplan \d{4})", o)
+    return f"Stemmingen: {k.group(1)}" if k else "Stemmingen"

@@ -634,3 +634,39 @@ def onderwerpen():
         for d in o.debatten:
             d.onderwerp_obj = o
     return uit
+
+
+# ---------------------------------------------------------------- stemmingen gekoppeld via de aankondiging in het verslag
+
+def stemming_onderwerp(d):
+    """Bij een stemmingen-agendapunt: wat de voorzitter aankondigt ('Aan de orde is de stemming ... over X'), of ''."""
+    if not d.is_stemmingen:
+        return ""
+    for x in d.delen:
+        for b in x.beurten:
+            if b.get("voorzitter"):
+                k = re.search(r"Aan de orde (?:is|zijn) de stemming(?:en)? ([^.]*(?:\.\s*\d+[^.]*)?)\.", b["tekst"])
+                if k:
+                    return k.group(1).strip()
+    return ""
+
+
+def _titelkern(t):
+    return re.sub(r"^(?:pakket|voortzetting)\s+", "", t.lower()).strip()
+
+
+@lru_cache(None)
+def stemmingen_bij():
+    """{debat-id: [stemmingen-debatten]} : een stemmingsronde hoort bij een debat als de aankondiging van de voorzitter
+    de agendatitel van dat debat noemt (zonder 'Pakket'/'Voortzetting'). Vaste regel; de uitslag zelf staat niet in de data."""
+    uit = {}
+    for s in debatten():
+        o = stemming_onderwerp(s).lower()
+        if not o:
+            continue
+        for d in debatten():
+            if d.is_stemmingen or d.begin > s.begin:
+                continue
+            if len(_titelkern(d.titel_agenda)) >= 8 and _titelkern(d.titel_agenda) in o:
+                uit.setdefault(d.id, []).append(s)
+    return uit
