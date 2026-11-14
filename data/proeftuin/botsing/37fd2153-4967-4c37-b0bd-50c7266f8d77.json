@@ -1,0 +1,205 @@
+{
+ "debat": "37fd2153-4967-4c37-b0bd-50c7266f8d77",
+ "kop": "Tweeminutendebat Raad Buitenlandse Zaken · 11 nov 2026",
+ "vraag": "Wat moet de Nederlandse inzet zijn in de Raad Buitenlandse Zaken van 16 november?",
+ "vraag_bron": "Agendatitel: \"Raad Buitenlandse Zaken d.d. 16 november 2026\" (tweeminutendebat na het commissiedebat van 5 november), omgezet in een vraag.",
+ "vraag_bron_soort": 4,
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (wetsvoorstel): geen wetgevingsdebat. Bron 3 (verzoek): in de regeling van werkzaamheden (data/verzoeken/, data/procedure/) staat geen verzoek om dit tweeminutendebat; de enige vermelding van de Raad Buitenlandse Zaken is een PVV-reactie op een ander verzoek (Sudan-debat). Bron 4 bestaat en past: de sprekers vragen wat de minister in de Raad inbrengt. Bron 5 niet nodig en ook niet haalbaar: alleen SP, DENK en SGP spraken, en de SGP stelde geen vraag over de uitvoering van moties.",
+ "versies": {
+  "a": {
+   "regel": "Wisseling 1 (SGP ↔ DENK, over druk op de Verenigde Arabische Emiraten) overgeslagen: dat onderwerp is een bijzaak (7% van de spreektijd) en de SGP is het niet duidelijk oneens. Gekozen is het onderwerp met de meeste spreektijd en de duidelijkste tegenstelling: de druk op Israël en het E1-project (SP tegenover de minister, wisseling 2).",
+   "wisseling": "Sarah Dobbe (SP) ↔ Tom Berendsen (minister van Buitenlandse Zaken), beurt 16–22, 5 beurten",
+   "afgevallen": [
+    "Wisseling 1 (Van Dijk SGP ↔ Van Baarle DENK): onderwerp VAE/Arabische gom is bijzaak (7%).",
+    "Wisseling 3 (Van Baarle DENK ↔ minister, RSF-sancties): geen werkelijke tegenstelling over de uitvoering, kleiner aandeel (17% voor Sudan als geheel)."
+   ],
+   "aandeel_onderwerp": "23% (Israël|Gaza|Westelijke Jordaanoever|nederzetting|kolonist|E1; beurten 1, 16, 18, 19, 21, 22, 46); E1 alleen: 10%",
+   "citaten": [
+    {
+     "beurt": 18,
+     "citaat": "De motie vroeg om binnen de Europese Unie voor maatregelen te pleiten als het E1-project doorgaat. Voor welke maatregelen gaat deze minister pleiten?",
+     "naam": "Sarah Dobbe",
+     "partij": "SP",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/tweeminutendebat-raad-buitenlandse-zaken-16-november-2026-cd-5-11-10-40/markeringen?event=interrupter2026-11-11T11%3A02%3A31%2B0100",
+     "tijd": "11:02",
+     "figuur": {
+      "id": "b5363002-d06e-4813-9c05-86fe74185a56",
+      "fractie": "SP",
+      "u": {
+       "gezicht": "v",
+       "haarkleur": "donkerbruin",
+       "kapsel": "lang",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": false,
+       "wenkbrauw": "normaal",
+       "kleding": "coltrui",
+       "pony": "recht",
+       "manga": "21cc8db0-5084-4e4d-a083-99df36fa6170"
+      }
+     }
+    },
+    {
+     "beurt": 19,
+     "citaat": "Binnen de Europese context pleiten wij al langer voor een breed pakket aan maatregelen om de druk op Israël op te voeren. Dat blijf ik doen, zoals meerdere malen in het debat met de Kamer gezegd.",
+     "naam": "Tom Berendsen",
+     "partij": "minister van Buitenlandse Zaken",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/tweeminutendebat-raad-buitenlandse-zaken-16-november-2026-cd-5-11-10-40/markeringen?event=speaker2026-11-11T11%3A03%3A07%2B0100",
+     "tijd": "11:03",
+     "figuur": {
+      "id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+      "fractie": "",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "grijs",
+       "kapsel": "kort-kuif",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": false
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    {
+     "beurt": 18,
+     "weggelaten": "Niets binnen het citaat (twee aaneengesloten zinnen); het voorbehoud 'als het E1-project doorgaat' staat erin. Weggelaten: de inleiding van de beurt."
+    },
+    {
+     "beurt": 19,
+     "weggelaten": "Niets binnen het citaat (twee aaneengesloten zinnen). Niet opgenomen: de volgende zinnen waarin de minister zegt dat het verkrijgen van meerderheden moeilijk is zo net na de Israëlische verkiezingen; dat is een toelichting, geen voorbehoud bij zijn standpunt. Geen uitwijking naar een andere beurt."
+    }
+   ]
+  },
+  "c": {
+   "regel": "Latere ronde van dezelfde wisseling: Dobbe herhaalt haar vraag, de minister legt uit waarom hij geen specifieke maatregel noemt.",
+   "wisseling": "Sarah Dobbe (SP) ↔ Tom Berendsen (minister van Buitenlandse Zaken), beurt 21–22",
+   "afgevallen": [],
+   "aandeel_onderwerp": "23% (Israël|Gaza|Westelijke Jordaanoever|nederzetting|kolonist|E1; beurten 1, 16, 18, 19, 21, 22, 46)",
+   "citaten": [
+    {
+     "beurt": 21,
+     "citaat": "Dan zegt deze minister: we pleiten al langer voor een breed pakket aan maatregelen. Maar welke maatregelen gaat deze minister voorstellen naar aanleiding van deze motie om het E1-project te stoppen?",
+     "naam": "Sarah Dobbe",
+     "partij": "SP",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/tweeminutendebat-raad-buitenlandse-zaken-16-november-2026-cd-5-11-10-40/markeringen?event=interrupter2026-11-11T11%3A03%3A41%2B0100",
+     "tijd": "11:03",
+     "figuur": {
+      "id": "b5363002-d06e-4813-9c05-86fe74185a56",
+      "fractie": "SP",
+      "u": {
+       "gezicht": "v",
+       "haarkleur": "donkerbruin",
+       "kapsel": "lang",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": false,
+       "wenkbrauw": "normaal",
+       "kleding": "coltrui",
+       "pony": "recht",
+       "manga": "21cc8db0-5084-4e4d-a083-99df36fa6170"
+      }
+     }
+    },
+    {
+     "beurt": 22,
+     "citaat": "Het is niet zo dat één maatregel ervoor zorgt dat er op één specifiek onderwerp een gedragsverandering gaat komen. Er is in algemene zin druk op Israël nodig voor gedragsverandering.",
+     "naam": "Tom Berendsen",
+     "partij": "minister van Buitenlandse Zaken",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-11/overig/plenaire-zaal/tweeminutendebat-raad-buitenlandse-zaken-16-november-2026-cd-5-11-10-40/markeringen?event=speaker2026-11-11T11%3A04%3A08%2B0100",
+     "tijd": "11:04",
+     "figuur": {
+      "id": "6f866b57-0e0a-4849-8d53-445efe2dfeba",
+      "fractie": "",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "grijs",
+       "kapsel": "kort-kuif",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": false
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    {
+     "beurt": 21,
+     "weggelaten": "Niets binnen het citaat (aaneengesloten zinnen); alleen de rest van de beurt is niet opgenomen."
+    },
+    {
+     "beurt": 22,
+     "weggelaten": "Niets binnen het citaat; niet opgenomen: de eerste zin (druk is gericht op nederzettingenbeleid en Gaza) en de verwijzing naar het gezamenlijke statement over E1. Dat laat het standpunt niet veranderen, maar het statement is wel het concrete antwoord dat hij noemt."
+    }
+   ]
+  }
+ },
+ "partijen_totaal": 3,
+ "afloop_data": {
+  "status": "gestemd",
+  "stand": "2026-11-14",
+  "kort": "Motie 3499 verworpen (36–114); Motie 3500 aangenomen (123–27); Motie 3501 verworpen (9–141); Motie 3502 aangenomen (108–42); Motie 3503 aangenomen (117–33); Motie 3504 verworpen (56–94); Motie 3505 aangenomen (124–26).",
+  "lang": "Motie 3499 (S.E.M. Dobbe): verworpen, 36 zetels voor en 114 tegen. Motie 3500 (S.R.T. van Baarle): aangenomen, 123 zetels voor en 27 tegen. Motie 3501 (S.R.T. van Baarle): verworpen, 9 zetels voor en 141 tegen. Motie 3502 (S.R.T. van Baarle): aangenomen, 108 zetels voor en 42 tegen. Motie 3503 (S.R.T. van Baarle): aangenomen, 117 zetels voor en 33 tegen. Motie 3504 (S.R.T. van Baarle): verworpen, 56 zetels voor en 94 tegen. Motie 3505 (D.J.H. (Diederik) van Dijk): aangenomen, 124 zetels voor en 26 tegen.",
+  "moties": [
+   {
+    "nummer": "3499",
+    "wie": "S.E.M. Dobbe",
+    "besluit": "Verworpen",
+    "voor": 36,
+    "tegen": 114
+   },
+   {
+    "nummer": "3500",
+    "wie": "S.R.T. van Baarle",
+    "besluit": "Aangenomen",
+    "voor": 123,
+    "tegen": 27
+   },
+   {
+    "nummer": "3501",
+    "wie": "S.R.T. van Baarle",
+    "besluit": "Verworpen",
+    "voor": 9,
+    "tegen": 141
+   },
+   {
+    "nummer": "3502",
+    "wie": "S.R.T. van Baarle",
+    "besluit": "Aangenomen",
+    "voor": 108,
+    "tegen": 42
+   },
+   {
+    "nummer": "3503",
+    "wie": "S.R.T. van Baarle",
+    "besluit": "Aangenomen",
+    "voor": 117,
+    "tegen": 33
+   },
+   {
+    "nummer": "3504",
+    "wie": "S.R.T. van Baarle",
+    "besluit": "Verworpen",
+    "voor": 56,
+    "tegen": 94
+   },
+   {
+    "nummer": "3505",
+    "wie": "D.J.H. (Diederik) van Dijk",
+    "besluit": "Aangenomen",
+    "voor": 124,
+    "tegen": 26
+   }
+  ]
+ },
+ "afloop": "Motie 3499 (S.E.M. Dobbe): verworpen, 36 zetels voor en 114 tegen. Motie 3500 (S.R.T. van Baarle): aangenomen, 123 zetels voor en 27 tegen. Motie 3501 (S.R.T. van Baarle): verworpen, 9 zetels voor en 141 tegen. Motie 3502 (S.R.T. van Baarle): aangenomen, 108 zetels voor en 42 tegen. Motie 3503 (S.R.T. van Baarle): aangenomen, 117 zetels voor en 33 tegen. Motie 3504 (S.R.T. van Baarle): verworpen, 56 zetels voor en 94 tegen. Motie 3505 (D.J.H. (Diederik) van Dijk): aangenomen, 124 zetels voor en 26 tegen.",
+ "afloop_kort": "Motie 3499 verworpen (36–114); Motie 3500 aangenomen (123–27); Motie 3501 verworpen (9–141); Motie 3502 aangenomen (108–42); Motie 3503 aangenomen (117–33); Motie 3504 verworpen (56–94); Motie 3505 aangenomen (124–26)."
+}

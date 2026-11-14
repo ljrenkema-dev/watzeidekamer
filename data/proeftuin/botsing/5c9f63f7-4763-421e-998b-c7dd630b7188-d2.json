@@ -1,0 +1,103 @@
+{
+ "debat": "5c9f63f7-4763-421e-998b-c7dd630b7188-d2",
+ "kop": "Plenair debat · 12 nov 2026 · deel 2 van 2",
+ "vraag": "Wat doet het kabinet met het advies van het Nationaal Burgerberaad Klimaat?",
+ "vraag_bron": "Bron 4, de agendatitel: 'Advies van het Nationaal Burgerberaad Klimaat' (onderwerp: 'het advies van het Nationaal Burgerberaad Klimaat'), omgezet in een vraag. Het debat ging over de kabinetsreactie op het advies; voorzitter en minister noemden die 'de kabinetsreactie daarop' (beurt 0).",
+ "vraag_bron_soort": 4,
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel of doel van een wetsvoorstel): geen wetsvoorstel, het is een debat over een advies. Bron 3 (verzoek waarmee het debat is aangevraagd): in data/verzoeken/ en data/procedure/ staat geen verzoek om dit debat; het burgerberaad komt alleen voor in een opmerking van de voorzitter in de regeling van 12 november (a8b04ae3: 'de mensen op de publieke tribune, die gekomen zijn voor het debat over het Nationaal Burgerberaad Klimaat'), niet als verzoek. Bron 4 bestaat en past: de agendatitel gaat over het advies en de reactie van het kabinet daarop. Bron 5 niet nodig.",
+ "versies": {
+  "a": {
+   "regel": "Alle drie de langste wisselingen in het bronbestand gaan over een bijzaak (fossiele subsidies 2%, eerlijk klimaatbeleid/vervuiler betaalt is vooral eensgezind, CO2-doorrekening 3%). Daarom het onderwerp met de meeste spreektijd gezocht: reizen en openbaar vervoer (12%, het enige onderwerp boven de 10%). Daarbinnen de duidelijkste tegenstelling tussen twee sprekers van verschillende kanten: staatssecretaris Bertram (kabinet, beurt 47) zegt dat vervoerders de prijzen bepalen; Van Oosterhout (PRO, beurt 50) reageert direct dat de overheid via btw en fossiele subsidies kan sturen. Ze reageerden direct op elkaar (Bertram antwoordt daarna nog in beurt 51 met de toezegging van een nota in het voorjaar).",
+   "wisseling": "Annet Bertram (staatssecretaris IenW) ↔ Sjoukje Van Oosterhout (PRO), beurt 47–51, 3 beurten (47, 50, 51)",
+   "afgevallen": [
+    "Van Oosterhout (PRO) ↔ minister Van Veldhoven, fossiele subsidies, beurt 0–8: onderwerp is bijzaak (2%)",
+    "Van Oosterhout (PRO) ↔ minister Van Veldhoven, eerlijk klimaatbeleid, beurt 10–18: vooral eensgezind ('volgens mij vinden de minister en ik elkaar daar zeker op')",
+    "Klos (D66) ↔ minister Van Veldhoven, CO2-doorrekening, beurt 18–26: bijzaak (3%)",
+    "Klos (D66) ↔ minister, voedselverspilling (verplichting of stimulans), beurt 33–37: bijzaak (3%)"
+   ],
+   "aandeel_onderwerp": "12% (trein|spoor|vervoer|openbaar|ov\\b|ticket|Eurostar|dalur|fiets|vlieg|reizen)",
+   "citaten": [
+    {
+     "beurt": 47,
+     "citaat": "Uiteraard onderschrijf ik die ambities voor een internationaal spoor. Tegelijkertijd zijn het natuurlijk ook wel de vervoerders die over de exploitatie gaan en die moeten bepalen wat de prijzen zijn.",
+     "naam": "Annet Bertram",
+     "partij": "staatssecretaris van Infrastructuur en Waterstaat",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/natuur-en-milieu/plenaire-zaal/advies-van-het-nationaal-burgerberaad-klimaat-18-30/markeringen?event=speaker2026-11-12T23%3A05%3A11%2B0100",
+     "tijd": "23:05",
+     "figuur": {
+      "id": "5d0132f1-e8ab-4a32-b8af-3e8beff8ba5f",
+      "fractie": "",
+      "u": null
+     }
+    },
+    {
+     "beurt": 50,
+     "citaat": "Ik hoor dat er gesteld wordt dat de ticketprijs op een gegeven moment misschien wel omlaag gaat als de businesscase maar goed genoeg is. De overheid kan daar natuurlijk ook op sturen, want er is natuurlijk ook een pakket aan btw en fossiele subsidies.",
+     "naam": "Sjoukje Van Oosterhout",
+     "partij": "PRO",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/natuur-en-milieu/plenaire-zaal/advies-van-het-nationaal-burgerberaad-klimaat-18-30/markeringen?event=interrupter2026-11-12T23%3A14%3A44%2B0100",
+     "tijd": "23:14",
+     "figuur": {
+      "id": "432729d4-fd5e-4e53-aba8-9bc981949713",
+      "fractie": "PRO",
+      "u": {
+       "gezicht": "v",
+       "haarkleur": "blond",
+       "kapsel": "lang",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": false,
+       "gezichtsvorm": "smal",
+       "wenkbrauw": "dun",
+       "kleding": "colbert-top",
+       "onder": "wit",
+       "oorbel": "knopje"
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Bertram (beurt 47): zonder weglating binnen de twee zinnen; haar toezegging ('Uiteraard onderschrijf ik die ambities') staat samen met haar voorbehoud ('Tegelijkertijd ... vervoerders ... moeten bepalen wat de prijzen zijn') in het citaat. Wel weggelaten: de vraag van Van Oosterhout uit deel 1 waar 'die ambities' naar verwijst (internationale treinen breder toegankelijk en goedkoper); Van Oosterhouts citaat over ticketprijzen geeft die context. Niet uitgeweken.",
+    "Van Oosterhout (beurt 50): zonder weglating, twee volledige zinnen; 'misschien' en 'op een gegeven moment' blijven staan. Niet uitgeweken."
+   ]
+  }
+ },
+ "partijen_totaal": 6,
+ "afloop_data": {
+  "status": "open",
+  "stand": "2026-11-14",
+  "kort": "Van de 5 moties staat nog geen uitslag in onze gegevens.",
+  "lang": "Motie 1592 (A.S. van Oosterhout): uitslag staat (nog) niet in onze gegevens. Motie 1593 (A.S. van Oosterhout): uitslag staat (nog) niet in onze gegevens. Motie 1594 (C. Teunissen): uitslag staat (nog) niet in onze gegevens. Motie 1595 (C. Teunissen): uitslag staat (nog) niet in onze gegevens. Motie 1596 (A. Kops): uitslag staat (nog) niet in onze gegevens.",
+  "moties": [
+   {
+    "nummer": "1592",
+    "wie": "A.S. van Oosterhout",
+    "besluit": null
+   },
+   {
+    "nummer": "1593",
+    "wie": "A.S. van Oosterhout",
+    "besluit": null
+   },
+   {
+    "nummer": "1594",
+    "wie": "C. Teunissen",
+    "besluit": null
+   },
+   {
+    "nummer": "1595",
+    "wie": "C. Teunissen",
+    "besluit": null
+   },
+   {
+    "nummer": "1596",
+    "wie": "A. Kops",
+    "besluit": null
+   }
+  ]
+ },
+ "afloop": "Motie 1592 (A.S. van Oosterhout): uitslag staat (nog) niet in onze gegevens. Motie 1593 (A.S. van Oosterhout): uitslag staat (nog) niet in onze gegevens. Motie 1594 (C. Teunissen): uitslag staat (nog) niet in onze gegevens. Motie 1595 (C. Teunissen): uitslag staat (nog) niet in onze gegevens. Motie 1596 (A. Kops): uitslag staat (nog) niet in onze gegevens.",
+ "afloop_kort": "Van de 5 moties staat nog geen uitslag in onze gegevens."
+}

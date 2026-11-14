@@ -1,0 +1,81 @@
+{
+ "debat": "68113dc2-493d-417a-bf57-03a95fb4ca97-d3",
+ "kop": "Derde termijn Belastingplan · 12 nov 2026 · deel 5 van 6 (inbreng van de Kamer)",
+ "vraag": "Moet het amendement van PRO en Volt op het Belastingplan worden aangenomen?",
+ "vraag_bron": "Verzoek van Mirjam Bikker (ChristenUnie) in de regeling van werkzaamheden van 11 november 2026: \"ik stel voor dat er morgenochtend om 10.15 uur een derde termijn wordt geopend\", met als reden \"omdat er waarschijnlijk een amendement volgt waarover we moeten spreken\"; de voorzitter (Van Campen) merkte op: \"er zijn nieuwe amendementen ingediend\". Het amendement van PRO en Volt noemt Bikker in dit debat zelf (beurt 24).",
+ "vraag_bron_soort": 3,
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen vragenuur. Bron 2 (titel of doel van het wetsvoorstel): bestaat (Pakket Belastingplan 2027), maar past niet; dit deel is een derde termijn die over het nieuwe amendement ging, dus 'Moet het Belastingplan worden aangenomen?' dekt het niet. Bron 3 (verzoek, data/verzoeken/294c2585-add8-4bee-859e-ef6853539cfb.json en het verslag van die regeling): bestaat en past; de derde termijn is aangevraagd vanwege het nieuwe amendement. Bron 4 en 5 daarom niet nodig.",
+ "versies": {
+  "a": {
+   "regel": "Wisseling 1 (Vermeer BBB ↔ Bikker ChristenUnie, de langste) overgeslagen: de interrupties gaan over het tijdstip waarop Bikker over de deal hoorde, een feitelijke vraag zonder inhoudelijke tegenstelling (en beurt 50 is grotendeels een eigen betoog). Gekozen is wisseling 2: Markuszower vraagt herhaaldelijk of de ChristenUnie het PRO-amendement steunt, Bikker legt de keuze bij de VVD. Het onderwerp (amendement, deal, coalitie) is geen bijzaak.",
+   "wisseling": "Gidi Markuszower (Groep Markuszower) ↔ Mirjam Bikker (ChristenUnie), beurt 24–32, 7 beurten",
+   "afgevallen": [
+    "Wisseling 1 (Vermeer BBB ↔ Bikker): tijdstip waarop Bikker van de deal hoorde, geen inhoudelijke tegenstelling.",
+    "Wisseling 3 (Keijzer ↔ Van Baarle DENK): gaat vooral over de relevantie van DENK, kleiner (3%)."
+   ],
+   "aandeel_onderwerp": "26% (amendement|PRO|Volt|deal|coalitie|minderheid|kabinetscrisis|casino; beurten 0, 3, 5, 8, 9, 10, 15, 17, 19, 20, 24, 26 e.v.)",
+   "citaten": [
+    {
+     "beurt": 31,
+     "citaat": "Er ligt een amendement van PRO. Het kabinet ontraadt dat amendement … Steunt de ChristenUnie dat amendement?",
+     "naam": "Gidi Markuszower",
+     "partij": "Groep Markuszower",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-12-49/markeringen?event=interrupter2026-11-12T15%3A20%3A58%2B0100",
+     "tijd": "15:20",
+     "figuur": {
+      "id": "e423db3f-20ac-442a-a306-b3c00d4d6b6e",
+      "fractie": "Groep Markuszower",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "grijs",
+       "kapsel": "kort-scheiding",
+       "bril": "geen",
+       "baard": "stoppel",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "manga": "754f2d87-8990-4b77-8181-54d8df8fa63a"
+      }
+     }
+    },
+    {
+     "beurt": 32,
+     "citaat": "Ik heb daar een aantal zorgen over geuit en het debat is nog niet afgelopen, maar laat duidelijk zijn dat het de keuze van de VVD is hoe de VVD stemt.",
+     "naam": "Mirjam Bikker",
+     "partij": "ChristenUnie",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-12-49/markeringen?event=speaker2026-11-12T15%3A21%3A36%2B0100",
+     "tijd": "15:21",
+     "figuur": {
+      "id": "b5593cee-7c4f-4414-942b-6a8abb8c6543",
+      "fractie": "ChristenUnie",
+      "u": {
+       "gezicht": "v",
+       "haarkleur": "donkerbruin",
+       "kapsel": "half-lang",
+       "bril": "rond",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "midden",
+       "spiegel": true,
+       "manga": "b53f74bf-e57c-4e01-8d65-de2f319f44db"
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Beurt 31: weggelaten: de VVD-voorwaarde (steunt het Belastingplan niet als het amendement wordt aangenomen), 'ik heb geteld; de ChristenUnie is de beslissende stem', de instemming met Bikker en 'Ja of nee?'. Geen voorbehoud of ontkenning van de spreker zelf weggevallen; hij blijft vragen om een steun-of-niet-antwoord. Geen uitwijking.",
+    "Beurt 32: volledige eerste zin, niets weggelaten; voorbehouden ('een aantal zorgen', 'het debat is nog niet afgelopen') staan erin. Tweede en derde zin (constructieve partij, deugdelijk bestuur) weggelaten, geen voorbehoud. Geen uitwijking."
+   ]
+  }
+ },
+ "partijen_totaal": 15,
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-14",
+  "kort": "Geen moties in dit debat.",
+  "lang": "In dit debat zijn geen moties ingediend.",
+  "moties": []
+ },
+ "afloop": "In dit debat zijn geen moties ingediend.",
+ "afloop_kort": "Geen moties in dit debat."
+}

@@ -1,0 +1,151 @@
+{
+ "debat": "68113dc2-493d-417a-bf57-03a95fb4ca97-d1",
+ "kop": "Pakket Belastingplan 2027 · 12 nov 2026 · derde termijn, deel 1",
+ "vraag": "Moet het Belastingplan 2027 worden aangepast met het amendement van PRO?",
+ "vraag_bron": "Bron 3. Verzoek van Mirjam Bikker (ChristenUnie) in de regeling van 11 november 2026: 'ik stel voor dat er morgenochtend om 10.15 uur een derde termijn wordt geopend.' Reden in de regeling: Bikker (CU): 'Het lijkt me logisch dat we een derde termijn houden, omdat er waarschijnlijk een amendement volgt waarover we moeten spreken.' Krul (CDA): 'er zijn nieuwe politieke ontwikkelingen omdat er eventueel nog amendementen worden ingediend die het Belastingplan al dan niet ingrijpend veranderen.' De vraag is daarvan afgeleid; 'amendement van PRO' is de benaming van Brekelmans (VVD) in dit debat (beurt 40, 'dit amendement van PRO'); Schenk (FVD) noemt het amendement van de heer Klaver (beurt 36).",
+ "vraag_bron_soort": 3,
+ "vraag_bron_toetsing": "Bron 1 (mondelinge vraag): geen, geen vragenuur. Bron 2 (titel of doel van het wetsvoorstel, 'Moet het Belastingplan worden aangenomen?'): past niet, want deze derde termijn werd geopend vanwege het nieuwe amendement en niet voor de behandeling van het hele pakket. Bron 3 bestaat (verzoek van Bikker, meerderheid, met reden) en past; daarom bron 4 en 5 niet nodig.",
+ "versies": {
+  "a": {
+   "regel": "Langste wisseling (7 beurten, 1030 woorden) en een echte tegenstelling: de VVD stemt tegen het Belastingplan als het amendement van PRO wordt aangenomen, DENK noemt dat een crisis voor de belangen van rijken. Onderwerp (amendement, PRO, Klaver, crisis) is geen bijzaak.",
+   "wisseling": "Ruben Brekelmans (VVD) ↔ Stephan Van Baarle (DENK), beurt 11–18, 7 beurten",
+   "afgevallen": [
+    "Wisseling 2 (Teunissen PvdD ↔ Brekelmans, beurt 26–33): zelfde botsing, kleiner (11%) en vooral verwijten over eigenbelang",
+    "Wisseling 3 (Schenk FVD ↔ Brekelmans, beurt 33–40): gaat over verkiezingsbeloften en of de VVD uit het kabinet stapt, minder over het amendement zelf"
+   ],
+   "aandeel_onderwerp": "21% (amendement|PRO\\b|Klaver|crisis)",
+   "citaten": [
+    {
+     "beurt": 11,
+     "citaat": "Ik heb gezegd dat wanneer het amendement wordt aangenomen, wij tegen het Belastingplan zullen stemmen.",
+     "naam": "Ruben Brekelmans",
+     "partij": "VVD",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-12-49/markeringen?event=speaker2026-11-12T12%3A53%3A24%2B0100",
+     "tijd": "12:53",
+     "figuur": {
+      "id": "ad93f400-387d-4506-96e8-6926f478e063",
+      "fractie": "VVD",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "donkerblond",
+       "kapsel": "kort-scheiding",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": false,
+       "gezichtsvorm": "hoekig",
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-das",
+       "manga": "e5c4753f-d2d8-4a4a-ae9d-62118892a731"
+      }
+     }
+    },
+    {
+     "beurt": 12,
+     "citaat": "Als mensen in Nederland hun boodschappen niet meer kunnen betalen, is het geen crisis. … Maar nu er een bescheiden bijdrage wordt gevraagd van hele rijke mensen, van miljonairs … is dat voor de VVD een crisis.",
+     "naam": "Stephan Van Baarle",
+     "partij": "DENK",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-12-49/markeringen?event=interrupter2026-11-12T12%3A53%3A53%2B0100",
+     "tijd": "12:53",
+     "figuur": {
+      "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "fractie": "DENK",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "zwart",
+       "kapsel": "kort-kort",
+       "bril": "geen",
+       "baard": "kort",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": false
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Brekelmans (beurt 11): alleen de eerste zin; weggelaten: de verwijzing naar de partijleider (fundamentele reset) en de reactie op Wilders. Geen voorbehoud weggelaten.",
+    "Van Baarle (beurt 12): weggelaten de eerste vraag 'Wanneer is het crisis?' en de voorbeelden kachel en Gaza (boodschappen blijft staan); 'Maar nu' volgt in het origineel direct op de voorbeelden en 'van mensen die heel veel winst maken op hun vermogen', plus de slotvraag aan Brekelmans. 'bescheiden' en 'hele rijke mensen' blijven staan. Niet uitgeweken."
+   ]
+  },
+  "c": {
+   "regel": "Tweede ronde van dezelfde wisseling: Brekelmans zegt dat niet alleen miljonairs geraakt worden, Van Baarle zegt dat de VVD het land in een crisis stort en noemt het gevolg voor werkende mensen.",
+   "wisseling": "Ruben Brekelmans (VVD) ↔ Stephan Van Baarle (DENK), beurt 13–14",
+   "afgevallen": [
+    "Beurt 15–18 herhalen dezelfde argumenten (Turks-Nederlandse ondernemers, 'geen ondernemer kan het betoog volgen')"
+   ],
+   "aandeel_onderwerp": "21% (amendement|PRO\\b|Klaver|crisis)",
+   "citaten": [
+    {
+     "beurt": 13,
+     "citaat": "Niet iedere ondernemer in Nederland is een miljonair. Er zijn heel veel ondernemers die een heel normaal inkomen hebben … en die zich nu de vraag stellen wat dit voor hen betekent.",
+     "naam": "Ruben Brekelmans",
+     "partij": "VVD",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-12-49/markeringen?event=speaker2026-11-12T12%3A54%3A53%2B0100",
+     "tijd": "12:54",
+     "figuur": {
+      "id": "ad93f400-387d-4506-96e8-6926f478e063",
+      "fractie": "VVD",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "donkerblond",
+       "kapsel": "kort-scheiding",
+       "bril": "geen",
+       "baard": "geen",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": false,
+       "gezichtsvorm": "hoekig",
+       "wenkbrauw": "normaal",
+       "kleding": "colbert-das",
+       "manga": "e5c4753f-d2d8-4a4a-ae9d-62118892a731"
+      }
+     }
+    },
+    {
+     "beurt": 14,
+     "citaat": "De VVD stort dit land in een crisis. … 5 miljard van die lastenverhoging van 6 miljard bij werkende mensen terecht laten komen: dat kán niet!",
+     "naam": "Stephan Van Baarle",
+     "partij": "DENK",
+     "video": "https://debatdirect.tweedekamer.nl/2026-11-12/financien/plenaire-zaal/pakket-belastingplan-2027-3e-termijn-12-49/markeringen?event=interrupter2026-11-12T12%3A55%3A46%2B0100",
+     "tijd": "12:55",
+     "figuur": {
+      "id": "ed1edc27-18bb-47cd-a617-01bcbec765a2",
+      "fractie": "DENK",
+      "u": {
+       "gezicht": "m",
+       "haarkleur": "zwart",
+       "kapsel": "kort-kort",
+       "bril": "geen",
+       "baard": "kort",
+       "huid": "licht",
+       "leeftijd": "jong",
+       "spiegel": false
+      }
+     }
+    }
+   ],
+   "inkorten": [
+    "Brekelmans (beurt 13): weggelaten 'die bijvoorbeeld via box 2 hun belastingen afdragen' en de zinnen over investeerders en ASML; geen voorbehoud weggelaten.",
+    "Van Baarle (beurt 14): weggelaten de opsomming van eerdere debatten en de slotvraag; 'dat kán niet' blijft staan, en de lastenverhoging van 6 miljard staat in het citaat. Niet uitgeweken."
+   ]
+  }
+ },
+ "partijen_totaal": 11,
+ "afloop_data": {
+  "status": "geen_moties",
+  "stand": "2026-11-14",
+  "kort": "Geen moties in dit debat.",
+  "lang": "In dit debat zijn geen moties ingediend.",
+  "moties": []
+ },
+ "afloop": "In dit debat zijn geen moties ingediend.",
+ "afloop_kort": "Geen moties in dit debat.",
+ "lezing": {
+  "oordeel": "akkoord",
+  "bevindingen": [
+   "Geen inhoudelijke fouten. Wisseling Brekelmans (VVD) ↔ Van Baarle (DENK) is een echte tegenstelling; onderwerp zelf gemeten op 21% (amendement|PRO\\b|Klaver|crisis) en 25% met miljonair en tegen het Belastingplan erbij, dus geen bijzaak; Brekelmans (beurt 11) sprak eerst en staat bovenaan. Bron 3 klopt: verzoek Bikker (regeling 11 nov, beurt 71, meerderheid volgens Van Campen beurt 85); bron 2 terecht overgeslagen. Citaten letterlijk, geen voorbehoud weggevallen; Brekelmans herhaalt hetzelfde standpunt in beurt 8, 21 en 23. (ernst klein: de reden in vraag_bron van Bikker staat in haar eerdere beurt 36 in dezelfde regeling, niet in het verzoek zelf; inhoudelijk juist, niet gewijzigd)"
+  ]
+ }
+}
